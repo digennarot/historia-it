@@ -1,7 +1,7 @@
 {
   "id": "historia-it",
   "title": "Historia (Italiano)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": 11,
     "verified": 13
@@ -12,8 +12,8 @@
     }
   ],
   "description": "Italian translation packs for Historia (Standalone with media).",
-  "manifest": "https://raw.githubusercontent.com/digennarot/historia-it/main/module.json",
-  "download": "https://github.com/digennarot/historia-it/releases/latest/download/historia-it.zip",
+  "manifest": "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
+  "download": "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
   "packs": [
     {
       "name": "factions-and-careers-it",

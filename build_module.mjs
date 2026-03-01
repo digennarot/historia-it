@@ -281,15 +281,15 @@ async function main() {
     const module_json = {
         id: MODULE_ID,
         title: MODULE_TITLE,
-        version: "1.0.0",
+        version: "1.0.1",
         compatibility: {
             minimum: 11,
             verified: 13
         },
         authors: [{ name: "Tiziano Di Gennaro" }],
         description: "Italian translation packs for Historia (Standalone with media).",
-        manifest: "https://raw.githubusercontent.com/digennarot/historia-it/main/module.json",
-        download: "https://github.com/digennarot/historia-it/releases/latest/download/historia-it.zip",
+        manifest: "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
+        download: "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
         packs: packs,
         packFolders: [
             {

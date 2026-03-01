@@ -43,3 +43,29 @@ jobs:
           draft: false
           prerelease: false
           generateReleaseNotes: true
+          skipIfReleaseExists: true
+
+      - name: Create Release on Distribution Repo
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: 'zip-output/historia-it.zip,historia-it/module.json'
+          token: ${{ secrets.DIST_REPO_PAT }}
+          owner: digennarot
+          repo: historia-it-dist
+          name: Release ${{ steps.extract_version.outputs.VERSION }}
+          tag: v${{ steps.extract_version.outputs.VERSION }}
+          draft: false
+          prerelease: false
+          generateReleaseNotes: true
+          skipIfReleaseExists: true
+
+      - name: Update module.json in Distribution Repo Main
+        run: |
+          git clone https://x-access-token:${{ secrets.DIST_REPO_PAT }}@github.com/digennarot/historia-it-dist.git dist-repo
+          cp historia-it/module.json dist-repo/module.json
+          cd dist-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add module.json
+          git commit -m "Update module.json to v${{ steps.extract_version.outputs.VERSION }}" || echo "No changes to commit"
+          git push
