@@ -11,6 +11,18 @@ async function copyFileAndDirs(src, dest) {
     await fs.copyFile(src, dest);
 }
 
+const LABEL_TRANSLATIONS = {
+    "factions-and-careers": "Fazioni e Carriere",
+    "ventures": "Imprese",
+    "factions": "Fazioni",
+    "items": "Oggetti",
+    "species": "Specie",
+    "profession-features": "Privilegi di Professione",
+    "professions": "Professioni",
+    "species-features": "Privilegi di Specie",
+    "spells": "Incantesimi"
+};
+
 async function main() {
     await fs.mkdir("historia-it/packs", { recursive: true });
     let packs = [];
@@ -32,8 +44,14 @@ async function main() {
         }
 
         let pack_name = (orig_name.endsWith("-it") || orig_name.endsWith("_it")) ? orig_name.replace("_", "-") : `${orig_name}-it`;
-        let pack_label = meta.label || orig_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        if (!pack_label.toLowerCase().includes("it")) pack_label += " (IT)";
+
+        // Translation logic
+        let base_name = orig_name.replace("_it", "").replace("-it", "");
+        let pack_label = LABEL_TRANSLATIONS[base_name]
+            ? `${LABEL_TRANSLATIONS[base_name]} (IT)`
+            : (meta.label || `${base_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} (IT)`);
+
+        if (!pack_label.includes("(IT)")) pack_label += " (IT)";
 
         let pack_type = meta.type || data.type || "Item";
 
