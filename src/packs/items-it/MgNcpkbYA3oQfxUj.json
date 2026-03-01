@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da essere utilizzato anche in melee combattimento.</p>",
+      "value": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da essere utilizzato anche in da mischia combattimento.</p>",
       "chat": ""
     },
     "source": {
@@ -195,7 +195,7 @@
     "equipped": false,
     "rarity": "common",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": 30,
       "long": 120,
       "units": "ft",
@@ -240,7 +240,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -287,14 +287,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "value": "30",
           "units": "ft",
           "special": "",
@@ -332,7 +332,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },

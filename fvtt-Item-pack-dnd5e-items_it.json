@@ -148,14 +148,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -346,14 +346,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -522,14 +522,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -774,14 +774,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -1080,14 +1080,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -1391,14 +1391,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -1703,14 +1703,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -1991,7 +1991,7 @@
       },
       "system": {
         "description": {
-          "value": "<p>Una torcia brucia per 1 ora, fornendo luce luminosa in un raggio di 20 piedi e dim luce per un ulteriore 20 piedi. Se si effettua un attacco melee con una torcia ardente e colpito, si tratta di 1 danno fuoco.</p>",
+          "value": "<p>Una torcia brucia per 1 ora, fornendo luce luminosa in un raggio di 20 piedi e dim luce per un ulteriore 20 piedi. Se si effettua un attacco da mischia con una torcia ardente e colpito, si tratta di 1 danno fuoco.</p>",
           "chat": ""
         },
         "source": {
@@ -2081,14 +2081,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "1",
               "units": "hour",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -2125,7 +2125,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -2337,7 +2337,7 @@
           "critOther": false,
           "magicdam": false,
           "magiceffect": false,
-          "concentration": false,
+          "Concentrazione": false,
           "toggleEffect": false
         },
         "midi-qol": {
@@ -2374,7 +2374,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -2419,7 +2419,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -2467,14 +2467,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -2511,7 +2511,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -2803,7 +2803,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -2848,7 +2848,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -2895,14 +2895,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -3112,14 +3112,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -3180,9 +3180,9 @@
       "_id": "5DzlmRQWpaCcQOuA"
     },
     {
-      "name": "Dagger",
+      "name": "pugnale",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+      "img": "icons/weapons/daggers/pugnale-straight-thin-black.webp",
       "effects": [],
       "flags": {
         "core": {},
@@ -3355,7 +3355,7 @@
       },
       "system": {
         "description": {
-          "value": "<p>Una breve lama in metallo montata su un piccolo orlo e parafango. Il pugnale fa un efficace armamento laterale per guerrieri induriti o una lama nascosta per assassini e ladri.</p>\n<p><em><strong><span class=\"fontstyle0\">Incredibile.</span></strong></em><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> </p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Dagger/Stiletto.</strong></em> </span><span class=\"fontstyle2\">Ci sono versioni di queste armi, vendute ad un prezzo elevato, che nascondono la loro forma in oggetti comuni come gioielli, coltelli o utensili comuni. Se ben fatto, non saranno identificati come tali, tranne con un controllo per studiarli effettuati con uno svantaggio.</span></span></p>",
+          "value": "<p>Una breve lama in metallo montata su un piccolo orlo e parafango. Il pugnale fa un efficace armamento laterale per guerrieri induriti o una lama nascosta per assassini e ladri.</p>\n<p><em><strong><span class=\"fontstyle0\">Incredibile.</span></strong></em><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> </p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>pugnale/Stiletto.</strong></em> </span><span class=\"fontstyle2\">Ci sono versioni di queste armi, vendute ad un prezzo elevato, che nascondono la loro forma in oggetti comuni come gioielli, coltelli o utensili comuni. Se ben fatto, non saranno identificati come tali, tranne con un controllo per studiarli effettuati con uno svantaggio.</span></span></p>",
           "chat": ""
         },
         "source": {
@@ -3376,7 +3376,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -3421,7 +3421,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -3469,14 +3469,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -3514,7 +3514,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -3535,7 +3535,7 @@
             }
           }
         },
-        "identifier": "dagger",
+        "identifier": "pugnale",
         "ammunition": {},
         "crew": {
           "value": []
@@ -3686,14 +3686,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -3862,14 +3862,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -4239,7 +4239,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -4284,7 +4284,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -4331,14 +4331,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -4592,14 +4592,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -4860,7 +4860,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -4911,14 +4911,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -5161,7 +5161,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 15,
           "dex": 2,
           "magicalBonus": null
@@ -5466,14 +5466,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -5555,14 +5555,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -5837,7 +5837,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -5882,7 +5882,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -5928,14 +5928,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -5972,7 +5972,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -6313,7 +6313,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -6364,14 +6364,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -6685,7 +6685,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -6730,7 +6730,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -6777,14 +6777,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -6994,14 +6994,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -7247,7 +7247,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -7298,14 +7298,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -7608,14 +7608,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -7867,7 +7867,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -7906,7 +7906,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -7952,14 +7952,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -8155,14 +8155,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -8353,14 +8353,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -8611,7 +8611,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -8650,7 +8650,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -8696,14 +8696,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -8947,7 +8947,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 11,
           "dex": null,
           "magicalBonus": null
@@ -9193,7 +9193,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -9238,7 +9238,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -9284,14 +9284,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -9328,7 +9328,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -9566,7 +9566,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -9611,7 +9611,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -9657,14 +9657,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -9701,7 +9701,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -9873,14 +9873,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -10131,7 +10131,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -10170,7 +10170,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -10216,14 +10216,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -10539,14 +10539,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -10624,7 +10624,7 @@
     {
       "name": "Cinque.",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
+      "img": "icons/weapons/daggers/pugnale-jeweled-purple.webp",
       "effects": [],
       "flags": {
         "core": {},
@@ -10818,7 +10818,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -10863,7 +10863,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -10910,14 +10910,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -10954,7 +10954,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -11288,14 +11288,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -11358,7 +11358,7 @@
     {
       "name": "Parola di piume",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-ritual-crooked-black.webp",
+      "img": "icons/weapons/daggers/pugnale-Rituale-crooked-black.webp",
       "effects": [],
       "flags": {
         "betterRolls5e": {
@@ -11552,7 +11552,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -11597,7 +11597,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -11644,14 +11644,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -11688,7 +11688,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -11732,7 +11732,7 @@
     {
       "name": "Interruttore di lama",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-serrated-purple.webp",
+      "img": "icons/weapons/daggers/pugnale-serrated-purple.webp",
       "effects": [],
       "flags": {
         "core": {},
@@ -11905,7 +11905,7 @@
       },
       "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle0\"><em><strong>Coppia.</strong></em> </span><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per AC.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Incredibile.</strong></em> </span><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle0\">Dopo essere stato colpito dall'attacco di una creatura, al turno successivo il personaggio ha vantaggio sugli attacchi e disarmare i controlli fatti contro la stessa creatura.</span></p>",
+          "value": "<p><span class=\"fontstyle0\"><em><strong>Coppia.</strong></em> </span><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Incredibile.</strong></em> </span><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle0\">Dopo essere stato colpito dall'attacco di una creatura, al turno successivo il personaggio ha vantaggio sugli attacchi e disarmare i controlli fatti contro la stessa creatura.</span></p>",
           "chat": ""
         },
         "source": {
@@ -11926,7 +11926,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -11971,7 +11971,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -12018,14 +12018,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -12062,7 +12062,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -12433,14 +12433,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -12732,14 +12732,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -12972,9 +12972,9 @@
       "_id": "FPs0KG1i75in9Xhx"
     },
     {
-      "name": "Flail.",
+      "name": "flagello.",
       "type": "weapon",
-      "img": "icons/weapons/maces/flail-ball-grey.webp",
+      "img": "icons/weapons/maces/flagello-ball-grey.webp",
       "effects": [],
       "flags": {
         "core": {},
@@ -13168,7 +13168,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": 0,
           "units": "ft",
@@ -13213,7 +13213,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -13257,14 +13257,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -13301,7 +13301,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -13322,7 +13322,7 @@
             }
           }
         },
-        "identifier": "flail",
+        "identifier": "flagello",
         "ammunition": {},
         "crew": {
           "value": []
@@ -13738,7 +13738,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 14,
           "dex": 2,
           "magicalBonus": null
@@ -13767,7 +13767,7 @@
         "attuned": false,
         "cover": null,
         "properties": [],
-        "identifier": "lamellar-armor",
+        "identifier": "lamellar-Armatura",
         "activities": {},
         "crew": {
           "value": []
@@ -14032,7 +14032,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": 1,
           "dex": null,
           "magicalBonus": null
@@ -14083,14 +14083,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -14128,7 +14128,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -14408,7 +14408,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -14453,7 +14453,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -14499,14 +14499,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -14781,7 +14781,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -14826,7 +14826,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -14872,14 +14872,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -14916,7 +14916,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -15088,14 +15088,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -15352,7 +15352,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -15397,7 +15397,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -15444,14 +15444,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -15488,7 +15488,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -15942,14 +15942,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "6",
               "units": "hour",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -16195,14 +16195,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -16459,7 +16459,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -16504,7 +16504,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -16551,14 +16551,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -16833,7 +16833,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -16878,7 +16878,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -16924,14 +16924,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -16968,7 +16968,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -17100,7 +17100,7 @@
       },
       "system": {
         "description": {
-          "value": "<p>Queste fibre fittamente tessute sono rinforzate per l'uso in combattimento per intrappolare e impigliare anche i nemici più pericolosi, rendendoli vulnerabili per aggressione con altre armi.</p>\n<p><strong>Speciale.</strong>Una creatura grande o più piccola colpita da una rete è trattenuta fino a quando non è liberata. Una rete non ha effetto sulle creature che sono senza forma, o creature che sono enormi o più grandi. Una creatura può usare la sua azione per fare un controllo DC 10 Forza, liberarsi o un'altra creatura alla sua portata su un successo. Trattare 5 danni schizzi alla rete (AC 10) libera anche la creatura senza danneggiarla, terminando l'effetto e distruggendo la rete. Quando si utilizza un'azione, un'azione bonus o una reazione all'attacco con una rete, è possibile fare un solo attacco indipendentemente dal numero di attacchi che si può normalmente fare.</p>",
+          "value": "<p>Queste fibre fittamente tessute sono rinforzate per l'uso in combattimento per intrappolare e impigliare anche i nemici più pericolosi, rendendoli vulnerabili per aggressione con altre armi.</p>\n<p><strong>Speciale.</strong>Una creatura grande o più piccola colpita da una rete è trattenuta fino a quando non è liberata. Una rete non ha effetto sulle creature che sono senza forma, o creature che sono enormi o più grandi. Una creatura può usare la sua azione per fare un controllo DC 10 Forza, liberarsi o un'altra creatura alla sua portata su un successo. Trattare 5 danni schizzi alla rete (CA 10) libera anche la creatura senza danneggiarla, terminando l'effetto e distruggendo la rete. Quando si utilizza un'azione, un'azione bonus o una reazione all'attacco con una rete, è possibile fare un solo attacco indipendentemente dal numero di attacchi che si può normalmente fare.</p>",
           "chat": ""
         },
         "source": {
@@ -17121,7 +17121,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 5,
           "long": 15,
           "units": "ft",
@@ -17160,7 +17160,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -17207,14 +17207,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -17293,14 +17293,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -17629,14 +17629,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -17965,14 +17965,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -18277,14 +18277,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -18358,14 +18358,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -18684,7 +18684,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -18729,7 +18729,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -18777,14 +18777,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -18821,7 +18821,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -19037,7 +19037,7 @@
           "critOther": false,
           "magicdam": false,
           "magiceffect": false,
-          "concentration": false,
+          "Concentrazione": false,
           "toggleEffect": false
         },
         "midi-qol": {
@@ -19074,7 +19074,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -19119,7 +19119,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -19167,14 +19167,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -19211,7 +19211,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -19383,14 +19383,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -19629,7 +19629,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 18,
           "dex": 0,
           "magicalBonus": null
@@ -19864,7 +19864,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -19915,14 +19915,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -20117,14 +20117,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -20360,7 +20360,7 @@
       },
       "system": {
         "description": {
-          "value": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da essere utilizzato anche in melee combattimento.</p>",
+          "value": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da essere utilizzato anche in da mischia combattimento.</p>",
           "chat": ""
         },
         "source": {
@@ -20381,7 +20381,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 30,
           "long": 120,
           "units": "ft",
@@ -20426,7 +20426,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -20473,14 +20473,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "30",
               "units": "ft",
               "special": "",
@@ -20518,7 +20518,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -20744,14 +20744,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -20990,7 +20990,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 16,
           "dex": 0,
           "magicalBonus": null
@@ -21343,7 +21343,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -21388,7 +21388,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -21435,14 +21435,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -21765,14 +21765,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -22078,14 +22078,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -22370,14 +22370,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -22677,7 +22677,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -22728,14 +22728,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -23050,7 +23050,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -23095,7 +23095,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -23141,14 +23141,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -23185,7 +23185,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -23476,7 +23476,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -23521,7 +23521,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -23569,14 +23569,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -23815,14 +23815,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -24079,7 +24079,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -24124,7 +24124,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -24168,14 +24168,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -24212,7 +24212,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -24384,14 +24384,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -24651,14 +24651,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -24893,7 +24893,7 @@
       },
       "system": {
         "description": {
-          "value": "<p><em><strong><span class=\"fontstyle0\">Handy</span></strong></em><span class=\"fontstyle1\"><em><strong>.</strong></em>L'arma è considerata un'arma leggera che può essere tenuta con una mano e facendo un'azione di attacco con esso, è possibile utilizzare un'azione bonus per fare un attacco melee con un'arma leggera tenuta dall'altra parte, come combattere con due armi.</span> </p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Impatto letale.</strong></em> </span><span class=\"fontstyle0\">Un colpo critico da un'arma da fuoco infligge 1d6 livelli di esaurimento.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Malfunzionante.</strong></em> </span><span class=\"fontstyle0\">Se l'arma da fuoco è stata ricaricata in condizioni di particolare pressione o mentre in movimento, mancando il colpo successivo per colpire significa causare la polvere da sparo a esplodere male, soffrendo un livello di debolezza dalla combustione.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Polveri bagnati.</strong></em> </span><span class=\"fontstyle0\">Gunpowder può perdere la sua efficacia quando bagnato, in tempo piovoso o altre simili eventualità. Se tali opportunità si presentano e il personaggio non è stato in grado di eseguire la manutenzione, il personaggio deve fare un controllo DC 12 su Intelligence prima di fare il primo colpo. In mancanza, il colpo fallirà e la metà delle munizioni sarà rovinata<br/></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Ricarica complessa.</strong></em> </span><span class=\"fontstyle0\">La ricarica di un'arma da fuoco richiede un'azione e non fare un movimento durante il vostro turno. Spostarsi durante la ricarica o essere sotto pressione particolare può causare malfunzionamento.</span></span>Costo delle munizioni<span class=\"fontstyle0\">2 monete per colpo.</span><span class=\"fontstyle0\">Inoltre, è possibile eseguire un solo attacco</span><span class=\"fontstyle0\">con queste armi da fuoco.</span></p>",
+          "value": "<p><em><strong><span class=\"fontstyle0\">Handy</span></strong></em><span class=\"fontstyle1\"><em><strong>.</strong></em>L'arma è considerata un'arma leggera che può essere tenuta con una mano e facendo un'azione di attacco con esso, è possibile utilizzare un'azione bonus per fare un attacco da mischia con un'arma leggera tenuta dall'altra parte, come combattere con due armi.</span> </p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Impatto letale.</strong></em> </span><span class=\"fontstyle0\">Un colpo critico da un'arma da fuoco infligge 1d6 livelli di esaurimento.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Malfunzionante.</strong></em> </span><span class=\"fontstyle0\">Se l'arma da fuoco è stata ricaricata in condizioni di particolare pressione o mentre in movimento, mancando il colpo successivo per colpire significa causare la polvere da sparo a esplodere male, soffrendo un livello di debolezza dalla combustione.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Polveri bagnati.</strong></em> </span><span class=\"fontstyle0\">Gunpowder può perdere la sua efficacia quando bagnato, in tempo piovoso o altre simili eventualità. Se tali opportunità si presentano e il personaggio non è stato in grado di eseguire la manutenzione, il personaggio deve fare un controllo DC 12 su Intelligence prima di fare il primo colpo. In mancanza, il colpo fallirà e la metà delle munizioni sarà rovinata<br/></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Ricarica complessa.</strong></em> </span><span class=\"fontstyle0\">La ricarica di un'arma da fuoco richiede un'azione e non fare un movimento durante il vostro turno. Spostarsi durante la ricarica o essere sotto pressione particolare può causare malfunzionamento.</span></span>Costo delle munizioni<span class=\"fontstyle0\">2 monete per colpo.</span><span class=\"fontstyle0\">Inoltre, è possibile eseguire un solo attacco</span><span class=\"fontstyle0\">con queste armi da fuoco.</span></p>",
           "chat": ""
         },
         "source": {
@@ -24914,7 +24914,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -24959,7 +24959,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -25005,14 +25005,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -25222,14 +25222,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -25538,14 +25538,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -25801,7 +25801,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -25846,7 +25846,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -25894,14 +25894,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -26141,7 +26141,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -26192,14 +26192,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -26428,14 +26428,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -26509,14 +26509,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -26781,7 +26781,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -26826,7 +26826,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -26873,14 +26873,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -26918,7 +26918,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -27138,7 +27138,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 13,
           "dex": 2,
           "magicalBonus": null
@@ -27384,7 +27384,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -27429,7 +27429,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -27473,14 +27473,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -27517,7 +27517,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -27759,7 +27759,7 @@
       },
       "system": {
         "description": {
-          "value": "<p><em><strong><span class=\"fontstyle0\">Coppia.</span></strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per AC.</span></p>\n<p><em><strong>Speciale.</strong></em><span class=\"fontstyle0\">Dopo essere mancato dall’attacco di una creatura, i personaggi a turno successivo hanno un vantaggio sugli attacchi e sui controlli per disarmare contro la stessa creatura.</span></p>",
+          "value": "<p><em><strong><span class=\"fontstyle0\">Coppia.</span></strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>\n<p><em><strong>Speciale.</strong></em><span class=\"fontstyle0\">Dopo essere mancato dall’attacco di una creatura, i personaggi a turno successivo hanno un vantaggio sugli attacchi e sui controlli per disarmare contro la stessa creatura.</span></p>",
           "chat": ""
         },
         "source": {
@@ -27780,7 +27780,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -27825,7 +27825,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -27872,14 +27872,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -27916,7 +27916,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -27958,9 +27958,9 @@
       "_id": "YR9TJIgmkNWA23tg"
     },
     {
-      "name": "Parrying Dagger",
+      "name": "Parrying pugnale",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+      "img": "icons/weapons/daggers/pugnale-straight-thin-black.webp",
       "effects": [],
       "flags": {
         "core": {},
@@ -28158,7 +28158,7 @@
       },
       "system": {
         "description": {
-          "value": "<p><em><strong>Coppia.</strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per AC.</span></p>",
+          "value": "<p><em><strong>Coppia.</strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>",
           "chat": ""
         },
         "source": {
@@ -28179,7 +28179,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -28224,7 +28224,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -28271,14 +28271,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -28315,7 +28315,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -28336,7 +28336,7 @@
             }
           }
         },
-        "identifier": "parrying-dagger",
+        "identifier": "parrying-pugnale",
         "ammunition": {},
         "crew": {
           "value": []
@@ -28649,14 +28649,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -29021,7 +29021,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -29066,7 +29066,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -29112,14 +29112,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -29156,7 +29156,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -29414,14 +29414,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -29764,7 +29764,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -29809,7 +29809,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -29855,14 +29855,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -29899,7 +29899,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -30119,7 +30119,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 12,
           "dex": 2,
           "magicalBonus": null
@@ -30365,7 +30365,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -30410,7 +30410,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -30456,14 +30456,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -30500,7 +30500,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -30792,7 +30792,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -30837,7 +30837,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -30883,14 +30883,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -30927,7 +30927,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -31131,14 +31131,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -31444,14 +31444,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -31515,14 +31515,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -31775,14 +31775,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -32021,7 +32021,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 2,
           "dex": null,
           "magicalBonus": null
@@ -32266,7 +32266,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -32311,7 +32311,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -32357,14 +32357,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -32401,7 +32401,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -32639,7 +32639,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -32684,7 +32684,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -32730,14 +32730,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -32774,7 +32774,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -33001,7 +33001,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -33052,14 +33052,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -33309,7 +33309,7 @@
           "recovery": [],
           "spent": 0
         },
-        "armor": {
+        "Armatura": {
           "value": null,
           "dex": null,
           "magicalBonus": null
@@ -33360,14 +33360,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -33729,14 +33729,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "1",
               "units": "hour",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -33957,14 +33957,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -34504,14 +34504,14 @@
               "chatFlavor": "improvised weapon"
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -34771,14 +34771,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -35034,7 +35034,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -35079,7 +35079,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -35125,14 +35125,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -35169,7 +35169,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -35364,7 +35364,7 @@
       },
       "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Scudo aviano:</strong></em> </span><span class=\"fontstyle2\">Solo gli aviani che preferiscono il combattimento di terra usano uno scudo legato alle loro ali per difendersi dagli attacchi.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\"/></span></p>\n<p><span class=\"fontstyle0\">Il bonus AC garantito da alare si applica solo mentre l'usura aviaria non è in volo.</span></p>",
+          "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Scudo aviano:</strong></em> </span><span class=\"fontstyle2\">Solo gli aviani che preferiscono il combattimento di terra usano uno scudo legato alle loro ali per difendersi dagli attacchi.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\"/></span></p>\n<p><span class=\"fontstyle0\">Il bonus CA garantito da alare si applica solo mentre l'usura aviaria non è in volo.</span></p>",
           "chat": ""
         },
         "source": {
@@ -35390,7 +35390,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 2,
           "dex": null,
           "magicalBonus": null
@@ -35618,7 +35618,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 14,
           "dex": 2,
           "magicalBonus": null
@@ -35798,14 +35798,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -36126,7 +36126,7 @@
           "critOther": false,
           "magicdam": false,
           "magiceffect": false,
-          "concentration": false,
+          "Concentrazione": false,
           "toggleEffect": false
         },
         "midi-qol": {
@@ -36163,7 +36163,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -36208,7 +36208,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -36255,14 +36255,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -36299,7 +36299,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -36838,14 +36838,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -37156,7 +37156,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -37201,7 +37201,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -37249,14 +37249,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -37466,14 +37466,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -37784,7 +37784,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -37829,7 +37829,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -37875,14 +37875,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -37919,7 +37919,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -38069,14 +38069,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -38333,7 +38333,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -38378,7 +38378,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -38425,14 +38425,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -38470,7 +38470,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -38690,7 +38690,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 12,
           "dex": null,
           "magicalBonus": null
@@ -38848,14 +38848,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -39094,7 +39094,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 3,
           "dex": null,
           "magicalBonus": null
@@ -39480,7 +39480,7 @@
           "critOther": false,
           "magicdam": false,
           "magiceffect": false,
-          "concentration": false,
+          "Concentrazione": false,
           "toggleEffect": false
         },
         "midi-qol": {
@@ -39517,7 +39517,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -39562,7 +39562,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -39609,14 +39609,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -39653,7 +39653,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -39891,7 +39891,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -39936,7 +39936,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -39984,14 +39984,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -40028,7 +40028,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -40416,14 +40416,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "30",
               "units": "ft",
               "special": "",
@@ -40749,7 +40749,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 5,
           "long": null,
           "units": "ft",
@@ -40794,7 +40794,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -40840,14 +40840,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -40885,7 +40885,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -41289,7 +41289,7 @@
       },
       "system": {
         "description": {
-          "value": "<p>La corda, fatta di canapa o seta, ha 2 punti di successo e può essere scoppiata con un controllo DC 17 Strength.</p>",
+          "value": "<p>La corda, fatta di canapa o seta, ha 2 Punti Ferita e può essere scoppiata con un controllo DC 17 Strength.</p>",
           "chat": ""
         },
         "source": {
@@ -41373,14 +41373,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -41454,14 +41454,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -41865,7 +41865,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -41910,7 +41910,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -41958,14 +41958,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -42002,7 +42002,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -42240,7 +42240,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -42285,7 +42285,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -42333,14 +42333,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -42616,7 +42616,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -42661,7 +42661,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -42705,14 +42705,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -42749,7 +42749,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -42793,7 +42793,7 @@
     {
       "name": "Spada laterale",
       "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-straight-green.webp",
+      "img": "icons/weapons/daggers/pugnale-straight-green.webp",
       "effects": [],
       "flags": {
         "core": {},
@@ -42965,7 +42965,7 @@
           "critOther": false,
           "magicdam": false,
           "magiceffect": false,
-          "concentration": false,
+          "Concentrazione": false,
           "toggleEffect": false
         },
         "midi-qol": {
@@ -43002,7 +43002,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -43047,7 +43047,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -43093,14 +43093,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -43137,7 +43137,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -43429,14 +43429,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -43707,7 +43707,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -43752,7 +43752,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -43796,14 +43796,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -43840,7 +43840,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -43990,14 +43990,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -44191,14 +44191,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -44423,14 +44423,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "6",
               "units": "hour",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -44687,7 +44687,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -44732,7 +44732,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -44776,14 +44776,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -44820,7 +44820,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -45105,14 +45105,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "6",
               "units": "hour",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -45409,14 +45409,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -45674,7 +45674,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -45719,7 +45719,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -45767,14 +45767,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -45811,7 +45811,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -46135,7 +46135,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 25,
           "long": 60,
           "units": "ft",
@@ -46180,7 +46180,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -46226,14 +46226,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "25",
               "units": "ft",
               "special": "",
@@ -46487,14 +46487,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "1",
               "units": "minute",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "touch",
               "special": "",
               "override": false
@@ -46741,7 +46741,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 11,
           "dex": null,
           "magicalBonus": null
@@ -46943,7 +46943,7 @@
       },
       "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle0\"><em><strong>Ingombrante.</strong></em> </span><span class=\"fontstyle2\">A causa della dimensione considerevole di questo scudo, la velocità di coloro che lo utilizzano è ridotta di 5 piedi e gli effetti di ostacolo sono applicati..</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle2\">Il bonus AC concesso da uno scudo pavise è applicabile solo contro gli attacchi ranged e non può essere aggiunto ai bonus AC da copertura. Un pavise non è tenuto ma deve posto con un'azione, e una volta posizionato è in grado di stare autonomamente e di affrontare in una direzione specifica, permettendo all'utente di avere entrambe le mani libere. Per ottenere questo bonus per AC, l'utente deve rimanere dietro lo scudo del kite come se fosse una copertura ma senza godere dei suoi effetti specifici.</span> </p>",
+          "value": "<p><span class=\"fontstyle0\"><em><strong>Ingombrante.</strong></em> </span><span class=\"fontstyle2\">A causa della dimensione considerevole di questo scudo, la velocità di coloro che lo utilizzano è ridotta di 5 piedi e gli effetti di ostacolo sono applicati..</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle2\">Il bonus CA concesso da uno scudo pavise è applicabile solo contro gli attacchi ranged e non può essere aggiunto ai bonus CA da copertura. Un pavise non è tenuto ma deve posto con un'azione, e una volta posizionato è in grado di stare autonomamente e di affrontare in una direzione specifica, permettendo all'utente di avere entrambe le mani libere. Per ottenere questo bonus per CA, l'utente deve rimanere dietro lo scudo del kite come se fosse una copertura ma senza godere dei suoi effetti specifici.</span> </p>",
           "chat": ""
         },
         "source": {
@@ -46969,7 +46969,7 @@
           "spent": 0,
           "recovery": []
         },
-        "armor": {
+        "Armatura": {
           "value": 5,
           "dex": null,
           "magicalBonus": null
@@ -47149,14 +47149,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -47391,14 +47391,14 @@
               "chatFlavor": "improvised weapon"
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -47487,14 +47487,14 @@
               "chatFlavor": "improvised weapon"
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -47852,7 +47852,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": 0,
           "units": "ft",
@@ -47897,7 +47897,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -47941,14 +47941,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -47985,7 +47985,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -48247,7 +48247,7 @@
       },
       "system": {
         "description": {
-          "value": "<p>La corda, fatta di canapa o seta, ha 2 punti di successo e può essere scoppiata con un controllo DC 17 Strength.</p>",
+          "value": "<p>La corda, fatta di canapa o seta, ha 2 Punti Ferita e può essere scoppiata con un controllo DC 17 Strength.</p>",
           "chat": ""
         },
         "source": {
@@ -48331,14 +48331,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -48412,14 +48412,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false
@@ -48662,7 +48662,7 @@
           "critOther": false,
           "magicdam": false,
           "magiceffect": false,
-          "concentration": false,
+          "Concentrazione": false,
           "toggleEffect": false
         },
         "midi-qol": {
@@ -48699,7 +48699,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -48744,7 +48744,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -48792,14 +48792,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "ft",
               "special": "",
               "override": false
@@ -48836,7 +48836,7 @@
               },
               "flat": false,
               "type": {
-                "value": "melee",
+                "value": "da mischia",
                 "classification": "weapon"
               }
             },
@@ -49099,7 +49099,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "range": {
+        "a gittata": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -49144,7 +49144,7 @@
             }
           }
         },
-        "armor": {
+        "Armatura": {
           "value": 10
         },
         "hp": {
@@ -49191,14 +49191,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -49533,14 +49533,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "1",
               "units": "minute",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -49724,14 +49724,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
+              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
-            "range": {
+            "a gittata": {
               "units": "self",
               "special": "",
               "override": false

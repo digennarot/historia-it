@@ -1,7 +1,7 @@
 {
-  "name": "Dagger",
+  "name": "pugnale",
   "type": "weapon",
-  "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+  "img": "icons/weapons/daggers/pugnale-straight-thin-black.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una breve lama in metallo montata su un piccolo orlo e parafango. Il pugnale fa un efficace armamento laterale per guerrieri induriti o una lama nascosta per assassini e ladri.</p>\n<p><em><strong><span class=\"fontstyle0\">Incredibile.</span></strong></em><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> </p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Dagger/Stiletto.</strong></em> </span><span class=\"fontstyle2\">Ci sono versioni di queste armi, vendute ad un prezzo elevato, che nascondono la loro forma in oggetti comuni come gioielli, coltelli o utensili comuni. Se ben fatto, non saranno identificati come tali, tranne con un controllo per studiarli effettuati con uno svantaggio.</span></span></p>",
+      "value": "<p>Una breve lama in metallo montata su un piccolo orlo e parafango. Il pugnale fa un efficace armamento laterale per guerrieri induriti o una lama nascosta per assassini e ladri.</p>\n<p><em><strong><span class=\"fontstyle0\">Incredibile.</span></strong></em><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> </p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>pugnale/Stiletto.</strong></em> </span><span class=\"fontstyle2\">Ci sono versioni di queste armi, vendute ad un prezzo elevato, che nascondono la loro forma in oggetti comuni come gioielli, coltelli o utensili comuni. Se ben fatto, non saranno identificati come tali, tranne con un controllo per studiarli effettuati con uno svantaggio.</span></span></p>",
       "chat": ""
     },
     "source": {
@@ -195,7 +195,7 @@
     "equipped": false,
     "rarity": "common",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": 20,
       "long": 60,
       "units": "ft",
@@ -240,7 +240,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -288,14 +288,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "value": "20",
           "units": "ft",
           "special": "",
@@ -333,7 +333,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },
@@ -354,7 +354,7 @@
         }
       }
     },
-    "identifier": "dagger",
+    "identifier": "pugnale",
     "ammunition": {},
     "crew": {
       "value": []

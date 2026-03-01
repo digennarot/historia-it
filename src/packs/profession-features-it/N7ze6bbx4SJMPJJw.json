@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero più grande, è possibile imporre la vostra volontà con un solo sguardo. Spendendo un Punto di Incanto con una reazione, è possibile aggiungere il modificatore di intelligenza all'AC contro un attacco.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero più grande, è possibile imporre la vostra volontà con un solo sguardo. Spendendo un Punto di Incanto con una reazione, è possibile aggiungere il modificatore di intelligenza all'CA contro un attacco.</span></p>",
       "chat": ""
     },
     "source": {
@@ -211,14 +211,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

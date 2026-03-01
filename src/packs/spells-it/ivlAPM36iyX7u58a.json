@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "5",
       "units": "ft"
     },
@@ -48,10 +48,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "ritual",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Rituale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -117,7 +117,7 @@
     },
     "identifier": "guiding-hand",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/perception/orb-eye-scrying.webp",
   "flags": {

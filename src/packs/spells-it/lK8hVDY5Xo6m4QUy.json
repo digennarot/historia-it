@@ -176,7 +176,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "touch"
     },
     "uses": {
@@ -193,10 +193,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -220,11 +220,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -262,7 +262,7 @@
     },
     "identifier": "beast-bond",
     "method": "spell",
-    "prepared": 1
+    "Preparato": 1
   },
   "_stats": {
     "coreVersion": "13.350",

@@ -206,7 +206,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Se si afferra con successo una creatura, è possibile utilizzare la reazione per fare un attacco di morso contro quella creatura. Un attacco di morso è uno sciopero disarmato che tratta 1d4 danni piercing. Inoltre, qualsiasi creatura colpita deve fare un tiro di risparmio della Costituzione (DC 10 + il tuo bonus di competenza) o diventare avvelenato per un minuto.</p>",
+      "value": "<p>Se si afferra con successo una creatura, è possibile utilizzare la reazione per fare un attacco di morso contro quella creatura. Un attacco di morso è uno sciopero disarmato che tratta 1d4 danni piercing. Inoltre, qualsiasi creatura colpita deve fare un Tiro Salvezza della Costituzione (DC 10 + il tuo bonus di competenza) o diventare avvelenato per un minuto.</p>",
       "chat": ""
     },
     "source": {
@@ -227,7 +227,7 @@
     "equipped": true,
     "rarity": "",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": null,
       "long": null,
       "units": "spec",
@@ -272,7 +272,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -316,14 +316,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "spec",
           "special": "",
           "override": false
@@ -360,7 +360,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },
@@ -401,14 +401,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "spec",
           "special": "",
           "override": false

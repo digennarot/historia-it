@@ -7,7 +7,7 @@
       "_id": "edUoRwph4uxS1cTi",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.CA.value",
           "mode": 2,
           "value": "@abilities.int.mod",
           "priority": 20
@@ -33,7 +33,7 @@
         }
       },
       "tint": "#ffffff",
-      "name": "Bonus AC by your Intelligence Modifier",
+      "name": "Bonus CA by your Intelligence Modifier",
       "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
       "type": "base",
       "system": {},
@@ -208,7 +208,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero fondante, si impara la capacità di fare danza aria intorno a voi come si sceglie. Come azione bonus è possibile attivare la danza dell'aria, che rimane attiva per un minuto, durante il quale il vostro AC aumenta dal vostro modificatore di intelligenza e allontanandosi da una creatura non provoca attacchi di opportunità.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero fondante, si impara la capacità di fare danza aria intorno a voi come si sceglie. Come azione bonus è possibile attivare la danza dell'aria, che rimane attiva per un minuto, durante il quale il vostro CA aumenta dal vostro modificatore di intelligenza e allontanandosi da una creatura non provoca attacchi di opportunità.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -256,14 +256,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "1",
           "units": "minute",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

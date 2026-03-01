@@ -28,7 +28,7 @@
     }
   },
   "type": "spell",
-  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "img": "icons/skills/da mischia/unarmed-punch-fist-yellow-red.webp",
   "name": "Fisto di ferro",
   "system": {
     "description": {
@@ -58,7 +58,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -76,8 +76,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic"
+      "Verbale",
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -101,11 +101,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -162,7 +162,7 @@
     },
     "identifier": "fist-of-iron",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "effects": [],
   "_stats": {

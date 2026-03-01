@@ -178,7 +178,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai un pozzo limitato di resistenza che si può attingere per proteggersi dal male. A turno, è possibile utilizzare un'azione bonus per recuperare punti di successo pari a 1d10 + il livello di combattimento.</p><p>Una volta che si utilizza questa funzione, è necessario finire un breve o lungo riposo prima di poterlo utilizzare di nuovo.</p>",
+      "value": "<p>Hai un pozzo limitato di resistenza che si può attingere per proteggersi dal male. A turno, è possibile utilizzare un'azione bonus per recuperare Punti Ferita pari a 1d10 + il livello di combattimento.</p><p>Una volta che si utilizza questa funzione, è necessario finire un breve o lungo riposo prima di poterlo utilizzare di nuovo.</p>",
       "chat": ""
     },
     "source": {
@@ -241,14 +241,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

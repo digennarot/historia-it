@@ -148,7 +148,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un raggio di energia verdolino infermo si lancia verso una creatura all'interno della gamma. Fai un attacco di incantesimo a distanza contro il bersaglio. Su un colpo, il bersaglio prende 2d8 danni veleno e deve fare un tiro di risparmio Costituzione. Su un salvataggio fallito, è anche avvelenato fino alla fine del vostro turno successivo.</p>\n<p><strong>Ai livelli superiori.</strong>Quando si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, il danno aumenta di 1d8 per ogni livello di slot superiore al 1 °.</p>",
+      "value": "<p>Un raggio di energia verdolino infermo si lancia verso una creatura all'interno della gamma. Fai un attacco di incantesimo a distanza contro il bersaglio. Su un colpo, il bersaglio prende 2d8 danni veleno e deve fare un Tiro Salvezza Costituzione. Su un salvataggio fallito, è anche avvelenato fino alla fine del vostro turno successivo.</p>\n<p><strong>Ai livelli superiori.</strong>Quando si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, il danno aumenta di 1d8 per ogni livello di slot superiore al 1 °.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "60",
       "units": "ft"
     },
@@ -193,8 +193,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic"
+      "Verbale",
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -218,11 +218,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -309,11 +309,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -376,7 +376,7 @@
     },
     "identifier": "ray-of-sickness",
     "method": "spell",
-    "prepared": 2
+    "Preparato": 2
   },
   "_stats": {
     "coreVersion": "13.350",

@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal settimo livello, si conosce il valore del proprio sangue e la vita che ne deriva. Come azione è possibile utilizzare lesioni autoinflitte per aumentare i punti di successo massimo di tre alleati di 10, fino al loro prossimo breve o lungo riposo. Questa abilità può essere utilizzata di nuovo dopo aver preso un lungo riposo.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">A partire dal settimo livello, si conosce il valore del proprio sangue e la vita che ne deriva. Come azione è possibile utilizzare lesioni autoinflitte per aumentare i Punti Ferita massimo di tre alleati di 10, fino al loro prossimo breve o lungo riposo. Questa abilità può essere utilizzata di nuovo dopo aver preso un lungo riposo.</span></p>",
       "chat": ""
     },
     "source": {
@@ -232,14 +232,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

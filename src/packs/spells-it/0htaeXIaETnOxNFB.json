@@ -176,7 +176,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Guarire energia si irradia da voi in un'aura con un raggio di 30 piedi. Fino alla fine dell'incantesimo, l'aura si muove con te, concentrata su di te. È possibile utilizzare un'azione bonus per causare una creatura nell'aura (incluso tu) per recuperare 2d6 punti di successo.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Guarire energia si irradia da voi in un'aura con un raggio di 30 piedi. Fino alla fine dell'incantesimo, l'aura si muove con te, concentrata su di te. È possibile utilizzare un'azione bonus per causare una creatura nell'aura (incluso tu) per recuperare 2d6 Punti Ferita.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -204,7 +204,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -222,8 +222,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "concentration"
+      "Verbale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -247,11 +247,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -306,7 +306,7 @@
     },
     "identifier": "aura-of-vitality",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "_stats": {
     "coreVersion": "13.350",

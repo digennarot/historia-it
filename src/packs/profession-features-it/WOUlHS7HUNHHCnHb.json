@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A 13 ° livello, è possibile utilizzare un'azione per preparare i loro alleati con tattica e strategia, dando loro un certo numero di punti di successo temporanei pari al livello del vostro studioso + il vostro modifier di intelligenza. Per beneficiare di una seconda volta di questa funzione, gli alleati devono prima prendere un lungo riposo.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">A 13 ° livello, è possibile utilizzare un'azione per preparare i loro alleati con tattica e strategia, dando loro un certo numero di Punti Ferita temporanei pari al livello del vostro studioso + il vostro modifier di intelligenza. Per beneficiare di una seconda volta di questa funzione, gli alleati devono prima prendere un lungo riposo.</span></p>",
       "chat": ""
     },
     "source": {
@@ -232,14 +232,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

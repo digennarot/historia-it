@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Due creature che si possono vedere all'interno della gamma devono fare un tiro di risparmio della Costituzione, con svantaggio se sono entro 30 piedi l'uno dall'altro. Sia la creatura può fallire volentieri il salvataggio. Se o salvare riesce, l'incantesimo non ha effetto. Se entrambi salva falliscono, le creature sono magicamente legate per la durata, indipendentemente dalla distanza tra di loro. Quando si tratta di un danno a uno di loro, lo stesso danno viene trattato all'altro. Se i punti di successo vengono ripristinati a uno di essi, lo stesso numero di punti di successo vengono ripristinati all'altro. Se una delle creature tethered è ridotta a 0 punti di colpo, l'incantesimo finisce su entrambi. Se l'incantesimo finisce su una creatura, finisce su entrambi.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Due creature che si possono vedere all'interno della gamma devono fare un Tiro Salvezza della Costituzione, con svantaggio se sono entro 30 piedi l'uno dall'altro. Sia la creatura può fallire volentieri il salvataggio. Se o salvare riesce, l'incantesimo non ha effetto. Se entrambi salva falliscono, le creature sono magicamente legate per la durata, indipendentemente dalla distanza tra di loro. Quando si tratta di un danno a uno di loro, lo stesso danno viene trattato all'altro. Se i Punti Ferita vengono ripristinati a uno di essi, lo stesso numero di Punti Ferita vengono ripristinati all'altro. Se una delle creature tethered è ridotta a 0 punti di colpo, l'incantesimo finisce su entrambi. Se l'incantesimo finisce su una creatura, finisce su entrambi.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "60",
       "units": "ft"
     },
@@ -48,10 +48,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -124,7 +124,7 @@
     },
     "identifier": "tether-essence",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
   "flags": {

@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Voi chiamate gli spiriti della natura per usarli contro i vostri nemici. Scegli un punto che puoi vedere all'interno dell'intervallo. Gli spiriti causano alberi, rocce e erbe in un cubo di 60 piedi incentrato su quel punto per diventare animato fino alla fine dell'incantesimo.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"19\"> <span class=\"entry-title-inner\">Erba e sottobosco.</span></span> <p>Qualsiasi area di terreno nel cubo che è coperta da erba o sottobosco è terreno difficile per i vostri nemici.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"20\"> <span class=\"entry-title-inner\">Alberi.</span></span> <p>All'inizio di ciascuno dei vostri giri, ciascuno dei vostri nemici entro 10 piedi di qualsiasi albero nel cubo deve avere successo su un tiro di salvataggio di destrezza o prendere [[/r 4d6]] danni schizzi da rami montanti.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"21\"> <span class=\"entry-title-inner\">Radici e viti.</span></span> <p>Alla fine di ciascuno dei vostri giri, una creatura di vostra scelta che è a terra nel cubo deve avere successo su un tiro di risparmio di forza o diventare @condizione[restribuita] fino a quando l'incantesimo termina. Una creatura @condizione[restrained] può usare un'azione per fare un controllo Forza (@skill[Atletica]) contro il vostro incantesimo salvare DC, terminando l'effetto su se stesso su un successo.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"22\"> <span class=\"entry-title-inner\">Rocks.</span></span> <p>Come azione bonus sul vostro turno, si può causare una roccia sciolta nel cubo per lanciare a una creatura si può vedere nel cubo. Fai un attacco di incantesimo a distanza contro il bersaglio. Su un colpo, l'obiettivo prende [[/r 3d8]] danni offuscati non immaginari, e deve avere successo su un tiro di risparmio di forza o cadere @condizione[prone].</p><div class=\"rd__spc-inline-post\"></div></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Voi chiamate gli spiriti della natura per usarli contro i vostri nemici. Scegli un punto che puoi vedere all'interno dell'intervallo. Gli spiriti causano alberi, rocce e erbe in un cubo di 60 piedi incentrato su quel punto per diventare animato fino alla fine dell'incantesimo.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"19\"> <span class=\"entry-title-inner\">Erba e sottobosco.</span></span> <p>Qualsiasi area di terreno nel cubo che è coperta da erba o sottobosco è terreno difficile per i vostri nemici.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"20\"> <span class=\"entry-title-inner\">Alberi.</span></span> <p>All'inizio di ciascuno dei vostri giri, ciascuno dei vostri nemici entro 10 piedi di qualsiasi albero nel cubo deve avere successo su un tiro di salvataggio di destrezza o prendere [[/r 4d6]] danni schizzi da rami montanti.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"21\"> <span class=\"entry-title-inner\">Radici e viti.</span></span> <p>Alla fine di ciascuno dei vostri giri, una creatura di vostra scelta che è a terra nel cubo deve avere successo su un Tiro Salvezza di forza o diventare @condizione[restribuita] fino a quando l'incantesimo termina. Una creatura @condizione[restrained] può usare un'azione per fare un controllo Forza (@skill[Atletica]) contro il vostro incantesimo salvare DC, terminando l'effetto su se stesso su un successo.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"22\"> <span class=\"entry-title-inner\">Rocks.</span></span> <p>Come azione bonus sul vostro turno, si può causare una roccia sciolta nel cubo per lanciare a una creatura si può vedere nel cubo. Fai un attacco di incantesimo a distanza contro il bersaglio. Su un colpo, l'obiettivo prende [[/r 3d8]] danni offuscati non immaginari, e deve avere successo su un Tiro Salvezza di forza o cadere @condizione[prone].</p><div class=\"rd__spc-inline-post\"></div></div></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "120",
       "units": "ft"
     },
@@ -49,9 +49,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -166,11 +166,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -233,7 +233,7 @@
     },
     "identifier": "wrath-of-nature",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/fire/flame-burning-tree-face.webp",
   "flags": {

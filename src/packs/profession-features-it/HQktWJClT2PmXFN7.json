@@ -194,7 +194,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong>Citrinitas, 3 atti:</strong></em>Crea un elixir che, quando imbibed o amministrato, guarisce 6d8 punti di successo spendendo un colpo morire. Rimuove anche<span class=\"fontstyle0\">le condizioni ammalate, avvelenate, maledette o pietrificate.</span>Utilizzato su un oggetto rotto può riportarlo alla sua condizione originale intatta.</p>",
+      "value": "<p><em><strong>Citrinitas, 3 atti:</strong></em>Crea un elixir che, quando imbibed o amministrato, guarisce 6d8 Punti Ferita spendendo un colpo morire. Rimuove anche<span class=\"fontstyle0\">le condizioni ammalate, avvelenate, maledette o pietrificate.</span>Utilizzato su un oggetto rotto può riportarlo alla sua condizione originale intatta.</p>",
       "chat": ""
     },
     "source": {
@@ -274,14 +274,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "value": "20",
           "units": "ft",
           "special": "",

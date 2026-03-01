@@ -7,7 +7,7 @@
       "_id": "6Qd8abmdqfSMC9DD",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.CA.value",
           "mode": 2,
           "value": "1",
           "priority": 20
@@ -33,7 +33,7 @@
         }
       },
       "tint": "#ffffff",
-      "name": "Increase AC by +1",
+      "name": "Increase CA by +1",
       "img": "icons/svg/aura.svg",
       "type": "base",
       "system": {},
@@ -205,7 +205,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Il vostro pile spesso protegge da ammorbidire alcuni colpi, aumentando il vostro AC da 1.</span></p>",
+      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Il vostro pile spesso protegge da ammorbidire alcuni colpi, aumentando il vostro CA da 1.</span></p>",
       "chat": ""
     },
     "source": {
@@ -231,7 +231,7 @@
       "items": []
     },
     "properties": [],
-    "identifier": "fleece-armor",
+    "identifier": "fleece-Armatura",
     "activities": {},
     "advancement": [],
     "enchant": {}

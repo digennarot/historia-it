@@ -4,7 +4,7 @@
   "img": "icons/magic/defensive/shield-barrier-blue.webp",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Tu tocchi una creatura, imbevuta di vitalità. Se il bersaglio ha almeno 1 punto di colpo, ottiene un certo numero di punti di successo temporanei pari a [[/r 1d4] + il modificatore di abilità di incantesimo. I punti di successo temporanei vengono persi quando l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Tu tocchi una creatura, imbevuta di vitalità. Se il bersaglio ha almeno 1 punto di colpo, ottiene un certo numero di Punti Ferita temporanei pari a [[/r 1d4] + il modificatore di abilità di incantesimo. I Punti Ferita temporanei vengono persi quando l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -30,7 +30,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "touch"
     },
     "uses": {
@@ -48,8 +48,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic"
+      "Verbale",
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -73,11 +73,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -115,7 +115,7 @@
     },
     "identifier": "virtue",
     "method": "spell",
-    "prepared": 2
+    "Preparato": 2
   },
   "effects": [],
   "flags": {

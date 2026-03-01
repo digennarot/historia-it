@@ -197,7 +197,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>@Compendium[world.profession-features.WBumObWSisScufbF]{Distillatio (Nigredo, 1 atto)} + @Compendium[world.profession-features.oouGluCFWp00TSe3]{Sublimatio (Nigredo, 1 atto)} + @Compendium[world.profecsion</p>\n<p><span class=\"fontstyle0\">L'effetto crea una nuvola che rimuove il dolore e lo stress dal corpo di alleati entro 20 piedi del soggetto che utilizza la preparazione, curandoli per 3d8 punti di successo. I punti di successo guariti vengono poi trasmessi ad un bersaglio entro 30 piedi dall'alchimista, che deve fare un tiro di risparmio della Costituzione. In caso di guasto, l'obiettivo prende danni pari ai punti di successo totali guariti tra tutti gli obiettivi di Focus il Dolore.</span></p>",
+      "value": "<p>@Compendium[world.profession-features.WBumObWSisScufbF]{Distillatio (Nigredo, 1 atto)} + @Compendium[world.profession-features.oouGluCFWp00TSe3]{Sublimatio (Nigredo, 1 atto)} + @Compendium[world.profecsion</p>\n<p><span class=\"fontstyle0\">L'effetto crea una nuvola che rimuove il dolore e lo stress dal corpo di alleati entro 20 piedi del soggetto che utilizza la preparazione, curandoli per 3d8 Punti Ferita. I Punti Ferita guariti vengono poi trasmessi ad un bersaglio entro 30 piedi dall'alchimista, che deve fare un Tiro Salvezza della Costituzione. In caso di guasto, l'obiettivo prende danni pari ai Punti Ferita totali guariti tra tutti gli obiettivi di Focus il Dolore.</span></p>",
       "chat": ""
     },
     "source": {
@@ -277,14 +277,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

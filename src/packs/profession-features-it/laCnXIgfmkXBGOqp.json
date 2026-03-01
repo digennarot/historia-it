@@ -7,7 +7,7 @@
       "_id": "1UXTape8LgUDLAHU",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.CA.value",
           "mode": 2,
           "value": "3",
           "priority": 20
@@ -33,8 +33,8 @@
         }
       },
       "tint": "#ffffff",
-      "name": "Bonus +3 AC",
-      "img": "Wynther%27s%20Files/Dungeons%20and%20Dragons/Icons2/Icons/armor-proficiency-light.webp",
+      "name": "Bonus +3 CA",
+      "img": "Wynther%27s%20Files/Dungeons%20and%20Dragons/Icons2/Icons/Armatura-proficiency-light.webp",
       "type": "base",
       "system": {},
       "description": "",
@@ -239,7 +239,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>@Compendium[world.profession-featuression.WBumObWSisScufbF]{Distillatio (Nigredo, 1 atto)} + @Compendium[world.profession-features.UwqXI31n3TfqcrAg]{Calcinatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">Oltre agli effetti dei due atti, per il minuto successivo il bersaglio riceve 8 punti di successo temporanei all'inizio del suo turno.</span></p>",
+      "value": "<p>@Compendium[world.profession-featuression.WBumObWSisScufbF]{Distillatio (Nigredo, 1 atto)} + @Compendium[world.profession-features.UwqXI31n3TfqcrAg]{Calcinatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">Oltre agli effetti dei due atti, per il minuto successivo il bersaglio riceve 8 Punti Ferita temporanei all'inizio del suo turno.</span></p>",
       "chat": ""
     },
     "source": {
@@ -319,14 +319,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

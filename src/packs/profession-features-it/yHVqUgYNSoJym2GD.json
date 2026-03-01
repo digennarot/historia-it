@@ -1,7 +1,7 @@
 {
   "name": "Attacco Sneak",
   "type": "feat",
-  "img": "icons/skills/melee/strike-dagger-arcane-pink.webp",
+  "img": "icons/skills/da mischia/strike-pugnale-arcane-pink.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -228,14 +228,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

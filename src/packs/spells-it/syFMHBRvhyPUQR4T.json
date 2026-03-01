@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si afferra l'aria e lo costringe a creare uno dei seguenti effetti a un punto si può vedere all'interno della gamma:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Una creatura media o più piccola che si sceglie deve avere successo su un tiro di risparmio di forza o essere spinto fino a 5 piedi lontano da voi.</li><li class=\"rd__li\">Si crea una piccola esplosione d'aria in grado di spostare un oggetto che non è né tenuto né trasportato e che pesa non più di 5 libbre. L'oggetto è spinto fino a 10 piedi lontano da voi. Non e' spinta con abbastanza forza per causare danni.</li><li class=\"rd__li\">Si crea un effetto sensoriale innocuo utilizzando l'aria, come causando foglie a ruggine, vento per sbattere le persiane chiuse, o il vostro abbigliamento per increspare in una brezza.</li></ul></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si afferra l'aria e lo costringe a creare uno dei seguenti effetti a un punto si può vedere all'interno della gamma:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Una creatura media o più piccola che si sceglie deve avere successo su un Tiro Salvezza di forza o essere spinto fino a 5 piedi lontano da voi.</li><li class=\"rd__li\">Si crea una piccola esplosione d'aria in grado di spostare un oggetto che non è né tenuto né trasportato e che pesa non più di 5 libbre. L'oggetto è spinto fino a 10 piedi lontano da voi. Non e' spinta con abbastanza forza per causare danni.</li><li class=\"rd__li\">Si crea un effetto sensoriale innocuo utilizzando l'aria, come causando foglie a ruggine, vento per sbattere le persiane chiuse, o il vostro abbigliamento per increspare in una brezza.</li></ul></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -50,8 +50,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic"
+      "Verbale",
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -124,7 +124,7 @@
     },
     "identifier": "gust",
     "method": "spell",
-    "prepared": 2
+    "Preparato": 2
   },
   "img": "icons/magic/air/wind-stream-blue-gray.webp",
   "flags": {

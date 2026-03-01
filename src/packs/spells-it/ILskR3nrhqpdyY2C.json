@@ -27,7 +27,7 @@
   "name": "Shiver",
   "system": {
     "description": {
-      "value": "<p><em><strong>Deep Magic:</strong>inverno</em><br/>Riempi una creatura umanoide con un tale freddo che i suoi denti iniziano a chiacchierare e il suo corpo scuote incontrollabilmente. Rotolo 5d8; il totale è il massimo dei punti di colpo di una creatura che questo incantesimo può influenzare. La creatura colpita deve riuscire su un lancio di risparmio della Costituzione, o non può lanciare un incantesimo o caricare un'arma missilistica fino alla fine del vostro turno successivo. Una volta che una creatura è stata colpita da questo incantesimo, è immune a ulteriori getti di questo incantesimo per 24 ore.<br/>I punti di successo massimi che si possono influenzare aumenta di 4d8 quando si raggiunge il 5 ° livello (9d8), 11 ° livello (13d8) e 17 ° livello (17d8).</p>",
+      "value": "<p><em><strong>Deep Magic:</strong>inverno</em><br/>Riempi una creatura umanoide con un tale freddo che i suoi denti iniziano a chiacchierare e il suo corpo scuote incontrollabilmente. Rotolo 5d8; il totale è il massimo dei punti di colpo di una creatura che questo incantesimo può influenzare. La creatura colpita deve riuscire su un lancio di risparmio della Costituzione, o non può lanciare un incantesimo o caricare un'arma missilistica fino alla fine del vostro turno successivo. Una volta che una creatura è stata colpita da questo incantesimo, è immune a ulteriori getti di questo incantesimo per 24 ore.<br/>I Punti Ferita massimi che si possono influenzare aumenta di 4d8 quando si raggiunge il 5 ° livello (9d8), 11 ° livello (13d8) e 17 ° livello (17d8).</p>",
       "chat": ""
     },
     "source": {
@@ -55,7 +55,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -74,9 +74,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material"
+      "Verbale",
+      "Somatica",
+      "Materiale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -100,11 +100,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -149,7 +149,7 @@
     },
     "identifier": "shiver",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "effects": [],
   "_stats": {

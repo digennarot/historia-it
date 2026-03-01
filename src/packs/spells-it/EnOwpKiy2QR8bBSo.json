@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una rift planare a forma di lama lunga circa 3 piedi in uno spazio non occupato si può vedere all'interno della gamma. La lama dura per tutta la durata. Quando si lancia questo incantesimo, è possibile effettuare fino a due attacchi di incantesimo melee con la lama, ciascuno contro una creatura, oggetto sciolto, o la struttura entro 5 piedi della lama. Su un colpo, l'obiettivo prende [[/r 4d12] danno forza. Questo attacco segna un colpo critico se il numero sul [[/r d20]] è 18 o superiore. Su un colpo critico, la lama tratta un ulteriore [[/r 8d12]] danno forza (per un totale di [[/r 12d12] danno forza).</p><div class=\"rd__spc-inline-post\"></div><p>Come azione bonus sul vostro turno, è possibile spostare la lama fino a 30 piedi per uno spazio non occupato si può vedere e poi fare fino a due melee incantesimo attacchi con esso di nuovo.</p><p>La lama può innocuamente passare attraverso qualsiasi barriera, tra cui un @spell[parete di forza].</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una rift planare a forma di lama lunga circa 3 piedi in uno spazio non occupato si può vedere all'interno della gamma. La lama dura per tutta la durata. Quando si lancia questo incantesimo, è possibile effettuare fino a due attacchi di incantesimo da mischia con la lama, ciascuno contro una creatura, oggetto sciolto, o la struttura entro 5 piedi della lama. Su un colpo, l'obiettivo prende [[/r 4d12] danno forza. Questo attacco segna un colpo critico se il numero sul [[/r d20]] è 18 o superiore. Su un colpo critico, la lama tratta un ulteriore [[/r 8d12]] danno forza (per un totale di [[/r 12d12] danno forza).</p><div class=\"rd__spc-inline-post\"></div><p>Come azione bonus sul vostro turno, è possibile spostare la lama fino a 30 piedi per uno spazio non occupato si può vedere e poi fare fino a due da mischia incantesimo attacchi con esso di nuovo.</p><p>La lama può innocuamente passare attraverso qualsiasi barriera, tra cui un @spell[parete di forza].</p></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "60",
       "units": "ft"
     },
@@ -48,9 +48,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -74,11 +74,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -106,7 +106,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "spell"
           }
         },
@@ -181,9 +181,9 @@
     },
     "identifier": "blade-of-disaster",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
-  "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+  "img": "icons/skills/da mischia/strike-pugnale-white-orange.webp",
   "flags": {
     "plutonium": {
       "page": "spells.html",

@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "0",
       "units": "self"
     },
@@ -49,10 +49,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -76,11 +76,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -118,7 +118,7 @@
     },
     "identifier": "invulnerability",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/equipment/shield/heater-crystal-blue.webp",
   "flags": {

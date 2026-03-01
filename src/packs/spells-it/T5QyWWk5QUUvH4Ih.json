@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si tocca il terreno e si evoca una struttura difensiva fatta di enormi carte da gioco. La struttura sorge con voi al suo centro, sollevando innocuamente voi e tutte le creature della zona. La casa di carte ha una base quadrata che è di 30 piedi su ogni lato, e ha tre piani con 10 piedi-alto soffitti. Il secondo piano è di 20 piedi su ogni lato, e il piano superiore è di 10 piedi su ogni lato, entrambi centrati sopra il piano inferiore. Le lampade collegano l'interno di ogni piano, e i portaframe vuoti collegano l'interno e l'esterno di ogni livello. Le creature all'interno o sulla parte superiore della struttura hanno mezza copertura.</p><div class=\"rd__spc-inline-post\"></div><p>Ogni carta che comprende la casa è larga 5 piedi ed alta 10 piedi ed è molto fragile. Una carta ha AC 10 e 1 punto di colpo. Le carte sono immuni al veleno e ai danni psichici. Ridurre una carta a 0 punti di colpo lo distrugge. Ogni volta che una carta viene distrutta, rotolare [[/r 1d6]. Se si rotola un 5 o un 6, la casa crolla, termina l'incantesimo.</p><p>La casa e tutte le sue carte scompaiono quando l'incantesimo finisce.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si tocca il terreno e si evoca una struttura difensiva fatta di enormi carte da gioco. La struttura sorge con voi al suo centro, sollevando innocuamente voi e tutte le creature della zona. La casa di carte ha una base quadrata che è di 30 piedi su ogni lato, e ha tre piani con 10 piedi-alto soffitti. Il secondo piano è di 20 piedi su ogni lato, e il piano superiore è di 10 piedi su ogni lato, entrambi centrati sopra il piano inferiore. Le lampade collegano l'interno di ogni piano, e i portaframe vuoti collegano l'interno e l'esterno di ogni livello. Le creature all'interno o sulla parte superiore della struttura hanno mezza copertura.</p><div class=\"rd__spc-inline-post\"></div><p>Ogni carta che comprende la casa è larga 5 piedi ed alta 10 piedi ed è molto fragile. Una carta ha CA 10 e 1 punto di colpo. Le carte sono immuni al veleno e ai danni psichici. Ridurre una carta a 0 punti di colpo lo distrugge. Ogni volta che una carta viene distrutta, rotolare [[/r 1d6]. Se si rotola un 5 o un 6, la casa crolla, termina l'incantesimo.</p><p>La casa e tutte le sue carte scompaiono quando l'incantesimo finisce.</p></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "touch"
     },
     "uses": {
@@ -47,9 +47,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material"
+      "Verbale",
+      "Somatica",
+      "Materiale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -73,11 +73,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -115,7 +115,7 @@
     },
     "identifier": "house-of-cards",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/environment/settlement/columned-forum.webp",
   "flags": {

@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -49,9 +49,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material"
+      "Verbale",
+      "Somatica",
+      "Materiale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -142,7 +142,7 @@
     },
     "identifier": "spray-of-cards",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/unholy/projectile-bolts-salvo-pink.webp",
   "flags": {

@@ -194,7 +194,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal secondo livello, è possibile utilizzare la Divinità del Canale per guarire coloro che sono stati gravemente feriti.<br/></span></p>\n<p><span class=\"fontstyle0\">Con una sola azione, è possibile attivare il loro simbolo sacro ed evocare un flusso di energia curativa che può ripristinare un certo numero di punti di successo pari a cinque volte i livelli del vostro sacerdote. Si sceglie qualsiasi creatura desiderata se si trovano entro 30 piedi da voi e dividere questa quantità di punti di successo tra di loro. In questo modo, una creatura può recuperare una quantità di punti di successo di non più della metà dei suoi punti di massimo successo. Il GM potrebbe limitare l'uso di questa capacità sulle creature che potrebbero non essere vive...</span></p>",
+      "value": "<p><span class=\"fontstyle0\">A partire dal secondo livello, è possibile utilizzare la Divinità del Canale per guarire coloro che sono stati gravemente feriti.<br/></span></p>\n<p><span class=\"fontstyle0\">Con una sola azione, è possibile attivare il loro simbolo sacro ed evocare un flusso di energia curativa che può ripristinare un certo numero di Punti Ferita pari a cinque volte i livelli del vostro sacerdote. Si sceglie qualsiasi creatura desiderata se si trovano entro 30 piedi da voi e dividere questa quantità di Punti Ferita tra di loro. In questo modo, una creatura può recuperare una quantità di Punti Ferita di non più della metà dei suoi punti di massimo successo. Il GM potrebbe limitare l'uso di questa capacità sulle creature che potrebbero non essere vive...</span></p>",
       "chat": ""
     },
     "source": {
@@ -242,14 +242,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

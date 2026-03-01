@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -42,14 +42,14 @@
     "level": 5,
     "school": "con",
     "materials": {
-      "value": "a melee weapon worth at least 1 sp",
+      "value": "a da mischia weapon worth at least 1 sp",
       "consumed": false,
       "cost": 0,
       "supply": 0
     },
     "properties": [
-      "somatic",
-      "material"
+      "Somatica",
+      "Materiale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -73,11 +73,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -105,7 +105,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "spell"
           }
         },
@@ -146,9 +146,9 @@
     },
     "identifier": "steel-wind-strike",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
-  "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+  "img": "icons/skills/da mischia/maneuver-daggers-paired-orange.webp",
   "flags": {
     "plutonium": {
       "page": "spells.html",

@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Fino alla fine dell'incantesimo, il ghiaccio rimescola il tuo corpo e ottieni i seguenti vantaggi:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Sei immune ai danni freddi e hai resistenza ai danni da fuoco.</li><li class=\"rd__li\">Si può muoversi attraverso il terreno difficile creato da ghiaccio o neve senza spendere movimento extra.</li><li class=\"rd__li\">Il terreno in un raggio di 10 piedi intorno a voi è ghiacciato ed è terreno difficile per creature diverse da voi. Il raggio si muove con te.</li><li class=\"rd__li\">È possibile utilizzare la vostra azione per creare un cono di 15 piedi di congelamento vento che si estende dalla vostra mano outstretched in una direzione che si sceglie. Ogni creatura nel cono deve fare un tiro di risparmio della Costituzione. Una creatura prende [[/r 4d6] danni freddi su un salvataggio fallito, o la metà di danni su uno di successo. Una creatura che fallisce il suo salvataggio contro questo effetto ha la sua velocità dimezzata fino all'inizio del vostro prossimo turno.</li></ul></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Fino alla fine dell'incantesimo, il ghiaccio rimescola il tuo corpo e ottieni i seguenti vantaggi:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Sei immune ai danni freddi e hai resistenza ai danni da fuoco.</li><li class=\"rd__li\">Si può muoversi attraverso il terreno difficile creato da ghiaccio o neve senza spendere movimento extra.</li><li class=\"rd__li\">Il terreno in un raggio di 10 piedi intorno a voi è ghiacciato ed è terreno difficile per creature diverse da voi. Il raggio si muove con te.</li><li class=\"rd__li\">È possibile utilizzare la vostra azione per creare un cono di 15 piedi di congelamento vento che si estende dalla vostra mano outstretched in una direzione che si sceglie. Ogni creatura nel cono deve fare un Tiro Salvezza della Costituzione. Una creatura prende [[/r 4d6] danni freddi su un salvataggio fallito, o la metà di danni su uno di successo. Una creatura che fallisce il suo salvataggio contro questo effetto ha la sua velocità dimezzata fino all'inizio del vostro prossimo turno.</li></ul></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "0",
       "units": "self"
     },
@@ -49,9 +49,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -142,7 +142,7 @@
     },
     "identifier": "investiture-of-ice",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/water/elemental-water.webp",
   "flags": {

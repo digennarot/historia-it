@@ -1,7 +1,7 @@
 {
-  "name": "Flail.",
+  "name": "flagello.",
   "type": "weapon",
-  "img": "icons/weapons/maces/flail-ball-grey.webp",
+  "img": "icons/weapons/maces/flagello-ball-grey.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -195,7 +195,7 @@
     "equipped": false,
     "rarity": "common",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": null,
       "long": 0,
       "units": "ft",
@@ -240,7 +240,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -284,14 +284,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "ft",
           "special": "",
           "override": false
@@ -328,7 +328,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },
@@ -349,7 +349,7 @@
         }
       }
     },
-    "identifier": "flail",
+    "identifier": "flagello",
     "ammunition": {},
     "crew": {
       "value": []

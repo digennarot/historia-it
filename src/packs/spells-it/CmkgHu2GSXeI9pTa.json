@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -48,8 +48,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic"
+      "Verbale",
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -73,11 +73,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -122,7 +122,7 @@
     },
     "identifier": "charm-monster",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
   "flags": {

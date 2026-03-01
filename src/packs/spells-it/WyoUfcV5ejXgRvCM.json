@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si coniuga una sfera d'acqua con un raggio di 5 piedi ad un punto si può vedere all'interno della gamma. La sfera può saltare ma non più di 10 piedi dal terreno. La sfera rimane per la durata dell'incantesimo.</p><div class=\"rd__spc-inline-post\"></div><p>Qualsiasi creatura nello spazio della sfera deve fare un tiro di risparmio di forza. Su un salvataggio di successo, una creatura viene espulsa da quello spazio allo spazio non occupato più vicino della scelta della creatura al di fuori della sfera. Una creatura enorme o più grande riesce nel lancio di salvataggio automaticamente, e una creatura grande o più piccola può scegliere di fallire. Su un salvataggio fallito, una creatura è @condizione[restribuita] dalla sfera ed è inghiottita dall'acqua. Alla fine di ciascuno dei suoi giri, un obiettivo @condizione[restribuita] può ripetere il lancio di risparmio, terminando l'effetto su se stesso su un successo.</p><p>La sfera può frenare fino a quattro creature medie o più piccole o una grande creatura. Se la sfera frena una creatura che lo fa superare questa capacità, una creatura casuale che era già @condizione[restribuita] dalla sfera cade da esso e atterra @condizione[prone] in uno spazio entro 5 piedi di esso.</p><p>Come azione, è possibile spostare la sfera fino a 30 piedi in una linea retta. Se si muove sopra una fossa, una scogliera, o altro drop-off, scende in modo sicuro fino a quando si sta accumulando 10 piedi sopra il terreno. Qualsiasi creatura @condizione[restribuita] dalla sfera si muove con esso. Si può ram la sfera in creature, costringendoli a fare il tiro salvifico.</p><p>Quando l'incantesimo finisce, la sfera cade a terra ed estingue tutte le normali fiamme entro 30 piedi di esso. Qualsiasi creatura @condizione[restribuita] dalla sfera è bussato @condizione[prone] nello spazio in cui cade. L'acqua scompare.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si coniuga una sfera d'acqua con un raggio di 5 piedi ad un punto si può vedere all'interno della gamma. La sfera può saltare ma non più di 10 piedi dal terreno. La sfera rimane per la durata dell'incantesimo.</p><div class=\"rd__spc-inline-post\"></div><p>Qualsiasi creatura nello spazio della sfera deve fare un Tiro Salvezza di forza. Su un salvataggio di successo, una creatura viene espulsa da quello spazio allo spazio non occupato più vicino della scelta della creatura al di fuori della sfera. Una creatura enorme o più grande riesce nel lancio di salvataggio automaticamente, e una creatura grande o più piccola può scegliere di fallire. Su un salvataggio fallito, una creatura è @condizione[restribuita] dalla sfera ed è inghiottita dall'acqua. Alla fine di ciascuno dei suoi giri, un obiettivo @condizione[restribuita] può ripetere il lancio di risparmio, terminando l'effetto su se stesso su un successo.</p><p>La sfera può frenare fino a quattro creature medie o più piccole o una grande creatura. Se la sfera frena una creatura che lo fa superare questa capacità, una creatura casuale che era già @condizione[restribuita] dalla sfera cade da esso e atterra @condizione[prone] in uno spazio entro 5 piedi di esso.</p><p>Come azione, è possibile spostare la sfera fino a 30 piedi in una linea retta. Se si muove sopra una fossa, una scogliera, o altro drop-off, scende in modo sicuro fino a quando si sta accumulando 10 piedi sopra il terreno. Qualsiasi creatura @condizione[restribuita] dalla sfera si muove con esso. Si può ram la sfera in creature, costringendoli a fare il tiro salvifico.</p><p>Quando l'incantesimo finisce, la sfera cade a terra ed estingue tutte le normali fiamme entro 30 piedi di esso. Qualsiasi creatura @condizione[restribuita] dalla sfera è bussato @condizione[prone] nello spazio in cui cade. L'acqua scompare.</p></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "90",
       "units": "ft"
     },
@@ -49,10 +49,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -76,11 +76,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -125,7 +125,7 @@
     },
     "identifier": "watery-sphere",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/commodities/materials/glass-orb-teal.webp",
   "flags": {

@@ -189,7 +189,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al secondo livello, è possibile utilizzare la Divinità del Canale per esprimere una frase di pura verità. Con un'azione, si può wield il vostro simbolo sacro e ogni nemico della vostra fede entro 30 piedi vi percepisce come una forza soprannaturale. Inoltre, ogni creatura ostile entro 30 piedi deve fare un tiro di risparmio della Costituzione. Se la creatura fallisce, ci vogliono 2d10 + il livello di tuono del tuo sacerdote, mentre se ha successo ci vuole solo la metà del danno.<br/></span></p>\n<p><span class=\"fontstyle0\">Una creatura difesa o una in un'area di magico silenzio percepisce ancora le vostre parole e ignora l'immunità ai danni del tuono.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Al secondo livello, è possibile utilizzare la Divinità del Canale per esprimere una frase di pura verità. Con un'azione, si può wield il vostro simbolo sacro e ogni nemico della vostra fede entro 30 piedi vi percepisce come una forza soprannaturale. Inoltre, ogni creatura ostile entro 30 piedi deve fare un Tiro Salvezza della Costituzione. Se la creatura fallisce, ci vogliono 2d10 + il livello di tuono del tuo sacerdote, mentre se ha successo ci vuole solo la metà del danno.<br/></span></p>\n<p><span class=\"fontstyle0\">Una creatura difesa o una in un'area di magico silenzio percepisce ancora le vostre parole e ignora l'immunità ai danni del tuono.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -237,14 +237,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

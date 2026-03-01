@@ -1,7 +1,7 @@
 {
   "name": "Stile di combattimento: Duellante",
   "type": "feat",
-  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "img": "icons/skills/da mischia/hand-grip-sword-orange.webp",
   "effects": [
     {
       "_id": "B5KM6oYsKC7vRMgG",
@@ -28,7 +28,7 @@
       "tint": "#ffffff",
       "transfer": true,
       "name": "Fighting Style: Dueling",
-      "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+      "img": "icons/skills/da mischia/hand-grip-sword-orange.webp",
       "type": "base",
       "system": {},
       "description": "",
@@ -196,7 +196,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando si sta bloccando un'arma melee in una mano e nessun'altra armi, si ottiene un +2 bonus per danneggiare rotoli con quell'arma.</p>",
+      "value": "<p>Quando si sta bloccando un'arma da mischia in una mano e nessun'altra armi, si ottiene un +2 bonus per danneggiare rotoli con quell'arma.</p>",
       "chat": ""
     },
     "source": {

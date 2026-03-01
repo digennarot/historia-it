@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco di arma prima che questo incantesimo finisca, una massa di vigna spinosa appare al punto di impatto, e l'obiettivo deve avere successo su un tiro di risparmio di forza o essere @condizione[restribuita] dalle viti magiche fino alla fine dell'incantesimo. Una creatura grande o più grande ha vantaggio su questo lancio di risparmio. Se il bersaglio riesce a salvare, le viti si allontanano.</p><div class=\"rd__spc-inline-post\"></div><p>Mentre @condizione[restribuita] da questo incantesimo, l'obiettivo prende [[/r 1d6]] danni di perforazione all'inizio di ciascuno dei suoi giri. Una creatura @condizione[restrained] dalle viti o uno che può toccare la creatura può usare la sua azione per fare un controllo di forza contro il vostro incantesimo salvare DC. Su un successo, l'obiettivo è liberato.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Se si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, il danno aumenta di [[/r 1d6] per ogni livello di slot superiore al 1 °.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco di arma prima che questo incantesimo finisca, una massa di vigna spinosa appare al punto di impatto, e l'obiettivo deve avere successo su un Tiro Salvezza di forza o essere @condizione[restribuita] dalle viti magiche fino alla fine dell'incantesimo. Una creatura grande o più grande ha vantaggio su questo lancio di risparmio. Se il bersaglio riesce a salvare, le viti si allontanano.</p><div class=\"rd__spc-inline-post\"></div><p>Mentre @condizione[restribuita] da questo incantesimo, l'obiettivo prende [[/r 1d6]] danni di perforazione all'inizio di ciascuno dei suoi giri. Una creatura @condizione[restrained] dalle viti o uno che può toccare la creatura può usare la sua azione per fare un controllo di forza contro il vostro incantesimo salvare DC. Su un successo, l'obiettivo è liberato.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Se si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, il danno aumenta di [[/r 1d6] per ogni livello di slot superiore al 1 °.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -49,8 +49,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "concentration"
+      "Verbale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -74,11 +74,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -141,7 +141,7 @@
     },
     "identifier": "ensnaring-strike",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/nature/root-vine-hand-strike.webp",
   "flags": {

@@ -259,7 +259,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi usare il tuo morso come arma naturale per fare uno sciopero disarmato. Se lo colpisce infligge 1+ il modificatore della Costituzione del danno di piercing, a differenza del normale danno offuscato di uno sciopero disarmato. Inoltre, si recupera una quantità di punti di successo pari al danno fatto con il morso.</p>",
+      "value": "<p>Puoi usare il tuo morso come arma naturale per fare uno sciopero disarmato. Se lo colpisce infligge 1+ il modificatore della Costituzione del danno di piercing, a differenza del normale danno offuscato di uno sciopero disarmato. Inoltre, si recupera una quantità di Punti Ferita pari al danno fatto con il morso.</p>",
       "chat": ""
     },
     "source": {
@@ -280,7 +280,7 @@
     "equipped": true,
     "rarity": "",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": 5,
       "long": null,
       "units": "ft",
@@ -325,7 +325,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -369,14 +369,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "value": "5",
           "units": "ft",
           "special": "",
@@ -414,7 +414,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },

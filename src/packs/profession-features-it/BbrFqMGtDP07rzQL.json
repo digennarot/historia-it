@@ -197,7 +197,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong>Albedo, 2 atti:</strong></em>crea un potente veleno di contatto: attraverso un colpo d'arma ranged, il bersaglio prende 5d6 danni necrotici<span class=\"fontstyle0\">e l'obiettivo deve fare un tiro di risparmio della Costituzione. In caso di fallimento, sono avvelenati per un minuto.</span></p>",
+      "value": "<p><em><strong>Albedo, 2 atti:</strong></em>crea un potente veleno di contatto: attraverso un colpo d'arma ranged, il bersaglio prende 5d6 danni necrotici<span class=\"fontstyle0\">e l'obiettivo deve fare un Tiro Salvezza della Costituzione. In caso di fallimento, sono avvelenati per un minuto.</span></p>",
       "chat": ""
     },
     "source": {
@@ -277,14 +277,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "1",
           "units": "minute",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "value": "20",
           "units": "ft",
           "special": "",
@@ -363,14 +363,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "1",
           "units": "minute",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "value": "20",
           "units": "ft",
           "special": "",

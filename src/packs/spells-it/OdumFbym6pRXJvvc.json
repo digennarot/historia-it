@@ -1,7 +1,7 @@
 {
   "name": "Duello aggiunto",
   "type": "spell",
-  "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+  "img": "icons/skills/da mischia/weapons-crossed-swords-purple.webp",
   "effects": [],
   "flags": {
     "autoanimations": {
@@ -168,7 +168,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Cerchi di costringere una creatura a duello. Una creatura che si può vedere all'interno della gamma deve fare un tiro di salvataggio della Saggezza. Su un salvataggio fallito, la creatura è attirata da voi, costretta dalla vostra divina richiesta. Per tutta la durata, ha svantaggio sui rotoli di attacco contro creature diverse da te, e deve fare un getto di salvataggio della Saggezza ogni volta che tenta di muoversi in uno spazio che è più di 30 piedi lontano da te; se riesce a questo tiro di risparmio, questo incantesimo non limita il movimento del bersaglio per quel turno.</p>\n<p><span class=\"fontstyle0\">L'incantesimo termina se si attacca qualsiasi altra creatura, se si lancia un incantesimo che mira una creatura ostile diverso dal bersaglio, se una creatura amichevole a voi danneggia il bersaglio o lancia un incantesimo dannoso su di esso, o se si finisce il vostro turno più di 30 piedi lontano dal bersaglio.</span></p>",
+      "value": "<p>Cerchi di costringere una creatura a duello. Una creatura che si può vedere all'interno della gamma deve fare un tiro di salvataggio della Saggezza. Su un salvataggio fallito, la creatura è attirata da voi, costretta dalla vostra divina richiesta. Per tutta la durata, ha svantaggio sui rotoli di attacco contro creature diverse da te, e deve fare un getto di salvataggio della Saggezza ogni volta che tenta di muoversi in uno spazio che è più di 30 piedi lontano da te; se riesce a questo Tiro Salvezza, questo incantesimo non limita il movimento del bersaglio per quel turno.</p>\n<p><span class=\"fontstyle0\">L'incantesimo termina se si attacca qualsiasi altra creatura, se si lancia un incantesimo che mira una creatura ostile diverso dal bersaglio, se una creatura amichevole a voi danneggia il bersaglio o lancia un incantesimo dannoso su di esso, o se si finisce il vostro turno più di 30 piedi lontano dal bersaglio.</span></p>",
       "chat": ""
     },
     "source": {
@@ -196,7 +196,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -215,8 +215,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "concentration"
+      "Verbale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -240,11 +240,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -289,7 +289,7 @@
     },
     "identifier": "compelled-duel",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "_stats": {
     "coreVersion": "13.350",

@@ -198,7 +198,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong><span class=\"fontstyle0\">Nigredo, 1 atto:</span></strong></em>Crea un elixir che, quando imbibed o amministrato, guarisce 2d8 punti di successo spendendo un colpo morire. Utilizzato su un oggetto rotto può riportarlo alla sua condizione originale intatta.</p>",
+      "value": "<p><em><strong><span class=\"fontstyle0\">Nigredo, 1 atto:</span></strong></em>Crea un elixir che, quando imbibed o amministrato, guarisce 2d8 Punti Ferita spendendo un colpo morire. Utilizzato su un oggetto rotto può riportarlo alla sua condizione originale intatta.</p>",
       "chat": ""
     },
     "source": {
@@ -278,14 +278,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "value": "5",
           "units": "ft",
           "special": "",

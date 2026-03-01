@@ -98,7 +98,7 @@
       "critOther": false,
       "magicdam": false,
       "magiceffect": false,
-      "concentration": false,
+      "Concentrazione": false,
       "toggleEffect": false
     },
     "rsr5e": {
@@ -132,7 +132,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>La prossima volta che colpisci una creatura con un attacco di arma melee durante la durata di questo incantesimo, la tua arma perfora corpo e mente, e l'attacco tratta un ulteriore 4d6 danni psichici al bersaglio. L'obiettivo deve fare un tiro salvifico della Saggezza. Su un salvataggio fallito, ha svantaggio su rotolo di attacco e controlli di abilità, e non può prendere reazioni, fino alla fine del suo turno successivo.</p>",
+      "value": "<p>La prossima volta che colpisci una creatura con un attacco di arma da mischia durante la durata di questo incantesimo, la tua arma perfora corpo e mente, e l'attacco tratta un ulteriore 4d6 danni psichici al bersaglio. L'obiettivo deve fare un tiro salvifico della Saggezza. Su un salvataggio fallito, ha svantaggio su rotolo di attacco e controlli di abilità, e non può prendere reazioni, fino alla fine del suo turno successivo.</p>",
       "chat": ""
     },
     "source": {
@@ -158,7 +158,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -176,8 +176,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "concentration"
+      "Verbale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -201,11 +201,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -280,11 +280,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -347,7 +347,7 @@
     },
     "identifier": "staggering-smite",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "_stats": {
     "coreVersion": "13.350",

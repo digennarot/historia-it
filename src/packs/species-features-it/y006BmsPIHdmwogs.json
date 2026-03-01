@@ -7,7 +7,7 @@
       "_id": "tOpfi5VZgHduj6UK",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.CA.value",
           "mode": 2,
           "value": "1",
           "priority": 20
@@ -33,7 +33,7 @@
         }
       },
       "tint": "#ffffff",
-      "name": "Adds +1 to AC",
+      "name": "Adds +1 to CA",
       "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "type": "base",
       "system": {},
@@ -209,7 +209,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>La coda spessa di un Anteater viene utilizzata per scopi difensivi, garantendo un +1 bonus alla vostra Classe Armor.</p>",
+      "value": "<p>La coda spessa di un Anteater viene utilizzata per scopi difensivi, garantendo un +1 bonus alla vostra Classe Armatura.</p>",
       "chat": ""
     },
     "source": {

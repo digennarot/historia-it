@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una sfera di 20 piedi-radio di forza gravitazionale distruttiva centrato su un punto si può vedere all'interno della gamma. Per la durata dell'incantesimo, la sfera e qualsiasi spazio entro 100 piedi di esso sono terreni difficili, e gli oggetti non magici completamente all'interno della sfera vengono distrutti se non vengono indossati o portati.</p><div class=\"rd__spc-inline-post\"></div><p>Quando la sfera appare e all'inizio di ciascuno dei vostri giri fino alla fine dell'incantesimo, gli oggetti non protetti entro 100 piedi della sfera vengono tirati verso il centro della sfera, terminando in uno spazio non occupato il più vicino al centro possibile.</p><p>Una creatura che inizia la sua svolta entro 100 piedi della sfera deve avere successo su un tiro di risparmio di forza o essere tirato dritto verso il centro della sfera, terminando in uno spazio non occupato il più vicino al centro possibile. Una creatura che entra nella sfera per la prima volta a turno o inizia il suo turno ci prende [[/r 5d10] danno forza ed è @condizione[restribuita] fino a quando non è più nella sfera. Se la sfera è nell'aria, la creatura @condizione[restribuita] si muove all'interno della sfera. Una creatura può usare la sua azione per fare un controllo di forza contro il vostro incantesimo salvare DC, terminando questa condizione @condizione[restrained] su se stessa o un'altra creatura nella sfera che può raggiungere. Una creatura ridotta a 0 punti di colpo da questo incantesimo è annientata, insieme a tutti gli oggetti non immaginari che indossa o trasporta.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una sfera di 20 piedi-radio di forza gravitazionale distruttiva centrato su un punto si può vedere all'interno della gamma. Per la durata dell'incantesimo, la sfera e qualsiasi spazio entro 100 piedi di esso sono terreni difficili, e gli oggetti non magici completamente all'interno della sfera vengono distrutti se non vengono indossati o portati.</p><div class=\"rd__spc-inline-post\"></div><p>Quando la sfera appare e all'inizio di ciascuno dei vostri giri fino alla fine dell'incantesimo, gli oggetti non protetti entro 100 piedi della sfera vengono tirati verso il centro della sfera, terminando in uno spazio non occupato il più vicino al centro possibile.</p><p>Una creatura che inizia la sua svolta entro 100 piedi della sfera deve avere successo su un Tiro Salvezza di forza o essere tirato dritto verso il centro della sfera, terminando in uno spazio non occupato il più vicino al centro possibile. Una creatura che entra nella sfera per la prima volta a turno o inizia il suo turno ci prende [[/r 5d10] danno forza ed è @condizione[restribuita] fino a quando non è più nella sfera. Se la sfera è nell'aria, la creatura @condizione[restribuita] si muove all'interno della sfera. Una creatura può usare la sua azione per fare un controllo di forza contro il vostro incantesimo salvare DC, terminando questa condizione @condizione[restrained] su se stessa o un'altra creatura nella sfera che può raggiungere. Una creatura ridotta a 0 punti di colpo da questo incantesimo è annientata, insieme a tutti gli oggetti non immaginari che indossa o trasporta.</p></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "1000",
       "units": "ft"
     },
@@ -47,10 +47,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -74,11 +74,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -141,7 +141,7 @@
     },
     "identifier": "ravenous-void",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
   "flags": {

@@ -1,7 +1,7 @@
 {
   "name": "Strategia di caccia: Horde Raveger",
   "type": "feat",
-  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "img": "icons/skills/da mischia/weapons-crossed-swords-yellow.webp",
   "effects": [],
   "flags": {
     "betterRolls5e": {
@@ -219,14 +219,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "value": "5",
           "units": "ft",
           "special": "",

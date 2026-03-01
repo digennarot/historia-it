@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -42,15 +42,15 @@
     "level": 3,
     "school": "con",
     "materials": {
-      "value": "a fragment of stone, wood, or other building material",
+      "value": "a fragment of stone, wood, or other building Materiale",
       "consumed": false,
       "cost": 0,
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material"
+      "Verbale",
+      "Somatica",
+      "Materiale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -74,11 +74,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -116,7 +116,7 @@
     },
     "identifier": "tower",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/environment/settlement/tower-stone-blue.webp",
   "flags": {

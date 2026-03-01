@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "touch"
     },
     "uses": {
@@ -47,9 +47,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -73,11 +73,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -157,7 +157,7 @@
     },
     "identifier": "holy-weapon",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/weapons/swords/sword-gold-holy.webp",
   "flags": {

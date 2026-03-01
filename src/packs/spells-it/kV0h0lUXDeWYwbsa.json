@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Uttering un incantesimo, si disegna la magia dei piani inferiori o piani superiori (la vostra scelta) per trasformarsi. Ottieni i seguenti vantaggi fino alla fine dell'incantesimo:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Sei immune a danni da fuoco e veleno (Piano a terra) o danni radianti e necrotici (Piano a trazione).</li><li class=\"rd__li\">Sei immune alla condizione @condizione[poisoned] (Piani bassi) o la condizione @condizione[charmed] (Piazzo superiore).</li><li class=\"rd__li\">Le ali spettrali appaiono sulla schiena, dando una velocità di volo di 40 piedi.</li><li class=\"rd__li\">Hai un +2 bonus per AC.</li><li class=\"rd__li\">Tutti gli attacchi di arma sono magici, e quando si effettua un attacco di arma, è possibile utilizzare il modificatore di abilità di incantesimo, invece di Forza o Dexterity, per l'attacco e rotolo di danno.</li><li class=\"rd__li\">Si può attaccare due volte, invece di una volta, quando si prende l'azione Attacco a turno. Ignori questo vantaggio se hai già una funzione, come Extra Attack, che ti dà attacchi extra.</li></ul></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Uttering un incantesimo, si disegna la magia dei piani inferiori o piani superiori (la vostra scelta) per trasformarsi. Ottieni i seguenti vantaggi fino alla fine dell'incantesimo:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Sei immune a danni da fuoco e veleno (Piano a terra) o danni radianti e necrotici (Piano a trazione).</li><li class=\"rd__li\">Sei immune alla condizione @condizione[poisoned] (Piani bassi) o la condizione @condizione[charmed] (Piazzo superiore).</li><li class=\"rd__li\">Le ali spettrali appaiono sulla schiena, dando una velocità di volo di 40 piedi.</li><li class=\"rd__li\">Hai un +2 bonus per CA.</li><li class=\"rd__li\">Tutti gli attacchi di arma sono magici, e quando si effettua un attacco di arma, è possibile utilizzare il modificatore di abilità di incantesimo, invece di Forza o Dexterity, per l'attacco e rotolo di danno.</li><li class=\"rd__li\">Si può attaccare due volte, invece di una volta, quando si prende l'azione Attacco a turno. Ignori questo vantaggio se hai già una funzione, come Extra Attack, che ti dà attacchi extra.</li></ul></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -49,10 +49,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -76,11 +76,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -118,7 +118,7 @@
     },
     "identifier": "otherworldly-form",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/control/silhouette-hold-change-green.webp",
   "flags": {

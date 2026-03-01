@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si trasformano fino a dieci creature di vostra scelta che si può vedere all'interno della gamma. Un bersaglio involontario deve riuscire su un tiro salvifico della Saggezza per resistere alla trasformazione. Un mutaforma non voluto riesce automaticamente al salvataggio.</p><div class=\"rd__spc-inline-post\"></div><p>Ogni bersaglio assume una forma bestia di vostra scelta, e si può scegliere la stessa forma o diversi per ogni obiettivo. La nuova forma può essere<a href=\"https://5etools-mirror-1.github.io/bestiary.html#blankhash,flsttype:beast=1,flstmiscellaneous:swarm=2\">qualsiasi bestia</a>avete visto il cui punteggio di sfida è uguale o inferiore a quello del bersaglio (o metà del livello del bersaglio, se l'obiettivo non ha un rating di sfida). Le statistiche di gioco dell'obiettivo, compresi i punteggi di abilità mentale, sono sostituite dalle statistiche della bestia scelta, ma l'obiettivo mantiene i suoi punti di successo, allineamento e personalità.</p><p>Ogni obiettivo guadagna un certo numero di punti di successo temporanei pari ai punti di successo della sua nuova forma. Questi punti di successo temporanei non possono essere sostituiti da punti di successo temporanei da un'altra fonte. Un obiettivo ritorna alla sua forma normale quando non ha punti di successo più temporanei o muore. Se l'incantesimo finisce prima di allora, la creatura perde tutti i suoi punti di colpo temporanei e ritorna alla sua forma normale.</p><p>La creatura è limitata nelle azioni che può eseguire dalla natura della sua nuova forma. Non può parlare, lanciare incantesimi, o fare qualsiasi altra cosa che richiede mani o parole.</p><p>L'ingranaggio del bersaglio si fonde nella nuova forma. L'obiettivo non può attivare, utilizzare, wield, o altrimenti beneficiare di qualsiasi delle sue attrezzature.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si trasformano fino a dieci creature di vostra scelta che si può vedere all'interno della gamma. Un bersaglio involontario deve riuscire su un tiro salvifico della Saggezza per resistere alla trasformazione. Un mutaforma non voluto riesce automaticamente al salvataggio.</p><div class=\"rd__spc-inline-post\"></div><p>Ogni bersaglio assume una forma bestia di vostra scelta, e si può scegliere la stessa forma o diversi per ogni obiettivo. La nuova forma può essere<a href=\"https://5etools-mirror-1.github.io/bestiary.html#blankhash,flsttype:beast=1,flstmiscellaneous:swarm=2\">qualsiasi bestia</a>avete visto il cui punteggio di sfida è uguale o inferiore a quello del bersaglio (o metà del livello del bersaglio, se l'obiettivo non ha un rating di sfida). Le statistiche di gioco dell'obiettivo, compresi i punteggi di abilità mentale, sono sostituite dalle statistiche della bestia scelta, ma l'obiettivo mantiene i suoi Punti Ferita, allineamento e personalità.</p><p>Ogni obiettivo guadagna un certo numero di Punti Ferita temporanei pari ai Punti Ferita della sua nuova forma. Questi Punti Ferita temporanei non possono essere sostituiti da Punti Ferita temporanei da un'altra fonte. Un obiettivo ritorna alla sua forma normale quando non ha Punti Ferita più temporanei o muore. Se l'incantesimo finisce prima di allora, la creatura perde tutti i suoi punti di colpo temporanei e ritorna alla sua forma normale.</p><p>La creatura è limitata nelle azioni che può eseguire dalla natura della sua nuova forma. Non può parlare, lanciare incantesimi, o fare qualsiasi altra cosa che richiede mani o parole.</p><p>L'ingranaggio del bersaglio si fonde nella nuova forma. L'obiettivo non può attivare, utilizzare, wield, o altrimenti beneficiare di qualsiasi delle sue attrezzature.</p></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "120",
       "units": "ft"
     },
@@ -47,10 +47,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -74,11 +74,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -123,7 +123,7 @@
     },
     "identifier": "mass-polymorph",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
   "flags": {

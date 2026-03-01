@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si intrecciano fili d'ombra per creare una spada di gloom solidificato in mano. Questa spada magica dura fino alla fine dell'incantesimo. Conta come un'arma semplice con cui sei abile. Esso tratta [[/r 2d8] danni psichici su un colpo e ha le proprietà di finezza, luce e gettato (range 20/60). Inoltre, quando si utilizza la spada per attaccare un bersaglio che è in luce debole o oscurità, si fa rotolare l'attacco con vantaggio.</p><div class=\"rd__spc-inline-post\"></div><p>Se si lascia cadere l'arma o lanciarla, si dissipa alla fine del turno. Successivamente, mentre l'incantesimo persiste, puoi usare un'azione bonus per far riapparire la spada nella tua mano.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si esegue questo incantesimo utilizzando uno slot di incantesimo di terzo o quarto livello, il danno aumenta a [[/r 3d8]. Quando lo si lancia utilizzando una slot di incantesimo di 5 ° o 6 ° livello, il danno aumenta a [[/r 4d8]. Quando lo si getta utilizzando una fessura di incantesimo di 7 ° livello o superiore, il danno aumenta a [[/r 5d8].</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si intrecciano fili d'ombra per creare una spada di gloom solidificato in mano. Questa spada magica dura fino alla fine dell'incantesimo. Conta come un'arma semplice con cui sei abile. Esso tratta [[/r 2d8] danni psichici su un colpo e ha le proprietà di finezza, luce e gettato (a gittata 20/60). Inoltre, quando si utilizza la spada per attaccare un bersaglio che è in luce debole o oscurità, si fa rotolare l'attacco con vantaggio.</p><div class=\"rd__spc-inline-post\"></div><p>Se si lascia cadere l'arma o lanciarla, si dissipa alla fine del turno. Successivamente, mentre l'incantesimo persiste, puoi usare un'azione bonus per far riapparire la spada nella tua mano.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si esegue questo incantesimo utilizzando uno slot di incantesimo di terzo o quarto livello, il danno aumenta a [[/r 3d8]. Quando lo si lancia utilizzando una slot di incantesimo di 5 ° o 6 ° livello, il danno aumenta a [[/r 4d8]. Quando lo si getta utilizzando una fessura di incantesimo di 7 ° livello o superiore, il danno aumenta a [[/r 5d8].</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -49,9 +49,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -136,9 +136,9 @@
     },
     "identifier": "shadow-blade",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
-  "img": "icons/skills/melee/sword-stuck-glowing-pink.webp",
+  "img": "icons/skills/da mischia/sword-stuck-glowing-pink.webp",
   "flags": {
     "plutonium": {
       "page": "spells.html",

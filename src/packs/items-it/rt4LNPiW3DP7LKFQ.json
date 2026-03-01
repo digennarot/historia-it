@@ -79,7 +79,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>La corda, fatta di canapa o seta, ha 2 punti di successo e può essere scoppiata con un controllo DC 17 Strength.</p>",
+      "value": "<p>La corda, fatta di canapa o seta, ha 2 Punti Ferita e può essere scoppiata con un controllo DC 17 Strength.</p>",
       "chat": ""
     },
     "source": {
@@ -163,14 +163,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "self",
           "special": "",
           "override": false
@@ -244,14 +244,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "self",
           "special": "",
           "override": false

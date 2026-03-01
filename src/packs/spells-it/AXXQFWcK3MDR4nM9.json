@@ -4,7 +4,7 @@
   "img": "icons/magic/water/wave-water-blue.webp",
   "system": {
     "description": {
-      "value": "<p>Coniugate un diluvio di acqua di mare in un cilindro di 15 piedi-radio, di 10 piedi-tallo incentrato su un punto all'interno della gamma. Questa acqua assume la forma di un'onda marea, un idromassaggio, una sorgente d'acqua, o un'altra forma di vostra scelta. Ogni creatura nella zona deve avere successo su un tiro di risparmio di forza contro il vostro incantesimo salvare DC o prendere 2d8 danni offuscati e cadere inclini. È possibile scegliere un certo numero di creature pari al modificatore di spellcasting (minimo di 1) per avere successo automaticamente su questo lancio di risparmio.</p><p>Se siete nell'area dell'incantesimo, come parte dell'azione che usate per lanciare l'incantesimo, potete svanire nel deluge e teletrasportare in uno spazio non occupato che potete vedere all'interno dell'area dell'incantesimo.</p>",
+      "value": "<p>Coniugate un diluvio di acqua di mare in un cilindro di 15 piedi-radio, di 10 piedi-tallo incentrato su un punto all'interno della gamma. Questa acqua assume la forma di un'onda marea, un idromassaggio, una sorgente d'acqua, o un'altra forma di vostra scelta. Ogni creatura nella zona deve avere successo su un Tiro Salvezza di forza contro il vostro incantesimo salvare DC o prendere 2d8 danni offuscati e cadere inclini. È possibile scegliere un certo numero di creature pari al modificatore di spellcasting (minimo di 1) per avere successo automaticamente su questo lancio di risparmio.</p><p>Se siete nell'area dell'incantesimo, come parte dell'azione che usate per lanciare l'incantesimo, potete svanire nel deluge e teletrasportare in uno spazio non occupato che potete vedere all'interno dell'area dell'incantesimo.</p>",
       "chat": ""
     },
     "source": {
@@ -32,7 +32,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "120",
       "units": "ft"
     },
@@ -51,9 +51,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material"
+      "Verbale",
+      "Somatica",
+      "Materiale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -77,11 +77,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -144,7 +144,7 @@
     },
     "identifier": "freedom-of-the-waves",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "effects": [],
   "flags": {

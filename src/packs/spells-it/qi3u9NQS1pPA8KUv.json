@@ -127,7 +127,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>L'incantesimo cattura alcune delle energie in arrivo, riducendo il suo effetto su di voi e memorizzandolo per il vostro prossimo attacco di melee. Avete resistenza al tipo di danno di attivazione fino all'inizio del vostro turno successivo. Inoltre, la prima volta che si colpisce con un attacco di melee sul vostro turno successivo, il bersaglio prende un ulteriore 1d6 danni del tipo di attivazione, e l'incantesimo termina.</p>\n<p>Ai livelli superiori. Quando si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, il danno supplementare aumenta di 1d6 per ogni livello di slot superiore al 1 °</p>",
+      "value": "<p>L'incantesimo cattura alcune delle energie in arrivo, riducendo il suo effetto su di voi e memorizzandolo per il vostro prossimo attacco di da mischia. Avete resistenza al tipo di danno di attivazione fino all'inizio del vostro turno successivo. Inoltre, la prima volta che si colpisce con un attacco di da mischia sul vostro turno successivo, il bersaglio prende un ulteriore 1d6 danni del tipo di attivazione, e l'incantesimo termina.</p>\n<p>Ai livelli superiori. Quando si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, il danno supplementare aumenta di 1d6 per ogni livello di slot superiore al 1 °</p>",
       "chat": ""
     },
     "source": {
@@ -155,7 +155,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -173,7 +173,7 @@
       "supply": 0
     },
     "properties": [
-      "somatic"
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -197,11 +197,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -239,7 +239,7 @@
     },
     "identifier": "absorb-elements",
     "method": "spell",
-    "prepared": 1
+    "Preparato": 1
   },
   "_stats": {
     "coreVersion": "13.350",

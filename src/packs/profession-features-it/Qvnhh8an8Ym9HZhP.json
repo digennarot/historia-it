@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 10 ° livello le parole del flagellante sanno guidare le moltitudini. Se hai meno della metà dei tuoi punti di successo massimi, puoi usare Irresistible Speech su tutti gli obiettivi entro 60 piedi o su un'unità sotto il tuo comando. Finché le creature sono affascinate in questo modo, possono ri-rotolare il primo lancio salvifico che falliscono.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Al 10 ° livello le parole del flagellante sanno guidare le moltitudini. Se hai meno della metà dei tuoi Punti Ferita massimi, puoi usare Irresistible Speech su tutti gli obiettivi entro 60 piedi o su un'unità sotto il tuo comando. Finché le creature sono affascinate in questo modo, possono ri-rotolare il primo lancio salvifico che falliscono.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -211,14 +211,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

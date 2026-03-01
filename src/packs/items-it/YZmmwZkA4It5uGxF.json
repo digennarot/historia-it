@@ -1,7 +1,7 @@
 {
-  "name": "Parrying Dagger",
+  "name": "Parrying pugnale",
   "type": "weapon",
-  "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+  "img": "icons/weapons/daggers/pugnale-straight-thin-black.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -199,7 +199,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong>Coppia.</strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per AC.</span></p>",
+      "value": "<p><em><strong>Coppia.</strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>",
       "chat": ""
     },
     "source": {
@@ -220,7 +220,7 @@
     "equipped": false,
     "rarity": "common",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": null,
       "long": 60,
       "units": "ft",
@@ -265,7 +265,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -312,14 +312,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "ft",
           "special": "",
           "override": false
@@ -356,7 +356,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },
@@ -377,7 +377,7 @@
         }
       }
     },
-    "identifier": "parrying-dagger",
+    "identifier": "parrying-pugnale",
     "ammunition": {},
     "crew": {
       "value": []

@@ -161,7 +161,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Il tuo destino è la grandezza e le difficoltà non ti influenzano: quando hai meno della metà dei tuoi punti ferita massimi, puoi spendere ispirazione per assicurarti che il tuo avversario abbia uno svantaggio su un attacco contro di te.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Il tuo destino è la grandezza e le difficoltà non ti influenzano: quando hai meno della metà dei tuoi Punti Ferita massimi, puoi spendere ispirazione per assicurarti che il tuo avversario abbia uno svantaggio su un attacco contro di te.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -224,14 +224,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "self",
           "special": "",
           "override": false

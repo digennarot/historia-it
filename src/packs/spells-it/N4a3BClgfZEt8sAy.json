@@ -175,7 +175,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>La prossima volta che colpisci una creatura con un attacco d'arma prima che questo incantesimo finisca, l'arma si incrina con la forza, e l'attacco infligge un ulteriore danno di forza 5d10 al bersaglio. Inoltre, se questo attacco riduce il bersaglio a 50 punti di successo o meno, lo bandisci. Se l'obiettivo è nativo di un piano di esistenza diverso da quello su cui sei, l'obiettivo scompare, tornando al suo aereo di casa. Se il bersaglio è nativo dell'aereo su cui sei, la creatura svanisce in un innocuo demiplano. Mentre c'è, l'obiettivo è incapace. Resta lì fino alla fine dell'incantesimo, a cui il bersaglio riappare nello spazio che ha lasciato o nello spazio non occupato più vicino se quello spazio è occupato.</p>",
+      "value": "<p>La prossima volta che colpisci una creatura con un attacco d'arma prima che questo incantesimo finisca, l'arma si incrina con la forza, e l'attacco infligge un ulteriore danno di forza 5d10 al bersaglio. Inoltre, se questo attacco riduce il bersaglio a 50 Punti Ferita o meno, lo bandisci. Se l'obiettivo è nativo di un piano di esistenza diverso da quello su cui sei, l'obiettivo scompare, tornando al suo aereo di casa. Se il bersaglio è nativo dell'aereo su cui sei, la creatura svanisce in un innocuo demiplano. Mentre c'è, l'obiettivo è incapace. Resta lì fino alla fine dell'incantesimo, a cui il bersaglio riappare nello spazio che ha lasciato o nello spazio non occupato più vicino se quello spazio è occupato.</p>",
       "chat": ""
     },
     "source": {
@@ -201,7 +201,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "units": "self"
     },
     "uses": {
@@ -219,8 +219,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "concentration"
+      "Verbale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -244,11 +244,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -305,7 +305,7 @@
     },
     "identifier": "banishing-smite",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "_stats": {
     "coreVersion": "13.350",

@@ -161,7 +161,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal 10 ° livello, quando si rotola un colpo morire per guarire, si ottiene 2 punti di successo temporanei per ogni morire si spende. Inoltre, alla fine di un breve riposo, è possibile rimuovere i livelli di esaurimento. È possibile utilizzare questa capacità di nuovo dopo aver completato un lungo riposo.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">A partire dal 10 ° livello, quando si rotola un colpo morire per guarire, si ottiene 2 Punti Ferita temporanei per ogni morire si spende. Inoltre, alla fine di un breve riposo, è possibile rimuovere i livelli di esaurimento. È possibile utilizzare questa capacità di nuovo dopo aver completato un lungo riposo.</span></p>",
       "chat": ""
     },
     "source": {
@@ -224,14 +224,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

@@ -176,7 +176,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal 9 ° livello, come una reazione quando un tiro di risparmio o un controllo di abilità fallisce, è possibile spendere un azione morire e aggiungerlo al risultato rotolo, potenzialmente trasformando un fallimento in un successo.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">A partire dal 9 ° livello, come una reazione quando un Tiro Salvezza o un controllo di abilità fallisce, è possibile spendere un azione morire e aggiungerlo al risultato rotolo, potenzialmente trasformando un fallimento in un successo.</span></p>",
       "chat": ""
     },
     "source": {
@@ -234,14 +234,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

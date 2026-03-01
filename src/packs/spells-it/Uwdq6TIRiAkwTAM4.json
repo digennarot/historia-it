@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "90",
       "units": "ft"
     },
@@ -48,10 +48,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -117,9 +117,9 @@
     },
     "identifier": "summon-warrior-spirit",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
-  "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+  "img": "icons/skills/da mischia/weapons-crossed-swords-teal.webp",
   "flags": {
     "plutonium": {
       "page": "spells.html",

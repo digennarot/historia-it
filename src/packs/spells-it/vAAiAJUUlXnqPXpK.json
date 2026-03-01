@@ -87,7 +87,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Voi chiamate lo spirito di un costrutto. Si manifesta in uno spazio non occupato che si può vedere all'interno della gamma. Questa forma corporea utilizza il @Compendium[dnd5e.monsters.whm3sXDXjfMYIGGV]{Construct Spirit} stat block. Quando si lancia l'incantesimo, scegliere un materiale:<strong>argilla, metallo o pietra</strong>. La creatura assomiglia a un golem o un modron (la vostra scelta) fatto del materiale scelto, che determina alcuni tratti nel suo blocco stat. La creatura scompare quando scende a 0 punti di colpo o quando l'incantesimo termina.</p>\n<p>La creatura è alleata a voi e ai vostri compagni. In combattimento, la creatura condivide il vostro conteggio di iniziativa, ma prende il suo turno immediatamente dopo il vostro. Obbedisce ai vostri comandi verbali (nessuna azione richiesta da voi). Se non si emette alcuno, prende l'azione Dodge e utilizza la sua mossa per evitare il pericolo.</p>\n<p>Ai livelli superiori. Quando si digita questo incantesimo utilizzando una scanalatura di 4° livello o superiore, utilizzare il livello superiore ovunque il livello dell'incantesimo appare nel blocco stat.</p>\n<p><strong>Classe di armatura</strong>13 + il livello dell'incantesimo (armatura naturale)</p>\n<p><strong>Punti di contatto</strong>40 + 15 per ogni livello di incantesimo sopra il 3°</p>",
+      "value": "<p>Voi chiamate lo spirito di un costrutto. Si manifesta in uno spazio non occupato che si può vedere all'interno della gamma. Questa forma corporea utilizza il @Compendium[dnd5e.monsters.whm3sXDXjfMYIGGV]{Construct Spirit} stat block. Quando si lancia l'incantesimo, scegliere un materiale:<strong>argilla, metallo o pietra</strong>. La creatura assomiglia a un golem o un modron (la vostra scelta) fatto del materiale scelto, che determina alcuni tratti nel suo blocco stat. La creatura scompare quando scende a 0 punti di colpo o quando l'incantesimo termina.</p>\n<p>La creatura è alleata a voi e ai vostri compagni. In combattimento, la creatura condivide il vostro conteggio di iniziativa, ma prende il suo turno immediatamente dopo il vostro. Obbedisce ai vostri comandi verbali (nessuna azione richiesta da voi). Se non si emette alcuno, prende l'azione Dodge e utilizza la sua mossa per evitare il pericolo.</p>\n<p>Ai livelli superiori. Quando si digita questo incantesimo utilizzando una scanalatura di 4° livello o superiore, utilizzare il livello superiore ovunque il livello dell'incantesimo appare nel blocco stat.</p>\n<p><strong>Classe di armatura</strong>13 + il livello dell'incantesimo (armatura naturale)</p>\n<p><strong>Punti Ferita</strong>40 + 15 per ogni livello di incantesimo sopra il 3°</p>",
       "chat": ""
     },
     "source": {
@@ -113,7 +113,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "90",
       "units": "ft"
     },
@@ -131,10 +131,10 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "material",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Materiale",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -158,11 +158,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -200,7 +200,7 @@
     },
     "identifier": "summon-construct",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "_stats": {
     "coreVersion": "13.350",

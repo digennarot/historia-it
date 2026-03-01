@@ -7,7 +7,7 @@
       "_id": "HhU33aoejNQubR1b",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.CA.value",
           "mode": 5,
           "value": "17",
           "priority": 20
@@ -33,7 +33,7 @@
         }
       },
       "tint": "#ffffff",
-      "name": "AC is 17, unaffected by Dex bonus",
+      "name": "CA is 17, unaffected by Dex bonus",
       "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
       "type": "base",
       "system": {},
@@ -209,7 +209,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Le scale dure che coprono il corpo di un Armadillo ti danno una base AC di 17 (il tuo bonus di Dexterity non influisce su questo numero). Armor non offre alcun vantaggio aggiuntivo, anche se i bonus da scudi sono applicati normalmente.</p>",
+      "value": "<p>Le scale dure che coprono il corpo di un Armadillo ti danno una base CA di 17 (il tuo bonus di Dexterity non influisce su questo numero). Armatura non offre alcun vantaggio aggiuntivo, anche se i bonus da scudi sono applicati normalmente.</p>",
       "chat": ""
     },
     "source": {

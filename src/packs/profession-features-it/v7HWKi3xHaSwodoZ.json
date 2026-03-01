@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si lancia un incantesimo che costringe una creatura a fare un tiro di risparmio per resistere ai suoi effetti, è possibile spendere 3 Punti di Incanto per mettere quel bersaglio a uno svantaggio sul primo lancio di risparmio fa contro di esso.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Quando si lancia un incantesimo che costringe una creatura a fare un Tiro Salvezza per resistere ai suoi effetti, è possibile spendere 3 Punti di Incanto per mettere quel bersaglio a uno svantaggio sul primo lancio di risparmio fa contro di esso.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -220,14 +220,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "gittata": {
           "units": "self",
           "special": "",
           "override": false

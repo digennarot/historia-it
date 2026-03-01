@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Tu sacrifichi una parte della tua salute per riparare le ferite di un'altra creatura. Si prende [[/r 4d8]] danno necrotico, che non può essere ridotto in alcun modo, e una creatura di vostra scelta che si può vedere all'interno della gamma recupera un certo numero di punti di successo pari al doppio del danno necrotico si prende.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"38\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una scanalatura di 4° livello o superiore, il danno aumenta di [[/r 1d8] per ogni livello di slot superiore al 3°.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Tu sacrifichi una parte della tua salute per riparare le ferite di un'altra creatura. Si prende [[/r 4d8]] danno necrotico, che non può essere ridotto in alcun modo, e una creatura di vostra scelta che si può vedere all'interno della gamma recupera un certo numero di Punti Ferita pari al doppio del danno necrotico si prende.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"38\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una scanalatura di 4° livello o superiore, il danno aumenta di [[/r 1d8] per ogni livello di slot superiore al 3°.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "30",
       "units": "ft"
     },
@@ -48,8 +48,8 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic"
+      "Verbale",
+      "Somatica"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -73,11 +73,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -126,7 +126,7 @@
     },
     "identifier": "life-transference",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/control/energy-stream-link-blue.webp",
   "flags": {

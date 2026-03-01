@@ -1,13 +1,13 @@
 {
   "name": "Difesa senza armatura",
   "type": "feat",
-  "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+  "img": "icons/skills/da mischia/maneuver-daggers-paired-orange.webp",
   "effects": [
     {
       "_id": "yAVhi0KJkFShpNzn",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.CA.value",
           "mode": 5,
           "value": "10 + @abilities.dex.mod + @abilities.con.mod",
           "priority": 3
@@ -33,8 +33,8 @@
         }
       },
       "tint": "#ffffff",
-      "name": "Bonus AC without armor",
-      "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+      "name": "Bonus CA without Armatura",
+      "img": "icons/skills/da mischia/maneuver-daggers-paired-orange.webp",
       "type": "base",
       "system": {},
       "description": "",
@@ -231,7 +231,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">se non indossi armature, hai un AC pari a 10+ il tuo<br/>Modificatore di Costituzione + il tuo modificatore di Dexterity.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">se non indossi armature, hai un CA pari a 10+ il tuo<br/>Modificatore di Costituzione + il tuo modificatore di Dexterity.</span></p>",
       "chat": ""
     },
     "source": {
@@ -257,7 +257,7 @@
       "items": []
     },
     "properties": [],
-    "identifier": "defense-without-armor",
+    "identifier": "defense-without-Armatura",
     "activities": {},
     "advancement": [],
     "enchant": {}

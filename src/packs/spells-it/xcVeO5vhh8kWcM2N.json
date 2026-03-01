@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Una sfera di 20 piedi-radio di molle d'aria frustante in esistenza, incentrata su un punto che si sceglie all'interno della gamma. La sfera rimane per la durata dell'incantesimo. Ogni creatura nella sfera quando appare o che finisce il suo turno deve avere successo su un tiro di risparmio di forza o prendere [[/r 2d6] danni offuscati. Lo spazio della sfera è terreno difficile.</p><div class=\"rd__spc-inline-post\"></div><p>Fino alla fine dell'incantesimo, è possibile utilizzare un'azione bonus su ciascuno dei vostri giri per causare un bullone di fulmine per saltare dal centro della sfera verso una creatura che si sceglie entro 60 piedi del centro. Fai un attacco di incantesimo ampio. Avete vantaggio sul rotolo di attacco se l'obiettivo è nella sfera. Su un colpo, il bersaglio prende [[/r 4d6]] danni fulmini.</p><p>Creature entro 30 piedi della sfera hanno svantaggio sulla Saggezza (@skill[Perception]) controlli fatti per ascoltare.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"43\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una fessura di 5° livello o superiore, il danno per ciascuno dei suoi effetti aumenta di [[[/r 1d6]] per ogni livello di slot superiore al 4 °.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Una sfera di 20 piedi-radio di molle d'aria frustante in esistenza, incentrata su un punto che si sceglie all'interno della gamma. La sfera rimane per la durata dell'incantesimo. Ogni creatura nella sfera quando appare o che finisce il suo turno deve avere successo su un Tiro Salvezza di forza o prendere [[/r 2d6] danni offuscati. Lo spazio della sfera è terreno difficile.</p><div class=\"rd__spc-inline-post\"></div><p>Fino alla fine dell'incantesimo, è possibile utilizzare un'azione bonus su ciascuno dei vostri giri per causare un bullone di fulmine per saltare dal centro della sfera verso una creatura che si sceglie entro 60 piedi del centro. Fai un attacco di incantesimo ampio. Avete vantaggio sul rotolo di attacco se l'obiettivo è nella sfera. Su un colpo, il bersaglio prende [[/r 4d6]] danni fulmini.</p><p>Creature entro 30 piedi della sfera hanno svantaggio sulla Saggezza (@skill[Perception]) controlli fatti per ascoltare.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"43\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una fessura di 5° livello o superiore, il danno per ciascuno dei suoi effetti aumenta di [[[/r 1d6]] per ogni livello di slot superiore al 4 °.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -31,7 +31,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "150",
       "units": "ft"
     },
@@ -49,9 +49,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "concentration"
+      "Verbale",
+      "Somatica",
+      "Concentrazione"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -75,11 +75,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -183,11 +183,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -267,7 +267,7 @@
     },
     "identifier": "storm-sphere",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/commodities/gems/pearl-water.webp",
   "flags": {

@@ -1,7 +1,7 @@
 {
   "name": "Interruttore di lama",
   "type": "weapon",
-  "img": "icons/weapons/daggers/dagger-serrated-purple.webp",
+  "img": "icons/weapons/daggers/pugnale-serrated-purple.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"><em><strong>Coppia.</strong></em> </span><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per AC.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Incredibile.</strong></em> </span><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle0\">Dopo essere stato colpito dall'attacco di una creatura, al turno successivo il personaggio ha vantaggio sugli attacchi e disarmare i controlli fatti contro la stessa creatura.</span></p>",
+      "value": "<p><span class=\"fontstyle0\"><em><strong>Coppia.</strong></em> </span><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Incredibile.</strong></em> </span><span class=\"fontstyle2\">Se l'arma è nascosta, rotoli per rilevare che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle0\">Dopo essere stato colpito dall'attacco di una creatura, al turno successivo il personaggio ha vantaggio sugli attacchi e disarmare i controlli fatti contro la stessa creatura.</span></p>",
       "chat": ""
     },
     "source": {
@@ -195,7 +195,7 @@
     "equipped": false,
     "rarity": "common",
     "identified": true,
-    "range": {
+    "a gittata": {
       "value": null,
       "long": 60,
       "units": "ft",
@@ -240,7 +240,7 @@
         }
       }
     },
-    "armor": {
+    "Armatura": {
       "value": 10
     },
     "hp": {
@@ -287,14 +287,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "",
           "units": "inst",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "ft",
           "special": "",
           "override": false
@@ -331,7 +331,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },

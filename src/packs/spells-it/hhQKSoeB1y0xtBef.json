@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "120",
       "units": "ft"
     },
@@ -48,9 +48,9 @@
       "supply": 0
     },
     "properties": [
-      "vocal",
-      "somatic",
-      "ritual"
+      "Verbale",
+      "Somatica",
+      "Rituale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -74,11 +74,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -116,7 +116,7 @@
     },
     "identifier": "wild-cunning",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
   "flags": {

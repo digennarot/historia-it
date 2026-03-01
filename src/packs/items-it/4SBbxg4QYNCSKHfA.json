@@ -164,7 +164,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una torcia brucia per 1 ora, fornendo luce luminosa in un raggio di 20 piedi e dim luce per un ulteriore 20 piedi. Se si effettua un attacco melee con una torcia ardente e colpito, si tratta di 1 danno fuoco.</p>",
+      "value": "<p>Una torcia brucia per 1 ora, fornendo luce luminosa in un raggio di 20 piedi e dim luce per un ulteriore 20 piedi. Se si effettua un attacco da mischia con una torcia ardente e colpito, si tratta di 1 danno fuoco.</p>",
       "chat": ""
     },
     "source": {
@@ -254,14 +254,14 @@
           "chatFlavor": ""
         },
         "duration": {
-          "concentration": false,
+          "Concentrazione": false,
           "value": "1",
           "units": "hour",
           "special": "",
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "units": "self",
           "special": "",
           "override": false
@@ -298,7 +298,7 @@
           },
           "flat": false,
           "type": {
-            "value": "melee",
+            "value": "da mischia",
             "classification": "weapon"
           }
         },

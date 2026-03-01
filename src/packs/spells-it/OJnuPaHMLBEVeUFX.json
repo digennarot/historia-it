@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Parli una parola di potere che provoca onde di dolore intenso per assalire una creatura che si può vedere all'interno della gamma. Se il bersaglio ha 100 punti di successo o meno, è soggetto a dolore storpio. Altrimenti, l'incantesimo non ha effetto su di esso. Un obiettivo è anche inalterato se è immune all'essere @condizione[charmed].</p><div class=\"rd__spc-inline-post\"></div><p>Mentre l'obiettivo è colpito da dolore storpio, qualsiasi velocità che ha può essere non superiore a 10 piedi. L'obiettivo ha anche svantaggi su rotolo di attacco, controlli di abilità, e getti di risparmio, oltre a getti di risparmio Costituzione. Infine, se l'obiettivo cerca di lanciare un incantesimo, deve prima avere successo su un lancio di risparmio della Costituzione, o il getto fallisce e l'incantesimo viene sprecato.</p><p>Un bersaglio che soffre questo dolore può fare un tiro di risparmio della Costituzione alla fine di ciascuno dei suoi giri. Con un risparmio di successo, il dolore finisce.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Parli una parola di potere che provoca onde di dolore intenso per assalire una creatura che si può vedere all'interno della gamma. Se il bersaglio ha 100 Punti Ferita o meno, è soggetto a dolore storpio. Altrimenti, l'incantesimo non ha effetto su di esso. Un obiettivo è anche inalterato se è immune all'essere @condizione[charmed].</p><div class=\"rd__spc-inline-post\"></div><p>Mentre l'obiettivo è colpito da dolore storpio, qualsiasi velocità che ha può essere non superiore a 10 piedi. L'obiettivo ha anche svantaggi su rotolo di attacco, controlli di abilità, e getti di risparmio, oltre a getti di risparmio Costituzione. Infine, se l'obiettivo cerca di lanciare un incantesimo, deve prima avere successo su un lancio di risparmio della Costituzione, o il getto fallisce e l'incantesimo viene sprecato.</p><p>Un bersaglio che soffre questo dolore può fare un Tiro Salvezza della Costituzione alla fine di ciascuno dei suoi giri. Con un risparmio di successo, il dolore finisce.</p></div>",
       "chat": ""
     },
     "source": {
@@ -29,7 +29,7 @@
         "contiguous": false
       }
     },
-    "range": {
+    "a gittata": {
       "value": "60",
       "units": "ft"
     },
@@ -47,7 +47,7 @@
       "supply": 0
     },
     "properties": [
-      "vocal"
+      "Verbale"
     ],
     "activities": {
       "dnd5eactivity000": {
@@ -71,11 +71,11 @@
         },
         "duration": {
           "units": "inst",
-          "concentration": false,
+          "Concentrazione": false,
           "override": false
         },
         "effects": [],
-        "range": {
+        "a gittata": {
           "override": false,
           "units": "self"
         },
@@ -120,7 +120,7 @@
     },
     "identifier": "power-word-pain",
     "method": "spell",
-    "prepared": 0
+    "Preparato": 0
   },
   "img": "icons/magic/control/voodoo-doll-pain-damage-yellow.webp",
   "flags": {
