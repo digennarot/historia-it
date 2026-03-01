@@ -1,0 +1,82 @@
+{
+  "id": "historia-it",
+  "title": "Historia (Italiano)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 13
+  },
+  "authors": [
+    {
+      "name": "Tiziano Di Gennaro"
+    }
+  ],
+  "description": "Italian translation packs for Historia (Standalone with media).",
+  "manifest": "https://raw.githubusercontent.com/digennarot/historia-it/main/module.json",
+  "download": "https://github.com/digennarot/historia-it/releases/latest/download/historia-it.zip",
+  "packs": [
+    {
+      "name": "factions-and-careers-it",
+      "label": "Factions and Careers (IT)",
+      "path": "packs/factions-and-careers-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items-it",
+      "label": "Items (IT)",
+      "path": "packs/items-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "profession-features-it",
+      "label": "Profession Features (IT)",
+      "path": "packs/profession-features-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "professions-it",
+      "label": "Professions (IT)",
+      "path": "packs/professions-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "species-features-it",
+      "label": "Species Features (IT)",
+      "path": "packs/species-features-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "species-it",
+      "label": "Species (IT)",
+      "path": "packs/species-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "spells-it",
+      "label": "Spells (IT)",
+      "path": "packs/spells-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "ventures-it",
+      "label": "Ventures (IT)",
+      "path": "packs/ventures-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "factions-it",
+      "label": "Factions (IT)",
+      "path": "packs/factions-it",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    }
+  ]
+}
