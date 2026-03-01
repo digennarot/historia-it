@@ -1,0 +1,162 @@
+{
+  "name": "Torre",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si coniuga una torre a due piani in pietra, legno o simili materiali opportunamente robusti. La torre può essere rotonda o quadrata in forma. Ogni livello della torre è alto 10 piedi e ha una superficie fino a 100 piedi quadrati. L'accesso tra i livelli è costituito da una scala semplice e un portello. Ogni livello prende una delle seguenti forme, scelte da voi quando si lancia l'incantesimo:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Una camera da letto con letto, sedie, petto e camino magico</li><li class=\"rd__li\">Uno studio con scrivanie, libri, librerie, pergamene, inchiostro e penne di inchiostro</li><li class=\"rd__li\">Una sala da pranzo con tavolo, sedie, camino magico, contenitori e utensili da cucina</li><li class=\"rd__li\">Un salotto con divani, poltrone, tavolini e poggiapiedi</li><li class=\"rd__li\">Un bagno con wc, lavabi, un reggiseno magico e panchine per sauna</li><li class=\"rd__li\">Un osservatorio con un telescopio e mappe del cielo notturno</li><li class=\"rd__li\">Una stanza vuota e non ammobiliata</li></ul><p>L'interno della torre è caldo e asciutto, indipendentemente dalle condizioni esterne. Qualsiasi apparecchiatura o arredamento coniugato con la torre si disperde in fumo se rimosso da esso. Alla fine della durata dell'incantesimo, tutte le creature e gli oggetti all'interno della torre che non sono stati creati dall'incantesimo appaiono al sicuro al di fuori del terreno, e tutte le tracce della torre e dei suoi arredi scompaiono.</p><p>Si può lanciare di nuovo questo incantesimo mentre è attivo per mantenere l'esistenza della torre per altre 24 ore. È possibile creare una torre permanente gettando questo incantesimo nella stessa posizione e con la stessa configurazione ogni giorno per un anno.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"37\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una scanalatura di 4° livello o superiore, la torre può avere una storia aggiuntiva per ogni livello di slot oltre il 3°.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "LLK",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 10
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "a fragment of stone, wood, or other building material",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "tower",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/environment/settlement/tower-stone-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "LLK",
+      "hash": "galder's%20tower_llk",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "iYm9KR29rbFJZZmq"
+}

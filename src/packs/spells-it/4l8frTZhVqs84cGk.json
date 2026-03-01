@@ -1,0 +1,162 @@
+{
+  "name": "Regalo di Gab",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p class=\"rd__quote-line rd__quote-line--last\">“<i>Quando ho conosciuto Jim Darkmagic, mi sono chiesto come abbia fatto qualcosa in quel vestito. Da allora ho imparato che la maggior parte dei suoi talenti coinvolgono in piedi e parlare. Il suo outfit è perfetto per questo.</i>”</p><p><span class=\"rd__quote-by\">— Môrgæn</span></p><div class=\"rd__spc-inline-post\"></div><p>Si dice che Jim Darkmagic abbia inventato questo incantesimo, originariamente chiamandolo<i>Ho detto cosa?!</i>Hai mai parlato con il monarca locale e accidentalmente detto come il loro figlio sembra il tuo maiale preferito da quando stavi crescendo nella fattoria di famiglia? Ci siamo stati tutti! Ma piuttosto che essere decapitati per uno scivolamento onesto della lingua, puoi fingere che non sia mai successo, assicurando che nessuno sappia che è successo.</p><p>Quando si lancia questo incantesimo, abilmente rimodellare i ricordi di ascoltatori nella vostra area immediata, in modo che ogni creatura di vostra scelta entro 5 piedi di voi dimentica tutto quello che hai detto negli ultimi 6 secondi. Quelle creature poi ricordano che hai detto le parole che parli come componente verbale dell'incantesimo.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "AI",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "reaction",
+      "condition": "which you take when you speak to another creature",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "self",
+        "count": "",
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "self"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 2,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "gift-of-gab",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/creatures/mammals/humanoid-fox-cat-archer.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "AI",
+      "hash": "gift%20of%20gab_ai",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "4l8frTZhVqs84cGk"
+}

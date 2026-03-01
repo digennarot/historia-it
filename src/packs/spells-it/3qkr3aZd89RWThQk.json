@@ -1,0 +1,181 @@
+{
+  "name": "Animazione",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Questo incantesimo strappa l'anima di un umanoide mentre muore e lo intrappola all'interno della minuscola gabbia che usi per la componente materiale. Un'anima rubata rimane dentro la gabbia fino alla fine dell'incantesimo o fino a distruggere la gabbia, che termina l'incantesimo. Mentre hai un'anima all'interno della gabbia, puoi sfruttarla in qualsiasi modo descritto di seguito. Puoi usare un'anima intrappolata fino a sei volte. Una volta che si sfrutta un'anima per la sesta volta, viene rilasciato, e l'incantesimo finisce. Mentre un'anima è intrappolata, l'umanoide morto da cui proviene non può essere rianimata.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"8\"> <span class=\"entry-title-inner\">Steal Life.</span></span> <p>È possibile utilizzare un'azione bonus per drenare vigore dall'anima e recuperare [[/r 2d8] punti di successo.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"9\"> <span class=\"entry-title-inner\">Query Soul.</span></span> <p>Fai una domanda all'anima (non è richiesta alcuna azione) e ricevi una breve risposta telepatica, che puoi capire indipendentemente dalla lingua utilizzata. L'anima sa solo quello che sapeva nella vita, ma deve rispondere sinceramente e al meglio della sua capacità. La risposta non è più di una frase o due e potrebbe essere criptico.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"10\"> <span class=\"entry-title-inner\">Borrow Experience.</span></span> <p>È possibile utilizzare un'azione bonus per rafforzare se stessi con l'esperienza di vita dell'anima, fare il vostro prossimo tiro di attacco, controllo di abilità, o salvare gettare con vantaggio. Se non si utilizza questo beneficio prima dell'inizio del vostro turno successivo, è perso.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"11\"> <span class=\"entry-title-inner\">Occhi dei Morti.</span></span> <p>È possibile utilizzare un'azione per nominare un posto che l'umanoide ha visto nella vita, che crea un sensore invisibile da qualche parte in quel luogo se è sul piano dell'esistenza attualmente in corso. Il sensore rimane per tutto il tempo che si concentra, fino a 10 minuti (come se si stesse concentrando su un incantesimo). Ricevete informazioni visive e uditive dal sensore come se foste nel suo spazio utilizzando i vostri sensi.</p><div class=\"rd__spc-inline-post\"></div></div><p>Una creatura che può vedere il sensore (come uno che utilizza @spell[vedere invisibility] o @sense[truesight]) vede un'immagine traslucida del tormentato umanoide la cui anima è in gabbia.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "reaction",
+      "condition": "which you take when a humanoid you can see within 60 feet of you dies",
+      "value": 1
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 6,
+    "school": "nec",
+    "materials": {
+      "value": "a tiny silver cage worth 100 gp",
+      "consumed": false,
+      "cost": 100,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "heal",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "healing": {
+          "number": 2,
+          "denomination": 8,
+          "bonus": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "soul-cage",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/death/skull-flames-white-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "XGE",
+      "hash": "soul%20cage_xge",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        }
+      },
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "3qkr3aZd89RWThQk"
+}

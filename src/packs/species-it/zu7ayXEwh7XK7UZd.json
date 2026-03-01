@@ -1,0 +1,168 @@
+{
+  "name": "Castori",
+  "type": "race",
+  "img": "assets/historia/castori.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Anche se fossero nobili e potessero trascorrere le loro giornate nell'agio e nell'ozio, i Castori sceglierebbero comunque di svolgere qualche tipo di lavoro manuale. Amano ogni fase del processo necessario per creare qualcosa, dal design alle ultime delicate finiture, ma è la costruzione vera e propria ad affascinarli. Che siano frutto di tradizione familiare o di predisposizione naturale, i Castori sono ottimi artigiani. Affidabili ed efficienti, ma pur sempre estrosi, questi Roditori hanno successo in ogni campo, ma è nella lavorazione del legno che raggiungono la loro eccellenza. Il duro lavoro non li spaventa; intellettualmente ma soprattutto a livello fisico sono disposti a spendere molto tempo e risorse nella ricerca e progettazione delle migliori soluzioni ad ogni problema. Non credono nei rimedi temporanei e preferiscono sempre risalire alla causa principale dei problemi per risolverli una volta per tutte. Con amici e amanti sono altrettanto metodici, preferendo relazioni stabili, durature e profonde che hanno devotamente sviluppato nel tempo.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento delle abilità Punteggi.</strong></em> </span><span class=\"fontstyle2\">Il tuo punteggio di </span><span class=\"fontstyle0\">Intelligenza </span>aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Forza </span>aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un roditore raggiunge la maturità intorno ai 12 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 50 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em> La tua velocità base sul terreno è di 25 piedi e la tua velocità di nuoto è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione.</strong></em> </span><span class=\"fontstyle2\">Un castoro può raggiungere un'altezza compresa tra 1,1 metri </span><span class=\"fontstyle0\">e 1,4 metri e pesano tra 40 e 70 kg. La tua taglia è Media.</span></p><p><span class=\"fontstyle0\"><em><strong>Maestro artigiano.</strong></em> </span><span class=\"fontstyle2\">Hai esperienza negli strumenti da muratore e da falegname.</span></p><p><span class=\"fontstyle0\"><em><strong>Cultura degli artigiani.</strong></em> </span><span class=\"fontstyle2\">Hai esperienza in un artigiano strumento di tua scelta.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Scurovisione.</strong></em></span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse in penombra. Non sei in grado di distinguere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Udito}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.5zt3WRF8SU4FNKqd]{Gnawer}</span></p><p><span class=\"fontstyle3\">@Compendium[world.species-features.35zO6haLD4XxUfaz]{Gnawer migliorato}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.E3qmVZ2RdTAiC6md]{Adattamento al freddo}</span></p><p><span class=\"fontstyle3\">@Compendium[world.species-features.wvPpzsf2dQ1uAToM]{Lavoratore instancabile}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Architetto (Prey):</strong></em></span><span class=\"fontstyle4\">\"Posso ottenere risultati duraturi e resistenti al cambiamento\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, leale:</strong></em> </span><span class=\"fontstyle2\">\"Mantengo sempre la parola data\".</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "78",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "8d4ZZAtKivHxtdAh",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 2,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "kCRxWwwJYEf3nTgl",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "n80FcJj4wOjWFuTK",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "0OTOojHYDpWy2UZX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.5zt3WRF8SU4FNKqd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.35zO6haLD4XxUfaz",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.E3qmVZ2RdTAiC6md",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.wvPpzsf2dQ1uAToM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "mhYg8vwnKoYKS4WS",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art"
+              ]
+            }
+          ],
+          "grants": [
+            "tool:art:carpenter",
+            "tool:art:woodcarver"
+          ],
+          "mode": "expertise"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 30,
+      "walk": 25,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Rodenti",
+      "subtype": ""
+    },
+    "identifier": "beavers"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737371510132,
+    "modifiedTime": 1739475241198,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "zu7ayXEwh7XK7UZd"
+}

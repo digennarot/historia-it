@@ -23,9 +23,30 @@
       "system": "dnd5e"
     },
     {
+      "name": "ventures-it",
+      "label": "Ventures (IT)",
+      "path": "packs/ventures-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "factions-it",
+      "label": "Factions (IT)",
+      "path": "packs/factions-it",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
       "name": "items-it",
       "label": "Items (IT)",
       "path": "packs/items-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "species-it",
+      "label": "Species (IT)",
+      "path": "packs/species-it",
       "type": "Item",
       "system": "dnd5e"
     },
@@ -51,31 +72,10 @@
       "system": "dnd5e"
     },
     {
-      "name": "species-it",
-      "label": "Species (IT)",
-      "path": "packs/species-it",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
       "name": "spells-it",
       "label": "Spells (IT)",
       "path": "packs/spells-it",
       "type": "Item",
-      "system": "dnd5e"
-    },
-    {
-      "name": "ventures-it",
-      "label": "Ventures (IT)",
-      "path": "packs/ventures-it",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
-      "name": "factions-it",
-      "label": "Factions (IT)",
-      "path": "packs/factions-it",
-      "type": "JournalEntry",
       "system": "dnd5e"
     }
   ]

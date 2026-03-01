@@ -1,0 +1,158 @@
+{
+  "name": "Gatti",
+  "type": "race",
+  "img": "assets/historia/gatti.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">La preferenza dei gatti per le aree urbane è dovuta essenzialmente a un motivo: il mare di opportunità che queste aree offrono. Questi Felidi tendono a formare piccole \"società all'interno di una società\", e tali gruppi, siano essi bande criminali, gilde o famiglie, sono spesso in costante conflitto per avere la meglio a vicenda. L’individualismo e l’ambizione felina, in un contesto del genere, vengono premiati. Anche il Gatto più miserabile, se non si lascia trattenere dagli scrupoli e sfrutta la sua intelligenza e astuzia, può ribaltare l'ordine costituito e raggiungere i vertici della ricchezza e del prestigio a cui aspira la maggior parte dei membri di questa specie. Ogni gatto è naturalmente dotato di acume, prudenza, una memoria prodigiosa, insieme alla consapevolezza di dove inserirsi nei giochi di potere (sia nella cerchia più ristretta delle famiglie malavitose che nei corridoi dorati del palazzo del Governatore) e un notevole fascino personale. Allo stesso tempo si trovano spesso nella posizione in cui queste abilità si rivoltano contro di loro, rendendoli paranoici, nevrotici e ossessionati dal sospetto di diventare vittime dei loro stessi schemi. Una sensazione che negli ambienti felini non è sempre del tutto infondata… <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo punteggio di Destrezza aumenta di 2 e il tuo punteggio di Carisma aumenta di 1. Un Felide raggiunge la maturità intorno ai 14 anni e io</span><span class=\"fontstyle0\">sono immediatamente considerati indipendenti. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base sul terreno è 9 metri.</p><p><span class=\"fontstyle0\"><em><strong>Taglia.</strong></em></span>Un gatto può raggiungere un'altezza compresa tra 4 e 5 <span class=\"fontstyle0\">piedi e pesare tra 65 e 175 libbre.</span>  <span class=\"fontstyle2\">La tua taglia è Media.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Agilità felina.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nelle abilità Acrobazia e Furtività.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Tranquillo.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nella Persuasione abilità.</span> </p><p><span class=\"fontstyle0\"><em><strong>Scurovisione. </strong></em></span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse in penombra. Non riesci a distinguere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.o6oG8Je6mYPytdqr]{Claws}</span></p><p>@Compendium[world.species-features.I4p677s9Sum8Tkt5]{Quiet Step}</p><p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Udito acuto}</p><p>@Compendium[world.species-features.wH3Aqt11rrmzoJp9]{Memoria associativa}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.6vp0Xs3brN8NAcWh]{Caduta controllata}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Indipendenza (Predatore): </strong></em></span><span class=\"fontstyle4\">\"Solo io decido il mio destino\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, Io, me stesso e io: </strong></em></span><span class=\"fontstyle2\">“L'unico che deve essere sempre rispettato sono io”.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "67",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "DbwlD9D9HVMTsc8b",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "j48mdCp4QccAf5R4",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "vLSUgjlbdz1gk2c7",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "7G2PmfUUSRNxdqlF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.o6oG8Je6mYPytdqr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.I4p677s9Sum8Tkt5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.wH3Aqt11rrmzoJp9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.6vp0Xs3brN8NAcWh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "UwSzUlhPpsFzfkjO",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:acr",
+            "skills:per",
+            "skills:ste"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Felidi",
+      "subtype": ""
+    },
+    "identifier": "cats"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737382454318,
+    "modifiedTime": 1739534133705,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Df9zyu5Nv8THBCR7"
+}

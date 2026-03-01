@@ -1,0 +1,161 @@
+{
+  "name": "Fortezza intellettuale",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Per tutta la durata, tu o una creatura disponibile che puoi vedere all'interno della gamma ha resistenza ai danni psichici, così come vantaggio su Intelligenza, Saggezza e Charisma getti di risparmio.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una scanalatura di 4° livello o superiore, è possibile bersaglio di una creatura aggiuntiva per ogni livello di slot superiore al 3°. Le creature devono essere entro 30 piedi l'uno dall'altro quando li becchi.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 3,
+    "school": "abj",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "intellect-fortress",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "TCE",
+      "hash": "intellect%20fortress_tce",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "HSbx76KqwM5rkKpr"
+}

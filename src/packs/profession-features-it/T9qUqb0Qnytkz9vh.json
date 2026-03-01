@@ -1,0 +1,63 @@
+{
+  "name": "Miglioramento del punteggio di capacità o FEAT",
+  "type": "feat",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>È possibile aumentare un punteggio di abilità di vostra scelta di 2, o è possibile aumentare due punteggi di abilità di vostra scelta di 1. Come normale, non è possibile aumentare un punteggio di abilità superiore a 20 utilizzando questa funzione.</p><p>In alternativa, puoi scegliere una tariffa invece di aumentare i tuoi punteggi di abilità.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "ability-score-improvement-or-feat",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "effects": [],
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898722794,
+    "modifiedTime": 1760898722794,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "T9qUqb0Qnytkz9vh"
+}

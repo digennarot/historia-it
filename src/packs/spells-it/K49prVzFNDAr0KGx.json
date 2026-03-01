@@ -1,0 +1,162 @@
+{
+  "name": "Fiamme di controllo",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli la fiamma non magica che puoi vedere all'interno della gamma e che si adatta a un cubo di 5 piedi. Lo colpisci in uno dei seguenti modi:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Si espande istantaneamente la fiamma 5 piedi in una direzione, a condizione che il legno o altro combustibile è presente nella nuova posizione.</li><li class=\"rd__li\">Spegnete istantaneamente le fiamme all'interno del cubo.</li><li class=\"rd__li\">Doppio o dimezzare l'area di luce luminosa e luce dimmersa dalla fiamma, cambiare il suo colore, o entrambi. Il cambiamento dura per 1 ora.</li><li class=\"rd__li\">Si causano forme semplici, come la forma vaga di una creatura, un oggetto inanimato, o un luogo, per apparire all'interno delle fiamme e animare come ti piace. Le forme durano per 1 ora.</li></ul><p>Se si lancia questo incantesimo più volte, si può avere fino a tre effetti non istantaneamente creati da esso attivo alla volta, e si può respingere tale effetto come un'azione.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "cube",
+        "size": "5",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 0,
+    "school": "trs",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "somatic"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "control-flames",
+    "method": "spell",
+    "prepared": 2
+  },
+  "img": "icons/magic/fire/flame-burning-hand-orange.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "XGE",
+      "hash": "control%20flames_xge",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "K49prVzFNDAr0KGx"
+}

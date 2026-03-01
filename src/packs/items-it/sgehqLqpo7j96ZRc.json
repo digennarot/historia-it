@@ -1,0 +1,54 @@
+{
+  "name": "Bastone di Incenso",
+  "type": "loot",
+  "img": "icons/sundries/lights/candle-unlit-bone-white.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Quando i blocchi di incenso non possono essere utilizzati o è necessaria un'alternativa più economica, la gente spesso li usa per profumare l'aria, sia per scopi piacevoli o religiosi.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 151",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 5,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "stick-of-incense"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "sgehqLqpo7j96ZRc"
+}

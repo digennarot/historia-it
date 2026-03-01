@@ -1,0 +1,63 @@
+{
+  "name": "Impresa: Patrimonio",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Non è facile regnare su un impero esteso<br />come il suo e ispirare obbedienza<br />a popoli e rivali diversi.<br />Tuttavia, Muhur ci è riuscito.</strong></span></p><p><span class=\"fontstyle0\">Far parte di un'orgogliosa dinastia la cui identità e attività si tramandano di generazione in generazione non è facile. Molti giovani non vedono come propria l’eredità lasciata loro, vivendola come un’imposizione, e spesso sentendosi imprigionati in un futuro che non gli appartiene, schiacciati dal peso di una tradizione che detestano. Niente di tutto ciò si applica a coloro che scelgono l'impresa Heritage.</span></p><p><span class=\"fontstyle0\">Stando sulle spalle orgogliose dei giganti che li hanno preceduti, coloro che dedicano la propria vita a onorare il proprio Heritage lo percepiscono come una vocazione e desiderano non solo realizzarlo, ma elevarlo ulteriormente. La responsabilità non li spaventa. La formazione ricevuta in gioventù li rende sicuri delle proprie capacità e il fuoco che arde nei loro cuori li illumina e conforta anche nei momenti più difficili. Spesso chi intraprende questa ardua impresa ha nel suo passato un mentore che ha giocato un ruolo fondamentale nella sua formazione e la cui influenza guida ancora oggi molte delle sue scelte, a volte è d’accordo con lui, a volte no. <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p><p>@Compendium[world.ventures.pjXTJOY15oy0xYEh]{Prominence: Luck Does Not Exists}</p><p><span class=\"fontstyle0\"><strong>ENDOWMEN</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">Un simbolo della tua eredità, che hai ricevuto dal tuo mentore e chissà in quali mani finirà.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Vestiti di valore, un libro che racconta la storia della tua eredità e la capacità di scegliere tra veicoli (acqua), veicoli (terra) o strumenti calligrafici.</span></li></ul><p><span class=\"fontstyle3\"><strong>Competenza: </strong></span><span class=\"fontstyle1\" style=\"color:#000000\">strumento o arma scelto<br /></span><span class=\"fontstyle3\"><strong>Conio:</strong> </span><span class=\"fontstyle1\" style=\"color:#000000\">15</span></p><p><span class=\"fontstyle0\"><strong>DESCRIPTORI<br /></strong></span><span class=\"fontstyle1\"><em><strong>Ideale</strong></em>. </span><span class=\"fontstyle3\">Come vuoi lasciare il segno nella storia di cui fai parte? Sarai un punto di svolta o un esempio perfetto?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Chi ti ha mostrato la tua eredità? Qual è il tuo rapporto con questa persona?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Difetto</strong></em>. </span><span class=\"fontstyle3\">Quali tradizioni del tuo patrimonio non puoi fare tue? Cosa non sei disposto a fare?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Tratto caratteriale. </strong></em></span><span class=\"fontstyle3\">Cosa ti ha detto il tuo mentore, o chi per lui,<br />quando hai intrapreso una missione?</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 196",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.ventures.pjXTJOY15oy0xYEh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "startingEquipment": [],
+    "identifier": "venture-heritage"
+  },
+  "img": "icons/magic/control/control-influence-crown-yellow.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899109155,
+    "modifiedTime": 1760899109155,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "xDGINo1zymssbDM2"
+}

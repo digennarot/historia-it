@@ -1,0 +1,54 @@
+{
+  "name": "Abacus",
+  "type": "loot",
+  "img": "icons/commodities/treasure/broach-jewel-gold-blue.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>L'abaco, chiamato anche una cornice di conteggio, è uno strumento di calcolo.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 150",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "abacus"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ZwXu8EUx8P1Ums2V"
+}

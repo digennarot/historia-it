@@ -1,0 +1,54 @@
+{
+  "name": "Scala (10 piedi)",
+  "type": "loot",
+  "img": "icons/sundries/misc/ladder.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Una scala lunga 10 piedi, robusta o riscatta come la mano che ha realizzato o bodged insieme.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 150",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 25,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "ladder-10-foot"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716151,
+    "modifiedTime": 1760898716151,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "G7MR54ivWXopWXKC"
+}

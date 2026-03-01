@@ -1,3 +1,25 @@
-.DS_Store
+# Node.js
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
 Thumbs.db
+
+# Project specific
+*.zip
+*.tar.gz

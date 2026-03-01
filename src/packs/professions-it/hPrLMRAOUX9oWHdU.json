@@ -1,0 +1,208 @@
+{
+  "name": "Healer",
+  "type": "subclass",
+  "img": "icons/magic/life/cross-yellow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">La misericordia divina trova una delle sue espressioni più puri nelle mani del Guaritore, che tratta i mali, neutralizza i veleni e guarisce le ferite con la loro fede compassionevole e profonda. Molto amati anche dai non credenti, che non negherebbero mai la comprovata efficacia del loro lavoro, i guaritori sono una presenza comune sui campi di battaglia; qui, la fortezza della loro fede permette loro di sfidare la morte e portare aiuto rapido ai feriti per i quali il loro aspetto può essere più gradito di quello di un dio.<br/></span></p><p><span class=\"fontstyle2\"><strong>MAGICO DEL HEALER</strong><br/></span><span class=\"fontstyle0\">La tua magia viene dalla comprensione di altre persone. Ogni 4 livelli le slot di incantesimo aumentano di livello: a partire dal 5 ° livello sono slot di secondo livello, al 9 ° livello sono slot di terzo livello, a livello sono 4 ° livello e al 17 ° livello sono 5 ° livello. Allo stesso modo, aumenta anche il numero massimo di incantesimi.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 160",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "healer",
+    "classIdentifier": "priest",
+    "advancement": [
+      {
+        "_id": "2ImGJlraZIJF6nxp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.YvwbH1fccnQYANSi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "q9eN1PM5kyB5GOxs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.QB6zgA3vviiQskW3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.profession-features.hBTIxa26FCzyJHXU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "GFTpaKckVtMyLM2s",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.Ld7oKtwsLjTRhjjE",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "pdfqwcBNdFkW7Je8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.8GpWB7dXcwE2mWZN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8APYRbYHjirLEBJB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.GudNRbdIBA4Om6d4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8pcpDZJZ7I39leKh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.hiJ8LucPZk9L1GLn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "hPrLMRAOUX9oWHdU"
+}

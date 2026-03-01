@@ -1,0 +1,63 @@
+{
+  "name": "Impresa: Rivoluzione",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Preso in una gabbia, piccolo e squarciato, preso da una<br />furia ardente, uccise la guardia con artigli e zanne, perché<br />il folle aveva avuto l'ardire di offendere quella famiglia<br />che aveva perso in battaglia.<br />Gli altri schiavi, trascinati dall'ardore del<br />piccolo ribelle, seguivano con grande entusiasmo. Scoppiò la rivolta,<br />molti riuscirono a scappare: di Torquato,<br />il giovane eroe coraggioso, non riuscirono nemmeno a cogliere la sua ombra.</strong></span></p><p><span class=\"fontstyle0\">Il potere è una cosa misteriosa, a seconda di come viene utilizzato può cambiare volto come il burattino di un mummer. Nelle mani di un sovrano giusto alleggerisce i pesi, stabilisce leggi giuste e diventa uno strumento di prosperità: è come l’aratro del contadino, pesante da trasportare ma senza di esso non si potrebbe raccogliere il raccolto. Quando diventa la falce del mietitore molti storgono il naso, ma sanno che devono avere pazienza, perché senza la falce non si può raccogliere ciò che si è seminato. Ma quando diventa la macina di un mulino la cui farina finisce solo nelle tasche dei mugnai, la ribellione è l'unica via d'uscita</span></p><p><span class=\"fontstyle0\">Chi sceglie l'impresa della Rivoluzione non ha intenzione di passare un minuto di più legato a quella macina e si propone di liberare chi gli sta intorno da questo giogo infame. Dotati di intuito e sempre pronti all'azione, i seguaci di questa impresa sono coraggiosi non perché non sentano paura, ma perché l'ideale di cambiamento che perseguono li motiva oltre ogni cautela o riserva.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.r0DNn20HVcJNu1LF]{Prominence: Nose for Resentment}</span></p><p><span class=\"fontstyle0\"><strong>DOTAZIONE</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">Un cameo con l'immagine del motivo per cui combatti.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Abbigliamento comune, uno strumento artigianale a tua scelta.</span></li></ul><p><span class=\"fontstyle3\"><strong>Competenza: </strong></span><span class=\"fontstyle1\" style=\"color:#000000\">strumento scelto.<br /></span><span class=\"fontstyle3\"><strong>Conio: </strong>10</span></p><p><span class=\"fontstyle0\"><strong>DESCRIPTORI</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideale</strong></em>. </span><span class=\"fontstyle3\">Qual ​​è il motivo che ti fa muovere il mondo? Come dovrebbe essere un mondo giusto?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Chi c'è al tuo fianco nel mondo che vuoi costruire? Chi è al tuo fianco mentre lo costruisci?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Difetto</strong></em>. </span><span class=\"fontstyle3\">Qual ​​è il limite che hai paura di oltrepassare?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Tratto caratteriale.</strong></em> </span><span class=\"fontstyle3\">Qual ​​è il tuo grido di battaglia? Come ti chiamano i tuoi nemici?</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 198",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.ventures.r0DNn20HVcJNu1LF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "startingEquipment": [],
+    "identifier": "venture-revolution"
+  },
+  "img": "icons/sundries/flags/banner-standard-tattered-red.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899109155,
+    "modifiedTime": 1760899109155,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "A50Zlc4VpAQqzr4D"
+}

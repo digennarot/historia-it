@@ -1,0 +1,150 @@
+{
+  "name": "Pavoni",
+  "type": "race",
+  "img": "assets/historia/pavone.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">I pavoni sognano un tempo che non esiste più, o che forse non è mai esistito: idealisti, innamorati di una cavalleria fatta di nobili gesta, amore cortese e devozione, sono convinti della loro nobiltà. Se questo a volte li rende un po' ridicoli agli occhi degli altri Aviani, che li considerano degli sciocchi illusi, i Pavoni non si lasciano distrarre dalle loro convinzioni, che li spingono ad essere veramente onorevoli e valorosi, anche quando la loro indole naturale li indurrebbe a scappare. Un altro fattore che purtroppo non contribuisce alla credibilità di questi Ruspei presso l’opinione pubblica è l’attenzione maniacale che dedicano al proprio aspetto, soprattutto i maschi della specie: vanitosi e dotati di un senso dello stile eccessivo e teatrale, danno un peso enorme al loro aspetto fisico, sia nei confronti di se stessi che degli altri. Va detto però che con i loro modi squisitamente educati e la loro livrea sgargiante, i Pavoni sono magnetici ed impossibili da ignorare. Cortesi e pieni di energia, i Pavoni amano raccontare le loro avventure ovunque trovino un pubblico da applaudire e intrattenere, anche tra gli spietati nell'angolo più buio di una famigerata taverna. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">La tua </span><span class=\"fontstyle0\">Costituzione </span>il punteggio aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Carisma</span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Ruspei raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base al suolo è di 9 metri e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un pavone può raggiungere un'altezza compresa tra 4 piedi e 1/4 e <span class=\"fontstyle0\">5 piedi e 1/4 e pesare tra 65 e 110 libbre.</span>  La tua taglia è Media. Gli esemplari maschi di Ruspei sono in media <span class=\"fontstyle0\">più grandi delle femmine.</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prensile Gambe}</span></p><p>@Compendium[world.species-features.DXFYqjVUtn7isXQ0]{Rural Bond}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.KLUpTp84biwLa7kn]{Narcissist}</span></p><p>@Compendium[world.species-features.ZRadhCkmL5C2sXjX]{Volo limitato}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.NT1pq3nHCIdCuQhJ]{Protettivo}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.3lLHX34Kj2cQa4HO]{Affascinante}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di famiglia, abitudini (Prey):</strong></em> </span><span class=\"fontstyle4\">“Apprezzo la routine quotidiana e sono contrario al cambiamento”.</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di Specie, Vanitoso:</strong></em> “</span><span class=\"fontstyle2\">Mi metto sempre al centro dell'attenzione”</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "114",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "lr4aAavYCpCShIwq",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 0,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "L7kWvYvMkHFEIQgo",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "1W23ip90pQJOG4Vj",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "5yS6mdxFRqfM3s0s",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DXFYqjVUtn7isXQ0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.KLUpTp84biwLa7kn",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ZRadhCkmL5C2sXjX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.NT1pq3nHCIdCuQhJ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.3lLHX34Kj2cQa4HO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruspei",
+      "subtype": ""
+    },
+    "identifier": "peacocks"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1738437757449,
+    "modifiedTime": 1739535412178,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "4YB7dbB8B3YqO5UX"
+}

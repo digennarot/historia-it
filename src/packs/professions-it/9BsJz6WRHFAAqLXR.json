@@ -1,0 +1,150 @@
+{
+  "name": "Tycoon",
+  "type": "subclass",
+  "img": "icons/commodities/metal/ingot-stack-steel-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Se il collezionista si preoccupa di rarità e il contrabbandiere non permette alle guardie di scoprire i loro magazzini segreti, il tycoon si preoccupa solo di ciò che il commercio ha da offrire: la generazione di nuove ricchezze, l'apertura di nuovi negozi, lo sviluppo di nuovi contatti. Efficacemente, questo tipo di commerciante mira a crescere la loro attività in ogni direzione. I ticooni desiderano il successo e sono disposti a correre un sacco di rischi per raggiungerlo; d'altra parte, è noto che i più incerti di investimenti sono spesso quelli che producono i maggiori profitti.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 157",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "tycoon",
+    "classIdentifier": "merchant",
+    "advancement": [
+      {
+        "_id": "o3wqBVIma382TF7r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.K9GAkGenf0csGcp6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "5c5zA4Bu2ajO6nUT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.AuDECTXxfdFPIKLv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "18BIP5F29UCjx37H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.4bSpI85FAKckxWPE",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "LJQgy9yUvTKXt3UK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.HQijfHu7J3HTpAxp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "9BsJz6WRHFAAqLXR"
+}

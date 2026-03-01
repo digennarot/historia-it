@@ -1,0 +1,163 @@
+{
+  "name": "Circolo Teletrasporto",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Mentre si lancia l'incantesimo, si disegna un cerchio di 10 piedi-diametro sul terreno inscritto con sigils che collegano la vostra posizione a un cerchio di teletrasporto permanente di vostra scelta la cui sequenza di sigil si conosce e che è sullo stesso piano di esistenza come voi. Un portale shimmering si apre all'interno del cerchio che hai disegnato e rimane aperto fino alla fine del tuo prossimo turno. Qualsiasi creatura che entra nel portale appare istantaneamente entro 5 piedi del cerchio di destinazione o nello spazio non occupato più vicino se quello spazio è occupato.</p><div class=\"rd__spc-inline-post\"></div><p>Molti templi, corporazioni e altri luoghi importanti hanno cerchi di teletrasporto permanenti inscritto da qualche parte all'interno dei loro confini. Ogni cerchio include una sequenza di sigil unica, una stringa di rune magiche disposte in un particolare schema. Quando si ottiene la prima capacità di lanciare questo incantesimo, si impara le sequenze di sigil per due destinazioni sul piano materiale, determinato dal DM. Puoi imparare ulteriori sequenze di sigil durante le tue avventure. È possibile commettere una nuova sequenza di sigil a memoria dopo lo studio per 1 minuto.</p><p>È possibile creare un cerchio di teletrasporto permanente gettando questo incantesimo nella stessa posizione ogni giorno per un anno. Non è necessario utilizzare il cerchio per teletrasportare quando si lancia l'incantesimo in questo modo.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "type": "radius",
+        "size": "5",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "10",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 5,
+    "school": "con",
+    "materials": {
+      "value": "rare chalks and inks infused with precious gems worth 50 gp, which the spell consumes",
+      "consumed": true,
+      "cost": 50,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "teleportation-circle",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/water/snowflake-ice-gray.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "PHB",
+      "hash": "teleportation%20circle_phb",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "3yJW0riFacJrCMJc"
+}

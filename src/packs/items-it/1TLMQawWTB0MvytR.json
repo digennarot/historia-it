@@ -1,0 +1,54 @@
+{
+  "name": "Sledgehammer",
+  "type": "loot",
+  "img": "icons/tools/smithing/hammer-sledge-steel-grey.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Uno strumento con una grande, piatta, spesso testa di metallo, attaccato a una maniglia lunga.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 150",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "sledgehammer"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716151,
+    "modifiedTime": 1760898716151,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "1TLMQawWTB0MvytR"
+}

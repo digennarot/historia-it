@@ -1,0 +1,148 @@
+{
+  "name": "Discorso motivazionale",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p class=\"rd__quote-line rd__quote-line--last\">“<i>Una volta ho sentito un discorso motivazionale di Jim e sono stati i peggiori novanta secondi della mia vita. Che cosa vede Omin in lui, comunque?</i>”</p><p><span class=\"rd__quote-by\">— Noce Dankgrass</span></p><div class=\"rd__spc-inline-post\"></div><p>Si rivolge agli alleati, al personale, o agli innocenti spettatori per esortarli e ispirarli alla grandezza, se hanno qualcosa di cui eccitarsi o meno. Scegli fino a cinque creature all'interno della gamma che possono sentirti. Per la durata, ogni creatura colpita guadagna 5 punti di successo temporanei e ha vantaggio su getti di salvataggio della Saggezza. Se una creatura colpita è colpito da un attacco, ha vantaggio sul prossimo rotolo di attacco che fa. Una volta che una creatura colpita perde i punti di successo temporanei concessi da questo incantesimo, l'incantesimo finisce per quella creatura.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"16\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si digita questo incantesimo utilizzando una scanalatura di 4° livello o superiore, i punti di successo temporanei aumentano di 5 per ogni livello di slot superiore al 3°.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "AI",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 3,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "motivational-speech",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/sundries/flags/banner-flag-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "AI",
+      "hash": "motivational%20speech_ai",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "YwWVQNGhliOBlWyv"
+}

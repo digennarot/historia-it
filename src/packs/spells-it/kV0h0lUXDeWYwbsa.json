@@ -1,0 +1,164 @@
+{
+  "name": "Forma mondiale",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Uttering un incantesimo, si disegna la magia dei piani inferiori o piani superiori (la vostra scelta) per trasformarsi. Ottieni i seguenti vantaggi fino alla fine dell'incantesimo:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Sei immune a danni da fuoco e veleno (Piano a terra) o danni radianti e necrotici (Piano a trazione).</li><li class=\"rd__li\">Sei immune alla condizione @condizione[poisoned] (Piani bassi) o la condizione @condizione[charmed] (Piazzo superiore).</li><li class=\"rd__li\">Le ali spettrali appaiono sulla schiena, dando una velocità di volo di 40 piedi.</li><li class=\"rd__li\">Hai un +2 bonus per AC.</li><li class=\"rd__li\">Tutti gli attacchi di arma sono magici, e quando si effettua un attacco di arma, è possibile utilizzare il modificatore di abilità di incantesimo, invece di Forza o Dexterity, per l'attacco e rotolo di danno.</li><li class=\"rd__li\">Si può attaccare due volte, invece di una volta, quando si prende l'azione Attacco a turno. Ignori questo vantaggio se hai già una funzione, come Extra Attack, che ti dà attacchi extra.</li></ul></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA20SMT",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "self",
+        "count": "",
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "self"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 6,
+    "school": "trs",
+    "materials": {
+      "value": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "otherworldly-form",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/control/silhouette-hold-change-green.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UA2020SpellsAndMagicTattoos",
+      "hash": "otherworldly%20form_ua2020spellsandmagictattoos",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "kV0h0lUXDeWYwbsa"
+}

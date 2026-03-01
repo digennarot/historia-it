@@ -1,0 +1,130 @@
+{
+  "name": "Capre",
+  "type": "race",
+  "img": "assets/historia/capre.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Le capre sono creature che non si lasciano intimorire dal fallimento. Infatti, ben convinti che il loro punto di vista o modo di affrontare un problema sia quello giusto, sbatteranno la testa (sia metaforicamente che letteralmente) contro un ostacolo un'infinità di volte prima di accettare di aver commesso un errore. Testardi, intraprendenti e coraggiosi, questi Ruminsi amano mettersi alla prova, e cercano di superare le avversità grazie alla loro incrollabile determinazione. Le capre amano avere ragione, e non c'è niente che le ferisca più di un “te l'avevo detto” ben piazzato; non sarà facile farsi perdonare dopo un simile affronto, in quanto le Capre non dimenticano facilmente le umiliazioni subite che, ai loro occhi, possono derivare anche da situazioni apparentemente innocue. Sono anche curiosi, molto agili e dotati di straordinaria coordinazione ed equilibrio, caratteristiche che li rendono ottimi esploratori, guide lungo i sentieri di montagna e alpinisti esperti. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">La tua </span><span class=\"fontstyle0\">saggezza </span>il punteggio aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Destrezza</span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Ruminsi raggiunge la maturità intorno all'età <span class=\"fontstyle0\">di 14 anni ed è immediatamente considerato indipendente. Hanno una vita media di circa 80 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em> La tua velocità base sul terreno è di 9 metri.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Una capra può raggiungere un'altezza compresa tra 4 e 6 <span class=\"fontstyle0\">piedi e pesare tra 65 e 155 libbre. </span><span class=\"fontstyle2\">La tua taglia è Media.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Esploratore.</strong></em></span><span class=\"fontstyle2\">Scegli l'abilità Natura o Sopravvivenza. Ottieni competenza in quell'abilità.</span></p><p><span class=\"fontstyle0\"><em><strong>Scurovisione</strong></em>. </span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse in penombra. Non sei in grado di discernere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p>@Compendium[world.species-features.f8BD0svXngQPjPsa]{Careful}</p><p>@Compendium[world.species-features.E3qmVZ2RdTAiC6md]{Adattamento al freddo}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.1zP6sWB6jFxxAwSr]{Climber}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.cdqEyJn6NwvJGtut]{Horn Attack}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.6ltl18WnVt1LmmQQ]{Carica}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.Q4KjSUFuM5qW3KXo]{Testata}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Onorevole (Preda):</strong></em> </span><span class=\"fontstyle4\">\"Seguo un codice di regole chiaramente definite\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, ostinazione:</strong></em> </span><span class=\"fontstyle2\">\"Perseguo sempre un obiettivo impossibile\".</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "73",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "HszzvSwATuj9bSeW",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "GVuWIWHhrQUtf9K1",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "ZTKt5lQbam3I9Vtt",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "6ReHMv7Qmw96nytK",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:nat",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruminsi",
+      "subtype": ""
+    },
+    "identifier": "goats"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737489632399,
+    "modifiedTime": 1739534838598,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "oCmUVqaQiPCQIRvf"
+}

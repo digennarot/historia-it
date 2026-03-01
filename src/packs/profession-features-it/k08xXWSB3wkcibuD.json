@@ -1,0 +1,212 @@
+{
+  "name": "Il tocco dell’artista",
+  "type": "feat",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">A partire dal secondo livello, si inizia a rendere la vostra arma più unica e speciale, adattandola al proprio stile. È possibile aggiungere un miglioramento alla vostra arma da fuoco, e ulteriori aggiornamenti a 5, 11 e 17 ° livelli.</span> </p>\n<p><strong>MIGLIORAZIONI</strong></p>\n<p><strong>Bayonet</strong><br/><em>Fucile solo</em><br/><span class=\"fontstyle0\">L'arma personalizzata può essere utilizzata come un'arma melee in cui si è competenti, che infligge 1d8 danni piercing e applica gli effetti di Lethal Shooter.</span> </p>\n<p><strong>Lungo barile</strong><br/><span class=\"fontstyle0\">L'arma personalizzata diventa difficile da nascondere, ma offre una maggiore precisione, aumentando il colpo di mezzo bonus Intelligence.</span></p>\n<p><span class=\"fontstyle0\"><strong>Proiettili perfetti</strong><br/></span><span class=\"fontstyle2\">L'arma personalizzata spara colpi più precisi ed efficaci. Quando il danno è arrotolato, ogni morire con un risultato inferiore al vostro modifier di intelligenza è considerato uguale al vostro modifier di intelligenza (minimo di 2).</span> </p>\n<p><span class=\"fontstyle0\"><strong>Struttura inversa</strong><br/></span><span class=\"fontstyle2\"><em>Pistola solo</em><br/></span><span class=\"fontstyle3\">La tua arma ha un rinforzo che la protegge in caso di problemi. In caso di malfunzionamento, si soffre solo una perdita di punti di colpo pari al danno normale dell'arma, senza modificatori, invece di un livello di esaurimento.</span> </p>\n<p><span class=\"fontstyle0\"><strong>Vasca da bagno</strong><br/></span><span class=\"fontstyle1\">Sparare con un'arma personalizzata ignora i vantaggi della copertura di destinazione.</span> </p>\n<p><span class=\"fontstyle1\"><span class=\"fontstyle0\"><strong>Bullet di frammentazione</strong><br/></span><span class=\"fontstyle2\">L'arma personalizzata consente di sparare una rosa di frammenti, colpire un bersaglio aggiuntivo entro 5 piedi del bersaglio iniziale. L'obiettivo secondario subisce solo una morte di un'arma.</span></span></p>\n<p><span class=\"fontstyle1\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><strong>Supercharger</strong><br/></span><span class=\"fontstyle1\">L'arma personalizzata ha un compartimento che consente di utilizzare una maggiore quantità di polvere da sparo in grado di causare, oltre al colpo, anche un effetto di luce accecante. L'obiettivo del colpo è disorientato fino alla fine del loro turno successivo e dovrà sottrarre il risultato di 1d6 su ogni colpo rotolo, o rotolo 1d6 per ogni controllo di abilità. Caricare il vano consuma munizioni aggiuntive e può essere ricaricato durante il normale ricarica.</span></span></span></p>\n<p><span class=\"fontstyle1\"><span class=\"fontstyle2\"><span class=\"fontstyle1\"><span class=\"fontstyle0\"><strong>Camera di combustione coperta</strong><br/></span><span class=\"fontstyle2\">Questo miglioramento impedisce alla polvere nera di bagnarsi, evitando così un malfunzionamento. Tuttavia, la manutenzione deve essere eseguita prima che possa essere utilizzata di nuovo, tipicamente durante un lungo riposo.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 166",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sapper Level 2",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "the-artists-touch",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898723204,
+    "modifiedTime": 1760898723204,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "k08xXWSB3wkcibuD"
+}

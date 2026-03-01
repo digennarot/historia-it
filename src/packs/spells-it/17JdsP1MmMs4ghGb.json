@@ -1,0 +1,161 @@
+{
+  "name": "Flock dei familiari",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Lei evoca temporaneamente tre familiari—spiriti che prendono forme animali di vostra scelta. Ogni familiare utilizza le stesse regole e opzioni per un familiare coniugato dall'incantesimo @spell[trova familiare]. Tutti i familiari coniugati da questo incantesimo devono essere lo stesso tipo di creatura (celestials, fey, o fiends; la vostra scelta). Se avete già un familiare coniugato dall'incantesimo @spell[trovare familiari] o mezzi simili, allora un meno familiari sono coniugati da questo incantesimo.</p><div class=\"rd__spc-inline-post\"></div><p>I familiari convocati da questo incantesimo possono comunicare telepaticamente con voi e condividere i loro sensi visivi o uditivi mentre sono entro 1 miglio di voi.</p><p>Quando si lancia un incantesimo con una gamma di tocco, uno dei familiari coniugati da questo incantesimo può consegnare l'incantesimo, come normale. Tuttavia, è possibile lanciare un incantesimo di tocco attraverso un solo familiare per turno.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si getta questo incantesimo utilizzando una scanalatura di 3° livello o superiore, si evoca un ulteriore familiare per ogni livello di slot superiore al 2 °.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "LLK",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "touch"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 2,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "flock-of-familiars",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "LLK",
+      "hash": "flock%20of%20familiars_llk",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "17JdsP1MmMs4ghGb"
+}

@@ -1,0 +1,134 @@
+{
+  "name": "Rossetti",
+  "type": "race",
+  "img": "assets/historia/rossetti.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Con il muso appuntito, grandi occhi dolci e lucenti e una bella pelliccia fulva, i Rossetti sono senza dubbio i Vespertili che meno soffrono dei pregiudizi che colpiscono i loro cugini e ne sono abbastanza consapevoli. Gli altri Vespertili spesso li guardano con diffidenza o addirittura con disprezzo per il trattamento di favore che ricevono. Sono socievoli, affabili e cercano ogni occasione per dimostrare di essere creature come tutte le altre. Amano intrattenere gli altri, soprattutto i cuccioli, e sono numerose le compagnie di Bardi Rossetti, musicisti e burattinai che viaggiano a bordo dei loro carri colorati. Si adattano senza lamentarsi a tutti gli stili di vita e niente li rende più felici della sensazione di essere accettati in una comunità. Il loro desiderio di inclusione li rende molto fiduciosi nei confronti di coloro che li trattano con gentilezza, il che purtroppo li rende anche facili da manipolare da parte di chi ha cattive intenzioni. Quando un Rossetto si rende conto di essere stato usato, soffre enormemente, ma non è in grado di tramare vendetta.</span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo punteggio di Carisma aumenta di 2 e la tua Forza </span>il punteggio aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Vespertili raggiunge la maturità intorno ai 18 anni <span class=\"fontstyle0\">ed è subito considerato indipendente. Hanno </span>una vita media di circa 60 anni.</p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em>  La tua velocità base sul terreno è di 20 piedi. La tua velocità di volo è di 30 piedi e la velocità di arrampicata di 20 piedi.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span><span class=\"fontstyle2\">Puoi raggiungere un'altezza compresa tra 1,2 e 1,6 </span><span class=\"fontstyle0\">metri e pesare tra 20 e 50 kg. </span>La tua taglia è Media.</p><p>@Compendium[world.species-features.8CrVZRX0THJGd3yb]{Aspetti comuni}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.3LN74J19a4TprTw9]{Ali membranose}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.nKnEbJYlulqr236O]{Sensibilità alla luce}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Udito acuto}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Notturno (Predatore):</strong></em> \"</span><span class=\"fontstyle4\">Preferisco agire senza essere visto.\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, socievole:</strong></em> </span><span class=\"fontstyle2\">\"Mi fido degli estranei\".</span></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "HCB",
+      "page": "73",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Z4nHjbl0c65V3ZW1",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 2
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "TMzZ5m4HBoigmrIS",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "rkVQ6f263kBv6Z8g",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "rbhFl93GY4FEp6H7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.8CrVZRX0THJGd3yb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.3LN74J19a4TprTw9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.nKnEbJYlulqr236O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": 20,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Vespertili",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739471666875,
+    "modifiedTime": 1739535744963,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "beBWtIUkIW4IPTWs"
+}

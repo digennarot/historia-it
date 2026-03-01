@@ -1,0 +1,146 @@
+{
+  "name": "Aironi",
+  "type": "race",
+  "img": "assets/historia/cicogna.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Gli aironi amano l'arte della guerra, ma la maggior parte di loro non ha mai impugnato un'arma né messo piede sul campo di battaglia. Questi saggi aviari sono guerrieri della mente quando attorno a un tavolo ricoperto di mappe e illuminato da una torcia, pianificano come e quando colpire. Strateghi nati, gli Aironi mettono a frutto il loro temperamento cauto, calcolatore e lungimirante. Anche quando non diventano effettivamente consiglieri militari, non mancano mai di pianificare attentamente la loro prossima mossa, siano essi mercanti di spezie o giocatori d'azzardo. A volte questa tendenza è aggravata dall'indecisione: è molto difficile per alcuni Aironi determinare, tra decine di scenari meticolosamente previsti, quale sia il migliore. Anche se non amano sporcarsi le mani, gli Aironi non sono né codardi né deboli; al contrario, quando non hanno scelta, sanno scatenare una forza rapida e nervosa che spesso sorprende gli avversari. Solitari e, secondo molti, molto freddi, questi Grarconi preferiscono la propria compagnia, ma prestano il loro aiuto se richiesto.</span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">punteggio di Destrezza </span> aumenta di 2 e il tuo <span class=\"fontstyle0\">Forza</span>il punteggio aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Grarconi raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è subito considerato indipendente. </span>Hanno una vita media di circa 60 anni.</p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La velocità base al suolo è di 25 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un airone può raggiungere un'altezza compresa tra 4 piedi e mezzo <span class=\"fontstyle0\">e 5 piedi e mezzo e pesare tra 55 e 90 libbre.</span> <span class=\"fontstyle2\">La tua taglia è media.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Vista acuta}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.DNDaDMkNoAimSb3i]{Volo prolungato}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.hRXn3XfsI394z3HY]{Preparazione meticolosa}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.pbgL9GCpZ24p8Ybd]{Passo di piuma}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Acquatico (Predatore): </strong></em></span><span class=\"fontstyle4\">\"Sono fluido come l'acqua che amo così tanto\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, paziente:</strong></em></span><span class=\"fontstyle2\">\"Credo che aspettare sia spesso preferibile all'azione.\"</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCP",
+      "page": "102",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "JjjQ6rdty0QvMwqX",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "DGMYWfRvMGjDc2qd",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "dSxiOBjbmIGrCVtk",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "RpplaoK5diMv6v3H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DNDaDMkNoAimSb3i",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.hRXn3XfsI394z3HY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.pbgL9GCpZ24p8Ybd",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 25,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Garcona",
+      "subtype": ""
+    },
+    "identifier": "herons"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737723151399,
+    "modifiedTime": 1739534889107,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "KSK7NhhdHqVB4cTs"
+}

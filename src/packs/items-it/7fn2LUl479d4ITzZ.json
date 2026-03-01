@@ -1,0 +1,60 @@
+{
+  "name": "Pacchetto di Burglar",
+  "type": "loot",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--2\"><p>Include:</p><ul class=\"rd__list\"><li class=\"rd__li\">a @item[backpack|phb]</li><li class=\"rd__li\">a @item[Ball Bearings (Bag of 1,000)|phb|bag di 1.000 cuscinetti a sfera]</li><li class=\"rd__li\">10 piedi di corda</li><li class=\"rd__li\">a @item[bell|phb]</li><li class=\"rd__li\">5 @item [candle|phb|candles]</li><li class=\"rd__li\">a @item[crowbar|phb]</li><li class=\"rd__li\">a @item[hammer|phb]</li><li class=\"rd__li\">10 @item[piton|phb|pitons]</li><li class=\"rd__li\">un @item[vincente lantern|phb]</li><li class=\"rd__li\">2 @item[Oil (flask)|phb|flasks of oil]</li><li class=\"rd__li\">5 giorni @item[Rations (1 giorno)|phb|rations]</li><li class=\"rd__li\">a @item[tinderbox|phb]</li><li class=\"rd__li\">a @item[waterskin|phb]</li><li class=\"rd__li\">@item[Hempen Rope (50 piedi)|phb|50 piedi di corda hempen]</li></ul></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 44.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 16,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": false,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "burglars-pack"
+  },
+  "img": "icons/containers/bags/pack-canvas-white-brown.webp",
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "PHB",
+      "hash": "burglar's%20pack_phb",
+      "propDroppable": "item"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716151,
+    "modifiedTime": 1760898716151,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "7fn2LUl479d4ITzZ"
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Cicogne",
+  "type": "race",
+  "img": "assets/historia/cicogna.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Agli occhi di molti, la vista del piumaggio bianco e nero, delle grandi ali e di un becco arancione brillante è il simbolo della salvezza. Altruisti, di buon cuore, pazienti e pronti all'azione, le Cicogne sono nate per eccellere quando la priorità è aiutare gli altri. Sono innumerevoli le compagnie di infermiere della Cicogna pronte a volare quando ricevono la chiamata, anche quando arriva dai campi di battaglia. Sebbene questi Grarconi non siano naturalmente sprezzanti nei confronti del pericolo, il desiderio di prestare il loro aiuto è più forte della loro paura. La fortuna spesso assiste queste anime generose, e molti veterani o malati ormai guariti giureranno che toccare il becco di una Cicogna è il miglior talismano: le Cicogne sospirano, sorridono e sopportano, ben consapevoli che un malato speranzoso ha più possibilità di guarire di uno che ha perso la fede. Loquaci, solari e piene di senso pratico, le Cicogne sono benvenute ovunque, ma la loro tendenza ad “accudire” tutti può a volte creare tensioni con chi non tollera di essere accudito come se fosse un cucciolo o un malato. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Il punteggio di Destrezza </span> aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Saggezza </span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un Grarconi raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. </span>Hanno una vita media di circa 60 anni.</p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La velocità base al suolo è di 25 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Una cicogna può raggiungere un'altezza compresa tra 4 piedi e 1/4 e <span class=\"fontstyle0\">5 piedi e 1/4 e pesare tra 65 e 90 libbre.</span> <span class=\"fontstyle2\">La tua taglia è media.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Vista acuta}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.DNDaDMkNoAimSb3i]{Volo esteso}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.Fr8OczGC9Gwhg4wM]{Lucky}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.nC8uNKGFCwI6Azfa]{Sense of Care}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Acquatico (Predatore): </strong></em></span><span class=\"fontstyle4\">\"Sono fluido come l'acqua che amo così tanto\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, pietà:</strong></em></span><span class=\"fontstyle2\">\"Mi prendo cura dei deboli e dei malati\".</span> </p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "HCB",
+      "page": "104",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "slZtNTWzqemv9uKI",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 1,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "PAl7m2jCBUY54CJF",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "jEYfx3HVrIUIzfiz",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "64FBcwWHQvAt4CF3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DNDaDMkNoAimSb3i",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.Fr8OczGC9Gwhg4wM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.nC8uNKGFCwI6Azfa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Garcona",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739567137930,
+    "modifiedTime": 1739567530170,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "NPiTKdmhf8DdTyrK"
+}

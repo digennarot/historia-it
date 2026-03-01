@@ -1,0 +1,160 @@
+{
+  "name": "Tassi",
+  "type": "race",
+  "img": "assets/historia/tasso.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">\"Perdona e dimentica\" è un buon consiglio per molte creature, ma queste due parole non hanno significato per un tasso. I membri di questa specie si attaccheranno ad ogni torto subito, rimuginandoci sopra per anni e facendo ogni sforzo affinché nessun affronto rimanga impunito. Allo stesso modo, fanno del loro meglio per ripagare un favore, sia per gratitudine sia perché detestano sentirsi in debito. I tassi sono pazienti quando si tratta di vendicarsi di chi li ha presi in giro, ma diventano rapidamente irritabili quando si tratta di tutto il resto. Indomiti, forti e molto determinati, non amano avere a che fare con creature impreparate, e raramente tollerano la pigrizia o l'incertezza. Non sono particolarmente socievoli, ma il loro carattere forte li porta, quando fanno parte di gruppi o organizzazioni, a ricoprire incarichi di responsabilità. Si relazionano con gli altri in modo semplice e diretto e non amano i giochi di parole; gli ambienti formali li mettono a disagio e apprezzano molto la sincerità e la trasparenza. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">La tua </span><span class=\"fontstyle0\">Costituzione </span>il punteggio aumenta di 2 e il tuo punteggio di Forza aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Mustacei raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em></span><span class=\"fontstyle2\">La tua velocità al suolo base è di 9 metri e la tua velocità di scavo è di 1,5 metri. La velocità di scavo è di 1,5 metri.</span> </p><p><span class=\"fontstyle0\"><em><strong>Taglia.</strong></em></span>Un tasso può raggiungere un'altezza compresa tra 4 e 6 <span class=\"fontstyle0\">piedi e pesare tra 65 e 175 libbre.</span>  <span class=\"fontstyle2\">La tua taglia è Media.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Spirito selvaggio.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nell'abilità Sopravvivenza.</span></p><p><span class=\"fontstyle0\"><em><strong>Scurovisione</strong></em>. </span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse in penombra. Non sei in grado di distinguere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p>@Compendium[world.species-features.TyD0MoZXISwb8Qik]{Resolute}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.YHDI8n7hXurjiJIS]{Messaggi odorosi}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.6AF4ovTKSQZUiP0e]{Tenacia implacabile}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.UpAYSSvL2bydPXdS]{Cuore forte}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.0fqtcLBwD0CcjrBu]{Polmoni forti}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.NKKfBqiSsnS6mwB5]{Bite}</span></p><p><span class=\"fontstyle2\"><em><strong>Istinto di Familia, Sopravvivenza (onnivoro)</strong></em>: </span><span class=\"fontstyle3\">\"Divento attivo quando il momento è più buio\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, rancore: </strong></em></span><span class=\"fontstyle2\">\"Ricordo tutti coloro che mi hanno fatto del male\"</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "73",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "crgu4wXChlmv6OAl",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": null,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "LPv71lwwxN2VywsO",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "fhjQ8Hd7j90IFfe6",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "i1CcMsY1AGU1WMc2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.TyD0MoZXISwb8Qik",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.CsKP3pQcELPkECkY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.YHDI8n7hXurjiJIS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.6AF4ovTKSQZUiP0e",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.UpAYSSvL2bydPXdS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.NKKfBqiSsnS6mwB5",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "RUI1mHa9oXoOS85x",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:sur"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": 5,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Mustacei",
+      "subtype": ""
+    },
+    "identifier": "badgers"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737226692346,
+    "modifiedTime": 1739474536190,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "4YCF3p7ETR2DaPuq"
+}

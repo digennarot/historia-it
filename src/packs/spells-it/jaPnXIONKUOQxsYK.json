@@ -1,0 +1,173 @@
+{
+  "name": "Incenite Greed",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Quando si lancia questo incantesimo, si presenta la gemma utilizzata come componente materiale e scegliere qualsiasi numero di creature all'interno della gamma che può vedere. Ogni obiettivo deve avere successo su un tiro di salvataggio della Saggezza o essere @condizione[charmed] da voi fino alla fine dell'incantesimo, o fino a quando voi o i vostri compagni fanno qualcosa di dannoso per esso. Mentre @condizione[charmed] in questo modo, una creatura non può fare altro che utilizzare il suo movimento per avvicinarsi in modo sicuro. Mentre una creatura colpita è dentro 5 piedi di voi, non può muoversi, ma semplicemente fissa avidamente la gemma che si presenta.</p><div class=\"rd__spc-inline-post\"></div><p>Alla fine di ciascuno dei suoi giri, un bersaglio interessato può fare un tiro salvifico della Saggezza. Se riesce, questo effetto finisce per quel bersaglio.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "AI",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 3,
+    "school": "enc",
+    "materials": {
+      "value": "a gem worth at least 50 gp",
+      "consumed": false,
+      "cost": 50,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "incite-greed",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/commodities/currency/coins-assorted-crown-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "AI",
+      "hash": "incite%20greed_ai",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "jaPnXIONKUOQxsYK"
+}

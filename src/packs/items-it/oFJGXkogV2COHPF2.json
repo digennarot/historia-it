@@ -1,0 +1,54 @@
+{
+  "name": "Ruota di preghiera",
+  "type": "loot",
+  "img": "icons/tools/instruments/drum-brown-red.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un aiuto per i fedeli, questo cilindro può essere acceso su un mandrino in metallo, legno, osso, pietra, cuoio o cotone grossolano come l'utente segue mantra o cantazione scolpita o intarsiata su di esso.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 151",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "prayer-wheel"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "oFJGXkogV2COHPF2"
+}

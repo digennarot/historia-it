@@ -1,0 +1,305 @@
+{
+  "name": "Lama verde",
+  "type": "spell",
+  "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
+  "effects": [],
+  "flags": {
+    "maestro": {
+      "playlist": "WjJa4wZ8iSwWE9ck",
+      "track": "qhWoKQ7QLaZ4h2C7"
+    },
+    "betterRolls5e": {
+      "quickOther": {
+        "context": "",
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "critRange": {
+        "value": null,
+        "type": "String"
+      },
+      "critDamage": {
+        "value": "",
+        "type": "String"
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false,
+        "type": "Boolean"
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickCharges": {
+        "value": {
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "use": false,
+          "resource": true
+        },
+        "type": "Boolean"
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "animLevel": false,
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "exAnimLevel": false,
+      "impactVar": "a1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      },
+      "rangedOptions": {
+        "rangeDmgType": ""
+      }
+    },
+    "midi-qol": {
+      "onUseMacroName": ""
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Si brandisce l'arma utilizzata nel casting dell'incantesimo e fare un attacco melee con esso contro una creatura dentro 5 piedi di voi. Su un colpo, il bersaglio soffre gli effetti normali dell'attacco dell'arma, e si può causare il fuoco verde per saltare dal bersaglio a una creatura diversa di vostra scelta che si può vedere entro 5 piedi di esso. La seconda creatura prende danni da fuoco pari al modificatore di abilità di incantesimo.</p>\n<p> </p>\n<p><strong>Ai livelli superiori.</strong>Al 5 ° livello, l'attacco melee tratta un ulteriore 1d8 danni al fuoco al bersaglio su un colpo, e il danno di fuoco alla seconda creatura aumenta a 1d8 + il modificatore di abilità di incantesimo. Entrambi i rotoli di danno aumentano di 1d8 a 11 ° livello (2d8 e 2d8) e 17 ° livello (3d8 e 3d8).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCoE pg. 107",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "5",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 0,
+    "school": "evo",
+    "materials": {
+      "value": "a melee weapon worth at least 1 sp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "green-flame-blade",
+    "method": "spell",
+    "prepared": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "HYGlqmVPqgRx4GI6"
+}

@@ -1,0 +1,163 @@
+{
+  "name": "Summon guerriero Spirito",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Voi chiamate uno spirito guerriero dal leggendario Deck of Many Things. Si manifesta in uno spazio non occupato che si può vedere all'interno della gamma. Questa forma corporea utilizza la stat @UUUID[Compendium.world.creatures. Oa5MEBDvPJAv0bqb]{Warrior Spirit} blocco. Quando si lancia l'incantesimo, scegliere un tipo di guerriero: barbaro, combattente, o monaco. Il guerriero assomiglia ad un umanoide armato adeguatamente alla classe scelta, che determina alcuni tratti nel suo blocco di stat. Il guerriero scompare quando scende a 0 punti di colpo o quando l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>Il guerriero è alleato a voi e ai vostri compagni. In combattimento, il guerriero condivide il vostro conte di iniziativa, ma prende il suo turno immediatamente dopo il vostro. Obbedisce ai vostri comandi verbali (nessuna azione richiesta da voi). Se non emette alcuno, prende l'azione @action[Dodge] e utilizza la sua mossa per evitare il pericolo.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><p><span class=\"entry-title-inner\">Ai livelli superiori.</span></p><p>Quando si lancia questo incantesimo utilizzando una scanalatura di 4° livello o superiore, la creatura assume il livello più alto per quel getto dove utilizza il livello dell'incantesimo nel suo blocco di stat.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "a gilded playing card depicting a knight worth at least 300 gp",
+      "consumed": false,
+      "cost": 300,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "summon-warrior-spirit",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UA2022WondersOfTheMultiverse",
+      "hash": "summon%20warrior%20spirit_ua2022wondersofthemultiverse",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Uwdq6TIRiAkwTAM4"
+}

@@ -1,0 +1,160 @@
+{
+  "name": "Primoi",
+  "type": "race",
+  "img": "assets/historia/primoi.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Sulla testa di ogni Primoi poggia la corona invisibile del loro antico lignaggio, e questa convinzione di essere eredi di un lignaggio nobile e potente pervade ogni aspetto del loro temperamento. Coraggiosi, intraprendenti, orgogliosi e abituati a essere loro a prendere le decisioni, i Primoi aspirano a comandare non per sete di potere ma per la convinzione che questa posizione sia loro di diritto. A volte questa convinzione si trasforma in tirannia, facendo credere ai Primoi che le loro azioni siano sempre per il bene della comunità. Molto legati al loro circolo sociale, di cui si sentono perennemente responsabili, i Primoi non esitano a diventare spietati se credono che questo sia minacciato. Hanno grande stima della propria capacità di fare le scelte migliori e questo spesso li rende impermeabili sia ai consigli che ai tentativi di manipolazione. Gli appartenenti a questa specie sono resistenti <span class=\"fontstyle0\">alle avversità e alle intemperie; adattabili e determinati, sono entrambi avversari formidabili e alleati preziosi.</span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo punteggio di saggezza aumenta di 2,</span> e<span class=\"fontstyle0\">il nostro punteggio di Costituzione aumenta di 1</span>,<span class=\"fontstyle2\"> e un altro il punteggio di caratteristica a tua scelta aumenta di 1.</span></p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span><span class=\"fontstyle2\">Un Canide raggiunge la maturità intorno ai 16 anni ed è immediatamente considerato indipendente. Hanno una vita media di circa 70 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em></span>La tua velocità di camminata base è di 9 metri.</p><p><span class=\"fontstyle0\"><em><strong>Dimensione.</strong></em></span>Un Primoi può raggiungere un'altezza compresa tra 3 e 6 piedi e pesare tra 75 libbre e 220 libbre. La tua taglia è Media.</span></p><p><span class=\"fontstyle0\"><em><strong>Naso allenato.</strong></em> </span><span class=\"fontstyle2\">Un Canide è competente in un'abilità a sua scelta tra Investigazione o Intuizione.</span></p><p><span class=\"fontstyle0\"><em><strong>Spirito selvaggio.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nella Abilità di sopravvivenza.</span> </p><p><em><strong>Scurovisione minore </strong></em><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 9 metri come se fossi in piena luce, e nell'oscurità come se fosse in penombra. Non sei in grado di distinguere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p>@Compendium[world.species-features.s3ECstHXdhQ8cnRi]{Olfatto e udito acuti}</p><p>@Compendium[world.species-features.fWjnyGpnIsnivS8u]{Apprendimento veloce}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.E3qmVZ2RdTAiC6md]{Adattamento al freddo}</span></p><p><span class=\"fontstyle3\">@Compendium[world.species-features.4Y1QRiD0X0ueMPHm]{Rodire}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.0fqtcLBwD0CcjrBu]{Polmoni Forti}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Alfa (Predatore):</strong></em> </span><span class=\"fontstyle4\">“Sono la guardia da<br />seguire in ogni occasione”.</span> </p><p><span class=\"fontstyle0\"><em><strong>Instinct of Species, Pack</strong></em> </span><span class=\"fontstyle2\">“Devo prendermi cura dei miei cari e prosperare con loro”.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "57",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "eYPxtL5Cq8oWvDC4",
+        "configuration": {
+          "points": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "fbuJXK5oOujVIAST",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "0ZsmsjWo2cYH4cMe",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "TVS8DO3CvO8gZLde",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.s3ECstHXdhQ8cnRi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.fWjnyGpnIsnivS8u",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.E3qmVZ2RdTAiC6md",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.0fqtcLBwD0CcjrBu",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "I0TDHkKZphEAFS9a",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ins",
+                "skills:inv"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 30,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Canidi",
+      "subtype": ""
+    },
+    "identifier": "primoi"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1738506658086,
+    "modifiedTime": 1739535565323,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "tsCZqrBbbyYPlAyy"
+}

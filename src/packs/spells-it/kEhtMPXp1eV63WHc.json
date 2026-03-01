@@ -1,0 +1,163 @@
+{
+  "name": "Summon Celestial",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Voi chiamate uno spirito celeste. Si manifesta in una forma angelica in uno spazio non occupato che si può vedere all'interno della gamma. Questa forma corporea utilizza il blocco di statistiche @creature[Celestial Spirit|TCE]. Quando si lancia l'incantesimo, scegliere Avenger o Defender. La tua scelta determina l'attacco della creatura nel suo blocco stat. La creatura scompare quando scende a 0 punti di colpo o quando l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"></div><p>La creatura è alleata a voi e ai vostri compagni. In combattimento, la creatura condivide il vostro conteggio di iniziativa, ma prende il suo turno immediatamente dopo il vostro. Obbedisce ai vostri comandi verbali (nessuna azione richiesta da voi). Se non emette alcuno, prende l'azione @action[Dodge] e utilizza la sua mossa per evitare il pericolo.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"20\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si digita questo incantesimo utilizzando una scanalatura di 6° livello o superiore, utilizzare il livello superiore ovunque il livello dell'incantesimo appare nel blocco di stat.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 5,
+    "school": "con",
+    "materials": {
+      "value": "a golden reliquary worth at least 500 gp",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "summon-celestial",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "TCE",
+      "hash": "summon%20celestial_tce",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "kEhtMPXp1eV63WHc"
+}

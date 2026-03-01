@@ -1,0 +1,86 @@
+{
+  "name": "Cesto",
+  "type": "container",
+  "img": "icons/containers/misc/basket-handle-woven-gold.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "dnd5e": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un cesto contiene 2 piedi cubici o 40 libbre di marcia.</p>\n<p>Costo: 1</p>\n<p>Peso w/o contenuto: 2 lbs</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 153",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "weight": {
+        "value": 40,
+        "units": "lb"
+      },
+      "count": null,
+      "volume": {
+        "value": null,
+        "units": "cubicFoot"
+      }
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attuned": false,
+    "properties": [],
+    "identifier": "basket"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "dR9DkXeZBYJfEhyC"
+}

@@ -1,0 +1,361 @@
+{
+  "name": "Caos Bolt",
+  "type": "spell",
+  "img": "Wynther%27s%20Files/Dungeons%20and%20Dragons/Icons2/Effects/nec.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [
+          true,
+          true
+        ],
+        "altValue": [
+          true,
+          true
+        ],
+        "context": {
+          "0": "",
+          "1": ""
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "use": false,
+          "resource": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": "",
+          "1": ""
+        },
+        "value": {
+          "0": true,
+          "1": true
+        }
+      },
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickAttack": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Si getta una massa ondulante e di warbling di energia caotica in una creatura in gamma. Fai un attacco di incantesimo a distanza contro il bersaglio. Su un colpo, il bersaglio prende 2d8 + 1d6 danni. Scegli uno dei d8. Il numero arrotolato su quel dado determina il tipo di danno dell'attacco, come mostrato di seguito.</p>\n<table border=\"1\" style=\"width:37.0083%;height:144px\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\"><strong>D</strong></td>\n<td style=\"width:77.4801%;height:16px\"><strong>Tipo di danno</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">1</td>\n<td style=\"width:77.4801%;height:16px\">Acido acido</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">2</td>\n<td style=\"width:77.4801%;height:16px\">Freddo freddo</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">3</td>\n<td style=\"width:77.4801%;height:16px\">Fuoco</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">4</td>\n<td style=\"width:77.4801%;height:16px\">Forza</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">5</td>\n<td style=\"width:77.4801%;height:16px\">Illuminazione</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">6</td>\n<td style=\"width:77.4801%;height:16px\">Veleno</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">7</td>\n<td style=\"width:77.4801%;height:16px\">Psychic</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:21.2699%;text-align:center;height:16px\">8</td>\n<td style=\"width:77.4801%;height:16px\">Spessore</td>\n</tr>\n</tbody>\n</table>\n<p>Se si rotola lo stesso numero su entrambi i d8, l'energia caotica salta dal bersaglio a una creatura diversa di vostra scelta entro 30 piedi di esso. Fare un nuovo tiro di attacco contro il nuovo bersaglio, e fare un nuovo rotolo di danni, che potrebbe causare l'energia caotica di saltare di nuovo.</p>\n<p>Una creatura può essere ta rgeted solo una volta da ogni casting di questo incantesimo.</p>\n<p><strong>Ai livelli superiori.</strong>Quando si digita questo incantesimo utilizzando una scanalatura di 2° livello o superiore, ogni obiettivo prende ld6 danni extra del tipo rol led per ogni livello di slot superiore al 1 °.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE pg. 151",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "120",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 1,
+    "school": "evo",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": null,
+                "formula": ""
+              }
+            },
+            {
+              "number": 1,
+              "denomination": 6,
+              "bonus": "",
+              "types": [],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "chaos-bolt",
+    "method": "spell",
+    "prepared": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Uemf3Zy8vmAHwWjH"
+}

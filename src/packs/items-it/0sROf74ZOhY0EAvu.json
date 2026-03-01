@@ -1,0 +1,54 @@
+{
+  "name": "Borsa di sabbia",
+  "type": "loot",
+  "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Una piccola sacca di sabbia usata dallo studioso per asciugare lettere appena inchiodate e corrispondenza in modo rapido e sicuro per la spedizione rapida.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 151",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 10,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "bag-of-sand"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716151,
+    "modifiedTime": 1760898716151,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "0sROf74ZOhY0EAvu"
+}

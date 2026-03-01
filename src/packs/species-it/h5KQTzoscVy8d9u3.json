@@ -1,0 +1,166 @@
+{
+  "name": "Ricci",
+  "type": "race",
+  "img": "assets/historia/riccio.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Non tutte le creature amano le grida emozionate del pubblico prima di un grande spettacolo, o il trambusto dei mercati portuali, o l'andirivieni nella grande sala di una taverna. C'è chi preferisce il silenzio soddisfatto della propria casa, interrotto solo dal crepitio di un camino e dal fruscio delle pagine di un libro. I ricci fanno parte di questo gruppo: solitari, riflessivi e amanti delle attività rilassanti, rifuggono il conflitto e l'eccitazione. La loro più alta ambizione è un’esistenza pacifica. Non ama le intrusioni nella sua vita privata: se vuoi far arrabbiare un Riccio, prova a disturbare la sua quiete con chiacchiere impertinenti. Questi timidi Eulipi mostrano sicurezza con estrema difficoltà, e preferiscono sempre la propria compagnia a quella degli altri. La loro presenza spesso non viene presa in considerazione dalle creature più grandi, il che permette a Eulipi sia di essere lasciato solo sia di origliare distrattamente conversazioni importanti... Punteggi.</strong></em></span><span class=\"fontstyle2\">Il tuo punteggio di Carisma aumenta di 2 e il tuo punteggio di Saggezza aumenta di 1.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span><span class=\"fontstyle2\">Un Eulipi raggiunge la maturità intorno ai 10 anni ed è immediatamente considerato indipendente. Hanno una vita media di 50 anni.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span><span class=\"fontstyle2\">La tua velocità di camminata base è 25 piedi.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione.</strong></em></span><span class=\"fontstyle2\">Un riccio può raggiungere un'altezza massima di 3 piedi </span><span class=\"fontstyle0\">e un peso non superiore a 55 libbre. La tua taglia è Piccola.</span></p><p><span class=\"fontstyle0\"><em><strong>Affinità naturale.</strong></em> </span><span class=\"fontstyle2\">Puoi scegliere l'abilità Sopravvivenza o Natura; acquisisci competenza con quell'abilità.</span></p><p><span class=\"fontstyle0\"><em><strong>Scurovisione. </strong></em></span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse in penombra. Non sei in grado di discernere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.Bmgcfc7z86n51EkV]{Innato Stealth}</span></p><p>@Compendium[world.species-features.ueIHbWaNJodc7bY2]{Quills (Riccio)}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.aMBs0FrPVKG5AcRK]{Roll-up}</span></p><p><span class=\"fontstyle3\">@Compendium[world.species-features.h7qbVKMGR4nu9W2S]{Autunno ammortizzato}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di famiglia, abitudini (preda):</strong></em> </span><span class=\"fontstyle4\">“Apprezzo la routine quotidiana e sono avverso ai cambiamenti”.</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, solitario: </strong></em></span><span class=\"fontstyle2\">\"Posso stare da solo e tenere gli altri a distanza\".</span> </p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "63",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "LPC6mo7eCBAZQe2b",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 1,
+            "cha": 2
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "X88bLgk96koYu5oe",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "Aci8xGgfRyr7H9q3",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "7Q2TKoSYpNpje6oH",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:nat",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Hg45vb7rkw2KUthD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.CsKP3pQcELPkECkY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.Bmgcfc7z86n51EkV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ueIHbWaNJodc7bY2",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.aMBs0FrPVKG5AcRK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.h7qbVKMGR4nu9W2S",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 25,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Eulipi",
+      "subtype": ""
+    },
+    "identifier": "hedgehogs"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737721508978,
+    "modifiedTime": 1739534864432,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "h5KQTzoscVy8d9u3"
+}

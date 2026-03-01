@@ -1,0 +1,210 @@
+{
+  "name": "Carriera: Mentore",
+  "type": "feat",
+  "img": "icons/sundries/books/book-stack.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">La conoscenza è potere, soprattutto in un mondo in cui la conoscenza può essere l'unico modo per alcuni di elevare la propria vita da una condizione miserabile e disperata a una posizione di prestigio nella società. Se la cultura e la conoscenza accumulate svanissero insieme a coloro che le hanno coltivate, il mondo dovrebbe ricominciare da capo, diventando inevitabilmente incapace di progredire così tanto. Per questo motivo e per garantirne lo sviluppo, la più nobile delle occupazioni è quella del mentoring, condividere la conoscenza con il mondo e affidarla a studenti che saranno a loro volta attrezzati per farla progredire ulteriormente.<br /></span></p>\n<h2><span class=\"fontstyle2\">GRANGO 0 - STUDENTE<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Sapere leggere e scrivere, avere un background culturale e supporto accademico.<br /></span></p>\n<p><span class=\"fontstyle0\">Vieni avviato a un campo di studio, con il supporto di un mentore o di un'istituzione culturale come un'accademia, una biblioteca o un tribunale. Gli studenti non solo ricercano materie puramente teoriche o accademiche o studiano solo per sete di conoscenza; </span><span class=\"fontstyle0\">in verità, sono spinti anche dal desiderio di poter un giorno trasmettere queste conoscenze. Il modo in cui ti avvicini ai tuoi studi ti conferisce competenza in un'abilità scelta tra Arcano, Investigativo, Natura, Religione e Storia, nonché in uno strumento artigianale.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - ISTRUTTORE<br /></span></h2>\n<p><span class=\"fontstyle0\">Ora vedi riconosciuto il loro impegno accademico, anche economico, e hai approfondito il tuo studio al punto da poter insegnare le basi ad altri studenti. Il tutor o l'istituzione che ti supporta ti indirizza a dividere il tuo tempo tra ricerca, studio e insegnamento. Puoi scegliere tra l'abilità e lo strumento acquisiti con la carriera e raddoppiare il loro bonus di competenza sulle relative prove.</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Comprensione e Spiegazione.</strong></em> </span><span class=\"fontstyle0\">Hai eccellenti capacità di comprensione e memoria e sei in grado di trasferire facilmente la conoscenza. Una volta per sessione, quando spendi ispirazione per ottenere vantaggio in un tiro, puoi scegliere di utilizzare Intelligenza o Saggezza come tratto di riferimento, anche se l'</span><span class=\"fontstyle0\">abilità non lo fornisce. Puoi anche spendere un dado vita per spiegare qualcosa a un altro personaggio: fino alla fine del riposo successivo, un personaggio a cui è stata insegnata una lezione ottiene competenza in un'abilità in cui il maestro è competente. Puoi utilizzare questa abilità una volta per Grado di carriera per riposo lungo.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 2 - PROFESSORE<br /></span></h2>\n<p><span class=\"fontstyle0\">Sei diventato una figura chiave all'interno dell'Istituzione Accademica a cui sei legato e sei riconosciuto come uno dei massimi esperti nel tuo campo. Sei una figura di spicco in ambienti culturali elevati e sei ricercato come consigliere da persone facoltose o potenti per i tuoi studi approfonditi. Diversi insegnanti ti servono come assistenti e il mondo accademico ti garantisce l'accesso alle fonti di conoscenza più disparate. I professori sanno sempre dove trovare le informazioni o chi contattare per recuperarle.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 3 - DEAN<br /></span></h2>\n<p><span class=\"fontstyle0\">I personaggi sono i capi dell'istituzione accademica che li ha sostenuti e che ora guidano, diventando direttori responsabili delle classi, degli studenti e dei servizi accademici. Il tuo nome è inciso nella storia e annoverato tra i più grandi geni e saggi del tuo tempo, garantendoti rispetto e onore al pari delle figure più potenti di Vesteria.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 233",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "career-mentor",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898709568,
+    "modifiedTime": 1760898709568,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "JO2tz4wkniDghX1k"
+}

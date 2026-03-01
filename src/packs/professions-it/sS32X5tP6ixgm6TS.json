@@ -1,0 +1,208 @@
+{
+  "name": "Richiesta",
+  "type": "subclass",
+  "img": "modules/Historia/Species%20Features/epic-will.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">L'Inquisitore può essere descritto con le stesse parole che descrivono la loro fede: inflessibile, incorruttibile, inconsapevole. Questi cacciatori eretici hanno fatto la purga delle minacce alla religione la loro missione di vita e sono più che disposti a raccogliere armi per per perseguirla. La loro presenza intimidatoria e lo zelo ardente fomentano i loro alleati e terrorizzano i loro oppositori; quando parry la lama di un Inquisitore, l'avversario ora sa che stanno combattendo l'acciaio imbevuto di furia divina.<br/></span></p><p><span class=\"fontstyle2\"><strong>MAGICO DELL'INDUSTRIA</strong><br/></span><span class=\"fontstyle0\">La tua magia viene dalla tua determinazione. Ogni 6 livelli le vostre scanalature aumentano di livello: a partire dal 7 ° livello sono slot di secondo livello, a 13 ° livello diventano 3 ° livello e a 19 ° livello diventano 4 ° livello. Allo stesso modo, si aumenta il livello massimo incantesimo si può lanciare.</span></p><p><span class=\"fontstyle0\"><strong>GUIDA ALL'INFIDELS</strong><br/></span><span class=\"fontstyle2\">Quando hai scelto questo modo divino, sei diventato abile in tutte le armi di guerra e in tutte le armature.</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 162",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "inquisitor",
+    "classIdentifier": "priest",
+    "advancement": [
+      {
+        "_id": "ktKpLY60qe4HJF7r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.wtVqwxsS9pQdpdMA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "3X0WmR04pmL50MPf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.NdKIuWJhWvV9AvO4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.profession-features.MfK3BdTWqeUmcn0c",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "xhN6pweaay7jTbCl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.vBHM3d2Wfr801Scp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "CifxDpu6yoX9u4Ec",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.Hj1xW8l1JjBF4ORJ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "khQRDeS9U7Vsjfxe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.XrxxqMAikfltnlIQ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8AA7v7FrLWpW6tA8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.PRLQoVlBUK47tLaN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "sS32X5tP6ixgm6TS"
+}

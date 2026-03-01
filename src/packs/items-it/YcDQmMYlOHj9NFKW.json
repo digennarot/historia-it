@@ -1,0 +1,54 @@
+{
+  "name": "Scala del Merchant",
+  "type": "loot",
+  "img": "icons/tools/hand/scale-balances-merchant-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Una scala comprende un piccolo equilibrio, pentole, e un assortimento adatto di pesi fino a 2 libbre. Con esso, è possibile misurare il peso esatto di piccoli oggetti, come metalli preziosi grezzi o merci commerciali, per contribuire a determinare il loro valore.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 153",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "merchants-scale"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "YcDQmMYlOHj9NFKW"
+}

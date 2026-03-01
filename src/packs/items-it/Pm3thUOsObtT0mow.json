@@ -1,0 +1,86 @@
+{
+  "name": "Custodia per bullone a balestra",
+  "type": "container",
+  "img": "icons/containers/ammunition/arrows-quiver-black.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "dnd5e": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Questa custodia in legno può contenere fino a venti bulloni balestra.</p>\n<p>Costo: 1</p>\n<p>Peso w/o contenuto: 1 lbs</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 151",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "weight": {
+        "value": 1.5,
+        "units": "lb"
+      },
+      "count": null,
+      "volume": {
+        "value": null,
+        "units": "cubicFoot"
+      }
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attuned": false,
+    "properties": [],
+    "identifier": "crossbow-bolt-case"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716151,
+    "modifiedTime": 1760898716151,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Pm3thUOsObtT0mow"
+}

@@ -1,0 +1,203 @@
+{
+  "name": "Passero",
+  "type": "race",
+  "img": "assets/historia/passeri.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Per torturare un Levri bisogna renderlo un servitore. Per torturare un Puma, devi costringerlo a praticare l'etichetta. Per torturare un passero, bisogna semplicemente lasciarlo in pace. Questi Aviani sono tra i più socievoli in assoluto e trovano la massima soddisfazione nell'interagire con gli altri. Conosciuti da tutti come innocui (anche quando non lo sono) e apprezzati per il loro umorismo spiritoso e brillante, sono i benvenuti in ogni ambiente, dove allo stesso tempo passano inosservati e, per la loro ubiquità, fanno sentire la mancanza se assenti. Sono festaioli e chiassosi, eppure sanno adattare la loro conversazione a qualsiasi interlocutore, parlando con disinvoltura di lievito con i fornai, di tasse portuali con i consiglieri e di pettegolezzi scottanti con i signori. Non si lasciano intimidire dalla fama altrui, dal lignaggio o dalla religione, spesso essendo accusati di essere irriverenti o addirittura blasfemi. La loro sicurezza e disinvoltura sono comunque utili quando si sceglie l'approccio ideale da adottare anche con i conversatori più ostili ed è molto raro che un Passero ricorra alle armi per risolvere anche la più scottante delle discussioni. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Il punteggio di Destrezza </span> aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Saggezza </span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un Pici raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base al suolo è di 20 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un passero può raggiungere un'altezza massima di 3 piedi, <span class=\"fontstyle0\">e pesare non più di 45 libbre.</span> <span class=\"fontstyle2\">La tua taglia è </span><span class=\"fontstyle0\">Piccola</span>.</p><p><span class=\"fontstyle0\"><em><strong>Socievolezza.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nell'abilità Persuasione.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Spirito selvaggio.</strong></em> </span><span class=\"fontstyle2\">Hai esperienza nell'abilità Sopravvivenza.</span></p><p><span class=\"fontstyle0\"><em><strong>Cantante.</strong></em> </span><span class=\"fontstyle2\">Hai esperienza nell'uso della loro voce che è considerata essere uno strumento musicale.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.ZQMtMEJZdQJ2v63O]{Abilità sociali}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.K3vkJOhbY84KuNmD]{Manovre in volo}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Acute Sight}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Innocua (Preda):</strong></em> </span><span class=\"fontstyle4\">\"Spesso non vengo preso sul serio.\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, socievole:</strong></em></span><span class=\"fontstyle2\">\"Mi fido degli estranei\"</span></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "HCB",
+      "page": "107",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "l6BPMJoq0plh5Bf9",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 1,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "G9eL6kIdwwn0JhRH",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "28f4Swb865icWHc7",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "yH0HSdOos0g5YNDc",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:per"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "WD9mDqwWWd8e1HCf",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:sur"
+          ],
+          "mode": "expertise"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "6VRMCUuzN4OqbvhP",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:music"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "khqIJfNjxa4IKiuR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ZQMtMEJZdQJ2v63O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Pici",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739565839005,
+    "modifiedTime": 1739566455255,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "l47s9ECCier2FJYD"
+}

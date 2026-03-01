@@ -1,0 +1,92 @@
+{
+  "name": "AP: Calcinatio (Citrinitas, 3 atti)",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-worn-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Recipe",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "ap-calcinatio-citrinitas-3-acts"
+  },
+  "effects": [],
+  "flags": {
+    "beavers-crafting": {
+      "recipe": {
+        "ingredients": {
+          "Compendium-world-profession-features-UwqXI31n3TfqcrAg": {
+            "id": "UwqXI31n3TfqcrAg",
+            "uuid": "Compendium.world.profession-features.UwqXI31n3TfqcrAg",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Calcinatio (Nigredo, 1 act)",
+            "img": "icons/consumables/potions/potion-bottle-corked-white.webp",
+            "quantity": 3
+          }
+        },
+        "results": {
+          "Compendium-world-profession-features-7av4eMZJpT7XRQqe": {
+            "id": "7av4eMZJpT7XRQqe",
+            "uuid": "Compendium.world.profession-features.7av4eMZJpT7XRQqe",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Calcinatio (Citrinitas, 3 acts)",
+            "img": "icons/consumables/potions/potion-bottle-corked-white.webp",
+            "quantity": 1
+          }
+        },
+        "attendants": {
+          "Actor-tsdbAt8U1QngL3kz-Item-QQHXvhQgkOqGPbHS": {
+            "id": "QQHXvhQgkOqGPbHS",
+            "uuid": "Actor.tsdbAt8U1QngL3kz.Item.QQHXvhQgkOqGPbHS",
+            "type": "Item",
+            "itemType": "class",
+            "name": "Alchemist",
+            "img": "Wynther%27s%20Files/Historia/Professions/alchemist.webp",
+            "quantity": 1
+          }
+        },
+        "macro": ""
+      }
+    },
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898722794,
+    "modifiedTime": 1760898722794,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "T0pmJ1CjMtSm7LGc"
+}

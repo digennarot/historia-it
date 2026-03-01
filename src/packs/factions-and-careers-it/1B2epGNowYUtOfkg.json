@@ -1,0 +1,210 @@
+{
+  "name": "Fazione: Pug Heresy",
+  "type": "feat",
+  "img": "modules/Historia/Factions/Pug%20Heresy.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[world.historia-factions.whTEtuZT0FMtd2AW]{Pug Heresy}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - STRIPPATO<br/></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti: </strong></em>partecipa a una cerimonia di spogliamento e presta giuramento alla Chiesa Semplice.</span></p>\n<p><span class=\"fontstyle0\">Inizierai il tuo servizio come sacerdote o diacono della Chiesa Semplice, abbandonando tutti i beni materiali. Dovrai svolgere diversi compiti e servizi per il bene della comunità a cui appartieni, lavori spesso umili e faticosi. Puoi comunque sempre trovare rifugio, vitto e alloggio nelle strutture della Chiesa Semplice.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - TARSO SEMPLICE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle0\">3<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle0\">Essere un prete. Servire la tua comunità con dedizione e seguendo la Dottrina Semplice.<br/></span></p>\n<p><span class=\"fontstyle0\">Diventi leader di una piccola comunità Indicant. Sei responsabile dell'educazione dei bambini e delle attività di sostegno e devi continuare a lavorare per la comunità altrimenti il ​​grado potrebbe essere ritirato.<br/></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Sale della Terra.</strong></em> </span><span class=\"fontstyle0\">Le persone più umili sono le fondamenta su cui poggia l'Eresia del Pug, motivate e dedite come sono a una dottrina che le pone sullo stesso piano dei ricchi e dei potenti. Se la Chiesa Semplice presta sostegno a uno dei suoi membri, quel membro è sicuro di ricevere in egual misura: puoi sempre contare sul sostegno delle comunità rurali e povere che vivono in simbiosi con la Fazione. Spogliata delle sue glorie e dei suoi eccessi, la Chiesa riesce anche ad attirare individui provenienti da status sociali più elevati.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 2 – COSTOLARE SEMPLICE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle0\">15<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Ottenere il sostegno di risorse influenti e potenti per il bene della Chiesa Semplice e agire nell'interesse della comunità nel ruolo di Tarso.<br/></span></p>\n<p><span class=\"fontstyle0\">Ora sei responsabile di un gruppo di piccole comunità o di una comunità cittadina che ha riposto fiducia in te e su cui puoi contare in caso di necessità. Le Cattedrali dei Costolari sono finanziate da fedeli facoltosi che credono che la salvezza dell'anima e fare bella figura sulla comunità contino più del denaro.<br/></span></p>\n<p><span class=\"fontstyle0\">Le amministrazioni comunali delle comunità Indicanti devono necessariamente confrontarsi con la Chiesa Semplice, e per il bene della comunità stessa hanno interesse a farne una proficua collaborazione per entrambe le parti.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 3 - OCCIPUT SEMPLICE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella Fazione da spendere: </span></strong></em><span class=\"fontstyle0\">30<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle0\">Aver trasformato un Risto in un fiorente </span><span class=\"fontstyle0\">bacino dedicato alla Chiesa Semplice al punto da rendendo necessario istituire un nuovo occipitario, o in alternativa sostituire un occipite dopo aver dimostrato di essere un grande Ribber ottenendo l'appoggio di un governatore o di un occipite.<br/></span></p>\n<p><span class=\"fontstyle0\">Il Consiglio Occipitario della Chiesa Semplice è più flessibile della sua controparte del Santo Regno, non essendo limitato nel numero ma anzi in continuo sviluppo. Al momento è composto da soli quattro membri, ciascuno dei quali guida le uniche comunità abbastanza grandi da giustificare un Occipite: Albea, Nova Marina, Città del Vento e Liveccia. Questo consiglio è il fulcro strategico della Chiesa Semplice ed è sostenuto direttamente dalla Confederazione e dai nemici della Chiesa tradizionale, contando sul loro numero e sulle loro risorse. A capo del consiglio c'è Talus II, Occipite di Albea. Si dice che Talus II fosse una figura incredibile e generosa per la Chiesa, ma che con il passare degli anni divenne affamato di fama e un po' troppo attaccato ai beni materiali e dipendente da un forte sostegno politico, il che potrebbe essere dovuto alla sua natura facilmente malleabile.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 222",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "faction-pug-heresy",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898709568,
+    "modifiedTime": 1760898709568,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "1B2epGNowYUtOfkg"
+}

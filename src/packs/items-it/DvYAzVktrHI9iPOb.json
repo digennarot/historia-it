@@ -1,0 +1,54 @@
+{
+  "name": "Tinderbox",
+  "type": "loot",
+  "img": "icons/commodities/treasure/box-jade-tassel.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Questo piccolo contenitore contiene flint, acciaio al fuoco e tinder (di solito panno asciutto immerso in olio leggero) utilizzato per accendere un fuoco. Usarlo per accendere una torcia - o qualsiasi altra cosa con abbondante, combustibile esposto - prende un'azione. Accendere qualsiasi altro fuoco richiede 1 minuto.</p>\n<p> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 153",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "tinderbox"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716151,
+    "modifiedTime": 1760898716151,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "DvYAzVktrHI9iPOb"
+}

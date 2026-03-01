@@ -1,0 +1,91 @@
+{
+  "name": "Borsa",
+  "type": "container",
+  "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "itemcollection": {
+      "bagWeight": 0,
+      "bagPrice": null,
+      "weightlessUnequipped": false
+    },
+    "dnd5e": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un panno o un sacchetto di pelle può contenere fino a 20 proiettili sling o 50 aghi soffianti, tra le altre cose. Un sacchetto compartimentato per la tenuta di componenti incantesimo è chiamato un sacchetto componente. Una borsa può contenere fino a 1⁄5 piedi cubici o 6 libbre di marcia.</p>\n<p>Costo: 1</p>\n<p>Peso w/o contenuto: 1 lbs</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 153",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "weight": {
+        "value": 6,
+        "units": "lb"
+      },
+      "count": null,
+      "volume": {
+        "value": null,
+        "units": "cubicFoot"
+      }
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attuned": false,
+    "properties": [],
+    "identifier": "pouch"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "U7zY1KxKXeAivGta"
+}

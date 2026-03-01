@@ -1,0 +1,164 @@
+{
+  "name": "Mano di guida",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una mano incorporea Tiny di luce splendente in uno spazio non occupato si può vedere all'interno della gamma. La mano esiste per la durata, ma scompare se teletrasporti o viaggi in un altro piano di esistenza.</p><div class=\"rd__spc-inline-post\"></div><p>Quando la mano appare, si nomina un punto di riferimento importante, come una città, montagna, castello, o campo di battaglia sullo stesso piano di esistenza come voi. Qualcuno nella storia deve aver visitato il sito e mappato. Se il punto di riferimento non appare sulla mappa esistente, l'incantesimo fallisce. Altrimenti, ogni volta che si sposta verso la mano, si allontana da te alla stessa velocità che ti sei mosso, e si muove nella direzione del punto di riferimento, rimanendo sempre a 5 piedi da te.</p><p>Se non si muove verso la mano, rimane in posizione fino a quando non si fa e beckons per voi di seguire una volta ogni [[/r 1d4] minuti.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "5",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 1,
+    "school": "div",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "ritual",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "1d4",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "guiding-hand",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/perception/orb-eye-scrying.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UAStarterSpells",
+      "hash": "guiding%20hand%20(ua)_uastarterspells",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": "",
+        "value": true
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ivlAPM36iyX7u58a"
+}

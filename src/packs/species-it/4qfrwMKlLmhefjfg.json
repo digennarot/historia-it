@@ -1,0 +1,166 @@
+{
+  "name": "Lince",
+  "type": "race",
+  "img": "assets/historia/linci.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Meno metropolitani dei cugini Gatti, i Lynx preferiscono gli ambienti rurali, dove il loro desiderio di indipendenza trova libero sfogo. Spesso solitari, anarchici e amanti della vita semplice (non a caso, lavorano spesso come taglialegna o guardiani, si adattano bene a piccole comunità dove, la situazione politica meno strutturata crea terreno fertile per l'attività di gruppi armati che rifiutano l'ordine costituito. Non è raro che Lynx sia la spina dorsale di queste bande criminali, proteggendo gli umili dagli abusi dei potenti o dedicandosi al semplice brigantaggio. Queste società bramano le qualità di Lynx, sono, infatti, silenzioso, agile, tenace e con le labbra molto serrate. È difficile motivare intimamente una Lynx, poiché oltre alla sopravvivenza quotidiana e alla possibilità di vivere a modo proprio, ci sono poche cose che accendono la loro passione. Ma quando qualcosa attira la loro attenzione, che si tratti di un business, di un oggetto, di un mistero o di una persona, nulla può distrarli dall'obiettivo, che perseguiranno incessantemente.</span></p><p><span class=\"fontstyle0\"><em><strong>Aumento delle abilità. Punteggi.</strong></em></span><span class=\"fontstyle2\">Il tuo punteggio di Destrezza aumenta di 2 e il tuo punteggio di Costituzione aumenta di 1. Un Felide raggiunge la maturità. intorno ai 14 anni ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base sul terreno è di 9 metri.</p><p><span class=\"fontstyle0\"><em><strong>Dimensione.</strong></em> </span>Una lince può raggiungere un altezza compresa tra 4 piedi e mezzo e <span class=\"fontstyle0\">5 piedi e mezzo e peso tra 90 e 175 libbre.</span>  <span class=\"fontstyle2\">La tua taglia è media.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Agilità felina.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nel Abilità di acrobazia e furtività.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Spirito selvaggio.</strong></em></span><span class=\"fontstyle2\">Hai competenza nell'abilità Sopravvivenza.</span> </p><p><span class=\"fontstyle0\"><em><strong>Scurovisione.  </strong></em></span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse luce fioca. Non sei in grado di discernere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.o6oG8Je6mYPytdqr]{Claws}</span></p><p>@Compendium[world.species-features.I4p677s9Sum8Tkt5]{Passo tranquillo}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.BbuLUuwXJga7J8uZ]{Robusto}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Acute Vista}</span></p><p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Udito acuto}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.E3qmVZ2RdTAiC6md]{Adattamento al freddo}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Indipendenza (Predatore): </strong></em></span><span class=\"fontstyle4\">\"Solo io decido il mio destino\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, tenacia: </strong></em></span><span class=\"fontstyle2\">\"Non mi arrendo mai\".</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "67",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Hac1wyJKarKTkxlK",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 1,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "qZT3tsdXRFrOzQKF",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "n1dSCd4UcSfhjxci",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "SEYPKAMjeSjbo1jl",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:acr",
+            "skills:ste"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": []
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Jb8dcyqBURGYc7Jh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.o6oG8Je6mYPytdqr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.I4p677s9Sum8Tkt5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.BbuLUuwXJga7J8uZ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.E3qmVZ2RdTAiC6md",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Felidi",
+      "subtype": ""
+    },
+    "identifier": "lynx"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1738079061567,
+    "modifiedTime": 1739535118804,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "4qfrwMKlLmhefjfg"
+}

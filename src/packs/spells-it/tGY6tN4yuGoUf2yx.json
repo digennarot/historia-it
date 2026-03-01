@@ -1,0 +1,162 @@
+{
+  "name": "Sogno del Velo Blu",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Tu e fino a otto creature disponibili all'interno della gamma cadere @condizione[inconscio] per la durata dell'incantesimo e le visioni di esperienza di un altro mondo sul piano materiale, come Oerth, Toril, Krynn, o Eberron. Se l'incantesimo raggiunge la sua durata, le visioni si concludono con ognuno di voi incontrando e tirando indietro una misteriosa tenda blu. L'incantesimo poi termina con voi mentalmente e fisicamente trasportati al mondo che era nelle visioni.</p><div class=\"rd__spc-inline-post\"></div><p>Per lanciare questo incantesimo, si deve avere un elemento magico che ha avuto origine nel mondo che si desidera raggiungere, e si deve essere consapevoli dell'esistenza del mondo, anche se non si conosce il nome del mondo. La vostra destinazione nell'altro mondo è una posizione sicura all'interno di 1 miglio di dove l'oggetto magico è stato creato. In alternativa, è possibile lanciare l'incantesimo se una delle creature colpite è nato sull'altro mondo, che causa la vostra destinazione di essere una posizione sicura entro 1 miglio di dove quella creatura è nata.</p><p>L'incantesimo finisce presto su una creatura se quella creatura subisce danni, e la creatura non viene trasportata. Se prendi qualche danno, l'incantesimo finisce per te e per tutte le altre creature, senza che nessuno di voi venga trasportato.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 10
+    },
+    "duration": {
+      "value": "6",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "20",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 7,
+    "school": "con",
+    "materials": {
+      "value": "a magic item or a willing creature from the destination world",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "dream-of-the-blue-veil",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "TCE",
+      "hash": "dream%20of%20the%20blue%20veil_tce",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073686,
+    "modifiedTime": 1760899073686,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "tGY6tN4yuGoUf2yx"
+}

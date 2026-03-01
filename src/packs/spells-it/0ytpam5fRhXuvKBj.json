@@ -1,0 +1,282 @@
+{
+  "name": "Cerimonia",
+  "type": "spell",
+  "img": "icons/magic/holy/chalice-glowing-gold.webp",
+  "effects": [],
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      }
+    },
+    "betterRolls5e": {
+      "critRange": {
+        "value": null,
+        "type": "String"
+      },
+      "critDamage": {
+        "value": "",
+        "type": "String"
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false,
+        "type": "Boolean"
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean",
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickCharges": {
+        "value": {
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "use": false,
+          "resource": true
+        },
+        "type": "Boolean"
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Si esegue una cerimonia religiosa speciale che è infusa di magia. Quando si lancia l'incantesimo, scegliere uno dei seguenti riti, il cui obiettivo deve essere entro 10 piedi da voi durante il casting.</p><p><strong>Espiazione.</strong>Si tocca una creatura disponibile il cui allineamento è cambiato, e si fa un controllo DC 20 Saggezza (Insight). Su un controllo s uccessful, si ripristina l'obiettivo al suo allineamento originale.</p><p><strong>Bless Water.</strong>Toccate una fiala d'acqua e fatela diventare acqua santa.</p><p><strong>Arrivo dell'età.</strong>Toccate un umanoide che è un giovane adulto. Per le prossime 24 ore, ogni volta che il bersaglio effettua un controllo di abilità, può rotolare un d4 e aggiungere il numero rotolato al controllo di abilità. Una creatura può beneficiare di questo rito solo una volta.</p><p><strong>Dedicazione.</strong>Toccate un umanoide che vuole essere dedicato al servizio del vostro dio. Per le prossime 24 ore, ogni volta che il bersaglio fa un tiro di risparmio, può rotolare un d4 e aggiungere il numero rotolato al salvataggio. Una creatura può beneficiare di questo rito solo una volta.</p><p><strong>Rite funebre.</strong>Si tocca un cadavere, e per i prossimi 7 giorni, l'obiettivo non può diventare non morto con alcun mezzo a meno di un incantesimo di desiderio.</p><p><strong>Matrimonio.</strong>Si toccano gli umanoidi adulti disposti ad essere legati insieme in matrimonio. Per i prossimi 7 giorni, ogni obiettivo guadagna un +2 bonus per AC mentre un re entro 30 piedi l'uno l'altro. Una creatura può beneficiare di questo rito solo se vedova.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE pg. 151",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "touch"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 1,
+    "school": "abj",
+    "materials": {
+      "value": "powdered silver worth 25 gp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "ceremony",
+    "method": "spell",
+    "prepared": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "0ytpam5fRhXuvKBj"
+}

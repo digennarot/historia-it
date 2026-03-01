@@ -1,0 +1,162 @@
+{
+  "name": "Fortezza potente",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Una fortezza di pietra erutta da una zona quadrata di terra di vostra scelta che si può vedere all'interno della gamma. L'area è di 120 piedi su ogni lato, e non deve avere alcun edifici o altre strutture su di esso. Tutte le creature della zona sono innocuamente sollevate mentre la fortezza sale.</p><div class=\"rd__spc-inline-post\"></div><p>La fortezza ha quattro torrette con basi quadrate, ciascuna a 20 piedi su un lato e alta 30 piedi, con una torretta su ogni angolo. Le torrette sono collegate tra loro da pareti in pietra che sono lunghe ogni 80 piedi, creando un'area chiusa. Ogni parete è spessa 1 piede ed è composta da pannelli che sono larghe 10 piedi e alti 20 piedi. Ogni pannello è contiguo con altri due pannelli o un altro pannello e una torretta. Puoi posizionare fino a quattro porte in pietra nella parete esterna della fortezza.</p><p>Una piccola tenuta si trova all'interno della zona recintata. La tenuta ha una base quadrata che è di 50 piedi su ogni lato, e ha tre piani con soffitti alti 10 piedi. Ciascuno dei piani può essere suddiviso in altrettante stanze, a condizione che ogni camera sia di almeno 5 piedi su ogni lato. I pavimenti della tenuta sono collegati da scale in pietra, le sue pareti sono di 6 pollici di spessore, e le camere interne possono avere porte in pietra o arcate aperte come si sceglie. La tenuta è arredata e decorata comunque ti piace, e contiene cibo sufficiente per servire un banchetto di nove portate per fino a 100 persone al giorno. Forniture, cibo e altri oggetti creati da questo incantesimo si sbriciolano a polvere se rimosso dalla fortezza.</p><p>Uno staff di cento servitori invisibili obbedisce a qualsiasi comando dato loro da creature che designate quando gettate l'incantesimo. Ogni servo funziona come se creato dall'incantesimo del servo invisibile.</p><p>Le pareti, le torrette e la tenuta sono tutte in pietra che possono essere danneggiate. Ogni sezione di pietra di 10 piedi per 10 piedi ha AC 15 e 30 punti di colpo per pollice di spessore. È immune al veleno e ai danni psichici. Ridurre una sezione di pietra a 0 punti di colpo lo distrugge e potrebbe causare sezioni collegate a fibbia e collassare a discrezione del DM.</p><p>Dopo 7 giorni o quando si getta questo incantesimo da qualche altra parte, la fortezza si sbriciola innocuamente e affonda nel terreno, lasciando qualsiasi creatura che era dentro di esso in modo sicuro sul terreno.</p><p>Lanciare questo incantesimo nello stesso posto una volta ogni 7 giorni per un anno rende la fortezza permanente.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "1",
+      "units": "mi"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 8,
+    "school": "con",
+    "materials": {
+      "value": "a diamond worth at least 500 gp, which the spell consumes",
+      "consumed": true,
+      "cost": 500,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "mighty-fortress",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/environment/settlement/castle-tan.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "XGE",
+      "hash": "mighty%20fortress_xge",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "1efv1ZQ2rq0HWSxs"
+}

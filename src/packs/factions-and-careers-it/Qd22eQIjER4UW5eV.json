@@ -1,0 +1,210 @@
+{
+  "name": "Carriera: Artista",
+  "type": "feat",
+  "img": "icons/tools/hand/brush-paint-brown-white.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">L'arte è una parte importante nella vita degli abitanti di Vesteria: che si tratti di pittori sacri al soldo della Chiesa delle Ossa nel Santo Regno, di attori che calcano le scene di Salso Nero, o di favoriti dei mecenati della Confederazione, c'è sempre grande richiesta di talento e voglia di godere dei frutti prodotti dalle arti. Un artista ha la possibilità di scegliere tra infiniti campi in cui specializzarsi, dalle tradizionali scuole di pittura e scultura ai palcoscenici virtuosi della danza o della musica, oltre a qualsiasi altra disciplina attraverso la quale la sensibilità artistica possa trasmettere emozioni alle persone.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - APPRENDISTA<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Essere introdotto al lavoro di un artista da un maestro per diventare un apprendista.<br /></span></p>\n<p><span class=\"fontstyle0\">Intraprendi il percorso artistico desiderato e acquisisci la padronanza di uno strumento musicale o di uno strumento artigianale ad esso collegato, guidato da un maestro che ti consiglia e istruisce.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - ARTISTA<br /></span></h2>\n<p><span class=\"fontstyle0\">Inizi a guadagnare ricchezza dalle tue performance o creazioni, iniziando a guadagnare Fama come professionista del settore e separandoti dal tuo mentore.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Stupisci con l'Arte.</strong></em> </span><span class=\"fontstyle0\">La tua abilità artistica ti permette di realizzare opere che, oltre a garantirti un introito economico, ti aiutano ad aumentare la tua Fama. Ogni volta che esegui o crei un'opera d'arte, puoi provare a impressionare qualcuno presente in quel momento e con una Fama superiore alla tua attraverso una prova relativa al tuo campo artistico con difficoltà decisa dal GM a seconda della situazione. In caso di successo, ogni volta che acquisisci Fama con un'attività specifica della tua carriera, guadagni Fama aggiuntiva per ogni NPC di fama più elevata che era presente in quel momento e che sei riuscito a impressionare.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - RICONOSCIUTO<br /></span></h2>\n<p><span class=\"fontstyle2\">Sei un artista ricercato e apprezzato in qualsiasi ambiente in cui la tua arte può essere apprezzata e hai un vantaggio nei controlli di interazione sociale con coloro che appartengono a questi ambienti e che sono ammiratori del tuo lavoro. Inoltre, sei considerato un maestro della tua disciplina e puoi istruire gli apprendisti.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - FAMOSO<br /></span></h2>\n<p><span class=\"fontstyle2\">Hai raggiunto la vetta artistica più alta nel tuo campo, unendoti alla schiera degli artisti passati alla storia. Raggiunto questo livello di esperienza, sei ora in grado di influenzare il giudizio dei potenti e di dare inizio a nuove mode. Una volta per sessione, puoi spendere l'ispirazione per cambiare, per un breve periodo di tempo a discrezione del GM, l'idea comune su qualsiasi elemento, oggetto o pensiero nella società, rendendola una tendenza popolare o particolarmente disprezzata.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 230",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "career-artist",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898709568,
+    "modifiedTime": 1760898709568,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Qd22eQIjER4UW5eV"
+}

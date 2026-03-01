@@ -1,0 +1,150 @@
+{
+  "name": "Grenadier",
+  "type": "subclass",
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Quando un architetto contempla un bellissimo edificio, in particolare uno costruito con nuove tecniche, stanno già analizzando mentalmente ciò che ha preso per costruirlo. Quando un granatoio scansiona una costruzione, si chiedono esattamente quanti barili di polvere sono necessari per bruciarlo a terra. Questi specialisti della distruzione hanno affinato la loro conoscenza della polvere nera al fine di creare dispositivi esplosivi per aprire una strada dove c'era una montagna, trasformare un assedio in un assalto e ridurre le macchine da guerra avversarie per smouldering embers.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 167",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "grenadier",
+    "classIdentifier": "sapper",
+    "advancement": [
+      {
+        "_id": "OhkaHDvtsyx04ycz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.zXW9aeG1Ee9ZLb8q",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "EVU4iKfOQyICRQcK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.6EX2i5sYQq6DTxLa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ypCLoP3p49UAGKoM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.4wkpXmgaOmyGXciS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ddD0CCcaxQOzrrZd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.yHpf17fi81sIQarW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "vLZQKgrL13OIKEOF"
+}

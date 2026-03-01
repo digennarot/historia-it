@@ -1,0 +1,157 @@
+{
+  "name": "Aquile",
+  "type": "race",
+  "img": "assets/historia/aquile.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Le aquile, dotate di naturale autorità e di grande forza, avrebbero tutte le carte in regola per aspirare al comando. Eppure, quando lo fanno, non è per guidare gli altri verso un futuro migliore, ma per sete di potere: in poche parole, il loro posto è al vertice. La loro autorità è secca e intransigente, ed è improbabile che si circondino di schiere di consiglieri e assistenti: sono creature solitarie, individualiste e timide, e non amano interagire con coloro che credono (a volte per una buona ragione, a volte per puro pregiudizio) non siano loro pari. Tanto altezzosi quanto freddi, questi Rapax sono ottimi combattenti ma pessimi soldati, poiché faticano ad accettare gli ordini impartiti; per convincerli a seguirti devi dimostrare di essere loro pari, il che non è mai facile. Quando un capitano si presenta con un tenente dell’Aquila al suo fianco, il suo avversario ha doppiamente paura: primo perché deve combattere contro un membro di questa specie, e secondo perché la presenza dell’Aquila dice molto sui meriti del capitano. Nelle relazioni personali, le Aquile oscillano tra il totale riserbo e i gesti sfacciati. Normalmente gelosi dei propri sentimenti, che non esprimono volentieri, quando provano emozioni forti hanno reazioni<br /> drammatiche e sproporzionate, sia positive che negative. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Carisma </span>il punteggio aumenta di 1 e il tuo punteggio di <span class=\"fontstyle0\">Forza </span>aumenta di 2.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Rapax raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base al suolo è di 15 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 40 piedi.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un'aquila può raggiungere un'altezza compresa tra 4 piedi e mezzo <span class=\"fontstyle0\">e 5 piedi e mezzo e pesare tra 65 e 110 libbre. La tua taglia è Media.</span></p><p><span class=\"fontstyle0\"><em><strong>Spirito selvaggio.</strong></em></span><span class=\"fontstyle2\">Hai competenza nell'abilità Sopravvivenza.</span></p><p><span class=\"fontstyle0\"><em><strong>Temuto. </strong></em></span><span class=\"fontstyle2\">Hai competenza nell'abilità Intimidire.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p>@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Acute Sight}</p><p>@Compendium[world.species-features.ykIWy92L9mYgCjV4]{Eagle Claws}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.ZpaYSNvEaMOBkQRm]{Snatch}</span></p><p>@Compendium[world.species-features.QuIdJAIbTc1h2oiV]{Rapax Peck}</p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Distanza (Predatore):</strong></em> </span><span class=\"fontstyle4\">“Posso analizzare le situazioni mantenendomi a distanza”.</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, nobile:</strong></em> </span><span class=\"fontstyle2\">\"Posso volare più in alto delle persone comuni.\"</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "109",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "FDSeI9h42mIT4oAf",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 2,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "P1iLozXgRVmju9We",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "gAD80CIXQly20H6p",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "drWjo7FgozNiAwbm",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:itm",
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "yojJ1CrTVX8AAR2s",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ykIWy92L9mYgCjV4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ZpaYSNvEaMOBkQRm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 40,
+      "swim": null,
+      "walk": 15,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Rapax",
+      "subtype": ""
+    },
+    "identifier": "eagles"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737404209898,
+    "modifiedTime": 1739534655637,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "t0XjqavWVGwef1zV"
+}

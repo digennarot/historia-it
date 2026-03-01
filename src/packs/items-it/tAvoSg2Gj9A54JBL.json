@@ -1,0 +1,86 @@
+{
+  "name": "Pugno",
+  "type": "container",
+  "img": "icons/containers/chest/chest-reinforced-steel-walnut-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "dnd5e": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un petto detiene 12 piedi cubici o 300 libbre di marcia.</p>\n<p>Costo: 5</p>\n<p>Peso w/o contenuto: 25 lbs</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 153",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "weight": {
+        "value": 300,
+        "units": "lb"
+      },
+      "count": null,
+      "volume": {
+        "value": null,
+        "units": "cubicFoot"
+      }
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attuned": false,
+    "properties": [],
+    "identifier": "chest"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "tAvoSg2Gj9A54JBL"
+}

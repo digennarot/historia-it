@@ -1,0 +1,123 @@
+{
+  "name": "Politica",
+  "type": "subclass",
+  "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Onesto o corrotto, equinitario o partigiano, chi sceglie una carriera politica sa che dovrà fare un'arma dalla loro conoscenza e mantenere la lingua affilata come una lama: spietato è il percorso che calpestano. Nel mondo della politica, il bene comune è sempre filtrato dallo spettro del carrierismo, e la scelta tra perseguire una carriera individuale o servire la comunità non ha la stessa risposta per tutti. I politici sono ottimi oratori, hanno un occhio per intrighi e sono dotati di grande carisma, che non è molto comune per gli Scholars.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 175",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "politician",
+    "classIdentifier": "scholar",
+    "advancement": [
+      {
+        "_id": "nIfy29yVb8YydoVr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.ykUrlInljT1Lfvxt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "qx028e0GV5fWjzj3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.g3kV5kNdbwQsYtKx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "rh1G8WN6S3WniVcL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.iScxoIpTJHSEwDUw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "oDGqY9u2lfRCfbaJ"
+}

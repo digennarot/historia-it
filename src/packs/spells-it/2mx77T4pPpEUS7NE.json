@@ -1,0 +1,152 @@
+{
+  "name": "Vault of Amber",
+  "type": "spell",
+  "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Si organizza 5 piccole gemme ambra in un cerchio sciolto intorno a qualsiasi materiale non vivente e traccia Sigils trasmutative sopra ciascuno di loro. Tutti i materiali all'interno del cerchio sono tirati nel più grande delle gemme e sono memorizzati lì, in stasi. I contenuti non invecchiano, il tempo o marciscono. La gemma può contenere fino a 500 libbre di materiale.</p><p>Il caster può usare un'Azione per parlare una sola parola scelta e rilasciare il contenuto della gemma sul terreno. I contenuti vengono rilasciati anche se disabilitati.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "CRT",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "spec"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "touch"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 4,
+    "school": "nec",
+    "materials": {
+      "value": "5 small amber gems worth 200 gp",
+      "consumed": true,
+      "cost": null,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "vault-of-amber",
+    "method": "spell",
+    "prepared": 0
+  },
+  "effects": [],
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "2mx77T4pPpEUS7NE"
+}

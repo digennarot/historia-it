@@ -1,0 +1,157 @@
+{
+  "name": "Cervo",
+  "type": "race",
+  "img": "assets/historia/cervi.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Con arti lunghi, corna imponenti e un'andatura aggraziata, i Cervi sono convinti di essere le creature più nobili, eleganti e meritevoli. Sono avidi studiosi di storia locale e di araldica, e molti conoscono le genealogie e le gesta di tutte le nobili famiglie di Vesteria, consapevolezza che non mancano mai di portare all'attenzione degli altri ogni volta che ne viene data l'opportunità. Mentre ritengono di comportarsi semplicemente in modo appropriato alla loro razza di alto rango, gli altri spesso li giudicano arroganti ed eccessivi. Dopotutto, i cervi sono dei pessimi seguaci che detestano prendere ordini e reagiscono male alle costrizioni, preferendo posizioni di comando a quelle subordinate. Sebbene gran parte delle loro caratteristiche innate non gli valgano una simpatia sfrenata è giusto sottolineare come questi Ruminsi abbiano un radicale e forte senso dell'onore che li porta ad essere assolutamente sinceri, anche quando la verità potrebbe danneggiarli. L’incorruttibilità tende a renderli formidabili amministratori della giustizia. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">La tua </span><span class=\"fontstyle0\">saggezza </span>il punteggio aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Carisma</span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Ruminsi raggiunge la maturità intorno all'età <span class=\"fontstyle0\">di 14 anni ed è immediatamente considerato indipendente. Hanno una vita media di circa 80 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em>  La tua velocità base sul terreno è 40 piedi.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un cervo può raggiungere un'altezza compresa tra 4 piedi e mezzo e <span class=\"fontstyle0\">6 piedi e mezzo e pesare tra 90 e 175 libbre.</span>  <span class=\"fontstyle2\">La tua taglia è media.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Genealogista.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nell'abilità Storia.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Spirito selvaggio.</strong></em></span><span class=\"fontstyle2\">Hai competenza nell'abilità Sopravvivenza.</span> </p><p><span class=\"fontstyle0\"><em><strong>Scurovisione</strong></em>. </span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 60 piedi come se fossi in piena luce e nell'oscurità come se fosse in penombra. Non sei in grado di discernere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Udito acuto}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.JP0rv0xvUnuCQid1]{Jumper}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.cdqEyJn6NwvJGtut]{Attacco con il corno}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.6ltl18WnVt1LmmQQ]{Carica}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.vRpyG4XMJwT1S36I]{Grandi corna}.</span> </p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Onorevole (Preda):</strong></em></span><span class=\"fontstyle4\">\"Seguo un codice di regole chiaramente definite\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, Indipendenza: </strong></em></span><span class=\"fontstyle2\">\"Solo io decido il mio destino\".</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "83",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "DbnDqRPtqePW42tB",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 2,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "D5AVC2kW6Cmmq4Pk",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "m80GGpiBDUkKtKsM",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "9Sev7zIfHtrsPOy4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:his",
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "xYPl5zTdKSCdNsKN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.JP0rv0xvUnuCQid1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.cdqEyJn6NwvJGtut",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.6ltl18WnVt1LmmQQ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.R2U2UCbTMGqwr7GA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 40,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruminsi",
+      "subtype": ""
+    },
+    "identifier": "deer"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737399893700,
+    "modifiedTime": 1739534306145,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "6TpuxIQgQQjbykNu"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Vetro di ingrandimento",
+  "type": "loot",
+  "img": "icons/tools/scribal/magnifying-glass.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Questa lente permette uno sguardo più da vicino a piccoli oggetti. È anche utile come sostituto per flint e acciaio quando si avviano incendi. Accendere un fuoco con una lente di ingrandimento richiede luce come luce luminosa come luce solare per concentrarsi, tinder per accendere, e circa 5 minuti per il fuoco per accendere. Una lente di ingrandimento garantisce il vantaggio su qualsiasi controllo di capacità fatto per valutare o ispezionare un prodotto che è piccolo o altamente dettagliato.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 152",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "magnifying-glass"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898716542,
+    "modifiedTime": 1760898716542,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "dkDfY4RecxIP9Fs6"
+}

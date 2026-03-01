@@ -1,0 +1,161 @@
+{
+  "name": "Oggetti immovibili",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si tocca un oggetto che pesa non più di 10 libbre e lo fa diventare magicamente fissato al posto. Tu e le creature che si designa quando si lancia questo incantesimo può spostare l'oggetto normalmente. È inoltre possibile impostare una password che, quando parlata entro 5 piedi dell'oggetto, sopprime questo incantesimo per 1 minuto.</p><div class=\"rd__spc-inline-post\"></div><p>Se l'oggetto è fissato nell'aria, può contenere fino a 4.000 libbre di peso. Più peso causa la caduta dell'oggetto. Altrimenti, una creatura può usare un'azione per fare un controllo di forza contro il tuo incantesimo salvare DC. Su un successo, la creatura può spostare l'oggetto fino a 10 piedi.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"29\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Se si digita questo incantesimo utilizzando una scanalatura di 4° o quinto livello, la DC per spostare l'oggetto aumenta di 5, può trasportare fino a 8.000 libbre di peso, e la durata aumenta a 24 ore. Se si lancia questo incantesimo utilizzando una fessura ortografica di 6 ° livello o superiore, il DC per spostare l'oggetto aumenta di 10, può trasportare fino a 20.000 libbre di peso, e l'effetto è permanente fino a dispellere.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "EGW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "touch",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "touch"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 2,
+    "school": "trs",
+    "materials": {
+      "value": "gold dust worth at least 25 gp, which the spell consumes",
+      "consumed": true,
+      "cost": 25,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "immovable-object",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/sundries/survival/cuffs-shackles-ball.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "EGW",
+      "hash": "immovable%20object_egw",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ffVdnD4jhkn3PBpG"
+}

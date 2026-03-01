@@ -1,0 +1,163 @@
+{
+  "name": "Schermo platino",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea un campo di luce argentea che circonda una creatura di vostra scelta all'interno della gamma (si può scegliere voi stessi). Il campo getta dim luce a 5 piedi. Mentre circondato dal campo, una creatura guadagna i seguenti vantaggi:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li\"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Copri.</span>La creatura ha mezza copertura.</p></li><li class=\"rd__li\"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Resistenza ai danni.</span>La creatura ha resistenza agli acidi, al freddo, al fuoco, ai fulmini e ai danni del veleno.</p></li><li class=\"rd__li\"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Evasione.</span>Se la creatura è sottoposta a un effetto che gli permette di fare un tiro di salvataggio di Dexterity per prendere solo mezzo danno, la creatura invece non prende alcun danno se riesce sul tiro di salvataggio, e solo mezzo danno se fallisce.</p></li></ul><p>Come azione bonus sui giri successivi, è possibile spostare il campo in un'altra creatura entro 60 piedi del campo.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "FTD",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 6,
+    "school": "abj",
+    "materials": {
+      "value": "a platinum-plated dragon scale, worth at least 500 gp",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "platinum-shield",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "FTD",
+      "hash": "fizban's%20platinum%20shield_ftd",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "c33CNHpUfHJq9cy3"
+}

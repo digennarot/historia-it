@@ -1,0 +1,177 @@
+{
+  "name": "Santa Guida",
+  "type": "subclass",
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">I seguaci di questa filosofia guadagnano un potere ineguagliabile dallo spargimento del proprio sangue, uno che saccheggia in altri lo stesso ardor bruciante. Le folle si sono riunite per acclamare i sermoni e gli spettacoli macabri di una Santa guida, sono condizionati da essa, e possono trasformarsi in una forza devastante incontrollabile capace di assumere imprese sconsiderate al di là di ogni logica e rispetto di sé. Il sangue è più potente delle parole, ma l'unità può diventare un'arma crudele e devastante.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 140",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "holy-guide",
+    "classIdentifier": "flagellant",
+    "advancement": [
+      {
+        "_id": "FzSqTarUtd88bcih",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.1BEA9OvNxFmSveAo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "WJ9OMPoFeXvSR2aX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.MshIbcpyGwswNqsC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "7eMvPzjyosuUidAL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.Qvnhh8an8Ym9HZhP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Abilty"
+      },
+      {
+        "_id": "Md5dkJfMhAHGOzAW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.P0hTTZ7IGDJuQZ4r",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Abilty"
+      },
+      {
+        "_id": "Jx51V3yS91wQ5sdn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.profession-features.BPdTDtnLNK5bJjXO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Abilty"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "x23CbwjqQuS05FdW"
+}

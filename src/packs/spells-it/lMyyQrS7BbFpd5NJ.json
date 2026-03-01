@@ -1,0 +1,161 @@
+{
+  "name": "Trova più grande Steed",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Invochi uno spirito che assume la forma di un monte leale e maestoso. Apparendo in uno spazio non occupato all'interno della gamma, lo spirito assume una forma che si sceglie: un @creature[griffon], un @creature[pegasus], un @creature[peryton], un @creature[dire wolf], un @creature[rhinoceros], o un @creature[saber-toothed tiger]. La creatura ha le statistiche fornite nel Manuale del mostro per la forma scelta, anche se è un celeste, un fey, o un fiend (la vostra scelta) invece del suo tipo di creatura normale. Inoltre, se ha un punteggio di intelligenza di 5 o inferiore, la sua intelligenza diventa 6, e ottiene la capacità di capire una lingua di vostra scelta che si parla.</p><div class=\"rd__spc-inline-post\"></div><p>Controllate il supporto in combattimento. Mentre il monte è dentro 1 miglio di voi, è possibile comunicare con esso telepaticamente. Mentre è montato su di esso, è possibile fare qualsiasi incantesimo si cast che si rivolge solo si mira anche il montaggio.</p><p>Il supporto scompare temporaneamente quando scende a 0 punti di colpo o quando lo si respinge come azione. Riprendendo questo incantesimo riassumono il supporto legato, con tutti i suoi punti di successo ripristinati e tutte le condizioni rimosse.</p><p>Non si può avere più di un monte legato da questo incantesimo o @spell[find steed] allo stesso tempo. Come azione, è possibile rilasciare un supporto dal suo legame, causando la scomparsa permanente.</p><p>Ogni volta che il supporto scompare, lascia dietro qualsiasi oggetto che indossava o trasportava.</p><div class=\"rd__b-special rd__b-inset\" data-source=\"FTD\"><span class=\"rd__h rd__h--2-inset\" data-title-index=\"13\"><h4 class=\"entry-title-inner\">Steeds Dragonnel</h4><span class=\"ve-flex-vh-center\"> <span class=\"rd__title-link rd__title-link--inset\"><span class=\"help-subtle\" title=\"Fizban’s Treasury of Dragons\">FTD</span>p.</span><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-special-toggle-button=\"true\">[–]</span></span></span><p>Con il permesso del DM, un paladino può convocare uno spirito nella forma di un @creature[dragonnel|ftd] utilizzando il trovare maggiore incantesimo steed, che appare in<i>Guida di Xanathar a tutto</i>.</p><div class=\"float-clear\"></div></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 10
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "find-greater-steed",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/fire/elemental-creature-horse.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "XGE",
+      "hash": "find%20greater%20steed_xge",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "lMyyQrS7BbFpd5NJ"
+}

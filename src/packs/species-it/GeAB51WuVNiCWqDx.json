@@ -1,0 +1,164 @@
+{
+  "name": "Bradipi",
+  "type": "race",
+  "img": "assets/historia/bradipi.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Prendere la vita lentamente può essere un'opzione attraente per alcuni e una stupida perdita di tempo per altri. Per i bradipi è l'unica via. Gli appartenenti a questa specie sono amanti della domesticità, creature abitudinarie, costanti nelle opinioni e poco attratti dalle innovazioni, verso le quali tendono ad essere piuttosto ostinati. Far cambiare idea a un Bradipo è difficile quanto qualsiasi cosa si possa considerare di provare, ed è qualcosa che il Bradipo non apprezzerebbe. Questa predisposizione rende i bradipi tradizionalisti, posati, puntigliosi e inamovibili. Non è raro che i lavori in questi Edenti Familia vengano tramandati di genitore in figlio. Se, da un lato, questa pratica consente di raggiungere notevoli vette di eccellenza derivanti dall'esperienza maturata generazione dopo generazione, dall'altro rischia di vanificare ogni aspirazione che le generazioni più giovani potrebbero avere. La lentezza che pervade la vita dei Bradipi si estende anche al loro metabolismo, permettendo loro di resistere per tempi impossibili ad altre specie alle privazioni. Non solo: la scelta di una vita presa con calma limita anche le abitudini comuni, come l'igiene personale. Ciò porta a una <span class=\"fontstyle0\">difesa naturale insolita, ovvero la crescita di muffe velenose sulla loro pelliccia, innocue per i bradipi stessi ma tossiche per chiunque altro.</span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">Il tuo punteggio di Costituzione aumenta di 2 e il tuo  </span><span class=\"fontstyle0\">Il punteggio di Saggezza</span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span><span class=\"fontstyle2\">Un Edenti raggiunge la maturità intorno ai 14 anni ed è subito considerato indipendente. Hanno una vita media di 50 anni.<br /></span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità di camminata base è di 20 piedi e la tua <span class=\"fontstyle0\">velocità di nuoto è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione.</strong></em> Un bradipo può raggiungere un'altezza compresa tra 4 piedi e 5 piedi e può pesare fino a 155 libbre. La tua taglia è Media.</span></p><p><span class=\"fontstyle2\"><em><strong>Attenzione.</strong></em> </span><span class=\"fontstyle0\">Hai esperienza nell'abilità Percezione.</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Naso discriminante}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.AbseAiubt8i5WKVi]{Cattiva vista}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.iT4JOqV9XFo6k3qt]{Cauto}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.xuOgH32dvzDkveEa]{Calm}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.3inQrQXB1xEgpwb1]{Slow}</span></p><p><span class=\"fontstyle2\">@Compendium[world.species-features.1vDFpG480QmOjYno]{Metabolismo lento}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.z8WpLYbdqRY2XSca]{Pelliccia velenosa}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Fiducia (preda): </strong></em></span><span class=\"fontstyle4\">\"Mi affido sempre alle mie forze\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, paziente:</strong></em> </span><span class=\"fontstyle2\">\"Credo che l'attesa sia spesso<br />preferibile all'azione\".</span></p><p> </p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "HCB",
+      "page": "61",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "kidl4VXoDqGbdEOu",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 1,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "WNTQT7ovHc332nWU",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "TNkdhBE3oaV5Otvd",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "S3udvxwUWiVhXiV2",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:prc"
+          ],
+          "mode": "expertise"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "4fzpYq5BnAsHA1Ze",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.f8BD0svXngQPjPsa",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.CsKP3pQcELPkECkY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.AbseAiubt8i5WKVi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.iT4JOqV9XFo6k3qt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.xuOgH32dvzDkveEa",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.1vDFpG480QmOjYno",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.z8WpLYbdqRY2XSca",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 30,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Edenti",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739565394251,
+    "modifiedTime": 1739565705159,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "GeAB51WuVNiCWqDx"
+}

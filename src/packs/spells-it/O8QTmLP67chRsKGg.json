@@ -1,0 +1,199 @@
+{
+  "name": "Stella nera",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Questo incantesimo crea una sfera incentrata su un punto che si sceglie all'interno della gamma. La sfera può avere un raggio fino a 40 piedi. L'area all'interno di questa sfera è piena di tenebre magiche e di forza gravitazionale schiacciante.</p><div class=\"rd__spc-inline-post\"></div><p>Per tutta la durata, l'area dell'incantesimo è terreno difficile. Una creatura con Darkvision non può vedere attraverso le tenebre magiche, e la luce non magica non può illuminarla. Nessun suono può essere creato all'interno o passare attraverso la zona. Qualsiasi creatura o oggetto interamente all'interno della sfera è immune ai danni del tuono, e le creature sono @condizione[difeso] mentre interamente dentro di essa. Lancio di un incantesimo che include un componente verbale è impossibile lì.</p><p>Qualsiasi creatura che entra nell'area dell'incantesimo per la prima volta a turno o inizia il suo turno deve fare un tiro di risparmio della Costituzione. La creatura prende [[/r 8d10] danni forza su un salvataggio fallito, o la metà di danni su uno di successo. Una creatura ridotta a 0 punti di colpo da questo danno è disintegrata. Una creatura disintegrata e tutto ciò che indossa e trasporta, eccetto oggetti magici, sono ridotti a un mucchio di polvere grigia fine.</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "EGW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "150",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 8,
+    "school": "evo",
+    "materials": {
+      "value": "a shard of onyx and a drop of the caster's blood, both of which the spell consumes",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 8,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "force"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "dark-star",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "EGW",
+      "hash": "dark%20star_egw",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        }
+      },
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "O8QTmLP67chRsKGg"
+}

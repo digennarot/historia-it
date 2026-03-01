@@ -1,0 +1,212 @@
+{
+  "name": "Cicli",
+  "type": "feat",
+  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Alcuni alchimisti hanno scoperto segreti per combinare diversi atti alchemici attraverso i quali sono in grado di ottenere risultati più sensazionali e misteriosi: questi segreti sono chiamati Cicli. Dal 5 ° livello, ogni alchimista conosce un ciclo costituito da due atti e può imparare un nuovo ciclo ogni due livelli di alchimista.</span></p><p><span class=\"fontstyle0\">I cicli dovrebbero essere esposizioni personali dell'alchimista che combina gli effetti degli atti in modi insoliti o inaspettati. Possono combinare gli effetti degli atti che li applicano o li sostituiscono per interazioni complesse tra gli elementi.<br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p><p><span class=\"fontstyle0\">Come un'idea generale per creare nuovi cicli, i cicli a due atti dovrebbero replicare gli effetti dell'incantesimo tra il 3° e il 5° livello, i cicli a tre atti dovrebbero replicare gli incantesimi tra i livelli del 6° e 8°, e i cicli a quattro atti incantesimi del 9° livello. Il GM e il giocatore dovrebbero estrarre effetti significativi per la storia e la filosofia dell'alchimista.<br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p><p><span class=\"fontstyle0\"><strong>Cicli a due atti</strong></span></p><p>@UUUID[Compendium.world.profession-featuression-features.evWvzLjcdw9J3nce]{Refresh the Soul}</p><p>@UUUID[Compendium.world.profession-features.L2V1vrx85gxEkvK]{Material Refinement}</p><p>@UUUID[Compendium.world.profession-features.qphp6O8NdtHktsER]{Air Body}</p><p>@UUUID[Compendium.world.profession-featuression-features.SjbJJsFo4T5hNFku]</p><p><strong>Cicli a tre atti</strong></p><p>@UUUID[Compendium.world.profession-features.HlI76VOcKHkD5urN]{Body Refinement}</p><p>@UUUID[Compendium.world.profession-features.n15oTqBNIcz7smvk]{Curtain of the Flames}</p><p>@UUUID[Compendium.world.profession-features.67fyoHdy2t2L0Ari]{Focus the Pain}</p><p>@UUUID[Compendium.world.profession-features.Z8YtlbYTw3X7OblC]{Force Cage}</p><p><strong>Cicli a quattro atti</strong></p><p>@UUUID[Compendium.world.profession-features.dDWhgW6LRGGwgvZC]{Weird}</p><p>@UUUID[Compendium.world.profession-featuression.OxjFAsrjS4C64fv9]{Occult Replica}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 129",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Alchemist Level 5",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "cycles",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898723204,
+    "modifiedTime": 1760898723204,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "kX8S7y5hYPXp8ISq"
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Allocchi",
+  "type": "race",
+  "img": "assets/historia/allocchi.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Essere tutt'uno con il tuo ambiente presenta molteplici vantaggi. Quando sei la preda, scappare è più facile anche se sei fisicamente svantaggiato; quando sei il predatore, consente l'imboscata perfetta. Gli allocchi si trovano spesso in attesa, nascosti. Questa dote li rende molto ricercati per tutti quei lavori dove la discrezione è fondamentale. Il loro opportunismo, infatti, è un valore aggiunto e la prontezza dei loro riflessi può fare la differenza tra la vita e la morte. Nonostante abbiano tutte le carte in regola per eccellere in moltissimi campi, gli Allocchi si ritrovano spesso ad operare nel mondo sotterraneo come spie, ladri, borseggiatori, scassinatori e così via. Tutt'altro che ingenui, questi Avians sanno come affrontare e portare a termine qualsiasi compito e trovano sempre una via d'uscita anche quando sono messi alle strette: hanno sempre la risposta giusta ed è molto difficile intimidirli, riuscendo a mantenere la calma e la razionalità sotto pressione. Per quanto riguarda i rapporti con gli altri, gli Allocchi sono molto empatici e facili da influenzare da parte di coloro a cui sono affezionati, e questa tendenza contribuisce a metterli nei guai tanto quanto a tirarli fuori.</span></p><p><span class=\"fontstyle0\"><em><strong>Aumento dei punteggi di abilità.</strong></em> </span><span class=\"fontstyle2\">La tua </span><span class=\"fontstyle0\">Saggezza </span>il punteggio aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Costituzione </span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Uno Strigi raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base sul terreno è di 15 piedi. <span class=\"fontstyle0\">La tua velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un allocco può raggiungere un'altezza compresa tra 1 metro <span class=\"fontstyle0\">e 1,5 metri e un peso compreso tra 20 e 40 kg. La tua taglia è Media.</span>  Gli <span class=\"fontstyle0\">esemplari femminili di Strigi sono notoriamente più grandi dei maschi.</span></p><p><span class=\"fontstyle0\"><em><strong>Scurovisione migliorata.</strong></em> </span><span class=\"fontstyle2\">Godi di una vista eccellente adatta a condizioni di oscurità o di scarsa illuminazione. Puoi vedere fino a 120 piedi. in condizioni di scarsa illuminazione, come se fossi in condizioni di luce intensa </span><span class=\"fontstyle0\">e al buio, come se fossi in condizioni di scarsa illuminazione. Al buio non sei in grado di distinguere i colori, ma solo sfumature di grigio.</span></p><p><span class=\"fontstyle2\"><em><strong>Spirito selvaggio.</strong></em></span><span class=\"fontstyle0\">Hai competenza nell'abilità Sopravvivenza.</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.xFg14Y6h4cY5fG9i]{Grasper}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prensile Gambe}</span></p><p>@Compendium[world.species-features.wpmVyH09v3WB4TYA]{Mimicry}</p><p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Udito}</p><p>@Compendium[world.species-features.5gVT96RmF9wzuyOe]{Forte intuizione}</p><p>@Compendium[world.species-features.ytz30kh4BQMPNKoT]{Sensibilità alla luce del giorno}</p><p><span class=\"fontstyle2\">@Compendium[world.species-features.PCBN9c9lNEFp05Af]{Opportunist}</span></p><p>@Compendium[world.species-features.XXAgaQu5o3hNCwQA]{Rapax Claws}</p><p><span class=\"fontstyle0\">@Compendium[world.species-features.p1DYyduPHPQnUREg]{Volo silenzioso}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Notturno (Predatore): </strong></em></span><span class=\"fontstyle4\">\"Preferisco agire senza essere visto.\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, ascoltatore:</strong></em></span><span class=\"fontstyle2\">\"Posso ascoltare gli altri ed entrare in empatia con loro\".</span> </p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "HCB",
+      "page": "119",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "B5i2y9ztJoZuxwg3",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "woALJ8IomaiMyGCM",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "fK7bGtei8CejS5tA",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "7SUcML4LkDq2wfcS",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:slt",
+            "skills:sur"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "SyNHy7u79BfbC28w",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.world.species-features.Item.xFg14Y6h4cY5fG9i",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.wpmVyH09v3WB4TYA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.5gVT96RmF9wzuyOe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.ytz30kh4BQMPNKoT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.PCBN9c9lNEFp05Af",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.XXAgaQu5o3hNCwQA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.world.species-features.Item.p1DYyduPHPQnUREg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 15,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Strigi",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739575268232,
+    "modifiedTime": 1739575854952,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Uk8FjzupSb0wV1m0"
+}

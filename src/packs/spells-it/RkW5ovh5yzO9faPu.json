@@ -1,0 +1,162 @@
+{
+  "name": "Mischietto",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Riempi un cubo di 20 piedi che puoi vedere all'interno della gamma con magia fey e draconic. Girare sul tavolo Mischievous Surge per determinare l'effetto magico prodotto, e rotolare di nuovo all'inizio di ciascuna delle vostre curve fino alla fine dell'incantesimo. Si può spostare il cubo fino a 10 piedi prima di rotolare.</p><div class=\"rd__spc-inline-post\"></div><table class=\"w-100 rd__table stripe-odd-table\"><caption>Chirurgia maliziosa</caption><thead><tr><th class=\"col-2 text-center\" data-rd-isroller=\"true\">[[/r d4]</th><th class=\"col-10\" data-rd-isroller=\"false\">Effetto</th></tr></thead><tbody><tr><td class=\"col-2 text-center\" data-roll-max=\"1\" data-roll-min=\"1\">1</td><td class=\"col-10\">L'odore di torta di mele riempie l'aria, e ogni creatura nel cubo deve avere successo su un tiro salvifico della Saggezza o diventare @condizione[charmed] da voi fino all'inizio del vostro turno successivo.</td></tr><tr><td class=\"col-2 text-center\" data-roll-max=\"2\" data-roll-min=\"2\">2</td><td class=\"col-10\">I mazzi di fiori appaiono tutti intorno, e ogni creatura nel cubo deve avere successo su un tiro salvifico di Dexterity o essere @condizione[obbligato] fino all'inizio del vostro turno successivo come i fiori spruzzano l'acqua nei loro volti.</td></tr><tr><td class=\"col-2 text-center\" data-roll-max=\"3\" data-roll-min=\"3\">3</td><td class=\"col-10\">Ogni creatura nel cubo deve avere successo su un tiro salvifico della Saggezza o iniziare a suonare fino all'inizio del tuo prossimo turno. Una creatura giggling è @condizione[inabilitato] e utilizza tutto il suo movimento per muoversi in una direzione casuale.</td></tr><tr><td class=\"col-2 text-center\" data-roll-max=\"4\" data-roll-min=\"4\">4</td><td class=\"col-10\">Gocce di molasse hover nel cubo, rendendo il terreno difficile fino all'inizio del vostro turno successivo.</td></tr></tbody></table></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "FTD",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 2,
+    "school": "ill",
+    "materials": {
+      "value": "a piece of crust from an apple pie",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "mischief",
+    "method": "spell",
+    "prepared": 0
+  },
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "FTD",
+      "hash": "nathair's%20mischief_ftd",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "RkW5ovh5yzO9faPu"
+}
