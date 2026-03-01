@@ -21,22 +21,22 @@ jobs:
       - name: Substitute version in module.json
         run: |
           # Replace the version in module.json with the tag version
-          sed -i 's/"version": ".*"/"version": "${{ steps.extract_version.outputs.VERSION }}"/g' module.json
-          # Replace the download link if it relies on a specific tag (though we use latest, but keeping it clean)
-          sed -i "s|/releases/latest/download/historia-it.zip|/releases/download/v${{ steps.extract_version.outputs.VERSION }}/historia-it.zip|g" module.json
+          sed -i 's/"version": ".*"/"version": "${{ steps.extract_version.outputs.VERSION }}"/g' historia-it/module.json
+          # Replace the download link if it relies on a specific tag
+          sed -i "s|/releases/latest/download/historia-it.zip|/releases/download/v${{ steps.extract_version.outputs.VERSION }}/historia-it.zip|g" historia-it/module.json
 
       - name: Create ZIP archive
         run: |
-          mkdir -p zip-output/historia-it
-          # Copy all module files into a subfolder matching the module ID, excluding git/github files
-          rsync -a --exclude 'zip-output' --exclude '.git' --exclude '.github' --exclude '.gitignore' ./ zip-output/historia-it/
+          mkdir -p zip-output
+          # Copy only the generated module files
+          cp -r historia-it zip-output/
           cd zip-output
           zip -r historia-it.zip historia-it/
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'zip-output/historia-it.zip,module.json'
+          artifacts: 'zip-output/historia-it.zip,historia-it/module.json'
           token: ${{ secrets.GITHUB_TOKEN }}
           name: Release ${{ steps.extract_version.outputs.VERSION }}
           tag: ${{ github.ref }}
