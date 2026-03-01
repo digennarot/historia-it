@@ -23,10 +23,23 @@ const LABEL_TRANSLATIONS = {
     "spells": "Incantesimi"
 };
 
+const COMPENDIUM_MAP = {
+    "world.historia-factions": "historia-it.factions-it",
+    "world.historia-items": "historia-it.items-it",
+    "world.historia-spells": "historia-it.spells-it",
+    "world.historia-ventures": "historia-it.ventures-it",
+    "world.historia-factions-and-careers": "historia-it.factions-and-careers-it",
+    "world.historia-species": "historia-it.species-it",
+    "world.historia-professions": "historia-it.professions-it",
+    "world.historia-profession-features": "historia-it.profession-features-it",
+    "world.historia-species-features": "historia-it.species-features-it"
+};
+
 async function main() {
     await fs.mkdir("historia-it/packs", { recursive: true });
     let packs = [];
     let imagesToCopy = new Set();
+    const IMAGE_DIRS = ["Wynther's Files", "assets", "icons"];
 
     // 1. Process all JSON files and extract items
     const files = await fs.readdir(".");
@@ -55,56 +68,203 @@ async function main() {
 
         let pack_type = meta.type || data.type || "Item";
 
-        const srcDir = path.join("historia-it", "packs", pack_name, "_source");
+        const tempSrcDir = path.join("temp_packs", pack_name);
         const outDir = path.join("historia-it", "packs", pack_name);
 
-        await fs.mkdir(srcDir, { recursive: true });
+        await fs.mkdir(tempSrcDir, { recursive: true });
 
-        const items = (data.items || []).concat(data.pages || []); // Pages for Journals
-
-        // Deep string replacement function to update icon/image paths
-        const processItemPaths = (obj) => {
+        // Deep processing function for paths and links
+        const processData = async (obj) => {
             if (!obj) return;
-            // Iterate over all keys
             for (const key in obj) {
                 if (typeof obj[key] === 'string') {
-                    // Check if it's a known path
-                    const val = obj[key];
-                    if (val.startsWith("Wynther's Files/") || val.startsWith("assets/") || val.startsWith("icons/")) {
-                        // Mark for copy
-                        const decodedPath = decodeURIComponent(val); // Handle paths with %20
-                        imagesToCopy.add(decodedPath);
-                        // Update the path to point inside the module
-                        obj[key] = `modules/${MODULE_ID}/${val}`;
-                    } else if (val.includes('src="Wynther%27s%20Files/')) {
-                        // HTML content might contain image tags
-                        // e.g., <img src="Wynther%27s%20Files/..." />
-                        obj[key] = val.replace(/src="(Wynther(?:%27s|')\s*(?:%20| )Files\/[^"]+)"/g, (match, p1) => {
-                            imagesToCopy.add(decodeURIComponent(p1));
-                            return `src="modules/${MODULE_ID}/${p1}"`;
-                        });
+                    let val = obj[key];
+                    let changed = false;
+
+                    // 1. Update Image Paths
+                    // Decode URL encoding (e.g., %20 -> space, %27 -> ')
+                    let decodedVal = val;
+                    try {
+                        decodedVal = decodeURIComponent(val);
+                    } catch (e) {
+                        // Skip decoding if malformed
                     }
+
+                    // Define potential roots and mappings
+                    const potentialPaths = [decodedVal];
+                    if (decodedVal.startsWith("Wynther's Files/Historia/")) {
+                        potentialPaths.push(decodedVal.replace("Wynther's Files/Historia/", "modules/Historia/"));
+                    } else if (decodedVal.startsWith("Wynther's Files/")) {
+                        potentialPaths.push(decodedVal.replace("Wynther's Files/", "modules/Historia/"));
+                    }
+                    if (decodedVal.startsWith("assets/")) {
+                        potentialPaths.push(path.join("modules/Historia", decodedVal));
+                    }
+
+                    let foundPath = null;
+                    for (const p of potentialPaths) {
+                        try {
+                            await fs.stat(p);
+                            foundPath = p;
+                            break;
+                        } catch (e) { }
+                    }
+
+                    if (foundPath) {
+                        imagesToCopy.add(foundPath);
+                        val = `modules/${MODULE_ID}/${foundPath}`;
+                        changed = true;
+                    } else if (val.includes('src="')) {
+                        // Handle images in HTML descriptions
+                        const regex = /src="([^"]+)"/g;
+                        let match;
+                        let newVal = val;
+                        while ((match = regex.exec(val)) !== null) {
+                            const originalPath = match[1];
+                            let dPath = originalPath;
+                            try {
+                                dPath = decodeURIComponent(originalPath);
+                            } catch (e) { }
+
+                            const innerPaths = [dPath];
+                            if (dPath.startsWith("Wynther's Files/Historia/")) {
+                                innerPaths.push(dPath.replace("Wynther's Files/Historia/", "modules/Historia/"));
+                            } else if (dPath.startsWith("Wynther's Files/")) {
+                                innerPaths.push(dPath.replace("Wynther's Files/", "modules/Historia/"));
+                            }
+
+                            let iFound = null;
+                            for (const ip of innerPaths) {
+                                try {
+                                    await fs.stat(ip);
+                                    iFound = ip;
+                                    break;
+                                } catch (e) { }
+                            }
+
+                            if (iFound) {
+                                imagesToCopy.add(iFound);
+                                newVal = newVal.replace(originalPath, `modules/${MODULE_ID}/${iFound}`);
+                                changed = true;
+                            }
+                        }
+                        if (changed) val = newVal;
+                    }
+
+                    // 2. Update Compendium Links
+                    const newVal = val.replace(/@Compendio\[(world\.historia-[a-z0-9-]+)\.([^\]]+)\]/g, (match, p1, p2) => {
+                        const mapped = COMPENDIUM_MAP[p1];
+                        return mapped ? `@Compendio[${mapped}.${p2}]` : match;
+                    });
+
+                    if (newVal !== val) {
+                        val = newVal;
+                        changed = true;
+                    }
+
+                    if (changed) obj[key] = val;
+
                 } else if (typeof obj[key] === 'object') {
-                    processItemPaths(obj[key]);
+                    await processData(obj[key]);
+                }
+            }
+        };
+
+        const TYPE_TO_COLLECTION = {
+            "Item": "items",
+            "JournalEntry": "journal",
+            "Actor": "actors",
+            "Scene": "scenes",
+            "Macro": "macros",
+            "RollTable": "tables",
+            "Playlist": "playlists"
+        };
+        const collection = TYPE_TO_COLLECTION[pack_type] || "items";
+
+        const HIERARCHY = {
+            actors: { items: [], effects: [] },
+            cards: { cards: [] },
+            combats: { combatants: [], groups: [] },
+            delta: { items: [], effects: [] },
+            effects: {},
+            items: { effects: [] },
+            journal: { pages: [], categories: [] },
+            playlists: { sounds: [] },
+            regions: { behaviors: [] },
+            tables: { results: [] },
+            tokens: { delta: {} },
+            scenes: {
+                drawings: [], tokens: [], levels: [], lights: [], notes: [],
+                regions: [], sounds: [], templates: [], tiles: [], walls: []
+            }
+        };
+
+        const injectKeys = (doc, collName, sublevelPrefix = "", idPrefix = "") => {
+            const sublevel = [sublevelPrefix, collName].filter(x => x).join(".");
+            const id = [idPrefix, doc._id].filter(x => x).join(".");
+            doc._key = `!${sublevel}!${id}`;
+
+            for (const [embeddedColl, type] of Object.entries(HIERARCHY[collName] || {})) {
+                const embeddedValue = doc[embeddedColl];
+                if (Array.isArray(type) && Array.isArray(embeddedValue)) {
+                    for (const embeddedDoc of embeddedValue) {
+                        if (embeddedDoc && embeddedDoc._id) {
+                            injectKeys(embeddedDoc, embeddedColl, sublevel, id);
+                        }
+                    }
+                } else if (embeddedValue && embeddedValue._id) {
+                    injectKeys(embeddedValue, embeddedColl, sublevel, id);
                 }
             }
         };
 
         let processedAny = false;
-        if (data.items) {
-            let unknownCount = 0;
-            for (const item of data.items) {
-                processItemPaths(item);
+        let itemCount = 0;
+        let folderCount = 0;
+        let unknownCount = 0;
+
+        // Process Folders
+        if (data.folders && data.folders.length > 0) {
+            for (const folder of data.folders) {
+                const folderId = folder._id || `folder_${unknownCount++}`;
+                folder._id = folderId; // Ensure _id is set
+                folder._key = `!folders!${folderId}`;
+                await processData(folder);
+                await fs.writeFile(path.join(tempSrcDir, `folder_${folderId}.json`), JSON.stringify({
+                    ...folder,
+                    type: "Folder"
+                }, null, 2));
+                folderCount++;
+            }
+        }
+
+        // Process Items (Primary Documents)
+        const content = data.items || data.pages || [];
+        if (content.length > 0) {
+            for (const item of content) {
+                await processData(item);
                 const itemId = item._id || `unknown_id_${unknownCount++}`;
-                await fs.writeFile(path.join(srcDir, `${itemId}.json`), JSON.stringify(item, null, 2));
+                item._id = itemId; // Ensure _id is set
+                injectKeys(item, collection);
+                await fs.writeFile(path.join(tempSrcDir, `${itemId}.json`), JSON.stringify(item, null, 2));
+                itemCount++;
             }
             processedAny = true;
         }
 
         if (processedAny) {
-            console.log(`Extracted items to ${srcDir}. Compiling pack...`);
-            await compilePack(srcDir, outDir, { yaml: false, nedb: false, recursive: false });
-            await fs.rm(srcDir, { recursive: true, force: true });
+            console.log(`Extracted ${itemCount} items and ${folderCount} folders to ${tempSrcDir}. Compiling pack...`);
+            await fs.mkdir(outDir, { recursive: true });
+            await compilePack(tempSrcDir, outDir, { yaml: false, nedb: false, recursive: false });
+
+            // Log output size
+            const outFiles = await fs.readdir(outDir);
+            let totalSize = 0;
+            for (const f of outFiles) {
+                const stat = await fs.stat(path.join(outDir, f));
+                totalSize += stat.size;
+            }
+            console.log(`Compiled ${pack_name}. Total size: ${totalSize} bytes across ${outFiles.length} files.`);
 
             packs.push({
                 name: pack_name,
@@ -117,6 +277,7 @@ async function main() {
     }
 
     // 2. Write module.json
+    const packNames = packs.map(p => p.name);
     const module_json = {
         id: MODULE_ID,
         title: MODULE_TITLE,
@@ -129,7 +290,14 @@ async function main() {
         description: "Italian translation packs for Historia (Standalone with media).",
         manifest: "https://raw.githubusercontent.com/digennarot/historia-it/main/module.json",
         download: "https://github.com/digennarot/historia-it/releases/latest/download/historia-it.zip",
-        packs: packs
+        packs: packs,
+        packFolders: [
+            {
+                name: "Historia",
+                sorting: "a",
+                packs: packNames
+            }
+        ]
     };
 
     await fs.writeFile(path.join("historia-it", "module.json"), JSON.stringify(module_json, null, 2));
@@ -169,6 +337,9 @@ async function main() {
     }
 
     console.log(`Module standalone generation complete! Copied ${copiedCount} images. (${missingCount} not found locally)`);
+
+    // Cleanup
+    await fs.rm("temp_packs", { recursive: true, force: true });
 }
 
 main().catch(console.error);
