@@ -23,7 +23,10 @@ const LABEL_TRANSLATIONS = {
     "profession-features": "Privilegi di Professione",
     "professions": "Professioni",
     "species-features": "Privilegi di Specie",
-    "spells": "Incantesimi"
+    "spells": "Incantesimi",
+    "historia-factions": "Fazioni (Historia)",
+    "items-historia": "Oggetti (Historia)",
+    "spells-historia": "Incantesimi (Historia)"
 };
 
 const COMPENDIUM_MAP = {
@@ -39,6 +42,9 @@ const COMPENDIUM_MAP = {
 };
 
 async function main() {
+    const rootManifest = JSON.parse(await fs.readFile("module.json", "utf-8"));
+    const MODULE_VERSION = rootManifest.version;
+
     await fs.mkdir("historia-it/packs", { recursive: true });
     let packs = [];
     let imagesToCopy = new Map(); // sourcePath -> modulePath
@@ -68,9 +74,14 @@ async function main() {
             }
 
             const pack_name = isItalian ? `${base_name.replace(/-it$/, "")}-it` : base_name.replace(/-it$/, "");
-            let pack_label = LABEL_TRANSLATIONS[base_name.replace(/-it$/, "")]
-                ? `${LABEL_TRANSLATIONS[base_name.replace(/-it$/, "")]}${labelSuffix}`
-                : (meta.label || `${base_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}${labelSuffix}`);
+            let pack_label = meta.label || base_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+            if (isItalian) {
+                const translationKey = base_name.replace(/-it$/, "");
+                if (LABEL_TRANSLATIONS[translationKey]) {
+                    pack_label = LABEL_TRANSLATIONS[translationKey];
+                }
+            }
 
             if (!pack_label.includes(labelSuffix)) pack_label += labelSuffix;
             let pack_type = meta.type || data.type || "Item";
@@ -257,7 +268,8 @@ async function main() {
                     label: pack_label,
                     path: `packs/${pack_name}`,
                     type: pack_type,
-                    system: "dnd5e"
+                    system: "dnd5e",
+                    folder: "Historia"
                 });
             }
         }
@@ -267,7 +279,7 @@ async function main() {
     const module_json = {
         id: MODULE_ID,
         title: MODULE_TITLE,
-        version: "1.0.2",
+        version: MODULE_VERSION,
         compatibility: {
             minimum: 11,
             verified: 13
@@ -275,14 +287,13 @@ async function main() {
         authors: [{ name: "Tiziano Di Gennaro" }],
         description: "English and Italian packs for Historia.",
         manifest: "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
-        download: "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
+        download: `https://github.com/digennarot/historia-it-dist/releases/download/v${MODULE_VERSION}/historia-it.zip`,
         esmodules: ["scripts/main.js"],
         packs: packs,
-        packFolders: [
+        folders: [
             {
                 name: "Historia",
-                sorting: "a",
-                packs: packNames
+                sorting: "a"
             }
         ]
     };
