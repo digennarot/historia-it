@@ -21,8 +21,14 @@ jobs:
 
       - name: Decrypt secrets
         id: decrypt_secrets
+        env:
+          SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
         run: |
-          export SOPS_AGE_KEY="${{ secrets.SOPS_AGE_KEY }}"
+          if [ -z "$SOPS_AGE_KEY" ]; then
+            echo "Error: SOPS_AGE_KEY is not set in GitHub Secrets."
+            echo "Please ensure you have added the 'SOPS_AGE_KEY' secret to your repository settings."
+            exit 1
+          fi
           DIST_REPO_PAT=$(sops -d --extract '["DIST_REPO_PAT"]' secrets.enc.yaml)
           echo "::add-mask::$DIST_REPO_PAT"
           echo "DIST_REPO_PAT=$DIST_REPO_PAT" >> $GITHUB_ENV
