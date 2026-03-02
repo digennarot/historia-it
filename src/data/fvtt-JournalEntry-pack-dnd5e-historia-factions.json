@@ -1,0 +1,638 @@
+{
+  "package": "world.historia-factions",
+  "metadata": {
+    "name": "historia-factions",
+    "label": "Historia Factions",
+    "path": "worlds/historia/packs/historia-factions.db",
+    "private": false,
+    "type": "JournalEntry",
+    "system": "dnd5e",
+    "flags": {},
+    "packageType": "world",
+    "packageName": "historia",
+    "id": "world.historia-factions"
+  },
+  "type": "JournalEntry",
+  "items": [
+    {
+      "name": "Brethren of Worms",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.6iWF9Gyx0dpizm0e"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Brethren of Worms",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Brethren%20of%20Worms.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "9Z7k1ebAg9b4xhtI",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Brethren of Worms",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Brethren%20of%20Worms.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">The Brethren of Worms is a mercenary military organization, based in a castle built at the eastern end of the Holy Kingdom, but which forms an independent enclave.<br /></span></p>\n<p><span class=\"fontstyle0\">Once called Fort Blizzard, it is now known by the nickname “Worms’ Den”, even by its own inhabitants. The commander in charge of the Brethren is Torquato of Tanafonda, the notorious badger leader, and the Deputy to the commander is Ranieri De Porcis, a visionary boar and technological genius.<br /></span></p>\n<p><span class=\"fontstyle0\">Warriors, mercenaries, soldiers: the members of the Brethren founded by Torquato of Tanafonda are the most feared threat on the battlefield and on the streets of the cities. Their ferocity is balanced by effective military training and the ability to use firearms, surpassed only by the destructive power of their own muskets. The soldiers and the money needed to obtain their services flow from the slopes of the mountain to reach the Worms’ Den, while from the very top of the fort’s tower Torquato is already planning his next move…<br /></span></p>\n<p><span class=\"fontstyle0\">The Worms number about 10,000 soldiers scattered throughout the continent, of which 5,000 are stationed at the Hole, and have a small detachment in almost every great city.</span></p>\n<h2><span class=\"fontstyle0\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle1\">Earn money through the arms trade, oppose the oppression of slavers, maintain political balance and pursue the wellbeing of the Brethren.</span></p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS</span></h2>\n<p><span class=\"fontstyle2\">The headquarters of the Faction is Fort Blizzard, on the eastern mountains that separate Vesteria from the Midlands to the East, but there is at least one branch in each of the great cities of Vesteria except Salso Nero. Over the years, the valley hamlet under the Hole has become a thriving village where the families of the Worms have moved.The Academy of Military Engineers was opened here, where Ranieri is hard at work: in addition to constantly working to improve the Black Powder and its muskets, he is training new engineers for the Worms, as well as a limited number of well sponsored soldiers from all parts of the Continent. Rumors have it that seats are booked for years and years to come.</span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION</span></h2>\n<p><span class=\"fontstyle2\">Anyone who is skilled with weapons and believes they make for a profitable career. Even if you are a doctor, an accountant, </span><span class=\"fontstyle2\">a merchant or an adventurer, the Brethren has use for your services: after all, all organizations need a good bureaucratic and organizational apparatus.<br /></span></p>\n<p><span class=\"fontstyle2\">Candidates must be ready to obey a strict hierarchical system of command and rules, as well as having to be courageous and ready for anything for the good of the Brethren. Death is the end that awaits traitors, if not worse.<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">To enlist, just go to a Brethren detachment, apply, undergo medical examinations and demonstrate a set of useful skills. Joining the Worms means dedicating your life to the cause, and there is no time outside of that spent in the Brethren.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">A Brethren character will have to split between loyalty to their Faction and the interests of the party, given that there exists no distinction between private life and Brethren service. Worms are respected across the continent, but they have caused enough orphans to have more than one enemy. A Worm is easily persuaded into a new call, if the wind changes, and this can easily put a strain on brothers’ call to decide where their loyalty lies.</span></p>"
+          },
+          "_id": "8y4ERFoevimr5vqZ",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "TLMTqqNgYTVYulPG"
+    },
+    {
+      "name": "Church of Bones",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.F1tRM0XdFjtpL2eb"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Church of Bones",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Church%20of%20Bones.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "MlvH3d4Gi5ampI5F",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Church of Bones",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Church%20of%20Bones.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">The most impressive and ancient institution in Vesteria, capable of controlling the spiritual and material destiny of the majority of the population of the continent, and the very foundation of the great Holy Kingdom, it is unrivaled in terms of its number of followers, political weight and military power. The Church of Bones is the essence of the indissoluble fusion of temporal and spiritual powers.</span> </p>\n<p><span class=\"fontstyle0\">The Holy Kingdom is an entity in itself inscribed in the very concept of the Church of Bones, by the Edict of San Mastino: the Pontiff is both a spiritual and temporal sovereign, the Occipites have power equal to that of the Dukes and the education based on the dictates of the Canon is edited by the Tarsi in every city.</span> </p>\n<h2><span class=\"fontstyle0\">OBJECTIVES</span></h2>\n<p><span class=\"fontstyle1\">The Cult of Bones and Ancestors is the only acceptable and unquestionable doctrine, and the Church of Bones the only power to devote oneself to. Every adept who actively participates in the life of the institution must strive to ensure that the institution itself obtains maximum benefit from its every action.<br /></span></p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS</span></h2>\n<p><span class=\"fontstyle1\">The Church of Bones has sanctuaries spread throughout the continent and is the most popular doctrine among the population, relying on a Tarsus that evangelizes the dogma of the Canon in every city. In the Holy Kingdom, the </span><span class=\"fontstyle0\">Church can be felt in the very air one breathes: each duchy has its cathedral, a physical place of power administered by its select representatives, called to manage the souls, finances and armed forces of its paladins and inquisitors.<br /></span></p>\n<h2><span class=\"fontstyle2\">WHO CAN JOIN THE FACTION</span></h2>\n<p><span class=\"fontstyle0\">The primary requirement for joining the Church is to believe. Being convinced to do it or simulating it by choice are alternatives, but the dedication to be shown remains the same: an iron will, relentless and uncompromising. Faith and the Canon must guide every action of an adept, and following the orders of the Church is as sacred a task as spreading the Cult of the Ancestors in lands where it has not yet taken root. Priests devote their lives to this mission by undertaking an ecclesiastical career and aspiring to become a Iudex or an Occiput; armigers operate as paladins or arms at the service of the Inquisition, the Mortified (also known as Flagellants) can choose to serve the ‘greater good’ by sharing (and often competing) with the inquisitors the tasks of Executores, enjoying the glory of punishing heretics, true enemies of the Church. For those who are well versed in storytelling or the art of coercion (often through violent methods), the most fitting career is that of the Questionatores, terrible and relentless investigators and torturers who carry out their difficult task with the knowledge that someone must do it. There is no secret not worth to be acquired to safeguard the power of the Temple of Nochemburg.<br /></span></p>\n<h2><span class=\"fontstyle2\">HOW TO JOIN THE FACTION</span></h2>\n<p><span class=\"fontstyle0\">To enter the ecclesiastical hierarchy of the Church of Bones, it takes years of education and training under its protective wing, unless you have demonstrated exceptional and extraordinary episodes hinting at nothing short of miracles. Choosing to follow the Path of Bones is an oath that goes beyond mortal and earthly life: a deep, sacred and indissoluble oath (at least from the point of view of the Cult), which binds the character to the most authoritative power in Vesteria.</span></p>\n<h2><span class=\"fontstyle2\">MANAGING CHARACTERS IN THE FACTION</span></h2>\n<p><span class=\"fontstyle0\">The Church of Bones, as any organization based on spiritual ideals aiming to govern in a materialistic way, thrives on dualisms and contradictions. Characters resolved on consecrating their lives to the Church may find themselves having to choose between the earthly Institution and spiritual Faith, with all the consequences of the choice they end up taking. </span><span class=\"fontstyle0\">Should you experience doubt and indecision, all you have to do is choose whether to follow the doctrine or your belief. The Church is a cumbersome presence, which strives to influence every aspect of the life of its subjects as it organizes society according to a rigid scheme of dogmas, rules, laws and rituals to be scrupulously followed. The Church can also </span><span class=\"fontstyle0\">become an element of strong confrontation between players with different opinions regarding the true intentions and goodwill of the institution.</span> </p>"
+          },
+          "_id": "jKSfw2IBIMlbujH5",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "UzfVBe1F2ZqZ8daV"
+    },
+    {
+      "name": "Circle of Whispers",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.EGDHly4RiXxQlyvZ"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Circle of Whispers",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Circle%20of%20Whispers.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "vzd01Ew04ViuSUA9",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Circle of Whispers",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Circle%20of%20Whispers.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">The most precious of goods does not travel on wagons, and even just the pocket of a waistcoat makes for plenty of space. Intangible and invaluable, information can become one of the most precious assets in the world if handled in the right way. Indeed, the Circle of Whispers is a shining example of this art. Its members know that a forked tongue is only useful if it whispers the right words in the right ears and is capable of picking out key information from even the most casual of conversations. Information can be a weapon so powerful as to make palaces and villages alike tremble in fear. In a ruthless world like that of Vesteria, where competition between nations, families and people has no bounds, everyone wants to know everything about everyone. The mission of the Faction is therefore to profit from this demand for information, with founder Apopi of Whispers sitting at the top of a dense network of informants who are handsomely rewarded for every whisper they are able to collect and treasure.<br /></span></p>\n<h2><span class=\"fontstyle2\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle0\">The Circle of Whispers aims to weave a web of information so dense that it is almost impossible for anyone to escape. Information is the most valuable commodity in this world, but only for those who know how to use it. Blackmail, pressure, rumors and secrets to be kept at a high price are but a few examples of the business conducted by the Circle.</span> </p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS</span></h2>\n<p><span class=\"fontstyle2\">The building of the Faction’s founder is located in the city of Calìda, in the same place where her first shop was opened, but any city with a large market and seats of power make for a suitable location for a Circle of Whispers branch. In the lands of Vesteria, the crucial location for the Faction remains Salso Nero, where mayor Paddath is one of the most faithful and loyal purveyor of whispers.<br /></span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION</span></h2>\n<p><span class=\"fontstyle2\">Anyone shrewd enough, who understands the value of information and thinks it is possible to turn it into a job is an ideal candidate for the Circle of Whispers. Discretion and secrecy are the most important characteristics for an affiliate, but attention to detail and constant vigilance are also necessary skills to get away with intrigue and double crossing. It is above all merchants and rogues who end up in the ranks of this Faction, but it does not bar adventurers and unexpected figures from concealing the Sign - the tattoo that indicates Circle membership - somewhere on their person.<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The best way to enter the ranks of the Circle of Whispers is to discover its existence... and, right after, prove to be a potential asset to this Faction. Alternatively, there is the option of joining following a recommendation from a higher-ranking member.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">A character affiliated with the Circle will always be on the lookout for valuable information. The use of this information will have to be made in the interests of the Faction if you areto rise through its ranks. Unfortunately, every affiliate has at least one very dangerous secret guarded by Apopi herself, and must therefore be able to play the balancing game without ever leaning openly in favor of, or in opposition to, any entity about which the Circle has an interest.</span> </p>"
+          },
+          "_id": "jXPwO436KKpPZPCk",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "zrbqGMehNswfRkON"
+    },
+    {
+      "name": "Confraternity of the Mortified",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.ePxENXiulQS3Ty1R"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Confraternity of the Mortified",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Confraternety%20of%20thr%20Mortified.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "bFKJZ7fSHhvCGzlP",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Confraternity of the Mortified",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Confraternety%20of%20thr%20Mortified.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">An extremist religious order, the Confraternity believes that the only banner of a sentient soul lies in spiritual detachment from material goods and of flesh from bones. A large group with an essentially paramilitary fringe, it is officially recognized by the Church of Bones, which has a vested interest in keeping the cult under control: where years of repression failed, annexing the Confraternity made it a resource for the Church.<br /></span></p>\n<p><span class=\"fontstyle0\">Its members are often used as an armed wing in any matter that endangers the Church, but being first of all faithful to their pledges, they can be as dangerous for their targets as for those who give them orders. The Mortifieds are also known as Flagellants, since the nature of their cult and their source of power comes from self-flagellation, though not all members of the cult have to be active Flagellants.<br /></span></p>\n<h2><span class=\"fontstyle2\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle0\">Spreading the Mortified Philosophy among the population to increase the influence and the dissemination of the creed of the Confraternity, even within ecclesiastical circles.</span> </p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS<br /></span></h2>\n<p><span class=\"fontstyle2\">The Confraternity does not have a truly central structure, because it started as an autonomous movement. Now that it has been recognized by the Church of Bones, it has its main branch in Nochemburg where Odo Two Lives resides, appointed as a Faction representative by the members of the Temple themselves.<br /></span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">Not all the Mortified feel obliged to actively participate in the life and objectives of the Confraternity. Some see the Church of Bones as nothing but a political power that can only distance souls from the search for the Truth of Bones. On the contrary, zealous Mortified are convinced that theirs is a mission of personal salvation as well as a serious call of evangelization. What better candidate than them to grow the ranks of the Confraternity?<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">To be officially admitted to the Mortified one must undergo the Baptism of Mortification officiated by a member of the Confraternity, usually a Holy One. Since there is no real record of this practice, the number of Baptized in Blood is not very clear, and at the lowest levels of the organization there is real discernible structure: one simply follows the orders of one’s superiors. Only the high spheres of command of the Confraternity are actively controlled by the Church of Bones: concessions, relics and ecclesiastical acknowledgments are among the best tools to harness a Mortified who does not totally despise material goods.<br /></span></p>\n<p><span class=\"fontstyle2\">In the non-discipline of the ranks of the Mortified, influential competition in the community or spiritual elevation is a great way to make adepts control each other.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The Confraternity of the Mortified voluntarily holds loose direct control over its followers thanks to its strong belief in the ideals of Mortification; this guarantees that a person linked to them does not sway from the path and will always act for the good of the organization. If you are affiliated with the Confraternity you will therefore be able to move freely, serving the Faction as you see fit, without necessarily dedicating your entire life to the institution but rather to the cause, unless you intend to climb to the top and reach a leadership position. In that case, belief is something more precious than blood and flesh, which is asked in sacrificial exchange for the responsibility and power of being a true guide.</span> </p>"
+          },
+          "_id": "oGA3hDntYYclK2LG",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "5r0h3ymj3Wc689fB"
+    },
+    {
+      "name": "Emissaries of the Khan",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.EOsbn3KhgCBxCpxR"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Emissaries of the Khan",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Emissaries%20of%20the%20Khan.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "XDLdnnC6KLXA6Rnr",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Emissaries of the Khan",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Emissaries%20of%20the%20Khan.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">From the splendor of his seat, the great Muhur Khan reigns over the Great Eastern Empire with foresight and wisdom. The West is distant but not far enough to be ignored, and his gaze often falls upon these strange people as well, waiting for them to be ready to abandon their barbaric customs and bow their heads before the power of the Khan. The wise and far-sighted Khan knows that he must understand and influence the culture as much as the political events beyond the White Desert and the mountains, and to do so he sends emissaries to cities and courts so that they can administer his affairs all while increasing his Fame wherever they go.</span> </p>\n<h2><span class=\"fontstyle0\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle1\">Serve and represent the Khanate, bring every possible benefit to the Khan through political friendships and ties.<br /></span></p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS<br /></span></h2>\n<p><span class=\"fontstyle1\">Only the largest cities have locations recognized as embassies of the Khanate, parcels of land granted to the Khan and considered his properties under his laws; such embassies are located in Nochemburg, San Mastino, Salso Nero, Nova Marina and Wind Town. Smaller palaces and courts can host emissaries of the Khan to increase their prestige and count on a powerful outside ally; competition usually arises around the possibility of alliances which often result in ruthless political struggles to win the favor of the Khan’s Court.<br /></span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle1\">There are many ways to serve the Khan as an emissary and no good skill ever goes wasted: scholars, merchants, alchemists, adventurers are all suitable for the role, but there have been magus and soldiers of fortune known to have made their skills available to the Khan.<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle1\">There are two types of emissary those from the lands of the Khanate who are sent to Vesteria on behalf of the Khan himself, and those born in Vesteria who travel to the Court of the Khan and earn the friendship and respect of those peoples.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle1\">Those affiliated with the Khan will play along the balance between rules, laws and a world they do not fully belong to. Different factions will try to win the trust and support of an emissary, hoping to enjoy the Khan’s automatic favor in case of need. A character born in the Khan’s Empire should be interested in discovering as many things as possible that can improve their position and help the Khanate, while characters from Vesteria who find themselves working for the Khan should use their knowledge of Vesteria to better serve their new ally.</span> </p>"
+          },
+          "_id": "kIWsy1P1UnhNaS6W",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "5OmWNELSAPYWUcab"
+    },
+    {
+      "name": "Fellowship of the Compass",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.utmDwSTzVJBkFv3y"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Fellowship of the Compass",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Fellowship%20of%20the%20Compass.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "UtYixgAbN04dJgLY",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Fellowship of the Compass",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Fellowship%20of%20the%20Compass.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">The Fellowship of the Compass is a thriving merchants’ guild that has turned its love for discovering unknown lands and goods into its greatest strength. Originally a group of explorers of the then mysterious western lands, now known as the Confederation, the Faction expanded dramatically when it decided to join a small shipping Fellowship and set out in search of new routes. This communion of intents met with great fortune, not out of chance but thanks to the skill and courage of its members: new routes with the East, the unknown lands to the South, visits to the harsh Northern territories, for a world that is ever expanding, maps after map. Of course, in addition to their passion for adventure, the love of new resources and accruing wealth also contributed to the Fame of the Fellowship, which has been able to make considerable profits. Having now become one of the most flourishing Factions in the country, the Fellowship is able to influence local and foreign politics, as well as boasting illustrious members and important credits.<br /></span></p>\n<h2><span class=\"fontstyle2\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle0\">The Fellowship’s aim is to find and profit from new trade routes to move goods from one part of the continent to another, where few others could venture due to scarcity of means and knowledg</span> </p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS<br /></span></h2>\n<p><span class=\"fontstyle2\">Nova Marina houses the magnificent headquarters of the Fellowship of the Compass, a beautiful white marble building decorated in blue and gold which dominates a large part of the merchant port of the city, including dedicated docks and a rich commercial fleet. Every self-respecting large port has a branch office of the Fellowship, though they might also be present in strategic places in cities not directly on the shore.<br /></span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The Fellowship needs arms and minds within its ranks. Anyone who is ready for an adventure that does not exclude profit, can be the right candidate for the Fellowship: merchants, adventurers, scholars, but also scoundrels or warriors, can try their luck with this Faction, travelling by sea and towards unknown lands.<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">To become a member, you just need to join through one of the offices as a simple worker, or alternatively as a financing partner, as long as you subsidize the Faction with a large sum of money. The commitment to the Fellowship depends on the type of contract with which one associates, but to climb the top you need to be particularly skilled, driven by strong motivations and a love for risk-taking: whether one’s motive lies with pure Fame for discoveries or mere thirst for money, the journey that lies ahead is filled with equal amounts of danger and glory.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The Fellowship of the Compass is certainly a good source of employment for the players: missions and jobs of any kind, risk or pay, are assigned daily in the offices of Nova Marina. Thanks to these tasks, affiliates of the Fellowship are able to bring money and discoveries to the Faction, thus increasing their position - the Faction, nonetheless, will always keep secrets and interests not accessible to all, to be protected at any cost.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, Buy Your Fame.</strong></em> </span><span class=\"fontstyle2\">The Fellowship of the Compass is based on a system of associates who actively participate in the expenses and dividends of the Fellowship, and for this reason it is possible for a member to “invest” Coinage to be transformed into Fame. This Fame counts only for purposes useful to increase the Rank in the Fellowship of the Compass. A character gains 1 Fame point for every 5 Coinage invested.</span> </p>"
+          },
+          "_id": "lcfD5ztFLdKofeuw",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "YuNjDS8BEDjZBQls"
+    },
+    {
+      "name": "Ordo Artis Occulta",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.OgiGjQtnzuAcRf9d"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Ordo Artis Occulta",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Ordo%20Artis%20Occulta.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "FALzlRmAt79zfJFm",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Ordo Artis Occulta",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Ordo%20Artis%20Occulta.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">Since the appearance of the first magic users, one thing has been clear and evident: knowledge is power. And what knowledge is higher than that of the Magi, discoverers of Universal Secrets and holders of the Magna Ars, as well as guardians of the future of the world? None.<br /></span></p>\n<p><span class=\"fontstyle0\">But power has always frightened those who do not have it, just as things that are difficult to understand are feared, and the Magi embody both these aspects. Thus, a circle of illuminati met in the First Conclave and founded the Ordo Artis Occulta, whose purpose was to check that the fabric of reality and the very integrity of the world were not affected by any of the Magi. The first decision of the Conclave was to establish the Arcane College of Montetorto, so as to carry on the legacy of the Ordo with new generations. Unfortunately, the Ordo was not far-sighted enough to foresee that someone from the inside could contravene certain founding rules, placing too much trust in the Magi themselves. This caused a terrible accident that upset the balance of power of the world, revealing things that should never have been revealed. The culprit of this event, the actual consequences of which are still kept secret by the leaders of the Ordo, was obscured in damnatio memoriae, erasing all traces from books and written sources. Since that moment, the College has been dissolved in favor of the Alchemical Academy, and two fundamental rules have been established: a Magus can only have one student at a </span><span class=\"fontstyle0\">time, and it is forbidden to actively participate in political life, except as an advisor. Someone however, driven by mere thirst for power or perhaps higher purposes, is endangering this precarious balance.<br /></span></p>\n<h2><span class=\"fontstyle2\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle0\">Since its founding, the Ordo has always pursued the best for the Magi and the balance of power in the world, so that history may flow smoothly and the magical quest progress without opposition.<br /></span></p>\n<h2><span class=\"fontstyle2\">FACTION LOCATIONS<br /></span></h2>\n<p><span class=\"fontstyle0\">In every city there is at least one hidden place where Magi belonging to the order can meet, and the more the location is a center of power the more it will be frequented by members and friends of the Ordo. Currently, the Conclave meets in the Ducal Grand Palace of the Wind Town on those rare occasions when members have to be in direct contact, but the deepest secrets of the Ordo are kept in Montetorto, in the underground halls of the old Arcane College, now the Alchemical Academy, safe from prying eyes... for now.<br /></span></p>\n<h2><span class=\"fontstyle2\">WHO CAN JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle0\">Members of the Order must be interested in studying for years until they reach an understanding of the very fabric of reality, as well as unlocking the secrets of matter and of the mind. Members of the Ordo are convinced that power must be regulated if there is an inability to do so independently, and controlled by a group of bright and enlightened minds to bring anyone back onto the right track. Alchemists and Magi are arrogant at times, but this personality trait can be used in service of the Ordo if channeled in the right way.<br /></span></p>\n<h2><span class=\"fontstyle2\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle0\">In order to join the Ordo Artis Occulta it is necessary to be introduced by a Master of the Order. Aspiring members need to have skills, acumen and understanding of its precepts as well as a great knowledge in the field of magic. For some time, the Ordo was also open to the most talented alchemists, but very few from this category are taken into<br />consideration.<br /></span></p>\n<h2><span class=\"fontstyle2\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle0\">Dedication to the Ordo is a conceptual and philosophical choice based on believing in the need for a greater good. The Ordo has often nebulous plans for the populace as well as for its lower-ranking adepts, sometimes so long term as to appear random sequences of unrelated tasks; for those far-sighted enough, these plots will prove to be the most complex canvases of events designed for years to come.<br /></span></p>\n<p><span class=\"fontstyle0\">The more you climb the ranks of this Faction, the more</span>  <span class=\"fontstyle0\"><span class=\"fontstyle0\">you will delve into the depths of great magical knowledge, discovering the secrets of the Order and coming to understand the Great Scheme that has been perpetrated for centuries to guide the community of magical users into the future.<br /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">But hidden among those secrets lie dark and dangerous things, to the point that, were characters to learn about them, the moral dilemma between protecting them in the name of the Ordo or revealing them to the community would be inevitable. Plots, shadows, and internal and external betrayals threaten the Order and its rules, and anyone caught divulging the secrets of the Ordo Artis Occulta could become the victim of mysterious accidents, or sudden disappearances.</span></span></p>"
+          },
+          "_id": "vufzOpC9hLerrU9v",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "2YSOLlTrifuOrnj0"
+    },
+    {
+      "name": "People's Army",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.P8BTFgcPzGj5vqTV"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: People's Army",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/People%27s%20Army.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "LTubpMnhjT0zPv7T",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "People's Army",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/People%27s%20Army.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">The name “People’s Army” comes from the initiative proposed by its founder, Wolfgang Gabrinus, to establish a law in San Mastino that required half of the city army to be under the control of an elected People’s Court in order to oppose the injustices perpetrated by the Church of Bones and the Aristocracy. After the arrest of Gabrinus, the merchants and the people who supported him transformed his idea into a secret but concrete rebellion to demand even more justice. The wolf has been freed from the cage, and now the Confederation has taken command of this movement that is growing day by day, driven by only one well established ideal: freedom!<br /></span></p>\n<p><span class=\"fontstyle0\">However, it remains clear that the movement has many detractors both in the Confederation and in the Holy Kingdom, who would gladly do without the presence of a subversive individual like Wolfgang.<br /></span></p>\n<h2><span class=\"fontstyle2\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle0\">What the Army aims at is as conceptually simple as it is almost impossible to achieve: the overthrow of the aristocratic government of the Holy Kingdom in favor of a more modern administration, where the people and the middle class can be the makers of their own destiny.<br /></span></p>\n<p><span class=\"fontstyle0\">For some it is a dream; for most it is nothing but madness.</span> </p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS<br /></span></h2>\n<p><span class=\"fontstyle2\">The People’s Army has hidden cells scattered throughout the Holy Kingdom; in particular its headquarters are reportedly in San Mastino, while the Command is currently located in Montetorto in the Confederation. The People’s Army is always ready to “assist” poor people in destabilizing the Holy Kingdom. What the Confederation does not realize is that the “People” are also questioning their methods and their rule, not so different from those of the Holy Kingdom.<br /></span></p>\n<p><span class=\"fontstyle2\">If Maria Grazia ‘The Powerful’ only knew about the secret cell of Nova Marina...<br /></span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The People’s Army needs everyone. Its backbone are merchants, armigers, sages, rogues and adventurers, eager to change society and the world in which they live, risking their lives against an incredible enemy for an ideal and a feeble hope. Idealists, combative, reckless and resilient, these are the adjectives that describe the activists of the People’s Army.<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">Joining the ranks of the People’s Army is a voluntary act. Outside the territories of the Holy Kingdom it is easier to get in touch with a representative group and join its ranks, while within the domains of the Church, only whispers and wit, combined with a good dose of discretion, can bring a character closer to a hidden cell that could surprisingly reveal itself behind any ordinary person.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The Army can be served with small gestures, as its backbone is made up of commoners who help as they can, acting as a network of information and offering shelter to spies and exiles, or sometimes secretly moving goods. The actual combatants of the Army are only waiting for the most propitious occasion to strike a well-aimed blow to the established order. All this must be handled with extreme care: in addition to the lives of the brave few, there is also that of their families at stake. Dissidents who talk about democracy make for a dangerous influence, and their children will probably not be viewed much differently.</span></p>"
+          },
+          "_id": "JsfR4gIOOetC7OFZ",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "JqbVH3xnJiJjU5t0"
+    },
+    {
+      "name": "Pug Heresy",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.GoUINBmYQ9ZUFZcZ"
+        }
+      },
+      "pages": [
+        {
+          "name": "Figure: Pug Heresy",
+          "type": "image",
+          "src": "Wynther%27s%20Files/Historia/Factions/Pug%20Heresy.webp",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "_id": "r28XvBsQhn6HYIBl",
+          "image": {},
+          "text": {
+            "format": 1
+          },
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Pug Heresy",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><img src=\"Wynther%27s%20Files/Historia/Factions/Pug%20Heresy.webp\" width=\"200\" height=\"200\" /></p>\n<p><span class=\"fontstyle0\">The religion most followed in the cosmopolitan Confederation, based on the teachings of the Order of Indicants, opposes the traditional Church of Bones not on a dogmatic level, but on the management of temporal power. Indicants believe that the Church should not hold temporal power and swear an oath of renunciation of material goods, stripping themselves ‘to the bone’ to rediscover what is sacred in everyone. Lacking a strong central organization, it is run by a group of Occiput Heretics who administer the souls of the major Confederate cities, whose most important representative is the Occiput of Albea, currently occupying the position of antipope at the head of the Simple Church: Talus II. He is a pug, as was Index IV, despite not being of the same family. This legacy contributed to the affirmation of the derogatory nickname of Pug Heresy.<br /></span></p>\n<h2><span class=\"fontstyle2\">OBJECTIVES<br /></span></h2>\n<p><span class=\"fontstyle0\">The Simple Church wants to organize itself to increasingly oppose the Nochemburg Church, guiding a greater number of souls towards a just and measured life, without falling into the degenerate excesses that characterize its ancient counterpart. The election of a true antipope and a strong evangelization in new territories are the current main </span><span class=\"fontstyle0\">prerogatives of the Pug Heresy.</span> </p>\n<h2><span class=\"fontstyle0\">FACTION LOCATIONS<br /></span></h2>\n<p><span class=\"fontstyle2\">The seat of the Simple Church is in Albea, in the Confederation, where the Cathedral of Saint Catonice of Twilight, the main temple of the Pug Heresy and place where the relics of the Saint are kept along with the bones of the small paw of Index IV. There are several other important sanctuaries, abbeys and monasteries that preach the Simple Doctrine scattered across the Confederation and rural areas of the Green Pit, but nothing comparable to the churches of the Classical Doctrine.<br /></span></p>\n<h2><span class=\"fontstyle0\">WHO CAN JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The Pug Heresy has a purely spiritual mission: it is not so belligerent as to need armies, it is not so intolerant as to have an Inquisition, it is not so extreme as to accept fanatical deviations. For this reason, it is mainly composed of priests and scholars who practice and discuss the Simple Doctrine of Indicants.<br /></span></p>\n<h2><span class=\"fontstyle0\">HOW TO JOIN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">To serve the Simple Church it is necessary to undertake a spiritual journey made of reflection and renunciation, charity and service, and a good dose of duty and sacrifice against the current that powerfully pulls you towards the glories of the Classical Doctrine: resources, power, and the fear it inspires with its armed forces and inquisitors. To begin your career within the Pug Heresy you need to take your vows in an affiliated order or sanctuary with the Stripping Ceremony, in which you renounce all your material possessions.<br /></span></p>\n<h2><span class=\"fontstyle0\">MANAGING CHARACTERS IN THE FACTION<br /></span></h2>\n<p><span class=\"fontstyle2\">The Pug Heresy would appear to be a cleaner and better version of the Church of Bones, in which the main interests are to deal with spiritual problems and have a humble standard of living, but maintaining a Church still holds a high cost. Corruption is always just around the corner and innocence is often confused with naivety in a young institution called to discuss ancient and timeless topics. Indeed, not all its ecclesiastical members have converted from the<br />Classical Doctrine out of pure spiritual needs. Characters who choose to undertake the path of the Simple Doctrine should explore these themes, eventually taking part in the choices that will form the backbone of this new Church. Characters who come from the Holy Kingdom and develop an interest in the theses of Index IV and the Heresy will have to constantly look over their shoulders...</span></p>"
+          },
+          "_id": "wiATPzzrMhpM9btI",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": null,
+        "systemVersion": "5.2.5",
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "whTEtuZT0FMtd2AW"
+    }
+  ],
+  "source": {
+    "world": "historia",
+    "system": "dnd5e",
+    "version": {
+      "core": "10.291",
+      "system": "2.1.5"
+    }
+  }
+}

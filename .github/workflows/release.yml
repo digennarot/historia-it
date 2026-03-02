@@ -14,6 +14,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install SOPS
+        uses: mdgreenwald/mozilla-sops-action@v1.6.0
+        with:
+          version: 'latest'
+
+      - name: Decrypt secrets
+        id: decrypt_secrets
+        run: |
+          export SOPS_AGE_KEY="${{ secrets.SOPS_AGE_KEY }}"
+          DIST_REPO_PAT=$(sops -d --extract '["DIST_REPO_PAT"]' secrets.enc.yaml)
+          echo "::add-mask::$DIST_REPO_PAT"
+          echo "DIST_REPO_PAT=$DIST_REPO_PAT" >> $GITHUB_ENV
+
       - name: Extract version
         id: extract_version
         run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
@@ -49,7 +62,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: 'zip-output/historia-it.zip,historia-it/module.json'
-          token: ${{ secrets.DIST_REPO_PAT }}
+          token: ${{ env.DIST_REPO_PAT }}
           owner: digennarot
           repo: historia-it-dist
           name: Release ${{ steps.extract_version.outputs.VERSION }}
@@ -61,7 +74,7 @@ jobs:
 
       - name: Update module.json in Distribution Repo Main
         run: |
-          git clone https://x-access-token:${{ secrets.DIST_REPO_PAT }}@github.com/digennarot/historia-it-dist.git dist-repo
+          git clone https://x-access-token:${{ env.DIST_REPO_PAT }}@github.com/digennarot/historia-it-dist.git dist-repo
           cp historia-it/module.json dist-repo/module.json
           cd dist-repo
           git config user.name "github-actions[bot]"

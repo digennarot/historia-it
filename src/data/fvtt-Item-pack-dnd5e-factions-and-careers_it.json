@@ -1,0 +1,3869 @@
+{
+  "package": "historia-it.factions-and-careers-it",
+  "metadata": {
+    "name": "factions-and-careers-it",
+    "label": "Factions and Careers (IT)",
+    "path": "worlds/historia/packs/factions-and-careers",
+    "type": "Item",
+    "system": "dnd5e",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "flags": {},
+    "packageType": "world",
+    "packageName": "historia",
+    "id": "historia-it.factions-and-careers-it"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Fazione: Circolo dei Sussurri",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Circle%20of%20Whispers.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[historia-it.factions-it.zrbqGMehNswfRkON]{Il Cerchio dei Sussurri}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - DISCEPOLO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Scopri l'esistenza del Cerchio o fatti invitare da </span><span class=\"fontstyle3\">un membro.</span></p>\n<p><span class=\"fontstyle3\">Impara i meccanismi di base del Circolo dei Sussurri. Solitamente non hanno rapporti con gli altri membri e ricevono messaggi in codice contenenti indicazioni su piccoli e precisi compiti da svolgere. I discepoli vengono quindi ricompensati con denaro per aver completato il compito assegnato, senza mai sapere chi glielo consegna.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - COLLEZIONISTA SUSSURRO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella Fazione da spendere</strong></em>: </span><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Venire a conoscenza di un segreto utile alla Fazione e al di fuori dei propri doveri.<br /></span></p>\n<p><span class=\"fontstyle3\">Diventi un agente efficace del Circolo e vieni impiegato in compiti più delicati e difficili. Potresti essere presentato ad altri membri, con i quali potrai comunicare per svolgere incarichi più complessi. Apprendi anche dell'esistenza di un rifugio sicuro gestito da un membro del Circolo, di solito un negozio di mercanti dotato di un nascondiglio segreto, e puoi chiedere aiuto se necessario, anche se il Circolo non è noto per compassione e cordialità misericordiosa verso i membri di basso rango. Una volta raggiunto questo grado all'interno della fazione, riceverai un marchio che ti identifica come membro, solitamente un tatuaggio nascosto, chiamato Segno.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 - MAESTRO DEI SEGRETI<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Risolvere una situazione spiacevole per il Cerchio.</span></p>\n<p><span class=\"fontstyle3\"> Sei diventato un maestro nell'arte dell'informazione e dello spionaggio, sei responsabile di una rete di informatori di rango inferiore e devi occuparti della gestione delle informazioni di un'area specifica. Ti vengono affidati importanti segreti all'interno del Cerchio.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Speciale, Maestro dei segreti.</strong></em> </span><span class=\"fontstyle3\">Puoi spendere l'ispirazione per apprendere il segreto di un NPC, anche uno non direttamente conosciuto, come risultato del lavoro dei tuoi sottoposti, che il GM può decidere di riprodurre come un flashback. L'importanza del segreto è determinata dal risultato di una prova di Intelligenza (Indagare) o Carisma (Persuasione) soggetta alla discrezione del GM. Un risultato basso rivelerà un segreto minore, mentre un risultato alto rivelerà un segreto importante o pericoloso, a seconda della narrativa o dell'importanza dell'NPC.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - CONFIDANTE OSCURO<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fama guadagnata in Fazione da spendere: </span></strong></em><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Per incontrare Apopi of Whispers e stupirla con i tuoi risultati.<br /></span></p>\n<p><span class=\"fontstyle3\">Ottieni la benevolenza dell'Apopi dei Sussurri, fondatore del Circolo e Maestro Supremo dei Segreti, diventando il loro confidente e agente personale. Importanti risorse sono dedicate a te e la tua protezione è vista dalla Fazione, poiché puoi contare su un gran numero di seguaci sotto il loro comando diretto. Il ruolo, però, comporta anche grandi responsabilità e aspettative: pur essendo al sicuro dall'esterno, la Fazione non tollera errori da parte dei suoi membri di alto livello. Se ti distingui in questo grado di fazione, alla fine potresti competere direttamente con Apopi per la leadership del Cerchio.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 212",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-circle-of-whispers",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "0pLN2gwPO95Kkjm4"
+    },
+    {
+      "name": "Fazione: Eresia del Carlino",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Pug%20Heresy.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[historia-it.factions-it.whTEtuZT0FMtd2AW]{Pug Heresy}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - STRIPPATO<br/></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti: </strong></em>partecipa a una cerimonia di spogliamento e presta giuramento alla Chiesa Semplice.</span></p>\n<p><span class=\"fontstyle0\">Inizierai il tuo servizio come sacerdote o diacono della Chiesa Semplice, abbandonando tutti i beni materiali. Dovrai svolgere diversi compiti e servizi per il bene della comunità a cui appartieni, lavori spesso umili e faticosi. Puoi comunque sempre trovare rifugio, vitto e alloggio nelle strutture della Chiesa Semplice.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - TARSO SEMPLICE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle0\">3<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle0\">Essere un prete. Servire la tua comunità con dedizione e seguendo la Dottrina Semplice.<br/></span></p>\n<p><span class=\"fontstyle0\">Diventi leader di una piccola comunità Indicant. Sei responsabile dell'educazione dei bambini e delle attività di sostegno e devi continuare a lavorare per la comunità altrimenti il ​​grado potrebbe essere ritirato.<br/></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Sale della Terra.</strong></em> </span><span class=\"fontstyle0\">Le persone più umili sono le fondamenta su cui poggia l'Eresia del Pug, motivate e dedite come sono a una dottrina che le pone sullo stesso piano dei ricchi e dei potenti. Se la Chiesa Semplice presta sostegno a uno dei suoi membri, quel membro è sicuro di ricevere in egual misura: puoi sempre contare sul sostegno delle comunità rurali e povere che vivono in simbiosi con la Fazione. Spogliata delle sue glorie e dei suoi eccessi, la Chiesa riesce anche ad attirare individui provenienti da status sociali più elevati.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 2 – COSTOLARE SEMPLICE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle0\">15<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Ottenere il sostegno di risorse influenti e potenti per il bene della Chiesa Semplice e agire nell'interesse della comunità nel ruolo di Tarso.<br/></span></p>\n<p><span class=\"fontstyle0\">Ora sei responsabile di un gruppo di piccole comunità o di una comunità cittadina che ha riposto fiducia in te e su cui puoi contare in caso di necessità. Le Cattedrali dei Costolari sono finanziate da fedeli facoltosi che credono che la salvezza dell'anima e fare bella figura sulla comunità contino più del denaro.<br/></span></p>\n<p><span class=\"fontstyle0\">Le amministrazioni comunali delle comunità Indicanti devono necessariamente confrontarsi con la Chiesa Semplice, e per il bene della comunità stessa hanno interesse a farne una proficua collaborazione per entrambe le parti.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 3 - OCCIPUT SEMPLICE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella Fazione da spendere: </span></strong></em><span class=\"fontstyle0\">30<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle0\">Aver trasformato un Risto in un fiorente </span><span class=\"fontstyle0\">bacino dedicato alla Chiesa Semplice al punto da rendendo necessario istituire un nuovo occipitario, o in alternativa sostituire un occipite dopo aver dimostrato di essere un grande Ribber ottenendo l'appoggio di un governatore o di un occipite.<br/></span></p>\n<p><span class=\"fontstyle0\">Il Consiglio Occipitario della Chiesa Semplice è più flessibile della sua controparte del Santo Regno, non essendo limitato nel numero ma anzi in continuo sviluppo. Al momento è composto da soli quattro membri, ciascuno dei quali guida le uniche comunità abbastanza grandi da giustificare un Occipite: Albea, Nova Marina, Città del Vento e Liveccia. Questo consiglio è il fulcro strategico della Chiesa Semplice ed è sostenuto direttamente dalla Confederazione e dai nemici della Chiesa tradizionale, contando sul loro numero e sulle loro risorse. A capo del consiglio c'è Talus II, Occipite di Albea. Si dice che Talus II fosse una figura incredibile e generosa per la Chiesa, ma che con il passare degli anni divenne affamato di fama e un po' troppo attaccato ai beni materiali e dipendente da un forte sostegno politico, il che potrebbe essere dovuto alla sua natura facilmente malleabile.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 222",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-pug-heresy",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "1B2epGNowYUtOfkg"
+    },
+    {
+      "name": "Carriera: Soldato",
+      "type": "feat",
+      "img": "icons/skills/da mischia/sword-shield-stylized-white.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p>Vesteria è un continente diviso e ferito dalla guerra, dove la vita <span class=\"fontstyle0\">può essere molto dura e i conflitti di potere sono gli unici interessi perseguiti dai governanti. In questo scenario, le grandi potenze accumulano risorse belliche attraverso una continua corsa agli armamenti, che grava sui cittadini con tasse crudeli e forti restrizioni. I poteri forti cercano anche di aumentare costantemente il numero di soldati al loro servizio per sconfiggere le forze avversarie. La vita di un soldato è dura, piena di sacrifici e probabilmente di breve durata, dove solo i combattenti più validi sono in grado di trasformare quella che potrebbe essere una condanna a morte in un fruttuoso mestiere, affinando armi e abilità belliche e conquistando il proprio spazio nel mondo attraverso forza e determinazione.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - RECLUTA<br /></span></h2>\n<p><span class=\"fontstyle0\"><em><strong>Requisiti</strong></em>: competenza nell'uso di armi da guerra, registrazione presso un ufficio di arruolamento.<br /></span></p>\n<p><span class=\"fontstyle0\">Sei entrato a far parte di un'organizzazione militare, che si tratti di un gruppo mercenario o di un esercito regolare. Il tuo impegno e la tua devozione risiedono nell'organizzazione a cui hai aderito, nella quale sei schierato tra le riserve e addestrato nell'arte della guerra. Ottieni competenza in uno strumento artigianale e nell'abilità Sopravvivenza.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - SOLDATO<br /></span></h2>\n<p><span class=\"fontstyle0\">Sei addestrato nelle armi e nel loro utilizzo sul campo di battaglia. Ora fai parte delle truppe regolari e vieni schierato sul campo di battaglia o in missione secondo necessità. Ottieni una competenza a sua scelta tra l'uso di un'arma, un tipo di armatura o uno scudo e se sei già competente in tutte le armi, armature e scudi puoi scegliere un'arma che diventi la tua preferita, aggiungendo un'ulteriore metà della tua competenza al tiro per colpire quando la usi.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Vita da guerriero.</strong></em></span><span class=\"fontstyle0\">Vivi per combattere e combatti per vivere. Ogni volta che guadagni Fama attraverso l'uso di armi e abilità di guerra, guadagni 1 punto Fama aggiuntivo per grado di carriera.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - UFFICIALE<br /></span></h2>\n<p><span class=\"fontstyle2\">Ora sei un ufficiale riconosciuto che occupa uno dei gradi più alti nell'esercito, impartendo ordini e gestendo truppe e risorse.<br /></span></p>\n<p><span class=\"fontstyle2\">Il tuo grado è riconosciuto anche al di fuori della tua organizzazione militare, rendendoti adatto anche agli ambienti più sofisticati. Ottieni l'accesso ad armi e armature aristocratiche.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - COMANDANTE<br /></span></h2>\n<p><span class=\"fontstyle2\">Ora sei al comando dell'organizzazione militare in cui presti servizio, mettendoti in una posizione delicata e pericolosa, sebbene di grande potere. I governatori devono tenere conto delle tue idee e dei tuoi stati d'animo, poiché spesso sarai impiegato come consigliere strategico e coinvolto nella gestione politica del paese o dell'organizzazione a cui è legato l'esercito. Inoltre, otterrai un'arma eccezionale con un bonus +2.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 236",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-soldier",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "GMLTL48imFYVpAoC"
+    },
+    {
+      "name": "Carriera: Fuorilegge",
+      "type": "feat",
+      "img": "icons/commodities/currency/coins-stitched-pouch-brown.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">Un mondo crudele crea vite crudeli e, con le sue contraddizioni, le abissali differenze sociali e i giochi di potere, Vesteria è decisamente spietata. Coloro che non vogliono piegarsi a leggi dure e oppressive o cercare profitto attraverso traffici illeciti, finiscono irrimediabilmente per diventare fuorilegge, consegnandosi a una vita criminale. Non mancano le persone malvagie e spietate almeno quanto il mondo in cui vivono, delinquenti che seguono questa strada per piacere o per puro desiderio di ricchezza e potere, senza scrupoli e senza mai fermarsi a riflettere sui limiti “assurdi” posti dalla legge. Varie organizzazioni criminali riuniscono questi fuorilegge, diventando potenzialmente in grado di resistere alle fazioni \"regolari\" e agli organismi ufficiali.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - FELCIA<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Commettere un crimine.<br /></span></p>\n<p><span class=\"fontstyle0\">Hai scelto di continuare sulla strada del crimine dopo aver commesso un crimine. Inizi a entrare in contatto con altri piccoli criminali e simili, nascondendoti dalla legge, il che ti fa acquisire competenza nel camuffamento o nei trucchi del travestimento.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - FUORIlegge<br /></span></h2>\n<p><span class=\"fontstyle0\">Ora sei ricercato e determinato a proseguire sulla strada del crimine: ti unisci a un gruppo organizzato di fuorilegge o trovi compagni criminali con cui stringere un'alleanza, scambiare informazioni, protezione e proventi di attività illegali. Ottieni una competenza scelta tra strumenti canaglia, equipaggiamento avvelenato o un set di gioco.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, conosco un ragazzo.</strong></em> </span><span class=\"fontstyle0\">Conosci sempre un rappresentante di qualche banda criminale che ha le competenze o le risorse necessarie per superare un ostacolo ed essere utile per qualche lavoro specifico. Una volta per sessione, puoi spendere ispirazione per trattare un numero di NPC pari o inferiori al tuo Grado di Carriera come servitori fino alla fine dell'incarico, in accordo con il GM. Il grado di questi seguaci deve essere inferiore al grado di carriera del fuorilegge.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - CRIMINALE<br /></span></h2>\n<p><span class=\"fontstyle2\">Ti sei guadagnato una certa fama nel mondo sotterraneo, al punto che ora sei conosciuto anche dalla gente comune e dalle autorità. La tua fama criminale ha portato molti altri fuorilegge a seguire il tuo esempio, o forse hai scalato i ranghi dell'organizzazione a cui sei affiliato.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - BOSS<br /></span></h2>\n<p><span class=\"fontstyle2\">Ora dirigi le losche operazioni di un'intera organizzazione criminale e sei temuto e riconosciuto come il più malvagio dei fuorilegge dell'intero continente. La tua posizione ti mette nella particolare situazione di dover essere accettato dall'alta società e dalla politica, essendo ormai troppo pericoloso per essere ignorato e tanto meno fermato.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 235",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-outlaw",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "GVMUYZVSRtauWfgZ"
+    },
+    {
+      "name": "Fazione: Esercito Popolare",
+      "type": "feat",
+      "img": "modules/Historia/Factions/People%27s%20Army.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendium[historia-it.factions-it.JqbVH3xnJiJjU5t0]{Esercito popolare}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - DISSIDENTE<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Requisiti: </span></strong></em><span class=\"fontstyle3\">Avere stretto contatto con un gruppo di rappresentanti dell'Esercito popolare.<br /></span></p>\n<p><span class=\"fontstyle3\">Puoi sposare la causa dell'Esercito unendoti ai suoi ranghi e offrendo il tuo sostegno alla causa. Inizialmente questo assume la forma di piccoli lavori illegali come il trasporto di lettere, la protezione di altri dissidenti e altre attività umili, il tutto finanziato dai ricchi mercanti che sostengono la causa. I semplici dissidenti non conoscono l'identità della maggior parte dei loro compagni per evitare fughe di informazioni.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - SOLDATO DEL POPOLO<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Dimostrare fede nella causa mettendo a rischio la propria incolumità e svolgendo un compito rischioso per l'Esercito popolare.<br /></span></p>\n<p><span class=\"fontstyle3\">Puoi unirti all'organizzazione diventando un membro attivo. Conosci gli affiliati della tua cellula di riferimento e un diretto superiore e potresti essere chiamato all'azione per missioni pericolose o invitato a fare proselitismo in ambienti favorevoli, sempre mantenendo l'anonimato. I dissidenti aiutano sempre un Soldato in caso di necessità.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 - LEADER DEI GENTILI<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fama guadagnata nella Fazione da spendere: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Aver ottenuto grandi risultati per l'Esercito Popolare e aver rivelato pubblicamente il proprio coinvolgimento per conquistare il cuore di nuovi Dissidenti, dopo aver ottenuto un successo importante.<br /></span></p>\n<p><span class=\"fontstyle3\">Sei considerato un Eroe dell'Esercito e una delle sue figure chiave, diventando sempre più importante all'interno dell'organizzazione del movimento e acquisendo il controllo diretto di un gruppo di Soldati del Popolo. Le forze che si oppongono al dominio aristocratico del Santo Regno diventano i tuoi sostenitori, che trasformano tutta la tua Fama in infamia per il Santo Regno.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Speciale, Accendi l'anima.</strong></em> </span><span class=\"fontstyle3\">Sei capace di instillare forti emozioni nel cuore delle persone e motivarle a prendersi ciò che gli spetta di diritto: la libertà! I dissidenti amano i Tribunali Popolari e sono disposti a lottare, se non a morire, per sostenerli se qualcuno di loro glielo chiede. Quando ciò accade, gli NPC di grado 1 contano più in alto nel calcolo del tiro per colpire e del danno, trattando le armi improvvisate dei cittadini comuni come quelle standard.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 3 - COMANDANTE DEL POPOLO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella Fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><em><strong><span class=\"fontstyle2\">Requisiti: </span></strong></em><span class=\"fontstyle3\">Stringere legami di intesa con una potenza ostile al Santo Regno, dimostrare grandi capacità di comando e strategia, nonché l'abilità per attirare le persone. </span></p>\n<p><span class=\"fontstyle3\">Al momento non esiste un comandante del popolo formale: Wolfgang Gabrinus, il tribuno dei popoli, è considerato a capo del movimento ma non ha ancora ottenuto il sostegno necessario da una potenza ostile al Santo Regno per poter avvicinare l'Esercito popolare al raggiungimento del suo prossimo obiettivo. I comandanti popolari contano come leader politici nell’equilibrio tra le nazioni, e per questo motivo si trovano in una posizione pericolosa, anche se di grande forza. Una volta raggiunto questo status, diventerà molto difficile distinguere nemici e amici: capire di chi fidarsi e le effettive risorse che è possibile mobilitare sono tra i compiti più difficili per i Comandanti del Popolo, che devono anche dedicare la propria vita per la libertà del popolo. </span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 220",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-peoples-army",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "Hx18bwHTQdWVat0N"
+    },
+    {
+      "name": "Carriera: Mentore",
+      "type": "feat",
+      "img": "icons/sundries/books/book-stack.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">La conoscenza è potere, soprattutto in un mondo in cui la conoscenza può essere l'unico modo per alcuni di elevare la propria vita da una condizione miserabile e disperata a una posizione di prestigio nella società. Se la cultura e la conoscenza accumulate svanissero insieme a coloro che le hanno coltivate, il mondo dovrebbe ricominciare da capo, diventando inevitabilmente incapace di progredire così tanto. Per questo motivo e per garantirne lo sviluppo, la più nobile delle occupazioni è quella del mentoring, condividere la conoscenza con il mondo e affidarla a studenti che saranno a loro volta attrezzati per farla progredire ulteriormente.<br /></span></p>\n<h2><span class=\"fontstyle2\">GRANGO 0 - STUDENTE<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Sapere leggere e scrivere, avere un background culturale e supporto accademico.<br /></span></p>\n<p><span class=\"fontstyle0\">Vieni avviato a un campo di studio, con il supporto di un mentore o di un'istituzione culturale come un'accademia, una biblioteca o un tribunale. Gli studenti non solo ricercano materie puramente teoriche o accademiche o studiano solo per sete di conoscenza; </span><span class=\"fontstyle0\">in verità, sono spinti anche dal desiderio di poter un giorno trasmettere queste conoscenze. Il modo in cui ti avvicini ai tuoi studi ti conferisce competenza in un'abilità scelta tra Arcano, Investigativo, Natura, Religione e Storia, nonché in uno strumento artigianale.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - ISTRUTTORE<br /></span></h2>\n<p><span class=\"fontstyle0\">Ora vedi riconosciuto il loro impegno accademico, anche economico, e hai approfondito il tuo studio al punto da poter insegnare le basi ad altri studenti. Il tutor o l'istituzione che ti supporta ti indirizza a dividere il tuo tempo tra ricerca, studio e insegnamento. Puoi scegliere tra l'abilità e lo strumento acquisiti con la carriera e raddoppiare il loro bonus di competenza sulle relative prove.</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Comprensione e Spiegazione.</strong></em> </span><span class=\"fontstyle0\">Hai eccellenti capacità di comprensione e memoria e sei in grado di trasferire facilmente la conoscenza. Una volta per sessione, quando spendi ispirazione per ottenere vantaggio in un tiro, puoi scegliere di utilizzare Intelligenza o Saggezza come tratto di riferimento, anche se l'</span><span class=\"fontstyle0\">abilità non lo fornisce. Puoi anche spendere un dado vita per spiegare qualcosa a un altro personaggio: fino alla fine del riposo successivo, un personaggio a cui è stata insegnata una lezione ottiene competenza in un'abilità in cui il maestro è competente. Puoi utilizzare questa abilità una volta per Grado di carriera per riposo lungo.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 2 - PROFESSORE<br /></span></h2>\n<p><span class=\"fontstyle0\">Sei diventato una figura chiave all'interno dell'Istituzione Accademica a cui sei legato e sei riconosciuto come uno dei massimi esperti nel tuo campo. Sei una figura di spicco in ambienti culturali elevati e sei ricercato come consigliere da persone facoltose o potenti per i tuoi studi approfonditi. Diversi insegnanti ti servono come assistenti e il mondo accademico ti garantisce l'accesso alle fonti di conoscenza più disparate. I professori sanno sempre dove trovare le informazioni o chi contattare per recuperarle.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 3 - DEAN<br /></span></h2>\n<p><span class=\"fontstyle0\">I personaggi sono i capi dell'istituzione accademica che li ha sostenuti e che ora guidano, diventando direttori responsabili delle classi, degli studenti e dei servizi accademici. Il tuo nome è inciso nella storia e annoverato tra i più grandi geni e saggi del tuo tempo, garantendoti rispetto e onore al pari delle figure più potenti di Vesteria.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 233",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-mentor",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "JO2tz4wkniDghX1k"
+    },
+    {
+      "name": "Carriera: Ufficiale",
+      "type": "feat",
+      "img": "icons/sundries/documents/document-sealed-red-white.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">Da quando esistono civiltà e società, il potere ha sempre dovuto essere imbrigliato in schemi, leggi e pratiche ben codificati. La politica è l’arte di gestire il potere: dipingere alleanze, scolpire editti, inneggiare e agire con una maschera. A Vesteria, dove il potere è l'oggetto più ambito, la politica è un'arte feroce, violenta, subdola e strategica, che richiede finezza, arguzia e fascino. Entrare nella corsa vorticosa della politica è tanto inebriante quanto pericoloso, ma è una necessità che spinge alcuni a mettersi in gioco: dopo tutto, ogni spettacolo di marionette ha bisogno di un maestro burattinaio che tiri le fila.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - MINION<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">guadagnare la fiducia di un funzionario e essere introdotto a una carica politica.<br /></span></p>\n<p><span class=\"fontstyle0\">Svolgi compiti e lavori semplici per conto di alti funzionari, venendo introdotto lentamente ai meccanismi complicati e sottili della politica e ottenendo l'opportunità di apprendere i trucchi del mestiere. Puoi scegliere Persuasione o Inganno; se non hai competenza nell'abilità scelta, la ottieni, altrimenti aggiungi un'ulteriore metà del tuo </span><span class=\"fontstyle0\">bonus di competenza alle prove basate su quell'abilità.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - UFFICIALE<br /></span></h2>\n<p><span class=\"fontstyle0\">Ottieni responsabilità politiche, anche se inizialmente a basso rango. Potrai occupare incarichi importanti in piccoli uffici o incarichi minori in ambienti più prestigiosi, rispondendo sempre a superiori più importanti ed entrando in contatto con le autorità più influenti della tua zona e con i vari poteri, politici e non, che gravitano attorno ad essi. Una volta raggiunto il grado di Ufficiale consideri la tua carriera, compresi eventuali futuri Gradi acquisiti, legati ad una particolare fazione politica. Laddove le condizioni narrative lo consentono, i personaggi possono cambiare il loro lato politico e con esso l'origine dei loro privilegi e risorse.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Riscatta Favori.</strong></em> </span><span class=\"fontstyle0\">In politica c'è sempre un credito da riscuotere, un occhio da chiudere o un favore da riscattare. Una volta per sessione, puoi spendere ispirazione per chiedere un favore da “restituire”: questo provoca l'intervento di un NPC con </span><span class=\"fontstyle0\">grado pari a quello dell'Ufficiale, e che ha risorse e competenze per aiutarti nei limiti ritenuti opportuni dal GM. Questa funzione può funzionare come l'abilità \"Parte del piano\" del cattivo, attivando una scena di flashback.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 2 - AMMINISTRATORE<br /></span></h2>\n<p><span class=\"fontstyle0\">Gli amministratori sono persone di grande influenza nel proprio ambiente politico di riferimento, dove hanno raggiunto posizioni che li rendono protagonisti importanti. Hai attratto i contatti più diversi da ogni ceto sociale, ognuno con interessi che potenzialmente sono nelle tue mani. I politici hanno sempre molti amici allo scoperto e molti nemici nell’ombra; temono davvero il fallimento e possono perdere tutto in un batter d'occhio. Nonostante i rischi associati a questa carriera, i privilegi che possono ottenere non hanno eguali.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 3 - GOVERNATORE<br /></span></h2>\n<p><span class=\"fontstyle0\">Sei arrivato in cima alla scala politica, raggiungendo una posizione di massimo controllo e potere: fai parte di un consiglio o parlamento di grande importanza, amministratori di una città o regione importante, e puoi potenzialmente aspirare alla guida di un'intera nazione. Il tuo nome è conosciuto ovunque in Vesteria, hai risorse ben al di sopra della media e puoi parlare alla pari con gli attori politici più potenti e influenti dell'intero Paese.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 234",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-official",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "OYungWLHXMiPQIje"
+    },
+    {
+      "name": "Carriera: Artista",
+      "type": "feat",
+      "img": "icons/tools/hand/brush-paint-brown-white.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">L'arte è una parte importante nella vita degli abitanti di Vesteria: che si tratti di pittori sacri al soldo della Chiesa delle Ossa nel Santo Regno, di attori che calcano le scene di Salso Nero, o di favoriti dei mecenati della Confederazione, c'è sempre grande richiesta di talento e voglia di godere dei frutti prodotti dalle arti. Un artista ha la possibilità di scegliere tra infiniti campi in cui specializzarsi, dalle tradizionali scuole di pittura e scultura ai palcoscenici virtuosi della danza o della musica, oltre a qualsiasi altra disciplina attraverso la quale la sensibilità artistica possa trasmettere emozioni alle persone.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - APPRENDISTA<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Essere introdotto al lavoro di un artista da un maestro per diventare un apprendista.<br /></span></p>\n<p><span class=\"fontstyle0\">Intraprendi il percorso artistico desiderato e acquisisci la padronanza di uno strumento musicale o di uno strumento artigianale ad esso collegato, guidato da un maestro che ti consiglia e istruisce.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - ARTISTA<br /></span></h2>\n<p><span class=\"fontstyle0\">Inizi a guadagnare ricchezza dalle tue performance o creazioni, iniziando a guadagnare Fama come professionista del settore e separandoti dal tuo mentore.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Stupisci con l'Arte.</strong></em> </span><span class=\"fontstyle0\">La tua abilità artistica ti permette di realizzare opere che, oltre a garantirti un introito economico, ti aiutano ad aumentare la tua Fama. Ogni volta che esegui o crei un'opera d'arte, puoi provare a impressionare qualcuno presente in quel momento e con una Fama superiore alla tua attraverso una prova relativa al tuo campo artistico con difficoltà decisa dal GM a seconda della situazione. In caso di successo, ogni volta che acquisisci Fama con un'attività specifica della tua carriera, guadagni Fama aggiuntiva per ogni NPC di fama più elevata che era presente in quel momento e che sei riuscito a impressionare.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - RICONOSCIUTO<br /></span></h2>\n<p><span class=\"fontstyle2\">Sei un artista ricercato e apprezzato in qualsiasi ambiente in cui la tua arte può essere apprezzata e hai un vantaggio nei controlli di interazione sociale con coloro che appartengono a questi ambienti e che sono ammiratori del tuo lavoro. Inoltre, sei considerato un maestro della tua disciplina e puoi istruire gli apprendisti.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - FAMOSO<br /></span></h2>\n<p><span class=\"fontstyle2\">Hai raggiunto la vetta artistica più alta nel tuo campo, unendoti alla schiera degli artisti passati alla storia. Raggiunto questo livello di esperienza, sei ora in grado di influenzare il giudizio dei potenti e di dare inizio a nuove mode. Una volta per sessione, puoi spendere l'ispirazione per cambiare, per un breve periodo di tempo a discrezione del GM, l'idea comune su qualsiasi elemento, oggetto o pensiero nella società, rendendola una tendenza popolare o particolarmente disprezzata.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 230",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-artist",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "Qd22eQIjER4UW5eV"
+    },
+    {
+      "name": "Carriera: Marinaio",
+      "type": "feat",
+      "img": "icons/tools/nautical/anchor-blue-orange.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">In un continente peninsulare come quello di Vesteria, con tre lati bagnati dal mare e il quarto chiuso da un'imponente catena montuosa, la navigazione è sempre stata di fondamentale importanza per i commerci e i viaggi. Il richiamo del mare attrae da sempre gli abitanti del cielo e della terra, spingendoli verso l'avventuroso sconosciuto con tutti i suoi rischi e benefici: navigando in molti hanno trovato fortuna, ma molti di più hanno perso tutto. I marinai non possono resistere alla chiamata, spinti dal cuore o dal semplice bisogno di guadagnare denaro.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 – RAGAZZO DI CABINA<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Essere accettato a bordo di una nave.<br /></span></p>\n<p><span class=\"fontstyle0\">Inizi la tua avventura in mare svolgendo i compiti più umili sulla nave. Oltre al lavoro sopra e sottocoperta, è importante trovare qualche svago durante la navigazione per alleggerire il tempo trascorso in mare. Per questo, acquisisci competenza in un gioco e, ogni volta che vinci in quel gioco (imbrogliando o meno) ottengono ispirazione.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - MARINAIO<br /></span></h2>\n<p><span class=\"fontstyle0\">Hai acquisito esperienza in mare e ora occupi un ruolo definito all'interno dell'equipaggio. Oltre ad esserti guadagnato il rispetto dell'equipaggio, hai acquisito la padronanza del gergo marinaresco e delle abitudini di vita in mare. Acquisirai competenza con gli strumenti di navigazione e avrai un vantaggio nell'usare, legare o assicurare le corde, grazie alla tua conoscenza dei nodi marinari.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Fortuna del mare.</strong></em> </span><span class=\"fontstyle0\">Se sei in mare o su una nave, quando ottieni 1 su qualsiasi tiro di dado, puoi tirare di nuovo e mantenere il secondo risultato. Puoi utilizzare questa abilità un numero di volte per riposo lungo pari al tuo grado in carriera.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - Nostromo<br /></span></h2>\n<p><span class=\"fontstyle2\">Sei diventato uno degli ufficiali della nave e hai un ruolo di grande responsabilità occupandoti della gestione dei membri dell'equipaggio e delle risorse. Il tuo nome ha viaggiato per i mari tanto quanto la nave su cui navighi, raggiungendo orecchie vicine e lontane. Hai almeno un contatto in ogni porto di Vesteria e ottieni un cannocchiale come simbolo del loro status.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - CAPITANO<br /></span></h2>\n<p><span class=\"fontstyle2\">Ti sei guadagnato il diritto di comandare una nave e la tua Fama ha varcato il mare, raggiungendo anche territori lontani dalle coste dove solitamente salpi. Solo i più ricchi possono permettersi i tuoi servizi (a meno che i tuoi non abbiano scelto... approcci \"alternativi\", come la pirateria) e le tue imprese si fondono con la leggenda nelle storie raccontate sui moli o nelle locande del porto: ogni volta che guadagni Fama attraverso imprese compiute in mare, loro guadagnano 1 punto Fama aggiuntivo.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 236",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-sailor",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "Rt0D9uk8X6VVXi2P"
+    },
+    {
+      "name": "Fazione: Confraternita dei Mortificati",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Confraternety%20of%20thr%20Mortified.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendium[historia-it.factions-it.5r0h3ymj3Wc689fB]{Confraternita dei Mortificati}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - BATTEZZATO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Aver accettato il Battesimo della Mortificazione<br /></span></p>\n<p><span class=\"fontstyle3\">Entri ufficialmente nelle fila della setta, alla quale verranno richiesti diversi compiti e servizi per il bene della Confraternita, spesso lavoro umile e duro. In cambio, troverai sempre conforto, vitto e alloggio nelle comunità dei Mortificati.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - FRATELLO MORTIFICATO<br /></span></h2>\n<p><em><strong><span class=\"fontstyle4\">Fama guadagnata nella Fazione da spendere: </span></strong></em><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle4\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle3\">Aver mostrato dedizione agli scopi della Confraternita; avendo lavorato duramente per la comunità mortificata a cui appartieni.<br /></span></p>\n<p><span class=\"fontstyle3\">Sei perfettamente inserito nei meccanismi e nella vita della Confraternita. Ti verranno assegnati compiti dalla Chiesa delle Ossa e dalla Confraternita nel tuo ruolo di agente operativo e parteciperai a varie funzioni mortificate come membro attivo, iniziando anche a prendere i novizi sotto la tua protezione.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 - SUPERIORE MORTIFICATO<br /></span></h2>\n<p><em><strong><span class=\"fontstyle4\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle4\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Avere dimostrato forza d'animo, risolto problemi alla Confraternita o offerto un ottimo servizio alla Chiesa delle Ossa, oltre a mostrare grandi abilità magiche abilità.<br /></span></p>\n<p><span class=\"fontstyle3\">Ora sei ben riconosciuto nella Confraternita e sei visto come una guida e un modello da seguire. Ricevi diversi novizi da formare, che possono servirti nei loro impegni con la Confraternita. Inizi a officiare in cerimonie e processioni mortificate e sei considerato benedetto dalle Ossa dai membri inferiori della Confraternita.<br /></span></p>\n<p><em><strong><span class=\"fontstyle4\">Obbedienza speciale e cieca. </span></strong></em><span class=\"fontstyle3\">I tuoi seguaci appartenenti alla Confraternita dei Mortificati seguono ciecamente le tue istruzioni e sono fanaticamente disposti a morire per loro senza rimpianti. O almeno i veri fedeli lo sono...</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 3 - VICARIUS MORTIFICATORUM<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella Fazione della spesa:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Aver stabilito come uno dei migliori Mortificati, aver eseguito ciecamente gli ordini della Chiesa delle Ossa e ottenuto grandi risultati successi contro pochissimi fallimenti. Attualmente l'unico posto in questa posizione all'interno della Confraternita è occupato da Odo Two Lives. </span></p>\n<p><span class=\"fontstyle3\">Siete sorti tra i Mortificati come Beati o Santi incarnati, pronti a condurre la Confraternita verso la salvezza delle Ossa attraverso la rinuncia alla carne. Per occupare questa posizione, però, gli individui non possono essere ingenui o stolti; devono sedere nel Grado e saper guardare oltre la Confraternita e le faccende dello spirito, ascoltando le direttive della Chiesa il cui sostegno è necessario poiché il ruolo può essere assegnato solo attraverso di loro... almeno fino a quando il potere della Confraternita, e del Vicario, non sarà pienamente consolidato.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 214",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-confraternity-of-the-mortified",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "T7l2BFZvgCBh3VVk"
+    },
+    {
+      "name": "Carriera: Artigiano",
+      "type": "feat",
+      "img": "icons/skills/trades/smithing-anvil-silver-red.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "default",
+          "removeAttackDamageButtons": "default",
+          "itemCondition": "",
+          "reactionCondition": "",
+          "otherCondition": "",
+          "effectCondition": ""
+        },
+        "midiProperties": {
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2><span class=\"fontstyle0\">Informazioni sulla carriera</span></h2>\n<p><span class=\"fontstyle0\">L'artigianato è, insieme all'agricoltura, il cuore economico di Vesteria. Dai remoti villaggi della Fossa Verde alle corti dei più potenti signori metropolitani, ogni luogo vive del lavoro manuale delle persone, sia esso al servizio di piccole idee o di grandi opere. La vicina Rodelia rimane l'esempio più fulgido di ciò che mani abili possono creare, ma anche il Continente è stato il luogo di nascita di maestri capaci di conquistare l'ammirazione degli sguardi più pretenziosi attraverso le loro straordinarie creazioni: creazioni di fabbro o magnifici gioielli splendenti, imponenti carpenterie e architetture innovatrici.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 0 - APPRENDISTA<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle3\">Essere introdotto al lavoro di artigiano da un maestro per diventare apprendista.<br /></span></p>\n<p><span class=\"fontstyle3\">Sei indirizzato in un campo di artigianato da un maestro, acquisendo competenza in uno strumento artigianale collegato al laboratorio.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - ARTIGIANO<br /></span></h2>\n<p><span class=\"fontstyle3\">Hai appreso le basi del tuo settore artigianale, dando valore e qualità superiore al proprio lavoro. Lo strumento in cui hai acquisito competenza con la tua carriera diventa quello preferito, raddoppiando il tuo bonus di competenza quando lo utilizzi.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Artigianato speciale e adattabile.</strong></em> </span><span class=\"fontstyle3\">Le conoscenze che hai acquisito nel campo dell'artigianato si rivelano utili nelle attività collaterali, anche quelle non collegate alla tua competenza. </span><span class=\"fontstyle3\">Una volta per sessione, quando spendi ispirazione per ottenere vantaggio in un tiro, puoi anche applicare le tue conoscenze artigianali a un problema o situazione non direttamente correlata al loro campo, aggiungendo al tiro il bonus di competenza concesso dal loro oggetto preferito, purché forniscano una spiegazione del gioco di ruolo che soddisfi il GM. Se eri già competente in quel tiro, non cumuli i due bonus ma hai l'opportunità di scegliere quale bonus applicare.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 - MAESTRO<br /></span></h2>\n<p><span class=\"fontstyle2\">Sei un artigiano riconosciuto la cui eccellenza è molto richiesta. Le tue opere vengono vendute ad un prezzo superiore alla media senza che ciò causi malcontento nei clienti o che cerchino di contrattare per un prezzo inferiore. Persone influenti, potenti e benestanti cercano il tuo lavoro, spesso fazioni e grandi gruppi di potere. Grazie alla tua posizione di maestro, ora puoi aprire una propria bottega e assumere apprendisti.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - ECCELLENZA<br /></span></h2>\n<p><span class=\"fontstyle2\">Il tuo stile è facilmente riconoscibile nel tuo lavoro, diventando una firma di qualità inimitabile, anche se molti cercano disperatamente di copiarlo e di avvicinarsi alle sue vette. Sei un ospite gradito in ogni ambiente prestigioso e in ogni luogo legato all'artigianato, dalle botteghe alle accademie, fino alle corti reali e alle sedi del potere. Le tue opere sono tra le migliori di Vesteria e la tua esperienza conferisce qualità aristocratica a qualsiasi opera creata.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 229",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-artisan",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "Uc3sofemoI3Iy4F5"
+    },
+    {
+      "name": "Fazione: Ordo Artis Occulta",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Ordo%20Artis%20Occulta.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[historia-it.factions-it.2YSOLlTrifuOrnj0]{Ordo Artis Occulta}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - PRINCIPIANTE<br/></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Requisiti: </span></strong></em><span class=\"fontstyle3\">Essere introdotto nell'Ordine da un Maestro, condividerne l'ideologia e aver dimostrato talento nelle arti magiche. Sii un mago, un alchimista o, raramente, un diverso utilizzatore della magia.<br/></span></p>\n<p><span class=\"fontstyle3\">I novizi vengono introdotti ai misteri dell'Ordo Artis Occulta da un Maestro e prestano giuramento di servizio all'Ordine. Il giuramento è magicamente vincolato da un rituale tenuto dai Maestri e dura per tutta la vita dell'iniziato. Ad un grado basso, l'Ordo lascia molta libertà ai suoi novizi, assistendoli nel loro percorso di crescita affinché possano formarsi al meglio e diventare risorse preziose per i loro scopi. I compiti affidati ai novizi sono in realtà solo prove di valutazione o piccole azioni apparentemente slegate tra loro: recuperare un oggetto, consigliare il capo di un villaggio, ascoltare il resoconto di un particolare personaggio. Tutti tasselli di uno schema molto più ampio e complesso.<br/></span></p>\n<p><em><strong><span class=\"fontstyle2\">Speciale, Occhio Segreto. </span></strong></em><span class=\"fontstyle3\">Ogni novizio deve giurare fedeltà all'Ordo attraverso un particolare rituale che collega tutti i membri con un sigillo magico. Questo incantesimo consente ai membri dell'Ordo di comunicare tra loro. Attraverso di esso, apprendi il trucchetto del messaggio ma puoi prendere di mira solo una creatura che sai essere contrassegnata con l'Occhio Segreto, ignorando le restrizioni sulla distanza. Quelli con l'Occhio Segreto imparano anche a individuare la magia che possono lanciare a piacimento senza consumare slot o punti incantesimo. Inoltre, se tenti di rivelare un segreto dell'Ordo mentre sei di Grado 2 o inferiore devi superare un Tiro Salvezza su Intelligenza (CD 15) per evitare che il Conclave scopra che è stato rivelato.<br/></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - ORDINATO<br/></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Guadagni di fama nella fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">3<br/></span><em><strong><span class=\"fontstyle2\">Requisiti: </span></strong></em><span class=\"fontstyle3\">Hanno dimostrato di comprendere gli obiettivi dell'Ordo e di essere un candidato adatto per la realizzazione dei suoi piani.</span></p>\n<p><span class=\"fontstyle0\">Comprendi gli obiettivi dell'Ordo e ora sei pronto a partecipare attivamente alla vita della Fazione. Ti viene riconosciuto che ti sei sviluppato e integrato nella società e nella cultura dei Magi e partecipi a conclavi locali in cui le tue parole vengono prese in considerazione. </span><span class=\"fontstyle0\">La Fazione ora ti affida compiti più delicati e, oltre a incontrare personaggi importanti, acquisirai anche una conoscenza di base del mondo e della magia attraverso l'accesso alle magnifiche biblioteche dell'Ordo.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 2 - MAGISTER<br/></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Fama guadagnata nella fazione da spendere:</strong></em> </span><span class=\"fontstyle0\">15<br/></span><em><strong><span class=\"fontstyle3\">Requisiti: </span></strong></em><span class=\"fontstyle0\">Prendi un novizio sotto la tua ala protettrice e dimostra che puoi guidare il futuro delle nuove generazioni dell'Ordo.<br/></span></p>\n<p><span class=\"fontstyle0\">Viene riconosciuto come Magister mentre la protezione e l'occhio dell'Ordo si concentrano anche sui propri novizi, anche se spetta ancora ai Magi capire il momento giusto per introdurre i propri novizi ai misteri della Fazione. Ora puoi partecipare alla Concilia Magistrorum, dove i maestri dell'Ordo si riuniscono per discutere il futuro della </span><span class=\"fontstyle0\">Fazione, gli sviluppi nel campo della Magna Ars e dell'Alchimia e lo stato dell'equilibrio mondiale. Ai Magister vengono svelati i segreti più profondi: dalla composizione del mondo e come la storia è e deve essere guidata, fino ai limiti oscuri da non oltrepassare e alle loro possibili conseguenze.<br/></span></p>\n<h2><span class=\"fontstyle2\">RANGO 3 - CONCLAVISTA<br/></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Fama guadagnata in Fazione da spendere:</strong></em> </span><span class=\"fontstyle0\">30<br/></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle0\">Essere un consigliere illuminato che occupi una posizione di rilievo nella società degli incantatori di Vesteria, aver addestrato con successo validi novizi, e per aver dimostrato che si può garantire il futuro dell'Ordo.<br/></span></p>\n<p><span class=\"fontstyle0\">Entri nel Conclave dell'Ordo Artis Occulta, il circolo più interno dell'Ordine dove i Conclavisti, riuniti in segreto, discutono del futuro dell'Ordo, della magia e del mondo, progettando piani per i decenni a venire. I Conclavisti custodiscono i segreti dell'Ordine e scelgono quali cancellare dalla storia e quali rivelare al mondo. Si vedono come custodi del futuro e del passato e detentori della conoscenza magica complessiva del mondo; non c'è mistero che sfugge ai loro occhi. Il segreto più profondo dell'Ordo è custodito nelle viscere di Montetorto, dove tomi proibiti parlano di qualcosa di molto oscuro che causò una spaccatura nel mondo e portò alla luce cose che non sarebbero mai dovute emergere. La loro stessa esistenza e il mondo che rivelano rischiano di sconvolgere gli equilibri di potere del mondo; inutile dirlo, molti sguardi indiscreti scrutano l'oscurità nella loro direzione...</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 224",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-ordo-artis-occulta",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "UobVIg6Tr5USCMxl"
+    },
+    {
+      "name": "Carriera: Cartografo",
+      "type": "feat",
+      "img": "icons/tools/navigation/map-marked-green.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">L'esplorazione è una delle pietre miliari della società vesteriana. Che sia via terra, acqua o cielo, tracciando le migliori rotte commerciali, aprendo nuovi passaggi o scoprendo nuove risorse minerarie in territori inesplorati, l'esplorazione è parte della vivace vita delle popolazioni del continente. Per questo motivo l'arte di rappresentare mappe accurate e precise è tenuta in altissima considerazione. Se intrapresa, è una carriera molto rinomata e i migliori e più famosi cartografi diventano membri di corti e palazzi, partecipano a concorsi indetti da signori locali, o viaggiano con le più importanti imprese commerciali.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - AMATORIALE<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Trovare un cartografo disposto a iniziare il personaggio nell'arte della creazione di mappe.<br /></span></p>\n<p><span class=\"fontstyle0\">Inizi il tuo viaggio nel mondo della cartografia, acquisendo competenza negli strumenti di un cartografo e sei incoraggiato a esplorare quanto più possibile il continente per esercitarti nella riproduzione dettagliata della sua geografia e delle sue caratteristiche.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - CARTOGRAFO<br /></span></h2>\n<p><span class=\"fontstyle0\">Hai imparato alcuni trucchi del mestiere e sai come non farti trovare impreparato: hai memorizzato un buon numero di mappe e riesci a capire dove ti trovi con precisione in pochi minuti attraverso l'osservazione di ciò che ti circonda. Inizi anche ad avere un certo successo nella vendita dei loro prodotti.<br /></span></p>\n<p><em><strong><span class=\"fontstyle3\">Speciale, Arte delle mappe. </span></strong></em><span class=\"fontstyle0\">Hai sempre a portata di mano l'attrezzatura necessaria per stilare una mappa dei dintorni e dei percorsi che percorri, anche con mezzi di fortuna. Ciò rende praticamente impossibile perdere la strada, a meno che non si verifichino circostanze soprannaturali...</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - ESPLORATORE<br /></span></h2>\n<p><span class=\"fontstyle2\">La tua fama di cartografo professionista è ormai ben nota in una vasta area e la gente ti chiede consigli. Inoltre, una volta per sessione, attingendo tra i tuoi contatti, conoscenze e ricerche passate, hai la possibilità di trovare la mappa di una particolare zona o edificio. </span><span class=\"fontstyle2\">Inoltre, la tua notorietà e abilità rendono prezioso il tuo lavoro: le tue mappe sono considerate vere e proprie opere d'arte e vengono richieste nei migliori salotti e dalle socialite più potenti e facoltose.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - PIONEER<br /></span></h2>\n<p><span class=\"fontstyle2\">Ora hai acquisito esperienza in luoghi così remoti da essere conosciuti solo dagli altri come leggende lontane. Non importa se le mappe siano state disegnate sul posto o dalla tranquillità del vostro laboratorio, comunque sono così evocative e precise dei luoghi indicati da rappresentare veri e propri capolavori inimitabili per stile e contenuti. Le mappe preparate dal te sono di così alta qualità che garantiscono allo spettatore un vantaggio sui controlli Natura, Sopravvivenza e Storia e possono essere di grande vantaggio in caso di battaglia.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 231",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-cartographer",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "VJw8vaow7BxDB5eL"
+    },
+    {
+      "name": "Fazione: Compagnia della Bussola",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Fellowship%20of%20the%20Compass.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[historia-it.factions-it.YuNjDS8BEDjZBQls]{Compagnia della Bussola}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - PRINCIPIANTE<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Registrati come lavoratore in un ufficio della Fellowship; non essere ricercato per crimini commessi nella Confederazione.<br /></span></p>\n<p><span class=\"fontstyle3\">I novizi iniziano a lavorare per la Compagnia della Bussola quando vengono assegnati a un amministratore. Probabilmente dovrai salire a bordo di una nave con un compito molto specifico, anche se di basso livello.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 – COMPAGNO DELLA BUSSOLA<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella Fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Dimostrare le abilità, le competenze, il coraggio e l'imprenditorialità tipici della Compagnia. Leadership e organizzazione sono qualità molto ricercate.<br /></span></p>\n<p><span class=\"fontstyle3\">Ora sei un ufficiale di basso rango e membro riconosciuto della Compagnia della Bussola. Inizi la tua carriera all'interno della Compagnia e puoi ricoprire vari ruoli di leadership su una nave o in un posto Compass. I membri che si dimostrano validi a questo grado della Compagnia potrebbero diventare Nostromi o addirittura prendere il comando di una nave minore in una flotta.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 – CAPITANO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Aver completato diversi viaggi e attività redditizie per la Compagnia. Inoltre, è necessario dimostrare grande abilità e uno spirito dedicato per comandare un'ammiraglia.<br /></span></p>\n<p><span class=\"fontstyle3\">Ricevi una spilla d'oro raffigurante una bussola come simbolo del tuo nuovo grado di Capitano. Ti viene assegnata un'ammiraglia, che potrebbe far parte di una piccola flotta, e puoi chiedere il permesso alla Compagnia di intraprendere iniziative per suo conto, da cui la Compagnia riceverà parte dei profitti.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 3 - CERCHIO D'ORO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella Fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Avere conquistato nuove rotte per la Compagnia guadagnando ingenti somme di denaro, aver superato grandi ostacoli e essersi dimostrato coraggioso e imprenditori brillanti.<br /></span></p>\n<p><span class=\"fontstyle3\">Diventi parte del Comando Compass Fellowship con un grado pari a quello di Commodoro. Grazie a questa nuova posizione, hai la possibilità di gestire le politiche commerciali dell'intera Compagnia insieme agli altri membri del Comando. Riceverai una parte significativa della gloriosa flotta mercantile e entrate dirette dai guadagni commerciali.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 218",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-fellowship-of-the-compass",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "WVwPM073oCy8GrkA"
+    },
+    {
+      "name": "Fazione: Chiesa delle Ossa",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Church%20of%20Bones.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        },
+        "midiProperties": {
+          "confirmTargets": "default",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false,
+          "idr": false,
+          "idi": false,
+          "idv": false,
+          "ida": false
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "default",
+          "itemCondition": "",
+          "effectCondition": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[historia-it.factions-it.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - FEDELE<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> Prestare giuramento alla Chiesa al termine del seminario o a un affiliato come l'Ordine dei Paladini o l'Inquisizione.<br /></span></p>\n<p><span class=\"fontstyle2\">Prometti di servire e seguire la Chiesa finché del tuo corpo non rimarranno solo le ossa. La Chiesa ti accoglie tra le sue fila, mettendoti a disposizione le sue strutture; ora puoi trovare rifugio nei santuari, protezione nelle caserme e orecchie pronte ad ascoltare tra gli Inquisitori. La tua dedizione e il tuo spirito saranno i metri con cui verrà misurato il tuo potenziale, ogni volta che saranno richiesti semplici servizi per la Chiesa.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Speciale, Grow Like Bones.</strong></em> </span><span class=\"fontstyle2\">Se investi nella Chiesa delle Ossa senza essere sacerdote, riceverai i benefici standard della Fazione a seconda della quantità di Punti Fama investiti, corrispondenti a quel Grado e non a quello effettivamente ottenuto, fino al Grado 2. La Chiesa ha diversi rami, come l'Ordine dei Paladini e l'Inquisizione, dove tu puoi dimostrare di essere un vero credente senza dover necessariamente raggiungere un potere che è di per sé spirituale e irraggiungibile... o no?<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - TARSO<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle2\">3<br /></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle2\">Essere un prete. La prova che l'impegno e il giuramento che hai fatto sono duri quanto Bones.<br /></span></p>\n<p><span class=\"fontstyle2\">Diventi membro effettivo dell'organizzazione ecclesiastica e vieni nominato Tarso, sacerdote responsabile di una comunità o parrocchia cittadina dove eserciti una discreta autorità e influenza. Devi lavorare continuativamente per questa comunità altrimenti il ​​grado verrà ritirato. È necessario presentarsi all'area Ribber.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 - COSTOLARES<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle2\">15<br /></span><span class=\"fontstyle3\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle2\">Avere dimostrato un totale allineamento con il pensiero e le politiche della Chiesa delle Ossa e aver mostrato leadership e fermezza di spirito.<br /></span></p>\n<p><span class=\"fontstyle2\">Ora sei a capo di una congregazione di chiese o della diocesi di una grande città. La tua influenza e il tuo potere aumentano, garantendoti il sostegno del tuo Occipite e la capacità di richiedere rinforzi militari e politici per gestire gli affari della Chiesa.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 3 - OCCIPUT<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fama guadagnata in Fazione da spendere: </span></strong></em><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Avere ottenuto l'appoggio di altri Occipiti, o in alternativa almeno un Duca del Santo Regno, ed aver portato a termine con successo la gestione della diocesi come Ribber con totale competenza e dedizione. Uno dei dodici posti deve essere vacante.<br /></span></p>\n<p><span class=\"fontstyle3\">Sei eletto a uno dei dodici seggi del Consiglio Occipitario, dove i rappresentanti spirituali di ciascun ducato del Santo Regno danno consigli al Custode delle Ossa e organizzano le strategie di crescita e di affermazione della Chiesa. Il tuo potere politico è ora pari a quello di un Duca e puoi contare su un esercito organizzato sotto il tuo comando, oltre che sulle varie risorse della Chiesa. Essendo diventati leader politici di grande valore per l'organizzazione, ora troverete un pericolo maggiore per la vostra sicurezza all'interno dell'organizzazione. Gli Occipiti rispondono solo al Consiglio e al Custode delle Ossa e sono in diretta competizione tra loro, soprattutto se c'è un Custode da sostituire. Al momento, Femur III è forte, anche se vecchio, e gode ancora di molto supporto.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 210",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-church-of-bones",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "gEzlGxNnZXAajfda"
+    },
+    {
+      "name": "Fazione: Fratelli dei Vermi",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Brethren%20of%20Worms.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        },
+        "midiProperties": {
+          "confirmTargets": "default",
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "noConcentrationCheck": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false,
+          "idr": false,
+          "idi": false,
+          "idv": false,
+          "ida": false
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "default",
+          "itemCondition": "",
+          "effectCondition": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendio[historia-it.factions-it.TLMTqqNgYTVYulPG]{Fratelli di Vermi}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - RECLUTA</span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">Competenza in almeno un'arma marziale, arruolamento in un distaccamento dei Worms, superamento di esami medici e giuramento di servizio.<br/></span></p>\n<p><span class=\"fontstyle3\">I personaggi si uniscono ai Fratelli con un giuramento di fedeltà che li lega alla Fazione per vent'anni. La diserzione porta solo alla morte. Ti viene consegnata l'uniforme ufficiale dei Vermi e un'arma da guerra che non ha proprietà aristocratiche. La caserma del tuo distaccamento diventa  </span><span class=\"fontstyle0\">la tua nuova casa, dove riceverai vitto, alloggio e cure. È improbabile che i compiti affidati ti mettano in pericolo mentre completi il ​​loro addestramento come Verme, ma la guerra è una terribile necessità e non vi è alcuna garanzia che non sarai chiamato in servizio in nessun momento.</span></p>\n<h2><span class=\"fontstyle0\"><span class=\"fontstyle0\">RANGO 1 - FRATELLO</span></span></h2>\n<p><span class=\"fontstyle0\"><em><strong><span class=\"fontstyle2\">Fama guadagnata nella fazione da spendere: </span></strong></em><span class=\"fontstyle3\">3<br/></span><span class=\"fontstyle2\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle3\">Avere dimostrato capacità di eseguire compiti assegnati, capacità di obbedire agli ordini, disciplina e abilità. Ti unisci ai Fratelli e ricevi uno stipendio fisso e ricompense basate sui tuoi risultati. Dopo un periodo di addestramento, inizi a essere chiamato a partecipare a missioni sempre più pericolose (e redditizie), che vanno dai lavori di protezione e scorta, alla presenza sul campo di battaglia.<br/></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Speciale, ben armato.</strong></em></span><span class=\"fontstyle3\">Hai accesso allo straordinario arsenale dei Fratelli e non hai problemi con l'equipaggiamento. Al Grado 1, puoi ottenere armi e armature per te che non hanno la proprietà aristocratica. Al Grado 2 puoi ottenere armi e arsenale non aristocratici con un bonus +1, mentre al Grado 3 puoi richiedere equipaggiamento con un bonus +1 a tua scelta senza restrizioni di proprietà, incluso un pezzo con un bonus +2. Anche i seguaci di Grado 1 o superiore che appartengono ai Fratelli possono godere di questo privilegio.</span></span></p>\n<h2><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle0\">RANGO 2 - SOTTUFFICIALE</span></span></span></h2>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">15<br/></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em> </span><span class=\"fontstyle3\">essere sopravvissuto a uno scontro pericoloso, aver dimostrato abilità tattiche ed efficacia in guerra, aver non ha mostrato paura ed è rimasto fedele agli ordini, riuscendo con successo nelle missioni assegnate.<br/></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\">Ora sei un ufficiale di alto rango dei Fratelli: hai molte responsabilità e molti subalterni di cui occuparti, addestramento per supervisionare e missioni rischiose da condurre. Se sei lontano dal Buco diventi comandante di un distaccamento, altrimenti inizi a trascorrere sempre più tempo a Fort Blizzard piuttosto che nel villaggio. Hai un ottimo stipendio e, seppur senza privilegi, godi anche di un ottimo sostegno da parte dei Fratelli e delle sue risorse.</span></span></span></p>\n<h2><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\"><span class=\"fontstyle0\">RANGO 3 - CONSIGLIO DI GUERRA<br/></span></span></span></span></h2>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\"><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">30<br/></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Avere conquistato la fiducia del proprio superiori, compresi Ranieri e Torquato (o chiunque altro nelle loro posizioni), ha dimostrato di essere implacabile sul campo di battaglia e di aver portato a termine compiti quasi impossibili.<br/></span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\"><span class=\"fontstyle3\">Si entra a pieno titolo nel Piccolo Consiglio di Guerra dei Fratelli di Worms, dove solo un manipolo di coraggiosi combattenti si ritrova con il Capitano Torquato e il Vice Ranieri De Porcis per discutere le strategie dei maggiori conflitti in cui i Worms sono coinvolti, nonché le proprie preferenze politiche: più di una volta si sono fatti garanti della equilibri governativi del continente, ma altre volte sono stati loro a sconvolgerli a favore di chi aveva più oro sul piatto. Torquato, però, guarda anche alle proprie convinzioni, e non ha mai accettato di lavorare per Paddath di Salso Nero, essendo stato lui stesso uno schiavo, in passato... Ci sono però forti pressioni affinché questo cambi.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent: 0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></span></span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 208",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-brethren-of-worms",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "gZrfLfDiFDF6mzp9"
+    },
+    {
+      "name": "Fazione: Emissari del Khan",
+      "type": "feat",
+      "img": "modules/Historia/Factions/Emissaries%20of%20the%20Khan.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla fazione</h2>\n<p>@Compendium[historia-it.factions-it.5OmWNELSAPYWUcab]{Emissari del Khan}</p>\n<h2><span class=\"fontstyle0\">RANGO 0 - DELEGATO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Appartenenza a una famiglia nobile del Khanato o aver dimostrato al Khan, o a un suo ufficiale, di poter essere utile all'Impero in terra straniera.<br /></span></p>\n<p><span class=\"fontstyle3\">Ci si aspetta che tu svolga compiti semplici come servitori di un Emissario di rango superiore. Il tuo servizio al Khan non è necessariamente pubblico e può assumere la forma di un burocrate minore, un osservatore o un servitore dei tuoi superiori mentre ti occupi dei compiti più disparati ma semplici. Non godi di protezione diretta ma puoi trovare rifugio presso la loro ambasciata di riferimento.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - EMISSARIO<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Avere dimostrato lealtà al Khanato e aver eseguito con successo compiti di difficoltà superiore alla media. </span></p>\n<p><span class=\"fontstyle3\">Sei un agente fidato al servizio del Khan, alle prese con missioni politiche e spesso segrete affidategli da un dignitario di rango superiore. Puoi delegare i servitori del Khan a svolgere queste missioni e ora puoi trovare rifugio e assistenza in ogni ambasciata.<br /></span></p>\n<p><span class=\"fontstyle3\">Diventando un Emissario, inizierai anche la tua carriera politica nelle Corti e nei Palazzi, partecipando come ospite in segno di amicizia con il Khan.<br /></span></p>\n<h2><span class=\"fontstyle3\">RANGO 2 - DIGNITARIO<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fama guadagnata in Fazione da spendere: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti: </strong></em>Uno deve </span><span class=\"fontstyle3\">rivelarsi un agente accorto con spiccate doti politiche; alleati e sostenitori vincenti.<br /></span></p>\n<p><span class=\"fontstyle3\">Sei un Dignitario riconosciuto del Khanato e riferisci direttamente all'Ambasciatore, occupandoti di un'area amministrativa dell'ambasciata. Il tuo ruolo politico è attivo e agisci come la voce del Khan, rappresentando l'Impero e promuovendone gli interessi. Il sostegno garantito da ciascuna ambasciata è eccezionale: servi, risorse, denaro, tutto per il bene del Khanato, ovviamente.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Immunità speciale, diplomatica.</strong></em> </span><span class=\"fontstyle3\">I dignitari non possono essere giudicati da autorità straniere dato il loro ruolo di diretta rappresentanza ed emanazione del Khanato stesso. Non puoi essere detenuto o punito, ma puoi essere confinato nella tua ambasciata, con l'esclusione dei viaggi verso altre sedi del Khanato o del rientro nei territori dell'Impero. Se il tuo comportamento dovesse recare vergogna al Khan o al suo dominio, la punizione sarà dura ed esemplare, seppur esigibile tra le mura accoglienti e discrete dell'ambasciata</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 3 - AMBASCIATORE<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fama guadagnata nella fazione da spendere:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requisiti:</strong></em></span><span class=\"fontstyle3\">Avere stretto contatto con il Khan o la sua corte interna, aver avuto successo come Dignitario. Il numero di ambasciatori è limitato al numero di ambasciate presenti nel continente e il posto di un ambasciatore esistente deve diventare vacante per essere ricoperto da qualcun altro.<br /></span></p>\n<p><span class=\"fontstyle3\">Ogni ambasciata è un piccolo ecosistema indipendente, in cui diversi emissari lavorano svolgendo una serie di compiti. Le ambasciate contengono anche un piccolo dispiegamento di soldati imperiali all'interno delle sue mura. </span></p>\n<p><span class=\"fontstyle3\">Ogni offesa, insulto o problema con un ambasciatore è come se fosse rivolto direttamente al Khan, il quale è sempre pronto a prestare il suo sostegno nei tempi e nelle forme a disposizione.</span> </p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 216",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "faction-emissaries-of-the-khan",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "ghm4RNFP67FFzRqy"
+    },
+    {
+      "name": "Carriera: Storico",
+      "type": "feat",
+      "img": "icons/commodities/treasure/bust-pharaoh-gold-blue.webp",
+      "effects": [],
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "bards": {
+            "bardAnim": "a1",
+            "bardTarget": true,
+            "bardTargetAnim": "a1",
+            "bardTargetColor": "a1",
+            "bardSelf": true,
+            "marker": true,
+            "markerColor": "a1",
+            "markerColorTarget": "a1"
+          },
+          "spellVar": "a1",
+          "hmAnim": "a1",
+          "color": "n1",
+          "spellOptions": {
+            "spellLoops": 1
+          },
+          "uaStrikeType": "physical",
+          "dtvar": "dt1",
+          "divineSmite": {
+            "dsEnable": false,
+            "dsSelf": true,
+            "dsSelfDelay": 0,
+            "dsSelfColor": "a1",
+            "dsTarget": true,
+            "dsTargetDelay": 1250,
+            "dsTargetColor": "a1"
+          },
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "allSounds": {
+            "explosion": {
+              "audioExplodeEnabled": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            },
+            "item": {
+              "enableAudio": false,
+              "file": "",
+              "delay": 100,
+              "volume": 0.25
+            }
+          },
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false,
+          "teleDist": 30,
+          "templates": {
+            "tempType": "a1",
+            "tempAnim": "",
+            "tempColor": "",
+            "tempLoop": 1
+          }
+        },
+        "core": {},
+        "rsr5e": {
+          "quickDesc": {
+            "value": true
+          },
+          "quickFooter": {
+            "value": true
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<h2>Informazioni sulla carriera</h2>\n<p><span class=\"fontstyle0\">La storia è scritta dai vincitori, che la plasmano a propria immagine e somiglianza, ed è lo specchio dei fatti raccontati dalla penna di chi li racconta. Essere uno storico di successo in Vesteria significa essere un maestro di come il mondo ricorderà gli eventi di ieri e spiegherà la situazione di oggi. Questo delicato lavoro è costantemente in bilico tra fatti e opinioni: non si potrà mai presentare una storia oggettiva ma attendibile, forse. Gli storici che si pongono il compito di riportare i fatti<br />dovranno scegliere a quale verità tendere e se far prevalere l'interesse accademico o quello personale.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 0 - CRONACATORE<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle0\">Capacità di leggere e scrivere, competenza in storia.<br /></span></p>\n<p><span class=\"fontstyle0\">Viaggi attraverso le terre di Vesteria per tenere traccia degli eventi più significativi che animano il continente. Che sia al servizio di un nobile, di un'istituzione o di un intellettuale libero da vincoli, un cronista è spinto dalla curiosità di scoprire fino in fondo le ruote che muovono il grande meccanismo della storia. Acquisisci competenza negli strumenti del calligrafo.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANGO 1 - STORICO<br /></span></h2>\n<p><span class=\"fontstyle0\">Ti viene riconosciuta una tale capacità nella scrittura di eventi da essere considerata una fonte affidabile e rispettabile. Durante i tuoi viaggi puoi sempre trovare rifugio dai nobili locali e essere riconosciuto come un'autorità neutrale, libera di osservare il mondo e di dargli vita nei tuoi scritti. Gli storici raddoppiano il loro bonus di competenza alle prove di Storia.<br /></span></p>\n<p><em><strong><span class=\"fontstyle3\">Speciale, Scrittura di storia. </span></strong></em><span class=\"fontstyle0\">Sei un abile scrittore, capace di raccontare eventi storici con passione, glorificandone i protagonisti. Durante un riposo lungo, puoi trascorrere il tuo tempo redigendo i resoconti degli eventi che ti hanno coinvolto, guadagnando ai tuoi compagni che hanno accumulato Fama dall'ultima volta che questo compito è stato intrapreso, un punto Fama aggiuntivo per ogni grado di carriera.</span> </p>\n<h2><span class=\"fontstyle0\">RANGO 2 - CRITICO<br /></span></h2>\n<p><span class=\"fontstyle2\">Lei è riconosciuto per il suo giudizio sugli eventi e per la sua grande conoscenza di come questi facciano parte di un ciclo di cause ed effetti ben precisi e per questo è ricercato come consigliere, ascoltato con grande attenzione. Siete sempre ben accolti negli ambienti più alti e ricevete ospitalità come graditi ospiti anche in territori ostili al vostro luogo d'origine. Puoi usare la tua abilità di Storia per persuadere qualcuno su questioni di consulenza politica o strategica.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - CANTORE<br /></span></h2>\n<p><span class=\"fontstyle2\">Se raccontata da te, la storia diventa una poesia apprezzata in tutto il continente. Il tuo ruolo di autorità indipendente è protetto dai trattati di immunità. Ospitarvi nelle proprie tenute è considerato un onore ed è conteso tra i più grandi protagonisti del potere di tutta la Vesteria.</span></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "HCB pg. 232",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "cover": null,
+        "crewed": false,
+        "prerequisites": {
+          "level": null,
+          "repeatable": false,
+          "items": []
+        },
+        "properties": [],
+        "identifier": "career-historian",
+        "activities": {},
+        "advancement": [],
+        "enchant": {}
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1760898709568,
+        "modifiedTime": 1760898709568,
+        "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_id": "r2eavWp6IhetJkBV"
+    }
+  ],
+  "source": {
+    "world": "historia",
+    "system": "dnd5e",
+    "version": {
+      "core": "13.351",
+      "system": "5.2.5"
+    }
+  },
+  "folders": []
+}
