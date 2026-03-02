@@ -1,0 +1,181 @@
+{
+  "name": "Esploratore",
+  "type": "subclass",
+  "img": "icons/tools/navigation/compass-brass-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Gli esploratori possiedono letteralmente tutto il necessario non solo per sopravvivere, ma per prosperare nella vita itinerante e avventurosa che hanno scelto: sanno orientarsi, le caratteristiche del paesaggio dalla sua flora ai suoi abitanti, come fare un pasto da qualsiasi cosa, ed è in grado di recuperare e anche combattere con grande finezza. I loro sensi acuti e la loro grande consapevolezza li rendono difficili da catturare ignari, e la loro tenacia è difficile da rompere.</span></p><p><span class=\"fontstyle0\"><strong>Individuare il mondo</strong><br/></span><span class=\"fontstyle2\">Si ottiene la competenza in una abilità scelta da Natura, Sopravvivenza o Storia, negli strumenti del cartografo o negli strumenti del navigatore, negli utensili del cuoco, nelle armature medie e nelle seguenti armi marziali: spada a duello, spada del bastardo e spada laterale.</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 186",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "explorer",
+    "classIdentifier": "venturer",
+    "advancement": [
+      {
+        "_id": "v5MyPZwBedgP4G1i",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.FRNKMFPK9KmpdHBi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "qQdyEf2nKZriFSmW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.9LWlY7czks90Xe3y",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "k1omSt510mz0Mwhh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.vBHM3d2Wfr801Scp",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.Bi9VSPddbvnKUB15",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "uLeFyusoGYgSWpvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.N7mgobJB4ILHgRVz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "4RoVmOkmZCEK8YB6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.uS6KytQDfpOzQW9e",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "R3iLa5BVEl3vojfX"
+}

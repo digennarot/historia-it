@@ -1,0 +1,155 @@
+{
+  "name": "Libertà dei Venti",
+  "type": "spell",
+  "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Il vento avvolge il tuo corpo, infilando i tuoi capelli e i tuoi vestiti mentre i tuoi piedi si sollevano da terra. Si guadagna una velocità di volo di 60 piedi. Inoltre, avete vantaggio sui controlli di abilità per evitare di essere grappato, e su getti di salvataggio contro essere trattenuti o paralizzati.</p><p>Quando siete presi di mira da un incantesimo o un attacco mentre questo incantesimo è in vigore, è possibile utilizzare una reazione per teletrasportare fino a 60 piedi per uno spazio non occupato si può vedere. Se questo movimento ti porta fuori dalla gamma dell'incantesimo di attivazione o attacco, non sei influenzato da esso. Questo incantesimo finisce quando riappari.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TDCSR",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "self"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "abj",
+    "materials": {
+      "value": "a scrap of sailcloth",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "freedom-of-the-winds",
+    "method": "spell",
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "J82q7PD6cmcmqBfd"
+}

@@ -1,7 +1,7 @@
 {
   "id": "historia-it",
   "title": "Historia (Italiano)",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": 11,
     "verified": 13
@@ -11,71 +11,69 @@
       "name": "Tiziano Di Gennaro"
     }
   ],
-  "description": "Italian translation packs for Historia (Standalone with media).",
-  "manifest": "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
-  "download": "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
+  "description": "Italian translation packs for Historia.",
   "packs": [
     {
       "name": "factions-and-careers-it",
-      "label": "Fazioni e Carriere (IT)",
+      "label": "Factions and Careers (IT)",
       "path": "packs/factions-and-careers-it",
       "type": "Item",
       "system": "dnd5e"
     },
     {
-      "name": "ventures-it",
-      "label": "Imprese (IT)",
-      "path": "packs/ventures-it",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
-      "name": "factions-it",
-      "label": "Fazioni (IT)",
-      "path": "packs/factions-it",
-      "type": "JournalEntry",
-      "system": "dnd5e"
-    },
-    {
       "name": "items-it",
-      "label": "Oggetti (IT)",
+      "label": "Items (IT)",
       "path": "packs/items-it",
       "type": "Item",
       "system": "dnd5e"
     },
     {
-      "name": "species-it",
-      "label": "Specie (IT)",
-      "path": "packs/species-it",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
       "name": "profession-features-it",
-      "label": "Privilegi di Professione (IT)",
+      "label": "Profession Features IT",
       "path": "packs/profession-features-it",
       "type": "Item",
       "system": "dnd5e"
     },
     {
       "name": "professions-it",
-      "label": "Professioni (IT)",
+      "label": "Professions IT",
       "path": "packs/professions-it",
       "type": "Item",
       "system": "dnd5e"
     },
     {
       "name": "species-features-it",
-      "label": "Privilegi di Specie (IT)",
+      "label": "Species Features IT",
       "path": "packs/species-features-it",
       "type": "Item",
       "system": "dnd5e"
     },
     {
+      "name": "species-it",
+      "label": "Species (IT)",
+      "path": "packs/species-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
       "name": "spells-it",
-      "label": "Incantesimi (IT)",
+      "label": "Spells IT",
       "path": "packs/spells-it",
       "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "ventures-it",
+      "label": "Ventures (IT)",
+      "path": "packs/ventures-it",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "factions-it",
+      "label": "Factions IT",
+      "path": "packs/factions-it",
+      "type": "JournalEntry",
       "system": "dnd5e"
     }
   ]

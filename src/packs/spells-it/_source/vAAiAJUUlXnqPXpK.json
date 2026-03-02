@@ -1,0 +1,221 @@
+{
+  "name": "Costruzioni di Summon",
+  "type": "spell",
+  "img": "icons/magic/symbols/cog-orange-red.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "use": false,
+          "resource": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Voi chiamate lo spirito di un costrutto. Si manifesta in uno spazio non occupato che si può vedere all'interno della gamma. Questa forma corporea utilizza il @Compendium[dnd5e.monsters.whm3sXDXjfMYIGGV]{Construct Spirit} stat block. Quando si lancia l'incantesimo, scegliere un materiale:<strong>argilla, metallo o pietra</strong>. La creatura assomiglia a un golem o un modron (la vostra scelta) fatto del materiale scelto, che determina alcuni tratti nel suo blocco stat. La creatura scompare quando scende a 0 punti di colpo o quando l'incantesimo termina.</p>\n<p>La creatura è alleata a voi e ai vostri compagni. In combattimento, la creatura condivide il vostro conteggio di iniziativa, ma prende il suo turno immediatamente dopo il vostro. Obbedisce ai vostri comandi verbali (nessuna azione richiesta da voi). Se non si emette alcuno, prende l'azione Dodge e utilizza la sua mossa per evitare il pericolo.</p>\n<p>Ai livelli superiori. Quando si digita questo incantesimo utilizzando una scanalatura di 4° livello o superiore, utilizzare il livello superiore ovunque il livello dell'incantesimo appare nel blocco stat.</p>\n<p><strong>Classe di armatura</strong>13 + il livello dell'incantesimo (armatura naturale)</p>\n<p><strong>Punti Ferita</strong>40 + 15 per ogni livello di incantesimo sopra il 3°</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCoE pg. 111",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "an ornate stone and metal lockbox worth at least 400 gp",
+      "consumed": true,
+      "cost": 400,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "summon-construct",
+    "method": "spell",
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073686,
+    "modifiedTime": 1760899073686,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "vAAiAJUUlXnqPXpK"
+}

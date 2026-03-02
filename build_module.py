@@ -16,9 +16,9 @@ import shutil
 fvtt_path = os.path.join("node_modules", ".bin", "fvtt")
 
 if not os.path.exists(fvtt_path) and not shutil.which("fvtt"):
-    subprocess.run(["npm", "install", "--no-save", "@foundryvtt/foundryvtt-cli"], check=True)
+    subprocess.run([r"C:\Program Files\nodejs\npm.cmd", "install", "--no-save", "@foundryvtt/foundryvtt-cli"], check=True, shell=True)
     print("Configuring fvtt-cli datapath...")
-    subprocess.run(["npx", "--no-install", "fvtt", "configure", "set", "dataPath", "./"], check=True)
+    subprocess.run([r"C:\Program Files\nodejs\npx.cmd", "--no-install", "fvtt", "configure", "set", "dataPath", "./"], check=True, shell=True)
 else:
     print("foundryvtt-cli already installed.")
 
@@ -111,4 +111,4 @@ for pack in packs:
     out_dir = pack["path"]
     print(f"Packing {src_dir} to {out_dir}")
     # Specify --type Module if possible, but fvtt should detect module.json
-    subprocess.run(["npx", "--no-install", "fvtt", "package", "pack", src_dir, out_dir, "--id", "historia-it", "--type", "Module"], check=True)
+    subprocess.run([r"C:\Program Files\nodejs\npx.cmd", "--no-install", "fvtt", "package", "pack", src_dir, out_dir, "--id", "historia-it", "--type", "Module"], check=True, shell=True)

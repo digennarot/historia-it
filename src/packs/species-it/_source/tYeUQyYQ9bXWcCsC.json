@@ -1,0 +1,161 @@
+{
+  "name": "Gru",
+  "type": "race",
+  "img": "assets/historia/gru.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Per quale motivo, si chiede la Gru, sono stato creato con queste gambe lunghe se non per ballare? Regine di ogni ballo di corte, fiera di paese o spettacolo teatrale, queste Garconi sono nate per esibirsi, e niente dà loro più gioia. Al di fuori di questo contesto artistico, le Gru infatti hanno difficoltà ad esprimersi, e sono spesso impacciate con le parole, ma quando iniziano a muoversi è impossibile staccare lo sguardo da loro, tanto magnetica è la loro presenza. La loro arte, però, non è la danza selvaggia e sfrenata di un rito attorno al fuoco: sono creature attente, precise, fedeli al dovere e, quando gli viene data fiducia, alla parola data. Non sorprende che sia pratica comune dire che una gru in ritardo alle prove è più rara della neve in estate! Nelle relazioni personali, i Crane sono altrettanto leali e così avversi alle bugie che spesso non riescono a capire se qualcun altro sta mentendo loro. Ciò li rende facili prede di truffatori e personaggi disonesti, e più di un membro di questa specie si è ritrovato senza un soldo dopo aver creduto a sedicenti impresari che promettevano loro la celebrità nei teatri del Salso Nero. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Il punteggio di Destrezza </span>aumenta di 2 e il tuo punteggio di  <span class=\"fontstyle0\">Carisma </span>aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un Grarconi raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. </span>Hanno una vita media di circa 60 anni.</p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La velocità base al suolo è di 25 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Una gru può raggiungere un'altezza compresa tra 4 e 5 <span class=\"fontstyle0\">piedi e pesare tra 55 e 90 libbre. </span><span class=\"fontstyle2\">La tua taglia è Media.</span></p><p><span class=\"fontstyle0\"><em><strong>Ballerino.</strong></em></span><span class=\"fontstyle2\">Essendo un ballerino nato, hai competenza nell'abilità Performance e balli come se fossi uno strumento musicale.</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.2zVRhhfSO8fMZWzt]{Vista acuta}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.DNDaDMkNoAimSb3i]{Extended Flight}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.f8BD0svXngQPjPsa]{Attenzione}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Acquatico (Predatore): </strong></em></span><span class=\"fontstyle4\">“Sono fluido come l'acqua che amo così tanto”.</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, leale:</strong></em> </span><span class=\"fontstyle2\">“Mantengo sempre la mia parola”.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCG",
+      "page": "102",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "SGvCKFhjIrWYTxx7",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "rZ6L35c6UfZxLQng",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "tQw25YkP9Bb0ZxUC",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "AqrPmuHTtoH4KusG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DNDaDMkNoAimSb3i",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.f8BD0svXngQPjPsa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "mhAKSQvPw0yGu9Xg",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:prf"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 25,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Garcona",
+      "subtype": ""
+    },
+    "identifier": "cranes"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737396444350,
+    "modifiedTime": 1739534229441,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "tYeUQyYQ9bXWcCsC"
+}

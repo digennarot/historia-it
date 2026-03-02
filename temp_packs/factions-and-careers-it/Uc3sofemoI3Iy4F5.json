@@ -1,0 +1,228 @@
+{
+  "name": "Carriera: Artigiano",
+  "type": "feat",
+  "img": "modules/historia-it/icons/skills/trades/smithing-anvil-silver-red.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2><span class=\"fontstyle0\">Informazioni sulla carriera</span></h2>\n<p><span class=\"fontstyle0\">L'artigianato è, insieme all'agricoltura, il cuore economico di Vesteria. Dai remoti villaggi della Fossa Verde alle corti dei più potenti signori metropolitani, ogni luogo vive del lavoro manuale delle persone, sia esso al servizio di piccole idee o di grandi opere. La vicina Rodelia rimane l'esempio più fulgido di ciò che mani abili possono creare, ma anche il Continente è stato il luogo di nascita di maestri capaci di conquistare l'ammirazione degli sguardi più pretenziosi attraverso le loro straordinarie creazioni: creazioni di fabbro o magnifici gioielli splendenti, imponenti carpenterie e architetture innovatrici.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 0 - APPRENDISTA<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requisiti</strong></em>: </span><span class=\"fontstyle3\">Essere introdotto al lavoro di artigiano da un maestro per diventare apprendista.<br /></span></p>\n<p><span class=\"fontstyle3\">Sei indirizzato in un campo di artigianato da un maestro, acquisendo competenza in uno strumento artigianale collegato al laboratorio.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 1 - ARTIGIANO<br /></span></h2>\n<p><span class=\"fontstyle3\">Hai appreso le basi del tuo settore artigianale, dando valore e qualità superiore al proprio lavoro. Lo strumento in cui hai acquisito competenza con la tua carriera diventa quello preferito, raddoppiando il tuo bonus di competenza quando lo utilizzi.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Artigianato speciale e adattabile.</strong></em> </span><span class=\"fontstyle3\">Le conoscenze che hai acquisito nel campo dell'artigianato si rivelano utili nelle attività collaterali, anche quelle non collegate alla tua competenza. </span><span class=\"fontstyle3\">Una volta per sessione, quando spendi ispirazione per ottenere vantaggio in un tiro, puoi anche applicare le tue conoscenze artigianali a un problema o situazione non direttamente correlata al loro campo, aggiungendo al tiro il bonus di competenza concesso dal loro oggetto preferito, purché forniscano una spiegazione del gioco di ruolo che soddisfi il GM. Se eri già competente in quel tiro, non cumuli i due bonus ma hai l'opportunità di scegliere quale bonus applicare.</span></p>\n<h2><span class=\"fontstyle0\">RANGO 2 - MAESTRO<br /></span></h2>\n<p><span class=\"fontstyle2\">Sei un artigiano riconosciuto la cui eccellenza è molto richiesta. Le tue opere vengono vendute ad un prezzo superiore alla media senza che ciò causi malcontento nei clienti o che cerchino di contrattare per un prezzo inferiore. Persone influenti, potenti e benestanti cercano il tuo lavoro, spesso fazioni e grandi gruppi di potere. Grazie alla tua posizione di maestro, ora puoi aprire una propria bottega e assumere apprendisti.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANGO 3 - ECCELLENZA<br /></span></h2>\n<p><span class=\"fontstyle2\">Il tuo stile è facilmente riconoscibile nel tuo lavoro, diventando una firma di qualità inimitabile, anche se molti cercano disperatamente di copiarlo e di avvicinarsi alle sue vette. Sei un ospite gradito in ogni ambiente prestigioso e in ogni luogo legato all'artigianato, dalle botteghe alle accademie, fino alle corti reali e alle sedi del potere. Le tue opere sono tra le migliori di Vesteria e la tua esperienza conferisce qualità aristocratica a qualsiasi opera creata.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 229",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "career-artisan",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898709568,
+    "modifiedTime": 1760898709568,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Uc3sofemoI3Iy4F5",
+  "_key": "!items!Uc3sofemoI3Iy4F5"
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Encode Thoughts",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Mettere un dito alla testa, tirare una memoria, un'idea, o un messaggio dalla vostra mente e trasformarlo in una stringa tangibile di energia luminosa chiamata un filo di pensiero, che persiste per la durata o fino a quando non si getta nuovamente questo incantesimo. Il filo di pensiero appare in uno spazio non occupato entro 5 piedi da voi come un oggetto Tiny, senza peso, semisolido che può essere tenuto e portato come un nastro. È altrimenti stazionario.</p><div class=\"rd__spc-inline-post\"></div><p>Se si lancia questo incantesimo mentre si concentra su un incantesimo o una capacità che consente di leggere o manipolare i pensieri di altri (come @spell[ritenere pensieri] o @spell[modificare la memoria]), è possibile trasformare i pensieri o i ricordi che si leggono, piuttosto che il proprio, in un filo di pensiero.</p><p>La fusione di questo incantesimo durante la tenuta di un filo di pensiero consente di ricevere immediatamente qualsiasi memoria, idea, o messaggio il filo di pensiero contiene. (Casting @spell[rileva pensieri] sul filo ha lo stesso effetto.)</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "GGR",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "self",
+        "count": "",
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "units": "self"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 0,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "somatic"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "encode-thoughts",
+    "method": "spell",
+    "preparation": {
+      "mode": "always",
+      "prepared": true
+    }
+  },
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "GGR",
+      "hash": "encode%20thoughts_ggr",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "BRvz1ffgkOHr4I0q"
+}

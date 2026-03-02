@@ -1,0 +1,166 @@
+{
+  "name": "Vampiri",
+  "type": "race",
+  "img": "assets/historia/vampiri.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Se i pipistrelli trattano la loro reputazione con indifferenza e i Rossetti cercano di negarla ad ogni costo, i vampiri apprezzano profondamente il potere che una reputazione sinistra ha da offrire. Dopo essere stati i primi ad essere accusati di stregoneria, alto tradimento o altri crimini, i Vampiri decisero di sfruttare il loro aspetto minaccioso a proprio vantaggio, affidandosi alla loro aura intimidatoria per manipolare gli altri. Tendono ad essere privi di emozioni, spericolati, calcolatori, riservati, eloquenti e carismatici, nonostante le loro piccole dimensioni. Hanno un carattere dominante, tuttavia non amano essere personaggi pubblici, preferendo tirare le fila da dietro le quinte. I rari Vampiri che non sono animati da intenzioni condannabili, però, utilizzano tutte le armi a disposizione della loro specie per comandare, e spesso si ritrovano a ricoprire incarichi di prestigio in istituzioni mediche (essere naturalmente immuni alle malattie è un indubbio vantaggio), accademiche o politiche, campi in cui eccellono grazie alla loro ottima memoria e all'intelletto acuto. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Carisma </span>il punteggio aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Costituzione </span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Vespertili raggiunge la maturità intorno ai 18 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno </span>una vita media di circa 60 anni.</p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em>  La tua velocità a terra è di 15 piedi. La tua velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span><span class=\"fontstyle2\">Puoi raggiungere un'altezza massima di 90 centimetri </span><span class=\"fontstyle0\">e un peso non superiore a 25 kg. La tua taglia è Piccola.</span></p><p><span class=\"fontstyle0\"><em><strong>Spettrale.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nell'abilità Intimidire.</span> </p><p><span class=\"fontstyle0\">@Compendium[historia-it.species-features-it.AbseAiubt8i5WKVi]{Visione Crepuscolare}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.3LN74J19a4TprTw9]{Ali Membranose}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.nKnEbJYlulqr236O]{Sensibilità alla luce}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.plFixBkurLVhc8dv]{Udito acuto}<br /></span></p><p>@Compendium[historia-it.species-features-it.4mY2UhNhcadFzDOe]{Difesa Immunitaria}</p><p>@Compendium[historia-it.species-features-it.KMXwEa08Ub0qgteX]{Ecolocalizzazione}</p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.WqbOszkCA5or8n6b]{Morso Vampirico}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Notturno (Predatore):</strong></em> “</span><span class=\"fontstyle4\">Preferisco agire senza essere visto.\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, Manipolatore: </strong></em></span><span class=\"fontstyle2\">\"Cerco di dividere gli altri per controllarli meglio\"</span> </p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "HCB",
+      "page": "93",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "aLLruVTmdmshFlkr",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 0,
+            "cha": 2
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "tT8r0HwPbfgR3I7J",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "BE9bBuQDxe9yde92",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "lt1IZqvRIulKrAKP",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:itm"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "zc8H9zu5hFcPzNpB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.AbseAiubt8i5WKVi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.3LN74J19a4TprTw9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.nKnEbJYlulqr236O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.4mY2UhNhcadFzDOe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.KMXwEa08Ub0qgteX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.WqbOszkCA5or8n6b",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 15,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Vespertili",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739575899556,
+    "modifiedTime": 1739576256801,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "3vo5K0h9dZU9nkQX"
+}

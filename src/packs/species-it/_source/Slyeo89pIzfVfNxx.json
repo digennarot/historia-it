@@ -1,0 +1,174 @@
+{
+  "name": "Pettirossi",
+  "type": "race",
+  "img": "assets/historia/pettirosso.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Piccolo? Sicuro. Temibile? dirò! Combattivo? Soprattutto. I pettirossi dimenticano le loro piccole dimensioni e si dedicano all'arte delle armi con più ardore di molte altre creature più grandi di loro. Ciò che li attrae particolarmente nell'arte della guerra non sono tanto le grandi manovre coordinate sul campo di battaglia, o lo studio della strategia, o anche il selvaggio orgoglio nel cacciare un invasore: è la sfida stessa, il canto dell'acciaio contro l'acciaio, la nuova tecnologia strappata a un avversario, l'emozione della vittoria. Molti considerano infantile questo atteggiamento quasi “sportivo” nei confronti della battaglia, ma i Pettirossi sono duellanti nati, e non c’è gioia più grande per loro che affrontare un contendente della loro altezza e poter mettere alla prova la loro sorprendente abilità. Sono considerati, e con buona ragione, tra i migliori combattenti da torneo mai visti, e le loro gesta straordinarie e audaci riempiono la bocca di bardi, cittadini comuni e nobili con la stessa frequenza ed eccitazione. È difficile interagire con questi combattenti aviari in modo non antagonista, poiché sembrano sempre avere qualcosa da dimostrare, ma vale la pena provarci, poiché l'amicizia di un Robin può rivelarsi decisiva in più di un modo.</span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em> </span><span class=\"fontstyle2\">La tua </span><span class=\"fontstyle0\">Destrezza </span>il punteggio aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Forza</span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em></span>Un Pici raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è subito considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base al suolo è di 20 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un pettirosso può raggiungere un'altezza massima di 2 piedi e 1/2, <span class=\"fontstyle0\">e pesare non più di 45 libbre.</span>  <span class=\"fontstyle2\">La tua taglia è  </span><span class=\"fontstyle0\">Piccola</span>.</p><p><span class=\"fontstyle0\"><em><strong>Cantante.</strong></em> </span><span class=\"fontstyle2\">Hai esperienza nell'uso della tua voce, che è considerata uno strumento musicale.</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.3IW3nTEcERwHG4Qg]{Agile}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.ZQMtMEJZdQJ2v63O]{Abilità sociali}<br /></span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.K3vkJOhbY84KuNmD]{Manovre in volo}</span></p><p>@Compendium[historia-it.species-features-it.2zVRhhfSO8fMZWzt]{Vista acuta}</p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.jchtkg1ifYb1grFF]{Coraggio}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.p9KCNI8RdCDY7zkg]{Spirito ardente}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Innocuo (Preda):</strong></em> </span><span class=\"fontstyle4\">\"Spesso non vengo preso sul serio.\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, competitivo: </strong></em></span><span class=\"fontstyle2\">Cerco sempre un avversario da sfidare e battere\".</span></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "HCB",
+      "page": "106",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "kUIwQFZv90uHSHbP",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 1,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "sBewFDvTcP3Z9YM2",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "htZsbjfiAZy9IygL",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "fQipJZTvLIDBkWxE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZQMtMEJZdQJ2v63O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.K3vkJOhbY84KuNmD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.jchtkg1ifYb1grFF",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.p9KCNI8RdCDY7zkg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "D5ocGYw4Z2sEvHX2",
+        "type": "Trait",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:music"
+          ],
+          "mode": "expertise"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Pici",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1739465461796,
+    "modifiedTime": 1739535713728,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Slyeo89pIzfVfNxx"
+}

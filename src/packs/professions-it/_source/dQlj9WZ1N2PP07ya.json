@@ -1,0 +1,177 @@
+{
+  "name": "Paladino",
+  "type": "subclass",
+  "img": "modules/Historia/Professions/defensive-stance.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">L’arma di un Paladino non è sempre la spada che uccidono, e la loro armatura non è la surplice che ricopre le spalle: è invece la fede che le braccia e proteggono. Firme nelle loro credenze, risolute in battaglia e virtuose nella vita quotidiana, i Paladini sono guerrieri animati da un ideale superiore, spesso religioso, che brucia nei loro cuori con l'intensità di una fiamma incrollabile e dà loro poteri e abilità straordinarie, inaccessibili a coloro che non si dedicano con uguale ardore a una causa spirituale.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 133",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "paladin",
+    "classIdentifier": "armiger",
+    "advancement": [
+      {
+        "_id": "3Decbcl70ap92X2t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.dMPFK8wyHdeD7TxP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "zsLHQYnmFFn02JjT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.T177KZUSLbsRa1xd",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "mvt6YBd15ep05BC3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.q50YIw1myp6vsZaB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": ""
+      },
+      {
+        "_id": "kg89NLVk7SWEbdo1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.2WwvC69PYcWTo9kX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Ipd2a3TcCYlCL2e4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.QgzkMjRFTVUUn8XV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "dQlj9WZ1N2PP07ya"
+}

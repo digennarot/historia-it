@@ -1,0 +1,177 @@
+{
+  "name": "Condottiero",
+  "type": "subclass",
+  "img": "modules/Historia/Professions/rage.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Il signore della guerra sa che la vittoria sarà sempre un po 'più vicina se il partito combatte come un singolo individuo ed è pronto ad essere lo strumento di questa coesione guidando, ispirando o montando i loro compagni verso il successo. Questo è un combattente che, a seconda del loro temperamento, oscilla tra sostenitivo e altruista, o tirannico e inflessibile, ma in ogni caso, pronto a condurre per esempio. Nonostante i combattimenti senza riserve, non perderanno mai di vista le condizioni del gruppo, perché per un leader, la morte di un soldato è già la metà di una sconfitta, sia per il denaro speso per armarli e addestrarli o per la perdita di una vita.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 134",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "warlord",
+    "classIdentifier": "armiger",
+    "advancement": [
+      {
+        "_id": "Cxx2sGVFFKqh8q8v",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.hqEleoeprjAXGgbH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "X4ZsYTK3rfnw9PdU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.7DUcMRtPnHvOwikF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "d8hEc576eeRfCBdP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.6OG2UnRez372jVtU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "rApsiAPjjHPkY3T5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.sxy9FHF5kyfOHp92",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Eyb69XHxvWISjg91",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.1UzaCvHNiPkIVmW5",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "tMjtF0gXfrIJVQaV"
+}

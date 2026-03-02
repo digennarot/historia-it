@@ -1,0 +1,165 @@
+{
+  "name": "Wild Cunning",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Voi chiamate gli spiriti della natura per aiutarvi. Quando si lancia questo incantesimo, scegliere uno dei seguenti effetti:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li\">Se ci sono tracce a terra all'interno della gamma, sai dove sono, e fai i controlli di Saggezza (@skill[Survival] per seguire queste tracce con vantaggio per 1 ora o fino a quando non riscrivi questo incantesimo.</li><li class=\"rd__li\">Se c'è foraggio commestibile all'interno della gamma, lo conosci e dove trovarlo.</li><li class=\"rd__li\">Se c'è acqua potabile pulita all'interno della gamma, lo conosci e dove trovarlo.</li><li class=\"rd__li\">Se c'è un rifugio adatto per voi e i vostri compagni con gamma, lo conoscete e dove trovare.</li><li class=\"rd__li\">Inviare gli spiriti per riportare il legno per un fuoco e per impostare un campeggio nella zona utilizzando le vostre forniture. Gli spiriti costruiscono il fuoco in un cerchio di pietre, alzano le tende, scorrono i comodini, e mettono fuori qualsiasi razioni e acqua per il consumo.</li><li class=\"rd__li\">Fai abbattere istantaneamente gli spiriti in un campeggio, che include mettere fuori un fuoco, abbattere le tende, imbavagliare sacchi e seppellire qualsiasi spazzatura.</li></ul></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "120",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 1,
+    "school": "trs",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "ritual"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "wild-cunning",
+    "method": "spell",
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    }
+  },
+  "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UAStarterSpells",
+      "hash": "wild%20cunning%20(ua)_uastarterspells",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "hhQKSoeB1y0xtBef"
+}

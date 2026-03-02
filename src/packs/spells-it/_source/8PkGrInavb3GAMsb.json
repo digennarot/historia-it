@@ -1,0 +1,173 @@
+{
+  "name": "Puppet",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Il vostro gesto costringe un umanoide che potete vedere all'interno della gamma per fare un lancio di risparmio di Costituzione. Su un salvataggio fallito, è possibile scegliere di avere il complice di destinazione per passare alla sua velocità in una direzione che si sceglie o avere l'obiettivo di cadere tutto ciò che sta tenendo. Gli obiettivi che sono costretti a muoversi passeranno attraverso qualsiasi ostruzioni nel suo percorso (si apriranno porte di sblocco, scalare scale, camminare su trappole, andare oltre scogliere, ecc). Si fermeranno su ostruzioni che sono impossibili da passare attraverso (pareti, porte chiuse/barre). Gli obiettivi cadranno solo oggetti che non sono fissati o indossano nelle loro mani (glove, gauntlets, oggetti saldamente legati alle loro mani.) Gli scudi sono considerati tenuti in modo che possa essere caduto, anche se una cinghia passa attraverso il braccio. Questo incantesimo non ha effetto su un umanoide che è immune all'essere @condizione[charmed].</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "120",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 1,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "properties": [
+      "somatic"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "puppet",
+    "method": "spell",
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    }
+  },
+  "img": "icons/magic/control/control-influence-puppet.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UAStarterSpells",
+      "hash": "puppet%20(ua)_uastarterspells",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899072945,
+    "modifiedTime": 1760899072945,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "8PkGrInavb3GAMsb"
+}

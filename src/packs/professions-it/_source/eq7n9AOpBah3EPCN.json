@@ -1,0 +1,150 @@
+{
+  "name": "Fuciliere",
+  "type": "subclass",
+  "img": "icons/weapons/guns/gun-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Nel calore del confronto, il Rifleman porta con sé la potenza di fuoco che controllano. I membri di questa speciale divisione di fanteria fecero muschietti la loro arma preferita, e la loro devastante efficacia presto divenne molto temuta sui campi di battaglia del continente, dove per lungo tempo il balestra era l'arma più temuta della gamma. Anche se i fucili sono perfettamente in grado di modificare, migliorare e innovare le loro armi, il punto focale della loro formazione è sapere come usarle il più efficacemente possibile in battaglia.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 168",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "rifleman",
+    "classIdentifier": "sapper",
+    "advancement": [
+      {
+        "_id": "K0WPrGUVvrXpz6yC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.hCe2TKjiYs8MrDNU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "vOZ54xKCsq9c4dP0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.40YDe7QCQRyWZrfw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "CxgzZDm8CA6jYEmn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.rfgSH3HaF9nJLIC2",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "XNrQTNqOwn5ZjuAS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.hTXcWpv2KvFvsdWc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "eq7n9AOpBah3EPCN"
+}

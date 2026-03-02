@@ -1,0 +1,203 @@
+{
+  "name": "Cantastorie",
+  "type": "subclass",
+  "img": "icons/skills/trades/academics-book-study-runes.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Armato di un liuto, di una lingua sciolta e di un senso di improvvisazione, lo Storyteller è sempre pronto ad ottenere affidandosi al proprio carisma e alla capacità di parlare con gli altri. I seguaci di questo viaggio sono in grado di portare fama e infamia sui soggetti delle loro composizioni, e più di uno hanno rischiato la loro pelle per non tenere la bocca chiusa quando dovrebbero. Anche se a volte sono accolti dal sospetto per la loro interpretazione flessibile della verità, la musica degli storytellers è accolta praticamente ovunque.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 187",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "storyteller",
+    "classIdentifier": "venturer",
+    "advancement": [
+      {
+        "_id": "G06UpFFUBIwCwDXk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.DKkBN3jLadAbNEEY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.QC9EfAGx6YnzweBc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "kMjR2HmR2uHBz05U",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.EeCUH7UVdAVNRKtl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "v900DLkwhs1naqMN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Increase Improvisation Pool by CHA bon."
+      },
+      {
+        "_id": "NGvnNAiyHEEIYtAo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.JI6V0OeBRlKfzDbs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "e24dNTml3Rzgn3Hy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.S6gdJK8DzIvpf79L",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "FrD9dG7hSMfl3MkE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.N2pLi6vSnj1YPxXP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "41dcGt71bmt6YKKK"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "AP: Sublimatio (Rubedo, 4 atti)",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-worn-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Recipe",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "ap-sublimatio-rubedo-4-acts"
+  },
+  "effects": [],
+  "flags": {
+    "beavers-crafting": {
+      "recipe": {
+        "ingredients": {
+          "Compendium-world-profession-features-oouGluCFWp00TSe3": {
+            "id": "oouGluCFWp00TSe3",
+            "uuid": "Compendium.historia-it.profession-features-it.oouGluCFWp00TSe3",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Sublimatio (Nigredo, 1 act)",
+            "img": "icons/commodities/gems/gem-faceted-round-black.webp",
+            "quantity": 4
+          }
+        },
+        "results": {
+          "Compendium-world-profession-features-QeSC7oCL4kRGe1Zr": {
+            "id": "QeSC7oCL4kRGe1Zr",
+            "uuid": "Compendium.historia-it.profession-features-it.QeSC7oCL4kRGe1Zr",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Sublimatio (Rubedo, 4 acts)",
+            "img": "icons/commodities/gems/gem-faceted-round-black.webp",
+            "quantity": 1
+          }
+        },
+        "attendants": {
+          "Actor-tsdbAt8U1QngL3kz-Item-QQHXvhQgkOqGPbHS": {
+            "id": "QQHXvhQgkOqGPbHS",
+            "uuid": "Actor.tsdbAt8U1QngL3kz.Item.QQHXvhQgkOqGPbHS",
+            "type": "Item",
+            "itemType": "class",
+            "name": "Alchemist",
+            "img": "Wynther%27s%20Files/Historia/Professions/alchemist.webp",
+            "quantity": 1
+          }
+        },
+        "macro": ""
+      }
+    },
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898723204,
+    "modifiedTime": 1760898723204,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "daz2MA5hgfMsGZoG"
+}

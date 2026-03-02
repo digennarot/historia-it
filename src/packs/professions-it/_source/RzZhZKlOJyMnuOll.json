@@ -1,0 +1,554 @@
+{
+  "name": "Mercante",
+  "type": "class",
+  "img": "modules/Historia/Professions/merchant.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "dnd5e": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Molti giorni sono passati da quando la spedizione è stata annunciata, e i preparativi sono quasi finiti. The<span class=\"fontstyle0\">gruppo è composto da combattenti di alto livello, temprati da ogni sorta di imprese, che non si rompono davanti a nulla: tutti sono ben consapevoli che la discesa nelle grotte sarà difficile, e che gli incontri pericolosi non saranno facili da evitare. La posta in gioco è tale di aver convinto l'intero partito, e la mattina della partenza nessuno vuole perdere più tempo. Una volta al posto le lanterne sono accese, corde e sacchi sono legati insieme. Tutto bene fino a quando qualcuno</span>chiede: “Chi ha la corda di riserva? Non abbiamo abbastanza.” Silenzio<span class=\"fontstyle0\">cade sul gruppo. Nessuno vuole ammettere di non averci pensato. Ed è proprio in questo momento che un procione sorridente viene avanti, gli dei sanno da dove, strizzando le zampe. Si schiarisce la gola: “Perdona la mia intrusione, i bei avventurieri ... per caso, stai cercando di acquistare una corda di buona qualità?”. Vesteria non è solo una terra di guerrieri, maghi e torti. La prosperità delle sue grandi nazioni è stata costruita sulle spalle della gente comune, alcuni umili, altri no, che hanno deciso di intraprendere una carriera nel commercio. I mercanti sono la colla di ogni regno, ed è grazie a loro che beni e ricchezze possono circolare e moltiplicarsi, rendendo possibili grandi imprese.</span></p>\n<h1><span class=\"fontstyle0\">Caratteristiche della classe</span></h1>\n<p>Come<span class=\"fontstyle0\">commerciante</span>ottieni le seguenti caratteristiche di classe.</p>\n<p><strong>Punti Ferita</strong><br/><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em><span class=\"fontstyle0\">1d8 per livello di commerciante</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\"/><em><strong>Punti Ferita al 1° livello:</strong></em>8 + il Modificatore della Costituzione<br/><em><strong>Punti Ferita ai livelli più elevati:</strong></em>1d8 (o 5) +</span>il Merchant<span class=\"fontstyle0\">Modificatore di Costituzione per ogni livello mercantile oltre il 1 °</span></p>\n<p><strong>Competenze</strong><br/><strong><em>Armatura:</em></strong>Armatura leggera<br/><em><strong>Armi:</strong> </em>armi semplici, spade laterali, balestra a mano<br/><strong><em>Strumenti:</em></strong>  <span class=\"fontstyle0\">Due strumenti di Artisan e un set di giochi di scelta</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\"/><strong><em>Tiri Salvezza:</em></strong> <span class=\"fontstyle0\">Saggezza, Charisma</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\"/><em><strong>Competenze:</strong></em>Scegliere quattro</p>\n<p><strong>Attrezzatura</strong><br/><span class=\"fontstyle0\">Lei ha le seguenti attrezzature oltre alle attrezzature fornite dalla loro impresa:</span></p>\n<ul>\n<li><span class=\"fontstyle0\">(a) una spada laterale o (b) qualsiasi arma semplice</span></li>\n<li><span class=\"fontstyle0\">(a) pacchetto di un diplomatico o (b) pacchetto di un intrattenitore</span></li>\n<li><span class=\"fontstyle0\">a) un carro pieno di merci del valore di circa 200 monete</span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle0\">Un taber e un pugnale</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\"/></span></li>\n</ul>\n<h1>Avanzamento dei Mercanti</h1>\n<table style=\"width:554px;height:353px\">\n<tbody>\n<tr style=\"height:33px\">\n<td style=\"border-style:solid;border-color:#000000;width:57px;height:33px;background-color:#7e8c8d;text-align:center\">Livello</td>\n<td style=\"border-style:solid;border-color:#000000;width:111px;height:33px;background-color:#7e8c8d;text-align:center\">Bonus di competenza</td>\n<td style=\"border-style:solid;border-color:#000000;width:380px;height:33px;text-align:center;background-color:#7e8c8d\">Caratteristiche</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">1</td>\n<td style=\"width:111px;height:16px;text-align:center\">+2</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.ONrD5YgD5gZfcSfq]{The Early Bird Catchs the Worm}, @Compendium[historia-it.profession-features-it.E2YjzaWFfZZFBMgQ]{Effective Packer}</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">2</td>\n<td style=\"width:111px;height:16px;text-align:center\">+2</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.AvyDjqsNHqR90SAF]{Devil in the Details}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">3</td>\n<td style=\"width:111px;height:16px;text-align:center\">+2</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.S07yaAHf61AKak7p]{Commercial Style}, @Compendium[historia-it.profession-features-it.KX3mk6Tcu51q7PGa]{Network of Contacts}, @Compendium[historia-it.profession-features-it-U4LA9TFo07Bs</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">4</td>\n<td style=\"width:111px;height:16px;text-align:center\">+2</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.uTGPMBGlOWV2Lx5A]{Incremento dei Punteggi di Caratteristica (Merchant)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">5</td>\n<td style=\"width:111px;height:16px;text-align:center\">+3</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.RR11dk5NRsUEyEEF]{Gregarious}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">6</td>\n<td style=\"width:111px;height:16px;text-align:center\">+3</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.IAfB5FN2CJ9YxED1]{Speed of Choice}, @Compendium[historia-it.profession-features-it.Y7LDNG82H66ixsbp]{Devil in Crucial Details}</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">7</td>\n<td style=\"width:111px;height:16px;text-align:center\">+3</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">Caratteristica di stile commerciale</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">8</td>\n<td style=\"width:111px;height:16px;text-align:center\">+3</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.uTGPMBGlOWV2Lx5A]{Incremento dei Punteggi di Caratteristica (Merchant)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">9</td>\n<td style=\"width:111px;height:16px;text-align:center\">+4</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">10</td>\n<td style=\"width:111px;height:16px;text-align:center\">+4</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.uTGPMBGlOWV2Lx5A]{Incremento dei Punteggi di Caratteristica (Merchant)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">11</td>\n<td style=\"width:111px;height:16px;text-align:center\">+4</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.RR11dk5NRsUEyEEF]{Gregarious Improvement}, @Compendium[historia-it.profession-features-it.JtUi4QT6nyPiN6Sz]{Alliance Network}</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">12</td>\n<td style=\"width:111px;height:16px;text-align:center\">+4</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.uTGPMBGlOWV2Lx5A]{Incremento dei Punteggi di Caratteristica (Merchant)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">13</td>\n<td style=\"width:111px;height:16px;text-align:center\">+5</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">14</td>\n<td style=\"width:111px;height:16px;text-align:center\">+5</td>\n<td style=\"width:380px;height:16px;text-align:center\">Caratteristica di stile commerciale</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">15</td>\n<td style=\"width:111px;height:16px;text-align:center\">+5</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span style=\"background-color:rgba(0, 0, 0, 0.05)\">-</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">16</td>\n<td style=\"width:111px;height:16px;text-align:center\">+5</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.uTGPMBGlOWV2Lx5A]{Incremento dei Punteggi di Caratteristica (Merchant)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">17</td>\n<td style=\"width:111px;height:16px;text-align:center\">+6</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.RR11dk5NRsUEyEEF]{Gregarious Improvement}, @Compendium[historia-it.profession-features-it.X28GUZ60h5fvuX0u]{Spider's Web}</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">18</td>\n<td style=\"width:111px;height:16px;text-align:center\">+6</td>\n<td style=\"width:380px;height:16px;text-align:center\"><span class=\"fontstyle0\">Caratteristica di stile commerciale</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">19</td>\n<td style=\"width:111px;height:16px;text-align:center\">+6</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.uTGPMBGlOWV2Lx5A]{Incremento dei Punteggi di Caratteristica (Merchant)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:57px;height:16px;text-align:center\">20</td>\n<td style=\"width:111px;height:16px;text-align:center\">+6</td>\n<td style=\"width:380px;height:16px;text-align:center\">@Compendium[historia-it.profession-features-it.lGQNHbjXIpsryTs]{Business Soul}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 152",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identifier": "merchant",
+    "levels": 1,
+    "advancement": [
+      {
+        "_id": "mMlpIW5NHVWNpUpt",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "2f4G4LsmcyF6NoHV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.ONrD5YgD5gZfcSfq",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.E2YjzaWFfZZFBMgQ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "yVxa7TFb3U2dr7Zv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.AvyDjqsNHqR90SAF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "qd6aMxl6JgU4tNMS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.S07yaAHf61AKak7p",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass"
+      },
+      {
+        "_id": "EtIq1ECLPmDSjyDq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.KX3mk6Tcu51q7PGa",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.U4LA9Uo07BsfKTF6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "kmKSBmckor0j4ApJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.T9qUqb0Qnytkz9vh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "KZK0deWXaUKoXLz1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.RR11dk5NRsUEyEEF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Gain NPC Ally"
+      },
+      {
+        "_id": "IYar8BUgQuSq9cB1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.IAfB5FN2CJ9YxED1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.Y7LDNG82H66ixsbp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "CA1MvTB4I1xM5ALY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "Cs4xI4F3xTwy2rS4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "BjUNZp05NoIK1xq0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Increase to Rank 3 of NPC Ally"
+      },
+      {
+        "_id": "St5jLpN9TDqTwTPl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.JtUi4QT6nyPiN6Sz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": ""
+      },
+      {
+        "_id": "8zDJhYUwodgtqTqw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "sMkjnmP0ShhqUfLE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "kNhOj43EKsACF2eJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Increase to Rank 4 of NPC Ally"
+      },
+      {
+        "_id": "0S2yFVeEsO2cVYxj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.X28GUZ60h5fvuX0u",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "DLRzIJtI0y0VyrQQ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "KHrC5NjZxI33Lv6t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.lGQQNHbjXIpsryTs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Grant Ability"
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "value": {
+          "chosen": [
+            "saves:wis",
+            "saves:cha"
+          ]
+        },
+        "_id": "8lT3dlM3tOsm6ZLA"
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "choices": [
+            {
+              "count": 4,
+              "pool": [
+                "skills:acr",
+                "skills:ani",
+                "skills:arc",
+                "skills:ath",
+                "skills:dec",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:inv",
+                "skills:med",
+                "skills:nat",
+                "skills:prc",
+                "skills:prf",
+                "skills:per",
+                "skills:rel",
+                "skills:slt",
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": []
+        },
+        "_id": "aLfgTnZxAuQil6sx",
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    },
+    "startingEquipment": [],
+    "hd": {
+      "denomination": "d8",
+      "spent": 0,
+      "additional": ""
+    },
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "properties": []
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "RzZhZKlOJyMnuOll"
+}

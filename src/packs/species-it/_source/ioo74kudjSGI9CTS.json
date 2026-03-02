@@ -1,0 +1,162 @@
+{
+  "name": "Segugi",
+  "type": "race",
+  "img": "assets/historia/bracchi.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Se c'è una specie il cui cuore arde di un fuoco inestinguibile, questi sono i Segugi. Animati da una curiosità impossibile da contenere, instancabili, costantemente attivi e vigili, questi Canidi non sanno resistere alla seduzione dell'ignoto. La loro innata capacità di orientamento e la capacità di trovare una traccia anche nei terreni più difficili li rendono degli investigatori naturali. Che siano esploratori alla ricerca di nuove rotte, cacciatori di tesori che seguono le tracce di un'arcana reliquia o alchimisti che hanno intravisto una straordinaria scoperta attraverso il vetro dei loro alambicchi, i segugi non hanno altro padrone se non il desiderio di svelare un mistero. Questo rende, nel bene e nel male, molto facile attirare la loro attenzione, che purtroppo è focalizzata solo su una cosa alla volta. Lo svantaggio di questo desiderio di scoperta è la tendenza dei Segugi a lasciarsi influenzare facilmente da un obiettivo per perseguire nuovi traguardi, al punto che anche i membri brillanti, generosi ed entusiasti di questa specie sono talvolta considerati inaffidabili.</span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em> </span><span class=\"fontstyle2\">Il tuo punteggio di saggezza aumenta di 2,</span> il tuo<span class=\"fontstyle0\">il nostro punteggio di Intelligenza aumenta di 1</span>,<span class=\"fontstyle2\"> e un altro punteggio di caratteristica a tua scelta aumenta di 1.</span></p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span><span class=\"fontstyle2\">Un Canid raggiunge la maturità intorno ai 16 anni ed è immediatamente considerato indipendente. Hanno una vita media di circa 70 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità.</strong></em></span>La tua velocità di camminata base è di 9 metri e la tua velocità di <span class=\"fontstyle0\">nuoto è di 20 piedi.</span></p><p><span class=\"fontstyle0\"><em><strong>Taglia.</strong></em> </span>Un segugio può raggiungere un'altezza compresa tra 3 e 3 metri. piedi e 5 <span class=\"fontstyle0\">1/2 piedi e pesano tra 80 e 175 libbre. La tua taglia è Media.</span></p><p><span class=\"fontstyle0\"><em><strong>Naso allenato.</strong></em> </span><span class=\"fontstyle2\">Un Canide è competente in un'abilità a sua scelta tra Investigazione o Intuizione.</span></p><p><span class=\"fontstyle0\"><em><strong>Spirito Selvaggio.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nella Abilità di sopravvivenza.</span> </p><p><span class=\"fontstyle0\"><em><strong>Scurovisione, minore </strong></em></span><span class=\"fontstyle2\">In condizioni di scarsa illuminazione, puoi vedere fino a 9 metri come se fossi in piena luce, e nell'oscurità come se fosse in penombra. Non sei in grado di discernere i colori quando usi la scurovisione e vedi solo sfumature di grigio.</span></p><p>@Compendium[historia-it.species-features-it.s3ECstHXdhQ8cnRi]{Olfatto e udito acuti}</p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.PkikseSpQVYz9FNY]{Tracking}</span></p><p>@Compendium[historia-it.species-features-it.fWjnyGpnIsnivS8u]{Apprendimento rapido}</p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.j7pyES5L7WWB6UlD]{Helpful}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Alfa (Predatore):</strong></em> </span><span class=\"fontstyle4\">“Sono la guardia da<br />seguire in ogni occasione”.</span> </p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, curiosità:</strong></em> </span><span class=\"fontstyle2\">“Se c'è qualcosa di misterioso, lo rivelerò”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "56",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "BT5Ma3ryYeJkCOTg",
+        "configuration": {
+          "points": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "yyidS5WVGyQlaS4l",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "JYvhzBx2bzBsdB85",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "xkxQ5GHAAFenZEV5",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": []
+            },
+            {
+              "count": 1,
+              "pool": [
+                "skills:ins",
+                "skills:inv"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "PNvzMTHWC5UY2LFo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.s3ECstHXdhQ8cnRi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.PkikseSpQVYz9FNY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.fWjnyGpnIsnivS8u",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.j7pyES5L7WWB6UlD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 20,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 30,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Canidi",
+      "subtype": ""
+    },
+    "identifier": "hounds"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737723572633,
+    "modifiedTime": 1739534990317,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "ioo74kudjSGI9CTS"
+}

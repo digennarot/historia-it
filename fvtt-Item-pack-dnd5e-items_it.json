@@ -148,14 +148,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -346,14 +346,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -522,14 +522,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -774,14 +774,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -1080,14 +1080,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -1391,14 +1391,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -1703,14 +1703,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -2081,14 +2081,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "1",
               "units": "hour",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -2374,7 +2374,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -2467,14 +2467,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -2803,7 +2803,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -2895,14 +2895,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -3112,14 +3112,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -3376,7 +3376,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -3469,14 +3469,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -3686,14 +3686,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -3862,14 +3862,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -4239,7 +4239,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -4331,14 +4331,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -4592,14 +4592,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -4911,14 +4911,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -5466,14 +5466,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -5555,14 +5555,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -5837,7 +5837,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -5928,14 +5928,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -6364,14 +6364,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -6685,7 +6685,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -6777,14 +6777,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -6994,14 +6994,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -7298,14 +7298,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -7608,14 +7608,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -7867,7 +7867,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -7952,14 +7952,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -8155,14 +8155,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -8353,14 +8353,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -8611,7 +8611,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -8696,14 +8696,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -9193,7 +9193,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -9284,14 +9284,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -9566,7 +9566,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -9657,14 +9657,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -9873,14 +9873,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -10131,7 +10131,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -10216,14 +10216,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -10539,14 +10539,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -10818,7 +10818,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -10910,14 +10910,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -11288,14 +11288,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -11552,7 +11552,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -11644,14 +11644,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -11926,7 +11926,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -12018,14 +12018,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -12433,14 +12433,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -12732,14 +12732,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -13168,7 +13168,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": 0,
           "units": "ft",
@@ -13257,14 +13257,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -14083,14 +14083,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -14408,7 +14408,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -14499,14 +14499,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -14781,7 +14781,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -14872,14 +14872,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -15088,14 +15088,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -15352,7 +15352,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -15444,14 +15444,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -15942,14 +15942,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "6",
               "units": "hour",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -16195,14 +16195,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -16459,7 +16459,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -16551,14 +16551,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -16833,7 +16833,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -16924,14 +16924,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -17121,7 +17121,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 5,
           "long": 15,
           "units": "ft",
@@ -17207,14 +17207,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -17293,14 +17293,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -17629,14 +17629,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -17965,14 +17965,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -18277,14 +18277,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -18358,14 +18358,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -18684,7 +18684,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -18777,14 +18777,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -19074,7 +19074,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -19167,14 +19167,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -19383,14 +19383,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -19915,14 +19915,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -20117,14 +20117,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -20381,7 +20381,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 30,
           "long": 120,
           "units": "ft",
@@ -20473,14 +20473,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "30",
               "units": "ft",
               "special": "",
@@ -20744,14 +20744,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -21343,7 +21343,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -21435,14 +21435,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -21765,14 +21765,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -22078,14 +22078,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -22370,14 +22370,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -22728,14 +22728,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -23050,7 +23050,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -23141,14 +23141,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -23476,7 +23476,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 80,
           "long": 315,
           "units": "ft",
@@ -23569,14 +23569,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "80",
               "units": "ft",
               "special": "",
@@ -23815,14 +23815,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -24079,7 +24079,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -24168,14 +24168,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -24384,14 +24384,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -24651,14 +24651,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -24914,7 +24914,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -25005,14 +25005,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -25222,14 +25222,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -25538,14 +25538,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -25801,7 +25801,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -25894,14 +25894,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -26192,14 +26192,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -26428,14 +26428,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -26509,14 +26509,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -26781,7 +26781,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -26873,14 +26873,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -27384,7 +27384,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -27473,14 +27473,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -27780,7 +27780,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -27872,14 +27872,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -28179,7 +28179,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": 60,
           "units": "ft",
@@ -28271,14 +28271,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -28649,14 +28649,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -29021,7 +29021,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -29112,14 +29112,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -29414,14 +29414,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -29764,7 +29764,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -29855,14 +29855,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -30365,7 +30365,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -30456,14 +30456,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -30792,7 +30792,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -30883,14 +30883,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -31131,14 +31131,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -31444,14 +31444,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -31515,14 +31515,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -31775,14 +31775,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -32266,7 +32266,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -32357,14 +32357,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -32639,7 +32639,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -32730,14 +32730,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -33052,14 +33052,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -33360,14 +33360,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -33729,14 +33729,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "1",
               "units": "hour",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -33957,14 +33957,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -34504,14 +34504,14 @@
               "chatFlavor": "improvised weapon"
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -34771,14 +34771,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -35034,7 +35034,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -35125,14 +35125,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -35798,14 +35798,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -36163,7 +36163,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -36255,14 +36255,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -36838,14 +36838,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -37156,7 +37156,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -37249,14 +37249,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -37466,14 +37466,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -37784,7 +37784,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -37875,14 +37875,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -38069,14 +38069,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -38333,7 +38333,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 20,
           "long": 60,
           "units": "ft",
@@ -38425,14 +38425,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -38848,14 +38848,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -39517,7 +39517,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -39609,14 +39609,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -39891,7 +39891,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -39984,14 +39984,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -40416,14 +40416,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "30",
               "units": "ft",
               "special": "",
@@ -40749,7 +40749,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 5,
           "long": null,
           "units": "ft",
@@ -40840,14 +40840,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -41373,14 +41373,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -41454,14 +41454,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -41865,7 +41865,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -41958,14 +41958,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -42240,7 +42240,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -42333,14 +42333,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -42616,7 +42616,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -42705,14 +42705,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -43002,7 +43002,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -43093,14 +43093,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -43429,14 +43429,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -43707,7 +43707,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -43796,14 +43796,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -43990,14 +43990,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -44191,14 +44191,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -44423,14 +44423,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "6",
               "units": "hour",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -44687,7 +44687,7 @@
         "equipped": false,
         "rarity": "",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -44776,14 +44776,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -45105,14 +45105,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "6",
               "units": "hour",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -45409,14 +45409,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -45674,7 +45674,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -45767,14 +45767,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -46135,7 +46135,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 25,
           "long": 60,
           "units": "ft",
@@ -46226,14 +46226,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "25",
               "units": "ft",
               "special": "",
@@ -46487,14 +46487,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "1",
               "units": "minute",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "touch",
               "special": "",
               "override": false
@@ -47149,14 +47149,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -47391,14 +47391,14 @@
               "chatFlavor": "improvised weapon"
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -47487,14 +47487,14 @@
               "chatFlavor": "improvised weapon"
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "20",
               "units": "ft",
               "special": "",
@@ -47852,7 +47852,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": 0,
           "units": "ft",
@@ -47941,14 +47941,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -48331,14 +48331,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -48412,14 +48412,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false
@@ -48699,7 +48699,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": null,
           "long": null,
           "units": "ft",
@@ -48792,14 +48792,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "ft",
               "special": "",
               "override": false
@@ -49099,7 +49099,7 @@
         "equipped": false,
         "rarity": "common",
         "identified": true,
-        "a gittata": {
+        "range": {
           "value": 150,
           "long": 590,
           "units": "ft",
@@ -49191,14 +49191,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "150",
               "units": "ft",
               "special": "",
@@ -49533,14 +49533,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "1",
               "units": "minute",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "value": "5",
               "units": "ft",
               "special": "",
@@ -49724,14 +49724,14 @@
               "chatFlavor": ""
             },
             "duration": {
-              "Concentrazione": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
             "effects": [],
-            "a gittata": {
+            "range": {
               "units": "self",
               "special": "",
               "override": false

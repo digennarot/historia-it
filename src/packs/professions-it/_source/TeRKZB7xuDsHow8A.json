@@ -1,0 +1,150 @@
+{
+  "name": "Vitalista",
+  "type": "subclass",
+  "img": "modules/Historia/Professions/bane.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Le opinioni di Iatro, dice il Vitalist, sono strette: perché limitarsi allo studio di ciò che è già vivo, quando si potrebbe ricercare ciò che anima la materia inerte? Qual è il segreto della vita, dell'anima, della coscienza delle creature intelligenti? Queste e molte altre sono le domande che riempiono le menti dei seguaci di questa scuola, impegnati nella costruzione del loro simulacra senziente e nella ricerca folle di una sostanza capace di instillare la vita reale in ciò che non è vivo.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 128",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "vitalist",
+    "classIdentifier": "alchemist",
+    "advancement": [
+      {
+        "_id": "hmU2bq56MmbNwfwd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.GPqIG5P17zCn3bU8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "WBIUvkyvpcBWaPzd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.BQjTq0e0gS2jIIqT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "duoxBoiCz8Hjy4Y3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.m9Wb8tqWoF4UECvZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "fW8ZJyKWD81yhVDL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.tRGzsPJ0fC9J1Vz0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "TeRKZB7xuDsHow8A"
+}

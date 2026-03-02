@@ -1,0 +1,171 @@
+{
+  "name": "Usignoli",
+  "type": "race",
+  "img": "assets/historia/usignolo.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Se esiste una specie che può essere innamorata della propria voce, questi sono gli usignoli. Non c'è nessuno, in tutta la Vesteria, che possa realisticamente competere con il loro bel canto, e questi Pici lo sanno bene. Consapevoli del proprio valore nel migliore dei casi, arroganti nel peggiore, gli Usignoli non hanno bisogno di rassicurazioni esterne per confermare il proprio talento, che non esitano a sfruttare professionalmente. È molto raro trovare usignoli che non abbiano fatto del canto la loro occupazione principale, e ancora più raro trovarne uno che non canti affatto, nemmeno per diletto. Nonostante le loro qualità oggettive, però, non dobbiamo pensare che gli Nightingale stiano riposando sugli allori che la natura ha preparato per loro: perfezionisti, sinceramente innamorati della musica e sempre alla ricerca di modi per migliorarsi, gli Nightingale lavorano duramente per la loro arte. Le critiche negative non li toccano particolarmente, ma restano profondamente feriti se i loro ascoltatori sono indifferenti o insensibili. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Il punteggio di Destrezza </span> aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Carisma </span> aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un Pici raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base al suolo è di 20 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un usignolo può raggiungere un'altezza massima di 2 <span class=\"fontstyle0\">piedi e pesare non più di 45 libbre.</span>  <span class=\"fontstyle2\">La tua taglia è  </span><span class=\"fontstyle0\">Piccola</span>.</p><p><span class=\"fontstyle0\"><em><strong>Vero cantante.</strong></em> </span><span class=\"fontstyle2\">Hai competenza nell'abilità Esibizione e nell'uso della voce, che è considerata uno strumento musicale, e sei considerato esperto in qualsiasi prova di abilità basata sul canto.</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.3IW3nTEcERwHG4Qg]{Agile}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.ZQMtMEJZdQJ2v63O]{Abilità sociali}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.K3vkJOhbY84KuNmD]{Manovre in volo}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.2zVRhhfSO8fMZWzt]{Vista acuta}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.Te5MH5pAFMlyBZiG]{Canzone soave}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Innocua (Preda):</strong></em> </span><span class=\"fontstyle4\">\"Spesso non vengo preso sul serio.\"</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, perfezionista:</strong></em></span><span class=\"fontstyle2\">\"Cerco il miglior risultato<br />in quello che faccio\".</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "106",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "2Xy2TLcoyTtddUW9",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "vCaUuiM30Xf2pJ27",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "Dstx3Ivtd2AZ9iHn",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "Mh0aw3Xi21HTQWYk",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prf",
+            "tool:music"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "FTE2wLLy89lsvok5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZQMtMEJZdQJ2v63O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.K3vkJOhbY84KuNmD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.Te5MH5pAFMlyBZiG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Pici",
+      "subtype": ""
+    },
+    "identifier": "nightingales"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1738275493535,
+    "modifiedTime": 1739535293998,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "6012cUHvobAYZrIj"
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Filosofo",
+  "type": "subclass",
+  "img": "icons/skills/trades/smithing-smelter-tongs.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">La vita è troppo mutabile e imprevedibile: troppo spesso i risultati di un esperimento risultano essere un'eccezione più di un risultato fisso. Per il Filosofo, che paradossalmente può essere definito come il più grande materialista e quindi si trova in conflitto con Iatri e Vitalisti, è mille volte meglio dedicarsi a cose inerte, pure ed eterne. Essi possono modellare i metalli a loro piacimento come nessun fabbro mai potuto, e il loro scopo più alto è quello di raggiungere la trasmutazione della materia vilest nel più nobile. Tuttavia, ogni filosofo alla fine impara che il vero tesoro è il vero viaggio verso la Pietra di Occult, una metafora per ritrovarsi per innalzarsi ad un livello di consapevolezza superiore.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 127",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "philosopher",
+    "classIdentifier": "alchemist",
+    "advancement": [
+      {
+        "_id": "SnbgbuGavs9H7tE9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.xEaRkajw4E8fQF7W",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "WrnOcjVeRtEGHY7H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.b89IL4bWcYMjX5zx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "sX5XtDg9OK7MnpXC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.OY4PkRkbAxloAdyS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "5dtrUsp4NRxU6Mv4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.xKWEOhlSlY2L6Slo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "FOtetrh944A5fllT"
+}

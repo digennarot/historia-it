@@ -1,0 +1,150 @@
+{
+  "name": "Smuggler",
+  "type": "subclass",
+  "img": "icons/containers/bags/sack-open-grain-red-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Non tutte le merci sono consentite ovunque, non tutti i porti impongono tariffe eque e non tutti i clienti sono disposti ad aspettare; ecco perché ci sono Smugglers per bypassare tutti questi problemi di lunga data. Specializzato nel circolare la loro merce al di fuori dei canali convenzionali (e strettamente legali), Smugglers sa come mettere le mani su quegli oggetti che di solito sono impossibili da trovare.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 156",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "smuggler",
+    "classIdentifier": "merchant",
+    "advancement": [
+      {
+        "_id": "8xtVn9k7YsbE2iBm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.HUFcYEdFlj0hEjhl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ZTelvjP43s8nrvgZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.eeCq1kR4hlCXLPrQ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "NSwQCim21J4KCMQc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.408VSQsJoWAHFrMt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "mVrKVKuCmVK0zFpD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.rKfCpTW6KksMcWoW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "C5ds6qyLyWKWqzgz"
+}

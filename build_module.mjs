@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import { compilePack } from "@foundryvtt/foundryvtt-cli/lib/package.mjs";
+import { compilePack } from "./node_modules/@foundryvtt/foundryvtt-cli/lib/package.mjs";
 
 const MODULE_ID = "historia-it";
 const MODULE_TITLE = "Historia (Italiano)";
@@ -241,6 +241,7 @@ async function main() {
         // Process Items (Primary Documents)
         const content = data.items || data.pages || [];
         if (content.length > 0) {
+            l
             for (const item of content) {
                 await processData(item);
                 const itemId = item._id || `unknown_id_${unknownCount++}`;

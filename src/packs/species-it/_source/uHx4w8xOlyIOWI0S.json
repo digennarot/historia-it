@@ -1,0 +1,142 @@
+{
+  "name": "Ibis",
+  "type": "race",
+  "img": "assets/historia/ibis.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">C'è chi sostiene che il becco dell'Ibis, ricurvo e affilato, somiglia ad un'arma. L'Ibis sarà d'accordo, affermando che la penna uccide più della spada. Agli Ibis va il merito (forse legittimamente, forse no) di aver inventato la scrittura e di averla diffusa per grazia del loro cuore gentile tra le altre creature. Il loro amore per la parola scritta è forte: che siano scribi, studiosi, poeti o archivisti, gli Ibis si sentono principi del glifo e custodi della pergamena. Ciò contribuisce al loro carattere altezzoso, orgoglioso e permaloso. Non vedono di buon occhio chi si avvicina alla scrittura o alla lettura con spirito spensierato, chi non compone i propri testi con il linguaggio più fine (e questo li porta a disprezzare soprattutto le Oche e la loro prosa secca ed essenziale), e ancor più chi si crogiola nella loro ignoranza. Molti Ibis dedicano la vita alla creazione della propria cultura, il che li rende da un lato preziosi consiglieri e dall'altro pedanti sempre pronti ad insegnare. Tra i loro interessi inaspettati,<br />tuttavia, c'è la passione per il bere, ma è guai accusare un Ibis di essere un ubriacone, poiché verresti punito con lo scrivere una dissertazione di diverse ore sulle viti della Fossa Verde. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em> </span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Il punteggio di Destrezza </span>aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">intelligenza </span>aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un Grarconi raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è subito considerato indipendente. </span>Hanno una vita media di circa 60 anni.</p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La velocità base al suolo è di 25 piedi e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un Ibis può raggiungere un'altezza compresa tra 4 e 5 <span class=\"fontstyle0\">piedi e mezzo e pesare tra 65 e 90 libbre.</span> <span class=\"fontstyle2\">La tua taglia è media.</span></p><p><span class=\"fontstyle0\"><em><strong>Calligrafo.</strong></em> </span><span class=\"fontstyle2\">Acquisisci esperienza con strumenti di calligrafia.</span> </p><p><span class=\"fontstyle0\"><em><strong>Saggio.</strong></em> </span><span class=\"fontstyle2\">Scegli Arcano, Natura o Storia. Ottieni competenza con quell'abilità. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.2zVRhhfSO8fMZWzt]{Acute Sight}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.DNDaDMkNoAimSb3i]{Volo prolungato}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.7npEHyt9RnsewIQv]{Sommelier}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di Familia, Acquatico (Predatore): </strong></em></span><span class=\"fontstyle4\">\"Sono fluido come l'acqua che amo così tanto\".</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, comportamento:</strong></em></span><span class=\"fontstyle2\">\"Il mio orgoglio è intoccabile, in ogni situazione\".</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "103",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "8KfwPAiWQkmWRdaH",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "nxFtN47euLRrpwFZ",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "XvLyGc8pb7ejGG8a",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "44LUJS57zkhXc9br",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DNDaDMkNoAimSb3i",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.7npEHyt9RnsewIQv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 25,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Garcona",
+      "subtype": ""
+    },
+    "identifier": "ibises"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737724245428,
+    "modifiedTime": 1739535015727,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "uHx4w8xOlyIOWI0S"
+}

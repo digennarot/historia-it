@@ -1,0 +1,204 @@
+{
+  "name": "La magia del patto",
+  "type": "feat",
+  "img": "icons/magic/holy/chalice-glowing-yellow-blue.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "core": {},
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">La vostra devozione e illuminazione vi permettono di canalizzare il vostro potere attraverso la potenza divina a cui rivolgete le vostre preghiere. La lista degli incantesimi del prete include le liste degli incantesimi Cleric e Ranger. La lista degli incantesimi può essere modificata con GM e giocatori d'accordo.</span></p><p><strong>CANTRIPS</strong><br/><span class=\"fontstyle0\">Al 1 ° livello, si conoscono due cantrip di vostra scelta. Si impara un altro cantrip a 6, 14 e 18 ° livelli.</span></p><p><span class=\"fontstyle0\"><strong>SPELL SLOT</strong><br/></span><span class=\"fontstyle2\">Hai un solo 1 ° livello di incantesimo slot. Al 2 ° livello si acquisisce una seconda slot, a 11 ° livello si acquisisce una terza slot e al 17 ° livello si acquista una quarta slot. Riguadagnate tutte le slot di incantesimo estese quando finite un breve riposo. Tutte le vostre scanalature sono sempre dello stesso livello, che varia secondo il modo divino scelto.<br/></span></p><p><span class=\"fontstyle0\"><strong>SCIPLEMENTARI</strong><br/></span><span class=\"fontstyle2\">Al primo livello, conosci due incantesimi di primo livello. Ogni volta che si acquisisce un livello come prete, si può imparare un altro incantesimo, fino a un massimo di 12 incantesimi quando si raggiunge il 11 ° livello. È possibile sostituire un incantesimo che si sa quando si ottiene un nuovo livello di sacerdote e alla fine di un lungo riposo. È possibile acquistare solo incantesimi per i quali si dispone di un livello appropriato incantesimo slot.<br/></span></p><p><span class=\"fontstyle0\"><strong>AMMINISTRAZIONE</strong><br/></span><span class=\"fontstyle2\">La saggezza e' la tua abilita' di incantesimo per i tuoi incantesimi. Il potere dei vostri incantesimi deriva dalla vostra devozione alla vostra divinità. Usa la tua Saggezza quando un incantesimo prete si riferisce alla tua abilità di incantesimo. Inoltre, si utilizza il Modificatore di Saggezza quando si imposta il getto di risparmio DC per un incantesimo Clerico si getta e quando si effettua un rotolo di attacco con uno.</span></p><p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Spell Saving Throw DC</strong> = </span><span class=\"fontstyle2\">8 + il bonus di competenza<br/>+ il tuo Modificatore di Saggezza</span></p><p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Modificatore di attacco di spell</strong>= </span><span class=\"fontstyle2\">il tuo bonus di competenza<br/>+ il tuo Modificatore di Saggezza</span></p><p><span class=\"fontstyle0\"><strong>SPELLCAST FOCUS</strong><br/></span><span class=\"fontstyle2\">È possibile utilizzare un simbolo sacro come un centro di incantesimo per i vostri incantesimi prete.</span></p><table style=\"width:98.5222%;height:386px\"><tbody><tr style=\"height:50px\"><td rowspan=\"2\" style=\"text-align:center;width:10.6599%;height:66px;background-color:#95a5a6\"><strong>Livello</strong></td><td rowspan=\"2\" style=\"text-align:center;width:10.6599%;height:66px;background-color:#95a5a6\"><strong>Spells conosciuti</strong></td><td rowspan=\"2\" style=\"text-align:center;width:13.7056%;height:66px;background-color:#95a5a6\"><strong>Canticoltura</strong></td><td rowspan=\"2\" style=\"text-align:center;width:12.1827%;height:66px;background-color:#95a5a6\"><p><br/><strong>Spell Slots</strong></p></td><td colspan=\"3\" style=\"text-align:center;width:50.2539%;height:50px;background-color:#95a5a6\"><strong>Livelli Max Spell</strong></td></tr><tr style=\"height:16px\"><td style=\"width:13.7056%;height:16px;text-align:center;background-color:#95a5a6\"><strong>Healer</strong></td><td style=\"width:20.0508%;height:16px;text-align:center;background-color:#95a5a6\"><strong>Richiesta</strong></td><td style=\"width:16.4975%;height:16px;text-align:center;background-color:#95a5a6\"><strong>Profeta</strong></td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">1</td><td style=\"width:10.6599%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:12.1827%;height:16px;text-align:center\">1</td><td style=\"width:13.7056%;height:16px;text-align:center\">1</td><td style=\"width:20.0508%;height:16px;text-align:center\">1</td><td style=\"width:16.4975%;height:16px;text-align:center\">1</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">2</td><td style=\"width:10.6599%;height:16px;text-align:center\">3</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">1</td><td style=\"width:20.0508%;height:16px;text-align:center\">1</td><td style=\"width:16.4975%;height:16px;text-align:center\">1</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">3</td><td style=\"width:10.6599%;height:16px;text-align:center\">4</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">1</td><td style=\"width:20.0508%;height:16px;text-align:center\">1</td><td style=\"width:16.4975%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">4</td><td style=\"width:10.6599%;height:16px;text-align:center\">5</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">1</td><td style=\"width:20.0508%;height:16px;text-align:center\">1</td><td style=\"width:16.4975%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">5</td><td style=\"width:10.6599%;height:16px;text-align:center\">6</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:20.0508%;height:16px;text-align:center\">1</td><td style=\"width:16.4975%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">6</td><td style=\"width:10.6599%;height:16px;text-align:center\">7</td><td style=\"width:13.7056%;height:16px;text-align:center\">3</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:20.0508%;height:16px;text-align:center\">1</td><td style=\"width:16.4975%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">7</td><td style=\"width:10.6599%;height:16px;text-align:center\">8</td><td style=\"width:13.7056%;height:16px;text-align:center\">3</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:20.0508%;height:16px;text-align:center\">2</td><td style=\"width:16.4975%;height:16px;text-align:center\">4</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">8</td><td style=\"width:10.6599%;height:16px;text-align:center\">9</td><td style=\"width:13.7056%;height:16px;text-align:center\">3</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">2</td><td style=\"width:20.0508%;height:16px;text-align:center\">2</td><td style=\"width:16.4975%;height:16px;text-align:center\">4</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;height:16px;text-align:center\">9</td><td style=\"width:10.6599%;height:16px;text-align:center\">10</td><td style=\"width:13.7056%;height:16px;text-align:center\">3</td><td style=\"width:12.1827%;height:16px;text-align:center\">2</td><td style=\"width:13.7056%;height:16px;text-align:center\">3</td><td style=\"width:20.0508%;height:16px;text-align:center\">2</td><td style=\"width:16.4975%;height:16px;text-align:center\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">10</td><td style=\"width:10.6599%;text-align:center;height:16px\">11</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:12.1827%;text-align:center;height:16px\">2</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:20.0508%;text-align:center;height:16px\">2</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">11</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:12.1827%;text-align:center;height:16px\">3</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:20.0508%;text-align:center;height:16px\">2</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:12.1827%;text-align:center;height:16px\">3</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:20.0508%;text-align:center;height:16px\">2</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">13</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">3</td><td style=\"width:12.1827%;text-align:center;height:16px\">3</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:20.0508%;text-align:center;height:16px\">3</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">14</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:12.1827%;text-align:center;height:16px\">3</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:20.0508%;text-align:center;height:16px\">3</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">15</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:12.1827%;text-align:center;height:16px\">3</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:20.0508%;text-align:center;height:16px\">3</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">16</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:12.1827%;text-align:center;height:16px\">3</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:20.0508%;text-align:center;height:16px\">3</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">17</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">4</td><td style=\"width:12.1827%;text-align:center;height:16px\">4</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:20.0508%;text-align:center;height:16px\">3</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">18</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:12.1827%;text-align:center;height:16px\">4</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:20.0508%;text-align:center;height:16px\">3</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">19</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:12.1827%;text-align:center;height:16px\">4</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:20.0508%;text-align:center;height:16px\">4</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:10.6599%;text-align:center;height:16px\">20</td><td style=\"width:10.6599%;text-align:center;height:16px\">12</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:12.1827%;text-align:center;height:16px\">4</td><td style=\"width:13.7056%;text-align:center;height:16px\">5</td><td style=\"width:20.0508%;text-align:center;height:16px\">4</td><td style=\"width:16.4975%;text-align:center;height:16px\">5</td></tr></tbody></table><p><strong>SPELLI PRINCIPALI</strong></p><p><strong>CANTRIPS (0 LEVEL)<br/></strong>@UUUID[Compendium.historia-it.spells-it.SuZDYcXJirrIh0dL]{Decompose}<br/>@Compendium[dnd5e.spells.P7mF2MxSuVJwHRRY]{Guidance}<br/>@UUUID[Compendium.historia-it.spells-it.GvXPmwulWa6E4XwS]{Hand of Radiance}<br/>@Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{Light}<br/>@Compendium[dnd5e.spells.kjmjY0zlE6IEiQVL]{Mending}<br/>@Compendium[dnd5e.spells.dl8YwvMboBqX2OC4]{Resistance}<br/>@Compendium[dnd5e.spells.n9pJzTDsAwQxJVRl]<br/>@Compendium[dnd5e.spells.8zT7njvqbpXs4Cel]{Spare the Dying}<br/>@Compendium[dnd5e.spells.MUO1uYN7JR1hm4dR]{Thaumaturgy}<br/>@Compendium[historia-it.spells-it.KV3K5DetB9Xa3gK]{Toll The Dead}<br/>@UUUID[Compendium.historia-it.spells-it.1Nmy0ZBxtgE5NKDV]{Virtue}<br/>@Compendium[historia-it.spells-it.INaNl0TMDKmImxJ]{Word of Radiance}<br/><br/><strong>LIVELLO 1</strong><br/>@Compendium[historia-it.spells-it.qi3u9NQS1pPA8KUv]{Absorb Elements}<br/>@Compendium[dnd5e.spells.7p9IuWrSWFgfyQo2]{Alarm}<br/>@Compendium[dnd5e.spells.hDOENzjuj5WpLq7B]{Animal Friendship}<br/>@Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Bane}<br/>@Compendium[historia-it.spells-it.lK8hVDY5Xo6m4QUy]{Beast Bond}<br/>@Compendium[dnd5e.spells.8dzaICjGy6mTUAUr]{Bless}<br/>@Compendium[historia-it.spells-it.0ytpam5fRhXuvKBj]{Ceremony}<br/>@Compendium[dnd5e.spells.arzCrMRgcNiQuh43]{Command}<br/>@Compendium[dnd5e.spells.a3XtAO5n2GrqiAh5]{Create or Destroy Water}<br/>@Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]{Cure Wounds}<br/>@Compendium[dnd5e.spells.Mzh95utKDPIrjiH8]{Detect Evil and Good}<br/>@Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Detect Magic}<br/>@Compendium[dnd5e.spells.2skfDtglk1mGrb3l]{Detect Poison and Disease}<br/>@UUUID[Compendium.historia-it.spells-it.iesn0fqFAESDYFRC]{Ensnaring Strike}<br/>@Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}<br/>@Compendium[dnd5e.spells.IBJmWjzbQGu7M4UX]{Fog Cloud}<br/>@Compendium[dnd5e.spells.Qf6CAZkc7ms4ZY3e]{Goodberry}<br/>@Compendium[dnd5e.spells.7buEm5KhI5lP8m1z]{Guiding Bolt}<br/>@UUUID[Compendium.historia-it.spells-it.ivlAPM36iyX7u58a]{Guiding Hand}<br/>@UUUID[Compendium.historia-it.spells-it.zJZHdgD7tCBuPUp1]{Hail of Thorns}<br/>@Compendium[dnd5e.spells.o8Dh7fblk1d16tnO]{Healing Word}<br/>@Compendium[dnd5e.spells.0xmXiPiuYws1OGcX]{Hunter's Mark}<br/>@Compendium[dnd5e.spells.ksaaTxIbKx2sJfia]{Inflict Wounds}<br/>@Compendium[dnd5e.spells.ZrTc23tToJ0JpH2h]{Jump}<br/>@Compendium[dnd5e.spells.B0pnIcc52O6G8hi8]{Longstrider}<br/>@Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]{Protection from Evil and Good}<br/>@Compendium[dnd5e.spells.Kn7K5PtYUJAKZTTp]{Purify Food and Drink}<br/>@Compendium[dnd5e.spells.gvdA9nPuWLck4tBl]{Santuary}<br/>@Compendium[historia-it.spells-it.xg1fm7IP5STexRJd]{Searing Smite}<br/>@Compendium[dnd5e.spells.jZ6JNykRtdQ90MOo]{Shield of Faith}<br/>@Compendium[historia-it.spells-it.nBdCgl2KFeukKEPg]{Snare}<br/>@Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{parlare con gli animali}<br/>@UUUID[Compendium.historia-it.spells-it.2ebSHcvg9YvCPRjs]{Sudden Awakening}<br/>@UUUID[Compendium.historia-it.spells-it.hhQKSoeB1y0xtBef]{Wild Cunning}<br/>@Compendium[historia-it.spells-it.lRbrScOnKXPBiZi5]{Zephyr Strike}<br/><br/><strong>LIVELLO 2</strong><br/>@Compendium[dnd5e.spells.Opwh2PdX4runSBlm]{Aid}<br/>@Compendium[dnd5e.spells.X8w9EzYLGc4vQ 1H2]{Animal Messenger}<br/>@Compendium[dnd5e.spells.4v2H3hb3Ph9XLNd]{Augury}<br/>@Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{Barkskin}<br/>@UUUID[Compendium.historia-it.spells-it.Ea6ckxNdRfjFy6y2]{Beast Sense}<br/>@Compendium[dnd5e.spells.zwGsAv6kmwzYGh3]{Blindness/Deafness}<br/>@Compendium[dnd5e.spells.3MYDjS6k9IYL0aTj]{Calm Emotions}<br/>@Compendium[dnd5e.spells.MK6gpQMeDFo0cP9f]{Continual Flame}<br/>@UUUID[Compendium.historia-it.spells-it.mQsX1SxLqHpeIBuL]{Cordon of Arrows}<br/>@Compendium[dnd5e.spells.hJ6ZiA3fpoY8v9cp]{Darkvision}<br/>@Compendium[dnd5e.spells.9eOZDBImVKxbeOyZ]{Enhance Ability}<br/>@Compendium[dnd5e.spells.KrM3oHVv13RAALrS]{Find Traps}<br/>@Compendium[dnd5e.spells.n4JDcFKe5ikzYmAc]{Gentle Repose}<br/>@Compendium[dnd5e.spells.FSMy6VAjDnXY9vWz]{Gust of Wind}<br/>@Compendium[historia-it.spells-it.CCY6fC2aZOsrhxPj]{Healing Spirit}<br/>@Compendium[dnd5e.spells.3Lo9boi7P2ro6QV4]{Hold Person}<br/>@Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]{Lesser Restoration}<br/>@Compendium[dnd5e.spells.Iv2qqSAT7OkXKPFx]{Locate Animals or Plants}<br/>@Compendium[dnd5e.spells.SleYkHovQ8NagmeV]{Locate Object}<br/>@Compendium[dnd5e.spells.Sgjrf8qv97CCWM4]{Magic Weapon}<br/>@Compendium[dnd5e.spells.pRMvmknwLf2tdMTj]{Pass senza Trace}<br/>@Compendium[dnd5e.spells.MOEmz9N0j0QPkKEE]{Prayer of Healing}<br/>@Compendium[dnd5e.spells.MAxM77CDUu8dgIRQ]{Protezione da Poison}<br/>@Compendium[dnd5e.spells.5VhqFROQYjr1P9lp]{Silence}<br/>@Compendium[dnd5e.spells.9gYGkrL6qFTsE6fw]{Spike Growth}<br/>@Compendium[dnd5e.spells.JbxsYXxSOTZbf9I0]{Spiritual Weapon}<br/>@Compendium[historia-it.spells-it.XLABKnjkihlR07U8]{Summon Beast}<br/>@Compendium[dnd5e.spells.JVhKeanAXZH62DrF]{Warding Bond}<br/>@Compendium[dnd5e.spells.CylBa7jR8DSbo8Z3]{Zone of Truth}<br/><br/><strong>LIVELLO 3</strong><br/>@Compendium[dnd5e.spells.oyE5nVppa5mde5gT]{Animate Dead}<br/>@Compendium[historia-it.spells-it.0htaeXIaETnOxNFB]{Aura of Vitality}<br/>@Compendium[dnd5e.spells.ZU9d6woBdUP8pIPt]{Beacon of Hope}<br/>@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{Bestow Curse}<br/>@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance}<br/>@Compendium[dnd5e.spells.1Drt0SHxbEAHxprN]{Conjure Animals}<br/>@Compendium[historia-it.spells-it.jUVCDNZPUq6Ye4AR]{Conjure Barrage}<br/>@Compendium[dnd5e.spells.BV0mpbHh29IbbIj5]{Create Food and Water}<br/>@Compendium[dnd5e.spells.BP3GCwa66IAw1yTG]{Daylight}<br/>@Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic}<br/>@Compendium[historia-it.spells-it.Hk2WU1ft7YZtfES5]{Elemental Weapon}<br/>@Compendium[historia-it.spells-it.8i9zACu1hiSEBkj2]{Fast Friends}<br/>@UUUID[Compendium.historia-it.spells-it.bsAqcRWmJlFNBYk]{Feign Death}<br/>@Compendium[historia-it.spells-it.kdiuLPkPjO4V22Gb]{Flame Arrows}<br/>@Compendium[historia-it.spells-it.MkoROlhpyoGxkAz5]{Flame Stride}<br/>@Compendium[historia-it.spells-it.AXXQFWcK3MDR4nM9]{Freedom of the Waves}<br/>@Compendium[dnd5e.spells.pB7XVYwdGNcUG935]{Glyph of Warding}<br/>@Compendium[historia-it.spells-it.jaPnXIONKUOQxsYK]{Incite Greed}<br/>@Compendium[historia-it.spells-it.d7IAZ7v7tXnkvh6f]{Life Transference}<br/>@UUUID[Compendium.historia-it.spells-it.ke6Js3WKbbYD5Dv]{Lightning Arrow}<br/>@Compendium[dnd5e.spells.y8A4HfTwd93ypdEz]{Magic Circle}<br/>@Compendium[dnd5e.spells.34ddoYIrnOZ2GFYi]{Mass Healing Word}<br/>@Compendium[dnd5e.spells.64uo4fHriHLjRUrX]<br/>@Compendium[historia-it.spells-it.YwWVQNGhliOBlWyv]{Motivational Speech}<br/>@Compendium[dnd5e.spells.aU62xVUBYkAQWIHv]{Nondetection}<br/>@Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{Plant Growth}<br/>@Compendium[dnd5e.spells.j8NtLXOOJ3GAKF8I]{Protezione da energia}<br/>@Compendium[dnd5e.spells.XZhdgVK3cLoxNCQl]{Remove Curse}<br/>@Compendium[dnd5e.spells.LmRHHMtplpxr9fX6]{Revivify}<br/>@Compendium[dnd5e.spells.GtGjNjPBgUHxGYAD]{Sending}<br/>@Compendium[dnd5e.spells.2VXGS206tuChoeXy]{parlare con le piante}<br/>@Compendium[dnd5e.spells.I2LUSF5ogc7Bj62e]{parlare con i morti}<br/>@Compendium[dnd5e.spells.uCud2s4TjMfjiXUb]{Spirit Guardians}<br/>@Compendium[historia-it.spells-it.3mShQcB0A55zABEv]{Spirit Shroud}<br/>@Compendium[historia-it.spells-it.3FcqlE0WgXj25fOG]{Summon Fey}<br/>@Compendium[dnd5e.spells.gopnZvS0c2jD5FP8]{Tongues}<br/>@Compendium[dnd5e.spells.13uVuBQP6VaiSPvC]{Water Breathing}<br/>@Compendium[dnd5e.spells.YBda6nLKjxdT1LbS]{Water Walk}<br/>@Compendium[dnd5e.spells.ew6GA8dJy2spQmFW]{Wind Wall}<br/><br/><strong>LIVELLO 4</strong><br/>@Compendium[historia-it.spells-it.NRb8OowPC5HEFtP1]{Aura of Life}<br/>@Compendium[historia-it.spells-it.b1jssRyy0zlzS39L]{Aura of Purity}<br/>@Compendium[dnd5e.spells.pxpb2eOB6bv4phAf]{Banishment}<br/>@Compendium[dnd5e.spells.dEfSELiY1eO3cpX9]{Conjure Woodland Beings}<br/>@Compendium[dnd5e.spells.7fFHlBk3UNX8gPKL]{Control Water}<br/>@Compendium[dnd5e.spells.VtCXMdyM6mAdIJZb]{Death Ward}<br/>@Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{Divination}<br/>@Compendium[dnd5e.spells.LrPvWHBPmiMQQsKB]{Dominate Beast}<br/>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{Freedom of Movement}<br/>@UUUID[Compendium.historia-it.spells-it.lCDN2FVjVAGWlj0Z]{Grasping Vine}<br/>@Compendium[dnd5e.spells.TgHsuhNasPbhu8MO]{Guardian of Faith}<br/>@Compendium[historia-it.spells-it.RlusEtV8syYdcxjG]{Guardian of Nature}<br/>@Compendium[dnd5e.spells.gXtzz9t1DTzJeLr4]{Locate Creature}<br/>@Compendium[dnd5e.spells.QvGcdRUSNRKEQJlK]{Stone Shape}<br/>@Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{Stoneskin}<br/>@Compendium[historia-it.spells-it.BLIlTd7ssNU8YkwM]{Summon Elemental}<br/><br/><strong>LIVELLO 5</strong><br/>@Compendium[dnd5e.spells.d54VDyFulD9xY7J]{Commune}<br/>@Compendium[dnd5e.spells.dp6xny4v8PDoIGjh]{Commune with Nature}<br/>@Compendium[dnd5e.spells.CjIq8Ed7bu3vVwT1]{Contagion}<br/>@Compendium[historia-it.spells-it.dsO5vt30j2QUAO]{Dawn}<br/>@Compendium[dnd5e.spells.TkJ8Wtg1L7TZtspm]{Dispel Evil and Good}<br/>@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4]{Flame Strike}<br/>@Compendium[historia-it.spells-it.J82q7PD6cmqBfd]{Freedom of the Winds}<br/>@Compendium[dnd5e.spells.JQyigMNPiDnGI18b]{Geas}<br/>@Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Greater Restoration}<br/>@Compendium[dnd5e.spells.SLxA9QhrggTz0taU]{Hallow}<br/>@Compendium[historia-it.spells-it.gGrGzBGmroq0iOeG]<br/>@Compendium[dnd5e.spells.OVikYmSdHliAG2YD]{Insect Plague}<br/>@Compendium[dnd5e.spells.W4Qx5z0id6da0vqg]{Legend Lore}<br/>@Compendium[dnd5e.spells.Pyzmm8R7rVsNAPsd]{Mass Cure Wounds}<br/>@Compendium[dnd5e.spells.42O2aNBW7vK90gTL]{Planar Binding}<br/>@Compendium[dnd5e.spells.AGFMPAmuzwWO6Dfz]{Raise Dead}<br/>@Compendium[dnd5e.spells.fVbCxFRaORalHB20]{Scrying}<br/>@Compendium[historia-it.spells-it.IGigZhVCw4aY8HeS]{Steel Wind Strike}<br/>@UUUID[Compendium.historia-it.spells-it.kFlr9rnfGvmmlfBr]{Swift Quiver}<br/>@Compendium[historia-it.spells-it.kEhtMPXp1eV63WHc]{Summon Celestial}<br/>@Compendium[dnd5e.spells.DUBgwHPakcLDkB6W]{Tree Stride}<br/>@Compendium[historia-it.spells-it.CMc6uAdVW17nNqcC]{Wrath of Nature}</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 159",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Priest Level 1",
+    "cover": null,
+    "crewed": false,
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "identifier": "magic-of-the-pact",
+    "activities": {},
+    "advancement": [],
+    "enchant": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898722794,
+    "modifiedTime": 1760898722794,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "PtWtDj2iTaO5Mvvw"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "AP: Distillatio (Rubedo, 4 atti)",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-worn-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Recipe",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "ap-distillatio-rubedo-4-acts"
+  },
+  "effects": [],
+  "flags": {
+    "beavers-crafting": {
+      "recipe": {
+        "ingredients": {
+          "Compendium-world-profession-features-WBumObWSisScufbF": {
+            "id": "WBumObWSisScufbF",
+            "uuid": "Compendium.historia-it.profession-features-it.WBumObWSisScufbF",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Distillatio (Nigredo, 1 act)",
+            "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
+            "quantity": 4
+          }
+        },
+        "results": {
+          "Compendium-world-profession-features-O3Rt4OMBU0SGlDVr": {
+            "id": "O3Rt4OMBU0SGlDVr",
+            "uuid": "Compendium.historia-it.profession-features-it.O3Rt4OMBU0SGlDVr",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Distillatio (Rubedo, 4 acts)",
+            "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
+            "quantity": 1
+          }
+        },
+        "attendants": {
+          "Actor-tsdbAt8U1QngL3kz-Item-QQHXvhQgkOqGPbHS": {
+            "id": "QQHXvhQgkOqGPbHS",
+            "uuid": "Actor.tsdbAt8U1QngL3kz.Item.QQHXvhQgkOqGPbHS",
+            "type": "Item",
+            "itemType": "class",
+            "name": "Alchemist",
+            "img": "Wynther%27s%20Files/Historia/Professions/alchemist.webp",
+            "quantity": 1
+          }
+        },
+        "macro": ""
+      }
+    },
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898722794,
+    "modifiedTime": 1760898722794,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "KfZZCizPrLWYAcs7"
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Corriere di velocità",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si evoca un piccolo elemento d'aria a un posto all'interno della gamma. L'aria elementare è senza forma, quasi trasparente, immune a tutti i danni, e non può interagire con altre creature o oggetti. Porta un petto aperto e vuoto le cui dimensioni interne sono 3 piedi su ogni lato. Mentre l'incantesimo dura, è possibile depositare quanti elementi all'interno del torace come si adatta. Si può poi nominare una creatura vivente che hai incontrato e visto almeno una volta prima, o qualsiasi creatura per cui possiedi una parte del corpo, la serratura di capelli, clipping da un'unghia, o porzione simile del corpo della creatura.</p><div class=\"rd__spc-inline-post\"></div><p>Non appena il coperchio del petto è chiuso, l'elemento e il petto scompaiono, poi riapparire adiacente alla creatura bersaglio. Se la creatura bersaglio è su un altro aereo, o se è provata contro il rilevamento magico o la posizione, il contenuto del petto riappare a terra ai piedi.</p><p>La creatura bersaglio è resa a conoscenza del contenuto del petto prima che scelga se aprirlo o meno, e sa quanto della durata dell'incantesimo rimane in cui può recuperarli. Nessun'altra creatura può aprire il petto e recuperare il suo contenuto. Quando l'incantesimo scade o quando tutti i contenuti del torace sono stati rimossi, l'elemento e il torace scompaiono. La creatura elementare scompare anche se la creatura bersaglio ordina di restituire gli elementi a voi. Quando l'elemento scompare, qualsiasi elemento non preso dal petto riappare sul terreno ai piedi.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"14\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si lancia questo incantesimo utilizzando una slot di incantesimo di 8 ° livello, è possibile inviare il petto a una creatura su un piano diverso di esistenza da voi.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "LLK",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "10",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "ability": "",
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "25 gold pieces, or mineral goods of equivalent value, which the spell consumes",
+      "consumed": true,
+      "cost": 25,
+      "supply": 0
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self"
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "identifier": "speedy-courier",
+    "method": "spell",
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    }
+  },
+  "img": "icons/magic/air/air-pressure-shield-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "LLK",
+      "hash": "galder's%20speedy%20courier_llk",
+      "propDroppable": "spell"
+    },
+    "core": {},
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899073390,
+    "modifiedTime": 1760899073390,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ZLkiPxzkwyXi7FTK"
+}

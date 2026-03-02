@@ -1,0 +1,164 @@
+{
+  "name": "Galli",
+  "type": "race",
+  "img": "assets/historia/gallo.png",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Pochi Avians sono polarizzati tra maschio e femmina come i polli, che contrastano belligeranza e gentilezza, vanità e altruismo in modo davvero estremo. Le femmine della specie sono spesso quelle tipiche amiche o parenti eccentriche ma di buon cuore, che vivono in una casa infestata da cianfrusaglie assurde, invenzioni inspiegabili, libri, collezioni di tappi di sughero e liquori artigianali di indubbia tossicità. Coltivano liberamente i loro bizzarri interessi, ma senza mai dimenticare il coinvolgimento nella comunità. Amanti dei cuccioli e delle persone semplici, sono felici di prendersi cura di chi rischia di restare solo, riuscendo a rendersi abbastanza benvoluti da strappare un sorriso anche alla più scontrosa delle creature. I maschi, al contrario, sono litigiosi, vanitosi, permalosi e sempre pronti ad attaccare e combattere. Combattenti nervosi e spesso sleali, sentono il costante bisogno di affermarsi sugli altri per sentirsi forti e rispettati. Amano mettersi in mostra davanti alle ragazze, e sono donnaioli impenitenti: la lealtà non fa per loro in molti aspetti della loro vita, infatti anche sul campo di battaglia vengono spesso accusati di cambiare fazione.</span></p><p><span class=\"fontstyle0\"><em><strong>Incremento dei Punteggi di Caratteristica.</strong></em></span><span class=\"fontstyle2\">Il tuo </span><span class=\"fontstyle0\">Il punteggio di Costituzione </span>aumenta di 2 e il tuo punteggio di <span class=\"fontstyle0\">Forza</span>aumenta di 1.</p><p><span class=\"fontstyle0\"><em><strong>Età.</strong></em> </span>Un Ruspei raggiunge la maturità intorno ai 14 anni <span class=\"fontstyle0\">ed è immediatamente considerato indipendente. Hanno una vita media di circa 60 anni.</span></p><p><span class=\"fontstyle0\"><em><strong>Velocità. </strong></em></span>La tua velocità base al suolo è di 9 metri e la tua <span class=\"fontstyle0\">velocità di volo è di 9 metri.</span></p><p><span class=\"fontstyle0\"><em><strong>Dimensione. </strong></em></span>Un pollo può raggiungere un'altezza compresa tra 3 piedi e mezzo <span class=\"fontstyle0\">e 4 piedi e 1/4 e pesare tra 45 e 90 libbre.</span> La tua taglia è Media. Gli esemplari maschi di Ruspei sono in media più grandi <span class=\"fontstyle0\">rispetto alle femmine.</span></p><p><span class=\"fontstyle0\"><em><strong>Canto.</strong></em></span><span class=\"fontstyle2\">Hai competenza nell'abilità Esibizione e nell'uso della voce che è considerata uno strumento musicale.</span></p><p><span class=\"fontstyle0\">@Compendium[historia-it.species-features-it.ZLta2Wjm3OsgNAk0]{Wings}</span></p><p><span class=\"fontstyle0\">@Compendium[historia-it.species-features-it.DO8bJUsTURvkwDVu]{Pecking}</span></p><p><span class=\"fontstyle0\">@Compendium[historia-it.species-features-it.9ALHHLuQoSWQRqN4]{Gambe prensili}</span></p><p>@Compendium[historia-it.species-features-it.DXFYqjVUtn7isXQ0]{Rural Bond}</p><p>@Compendium[historia-it.species-features-it.ZRadhCkmL5C2sXjX]{Volo limitato}</p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.NT1pq3nHCIdCuQhJ]{Protettivo}</span></p><p><span class=\"fontstyle2\">@Compendium[historia-it.species-features-it.N07XHRp8C47hauv1]{Bioritmo solare}</span></p><p><span class=\"fontstyle3\"><em><strong>Istinto di famiglia, abitudini (preda):</strong></em> </span><span class=\"fontstyle4\">“Apprezzo la routine quotidiana e sono contrario al cambiamento”.</span></p><p><span class=\"fontstyle0\"><em><strong>Istinto di specie, eccentrico:</strong></em> </span><span class=\"fontstyle2\">\"Mi comporto in modo diverso da chi mi circonda.\"</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "HCB",
+      "page": "113",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "Size",
+        "_id": "admgqfZOs6XdxaIC",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "AZ5LpWBAQqFdYUr5",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "BvyGpp6F85U60rXJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.DXFYqjVUtn7isXQ0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.ZRadhCkmL5C2sXjX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.NT1pq3nHCIdCuQhJ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.species-features-it.Item.N07XHRp8C47hauv1",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "eKzF05giGnkXZYCQ",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "kbKJqNeSZkCkUqAv",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prf"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruspei",
+      "subtype": ""
+    },
+    "identifier": "chicken"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1737393778792,
+    "modifiedTime": 1739534143670,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "yE4ICtbPWPUWK355"
+}

@@ -1,0 +1,212 @@
+{
+  "name": "Profeta",
+  "type": "subclass",
+  "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">L'arma del Profeta non è la fiamma, la spada, il pugnale, o il pike. È la verità che la loro divinità ha rivelato loro nel mare di sussurri che attraversano la loro mente, e non c'è più la loro esistenza che rivelare questa verità a tutti i popoli. Spesso il loro desiderio di diffondere le parole divine li porta a viaggiare lontano e largo, e non è insolito incontrare un Profeta vagante impegnato a predicare sia nei villaggi più poveri che nelle piazze di Nochemburg.<br/></span></p><p><span class=\"fontstyle2\"><strong>MAGICO DEL PROFET<br/></strong></span><span class=\"fontstyle0\">La tua magia deriva dalla tua visione mistica e dalla necessità di condividerla con il mondo. Ogni livello dispari le tue slot aumentano di livello: al 3 ° livello sono di 2 ° livello, al 5 ° livello sono di 3 ° livello, al 7 ° livello sono di 4 ° livello e al 9 ° livello sono di 5 ° livello. Allo stesso modo, si aumenta il livello di incantesimo massimo che si può sapere.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 163",
+      "rules": "2014",
+      "revision": 1
+    },
+    "identifier": "prophet",
+    "classIdentifier": "priest",
+    "advancement": [
+      {
+        "_id": "FkMdQpudFnkZuW0I",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.UVt9LeRIvuFZb0V9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.J2GaAnzvik1qdzfa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "bg0gJ23phQPGlB9v",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.mMTCWavPqGs8aXqk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.3eG8xOx9f5bDuDTc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "GWFTQu5iaCO2CO2b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.xjTNEqE3T8nSnH8O",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "5MLyMWyWTcxfSKlR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.CEYKkGzJEqaiJdob",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "m34OqDEdbDOJuOOZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.Q2dv0kl938dbZnXx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "3dAi1Vzn5HftSdQZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.profession-features-it.ODJffWd92ivpB9YT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760898728417,
+    "modifiedTime": 1760898728417,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "FhKtWwbJiF8yL7Zl"
+}

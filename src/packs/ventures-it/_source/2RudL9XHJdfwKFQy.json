@@ -1,0 +1,63 @@
+{
+  "name": "Ventura: L'Arte",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Luscinia era un mercenario della parola, un bardo. Come<br />storico onesto e imparziale, devo ammettere che<br />non ho mai avuto l'opportunità di ascoltare una voce<br />più musicale della sua nel canto. Sono convinto che Luscinia,<br />vista la sua fama, la sua capacità di divertire chi l'ascolta<br />e la sua voce suadente, potrebbe cantare la<br />verità, aiutando il nostro ingrato lavoro.</strong></span></p><p><span class=\"fontstyle0\">Un vecchio Scoiattolo contempla la bellezza precisa e minuta del tralcio di vite che hanno amorevolmente cesellato su una fascia da braccialetto. Sorridendo, pensano a quel giorno di tanti anni prima in cui presero in mano per la prima volta il bulino. Una gru si lancia nella danza la sera del suo debutto, e lo scricchiolio del palco diventa tutt'uno con lei e la sua musica. Una Martora sbuffa mentre dipinge l'ennesimo noioso ritratto della moglie di un banchiere: un altro, pensa, solo un'altra mediocre commissione prima che io possa dedicarmi al mio capolavoro.</span></p><p><span class=\"fontstyle0\">Dotati di sensibilità, intuito e spirito di osservazione, coloro che scelgono l'Arte come impresa percorrono il tortuoso sentiero tra bellezza e abilità tecnica, dedicando la propria vita a inseguire il momento in cui potranno creare la loro opera definitiva, essere è una poesia così eccezionale da essere recitata in tutte le corti di Vesteria o una saliera di cristallo che non lascerà mai la bottega dell'artigiano che l'ha creata.</span></p><p><span class=\"fontstyle0\">@Compendium[historia-it.ventures-it.UMZTAINJmIzKErNv]{Prominence: Eye of the Watcher}</span></p><p><span class=\"fontstyle0\"><strong>DOTAZIONE</strong></span></p><ul><li><span class=\"fontstyle0\">La tua prima opera, recuperata dopo averla venduta, o un oggetto che te lo ricorda.</span></li><li><span class=\"fontstyle0\">Abbigliamento comune, pipa, erbe, strumento musicale o attrezzo da artigiano.</span></li></ul><p><span class=\"fontstyle0\"><strong>Competenza: </strong></span><span class=\"fontstyle2\">strumento scelto.<br /></span><span class=\"fontstyle0\"><strong>Conio: </strong></span><span class=\"fontstyle2\">10</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORI</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideale</strong>.</em> </span><span class=\"fontstyle3\">Cos'è la bellezza che cerchi? Qual è il messaggio che vuoi portare al mondo?</span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong>.</em></span><span class=\"fontstyle3\">Chi ti ha introdotto all'arte? Chi ha cambiato il tuo stile?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Difetto</strong>.</em></span><span class=\"fontstyle3\">Qual ​​è la cosa orribile che desideri? Quale pericolo nasconde la tua anima?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Tratto caratteriale.</strong></em></span><span class=\"fontstyle3\">Come sarà il tuo ultimo capolavoro?</span> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HCB pg. 191",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.ventures-it.UMZTAINJmIzKErNv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "Preparato": 0
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "startingEquipment": [],
+    "identifier": "venture-art"
+  },
+  "img": "icons/commodities/treasure/bust-carved-stone.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1760899109155,
+    "modifiedTime": 1760899109155,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "2RudL9XHJdfwKFQy"
+}
