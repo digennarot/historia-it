@@ -1,6 +1,6 @@
 /**
- * Historia Module Language Settings
- * Handles the visibility of English and Italian compendium packs.
+ * Historia Module Settings
+ * Handles the visibility of English and Italian compendium packs and login background.
  */
 
 const MODULE_ID = "historia-it";
@@ -24,6 +24,36 @@ Hooks.once("init", () => {
             ui.sidebar.render(true);
         }
     });
+
+    // Register the login background setting
+    game.settings.register(MODULE_ID, "applyLoginBackground", {
+        name: "Apply Historia Login Background / Applica Sfondo Login Historia",
+        hint: "Automatically set the Historia illustration as the login page background. / Imposta automaticamente l'illustrazione di Historia come sfondo della pagina di login.",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        onChange: (value) => {
+            if (value && game.user.isGM) {
+                game.settings.set("core", "loginBackground", `modules/${MODULE_ID}/src/media/Background/historia%20login%20page.webp`);
+            }
+        }
+    });
+});
+
+Hooks.once("ready", () => {
+    if (!game.user.isGM) return;
+
+    const applyBackground = game.settings.get(MODULE_ID, "applyLoginBackground");
+    if (applyBackground) {
+        const currentBackground = game.settings.get("core", "loginBackground");
+        const targetBackground = `modules/${MODULE_ID}/src/media/Background/historia%20login%20page.webp`;
+
+        if (currentBackground !== targetBackground) {
+            game.settings.set("core", "loginBackground", targetBackground);
+            console.log(`${MODULE_ID} | Applied Historia login background.`);
+        }
+    }
 });
 
 Hooks.on("renderCompendiumDirectory", (app, html, data) => {

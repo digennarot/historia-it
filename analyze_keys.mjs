@@ -27,11 +27,18 @@ const unrecognizedSystemKeys = new Set();
 const unrecognizedActivityKeys = new Set();
 const durationKeys = new Set();
 
-const files = fs.readdirSync('.').filter(f => f.startsWith('fvtt-') && f.endsWith('_it.json'));
+function walk(dir, callback) {
+    if (!fs.existsSync(dir)) return;
+    fs.readdirSync(dir).forEach(f => {
+        let dirPath = path.join(dir, f);
+        let isDirectory = fs.statSync(dirPath).isDirectory();
+        isDirectory ? walk(dirPath, callback) : callback(path.join(dir, f));
+    });
+}
 
-for (const file of files) {
-    const data = JSON.parse(fs.readFileSync(file, 'utf-8'));
-    const items = data.items || data.pages || [];
+function analyzeFile(filePath) {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const items = data.items || data.pages || (data.system ? [data] : []);
 
     for (const item of items) {
         const system = item.system || {};
@@ -56,7 +63,9 @@ for (const file of files) {
         if (system.activities && typeof system.activities === 'object') {
             Object.values(system.activities).forEach(act => {
                 Object.keys(act).forEach(k => {
-                    if (!EXPECTED_ACTIVITY_KEYS.has(k)) unrecognizedActivityKeys.add(k);
+                    if (!EXPECTED_ACTIVITY_KEYS.has(k)) {
+                        unrecognizedActivityKeys.add(k);
+                    }
                 });
 
                 if (act.duration && typeof act.duration === 'object') {
@@ -68,6 +77,11 @@ for (const file of files) {
         }
     }
 }
+
+const targetDirs = ['./src/data', './src/packs'];
+targetDirs.forEach(dir => walk(dir, (f) => {
+    if (f.endsWith('.json')) analyzeFile(f);
+}));
 
 console.log("Properties found:", Array.from(propertiesSet).sort());
 console.log("Unrecognized System Keys:", Array.from(unrecognizedSystemKeys).sort());

@@ -112,6 +112,16 @@ async function main() {
                             return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
                         }
                     } catch (e) { }
+
+                    const assetsHistoriaPath = path.join("src/assets/historia", p);
+                    try {
+                        const stats = await fs.stat(assetsHistoriaPath);
+                        if (stats.isFile()) {
+                            const modulePath = path.join("assets/historia", p);
+                            imagesToCopy.set(assetsHistoriaPath, modulePath);
+                            return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
+                        }
+                    } catch (e) { }
                 }
                 return null;
             };

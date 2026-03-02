@@ -1,7 +1,7 @@
 {
   "name": "Attacco Sneak",
   "type": "feat",
-  "img": "icons/skills/da mischia/strike-pugnale-arcane-pink.webp",
+  "img": "assets/icons/historia/sneak_attack_icon_1772486401875.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -235,7 +235,7 @@
           "concentration": false
         },
         "effects": [],
-        "gittata": {
+        "range": {
           "units": "self",
           "special": "",
           "override": false

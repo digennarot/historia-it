@@ -1,7 +1,7 @@
 {
   "name": "Divinità del canale: Guida la mia mano",
   "type": "feat",
-  "img": "icons/skills/da mischia/hand-grip-staff-teal.webp",
+  "img": "icons/skills/melee/hand-grip-staff-teal.webp",
   "effects": [],
   "flags": {
     "betterRolls5e": {
@@ -229,7 +229,7 @@
           "concentration": false
         },
         "effects": [],
-        "gittata": {
+        "range": {
           "units": "self",
           "special": "",
           "override": false

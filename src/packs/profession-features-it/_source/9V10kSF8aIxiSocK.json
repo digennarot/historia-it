@@ -248,7 +248,7 @@
           "concentration": false
         },
         "effects": [],
-        "gittata": {
+        "range": {
           "units": "self",
           "special": "",
           "override": false
@@ -277,7 +277,7 @@
           "max": "",
           "recovery": []
         },
-        "healing": {
+        "heal": {
           "number": 1,
           "denomination": 10,
           "bonus": "@classes.fighter.levels",

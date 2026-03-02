@@ -1,7 +1,7 @@
 {
   "name": "Debilitante Strike",
   "type": "feat",
-  "img": "icons/skills/da mischia/blade-tip-damaged-acid-green.webp",
+  "img": "icons/skills/melee/blade-tip-damaged-acid-green.webp",
   "effects": [],
   "flags": {
     "betterRolls5e": {
@@ -218,7 +218,7 @@
           "concentration": false
         },
         "effects": [],
-        "gittata": {
+        "range": {
           "units": "self",
           "special": "",
           "override": false

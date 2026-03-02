@@ -240,7 +240,7 @@
         }
       }
     },
-    "Armatura": {
+    "armor": {
       "value": 10
     },
     "hp": {
@@ -332,7 +332,7 @@
           },
           "flat": false,
           "type": {
-            "value": "da mischia",
+            "value": "melee",
             "classification": "weapon"
           }
         },

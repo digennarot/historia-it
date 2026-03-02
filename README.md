@@ -36,3 +36,45 @@ Se trovi refusi, errori di traduzione o problemi tecnici con il modulo, sei invi
 
 *   **Autore della conversione/traduzione:** Tiziano Di Gennaro
 *   Il modulo è compatibile con **Foundry VTT versione 11+** ed è specificamente verificato per la **v13**.
+
+---
+
+# Historia - Italian Module for Foundry VTT
+
+This Foundry VTT module provides the **Italian translation** of compendiums and content for the **Historia** setting (D&D 5e system). It includes both translated texts and all necessary media (images and icons) in a standalone format.
+
+## 📦 Installation
+
+You can easily install this module directly from Foundry VTT:
+
+1. Open Foundry VTT and select the **Add-on Modules** tab.
+2. Click the **Install Module** button at the bottom.
+3. Paste the following link in the **Manifest URL** field:
+   ```
+   https://raw.githubusercontent.com/digennarot/historia-it/main/module.json
+   ```
+4. Click **Install**.
+
+## 📖 Translated Content
+
+This module includes the Italian translation for the following compendiums:
+
+*   **Factions and Careers** (Items)
+*   **Items** (Gear and Equipment)
+*   **Profession Features** (Items/Feats)
+*   **Professions** (Items/Classes)
+*   **Species Features** (Items/Species Traits)
+*   **Species** (Items/Races)
+*   **Spells** (Spells)
+*   **Ventures** (Items/Ventures)
+*   **Factions** (Journal Entries)
+
+## 🐛 Bug Reporting and Contacts
+
+If you find any typos, translation errors, or technical issues with the module, you are invited to open an [Issue](https://github.com/digennarot/historia-it/issues) on this GitHub repository.
+
+## ⚖️ License and Acknowledgments
+
+*   **Conversion/Translation Author:** Tiziano Di Gennaro
+*   The module is compatible with **Foundry VTT version 11+** and is specifically verified for **v13**.
+

@@ -186,7 +186,7 @@
     "equipped": false,
     "rarity": "",
     "identified": true,
-    "gittata": {
+    "range": {
       "value": null,
       "long": null,
       "units": "ft",
@@ -225,7 +225,7 @@
         }
       }
     },
-    "Armatura": {
+    "armor": {
       "value": 10
     },
     "hp": {
@@ -271,7 +271,7 @@
           "concentration": false
         },
         "effects": [],
-        "gittata": {
+        "range": {
           "units": "self",
           "override": false
         },
