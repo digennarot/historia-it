@@ -29,7 +29,6 @@ jobs:
             echo "Please ensure you have added the 'SOPS_AGE_KEY' secret to your repository settings."
             exit 1
           fi
-          echo "Debug: SOPS_AGE_KEY length is $(echo -n "$SOPS_AGE_KEY" | wc -c) characters."
           DIST_REPO_PAT=$(sops -d --extract '["DIST_REPO_PAT"]' secrets.enc.yaml)
           echo "::add-mask::$DIST_REPO_PAT"
           echo "DIST_REPO_PAT=$DIST_REPO_PAT" >> $GITHUB_ENV
