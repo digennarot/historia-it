@@ -37,25 +37,29 @@ jobs:
         id: extract_version
         run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
 
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build both versions
+        run: npm run build:all
+
       - name: Substitute version in module.json
         run: |
-          # Replace the version in module.json with the tag version
-          sed -i 's/"version": ".*"/"version": "${{ steps.extract_version.outputs.VERSION }}"/g' historia-it/module.json
-          # Replace the download link if it relies on a specific tag
+          sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.extract_version.outputs.VERSION }}\"/g" historia-it/module.json
           sed -i "s|/releases/latest/download/historia-it.zip|/releases/download/v${{ steps.extract_version.outputs.VERSION }}/historia-it.zip|g" historia-it/module.json
+          sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.extract_version.outputs.VERSION }}\"/g" historia-en/module.json
+          sed -i "s|/releases/latest/download/historia-en.zip|/releases/download/v${{ steps.extract_version.outputs.VERSION }}/historia-en.zip|g" historia-en/module.json
 
-      - name: Create ZIP archive
+      - name: Create ZIP archives
         run: |
           mkdir -p zip-output
-          # Copy only the generated module files
-          cp -r historia-it zip-output/
-          cd zip-output
-          zip -r historia-it.zip historia-it/
+          zip -r zip-output/historia-it.zip historia-it/
+          zip -r zip-output/historia-en.zip historia-en/
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'zip-output/historia-it.zip,historia-it/module.json'
+          artifacts: 'zip-output/historia-it.zip,historia-it/module.json,zip-output/historia-en.zip,historia-en/module.json'
           token: ${{ secrets.GITHUB_TOKEN }}
           name: Release ${{ steps.extract_version.outputs.VERSION }}
           tag: v${{ steps.extract_version.outputs.VERSION }}

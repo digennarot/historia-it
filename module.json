@@ -1,7 +1,7 @@
 {
   "id": "historia-it",
   "title": "Historia (Italiano)",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "compatibility": {
     "minimum": 11,
     "verified": 13
@@ -12,9 +12,8 @@
     }
   ],
   "description": "Italian translation packs for Historia.",
-  "url": "https://github.com/digennarot/historia-it",
   "manifest": "https://raw.githubusercontent.com/digennarot/historia-it/main/module.json",
-  "download": "https://github.com/digennarot/historia-it-dist/releases/download/v1.0.5/historia-it.zip",
+  "download": "https://github.com/digennarot/historia-it-dist/releases/download/v1.0.6/historia-it.zip",
   "esmodules": [
     "scripts/main.js"
   ],
@@ -24,6 +23,14 @@
       "label": "Fazioni e Carriere (IT)",
       "path": "packs/factions-and-careers-it",
       "type": "Item",
+      "system": "dnd5e",
+      "folder": "Historia"
+    },
+    {
+      "name": "factions-it",
+      "label": "Fazioni (IT)",
+      "path": "packs/factions-it",
+      "type": "JournalEntry",
       "system": "dnd5e",
       "folder": "Historia"
     },
@@ -80,14 +87,6 @@
       "label": "Imprese (IT)",
       "path": "packs/ventures-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "factions-it",
-      "label": "Fazioni (IT)",
-      "path": "packs/factions-it",
-      "type": "JournalEntry",
       "system": "dnd5e",
       "folder": "Historia"
     }

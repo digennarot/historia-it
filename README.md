@@ -1,8 +1,14 @@
-# Historia - Modulo in Italiano per Foundry VTT
+# Historia - Modulo per Foundry VTT
 
-Questo modulo per Foundry VTT offre la **traduzione in italiano** dei compendi e dei contenuti per l'ambientazione **Historia** (sistema D&D 5e). Include sia i testi tradotti che tutti i media necessari (immagini e icone) in formato standalone.
+Questo repository contiene sia la versione Italiana che quella Inglese dei contenuti per l'ambientazione **Historia** (sistema D&D 5e). Include sia i testi che tutti i media necessari (immagini e icone) in formato standalone.
 
-## 📦 Installazione
+---
+
+## 🇮🇹 Historia (Italiano)
+
+Questo modulo offre la **traduzione in italiano** dei compendi e dei contenuti.
+
+### 📦 Installazione
 
 Puoi installare facilmente questo modulo direttamente da Foundry VTT:
 
@@ -14,67 +20,50 @@ Puoi installare facilmente questo modulo direttamente da Foundry VTT:
    ```
 4. Clicca su **Installa**.
 
-## 📖 Contenuti Tradotti
+### Installazione Manuale
 
-Questo modulo include la traduzione italiana dei seguenti compendi:
-
-*   **Factions and Careers** (Oggetti)
-*   **Items** (Oggetti e Equipaggiamento)
-*   **Profession Features** (Oggetti/Talenti)
-*   **Professions** (Oggetti/Classi)
-*   **Species Features** (Oggetti/Tratti Specie)
-*   **Species** (Oggetti/Razze)
-*   **Spells** (Incantesimi)
-*   **Ventures** (Oggetti/Imprese)
-*   **Factions** (Voci di Diario)
-
-## 🐛 Segnalazione Bug e Contatti
-
-Se trovi refusi, errori di traduzione o problemi tecnici con il modulo, sei invitato ad aprire una [Issue](https://github.com/digennarot/historia-it/issues) su questo repository GitHub. 
-
-## ⚖️ Licenza e Riconoscimenti
-
-*   **Autore della conversione/traduzione:** Tiziano Di Gennaro
-*   Il modulo è compatibile con **Foundry VTT versione 11+** ed è specificamente verificato per la **v13**.
+1. Vai alla pagina dei [rilasci](https://github.com/digennarot/historia-it-dist/releases) e scarica il file `historia-it.zip` dell'ultima versione.
+2. Estrai il contenuto nella cartella `Data/modules/historia-it` all'interno del percorso dei dati utente di Foundry VTT.
 
 ---
 
-# Historia - Italian Module for Foundry VTT
+## 🇬🇧 Historia (English)
 
-This Foundry VTT module provides the **Italian translation** of compendiums and content for the **Historia** setting (D&D 5e system). It includes both translated texts and all necessary media (images and icons) in a standalone format.
+This module provides the **original English content** with all the bundled media.
 
-## 📦 Installation
+### 📦 Installation
 
-You can easily install this module directly from Foundry VTT:
+You can install the English version using the following Manifest URL:
 
 1. Open Foundry VTT and select the **Add-on Modules** tab.
 2. Click the **Install Module** button at the bottom.
-3. Paste the following link in the **Manifest URL** field:
+3. Incolla il seguente link nel campo **URL Manifesto**:
    ```
-   https://raw.githubusercontent.com/digennarot/historia-it/main/module.json
+   https://raw.githubusercontent.com/digennarot/historia-en/main/module.json
    ```
-4. Click **Install**.
+   *(Assicurati che l'URL punti al repository corretto per la versione inglese)*
 
-## 📖 Translated Content
+### Manual Installation
 
-This module includes the Italian translation for the following compendiums:
+1. Scarica il file `historia-en.zip` dalla pagina dei rilasci.
+2. Estrai il contenuto nella cartella `Data/modules/historia-en`.
 
-*   **Factions and Careers** (Items)
-*   **Items** (Gear and Equipment)
-*   **Profession Features** (Items/Feats)
-*   **Professions** (Items/Classes)
-*   **Species Features** (Items/Species Traits)
-*   **Species** (Items/Races)
-*   **Spells** (Spells)
-*   **Ventures** (Items/Ventures)
-*   **Factions** (Journal Entries)
+---
 
-## 🐛 Bug Reporting and Contacts
+## 🛠️ Build and Development
 
-If you find any typos, translation errors, or technical issues with the module, you are invited to open an [Issue](https://github.com/digennarot/historia-it/issues) on this GitHub repository.
+Se desideri compilare il modulo dai sorgenti, puoi usare i seguenti comandi dopo aver installato le dipendenze con `npm install`:
 
-## ⚖️ License and Acknowledgments
+- Build versione Italiana: `npm run build:it`
+- Build versione Inglese: `npm run build:en`
+- Build entrambe: `npm run build:all`
 
-*   **Conversion/Translation Author:** Tiziano Di Gennaro
-*   The module is compatible with **Foundry VTT version 11+** and is specifically verified for **v13**.
+## 🐛 Segnalazione Bug e Contatti
+
+Se trovi refusi, errori o problemi tecnici, apri una [Issue](https://github.com/digennarot/historia-it/issues) su questo repository. 
+
+## ⚖️ Licenza e Riconoscimenti
+
+*   **Autore della conversione:** Tiziano Di Gennaro
+*   Compatibile con **Foundry VTT versione 11+** (verificato per **v13**).
 
