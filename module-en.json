@@ -1,7 +1,7 @@
 {
     "id": "historia-en",
     "title": "Historia (English)",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "compatibility": {
         "minimum": 11,
         "verified": 13
@@ -12,8 +12,8 @@
         }
     ],
     "description": "English module for Historia.",
-    "manifest": "https://raw.githubusercontent.com/digennarot/historia-en-dist/main/module.json",
-    "download": "https://github.com/digennarot/historia-en-dist/releases/latest/download/historia-en.zip",
+    "manifest": "https://github.com/digennarot/historia-it/releases/latest/download/module-en.json",
+    "download": "https://github.com/digennarot/historia-it/releases/latest/download/historia-en.zip",
     "esmodules": [
         "scripts/main.js"
     ],
