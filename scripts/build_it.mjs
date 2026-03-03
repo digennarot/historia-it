@@ -224,7 +224,7 @@ async function main() {
         const collection = TYPE_TO_COLLECTION[pack_type] || "items";
 
         const tempSrcDir = path.join("temp_packs", pack_name);
-        const outDir = path.join("packs", pack_name);
+        const outDir = path.join("historia-it", "packs", pack_name);
         await fs.mkdir(tempSrcDir, { recursive: true });
 
         let itemCount = 0;
@@ -297,7 +297,7 @@ async function main() {
 
     // Copy runtime scripts
     try {
-        await copyFileAndDirs("src/scripts/main.js", "scripts/main.js");
+        await copyFileAndDirs("src/scripts/main.js", "historia-it/scripts/main.js");
         console.log("Copied runtime scripts.");
     } catch (e) {
         console.error("Failed to copy runtime scripts:", e);

@@ -37,16 +37,16 @@ You can install the English version using the following Manifest URL:
 
 1. Open Foundry VTT and select the **Add-on Modules** tab.
 2. Click the **Install Module** button at the bottom.
-3. Incolla il seguente link nel campo **URL Manifesto**:
+3. Paste the following link into the **Manifest URL** field:
    ```
    https://raw.githubusercontent.com/digennarot/historia-en/main/module.json
    ```
-   *(Assicurati che l'URL punti al repository corretto per la versione inglese)*
+   *(Make sure the URL points to the correct repository for the English version)*
 
 ### Manual Installation
 
-1. Scarica il file `historia-en.zip` dalla pagina dei rilasci.
-2. Estrai il contenuto nella cartella `Data/modules/historia-en`.
+1. Download the `historia-en.zip` file from the releases page.
+2. Extract the contents into the `Data/modules/historia-en` folder.
 
 ---
 
