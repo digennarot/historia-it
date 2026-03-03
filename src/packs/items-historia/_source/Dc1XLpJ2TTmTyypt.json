@@ -1,0 +1,97 @@
+{
+  "name": "Cook's Utensils",
+  "type": "tool",
+  "img": "icons/tools/cooking/spatula.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.Gflnp29aEv5Lc1ZM"
+    },
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickCheck": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickCharges": {
+        "value": {
+          "quantity": false
+        },
+        "altValue": {
+          "quantity": false
+        }
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>These special tools include the items needed to pursue a craft or trade in cookery.</p>\n<p>Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 154",
+    "quantity": 1,
+    "weight": 8,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "",
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210525,
+    "modifiedTime": 1673573973572,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Dc1XLpJ2TTmTyypt"
+}

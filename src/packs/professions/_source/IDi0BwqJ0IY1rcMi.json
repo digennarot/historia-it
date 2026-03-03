@@ -1,0 +1,481 @@
+{
+  "name": "Scoundrel",
+  "type": "class",
+  "img": "media/Professions/scoundrel.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.oM2w7xuYBvPcJG7J"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>While there is only one way to follow the law, there exist many to <span class=\"fontstyle0\">get around it: a thin blade stuck between someone’s ribs, a quick shuffle of the cards, confident that gullible players will not notice anything, even the strained ear of someone who simply knows they are in the right place and at the right time… Scoundrels are equally varied, and whether they are spies, thieves, charlatans, assassins or anything else, their common trait is a sharp cunning that allows them to get away with anything and in every situation. Those who choose the least </span>noble profession of Vesteria have great reflexes, a sharp <span class=\"fontstyle0\">mind and lack of scruples: elusive, determined and pragmatic, scoundrels know how to exploit every opportunity to their advantage, always trying to expose themselves as little as possible, whether in combat or another situation. A job well done is precisely that in which the victim has noticed nothing, and the scoundrel has slipped away without drawing attention to themselves. They are often extremely methodical in planning their shady initiatives, and this makes them formidable enemies and valuable allies. Anyone who counts them in the latter category, however, must be very careful: the loyalty of a scoundrel is as changeable as a Spring day</span></p><h1><span class=\"fontstyle0\">Class Features</span></h1><p>As a  <span class=\"fontstyle0\">scoundrel </span>you gain the following class features.</p><p><span class=\"fontstyle0\"><strong>Hit Points</strong></span><br /><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em>1d8 per scoundrel level <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Hit Points at 1st Level:</strong></em> 8 + your Constitution modifier<br /><em><strong>Hit Points at Higher Levels:</strong></em> 1d8 (or 5) + </span>Constitution <span class=\"fontstyle0\">modifier per scoundrel level after 1st</span></p><p><strong>Proficiencies</strong><br /><em><strong>Armor:</strong></em><strong> </strong> <span class=\"fontstyle0\">Light armor</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Weapons:</strong> </em>Simple weapons<span class=\"fontstyle0\">, duelling sword, saber, sidesword, sword</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Tools:</strong></em>  <span class=\"fontstyle0\">Thieves’ tools</span><br /><em><strong> </strong></em><span class=\"fontstyle0\"><em><strong>Languages: </strong></em></span><span class=\"fontstyle2\">a code language of an association</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Saving Throws: </strong></em> <span class=\"fontstyle0\">Dexterity, Intelligence</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Skills:</strong></em> Four to choose from Acrobatics, Athletics, Stealth, <span class=\"fontstyle0\">Investigation, Deception, Intimidation, Performance, Insight, Perception, Persuasion and Sleight of Hand</span></p><p><strong>Equipment</strong><br /><span class=\"fontstyle0\">A scoundrel starts with the following equipment, in addition to the equipment provided by their venture:</span></p><ul><li><span class=\"fontstyle0\">(a) a saber or (b) a sword</span></li><li><span class=\"fontstyle0\">(a) a bow and a quiver with 20 arrows or (b) a simple weapon</span></li><li><span class=\"fontstyle0\">(a) a burglar’s pack, (b) a dungeoneer’s pack or (c) an explorer’s pack</span></li><li><span class=\"fontstyle0\">A padded tabard, a knife and thieves’ tools</span></li></ul><h1>Scoundrel Advancement</h1><table style=\"height:353px;width:98.9399%\"><tbody><tr style=\"height:33px\"><td style=\"width:4.4985%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Level</td><td style=\"width:7.63901%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Proficiency Bonus</td><td style=\"width:33.9119%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Features</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">1</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.yHVqUgYNSoJym2GD]{Sneak Attack}, @Compendium[world.profession-features.SmHa9vFwFtN3OjTO]{Subtle Mastery}</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">2</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.z1rGxVj9GlpohnzT]{Cunning Action}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">3</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.ZLi1iMohq7hDP6mK]{Scoundrel Job}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">4</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">5</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.VARcXwXNfCr7JCXP]{Lethality (2)}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">6</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.kNNwobqZ2PAlfWmu]{Unseizable}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">7</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.mh6HNLRgEwU5JNMc]{Elusive}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">8</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">9</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Scoundrel Job</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">10</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.Un4jo7G2ngQZlhgH]{Reliable Preparation}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">11</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.VARcXwXNfCr7JCXP]{Lethality (3)}, @Compendium[world.profession-features.3e81kJRZNO9oOLgN]{Part of the Plan}</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">12</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">13</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Scoundrel Job</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">14</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.lyoiB0PVYfUuCG1J]{Receding Mind}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">15</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.kSk3Y1yuinKHWHwN]{Vanish}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">16</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">17</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.VARcXwXNfCr7JCXP]{Lethality (4)}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">18</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Scoundrel Job</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">19</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">20</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.VARcXwXNfCr7JCXP]{Lethality (5)}, @Compendium[world.profession-features.PAZBeAzxwZpkzZow]{Alone Against All}</span></td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 176",
+    "identifier": "scoundrel",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "Q8tLl4cYDWU1wZ0E",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "9PEaHB09PjTz7Tg5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.yHVqUgYNSoJym2GD",
+            "Compendium.world.profession-features.SmHa9vFwFtN3OjTO"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "zcksQFr7M7bYhiQq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Lethality X3"
+      },
+      {
+        "_id": "8RNhDb45bEPWYA53",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.z1rGxVj9GlpohnzT"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "aIzMD8w4mMPFwyOv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.ZLi1iMohq7hDP6mK"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass"
+      },
+      {
+        "_id": "zn1xguSSjYhNavvE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "jJcywnRJWxVCPWjE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.VARcXwXNfCr7JCXP"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Lethality X2"
+      },
+      {
+        "_id": "dAHase2K7dNRFiJ7",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "sneak",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": "1"
+            },
+            "5": {
+              "value": "2"
+            },
+            "11": {
+              "value": "3"
+            },
+            "17": {
+              "value": "4"
+            },
+            "20": {
+              "value": "5"
+            }
+          }
+        },
+        "value": {},
+        "title": "Sneak Attack"
+      },
+      {
+        "_id": "6dyI5eHWgMZVbESB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.kNNwobqZ2PAlfWmu"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "B7V1KRhn2Be1zwuX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.mh6HNLRgEwU5JNMc"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Hv44rkkXKkIF2lJe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "ukRoe227Twk7riLy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.Un4jo7G2ngQZlhgH"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "yT4fy5W5PUOYtI0r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.3e81kJRZNO9oOLgN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "gCkALPEPubpd3pPd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.lyoiB0PVYfUuCG1J"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "npo7NYaBHOScR1fX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "zg9jkPTb9bbD11qt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.kSk3Y1yuinKHWHwN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "2zsDmWJdEESF3irM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "j4norJHHIRcHaZut",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Lethality X4"
+      },
+      {
+        "_id": "7mzk8BQ2EBjE3RNP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "Eac889V76bSARRss",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Lethality X5"
+      },
+      {
+        "_id": "dG3TE05oY5Fu242m",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.PAZBeAzxwZpkzZow"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Grant Ability"
+      }
+    ],
+    "saves": [
+      "dex",
+      "int"
+    ],
+    "skills": {
+      "number": 4,
+      "choices": [
+        "acr",
+        "ath",
+        "dec",
+        "ins",
+        "itm",
+        "inv",
+        "prc",
+        "prf",
+        "per",
+        "slt",
+        "ste"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207433,
+    "modifiedTime": 1680913131939,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "IDi0BwqJ0IY1rcMi"
+}

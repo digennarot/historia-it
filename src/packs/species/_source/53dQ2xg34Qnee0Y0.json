@@ -1,0 +1,232 @@
+{
+  "name": "Robins",
+  "type": "feat",
+  "img": "modules/historia/Species/Robins.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Small? Sure. Fearsome? I’ll say! Combative? Most of all. Robins forget their small size and devote themselves to the craft of weapons with more ardor than many other creatures bigger than themselves. What particularly attracts them about the art of war is not so much the great coordinated maneuvers on the battlefield, or the study of strategy, or even the wild pride in ousting an invader: it is the challenge itself, the song of steel against steel , the new technology captured from an opponent, the thrill of victory. Many consider this almost “sporty” attitude towards battle as childish, but Robins are born duelists, and there is no greater joy for them than facing a contender of their height and being able to test their surprising ability. They </span>are considered, and with good reason, among the best tournament fighters ever seen, and their amazing and daring </span><span class=\"fontstyle0\">deeds fill the mouths of bards, commoners and noblemen with the same frequency and excitement. It is difficult to interact with these Avian fighters in a non-antagonistic way, since they always seem to have something to prove, but it is worth trying, since the friendship of a Robin can prove decisive in more ways than one.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Dexterity </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Pici reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 20 feet, and your <span class=\"fontstyle0\">flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Robin can reach a maximum height of 2 1/2 feet, <span class=\"fontstyle0\">and weigh no more than 45 lbs.</span>  <span class=\"fontstyle2\">Your size is  <span class=\"fontstyle0\">Small</span>.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Singer.</strong></em> </span><span class=\"fontstyle2\">You have expertise in the use of your voice which is considered a musical instrument.</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZQMtMEJZdQJ2v63O]{Social Skills}<br /></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.K3vkJOhbY84KuNmD]{Maneuvers in Flight}</span></p>\n<p>@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Acute Sight}</p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.jchtkg1ifYb1grFF]{Courage}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.p9KCNI8RdCDY7zkg]{Fiery Spirit}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Harmless (Prey):</strong></em> </span><span class=\"fontstyle4\">“I am often not taken seriously.”</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Instinct of Species, Competitive: </strong></em>“</span><span class=\"fontstyle2\">I always look for an opponent to challenge and beat”.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 106",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Pici Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205495,
+    "modifiedTime": 1680908017233,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "53dQ2xg34Qnee0Y0"
+}

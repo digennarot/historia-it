@@ -1,0 +1,114 @@
+{
+  "flags": {
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.nhx8LspcVmTIdSee"
+    }
+  },
+  "type": "spell",
+  "img": "icons/magic/air/fog-gas-smoke-swirling-white.webp",
+  "name": "Puff of Smoke",
+  "system": {
+    "description": {
+      "value": "<p>By harnessing the elemental power of air, you warp nearby air into obscuring smoke. One creature you can see within range must make a Dexterity saving throw. If it fails, the creature is @Compendium[combat-utility-belt.conditionsdnd5e.oScVqOHJt5SQszVl]{Blinded} until the start of your next turn. <em>Puff of smoke</em> has no effect on creatures that have tremorsense or blindsight.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DM",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1674414046090,
+    "modifiedTime": 1674414111064,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "LyNofPJ3rQEVctfX"
+}

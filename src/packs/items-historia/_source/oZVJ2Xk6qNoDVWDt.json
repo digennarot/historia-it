@@ -1,0 +1,36 @@
+{
+  "name": "Alchemical Focus",
+  "type": "loot",
+  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.J3uaQoh5mQCmQOhU"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A regular geometric shape.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 123",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210703,
+    "modifiedTime": 1673573973775,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "oZVJ2Xk6qNoDVWDt"
+}

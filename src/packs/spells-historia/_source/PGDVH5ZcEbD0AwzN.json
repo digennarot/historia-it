@@ -1,0 +1,106 @@
+{
+  "name": "Warding Wind",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>A strong wind (20 miles per hour) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell's duration.</p><div class=\"rd__spc-inline-post\"></div><p>The wind has the following effects:</p><ul class=\"rd__list\"><li class=\"rd__li \">It @condition[deafened||deafens] you and other creatures in its area.</li><li class=\"rd__li \">It extinguishes unprotected flames in its area that are torch-sized or smaller.</li><li class=\"rd__li \">It hedges out vapor, gas, and fog that can be dispersed by strong wind.</li><li class=\"rd__li \">The area is difficult terrain for creatures other than you.</li><li class=\"rd__li \">The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of the wind.</li></ul></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "self",
+      "type": "self"
+    },
+    "range": {
+      "value": 0,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "img": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "XGE",
+      "hash": "warding%20wind_xge",
+      "propDroppable": "spell"
+    },
+    "core": {
+      "sourceId": "Item.ktZbUwC9ZkVDzE2X"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671319870185,
+    "modifiedTime": 1673573979707,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "PGDVH5ZcEbD0AwzN"
+}

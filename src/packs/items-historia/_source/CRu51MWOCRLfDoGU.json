@@ -1,0 +1,36 @@
+{
+  "name": "String",
+  "type": "loot",
+  "img": "icons/sundries/survival/rope-wrapped-red.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.ff855s9hODTDEunM"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>10 feet of string</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210522,
+    "modifiedTime": 1673573973569,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "CRu51MWOCRLfDoGU"
+}

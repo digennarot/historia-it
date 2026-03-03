@@ -1,0 +1,36 @@
+{
+  "name": "Tome",
+  "type": "loot",
+  "img": "icons/sundries/books/book-worn-teal.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.qlkeaOtZ7n8ktPkp"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A tome of an interesting topic.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 172",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210582,
+    "modifiedTime": 1673573973641,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "P9WYeAzZU2udtob9"
+}

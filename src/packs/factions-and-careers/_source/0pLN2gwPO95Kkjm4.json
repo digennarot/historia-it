@@ -1,0 +1,241 @@
+{
+  "name": "Faction: Circle of Whispers",
+  "type": "feat",
+  "img": "media/Factions/Circle of Whispers.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.2Vzr66eFEbAgNDZw"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Faction Information</h2>\n<p>@Compendium[world.historia-factions.zrbqGMehNswfRkON]{Circle of Whispers}</p>\n<h2><span class=\"fontstyle0\">RANK 0 - DISCIPLE<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Discover the existence of the Circle or be invited by </span><span class=\"fontstyle3\">a member.</span></p>\n<p><span class=\"fontstyle3\">You learn about the basic mechanics of the Circle of Whispers. Usually, they do not have relations with the other members and are sent code messages containing indications on small and precise tasks to be performed. Disciples are then rewarded with money for completing the assigned task, without ever knowing who delivers it to them.</span></p>\n<h2><span class=\"fontstyle0\">RANK 1 - WHISPER COLLECTOR<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fame earned in the Faction to spend</strong></em>: </span><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Becoming aware of a secret useful to the Faction and outside of one’s duties.<br /></span></p>\n<p><span class=\"fontstyle3\">You becomes an effective agent of the Circle and are employed in more delicate and difficult tasks. You may be introduced to other members, with whom you can communicate to carry out more complex assignments. You also learn about the existence of a safe haven run by a Circle member, usually a merchant’s shop outfitted with a secret hideout, and can call for help if needed - even if the Circle is not known for compassion and merciful cordiality towards low-ranking members. Upon reaching this Rank within the Faction, you will receive a mark that identifies you as a member, usually a hidden tattoo, called a Sign.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 2 - MASTER OF SECRETS<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Resolving an unpleasant situation for the Circle.</span></p>\n<p><span class=\"fontstyle3\"> You have become a master in the art of information and espionage, and are responsible for a network of lower-ranking informants and must deal with managing the information of a specific area. You are entrusted with important secrets within the Circle.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Special, Master of Secrets.</strong></em> </span><span class=\"fontstyle3\">You can spend inspiration to learn an NPC’s secret, even one not directly known, as a result of your underlings’ work, which the GM may decide to play as a flashback. The importance of the secret is determined by the result of an Intelligence (Investigation) or Charisma (Persuasion) check subject to GM discretion. A low result will reveal a minor secret, while a high result will reveal an important or dangerous secret, depending on the NPC’s narrative or prominence.</span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - DARK CONFIDANT<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">To meet Apopi of Whispers and amaze her with your results.<br /></span></p>\n<p><span class=\"fontstyle3\">You gain the good grace of the Apopi of Whispers, founder of the Circle and Supreme Master of Secrets, becoming their confidant and personal agent Important resources are dedicated to the you and your protection is seen by the Faction, as you can rely on a large number of followers under their direct command. The role, however, also entails great responsibilities and expectations: while safe from the outside, the Faction does not tolerate mistakes from its high-level members. If you stand out in this Faction rank, you may ultimately compete directly with Apopi over leadership of the Circle.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 212",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210278,
+    "modifiedTime": 1680916441290,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "0pLN2gwPO95Kkjm4"
+}

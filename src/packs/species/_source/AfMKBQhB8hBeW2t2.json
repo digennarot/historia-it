@@ -1,0 +1,218 @@
+{
+  "name": "Pelicans",
+  "type": "feat",
+  "img": "modules/historia/Species/Pelicans.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Pelicans know they are strong, and do not hesitate to put this force to the service of the weakest. They have a great spirit of sacrifice; they do not fear the judgment of others and are willing to do the right thing even when it could bring them harm. Their altruistic and fearless temperament makes them the backbone of any rescue or protection service of the community: Pelicans are born protectors, and they will fight with merit, without ever exceeding in zeal or violence. However, these brave Avians do not always have a good relationship with regulations, especially with those that they perceive as being unfair, and have the tendency to do as they please if put in front of rigid and, in their eyes, unreasonable laws. These Anseri are also skilled sailors and have an innate harmony with the weather, which they can “read” like no other, managing to evaluate with confidence whether they will face a storm or calm weather. Many captains are willing to pay substantial wages to secure a Pelican boatswain, and success often smiles upon expeditions that sail with one of them onboard.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Constitution </span>score increases by 1 and your Wisdom<span class=\"fontstyle0\"> </span>score increases by 2.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>An Anseri reaches maturity at around 12 years <span class=\"fontstyle0\">of age and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 15 feet, your flying </span><span class=\"fontstyle0\">speed is 30 feet, and your swimming speed is 35 feet.</span></p>\n<p><em><strong><span class=\"fontstyle0\">Size. </span></strong></em><span class=\"fontstyle2\">A Pelican can reach a height of between 4 feet and 5 1/2 feet, and weigh between 65 lbs and 90 lbs.  Your size is Medium.</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.9tSBClRGsMUrRPQw]{Clumsy}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5a9slEU5BRDefy5v]{Internal Compass}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.p9KCNI8RdCDY7zkg]{Fiery Spirit}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.A8s7NDJ3WeiNWtrh]{Webbed Legs}</span></p>\n<p>@Compendium[world.species-features.u52iaPMvBB60aKCx]{Sack Beak}</p>\n<p>@Compendium[world.species-features.VEvStOvmqLzFCrAv]{Sailor}</p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Migrator (Prey):</strong></em> </span><span class=\"fontstyle4\">“I am looking for the best environment for me, I shy away from hostile environments”</span></p>\n<p><span class=\"fontstyle4\"><em><strong>Instinct of Species, Defender:</strong></em> “I defend anyone who is unable to defend themselves.”</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 97",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Anseri Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205507,
+    "modifiedTime": 1680907903801,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "AfMKBQhB8hBeW2t2"
+}

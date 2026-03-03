@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Devotion",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>As the last cub of the litter,<br />two were the paths open for him:<br />The Cross of Bones and the monastery,<br />or the sword.<br />He chose both.<br />And he was a shining example of both.</strong></span></p><p><span class=\"fontstyle2\">Many cadet children, orphans, indigents, war veterans or other similarly unfortunate creatures, look to the high vaults of religious temples as the only choice to achieve a dignified life. Where many turn their lives to the service of the divine, this service can take many forms. Most of these believers devote themselves to this life with commitment and sincerity, but not all are content with a piece of bread on the table and a cell where to rest. True Faith is something you cannot teach. Doctrine and all the rituals of worship are one thing, but true faith is something else. Either it is already present in the heart of the individual or it’s a mere pantomime.</span></p><p><span class=\"fontstyle2\">Those who choose the venture of devotion have this uncommon gift and follow the path that leads to holy deeds with their heads held high, large or small they may be. Animated by high ideals, the followers of Devotion do not know fear or discouragement, because they know that the divine hand follows and guides them wherever they go.</span></p><p><span class=\"fontstyle2\">@Compendium[world.ventures.njxD6HaD4dWg7gti]{Prominence: Spark of Light}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">Your creation or artistic competence that tells your faith</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Common clothes, a breviary, a tool chosen from a calligrapher, a painter or a musical instrument.</span></li></ul><p><span class=\"fontstyle0\"><strong>Proficiency</strong>: </span><span class=\"fontstyle2\">chosen tool.<br /></span><span class=\"fontstyle0\"><strong>Coinage</strong> </span><span class=\"fontstyle2\">10</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong></em>. </span><span class=\"fontstyle3\">What do you believe in with all your heart?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Who taught you the precepts of your devotion? Who guides you or instills doubts into you?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw.</strong></em> </span><span class=\"fontstyle3\">What are you willing to step on for what you believe in? And what would you sacrifice?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle3\">How do you demonstrate what you have devotion to?</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 193",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.njxD6HaD4dWg7gti"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825186045,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "EQVKo8c2oZT7dTms"
+}

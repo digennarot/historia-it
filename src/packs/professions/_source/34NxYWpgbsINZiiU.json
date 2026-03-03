@@ -1,0 +1,120 @@
+{
+  "name": "Hitman",
+  "type": "subclass",
+  "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Sometimes diplomacy is not enough to solve certain thorny situations, and it is in these cases that hitmen are called to the job. Deadly and efficient, they always know how to move to achieve their dark goal. Their arsenal includes weapons of all kinds, from blades to poisons, to which they are particularly attuned, and anyone who has even the impression of having become the target of a hitman should put their mind at ease and start thinking about drafting a will: escaping from their deadly arts is practically impossible.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 178",
+    "identifier": "hitman",
+    "classIdentifier": "scoundrel",
+    "advancement": [
+      {
+        "_id": "rheq9AWsbHfdT75W",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.VGaOnGufJzUSLYt8"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "jNAnZlwDSiWDCKOx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.kixeU08fpTVVhrTx"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8zjclX6RlfwcrPIl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.8nfX4K5O42QL0bRB"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Fgjrtpfux13LOjuc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.iI1BTWv47x3SyCnh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.kCnP4CQbxsuNt10H"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671158599641,
+    "modifiedTime": 1673573969061,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "34NxYWpgbsINZiiU"
+}

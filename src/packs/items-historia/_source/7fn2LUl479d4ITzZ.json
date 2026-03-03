@@ -1,0 +1,42 @@
+{
+  "name": "Burglar's Pack",
+  "type": "loot",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p>Includes:</p><ul class=\"rd__list\"><li class=\"rd__li \">a @item[backpack|phb]</li><li class=\"rd__li \">a @item[Ball Bearings (Bag of 1,000)|phb|bag of 1,000 ball bearings]</li><li class=\"rd__li \">10 feet of string</li><li class=\"rd__li \">a @item[bell|phb]</li><li class=\"rd__li \">5 @item[candle|phb|candles]</li><li class=\"rd__li \">a @item[crowbar|phb]</li><li class=\"rd__li \">a @item[hammer|phb]</li><li class=\"rd__li \">10 @item[piton|phb|pitons]</li><li class=\"rd__li \">a @item[hooded lantern|phb]</li><li class=\"rd__li \">2 @item[Oil (flask)|phb|flasks of oil]</li><li class=\"rd__li \">5 days @item[Rations (1 day)|phb|rations]</li><li class=\"rd__li \">a @item[tinderbox|phb]</li><li class=\"rd__li \">a @item[waterskin|phb]</li><li class=\"rd__li \">@item[Hempen Rope (50 feet)|phb|50 feet of hempen rope]</li></ul></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "quantity": 1,
+    "weight": 44.5,
+    "price": {
+      "value": 16,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": false
+  },
+  "img": "icons/containers/bags/pack-canvas-white-brown.webp",
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "PHB",
+      "hash": "burglar's%20pack_phb",
+      "propDroppable": "item"
+    },
+    "core": {
+      "sourceId": "Item.C8AtFc4iDqoF2hbx"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673703997425,
+    "modifiedTime": 1673704043093,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "7fn2LUl479d4ITzZ"
+}

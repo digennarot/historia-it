@@ -1,0 +1,120 @@
+{
+  "name": "Iatro",
+  "type": "subclass",
+  "img": "media/Professions/psychic-warrior.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">There is no greater and more fascinating mystery than the complex, exquisite machine that is the living body, and a Iatro dedicates themselves to studying it with the ardor of a zealot. In contrast to the philosophy of the Vitalists, Iatris are determined to defeat any physical or spiritual evil, which is why the followers of this branch of alchemy defiantly challenge even the greatest evil: death. With their arts they can take hold those who lean too far beyond the threshold of the living world, even if this miracle often requires a high price…</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 126",
+    "identifier": "iatro",
+    "classIdentifier": "alchemist",
+    "advancement": [
+      {
+        "_id": "jJPdw7NrNHoh9SHZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.YYpkj7awdTyOzASM"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "sjjFksq8PLEaQ3oC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.B5vHjB81DR4uue5n"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "UcdRk1sWPpiUjX7n",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.sagm3WE1ALQLUt6W"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "zUR8o7ciJ1n9y5iv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.U2G022zSKxNXDBFn"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.w2XykjkukL0KqNeJ"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670898038826,
+    "modifiedTime": 1680913204041,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "hRdtGfZaPWgORAnn"
+}

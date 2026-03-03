@@ -1,0 +1,36 @@
+{
+  "name": "Bag of Sand",
+  "type": "loot",
+  "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.iOMRrzfzFCfPGuD6"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A small bag of sand used by the scholarly to dry freshly inked letters and correspondence quickly and safely for quick dispatch.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 10,
+    "weight": 0.5,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210463,
+    "modifiedTime": 1673573973505,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "0sROf74ZOhY0EAvu"
+}

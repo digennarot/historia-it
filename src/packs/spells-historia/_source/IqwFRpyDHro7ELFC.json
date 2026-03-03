@@ -1,0 +1,128 @@
+{
+  "flags": {
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true,
+          "1": true
+        }
+      },
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.lp51YhYRZ7597B2r"
+    }
+  },
+  "type": "spell",
+  "img": "icons/magic/fire/projectile-fireball-smoke-strong-orange.webp",
+  "name": "Brimstone",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">You conjure a hunk of sulfuric brimstone that materializes in the air, then falls to the ground at a point within range. Any creature occupying that space must make a successful Dexterity saving throw or take 2d8 bludgeoning damage.</span></p><p><span class=\"fontstyle0\">The brimstone remains in the space where it fell while the spell persists. Each creature that starts its turn within 15 feet of the brimstone must make a successful Dexterity saving throw or take [[/r 1d8]] fire damage. The brimstone can be destroyed; it has AC 8 and 12 hp. The brimstone explodes if it takes fire damage; the explosion ends the spell and deals 1d8 bludgeoning damage to all creatures within 15 feet, or half as much damage to a creature that makes a successful Dexterity saving throw.</span></p><p><span class=\"fontstyle2\"><strong>At Higher Levels</strong></span><span class=\"fontstyle0\"><strong>.</strong> When you cast this spell using a spell slot of 2nd level or higher, its fire damage increases by 1d8 for each slot level above 1st.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DM",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1674411594662,
+    "modifiedTime": 1674415806811,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "IqwFRpyDHro7ELFC"
+}

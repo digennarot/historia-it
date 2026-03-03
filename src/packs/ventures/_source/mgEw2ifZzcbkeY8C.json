@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Revenge",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Scarred and exhausted, he returned to his native village,<br />a small and forgotten hamlet<br />where his heart and family were.<br />He found nothing but the acrid smell<br />of death and ash.<br />He learned that even a blind eye can shed bitter tears.<br />He swore revenge and punishment upon the powerful<br />and infamous villain who inflicted on him<br />a life of torment.</strong></span></p><p><span class=\"fontstyle0\">Some argue that there is no better motivation than the sincere joy of doing something and the satisfaction of seeing your idea come true, after tasting every aspect of the journey that led to its fulfillment. Others burn a darker fuel: the desire to see those who inflicted on them a serious wrong finally receive their long-due punishment or better still, taking the matters in their own hands. The feeling that whoever mocked them was wrong, rotten wrong, and laughing in that sweet moment of truth and triumph, is the pinnacle of their hopes. Their greatest desire is to give a taste of their own medicine to all unfaithful lovers, the powerful and the arrogant people, the scammers of all kinds, the false friends and the traitors with no dignity, and all of those who have somehow ruined their life.</span></p><p><span class=\"fontstyle0\">The venture Revenge is a bitter path, burning with nothing but the thirst for vengeance, sometimes it coincides with a certain type of desire for justice, others it is only fierce and violent hunger to make the guilty feel as they felt in their darkest hour.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.wrFRllUCa8gSF9lD]{Prominence: You will not See me Coming}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">A memory or scar that reminds you why you are fighting.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Common clothes, adequate change of clothes, tricks for camouflage.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency:</strong> </span><span class=\"fontstyle1\" style=\"color:#000000\">tricks for camouflage.<br /></span><span class=\"fontstyle3\"><strong>Coinage:</strong> </span><span class=\"fontstyle1\" style=\"color:#000000\">10</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong></em>. </span><span class=\"fontstyle3\">Who is your enemy? Who do you want to crush? Who do you want to feel what you felt?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Who or what have you lost? What did they take away from you?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong></em>. </span><span class=\"fontstyle3\">Sometimes something goes wrong: what feeling filled your soul and swayed you from your goal?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait</strong></em>. </span><span class=\"fontstyle3\">What will you say to your enemy when your revenge is accomplished?</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 197",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.wrFRllUCa8gSF9lD"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825397292,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "mgEw2ifZzcbkeY8C"
+}

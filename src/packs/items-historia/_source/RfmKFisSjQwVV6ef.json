@@ -1,0 +1,36 @@
+{
+  "name": "Signal Whistle",
+  "type": "loot",
+  "img": "icons/commodities/treasure/statue-carved-figurehead.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.z67d1DZzqDPmgEwP"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A whistle can produce specific noise. It can be heard half a mile away.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210589,
+    "modifiedTime": 1673573973651,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "RfmKFisSjQwVV6ef"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Soap",
+  "type": "loot",
+  "img": "icons/sundries/survival/soap.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.REBWkTKe6lJaIkpn"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Used to clean and wash.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0.02,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210581,
+    "modifiedTime": 1673573973640,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "P4thBeSB2LskB3Zc"
+}

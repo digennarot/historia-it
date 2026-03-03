@@ -1,0 +1,161 @@
+{
+  "name": "Storyteller",
+  "type": "subclass",
+  "img": "icons/skills/trades/academics-book-study-runes.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Armed with a lute, a loose tongue and a sense of improvisation, the Storyteller is always ready to get by relying on their own charisma and ability to talk to others. Followers of this journey are capable of bringing fame and infamy upon the subjects of their compositions, and more than one have risked their skin for not keeping their mouth shut when they should have . Although they are sometimes greeted by suspicion for their flexible interpretation of the truth, the music of storytellers is welcomed practically everywhere.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 187",
+    "identifier": "storyteller",
+    "classIdentifier": "venturer",
+    "advancement": [
+      {
+        "_id": "G06UpFFUBIwCwDXk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.DKkBN3jLadAbNEEY",
+            "Compendium.world.profession-features.QC9EfAGx6YnzweBc"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "kMjR2HmR2uHBz05U",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.EeCUH7UVdAVNRKtl"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "v900DLkwhs1naqMN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Increase Improvisation Pool by CHA bon."
+      },
+      {
+        "_id": "NGvnNAiyHEEIYtAo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.JI6V0OeBRlKfzDbs"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "e24dNTml3Rzgn3Hy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.S6gdJK8DzIvpf79L"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "FrD9dG7hSMfl3MkE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.N2pLi6vSnj1YPxXP"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.7uANeSrCVtmm0yvG"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671316644204,
+    "modifiedTime": 1673573969063,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "41dcGt71bmt6YKKK"
+}

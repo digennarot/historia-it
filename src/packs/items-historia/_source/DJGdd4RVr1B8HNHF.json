@@ -1,0 +1,36 @@
+{
+  "name": "Shovel",
+  "type": "loot",
+  "img": "icons/tools/hand/shovel-spade-steel-blue.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.qWlXDEgqdmdZWoab"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A tool resembling a spade with a broad blade and typically upturned sides, used for moving coals, earth, snow or other material.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210524,
+    "modifiedTime": 1673573973571,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "DJGdd4RVr1B8HNHF"
+}

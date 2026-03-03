@@ -1,0 +1,218 @@
+{
+  "name": "Black Bears",
+  "type": "feat",
+  "img": "modules/historia/Species/Black%20Bears.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Nothing can go wrong for those who have always taken care to equip themselves with caution in advance. Black Bears love to be prepared, and the effort they put into accumulating resources often rewards them, allowing them to avoid unforeseen events that would risk putting the less prepared creatures out of the game. These Urcidi, however, have a great weakness, a single specific pleasure that enthralls them above all else, making them lose all prudence: be it something that tickles their palate or their interest, when the opportunity to pursue this special temptation presents itself the Black Bear goes wild and seems to be no longer in control of themselves. Black Bears are not very proud of this weakness and tend to indulge it in secret; although it may happen that it is not always kept a secret, to their great embarrassment. These Urcidi, unlike their Brown relatives, are less grumpy and do not disdain the company of other creatures, with whom they can also share their passion for playing games, which the vast majority of Black Bears discover as cubs and carry with them throughout their life.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Strength </span>score increases by 2, your </span>Dexterity score increase by 1 <span class=\"fontstyle0\">and Intelligence score increase by 1</span><span class=\"fontstyle2\">.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>An Urcidi reaches maturity around the age of 20 <span class=\"fontstyle0\">and is immediately considered independent. They have an average life span of 100 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 30 feet and your</span><span class=\"fontstyle0\">climbing speed is 20 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Black Bear can reach a height of between 5 1/2 <span class=\"fontstyle0\">feet and 6 feet, and weigh between 265 lbs and 440 lbs.</span> <span class=\"fontstyle2\">Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Athletic.</strong></em> </span><span class=\"fontstyle2\">You may choose either Athletics or Acrobatics. You gain proficiency in that skill.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Player.</strong></em> </span><span class=\"fontstyle2\">You gain proficiency in the game of your choice, and have expertise with that game.</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Darkvision. </span></strong></em><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.bX6x2Un82XhGq7xh]{Wrestler}</span></p>\n<p>@Compendium[world.species-features.o6oG8Je6mYPytdqr]{Claws}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5O2o1C1bdm5g4MD5]{Thicker Skin}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.4Y1QRiD0X0ueMPHm]{Gnaw}</span></p>\n<p>@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia. Solitary (Omnivorous): </span></strong></em><span class=\"fontstyle4\">“I can be alone and keep others at a distance”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Lethargic:</strong></em> </span><span class=\"fontstyle2\">“I avoid unpleasant situations”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 89",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Urcidi Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205517,
+    "modifiedTime": 1680907496175,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "J5T95Zxe87snlMxE"
+}

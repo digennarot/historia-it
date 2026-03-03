@@ -1,0 +1,163 @@
+{
+  "name": "Inquisitor",
+  "type": "subclass",
+  "img": "media/Species Features/epic-will.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The Inquisitor can be described with the same words that describe their faith: inflexible, incorruptible, unshakeable. These heretic hunters have made the purge of threats to religion their life mission and are more than willing to pick up weapons to pursue it. Their intimidating presence and ardent zeal foment their allies and terrify their opponents; when parrying the blade of an Inquisitor, the opponent now knows they are fighting steel imbued with divine fury.<br /></span></p><p><span class=\"fontstyle2\"><strong>MAGIC OF THE INQUISITOR</strong><br /></span><span class=\"fontstyle0\">Your magic comes from your determination. Every 6 levels your spell slots increase in level: starting at 7th level they are 2nd level slots, at 13th level they become 3rd level and at 19th level they become 4th level. Likewise, you increase the maximum spell level you can cast.</span></p><p><span class=\"fontstyle0\"><strong>WAR TO THE INFIDELS</strong><br /></span><span class=\"fontstyle2\">When you chose this Divine Way, you became proficient in all war weapons and in all armors.</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 162",
+    "identifier": "inquisitor",
+    "classIdentifier": "priest",
+    "advancement": [
+      {
+        "_id": "ktKpLY60qe4HJF7r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.wtVqwxsS9pQdpdMA"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "3X0WmR04pmL50MPf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.NdKIuWJhWvV9AvO4",
+            "Compendium.world.profession-features.MfK3BdTWqeUmcn0c"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "xhN6pweaay7jTbCl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.vBHM3d2Wfr801Scp"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "CifxDpu6yoX9u4Ec",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.Hj1xW8l1JjBF4ORJ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "khQRDeS9U7Vsjfxe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.XrxxqMAikfltnlIQ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8AA7v7FrLWpW6tA8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.PRLQoVlBUK47tLaN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.0nZtQJtJrTv8C6Ud"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671072268143,
+    "modifiedTime": 1680913534254,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "sS32X5tP6ixgm6TS"
+}

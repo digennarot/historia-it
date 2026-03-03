@@ -1,0 +1,241 @@
+{
+  "name": "Faction: Brethren of Worms",
+  "type": "feat",
+  "img": "media/Factions/Brethren of Worms.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.9zxMev4M7MWk3qLO"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Faction Information</h2>\n<p>@Compendium[world.historia-factions.TLMTqqNgYTVYulPG]{Brethren of Worms}</p>\n<h2><span class=\"fontstyle0\">RANK 0 - RECRUIT</span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Proficiency in at least one martial weapon, enrolling in a detachment of the Worms, pass medical examinations and take an oath of service.<br /></span></p>\n<p><span class=\"fontstyle3\">Characters join the Brethren with an oath of allegiance that binds them to the Faction for twenty years. Desertion leads only to death. You are given the official uniform of the Worms and a martial weapon that does not have the aristocratic property. The barracks of your detachment becomes  </span><span class=\"fontstyle0\">your new home, where you receive food, lodging and care. The tasks entrusted are unlikely to put the you in danger while completing their training as a Worm, but war is a terrible necessity and there is no guarantee you won’t be called to duty at any point.</span></p>\n<h2><span class=\"fontstyle0\"><span class=\"fontstyle0\">RANK 1 - BROTHER</span></span></h2>\n<p><span class=\"fontstyle0\"><em><strong><span class=\"fontstyle2\">Fame earned in the Faction to spend: </span></strong></em><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle3\">Have demonstrated ability to perform assigned tasks, ability to obey orders, discipline and skill. You join the Brethren and receive a fixed salary as well as rewards based on your achievements. After a training period, you begin to be called to participate in increasingly dangerous (and profitable) missions, ranging from protection and escort jobs, to presence on the battlefield.<br /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Special, Well Armed.</strong></em> </span><span class=\"fontstyle3\">You have access to the Brethren’s extraordinary arsenal and have no equipment issues. At Rank 1, you can obtain weapons and armor for yourself that does not have the aristocratic property. At Rank 2, you can get non-aristocratic weapons and arsenal with a +1 bonus, while at Rank 3 you can request equipment with a +1 bonus of your choice without ownership restrictions, including one piece with a +2 bonus. Followers of Rank 1 or higher who belong to the Brethren can also enjoy this privilege.</span></span></p>\n<h2><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle0\">RANK 2 - NON-COMMISSIONED OFFICER</span></span></span></h2>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle2\"><em><strong>Fame earned in Faction to spend:</strong></em> </span><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having survived a dangerous confrontation, having shown tactical skills and effectiveness in war, having shown no fear and having remained faithful to orders, being successful in the assigned missions.<br /></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\">You are now a High Ranking officers of the Brethren: you have many responsibilities and many underlings to attend to, training to supervise, and risky missions to conduct. If you are far from the Hole, you become commander of a detachment, otherwise you begin to spend more and more time in Fort Blizzard rather than in the village. You have an excellent salary and, albeit without privileges, also enjoy excellent support from the Brethren and its resources.</span></span></span></p>\n<h2><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\"><span class=\"fontstyle0\">RANK 3 - WAR COUNCIL<br /></span></span></span></span></h2>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\"><span class=\"fontstyle2\"><em><strong>Fame earned in Faction to spend:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having won the trust of one’s superiors, including Ranieri and Torquato (or whoever may be in their positions), has proven to be relentless on the battlefield and to have completed tasks that are almost impossible.<br /></span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle3\"><span class=\"fontstyle3\"><span class=\"fontstyle3\">You enter with full rights in the Small War Council of the Brethren of Worms, where only a handful of brave fighters find themselves with Captain Torquato and Deputy Ranieri De Porcis to discuss the strategies of the greater conflicts in which the Worms are involved, as well as their political preferences: more than once they have acted as guarantors of the governmental balances of the continent, but other times they have been those who upset them in favor of a side with more gold on the plate. Torquato, however, also looks at his own beliefs, and has never accepted to work for Paddath of Salso Nero, having been a slave himself, in the past... There are, however, strong pressures for this to change.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></span></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 208",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210308,
+    "modifiedTime": 1680916396873,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "gZrfLfDiFDF6mzp9"
+}

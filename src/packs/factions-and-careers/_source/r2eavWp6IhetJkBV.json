@@ -1,0 +1,241 @@
+{
+  "name": "Career: Historian",
+  "type": "feat",
+  "img": "icons/commodities/treasure/bust-pharaoh-gold-blue.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.VkZdghe049sTfzsZ"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Career Information</h2>\n<p><span class=\"fontstyle0\">History is written by the winners, who shape it in their own image and likeness, and it is the mirror of facts accounted for by the pen of those who report them. Being a successful Historian in Vesteria means being a master of how the world will remember the events of yesterday and explain the situation today. This delicate work is constantly caught in the balance between facts and opinions: an objective history can never be presented but a reliable one, perhaps. Historians who set themselves the task of reporting facts<br />will have to choose which truth to lean towards, and whether to let academic or personal interest prevail.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 0 - CHRONICLER<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle0\">Ability to read and write, proficiency in history.<br /></span></p>\n<p><span class=\"fontstyle0\">You travel through the lands of Vesteria to keep track of the most significant events that animate the continent. Whether at the service of a noble, an institution or an intellectual free from constraints, a chronicler is driven by the curiosity to fully discover the wheels that move the great mechanism of history. You gain proficiency in calligrapher’s tools.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - HISTORIAN<br /></span></h2>\n<p><span class=\"fontstyle0\">You are recognized as having such skills in writing events to be considered a reliable and respectable source. During your travels you can always find refuge from local nobles and are recognized as a neutral authority, free to observe the world and bring it to life in your writings. Historians double their proficiency bonus on History checks.<br /></span></p>\n<p><em><strong><span class=\"fontstyle3\">Special, Writing History. </span></strong></em><span class=\"fontstyle0\">You are a skilled writer, capable of telling historical events with passion, glorifying its protagonists. During a long rest, you can spend your time redacting the records of events involving yourself, earning your companions who have accumulated Fame since the last time this task was taken up, an additional Fame point for each career rank.</span> </p>\n<h2><span class=\"fontstyle0\">RANK 2 - CRITIC<br /></span></h2>\n<p><span class=\"fontstyle2\">You are recognized for your judgment on events and for your great knowledge of how these are part of a cycle of very specific causes and effects and are therefore sought after as an advisor, listened to with great attention. You are always well received in the higher circles and receive hospitality as welcome guests even in territories that are hostile to your place of origin. You can use your History skill to persuade someone on matters of political or strategic advice.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - CANTOR<br /></span></h2>\n<p><span class=\"fontstyle2\">When narrated by yourself, history rises to a poem appreciated throughout the continent. Your role as an independent authority is protected by treaties of immunity. Hosting you in one’s own estates is considered an honor and is disputed among the greatest protagonists of power in the whole of Vesteria.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 232",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210311,
+    "modifiedTime": 1680916353700,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "r2eavWp6IhetJkBV"
+}

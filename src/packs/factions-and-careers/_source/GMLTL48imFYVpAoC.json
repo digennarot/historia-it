@@ -1,0 +1,241 @@
+{
+  "name": "Career: Soldier",
+  "type": "feat",
+  "img": "icons/skills/melee/sword-shield-stylized-white.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.UHHsKJhDrTEv1100"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Career Information</h2>\n<p>Vesteria is a continent split and wounded by war, where life <span class=\"fontstyle0\">can be very harsh and conflicts of power are the only interests pursued by the rulers. In this scenario, the great powers accumulate war resources through a continuous arms race, which weighs on the people with cruel taxes and strong restrictions. The powers that be also try to constantly increase the number of soldiers in their service in order to vanquish opposing forces. The life of a soldier is hard, full of sacrifices and probably short-lived, where only the most valid fighters are able to transform what could be a death sentence into a fruitful trade, refining weapons and war skills and conquering their own space in the world through strength and determination.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 0 - RECRUIT<br /></span></h2>\n<p><span class=\"fontstyle0\"><em><strong>Requirements</strong></em>: Proficiency in a martial weapon, registering with an enlistment office.<br /></span></p>\n<p><span class=\"fontstyle0\">You have joined a military organization, whether it is a mercenary group or a regular army. Your commitment and devotion lies with the organization you have joined, in which you are deployed among the reserves and trained in the art of war. You gain proficiency in an artisan tool and in the Survival skill.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - SOLDIER<br /></span></h2>\n<p><span class=\"fontstyle0\">You are trained in weapons and their use on the battlefield. You are now part of the regular troops and are deployed on the battlefield or on a mission as needed. You gain a proficiency of their choice among use of a weapon, armor type or shield and if you are already proficient in all weapons, armor and shields you can choose a weapon to become your favorite, adding an additional half of your proficiency to the hit roll when using it.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, Warrior Life.</strong></em> </span><span class=\"fontstyle0\">You live to fight and fight to live. Whenever you gain Fame through the use of weapons and warfare skills, you gain 1 additional Fame point per career rank.</span> </p>\n<h2><span class=\"fontstyle0\">RANK 2 - OFFICIAL<br /></span></h2>\n<p><span class=\"fontstyle2\">You are now a recognized officer who occupies one of the highest ranks within the military, issuing orders and managing troops and resources.<br /></span></p>\n<p><span class=\"fontstyle2\">Your rank is also recognized outside of your military organization, making you fit into even the most sophisticated environments. You gain access to aristocratic weapons and armor.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - COMMANDER<br /></span></h2>\n<p><span class=\"fontstyle2\">You are now in command of the military organization in which you serve, placing yourself in a delicate and dangerous position, albeit one of great power. Governors must take into account your ideas and moods, as you will often be employed as a strategic advisor and involved in the political management of the country or organization to which the army is tied. In addition, you will gain an exceptional weapon with a +2 bonus.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 236",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210284,
+    "modifiedTime": 1680916377841,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "GMLTL48imFYVpAoC"
+}

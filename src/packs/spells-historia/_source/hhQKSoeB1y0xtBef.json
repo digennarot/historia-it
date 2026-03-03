@@ -1,0 +1,117 @@
+{
+  "name": "Wild Cunning",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>You call out to the spirits of nature to aid you. When you cast this spell, choose one of the following effects:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">If there are any tracks on the ground within range, you know where they are, and you make Wisdom (@skill[Survival]) checks to follow these tracks with advantage for 1 hour or until you cast this spell again.</li><li class=\"rd__li \">If there is edible forage within range, you know it and where to find it.</li><li class=\"rd__li \">If there is clean drinking water within range, you know it and where to find it.</li><li class=\"rd__li \">If there is suitable shelter for you and your companions with range, you know it and where to find.</li><li class=\"rd__li \">Send the spirits to bring back wood for a fire and to set up a campsite in the area using your supplies. The spirits build the fire in a circle of stones, put up tents, unroll bedrolls, and put out any rations and water for consumption.</li><li class=\"rd__li \">Have the spirits instantly break down a campsite, which includes putting out a fire, taking down tents, packing up bags, and burying any rubbish.</li></ul></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UA",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UAStarterSpells",
+      "hash": "wild%20cunning%20(ua)_uastarterspells",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.bmJBCg0ALIrsjSq9"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671418384542,
+    "modifiedTime": 1673573979787,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "hhQKSoeB1y0xtBef"
+}

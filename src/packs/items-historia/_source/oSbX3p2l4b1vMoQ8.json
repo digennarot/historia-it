@@ -1,0 +1,36 @@
+{
+  "name": "Incomplete maps",
+  "type": "loot",
+  "img": "icons/tools/navigation/map-plain-green.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.PDlCzjUrVU1cpwZB"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Incomplete maps but indicative of the places where you travel.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 194",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210702,
+    "modifiedTime": 1673573973774,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "oSbX3p2l4b1vMoQ8"
+}

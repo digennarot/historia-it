@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Void",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>From there, Odo changed: the pain inflicted to him by<br />Torquato, he understood, was not enough to wash away<br />from his soul the atrocities done. He decided, feverish<br />and delirious, that he would devote his remaining days<br />to the penance and mortification of the flesh<br />for the redemption of sins.<br />The Confraternity of the Mortified found him and<br />welcomed him into the ranks, and there was never a<br />more suitable animal than him, who found in selfinflicted pain the relief for his tortured soul.</strong></span></p><p><span class=\"fontstyle0\">Not everyone in life has a mission to accomplish, a vocation to follow, a tradition to honor or a revenge to consume. Sometimes there is a stain so large that it cannot be washed, a trauma so serious that affects everything that follows it or simply something ineffable yet impossible to ignore, which separates the character from normality like an abyss. For those who have lost everything, even the desire for revenge, for those who have always been touched by madness or those who have seen things they never would have liked to see, for those who have gone too far and no longer have the strength to return, there is only the Void.</span></p><p><span class=\"fontstyle0\">It is a difficult and enigmatic venture, which weighs both on the past and on the future of those who choose it, it brings a few tangible objectives, but only a great sense of separation. At the same time, however, it opens the doors of a universe of possibilities: without ties, without mandatory tasks or tyrants desires that require the individual to fight to satisfy them, every path is possible and equally tempting. The followers of the Void face the next adventure without expectations, and for this reason they could run into extraordinary revelations precluded to anyone else. <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.2uUeaipzQJrKhvNL]{Prominence: The Abyss Looks Inside You}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle1\">A stigma, which visually distinguishes you from others.</span></li><li><span class=\"fontstyle1\">Common clothes, signet ring belonging to someone important, artisan’s tools or a game.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency</strong>: </span><span class=\"fontstyle1\">chosen instrument or game.<br /></span><span class=\"fontstyle3\"><strong>Coinage</strong>: </span><span class=\"fontstyle1\">5</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong></em>. </span><span class=\"fontstyle3\">What moved you away from normality? </span><span class=\"fontstyle0\">Is it something you want or hate?</span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Who appreciates you for who you are? </span><span class=\"fontstyle0\">Who would you like to have near you?</span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong></em>. </span><span class=\"fontstyle3\">What is the temptation that leads you to go beyond all </span><span class=\"fontstyle0\">limits? What aspect of you is a trap you can’t escape from?</span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle0\">What distinguishes your appearance from others? What about your soul?</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 199",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.2uUeaipzQJrKhvNL"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/magic/unholy/orb-beam-pink.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825501989,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "pdfMzj0k69yPZtuM"
+}

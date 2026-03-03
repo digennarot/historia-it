@@ -1,0 +1,141 @@
+{
+  "name": "Gladiator",
+  "type": "subclass",
+  "img": "icons/skills/melee/strike-chain-whip-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Starting from 3rd level, you choose an archetype that shows how you fight and what techniques you adopt among those presented below. The archetype provides features at the 3rd level and then again at the 7th, 10th, 15th and 18th level.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 132",
+    "identifier": "gladiator",
+    "classIdentifier": "armiger",
+    "advancement": [
+      {
+        "_id": "imwN29M4tT2g4tvJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.YMKJQ5Lvd3gLOMHC"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "6XVIebUtO9eXSjIL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.1n5hGIWDUdDwtI2l"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "IgQEo0bANbYBkG4H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.2fLakq3VRju15NBf"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "3nlLHSc9t7WtNlul",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.Ak0G3rGluh0jPFtn"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "VrY2TPzDlkfwt0Y5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.NbnsdQimYB83X6OR"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.6XMtiinW5YqlsOpf"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670900318054,
+    "modifiedTime": 1673573969084,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Km8yovCBPo7L0rDu"
+}

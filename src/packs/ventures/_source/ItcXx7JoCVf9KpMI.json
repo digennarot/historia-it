@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Discovery",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>I fled the homeland and traveled far and wide<br />through the Empire in search of adventure, with the<br />extraordinary strength of the young age.<br />During those years I found a job as scribe for an<br />alchemist, who taught me the rudiments of the art of<br />mixing remedies and potions.<br />I never wanted to be a merchant, with great<br />disappointment of my poor father, because I was<br />never good at silk and contracts; however, I soon<br />found myself selling goods of a different nature, my<br />knowledge, my pen, my advice.</strong></span></p><p><span class=\"fontstyle0\">Curiosity is a capricious mistress, sometimes capable of pushing further from ambition or necessity, but also to punish her followers with great harshness. It can push the sedentary to challenge what is outside the front door, when nothing else would have convinced them to do it, and attempt daredevil to even more foolish enterprises. What is beyond the horizon? What is hidden under the great seas, in unexplored forests or in the mind of an arcanist?</span></p><p><span class=\"fontstyle0\">The answer to all these questions is reserved to those who choose the Discovery venture and decide to travel the world in search of the new, the unusual and the exciting. Those who dedicate themselves to this rootless life but full of stimuli and beauty, give great value to everything that transmits knowledge. They love freedom and poorly tolerate the obligations that keep them anchored to a place already known for a lot of time. They are easily bored but it takes little to reawaken their interest and enthusiasm, even a question to which they do not know the answer.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.iHRl57JiupTPZAkA]{Prominence: World Foreigner}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle1\">Incomplete maps but indicative of the places where you travel.</span></li><li><span class=\"fontstyle1\">Common clothes, fine clothes, spices, cartographer or calligrapher tools.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency: </strong></span><span class=\"fontstyle1\">chosen tool.<br /></span><span class=\"fontstyle3\"><strong>Coinage:</strong> </span><span class=\"fontstyle1\">15</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal.</strong></em> </span><span class=\"fontstyle3\">What are you looking for in your travels? What do you like to find in the places, in the peoples, in the traditions you meet?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond.</strong></em> </span><span class=\"fontstyle3\">What or who is waiting for you in your place of origin? Who or what is essential for you to travel?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw.</strong></em> </span><span class=\"fontstyle3\">What entices you so much that it could make you put roots?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle3\">What would they write on your tombstone?</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 194",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.iHRl57JiupTPZAkA"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/tools/scribal/magnifying-glass.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825290874,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "ItcXx7JoCVf9KpMI"
+}

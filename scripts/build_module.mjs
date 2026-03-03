@@ -42,240 +42,231 @@ const COMPENDIUM_MAP = {
 };
 
 async function main() {
+    console.log("Starting build process...");
     const rootManifest = JSON.parse(await fs.readFile("module.json", "utf-8"));
     const MODULE_VERSION = rootManifest.version;
+    console.log(`Version: ${MODULE_VERSION}`);
 
     await fs.mkdir("historia-it/packs", { recursive: true });
     let packs = [];
     let imagesToCopy = new Map(); // sourcePath -> modulePath
-    const processedFiles = new Set();
-    const sourceDirs = ["src/data"];
+    const sourcePacksDir = "src/packs";
+    const packDirs = await fs.readdir(sourcePacksDir);
 
-    for (const dir of sourceDirs) {
-        const filenames = (await fs.readdir(dir)).filter(f => f.startsWith("fvtt-") && f.endsWith(".json"));
+    const resolveImagePath = async (val) => {
+        if (!val || typeof val !== 'string' || val.trim() === '') return null;
+        let decodedVal = val;
+        try { decodedVal = decodeURIComponent(val); } catch (e) { }
 
-        for (const file of filenames) {
-            const isItalian = file.endsWith("_it.json");
-            const lang = isItalian ? "it" : "en";
-            const labelSuffix = isItalian ? " (IT)" : " (EN)";
+        const potentialMedia = [
+            decodedVal,
+            decodedVal.replace(/^media\//, ""),
+            decodedVal.replace(/^assets\//, ""),
+            decodedVal.replace(/^icons\//, ""),
+            decodedVal.replace("Wynther's Files/Historia/", "Wynther's Files/"),
+            decodedVal.replace("Wynther's Files/Historia/", ""),
+            decodedVal.replace("Wynther's Files/", ""),
+            decodedVal.replace("Historia/", ""),
+            decodedVal.replace("assets/", ""),
+        ].filter(p => p && p.trim() !== '' && p !== '/' && p !== '.');
 
-            if (processedFiles.has(file)) continue;
-            processedFiles.add(file);
-
-            const filePath = path.join(dir, file);
-            console.log(`Processing ${filePath} (${lang})...`);
-            const data = JSON.parse(await fs.readFile(filePath, "utf-8"));
-
-            const meta = data.metadata || {};
-            let base_name = meta.name || "unknown";
-            if (base_name === "unknown") {
-                const parts = file.replace(/^fvtt-/, "").replace(/_it\.json$/, "").replace(/\.json$/, "").split("-pack-dnd5e-");
-                base_name = parts.length > 1 ? parts[1] : parts[0];
-            }
-
-            const pack_name = isItalian ? `${base_name.replace(/-it$/, "")}-it` : base_name.replace(/-it$/, "");
-            let pack_label = meta.label || base_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-
-            if (isItalian) {
-                const translationKey = base_name.replace(/-it$/, "");
-                if (LABEL_TRANSLATIONS[translationKey]) {
-                    pack_label = LABEL_TRANSLATIONS[translationKey];
+        for (const p of potentialMedia) {
+            const srcMediaPath = path.join("src/media", p);
+            try {
+                const stats = await fs.stat(srcMediaPath);
+                if (stats.isFile()) {
+                    const modulePath = path.join("media", p);
+                    imagesToCopy.set(srcMediaPath, modulePath);
+                    return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
                 }
-            }
+            } catch (e) { }
 
-            if (!pack_label.includes(labelSuffix)) pack_label += labelSuffix;
-            let pack_type = meta.type || data.type || "Item";
-
-            const tempSrcDir = path.join("temp_packs", pack_name);
-            const outDir = path.join("historia-it", "packs", pack_name);
-
-            await fs.mkdir(tempSrcDir, { recursive: true });
-
-            const resolveImagePath = async (val) => {
-                if (!val || typeof val !== 'string' || val.trim() === '') return null;
-                let decodedVal = val;
-                try { decodedVal = decodeURIComponent(val); } catch (e) { }
-
-                const potentialMedia = [
-                    decodedVal,
-                    decodedVal.replace("Wynther's Files/Historia/", "Wynther's Files/"),
-                    decodedVal.replace("Wynther's Files/", ""),
-                    decodedVal.replace("assets/", ""),
-                ].filter(p => p && p.trim() !== '' && p !== '/' && p !== '.');
-
-                for (const p of potentialMedia) {
-                    const srcMediaPath = path.join("src/media", p);
-                    try {
-                        const stats = await fs.stat(srcMediaPath);
-                        if (stats.isFile()) {
-                            const modulePath = path.join("media", p);
-                            imagesToCopy.set(srcMediaPath, modulePath);
-                            return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
-                        }
-                    } catch (e) { }
-
-                    const assetsIconPath = path.join("src/assets/icons", p);
-                    try {
-                        const stats = await fs.stat(assetsIconPath);
-                        if (stats.isFile()) {
-                            const modulePath = path.join("icons", p);
-                            imagesToCopy.set(assetsIconPath, modulePath);
-                            return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
-                        }
-                    } catch (e) { }
-
-                    const assetsHistoriaPath = path.join("src/assets/historia", p);
-                    try {
-                        const stats = await fs.stat(assetsHistoriaPath);
-                        if (stats.isFile()) {
-                            const modulePath = path.join("assets/historia", p);
-                            imagesToCopy.set(assetsHistoriaPath, modulePath);
-                            return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
-                        }
-                    } catch (e) { }
+            const assetsIconPath = path.join("src/assets/icons", p);
+            try {
+                const stats = await fs.stat(assetsIconPath);
+                if (stats.isFile()) {
+                    const modulePath = path.join("icons", p);
+                    imagesToCopy.set(assetsIconPath, modulePath);
+                    return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
                 }
-                return null;
-            };
+            } catch (e) { }
 
-            const processData = async (obj) => {
-                if (!obj) return;
-                for (const key in obj) {
-                    if (typeof obj[key] === 'string') {
-                        let val = obj[key];
-                        let changed = false;
+            const assetsHistoriaPath = path.join("src/assets/historia", p);
+            try {
+                const stats = await fs.stat(assetsHistoriaPath);
+                if (stats.isFile()) {
+                    const modulePath = path.join("assets/historia", p);
+                    imagesToCopy.set(assetsHistoriaPath, modulePath);
+                    return `modules/${MODULE_ID}/${modulePath.replace(/\\/g, '/')}`;
+                }
+            } catch (e) { }
+        }
+        return null;
+    };
 
-                        const newPath = await resolveImagePath(val);
-                        if (newPath) {
-                            val = newPath;
-                            changed = true;
-                        } else if (val.includes('src="')) {
-                            const regex = /src="([^"]+)"/g;
-                            let match;
-                            let newVal = val;
-                            while ((match = regex.exec(val)) !== null) {
-                                const originalPath = match[1];
-                                const resolved = await resolveImagePath(originalPath);
-                                if (resolved) {
-                                    newVal = newVal.replace(originalPath, resolved);
-                                    changed = true;
-                                }
-                            }
-                            if (changed) val = newVal;
-                        }
+    const processData = async (obj) => {
+        if (!obj) return;
+        for (const key in obj) {
+            if (typeof obj[key] === 'string') {
+                let val = obj[key];
+                let changed = false;
 
-                        const newVal = val.replace(/@Compendio\[(world\.historia-[a-z0-9-]+)\.([^\]]+)\]/g, (match, p1, p2) => {
-                            const mapped = COMPENDIUM_MAP[p1];
-                            return mapped ? `@Compendio[${mapped}.${p2}]` : match;
-                        });
-
-                        if (newVal !== val) {
-                            val = newVal;
+                const newPath = await resolveImagePath(val);
+                if (newPath) {
+                    val = newPath;
+                    changed = true;
+                } else if (val.includes('src="')) {
+                    const regex = /src="([^"]+)"/g;
+                    let match;
+                    let newVal = val;
+                    while ((match = regex.exec(val)) !== null) {
+                        const originalPath = match[1];
+                        const resolved = await resolveImagePath(originalPath);
+                        if (resolved) {
+                            newVal = newVal.replace(originalPath, resolved);
                             changed = true;
                         }
-                        if (changed) obj[key] = val;
-                    } else if (typeof obj[key] === 'object') {
-                        await processData(obj[key]);
                     }
+                    if (changed) val = newVal;
                 }
-            };
 
-            const TYPE_TO_COLLECTION = {
-                "Item": "items",
-                "JournalEntry": "journal",
-                "Actor": "actors",
-                "Scene": "scenes",
-                "Macro": "macros",
-                "RollTable": "tables",
-                "Playlist": "playlists"
-            };
-            const collection = TYPE_TO_COLLECTION[pack_type] || "items";
-
-            const HIERARCHY = {
-                actors: { items: [], effects: [] },
-                cards: { cards: [] },
-                combats: { combatants: [], groups: [] },
-                delta: { items: [], effects: [] },
-                effects: {},
-                items: { effects: [] },
-                journal: { pages: [], categories: [] },
-                playlists: { sounds: [] },
-                regions: { behaviors: [] },
-                tables: { results: [] },
-                tokens: { delta: {} },
-                scenes: {
-                    drawings: [], tokens: [], levels: [], lights: [], notes: [],
-                    regions: [], sounds: [], templates: [], tiles: [], walls: []
-                }
-            };
-
-            const injectKeys = (doc, collName, sublevelPrefix = "", idPrefix = "") => {
-                const sublevel = [sublevelPrefix, collName].filter(x => x).join(".");
-                const id = [idPrefix, doc._id].filter(x => x).join(".");
-                doc._key = `!${sublevel}!${id}`;
-
-                for (const [embeddedColl, type] of Object.entries(HIERARCHY[collName] || {})) {
-                    const embeddedValue = doc[embeddedColl];
-                    if (Array.isArray(type) && Array.isArray(embeddedValue)) {
-                        for (const embeddedDoc of embeddedValue) {
-                            if (embeddedDoc && embeddedDoc._id) {
-                                injectKeys(embeddedDoc, embeddedColl, sublevel, id);
-                            }
-                        }
-                    } else if (embeddedValue && embeddedValue._id) {
-                        injectKeys(embeddedValue, embeddedColl, sublevel, id);
-                    }
-                }
-            };
-
-            let processedAny = false;
-            let itemCount = 0;
-            let folderCount = 0;
-            let unknownCount = 0;
-
-            if (data.folders && data.folders.length > 0) {
-                for (const folder of data.folders) {
-                    const folderId = folder._id || `folder_${unknownCount++}`;
-                    folder._id = folderId;
-                    folder._key = `!folders!${folderId}`;
-                    await processData(folder);
-                    await fs.writeFile(path.join(tempSrcDir, `folder_${folderId}.json`), JSON.stringify({
-                        ...folder,
-                        type: "Folder"
-                    }, null, 2));
-                    folderCount++;
-                }
-            }
-
-            const content = data.items || data.pages || [];
-            if (content.length > 0) {
-                for (const item of content) {
-                    await processData(item);
-                    const itemId = item._id || `unknown_id_${unknownCount++}`;
-                    item._id = itemId;
-                    injectKeys(item, collection);
-                    await fs.writeFile(path.join(tempSrcDir, `${itemId}.json`), JSON.stringify(item, null, 2));
-                    itemCount++;
-                }
-                processedAny = true;
-            }
-
-            if (processedAny) {
-                console.log(`Extracted ${itemCount} items and ${folderCount} folders to ${tempSrcDir}. Compiling pack...`);
-                await fs.mkdir(outDir, { recursive: true });
-                await compilePack(tempSrcDir, outDir, { yaml: false, nedb: false, recursive: false });
-                packs.push({
-                    name: pack_name,
-                    label: pack_label,
-                    path: `packs/${pack_name}`,
-                    type: pack_type,
-                    system: "dnd5e",
-                    folder: "Historia"
+                const newVal = val.replace(/@Compendio\[(world\.historia-[a-z0-9-]+)\.([^\]]+)\]/g, (match, p1, p2) => {
+                    const mapped = COMPENDIUM_MAP[p1];
+                    return mapped ? `@Compendio[${mapped}.${p2}]` : match;
                 });
+
+                if (newVal !== val) {
+                    val = newVal;
+                    changed = true;
+                }
+                if (changed) obj[key] = val;
+            } else if (typeof obj[key] === 'object') {
+                await processData(obj[key]);
             }
+        }
+    };
+
+    const TYPE_TO_COLLECTION = {
+        "Item": "items",
+        "JournalEntry": "journal",
+        "Actor": "actors",
+        "Scene": "scenes",
+        "Macro": "macros",
+        "RollTable": "tables",
+        "Playlist": "playlists"
+    };
+
+    const HIERARCHY = {
+        actors: { items: [], effects: [] },
+        cards: { cards: [] },
+        combats: { combatants: [], groups: [] },
+        delta: { items: [], effects: [] },
+        effects: {},
+        items: { effects: [] },
+        journal: { pages: [], categories: [] },
+        playlists: { sounds: [] },
+        regions: { behaviors: [] },
+        tables: { results: [] },
+        tokens: { delta: {} },
+        scenes: {
+            drawings: [], tokens: [], levels: [], lights: [], notes: [],
+            regions: [], sounds: [], templates: [], tiles: [], walls: []
+        }
+    };
+
+    const injectKeys = (doc, collName, sublevelPrefix = "", idPrefix = "") => {
+        const sublevel = [sublevelPrefix, collName].filter(x => x).join(".");
+        const id = [idPrefix, doc._id].filter(x => x).join(".");
+        doc._key = `!${sublevel}!${id}`;
+
+        for (const [embeddedColl, type] of Object.entries(HIERARCHY[collName] || {})) {
+            const embeddedValue = doc[embeddedColl];
+            if (Array.isArray(type) && Array.isArray(embeddedValue)) {
+                for (const embeddedDoc of embeddedValue) {
+                    if (embeddedDoc && embeddedDoc._id) {
+                        injectKeys(embeddedDoc, embeddedColl, sublevel, id);
+                    }
+                }
+            } else if (embeddedValue && embeddedValue._id) {
+                injectKeys(embeddedValue, embeddedColl, sublevel, id);
+            }
+        }
+    };
+
+    for (const packDirName of packDirs) {
+        const packPath = path.join(sourcePacksDir, packDirName);
+        const stats = await fs.stat(packPath);
+        if (!stats.isDirectory()) continue;
+
+        const sourceDir = path.join(packPath, "_source");
+        if (!(await fs.access(sourceDir).then(() => true).catch(() => false))) continue;
+
+        const isItalian = packDirName.endsWith("-it");
+        const lang = isItalian ? "it" : "en";
+        const labelSuffix = isItalian ? " (IT)" : " (EN)";
+
+        console.log(`Processing pack directory ${packDirName} (${lang})...`);
+
+        const base_name = packDirName.replace(/-it$/, "");
+        const pack_name = packDirName;
+        let pack_label = LABEL_TRANSLATIONS[base_name] || base_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        if (!pack_label.includes(labelSuffix)) pack_label += labelSuffix;
+
+        const entryFiles = (await fs.readdir(sourceDir)).filter(f => f.endsWith(".json"));
+        if (entryFiles.length === 0) continue;
+
+        // Peek at first file to determine type
+        const firstEntry = JSON.parse(await fs.readFile(path.join(sourceDir, entryFiles[0]), "utf-8"));
+        const pack_type = firstEntry.pages ? "JournalEntry" : "Item"; // Simple detection based on content
+        const collection = TYPE_TO_COLLECTION[pack_type] || "items";
+
+        const tempSrcDir = path.join("temp_packs", pack_name);
+        const outDir = path.join("historia-it", "packs", pack_name);
+        await fs.mkdir(tempSrcDir, { recursive: true });
+
+        let itemCount = 0;
+        let folderCount = 0;
+
+        for (const file of entryFiles) {
+            const filePath = path.join(sourceDir, file);
+            const entryData = JSON.parse(await fs.readFile(filePath, "utf-8"));
+
+            await processData(entryData);
+
+            if (entryData.type === "Folder") {
+                const folderId = entryData._id;
+                entryData._key = `!folders!${folderId}`;
+                folderCount++;
+            } else {
+                const itemId = entryData._id;
+                injectKeys(entryData, collection);
+                itemCount++;
+            }
+
+            await fs.writeFile(path.join(tempSrcDir, file), JSON.stringify(entryData, null, 2));
+        }
+
+        if (itemCount > 0 || folderCount > 0) {
+            console.log(`Extracted ${itemCount} items and ${folderCount} folders to ${tempSrcDir}. Compiling pack...`);
+            await fs.mkdir(outDir, { recursive: true });
+            try {
+                await compilePack(tempSrcDir, outDir, { yaml: false, nedb: false, recursive: false });
+                console.log(`Successfully compiled ${pack_name}`);
+            } catch (err) {
+                console.error(`Failed to compile ${pack_name}:`, err);
+                throw err;
+            }
+            packs.push({
+                name: pack_name,
+                label: pack_label,
+                path: `packs/${pack_name}`,
+                type: pack_type,
+                system: "dnd5e",
+                folder: "Historia"
+            });
         }
     }
 
-    const packNames = packs.map(p => p.name);
     const module_json = {
         id: MODULE_ID,
         title: MODULE_TITLE,

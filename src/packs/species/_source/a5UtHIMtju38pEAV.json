@@ -1,0 +1,218 @@
+{
+  "name": "Mice",
+  "type": "feat",
+  "img": "modules/historia/Species/Mice.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">A mouse is born, grows and dies knowing that they will never be alone. For these little Rodenti, the community is everything, and they are willing to do anything for it. Although Mice live well in close contact with many other familae especially in urban landscapes, and they have a marked tendency to create their own colonies wherever they go. These groups, often very numerous, are linked by very close relationships that go beyond the single-family unit, and within which there exists a sort of unwritten hierarchy respected by all, without raising objections. History does not recollect any Mouse traitor. Educated from an early age with enormous rigor and discipline, they do not have personal initiative and are used to taking orders, executing them quickly and without thinking. When they act, they always do it for a purpose greater than themselves, and if they find themselves in difficulty, they demonstrate an unequaled tenaciousness. Unfortunately, their intransigence and education make them unambitious and lacking in imagination.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>I</strong></em></span><span class=\"fontstyle0\"><em><strong>ncrease in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Intelligence </span>score increases by 2 and your <span class=\"fontstyle0\">Charisma </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Rodent reaches maturity around the age of 12 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 50 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 25 feet, your </span><span class=\"fontstyle0\">climbing speed is 20 feet, and your burrowing speed is 5 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle2\">A Mouse can reach a maximum height of 3 feet, and </span><span class=\"fontstyle0\">weigh no more than 75 lbs. Your size is Small.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Craftsmen’ culture.</strong></em> </span><span class=\"fontstyle2\">You have expertise in a craftsman tool of your choice.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Darkvision.</strong></em> </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.<br /></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.PbMuw1GCUxG00ueb]{More Agile}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</span><span class=\"fontstyle2\"><br /></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p>@Compendium[world.species-features.5a9slEU5BRDefy5v]{Internal Compass}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5zt3WRF8SU4FNKqd]{Gnawer}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.Bmgcfc7z86n51EkV]{Innate Stealth}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Architect (Prey):</strong></em> </span><span class=\"fontstyle4\">“I can achieve lasting and change-resistant results”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Survival:</strong></em> </span><span class=\"fontstyle2\">“I become active when the moment is the darkest”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 79",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rodenti Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205564,
+    "modifiedTime": 1680907823664,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "a5UtHIMtju38pEAV"
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Collector of Rarities",
+  "type": "subclass",
+  "img": "icons/commodities/treasure/bust-pharaoh-gold-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">If it is exotic, unusual, unique, mysterious, or expensive looking, surely the Rarity Collector will have placed their eyes on it already. These merchants have a prodigious flair for the most refined and precious artifacts and will not hesitate to go on an adventure to pursue the mirage of some legendary heirloom. Enterprising and unscrupulous, Collectors love the thrill that only a treasure hunt can offer.</span></p><p><span class=\"fontstyle0\"><strong>BONUS SKILLS</strong></span><br /><span class=\"fontstyle0\">When the merchant specializes in this Commercial Style, they gain proficiency in medium armor and saber. They also gain proficiency in Survival and in a new language. </span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 155",
+    "identifier": "collector-of-rarities",
+    "classIdentifier": "merchant",
+    "advancement": [
+      {
+        "_id": "7xQnwq829BSICZ6e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.5R5heeua2aQMjLpm",
+            "Compendium.world.profession-features.cTYGR02TYkXjAXMI"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "2TYWx4RDfOh1lKeH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.HCG8uil6K26kXbVT"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "y0k1Wq8ep1ZVtUMT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.cOENmakwG2H7oMym"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "MPaKQy2ESttEY8Q7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.ssDOg8IiKoRXc3e0"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.45SA6jBz8rnEfsrP"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670991512649,
+    "modifiedTime": 1673573969081,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "JbU1c3S2PtD2m6E8"
+}

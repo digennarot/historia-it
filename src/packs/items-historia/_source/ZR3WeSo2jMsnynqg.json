@@ -1,0 +1,36 @@
+{
+  "name": "Censer",
+  "type": "loot",
+  "img": "icons/containers/kitchenware/goblet-worn-clay-white.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.7ztvHyYJCcOOAWmR"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Usually used in conjunction with blocks of incense to perfume the air.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210625,
+    "modifiedTime": 1673573973694,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "ZR3WeSo2jMsnynqg"
+}

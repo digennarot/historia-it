@@ -1,0 +1,227 @@
+{
+  "name": "Faith Warrior",
+  "type": "feat",
+  "img": "media/Profession Features/impromptu-sneak-attack.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "core": {
+      "sourceId": "Item.JuA1DusOaQ4yc4Qo"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">At 3rd level, you gain proficiency with all war weapons. However, the fervor in the arts of war distracts you from enlightenment, leading you towards the use of a cruder power. Because of this, the level of spell slots provided by blood charges is halved: they advance to the 2nd level when you reach your 5th level, to the 3rd when you reach 9th level, to the 4th when you reach 13th level and 5th when you reach 17th level.</span></p>\n<p><strong><span class=\"fontstyle0\">Fanatic Spell Progression</span></strong></p>\n<table style=\"width:394px;height:333px\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px;background-color:#95a5a6;text-align:center\"><strong>Flagellant Level</strong></td>\n<td style=\"width:39.4px;height:16px;background-color:#95a5a6;text-align:center\"><strong>Blood Charges</strong></td>\n<td style=\"width:39.4px;height:16px;background-color:#95a5a6;text-align:center\"><strong>Cantrips</strong></td>\n<td style=\"width:39.4px;height:16px;background-color:#95a5a6;text-align:center\"><strong>Known Spells</strong></td>\n<td style=\"width:39.4px;height:16px;background-color:#95a5a6;text-align:center\"><strong>Spell Level</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">1</td>\n<td style=\"width:39.4px;height:16px\">-</td>\n<td style=\"width:39.4px;height:16px\">-</td>\n<td style=\"width:39.4px;height:16px\">-</td>\n<td style=\"width:39.4px;height:16px\">-</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">2</td>\n<td style=\"width:39.4px;height:16px\">1</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">1</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">1</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">1</td>\n</tr>\n<tr style=\"height:13px\">\n<td style=\"width:39.4px;height:13px\">4</td>\n<td style=\"width:39.4px;height:13px\">1</td>\n<td style=\"width:39.4px;height:13px\">3</td>\n<td style=\"width:39.4px;height:13px\">5</td>\n<td style=\"width:39.4px;height:13px\">1</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">6</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">6</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">7</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">7</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">8</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">8</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">9</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">9</td>\n<td style=\"width:39.4px;height:16px\">2</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">10</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">10</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">11</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">11</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">13</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">14</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">15</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">16</td>\n<td style=\"width:39.4px;height:16px\">3</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">17</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">18</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">19</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:39.4px;height:16px\">20</td>\n<td style=\"width:39.4px;height:16px\">4</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n<td style=\"width:39.4px;height:16px\">12</td>\n<td style=\"width:39.4px;height:16px\">5</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 139",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Flagellant Level 2, Fanatic",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409209060,
+    "modifiedTime": 1673573972269,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "phz39TAnkuEJTetT"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Feign Death",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.</p><div class=\"rd__spc-inline-post\"></div><p>For the spell's duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is @condition[blinded] and @condition[incapacitated], and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or @condition[poisoned] when you cast the spell, or becomes diseased or @condition[poisoned] while under the spell's effect, the disease and poison have no effect until the spell ends.</p></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "touch",
+      "type": ""
+    },
+    "range": {
+      "value": 0,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pinch of graveyard dirt",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "PHB",
+      "hash": "feign%20death_phb",
+      "propDroppable": "spell"
+    },
+    "core": {
+      "sourceId": "Item.Ht0NK21hO044yNcB"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671415430583,
+    "modifiedTime": 1673573979763,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "bsAqcRWmMJlFNBYk"
+}

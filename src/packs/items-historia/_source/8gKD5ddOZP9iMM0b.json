@@ -1,0 +1,36 @@
+{
+  "name": "Artist's First Work",
+  "type": "loot",
+  "img": "icons/commodities/treasure/statue-gold-laurel-wreath.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.PBbewnJnd5diCmdE"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Work of Art</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 191",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210501,
+    "modifiedTime": 1673573973542,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "8gKD5ddOZP9iMM0b"
+}

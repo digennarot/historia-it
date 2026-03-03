@@ -1,0 +1,36 @@
+{
+  "name": "Ink Bottle",
+  "type": "loot",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.dP7jMKyHTTgVb3ii"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A small bottle of ink for writing upon parchment.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 0.06,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210709,
+    "modifiedTime": 1673573973780,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "pgi1nElYWrv7dnG7"
+}

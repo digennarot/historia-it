@@ -1,0 +1,244 @@
+{
+  "name": "Secret of the Earth",
+  "type": "feat",
+  "img": "icons/magic/earth/strike-fist-stone.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      },
+      "animLevel": false
+    },
+    "core": {
+      "sourceId": "Item.f3LF2QbyzKNFmYN1"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">If the air allows a Magus to confuse opponents and avoid their blows, spellcasters who explore the Secret of the Earth are not afraid to take blows because, just like the solid and patient element they master, they too can resist violence for the sole purpose of returning it tenfold to their opponents.<br /></span></p><p><span class=\"fontstyle2\"><strong>KNOWN SPELLS<br /></strong></span><span class=\"fontstyle0\">When you choose this secret, you learn the @Compendium[dnd5e.spells.Item.VzgFzcmocr1X1cp4]{Shillelagh}and @Compendium[dnd5e.spells.Item.dl8YwvMboBqX2OC4]{Resistance}cantrips, and when they obtains a level in the secret, you learn the corresponding spells indicated in the following table:<br /></span></p><p><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>Cantrips:</strong> @Compendium[dnd5e.spells.Item.VzgFzcmocr1X1cp4]{Shillelagh}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.dl8YwvMboBqX2OC4]{Resistance}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>1st level:</strong> @Compendium[dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{Entangle}</span><span class=\"fontstyle3\">, @Compendium[world.spells-historia.U6hyBQ6t041dnfgM]{Earth Tremor}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>2nd level:</strong> @Compendium[dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{Shatter}</span><span class=\"fontstyle3\">, </span><span style=\"font-family:Signika, sans-serif\">@Compendium[world.spells-historia.pAHnWXQFfnprw8vB]{Earthbind}</span><span class=\"fontstyle3\"><br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>3rd level: </strong>@Compendium[dnd5e.spells.Item.64uo4fHriHLjRUrX]{Meld into Stone}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.pB7XVYwdGNcUG935]{Glyph of Warding}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>4th level:</strong> @Compendium[dnd5e.spells.Item.ReMbjfeOKoSj3O79]{Stoneskin}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.QvGcdRUSNRKEQJlK]{Stone Shape}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>5th level:</strong> @Compendium[dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Wall of Stone}</span><span class=\"fontstyle3\">, @Compendium[world.spells-historia.ABifTRHCZUxXvT8c]{Destructive Wave}<br /></span></p><p><span class=\"fontstyle2\"><strong>MYSTERIES</strong></span><br /><span class=\"fontstyle2\">@Compendium[world.profession-features.KLd9ycSzLrENhOWe]{Founding Mystery: Body of Stone}</span></p><p><span class=\"fontstyle2\">@Compendium[world.profession-features.MomcpYlCgrCWyCJy]{Major Mystery: Earthquake}</span></p><p><span class=\"fontstyle2\">@Compendium[world.profession-features.1P8GSgdvFm4wCb7G]{Greater Mystery: From the Heart of Vesteria}</span></p><p><span class=\"fontstyle2\">@Compendium[world.profession-features.tgrByVPLWnFOC3YP]{Universal Mystery: Adamantine Soul}</span></p><p><span class=\"fontstyle0\"><strong>METAMAGIC OF THE SECRET</strong><br /></span><span class=\"fontstyle2\">When you reach 3rd level in this Secret, you became able to modify the spells they can cast, adapting them to your current needs, and learns the following metamagic options.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p><p><span class=\"fontstyle2\">@Compendium[world.profession-features.3459aAGgnOmf4yRd]{Metamagic: Subtle Spell}</span></p><p><span class=\"fontstyle2\">@Compendium[world.profession-features.Y4R545k2y1XxS6er]{Metamagic: Extended Spell}</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 148",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Magus Level 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409208079,
+    "modifiedTime": 1673573971679,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "b2ypf16KALF7jMbB"
+}

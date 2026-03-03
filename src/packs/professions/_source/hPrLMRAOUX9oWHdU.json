@@ -1,0 +1,163 @@
+{
+  "name": "Healer",
+  "type": "subclass",
+  "img": "icons/magic/life/cross-yellow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Divine mercy finds one of its purest expressions in the hands of the Healer, who treats evils, neutralizes poisons and heals wounds with their compassionate and profound faith. Much loved even by non-believers, who would never deny the proven efficacy of their work, healers are a common presence on the battlefields; here, the fortitude of their faith allows them to challenge death and bring quick help to the wounded for whom their appearance can be more welcome than that of a god.<br /></span></p><p><span class=\"fontstyle2\"><strong>MAGIC OF THE HEALER</strong><br /></span><span class=\"fontstyle0\">Your magic comes from understanding other people. Every 4 levels your spell slots increase in level: starting at 5th level they are 2nd level slots, at 9th level they are 3rd level slots, at level they are 4th level and at 17th level they are 5th level. Likewise, the maximum number of spells you can know also increases.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 160",
+    "identifier": "healer",
+    "classIdentifier": "priest",
+    "advancement": [
+      {
+        "_id": "2ImGJlraZIJF6nxp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.YvwbH1fccnQYANSi"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "q9eN1PM5kyB5GOxs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.QB6zgA3vviiQskW3",
+            "Compendium.world.profession-features.hBTIxa26FCzyJHXU"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "GFTpaKckVtMyLM2s",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.Ld7oKtwsLjTRhjjE"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "pdfqwcBNdFkW7Je8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.8GpWB7dXcwE2mWZN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8APYRbYHjirLEBJB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.GudNRbdIBA4Om6d4"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "8pcpDZJZ7I39leKh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.hiJ8LucPZk9L1GLn"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.8OuhKmX3u3u9r69Z"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671070287290,
+    "modifiedTime": 1673573969110,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "hPrLMRAOUX9oWHdU"
+}

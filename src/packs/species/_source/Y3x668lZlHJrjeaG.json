@@ -1,0 +1,218 @@
+{
+  "name": "Rossetti",
+  "type": "feat",
+  "img": "modules/historia/Species/Rossetti.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">With a pointed muzzle, large sweet and shiny eyes, and beautiful tawny fur, the Rossetti are undoubtedly the Vespertili who least suffer from the prejudices that affect their cousins and are quite aware of it. The other Vespertili often look upon them with distrust or even contempt for </span>the preferential treatment they receive. They are sociable, </span><span class=\"fontstyle0\">affable and seek every opportunity to prove that they are creatures like all the others. They love to entertain others, especially pups, and there are many companies of Rossetti Bards, musicians and puppeteers who travel aboard their colorful wagons. They adapt without complaint to all lifestyles, and nothing makes them happier than the feeling of being accepted in a community. Their desire for inclusion makes them very confident of those who treat them kindly, which unfortunately also makes them easy to be manipulated by those with bad intentions. When a Rossetto realizes that it has been used, it suffers enormously, but is not capable of plotting revenge.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your  <span class=\"fontstyle0\">Charisma </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Vespertili reaches maturity around the age of 18 <span class=\"fontstyle0\">and is immediately considered independent. They have </span>an average lifespan of around 60 years.</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em>  </span>Your base speed on the ground is 20 feet. Your flight </span><span class=\"fontstyle0\">speed is 30 feet and the climbing speed 20 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span><span class=\"fontstyle2\">You can reach a height of between 1.2 meters and 1.6 </span><span class=\"fontstyle0\">meters and weigh between 20 and 50 kg. </span>Your size is Medium.</p>\n<p>@Compendium[world.species-features.8CrVZRX0THJGd3yb]{Common Appearances}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3LN74J19a4TprTw9]{Membranous Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.nKnEbJYlulqr236O]{Sensitivity to Light}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Nocturne (Predator):</strong></em> “</span><span class=\"fontstyle4\">I prefer to act without being seen.”</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Instinct of Species, Sociable:</strong></em> </span><span class=\"fontstyle2\">“I trust strangers”.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 73",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Vespertili Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205554,
+    "modifiedTime": 1680908027415,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Y3x668lZlHJrjeaG"
+}

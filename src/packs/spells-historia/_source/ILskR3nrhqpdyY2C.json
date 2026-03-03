@@ -1,0 +1,114 @@
+{
+  "flags": {
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.y21CNLiSwhoRoEvv"
+    }
+  },
+  "type": "spell",
+  "img": "icons/magic/water/ice-snowman.webp",
+  "name": "Shiver",
+  "system": {
+    "description": {
+      "value": "<p><em><strong>Deep Magic: </strong>winter</em><br />You fill a humanoid creature with such cold that its teeth begin to chatter and its body shakes uncontrollably. Roll 5d8; the total is the maximum hit points of a creature this spell can affect. The affected creature must succeed on a Constitution saving throw, or it cannot cast a spell or load a missile weapon until the end of your next turn. Once a creature has been affected by this spell, it is immune to further castings of this spell for 24 hours.<br />The maximum hit points you can affect increases by 4d8 when you reach 5th level (9d8), 11th level (13d8), and 17th level (17d8).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DM",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "humanoid tooth",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1674413757061,
+    "modifiedTime": 1674413804122,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "ILskR3nrhqpdyY2C"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Merchant's Wagon",
+  "type": "backpack",
+  "img": "icons/environment/settlement/wagon.webp",
+  "effects": [],
+  "flags": {
+    "itemcollection": {
+      "bagWeight": 0,
+      "bagPrice": null
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "core": {
+      "sourceId": "Item.IiGohEXW0H88HdqN"
+    }
+  },
+  "system": {
+    "description": {
+      "value": null,
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 152",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "type": "items",
+      "value": 0,
+      "weightless": true
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210752,
+    "modifiedTime": 1673573973827,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "xzoCTmsgH8gUJAvT"
+}

@@ -1,0 +1,218 @@
+{
+  "name": "Badgers",
+  "type": "feat",
+  "img": "modules/historia/Species/Badgers.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">“Forgive and forget” is good advice for many creatures, but these two words have no meaning for a Badger. The members of this species will attach themselves to any wrong suffered, mulling over it for years and making every effort to ensure that no affront goes unpunished. Similarly, they do their utmost to repay a favor, both out of gratitude and because they detest feeling in debt. Badgers are patient when it comes to taking revenge on those who have made fun of them but quickly become irritable when it comes to everything else. Indomitable, strong and very determined, they do not like to deal with unprepared creatures, and they rarely tolerate laziness or uncertainty. They are not particularly social, but their strong character leads them, when they are part of groups or organizations, to hold positions of responsibility. They deal with others in a simple and straightforward way, and do not like word games; formal environments make them uncomfortable, and they value sincerity and transparency highly.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Constitution </span>score increases by 2 and your Strength score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Mustacei reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average life span of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span><span class=\"fontstyle2\">Yourbase ground speed 30 feet, and your digging speed is 5 feet. The digging speed is 5 feet.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Badger can reach a height of between 4 feet and 6 <span class=\"fontstyle0\">feet, and weigh between 65 lbs and 175 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Darkvision</strong></em>. </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></p>\n<p>@Compendium[world.species-features.TyD0MoZXISwb8Qik]{Resolute}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.YHDI8n7hXurjiJIS]{Odorous Messages}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.6AF4ovTKSQZUiP0e]{Relentless Tenacity}</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.UpAYSSvL2bydPXdS]{Strong Heart}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.0fqtcLBwD0CcjrBu]{Strong Lungs}</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.NKKfBqiSsnS6mwB5]{Bite}</span></p>\n<p><span class=\"fontstyle2\"><em><strong>Instinct of Familia, Survival (Omnivore)</strong></em>: </span><span class=\"fontstyle3\">“I become active when the moment is darkest”.</span></p>\n<p><span class=\"fontstyle3\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Grudge: </span></strong></em><span class=\"fontstyle2\">“I remember all those who have wronged me”</span></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 73",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Mustacei Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205582,
+    "modifiedTime": 1680907436250,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "hLwk7qvSKlbtfxf4"
+}

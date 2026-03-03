@@ -1,0 +1,238 @@
+{
+  "name": "Ice Knife",
+  "type": "spell",
+  "img": "worlds/dnd/adventures/Adventure_1612769598542/actor/images/Ri4yQtSjvKJmU5oQ/IceShard.png",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "value": [
+          true
+        ],
+        "altValue": [
+          true
+        ],
+        "type": "Array"
+      },
+      "quickOther": {
+        "context": "Cold",
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "critRange": {
+        "value": null,
+        "type": "String"
+      },
+      "critDamage": {
+        "value": "",
+        "type": "String"
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickSave": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false,
+        "type": "Boolean"
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true,
+        "type": "Boolean"
+      },
+      "quickCharges": {
+        "value": {
+          "use": false,
+          "resource": true
+        },
+        "altValue": {
+          "use": false,
+          "resource": true
+        },
+        "type": "Boolean"
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "mess": {
+      "templateTexture": ""
+    },
+    "maestro": {
+      "playlist": "WjJa4wZ8iSwWE9ck",
+      "track": "mlYOlGaSLaYxkRHz"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "core": {
+      "sourceId": "Compendium.world.spells-world.KwdvJrK4udMvHSEe"
+    },
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        }
+      },
+      "quickOther": {
+        "context": "",
+        "value": true
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickAttack": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You create a shard of ice, and fling at one creature in range. Make a range spell attack against the target. On a hit the target takes 1d10 Piercing damage. Hit or miss the shard then explodes. The target and each creature within 5 feet it must succeed on a DEX saving throw or take 2d6 Cold Damage.</p>\n<p> </p>\n<p>Add 1d6 to the cold for each slot level 2nd level or higher.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGtE pg. 157",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "rsak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d6",
+    "save": {
+      "ability": "dex",
+      "dc": 16,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a drop of water or piece of ice",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671389428046,
+    "modifiedTime": 1673573979729,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "U5DAgMwsKb78Nwlm"
+}

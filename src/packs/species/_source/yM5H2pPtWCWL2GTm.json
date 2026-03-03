@@ -1,0 +1,218 @@
+{
+  "name": "Pigs",
+  "type": "feat",
+  "img": "modules/historia/Species/Pigs.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">If the Boars do not know how to control themselves, Pigs do not want to control themselves. They love excess and are not ashamed to pursue it with ardor. When a Pig has a particular passion, it is ready to dedicate every fiber of their being and every available resource to it. This is as true for earthly pleasures such as food, wealth, power and lust, as for the desires of the spirit. It is not unusual in fact for Pigs to be accused of fanaticism: their dedication to a cause is total. In their constant search for the fulfilment of their desires, they are in fact paradoxically disciplined and meticulous, and leave nothing to chance. For this reason, those who believe that Pigs are boorish, ignorant and of low intellect are deeply wrong: these Sauti are, on the contrary, as greedy as </span>they are intelligent, and it is not uncommon for them to </span><span class=\"fontstyle0\">exploit this prejudice to their advantage. Members of this species are social for convenience, and they do not hesitate to use others to achieve their ends. It is rare for them to genuinely become attached to someone, but when this happens, devotion to the object of one’s love becomes extreme, like all the emotions of these creatures.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Intelligence </span>score increases by 1, your <span class=\"fontstyle0\">Constitution score increases by 2 and your Charisma score increases by 1</span>.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Sauti reaches maturity around the age of 16 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 80 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 30 feet.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Pig can reach a height of between 5 1/4 feet and 6 <span class=\"fontstyle0\">feet, and weigh between 155 lbs and 330 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.QUIFEZIbaMlweTHY]{Poison Resistance}</span></p>\n<p>@Compendium[world.species-features.PUz1WvRMChjUGohq]{Massive Build}</p>\n<p>@Compendium[world.species-features.PWgXqZGZR7TuIvGf]{Simple Anatomy}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.XYRUz23h1hK9hnef]{Peripheral Vision}</span></p>\n<p><span class=\"fontstyle3\">@Compendium[world.species-features.PzL6zz0LevatqjuS]{Gourmet}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Architect (Omnivore):</strong></em> </span><span class=\"fontstyle4\">“I can achieve lasting and change-resistant results”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Hedonist:</strong></em> </span><span class=\"fontstyle2\">“I devour, consume and savor everything I encounter”.</span> </span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 87",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sauti Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205607,
+    "modifiedTime": 1680907926194,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "yM5H2pPtWCWL2GTm"
+}

@@ -1,0 +1,781 @@
+{
+  "name": "Priest",
+  "type": "class",
+  "img": "media/Professions/priest.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.oM2w7xuYBvPcJG7J"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Vesteria is a land where it is difficult not to believe in something. <span class=\"fontstyle0\">Portents of all kinds can be seen with your own eyes: the touch of a healer cures wounds like no ointment or plaster ever could, fueled by pure faith; even mad Plautilla, whom many dared to doubt, came back to light by speaking the voice of the prophets and carrying with her a bone so large that it could not belong to anyone but a divine Ancestor. Whether they belong to the </span>rigid hierarchy of the Church of the Bones, the most common and practiced religion on the continent, or to the animist cults of certain rural communities, or any other minor <span class=\"fontstyle0\">religion on which not even the most authoritative scholars have reliable information, Priests are the voice of faith in the world, its legs, eyes, and – as it often happens – even its arm. They are endowed with extraordinary powers, which can take many forms and that can be used both on the battlefield or in a crowded square, directly channeled by the divinity of which they are the spokesperson and to whom they have devoted their existence.</span></p>\n<h1><span class=\"fontstyle0\">Class Features</span></h1>\n<p>As an  <span class=\"fontstyle0\">priest </span>you gain the following class features.</p>\n<p><strong><span class=\"fontstyle0\">Hit Points</span></strong><br /><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em><span class=\"fontstyle0\">1d8 per priest level</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Hit Points at 1st Level:</strong></em> 8 + your Constitution modifier<br /><em><strong>Hit Points at Higher Levels:</strong></em> 1d8 (or 5) + </span>your Constitution <span class=\"fontstyle0\">modifier per priest level level after 1st</span></p>\n<p><strong>Proficiencies</strong><br /><strong><em>Armor:</em></strong> Light armor, medium armor<br /><em><strong>Weapons:</strong> </em>Simple weapons<br /><strong><em>Tools:</em></strong> none<br /><strong><em>Saving Throws: </em></strong>Wisdom, Charisma<br /><em><strong>Skills:</strong></em> Choose two from among History, Insight, Medicine, <span class=\"fontstyle0\">Persuasion and Religion</span></p>\n<p><strong>Equipment</strong><br /><span class=\"fontstyle0\">You start with the following equipment, in addition to the equipment provided by your venture:</span></p>\n<ul>\n<li><span class=\"fontstyle0\">(a) a maul or (b) a war hammer (if you are proficient)</span></li>\n<li><span class=\"fontstyle0\">(a) a studded tabard, (b) a leather armor or (c) a chainmail (if you are proficient)</span></li>\n<li><span class=\"fontstyle0\">(a) a liight crossbow and 20 quarrels or (b) any simple weapon</span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle0\">(a) a priest’s pack or (b) an explorer’s pack</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle0\">A sacred symbol</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></li>\n</ul>\n<h1>Priest Advancement</h1>\n<table style=\"height:353px;width:98.9399%\">\n<tbody>\n<tr style=\"height:33px\">\n<td style=\"width:4.4985%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Level</td>\n<td style=\"width:7.63901%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Proficiency Bonus</td>\n<td style=\"width:33.9119%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Features</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">1</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.jNqgM6DCh2HHYNfS]{Out of the Norm}, @Compendium[world.profession-features.PtWtDj2iTaO5Mvvw]{Magic of the Pact}, @Compendium[world.profession-features.AYUVNUQoDbf2xv8X]{Devotion Way}</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">2</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.6yaTl2LG7xxhEwoW]{Channel Divinity}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">3</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.x7WHtSB9BB2VG5hd]{Sermon}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">4</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">5</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Features of the Devotion Way</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">6</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">New Cantrip</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">7</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Features of the Devotion Way</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">8</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">9</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">-</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">10</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.6yaTl2LG7xxhEwoW]{Channel Divinity (2)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">11</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Features of the Devotion Way</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">12</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">13</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">14</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">New Cantrip</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">15</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Features of the Devotion Way</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">16</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">17</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.OyyNRJLtN9qHpZTO]{Transfiguration}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">18</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">New Cantrip</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">19</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">20</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gf8XH3352gKOCStt]{Unwavering Devotion}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 158",
+    "identifier": "priest",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "3eh5DYmZizzovHeE",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "9p1PM35XDojX6cpJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.jNqgM6DCh2HHYNfS"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "rVdLNydIhB9bkdhS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.PtWtDj2iTaO5Mvvw"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Spellcasting"
+      },
+      {
+        "_id": "ji9rVC5686iOmeyf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.AYUVNUQoDbf2xv8X"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Subclass"
+      },
+      {
+        "_id": "y1MlirALF6pCbZl1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.6yaTl2LG7xxhEwoW",
+            "Compendium.world.profession-features.8F33wNlYDPJmDuDO"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "og7CuLKsFgHLc8zm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.x7WHtSB9BB2VG5hd"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ZvisCUnPVe2ogqQy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "VvHU9bkC23onrNvF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Choose 2 1st-Level Priest Spells"
+      },
+      {
+        "_id": "AN0KwOriumNAbuCT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Choose 2 Priest Cantrips"
+      },
+      {
+        "_id": "g1l1EskgzoUKeOi5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Pick a new Priest Cantrip"
+      },
+      {
+        "_id": "V1WffH1I1Hsw0Ac6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "dt1dHA3otenHvFgL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "1R5ykVLfIgyDTo9g",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Pick a new Priest Cantrip"
+      },
+      {
+        "_id": "OF85rkUOb8HBeK7o",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "VfKtICbVXyUE77pC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.OyyNRJLtN9qHpZTO"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "wealmTvdPv5R7S8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Pick a new Priest Cantrip"
+      },
+      {
+        "_id": "gtqyD1sk8HcssLhp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "uQ3L4e9ybOCuDvwf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.gf8XH3352gKOCStt"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "MO0sn3ToiqsqAPfe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Choose a new 1st-Level Priest Spell"
+      },
+      {
+        "_id": "9MkAEjr5mMvI8sIb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "JBmqOBtXXqmDJKQs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "jtV7ZkbycYIU78zY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "9KiWxn4EuchdxmYZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "mAc5AnAMvCDXPClt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "R2qnm8AGwaUqYmyl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "wjDuFmpuQhliROKL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "Fo8b9juQtisw6sz6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "HNSS8fcpK3zd9NSW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Choose a new Priest Spell"
+      },
+      {
+        "_id": "86mCoEZdrMTIz3zz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "1LQL8hpqAcDDl6Ys",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "xuS32rmd5ZmyMmxn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "aELPKu2nYkRcFwgz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "xOZ6G8r4EFtn3cKt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "bGB7CgjMQj3zsE4j",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "zurDueoA1f4i4KII",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "mfH0xkRp9F6Hb3W7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "1xO0hvHDRkOCugVf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Option: Replace with a new Spell of the same level."
+      },
+      {
+        "_id": "onA61WxUebKH9MPp",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "channel",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": "1"
+            },
+            "10": {
+              "value": "2"
+            }
+          }
+        },
+        "value": {},
+        "title": "Channel Divinity"
+      }
+    ],
+    "saves": [
+      "wis",
+      "cha"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "his",
+        "ins",
+        "med",
+        "per",
+        "rel"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "wis"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207446,
+    "modifiedTime": 1680913101131,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "QiAoN9B4fZFtCBr1"
+}

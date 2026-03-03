@@ -1,0 +1,218 @@
+{
+  "name": "Hedgehogs",
+  "type": "feat",
+  "img": "modules/historia/Species/Hedgehogs.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Not all creatures love the excited shouting of an audience before a great show, or the bustle of the harbor markets, or the comings and goings in the great hall of a tavern. Some prefer the satisfied silence of their home, interrupted only by the crackle of a fireplace and the rustle of the pages of a book. The hedgehogs are part of this group: solitary, thoughtful, and lovers of relaxing activities, they shy away from conflict and excitement. Their highest ambition is a peaceful existence. They do not like intrusions into their private life: if you want to anger an Hedgehog, try disturbing their quiet with impertinent chatter. These shy Eulipi show confidence with extreme difficulty, and always prefer their own company to that of others. Their presence is often not taken into consideration by larger creatures, which allow Eulipi both to be left alone and to casually eavesdrop on important conversations…</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Charisma score increases by 2 and your Wisdom score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">A Eulipi reaches maturity at around 10 years and is immediately considered independent. They have an average life span of 50 years.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em><span class=\"fontstyle2\">Your base walking speed is 25 feet.</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>S</strong></em></span><span class=\"fontstyle0\"><em><strong>ize.</strong></em> </span><span class=\"fontstyle2\">A Hedgehog can reach a maximum height of 3 feet </span><span class=\"fontstyle0\">and a weight of no more than 55 lbs. Your size is Small.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Natural Affinity.</strong></em> </span><span class=\"fontstyle2\">You may choose either the Survival or Nature skill; you gain proficiency with that skill.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Darkvision. </span></strong></em><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.Bmgcfc7z86n51EkV]{Innate Stealth}</span></p>\n<p>@Compendium[world.species-features.ueIHbWaNJodc7bY2]{Quills (Hedgehog)}</p>\n<p><span class=\"fontstyle3\"><span class=\"fontstyle2\">@Compendium[world.species-features.aMBs0FrPVKG5AcRK]{Roll-up}</span></span></p>\n<p><span class=\"fontstyle3\">@Compendium[world.species-features.h7qbVKMGR4nu9W2S]{Cushioned Fall}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Habits (Prey):</strong></em> </span><span class=\"fontstyle4\">“I appreciate the daily routine and I am averse to changes”.</span></p>\n<p><span class=\"fontstyle4\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Solitary: </span></strong></em><span class=\"fontstyle2\">“I can be alone and keep others at a distance”.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 63",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Eulipi Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205605,
+    "modifiedTime": 1680907710477,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "wmQGx3n6b30iQc2y"
+}

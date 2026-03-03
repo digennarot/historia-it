@@ -1,0 +1,75 @@
+{
+  "name": "Woodcarver's Tools",
+  "type": "tool",
+  "img": "icons/weapons/axes/axe-double-chopping-black.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.xKErqkLo4ASYr5EP"
+    },
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickCheck": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>These special tools include the items needed to pursue a craft or trade in woodcarving.</p>\n<p>Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 154",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "toolType": "",
+    "baseItem": "",
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": ""
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210765,
+    "modifiedTime": 1673573973841,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "zKQ19CaRrpnKtIq5"
+}

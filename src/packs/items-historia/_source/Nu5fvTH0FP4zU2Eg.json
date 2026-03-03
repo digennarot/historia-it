@@ -1,0 +1,36 @@
+{
+  "name": "Tome of Alchemy",
+  "type": "loot",
+  "img": "icons/sundries/books/book-symbol-triangle-silver-purple.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Tl5xE0SzlqYgUyXI"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Alchemy Book for Beginners</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 122",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210577,
+    "modifiedTime": 1673573973634,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Nu5fvTH0FP4zU2Eg"
+}

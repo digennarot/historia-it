@@ -1,0 +1,121 @@
+{
+  "name": "Spy",
+  "type": "subclass",
+  "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The truth always comes out, but if a Spy gets their hands on it, it will probably end face down in a sewer, in unexplained circumstances. Spies know how to skillfully manipulate those around them and weave a web of lies, so thick and skillfully made that they can even deceive themselves, impersonating to perfection an innocent maid, a queen of merchants or a ruthless mercenary. Spies are the scoundrels who best act in full view, strong in charisma and certain that the mask will fall only if and when they want.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 179",
+    "identifier": "spy",
+    "classIdentifier": "scoundrel",
+    "advancement": [
+      {
+        "_id": "PlqeOkQLiJjSHHDx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.1YdxGAvUvgbq3Bn4",
+            "Compendium.world.profession-features.qQrGXtAikm9LF2A2"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "DJppisybwIt0rw5g",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.LfkSe9Pg3cpQ1cQh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "iXgQ9gU6YAi3maqs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.GtcyVY5QYRL7GlAb"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ta7Q0PnWJ26Q7Rvg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.oFlBBxguyr0YlV4b"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.bPkFCOO6tYz8JMP1"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671158862599,
+    "modifiedTime": 1673573969086,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "MKNIbYgV3WNd6MLJ"
+}

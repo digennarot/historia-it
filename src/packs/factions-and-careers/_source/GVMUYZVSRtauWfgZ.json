@@ -1,0 +1,241 @@
+{
+  "name": "Career: Outlaw",
+  "type": "feat",
+  "img": "icons/commodities/currency/coins-stitched-pouch-brown.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.TKvxhFAnOCEEuBOu"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Career Information</h2>\n<p><span class=\"fontstyle0\">A cruel world creates cruel lives, and with its contradictions, abysmal social differences and power games, Vesteria is decidedly ruthless. Those who do not want to bow to harsh and oppressive laws or seek profit through illicit trades, irremediably end up becoming outlaws, consigning themselves to a life of crime. There is no shortage of evil and merciless people at least as much as the world they inhabit, villains who follow this path out of pleasure or sheer desire for wealth and power, without scruples or ever stop to ponder about the “absurd” limits posed by the law. Various criminal organizations bring these outlaws together, potentially becoming able to stand up to ‘regular’ factions and official bodies.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 0 - SCUM<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle0\">Committing a crime.<br /></span></p>\n<p><span class=\"fontstyle0\">You have chosen to continue on the path of crime after having committed a crime. You begin to make contact with other petty criminals and the like, hiding from the law, which earns you proficiency in camouflage or disguise tricks.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - OUTLAW<br /></span></h2>\n<p><span class=\"fontstyle0\">You are now sought after and determined to continue on the path of crime: you join an organized group of outlaws or find fellow criminals with whom to create an alliance, exchange information, protection and proceeds from illegal activities. You gain a proficiency chosen from rogue tools, poisoning gear or a play set.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, I know a guy.</strong></em> </span><span class=\"fontstyle0\">You always know a representative of some criminal gang who has the skills or resources necessary to overcome an obstacle and be useful for some specific job. Once per session, you can spend inspiration to treat a number of NPCs equal to or lower than your Career Rank as minions until the end of the task, in agreement with the GM. The rank of these followers must be lower than the career rank of the outlaw.</span> </p>\n<h2><span class=\"fontstyle0\">RANK 2 - CRIMINAL<br /></span></h2>\n<p><span class=\"fontstyle2\">You have earned quite some Fame in the underworld, to the point where you are now known even by ordinary people and the authorities. Your criminal Fame has brought several other outlaws to follow your lead, or maybe you have climbed the ranks of the organization to which you are affiliated.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - BOSS<br /></span></h2>\n<p><span class=\"fontstyle2\">You now direct the shady operations of an entire criminal organization and are feared and recognized as the most evil of outlaws on the entire continent. Your position puts you in the particular situation of having to be accepted by high society and politics, being by now too dangerous to be ignored, never mind stopped.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 235",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210286,
+    "modifiedTime": 1680916368658,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "GVMUYZVSRtauWfgZ"
+}

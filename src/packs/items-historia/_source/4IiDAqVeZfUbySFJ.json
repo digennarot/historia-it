@@ -1,0 +1,36 @@
+{
+  "name": "White Book",
+  "type": "loot",
+  "img": "icons/sundries/books/book-worn-blue.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.mDlQE7tCYx2o3AIO"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting alchemy book</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 122",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210473,
+    "modifiedTime": 1673573973514,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "4IiDAqVeZfUbySFJ"
+}

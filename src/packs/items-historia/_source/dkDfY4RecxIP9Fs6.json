@@ -1,0 +1,36 @@
+{
+  "name": "Magnifying Glass",
+  "type": "loot",
+  "img": "icons/tools/scribal/magnifying-glass.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.PV0sn2Nlr8CNn4W9"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 152",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210646,
+    "modifiedTime": 1673573973722,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "dkDfY4RecxIP9Fs6"
+}

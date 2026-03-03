@@ -1,0 +1,120 @@
+{
+  "name": "Puppet",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>Your gesture forces one humanoid you can see within range to make a Constitution saving throw. On a failed save, you can choose to have the target compel to move up to its speed in a direction you choose or have the target to drop whatever it is holding. Targets that are forced to move will pass through any obstructions in its path (will open unlock doors, climb up ladders, walk on traps, go over cliffs, etc). They will stop on obstructions that are impossible to go through (walls, locked/barred doors). Targets will only drop items that are not fastened or wearing in their hands (gloves, gauntlets, items securely strapped to their hands.)  Shields are considered held so it can be dropped, even if a strap goes through the arm. This spell has no effect on a humanoid that is immune to being @condition[charmed].</p></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UA",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "img": "icons/magic/control/control-influence-puppet.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "UAStarterSpells",
+      "hash": "puppet%20(ua)_uastarterspells",
+      "propDroppable": "spell"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.7pRnDCAlDdzwWSfg"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671393285211,
+    "modifiedTime": 1673573979591,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "8PkGrInavb3GAMsb"
+}

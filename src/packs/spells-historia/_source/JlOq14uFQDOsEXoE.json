@@ -1,0 +1,111 @@
+{
+  "flags": {
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.iwWIDM1hKkkrNwwE"
+    }
+  },
+  "type": "spell",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "name": "Douse Light",
+  "system": {
+    "description": {
+      "value": "<p>With a simple gesture, you can put out a single small source of light within range. This spell extinguishes a torch, a candle, a lantern, or a <em>@Compendium[dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light}</em> or <em>@Compendium[dnd5e.spells.Item.CAxSzHWizrafT033]{dancing lights}</em> cantrip.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DM",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1674415208126,
+    "modifiedTime": 1674415252799,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "JlOq14uFQDOsEXoE"
+}

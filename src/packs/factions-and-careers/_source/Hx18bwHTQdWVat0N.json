@@ -1,0 +1,241 @@
+{
+  "name": "Faction: People's Army",
+  "type": "feat",
+  "img": "media/Factions/People's Army.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.J8pgLhvIz63Tjoxp"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Faction Information</h2>\n<p>@Compendium[world.historia-factions.JqbVH3xnJiJjU5t0]{People's Army}</p>\n<h2><span class=\"fontstyle0\">RANK 0 - DISSIDENT<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Requirements: </span></strong></em><span class=\"fontstyle3\">Having close contact with a group of representatives of the People’s Army.<br /></span></p>\n<p><span class=\"fontstyle3\">You may espouse the cause of the Army by joining its ranks and offering your support to the cause. Initially this takes the form of small illegal jobs such as transporting letters, protecting other dissidents and other menial activities, all financed by the wealthy merchants who support the cause. Simple dissidents do not know the identity of most of their comrades in order to avoid information leaks.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 1 - SOLDIER OF THE PEOPLE<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fame earned in the Faction to spend: </span></strong></em><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Showing faith in the cause by risking ones’ own safety and carrying out a risky task for the People’s Army.<br /></span></p>\n<p><span class=\"fontstyle3\">You join the organization by becoming an active member. You know the affiliates of your cell of reference and a direct superior and may be called to action for dangerous missions or invited to proselytize in favorable environments, all the while maintaining your anonymity. Dissidents always help a Soldier in case of need.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 2 - LEADER OF THE GENTILES<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having achieved great results for the People’s Army and having revealed their involvement publicly to win the hearts of new Dissidents, after having achieved an important success.<br /></span></p>\n<p><span class=\"fontstyle3\">You are considered a Hero of the Army and one of its key figures, becoming increasingly more important within the organization of the movement and acquiring direct control of a group of People’s Soldiers. The forces in opposition to the aristocratic rule of the Holy Kingdom become your supporters, who turn all your Fame into infamy for the Holy Kingdom.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Special, Ignite the Soul.</strong></em> </span><span class=\"fontstyle3\">You are capable of instilling strong emotions in people’s hearts and motivating them to take what is rightfully theirs: freedom! Dissidents love the People’s Courts and are willing to fight, if not die, to support them if asked by one of them. When this happens, Rank 1 NPCs count up higher in the calculation of their hit roll and damage, treating commoners’ improvised weapons as standard ones.</span> </p>\n<h2><span class=\"fontstyle0\">RANK 3 - COMMANDER OF THE PEOPLE<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fame earned in Faction to spend:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><em><strong><span class=\"fontstyle2\">Requirements: </span></strong></em><span class=\"fontstyle3\">To forge ties of understanding with a power hostile to the Holy Kingdom, to demonstrate great skills of command and strategy, as well as the ability to draw people. </span></p>\n<p><span class=\"fontstyle3\">At the moment there is no formal People’s Commander: Wolfgang Gabrinus, the Tribune of the Peoples, is considered at the head of the movement but has not yet obtained the necessary support from a power hostile to the Holy Kingdom to be able to bring the People’s Army closer to achieving its next goal. People’s Commanders count as a political leader in the balance between nations, and for this reason they are in a dangerous position albeit one of great strength. On reaching this status, it will become very difficult to distinguish enemies and friends: understanding whom to trust and the actual resources that can be mustered are among the most difficult tasks for the Commanders of the People, who must also dedicate their lives for the freedom of the people. </span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 220",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210288,
+    "modifiedTime": 1680916506427,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Hx18bwHTQdWVat0N"
+}

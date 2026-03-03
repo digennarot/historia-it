@@ -1,0 +1,243 @@
+{
+  "name": "The Artist’s Touch",
+  "type": "feat",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.M1m8J4Nyb4xDdPeo"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Starting from 2nd level, you start to make your weapon more unique and special, adapting it to your own style. You can add an Improvement to your firearm, and further Upgrades at 5th, 11th and 17th levels.</span> </p>\n<p><strong>IMPROVEMENTS</strong></p>\n<p><strong>Bayonet</strong><br /><em>Rifle only</em><br /><span class=\"fontstyle0\">The custom weapon can be used as a melee weapon in which you are proficient, that inflicts 1d8 piercing damage and applies the effects of Lethal Shooter.</span> </p>\n<p><strong>Long Barrel</strong><br /><span class=\"fontstyle0\">The custom weapon becomes difficult to conceal, but offers greater precision, increasing the hit roll by half the Intelligence bonus.</span></p>\n<p><span class=\"fontstyle0\"><strong>Perfect Bullets</strong><br /></span><span class=\"fontstyle2\">The custom weapon fires more precise and effective shots. When damage is rolled, each die with a result lower than your Intelligence modifier is considered equal to your Intelligence modifier (minimum of 2).</span> </p>\n<p><span class=\"fontstyle0\"><strong>Reinforeced Structure</strong><br /></span><span class=\"fontstyle2\"><em>Gun only</em><br /></span><span class=\"fontstyle3\">Your weapon has a reinforcement that protects it in case of problems. In the event of a malfunction, you suffer only one loss of hit points equal to the normal damage of the weapon, without modifiers, instead of a level of exhaustion.</span> </p>\n<p><span class=\"fontstyle0\"><strong>Viewfinder</strong><br /></span><span class=\"fontstyle1\">Shooting with a custom weapon ignores the benefits of target coverage.</span> </p>\n<p><span class=\"fontstyle1\"><span class=\"fontstyle0\"><strong>Fragmentation Bullet</strong><br /></span><span class=\"fontstyle2\">The custom weapon allows you to fire a rose of fragments, hitting an additional target within 5 feet of the initial target. The secondary target suffers only a single weapon damage die.</span></span></p>\n<p><span class=\"fontstyle1\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><strong>Supercharger</strong><br /></span><span class=\"fontstyle1\">The customized weapon has a compartment that allows you to use a greater quantity of gunpowder capable of causing, in addition to the burst, also a blinding light effect. The target of the hit is disoriented until the end of their next turn and will have to subtract the result of 1d6 on each hit roll, or roll 1d6 for each ability check. Loading the compartment consumes additional ammunition and can be refilled during normal reloading.</span></span></span></p>\n<p><span class=\"fontstyle1\"><span class=\"fontstyle2\"><span class=\"fontstyle1\"><span class=\"fontstyle0\"><strong>Covered Combustion Chamber</strong><br /></span><span class=\"fontstyle2\">This improvement prevents the black powder from getting wet, thus avoiding a malfunction. However, maintenance must be performed before it can be used again, typically during a long rest.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></span></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 166",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sapper Level 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409209007,
+    "modifiedTime": 1673573972211,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "k08xXWSB3wkcibuD"
+}

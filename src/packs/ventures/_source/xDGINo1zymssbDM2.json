@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Heritage",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>It is not easy to reign over an extended empire<br />like his and inspire obedience<br />to different peoples and rivals alike.<br />Yet, Muhur succeeded.</strong></span></p><p><span class=\"fontstyle0\">Being part of a proud dynasty whose identity and activity is handed down from generation to generation is not easy. Many young people do not see the inheritance left to them as their own, living it as an imposition, and often feeling like they are imprisoned in a future that does not belong to them, crushed by the weight of a tradition they loathe. None of this applies to those who choose the venture Heritage.</span></p><p><span class=\"fontstyle0\">Standing on the proud shoulders of the giants who preceded them, those who dedicate their lives to honoring their Heritage perceive it as a vocation, and wish not only to fulfil it, but to further elevate it. Responsibility does not scare them. The training they received in their youth makes them confident in their abilities and the fire that burns in their hearts illuminates and comforts them even in the most difficult moments. Frequently, those who take this arduous venture have in their past a mentor who played a key role in their training and whose influence still guides many of their choices, sometimes they agree with them, sometimes they don’t. <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p><p>@Compendium[world.ventures.pjXTJOY15oy0xYEh]{Prominence: Luck Does not Exists}</p><p><span class=\"fontstyle0\"><strong>ENDOWMEN</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">A symbol of your heritage, which you received from your mentor and who knows in which hands it will end.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Valuable clothes, a book that tells the story of your legacy and a proficiency to choose among vehicles (water), vehicles (land) or calligrapher tools.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency: </strong></span><span class=\"fontstyle1\" style=\"color:#000000\">chosen tool or weapon<br /></span><span class=\"fontstyle3\"><strong>Coinage:</strong> </span><span class=\"fontstyle1\" style=\"color:#000000\">15</span></p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS<br /></strong></span><span class=\"fontstyle1\"><em><strong>Ideal</strong></em>. </span><span class=\"fontstyle3\">How do you want to leave your mark on the history you are part of? Will you be a turning point or a perfect example?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Who showed you your heritage? What is your relationship to this person?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong></em>. </span><span class=\"fontstyle3\">What traditions of your heritage you cannot make yours? What are you not willing to do?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait. </strong></em></span><span class=\"fontstyle3\">What did your mentor tell you, or who for them,<br />when you went on a quest?</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 196",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.pjXTJOY15oy0xYEh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/magic/control/control-influence-crown-yellow.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825343726,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "xDGINo1zymssbDM2"
+}

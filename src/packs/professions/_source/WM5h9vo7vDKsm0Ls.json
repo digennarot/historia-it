@@ -1,0 +1,1537 @@
+{
+  "name": "Magus",
+  "type": "class",
+  "img": "media/Professions/magus.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.d1Jf5lJoUuqOZO06"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Change your appearance like a street <span class=\"fontstyle0\">performer, improving it without the artifices of makeup and in the blink of an eye; read someone’s thoughts as if it were written in familiar calligraphy; raise a flaming shield capable of deflecting any projectile; walk on water, even levitate: these are only a handful of the portents to which the Magus has access. There are many branches of knowledge, </span>yet nothing like magic attracts its acolytes thanks to its <span class=\"fontstyle0\">mystery, difficulty and infinite potential. Mastering the arcane art allows you to reign over many aspects of reality. The simple thought of this vast power can frighten, fascinate and confuse. The Magus dedicates their existence to the exploration of this arcane labyrinth, whose unfathomable breadth forces them to choose a specific area in which to specialize. For some, this at first may seem like a short leash, but over time they change their mind: the study of a single Secret is challenge enough, suitable only for the brightest. </span></p><h1><span class=\"fontstyle0\">Class Features</span></h1><p><span class=\"fontstyle0\">As a magus you gain the following class features. <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p><p><span class=\"fontstyle0\"><strong>Hit Points</strong></span><br /><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em>1d6 per  magus level <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Hit Points at 1st Level:</strong></em> 6 + the magus' Constitution modifier<br /><em><strong>Hit Points at Higher Levels:</strong></em> 1d6 (or 4) + the magus' Constitution modifier per level of magus after the 1st</span></p><p><strong>Proficiencies</strong><br /><em><strong>Armor:</strong></em> none<br /><em><strong>Weapons:</strong> </em>Light crossbows, quaterstaffs, darts, slings, daggers, small sword<br /><em><strong>Tools:</strong></em> Two artisans tools of your choice<br /><em><strong>Saving Throws: </strong></em>Intelligence, Wisdom<br /><em><strong>Skills:</strong></em> Choose two from Arcana, History, Insight, <span class=\"fontstyle0\">Investigation, Nature, Perception and Performance.</span></p><p><strong>Equipment</strong><br /><span class=\"fontstyle0\">You start with the following equipment, in addition to the equipment provided by your venture:</span></p><ul><li><span class=\"fontstyle0\">(a) a small sword, or (b) an iron staff</span></li><li><span class=\"fontstyle0\">(a) a component pouch, or (b) an arcane focus</span></li><li><span class=\"fontstyle0\">(a) a scholar’s pack, or (b) a diplomat’s pack</span></li><li><span class=\"fontstyle0\">An artisan’s tool of choice</span></li></ul><h1>Magus Advancement</h1><table style=\"height:353px;width:98.9399%\"><tbody><tr style=\"height:33px\"><td style=\"width:6.66456%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Level</td><td style=\"width:10.7076%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Proficiency Bonus</td><td style=\"width:26.8722%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Features</td><td style=\"width:9%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Secrets</td><td style=\"width:9%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Max Spell Level</td><td style=\"width:9%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">EP recovered at SR</td><td style=\"width:9%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\"><p>EP</p></td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">1</td><td style=\"width:10.7076%;height:16px;text-align:center\">+2</td><td style=\"width:26.8722%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.XMpClF8MhUMdZ4jN]{Spellcasting}, @Compendium[world.profession-features.4C8IP6xhXCoUzKQd]{Work of Magna Ars}, @Compendium[world.profession-features.PsgqFYyCuuUjN2f7]{Secrets}</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">1</span></td><td style=\"width:9%;height:16px;text-align:center\">1</td><td style=\"width:9%;height:16px;text-align:center\">2</td><td style=\"width:9%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">2</td><td style=\"width:10.7076%;height:16px;text-align:center\">+2</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.N46TDrwBCvyHEbmk]{Founding Mystery}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">1</span></td><td style=\"width:9%;height:16px;text-align:center\">1</td><td style=\"width:9%;height:16px;text-align:center\">4</td><td style=\"width:9%;height:16px;text-align:center\">6</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">3</td><td style=\"width:10.7076%;height:16px;text-align:center\">+2</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.F054TiPpDdnYVnrk]{Metamagic}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">1</span></td><td style=\"width:9%;height:16px;text-align:center\">2</td><td style=\"width:9%;height:16px;text-align:center\">5</td><td style=\"width:9%;height:16px;text-align:center\">9</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">4</td><td style=\"width:10.7076%;height:16px;text-align:center\">+2</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">1</span></td><td style=\"width:9%;height:16px;text-align:center\">2</td><td style=\"width:9%;height:16px;text-align:center\">7</td><td style=\"width:9%;height:16px;text-align:center\">12</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">5</td><td style=\"width:10.7076%;height:16px;text-align:center\">+3</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.qDybIykLiQrg9dMY]{Arcane Twist}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">1</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\">8</td><td style=\"width:9%;height:16px;text-align:center\">15</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">6</td><td style=\"width:10.7076%;height:16px;text-align:center\">+3</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.PsgqFYyCuuUjN2f7]{New Secret}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">2</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\">10</td><td style=\"width:9%;height:16px;text-align:center\">18</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">7</td><td style=\"width:10.7076%;height:16px;text-align:center\">+3</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.N46TDrwBCvyHEbmk]{Major Mystery}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">2</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\">11</td><td style=\"width:9%;height:16px;text-align:center\">21</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">8</td><td style=\"width:10.7076%;height:16px;text-align:center\">+3</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">2</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\">13</td><td style=\"width:9%;height:16px;text-align:center\">24</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">9</td><td style=\"width:10.7076%;height:16px;text-align:center\">+4</td><td style=\"width:26.8722%;height:16px;text-align:center\">-</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">2</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">5</span></td><td style=\"width:9%;height:16px;text-align:center\">14</td><td style=\"width:9%;height:16px;text-align:center\">27</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">10</td><td style=\"width:10.7076%;height:16px;text-align:center\">+4</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.F054TiPpDdnYVnrk]{Metamagic}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">2</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">5</span></td><td style=\"width:9%;height:16px;text-align:center\">16</td><td style=\"width:9%;height:16px;text-align:center\">30</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">11</td><td style=\"width:10.7076%;height:16px;text-align:center\">+4</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.PsgqFYyCuuUjN2f7]{New Secret}, @Compendium[world.profession-features.cz8P5SzCAaq3gqw5]{Major Arcana (6th Level)}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">6</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">17</span></td><td style=\"width:9%;height:16px;text-align:center\">33</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">12</td><td style=\"width:10.7076%;height:16px;text-align:center\">+4</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">6</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">19</span></td><td style=\"width:9%;height:16px;text-align:center\">36</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">13</td><td style=\"width:10.7076%;height:16px;text-align:center\">+5</td><td style=\"width:26.8722%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.cz8P5SzCAaq3gqw5]{Major Arcana (7th level)}, @Compendium[world.profession-features.N46TDrwBCvyHEbmk]{Greater Mystery}</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">7</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">20</span></td><td style=\"width:9%;height:16px;text-align:center\">39</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">14</td><td style=\"width:10.7076%;height:16px;text-align:center\">+5</td><td style=\"width:26.8722%;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">7</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">22</span></td><td style=\"width:9%;height:16px;text-align:center\">42</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">15</td><td style=\"width:10.7076%;height:16px;text-align:center\">+5</td><td style=\"width:26.8722%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.cz8P5SzCAaq3gqw5]{Major Arcana (8th level)}, @Compendium[world.profession-features.F054TiPpDdnYVnrk]{Metamagic}</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">3</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">8</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">23</span></td><td style=\"width:9%;height:16px;text-align:center\">45</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">16</td><td style=\"width:10.7076%;height:16px;text-align:center\">+5</td><td style=\"width:26.8722%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}, </span> @Compendium[world.profession-features.PsgqFYyCuuUjN2f7]{New Secret}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">8</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">25</span></td><td style=\"width:9%;height:16px;text-align:center\">48</td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">17</td><td style=\"width:10.7076%;height:16px;text-align:center\">+6</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.cz8P5SzCAaq3gqw5]{Major Arcana (9th level)}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">9</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">26</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">51</span></td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">18</td><td style=\"width:10.7076%;height:16px;text-align:center\">+6</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.OwVnxNNRzzzXSQvw]{Personal Spell}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">9</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">28</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">54</span></td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">19</td><td style=\"width:10.7076%;height:16px;text-align:center\">+6</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">9</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">29</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">57</span></td></tr><tr style=\"height:16px\"><td style=\"width:6.66456%;height:16px;text-align:center\">20</td><td style=\"width:10.7076%;height:16px;text-align:center\">+6</td><td style=\"width:26.8722%;height:16px;text-align:center\">@Compendium[world.profession-features.N46TDrwBCvyHEbmk]{Universal Mystery}</td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">9</span></td><td style=\"width:9%;height:16px;text-align:center\"><span class=\"fontstyle0\">30</span></td><td style=\"width:9%;height:16px;text-align:center\">60</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 141",
+    "identifier": "magus",
+    "levels": 1,
+    "hitDice": "d6",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "nLykA4Y7qbfEJB8r",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "Ca9ZCrwbKLI2vZnz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.XMpClF8MhUMdZ4jN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Magus Spellcasting"
+      },
+      {
+        "_id": "tKvkTyVydEdZ1B48",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.4C8IP6xhXCoUzKQd"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "nw5sHZLRtcEAmowd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.P0gKbjFhNLMjueyH",
+            "Compendium.world.profession-features.KHIOGDuCr7S3pHoR",
+            "Compendium.world.profession-features.fvhrNl3dDlra678e",
+            "Compendium.world.profession-features.fxZbW4CYP7W81IxY",
+            "Compendium.world.profession-features.tynFJ3V1sX7dIni0",
+            "Compendium.world.profession-features.b2ypf16KALF7jMbB",
+            "Compendium.world.profession-features.xNCGXMonq0Q1uo82",
+            "Compendium.world.profession-features.m5vhSbBcGFuBsWKn"
+          ],
+          "optional": true,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Choose your First Secret"
+      },
+      {
+        "_id": "w2P2JNoZvpFucXML",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.N46TDrwBCvyHEbmk"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Learn a Founding Mystery from your Secret."
+      },
+      {
+        "_id": "NbttX95r2jYYzjco",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.F054TiPpDdnYVnrk"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Learn a Metamagic from your Secret"
+      },
+      {
+        "_id": "0Vk9gbAaz4fuw3ch",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "UTPNXng4lJfDEfpW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.qDybIykLiQrg9dMY"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "QvnMJE9ThO7ZhMWs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.P0gKbjFhNLMjueyH",
+            "Compendium.world.profession-features.KHIOGDuCr7S3pHoR",
+            "Compendium.world.profession-features.fvhrNl3dDlra678e",
+            "Compendium.world.profession-features.fxZbW4CYP7W81IxY",
+            "Compendium.world.profession-features.tynFJ3V1sX7dIni0",
+            "Compendium.world.profession-features.b2ypf16KALF7jMbB",
+            "Compendium.world.profession-features.xNCGXMonq0Q1uo82",
+            "Compendium.world.profession-features.m5vhSbBcGFuBsWKn"
+          ],
+          "optional": true,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Choose  2nd Secret not opposite of previous choice"
+      },
+      {
+        "_id": "sdmjMT4HXIw9XedT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Learn one Major Mystery from your Secrets."
+      },
+      {
+        "_id": "Rfpx8XaKkF4vL1Fm",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": "3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "A6sx8iWk08gtOixu",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": "+ 3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "A9y49Kk34JaJb05l",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "YNDRgaQnxlsnZRiu",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "4": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "wDD1xfDpYar3PO5u",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "5": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "P3ZZXB4Ow1pztrv9",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "6": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "3mPGqy1Wgxkw0ecX",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "7": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "6XRZTDtSdnOyOOSy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "Y95jPHulE9aKTble",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "8": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "YEv3YA7eNKL5VC9M",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Learn a new Metamagic from your Secrets."
+      },
+      {
+        "_id": "B5k5HFXh4uddnONe",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "9": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "YhIguj5lGuff3hgo",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "10": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "56baiZmB5kmExfWI",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.P0gKbjFhNLMjueyH",
+            "Compendium.world.profession-features.KHIOGDuCr7S3pHoR",
+            "Compendium.world.profession-features.fvhrNl3dDlra678e",
+            "Compendium.world.profession-features.fxZbW4CYP7W81IxY",
+            "Compendium.world.profession-features.tynFJ3V1sX7dIni0",
+            "Compendium.world.profession-features.b2ypf16KALF7jMbB",
+            "Compendium.world.profession-features.xNCGXMonq0Q1uo82",
+            "Compendium.world.profession-features.m5vhSbBcGFuBsWKn"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Choose 3rd Secret not opposite of previous choices"
+      },
+      {
+        "_id": "8usqUSQDRwyrLsxI",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.cz8P5SzCAaq3gqw5"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Major Arcana: Choose a 6th Level spell"
+      },
+      {
+        "_id": "Ov6IneQYJspALlWq",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "11": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "a5UJx3cCbGSiLkyQ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "3vJUF1hMY9kCYNOL",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "12": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "2vC56JFoWhlXngPt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Major Arcana: Choose a 7th Level spell"
+      },
+      {
+        "_id": "rfYgY9qm2fDzchIH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Learn one Greater Mystery from your Secrets."
+      },
+      {
+        "_id": "Qt1hu7WsobzoPJGa",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "13": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "yYThxSQxtCGQFM9N",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "14": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "Ofk2wupsDfVD1G66",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "15": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "sebKm8XsEmMl0IoG",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "16": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "lMion8HU590FmfRh",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "17": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "ogiBk9MqXYTYptAy",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "18": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "op5pKSI1S8gwFBMs",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "19": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "jZ8R4QoLmkJmeM0m",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "20": {
+              "value": "+3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Enchantment Points"
+      },
+      {
+        "_id": "JaVsGmDAvwcYILjS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Major Arcana: Choose an 8th Level spell"
+      },
+      {
+        "_id": "jCd6giUHkqW1glpm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Learn a new Metamagic from your Secrets."
+      },
+      {
+        "_id": "UOiug5BvBeNbwbUt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "ic7Po5Ke52A7ji5M",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.P0gKbjFhNLMjueyH",
+            "Compendium.world.profession-features.KHIOGDuCr7S3pHoR",
+            "Compendium.world.profession-features.fvhrNl3dDlra678e",
+            "Compendium.world.profession-features.fxZbW4CYP7W81IxY",
+            "Compendium.world.profession-features.tynFJ3V1sX7dIni0",
+            "Compendium.world.profession-features.b2ypf16KALF7jMbB",
+            "Compendium.world.profession-features.xNCGXMonq0Q1uo82",
+            "Compendium.world.profession-features.m5vhSbBcGFuBsWKn"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "Choose 4th Secret not opposite of previous choices"
+      },
+      {
+        "_id": "NN88RRK1MNiYAzEm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Major Arcana: Choose a 9th Level spell"
+      },
+      {
+        "_id": "qWCZMNU4tXac8L2p",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.OwVnxNNRzzzXSQvw"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "QgiU6fxVGej6voIY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "g7te4LfkwwE16Kfj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Learn one Universal Mystery from your Secrets."
+      },
+      {
+        "_id": "LJK2bUO88CKx0T2F",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Spell: 3rd Secret Cantrips"
+      },
+      {
+        "_id": "o7fIBPFwpSC1aJxm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Spell: Secret First Level Spells"
+      },
+      {
+        "_id": "eJfLj50R5XOySq0p",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Spell: Take a 1st level Spell"
+      },
+      {
+        "_id": "Zc2BjWPSBGYAenqW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Spell: Take a 1st level Spell"
+      },
+      {
+        "_id": "1TzZXN3JeLXnXSG5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Spell: Secret Second Level Spells"
+      },
+      {
+        "_id": "ni0TI5jeAaKPBkVo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Spell: Take a 2nd level Spell"
+      },
+      {
+        "_id": "sU0Nit3xW4SZTUST",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "Spell: Take a 2nd level Spell"
+      },
+      {
+        "_id": "KwKnxJhi4KQIkJn9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Spell: 1st Secret Fourth Level Spells"
+      },
+      {
+        "_id": "aLZ0YUestWHqxi9T",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Spell: Take a 3rd level Spell"
+      },
+      {
+        "_id": "rJdQJdYLZEAMwid5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Spell: 2nd Secret First Level Spells"
+      },
+      {
+        "_id": "meoUPlBgnWtBlpxH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Spell: Take a 3th level Spell"
+      },
+      {
+        "_id": "X1NqMOBIm1iqUbJF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Spell: 2nd Secret Second Level Spells"
+      },
+      {
+        "_id": "TkH9Sage6nG4rDlI",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Spell: Take a 4th level Spell"
+      },
+      {
+        "_id": "LSGXtiJPSxKqbFfp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Spell: Secret Third Level Spells"
+      },
+      {
+        "_id": "pCuPQS4PdhT6ibIB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Spell: Secret Cantrip and 1 other cantrip"
+      },
+      {
+        "_id": "seBxnpzUiMRnC4O2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "Spell: Take a 4th level Spell"
+      },
+      {
+        "_id": "Uh3gTT7TCpicEcUT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Spell: 1st Secret Fifth Level Spells"
+      },
+      {
+        "_id": "5ViV8L1UqKuviQkL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Spell: 2nd Secret Third Level Spells"
+      },
+      {
+        "_id": "nG01d5UQmzMuuf7V",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Spell: Take a 5th level Spell"
+      },
+      {
+        "_id": "h1KOGT3LttIBxehR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Spell: Take a 5th level Spell"
+      },
+      {
+        "_id": "LlGysb4qBGTHnnbq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Spell: 2nd Secret Cantrips"
+      },
+      {
+        "_id": "KXsp6XHOqXIsVrQ2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Spell: 3rd Secret First Level Spells"
+      },
+      {
+        "_id": "zERBKYyXnLbRyiPM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Spell: 2nd Secret Fourth Level Spells"
+      },
+      {
+        "_id": "nCzp9Rz6h7KKKadW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Spell: 2nd Secret Fifth Level Spells"
+      },
+      {
+        "_id": "3ajwfOqJbiVMKCX0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Spell: 3rd Secret Second Level Spells"
+      },
+      {
+        "_id": "boCBap3gsjUAkpk5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Spell: 3rd Secret Third Level Spells"
+      },
+      {
+        "_id": "mSyLCl2qvKiT4QEN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "Spell: 4th Secret Cantrips"
+      },
+      {
+        "_id": "U2qToT6TKU0baDm3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "Spell: 4th Secret First Level Spells"
+      },
+      {
+        "_id": "kKutGwJsT1255tfD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Spell: 3rd Secret Fourth Level Spells"
+      },
+      {
+        "_id": "QI3pdaCyChYv063k",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Spell: 4th Secret Second Level Spells"
+      },
+      {
+        "_id": "vCM7YXIeFz7vzOS4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "Spell: 3rd Secret Fifth Level Spells"
+      },
+      {
+        "_id": "XDqvcLhxMOzQDC7L",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "Spell: 4th Secret Third Level Spells"
+      }
+    ],
+    "saves": [
+      "int",
+      "wis"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "arc",
+        "his",
+        "ins",
+        "inv",
+        "nat",
+        "prc",
+        "prf"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "full",
+      "ability": "int"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207457,
+    "modifiedTime": 1680913082381,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "WM5h9vo7vDKsm0Ls"
+}

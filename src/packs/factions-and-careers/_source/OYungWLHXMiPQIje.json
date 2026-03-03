@@ -1,0 +1,241 @@
+{
+  "name": "Career: Official",
+  "type": "feat",
+  "img": "icons/sundries/documents/document-sealed-red-white.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.PchltPyZcMaOLwF7"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Career Information</h2>\n<p><span class=\"fontstyle0\">Since civilizations and societies have existed, power has always had to be harnessed in well-coded schemes, laws and practices. Politics is the art of power management: painting alliances, sculpting edicts, singing praises and acting with a mask. In Vesteria, where power is the most coveted object, politics is a ferocious, violent, devious and strategic art, which requires finesse, wit and charm. Entering the whirlwind race of politics is as intoxicating as it is dangerous, but it is a necessity that drives some to get involved: after all, every puppet show needs a master puppeteer to pull the strings.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 0 - MINION<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle0\">Gaining the trust of an official and being introduced to political office.<br /></span></p>\n<p><span class=\"fontstyle0\">You perform simple tasks and jobs on behalf of senior officials, slowly being introduced to the complicated and subtle mechanics of politics and gaining the opportunity to learn the tricks of the trade. You may choose either Persuasion or Deception; if you have no proficiency in the chosen skill, you gain it, otherwise you add an additional half of your </span><span class=\"fontstyle0\">proficiency bonus to checks relying on that skill.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - OFFICIAL<br /></span></h2>\n<p><span class=\"fontstyle0\">You gain political responsibilities, albeit initially at low Rank. You can occupy important positions in small offices or minor positions in a more prestigious environment, always responding to more important superiors while entering into contact with the most influential authorities in your area, and with the various powers, political and otherwise, that gravitate around them. Once reaching the rank of Official you consider your career, including any future Ranks acquired, tied to a particular political faction. Where narrative conditions allow, characters can switch their political side and with it the origin of their privileges and resources.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, Redeem Favors.</strong></em> </span><span class=\"fontstyle0\">In politics there is always a credit to be collected, an eye to close, or a favor to redeem. Once per session, you can spend inspiration to ask for a favor to be “returned”: this causes the intervention of an NPC with </span><span class=\"fontstyle0\">a rank equal to that of the Official, and who has resources and skills to help the you within the limits deemed appropriate by the GM. This feature can function like the villain’s “Part of the Plan” ability, triggering a flashback scene.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 2 - ADMINISTRATOR<br /></span></h2>\n<p><span class=\"fontstyle0\">Administrators are persons of great influence in their own political environment of reference, where they have reached positions that make them important protagonists. You have attracted the most diverse contacts from every walk of life, each with interests that potentially rest in your hands. Politicians always have many friends in the open and many enemies in the shadows; they truly fear failure and can lose everything in the blink of an eye. Despite the risks associated with this career, the privileges they can win are unmatched.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 3 - GOVERNOR<br /></span></h2>\n<p><span class=\"fontstyle0\">You have arrived at the top of the political ladder, reaching a position of maximum control and power: you are part of a council or parliament of great importance, administrators of an important city or region, and can potentially aspire to the leadership of an entire nation. Your name is known everywhere in Vesteria, you have resources well above the average and can speak as peers to the most powerful and influential political players in the whole country.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 234",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210292,
+    "modifiedTime": 1680916364798,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "OYungWLHXMiPQIje"
+}

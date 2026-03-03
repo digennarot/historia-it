@@ -1,0 +1,241 @@
+{
+  "name": "Career: Artisan",
+  "type": "feat",
+  "img": "icons/skills/trades/smithing-anvil-silver-red.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.nbx9CdMwtuTsM3fO"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2><span class=\"fontstyle0\">Career Information</span></h2>\n<p><span class=\"fontstyle0\">Artisanship is, together with agriculture, the economic heart of Vesteria. From the remote villages of the Green Pit to the courts of the most powerful metropolitan lords, every place lives off the manual labor of the people, be it at the service of small ideas or of great works. The nearby Rodelia remains the most shining example of what skilled hands can create, but the Continent too has been the birthplace of masters capable of winning the admiration of the most pretentious glances through their extraordinary creations: blacksmith creations or magnificent shining jewels, impressive carpentry and innovative architecture.</span></p>\n<h2><span class=\"fontstyle0\">RANK 0 - APPRENTICE<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle3\">Being introduced to the work of an artisan by a master to become an apprentice.<br /></span></p>\n<p><span class=\"fontstyle3\">You are directed in a field of artisanship by a master, obtaining proficiency in an artisan’s tool connected to the workshop.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 1 - CRAFTSMAN<br /></span></h2>\n<p><span class=\"fontstyle3\">You have learned the basics of your field of artisanship, giving value and higher quality to their work. The tool in which you have gained proficiency with your career becomes their preferred one, doubling your proficiency bonus when using it.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong>Special, Adaptable Handicraft.</strong></em> </span><span class=\"fontstyle3\">The knowledge you have acquired in the field of artisanship turns out to be useful in lateral activities, even ones unconnected to your proficiency. </span><span class=\"fontstyle3\">Once per session, when you spend inspiration to gain advantage on a roll, you can also apply youry craft knowledge to a problem or situation not directly related to their field, adding the proficiency bonus granted by their favorite item to the roll - as long as they provide a roleplay explanation that satisfies the GM. If you were already proficient in that roll, you do not stack the two bonuses but have the opportunity to choose which bonus to apply.</span></p>\n<h2><span class=\"fontstyle0\">RANK 2 - MASTER<br /></span></h2>\n<p><span class=\"fontstyle2\">You are a recognized artisan whose excellency is high in demand. Your works are sold at a higher than average price without this causing discontent among the clients or their trying to haggle for a lower price. Influential, powerful and wealthy people seek your work, often factions and large power groups. Thanks to your position as a master, you can now open their own shop and take on apprentices.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - EXCELLENCE<br /></span></h2>\n<p><span class=\"fontstyle2\">Your style is easily recognizable in your work, becoming a signature of inimitable quality, although many try desperately to copy it and get closer to its heights. You are a welcome guest in every prestigious environment and in every place connected to artisanship, from shops to academies, even in royal courts and seats of power. Your works are among the best of Vesteria, and your experience endows the aristocratic quality to any work created.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 229",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210299,
+    "modifiedTime": 1680916341148,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Uc3sofemoI3Iy4F5"
+}

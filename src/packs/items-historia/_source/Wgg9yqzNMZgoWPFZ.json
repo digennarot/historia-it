@@ -1,0 +1,36 @@
+{
+  "name": "Breviary",
+  "type": "loot",
+  "img": "icons/sundries/books/book-symbol-cross-blue.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.ofMQf1DLAHhjBMLk"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A beviary</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 193",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210611,
+    "modifiedTime": 1673573973677,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Wgg9yqzNMZgoWPFZ"
+}

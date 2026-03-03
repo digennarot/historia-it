@@ -1,0 +1,74 @@
+{
+  "name": "AP: Sublimatio (Citrinitas, 3 acts)",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-worn-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Recipe",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {
+    "beavers-crafting": {
+      "recipe": {
+        "ingredients": {
+          "Compendium-world-profession-features-oouGluCFWp00TSe3": {
+            "id": "oouGluCFWp00TSe3",
+            "uuid": "Compendium.world.profession-features.oouGluCFWp00TSe3",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Sublimatio (Nigredo, 1 act)",
+            "img": "icons/commodities/gems/gem-faceted-round-black.webp",
+            "quantity": 3
+          }
+        },
+        "results": {
+          "Compendium-world-profession-features-B2CmSsw7Z2vLxvdx": {
+            "id": "B2CmSsw7Z2vLxvdx",
+            "uuid": "Compendium.world.profession-features.B2CmSsw7Z2vLxvdx",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Sublimatio (Citrinitas, 3 acts)",
+            "img": "icons/commodities/gems/gem-faceted-round-black.webp",
+            "quantity": 1
+          }
+        },
+        "attendants": {
+          "Actor-tsdbAt8U1QngL3kz-Item-QQHXvhQgkOqGPbHS": {
+            "id": "QQHXvhQgkOqGPbHS",
+            "uuid": "Actor.tsdbAt8U1QngL3kz.Item.QQHXvhQgkOqGPbHS",
+            "type": "Item",
+            "itemType": "class",
+            "name": "Alchemist",
+            "img": "Wynther%27s%20Files/Historia/Professions/alchemist.webp",
+            "quantity": 1
+          }
+        },
+        "macro": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.1WBiXQHtTcItBtov"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671894085195,
+    "modifiedTime": 1673804179236,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "cBzyokGc94W6daWM"
+}

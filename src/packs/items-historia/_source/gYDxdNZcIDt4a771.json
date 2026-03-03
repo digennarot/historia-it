@@ -1,0 +1,36 @@
+{
+  "name": "Mess Kit",
+  "type": "loot",
+  "img": "icons/tools/cooking/fork-steel-grey.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.V13fjV5oSmvbRdgP"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 152",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210665,
+    "modifiedTime": 1673573973741,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "gYDxdNZcIDt4a771"
+}

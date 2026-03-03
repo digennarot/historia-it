@@ -1,0 +1,36 @@
+{
+  "name": "Miner's Pick",
+  "type": "loot",
+  "img": "icons/tools/hand/pickaxe-worn-steel-grey.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.X5knPtrQAT8GePJ4"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>It is a hand tool with a hard head atached perpendiocular to the handle.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210538,
+    "modifiedTime": 1673573973587,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "FXRzIDiIgRguGxkS"
+}

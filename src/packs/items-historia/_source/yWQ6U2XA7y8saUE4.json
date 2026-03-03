@@ -1,0 +1,36 @@
+{
+  "name": "Fishing Tackle",
+  "type": "loot",
+  "img": "icons/tools/fishing/rod-wood-blue-tan.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.hOzuSDqmOIOx8z3Z"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210755,
+    "modifiedTime": 1673573973831,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "yWQ6U2XA7y8saUE4"
+}

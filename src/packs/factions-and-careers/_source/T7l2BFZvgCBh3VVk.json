@@ -1,0 +1,241 @@
+{
+  "name": "Faction: Confraternity of the Mortified",
+  "type": "feat",
+  "img": "media/Factions/Confraternety of thr Mortified.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.I0DcAhi4Snz8Xdxe"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Faction Information</h2>\n<p>@Compendium[world.historia-factions.5r0h3ymj3Wc689fB]{Confraternity of the Mortified}</p>\n<h2><span class=\"fontstyle0\">RANK 0 - BAPTIZED<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having accepted the Baptism of Mortification<br /></span></p>\n<p><span class=\"fontstyle3\">You officially join the ranks of the sect, from which various tasks and services will be requested for the good of the Confraternity, often humble and hard work. In return, you will always find solace as well as room and board in the communities of the Mortified.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 1 - MORTIFIED BROTHER<br /></span></h2>\n<p><em><strong><span class=\"fontstyle4\">Fame earned in the Faction to spend: </span></strong></em><span class=\"fontstyle3\">3<br /></span><span class=\"fontstyle4\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle3\">Having shown dedication to the purposes of the Confraternity; having worked hard for the Mortified community to which you belong.<br /></span></p>\n<p><span class=\"fontstyle3\">You are perfectly inserted in the mechanisms and life of the Confraternity. You will be assigned tasks by the Church of the Bones and the Confraternity in your role as an operative agent, and participate in various Mortified functions as an active member, even beginning to take novices under your wing.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 2 - MORTIFIED SUPERIOR<br /></span></h2>\n<p><em><strong><span class=\"fontstyle4\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle3\">15<br /></span><span class=\"fontstyle4\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having demonstrated fortitude, solved problems at the Confraternity or offered great service to the Church of Bones, as well as showing great magical skill.<br /></span></p>\n<p><span class=\"fontstyle3\">You are now well recognized in the Confraternity and are seen as a guide and role model to follow. You receive several novices to train, who can serve you in their commitments to the Confraternity. You begin to officiate in ceremonies and Mortified processions and are considered blessed by the Bones by lower members of the Confraternity.<br /></span></p>\n<p><em><strong><span class=\"fontstyle4\">Special, Blind Obedience. </span></strong></em><span class=\"fontstyle3\">Your followers belonging to the Confraternity of the Mortified blindly follow your instructions and are fanatically willing to die for them without regret. Or at least the true faithful are...</span> </p>\n<h2><span class=\"fontstyle0\">RANK 3 - VICARIUS MORTIFICATORUM<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Fame earned in the Faction of spending:</strong></em> </span><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having established yourself as one of the best Mortified, having blindly carried out the orders of the Church of Bones and achieved great successes against very few failures. Currently, the only place in this position within the Confraternity is occupied by Odo Two Lives. </span></p>\n<p><span class=\"fontstyle3\">You have risen among the Mortified as Blessed or incarnate Saints, ready to lead the Confraternity towards the salvation of the Bones through the renunciation of the flesh. To occupy this position, however, individuals cannot be naive or foolish; they have to sit in the Rank and be able to look beyond the Confraternity and the affairs of the spirit, heeding the directives of the Church whose support is necessary as the role can only be assigned through them… at least until the Confraternity’s, and the Vicarius’, power is fully consolidated.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 214",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210298,
+    "modifiedTime": 1680916453371,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "T7l2BFZvgCBh3VVk"
+}

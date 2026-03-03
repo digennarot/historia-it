@@ -1,0 +1,141 @@
+{
+  "name": "Paladin",
+  "type": "subclass",
+  "img": "media/Professions/defensive-stance.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">A Paladin’s weapon is not always the sword they wield, and their armor is not the surplice that covers their shoulders: it is instead faith that arms and protect. Firm in their beliefs, resolute in battle and virtuous in everyday life, the Paladins are warriors animated by a superior ideal, often religious, which burns in their hearts with the intensity of an unquenchable flame and gives them extraordinary powers and abilities, inaccessible to those who do not devote themselves with equal ardor to a spiritual cause.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 133",
+    "identifier": "paladin",
+    "classIdentifier": "armiger",
+    "advancement": [
+      {
+        "_id": "3Decbcl70ap92X2t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.dMPFK8wyHdeD7TxP"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "zsLHQYnmFFn02JjT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T177KZUSLbsRa1xd"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "mvt6YBd15ep05BC3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.q50YIw1myp6vsZaB"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": ""
+      },
+      {
+        "_id": "kg89NLVk7SWEbdo1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.2WwvC69PYcWTo9kX"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Ipd2a3TcCYlCL2e4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.QgzkMjRFTVUUn8XV"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.hWsqyGzzy0eZwvhB"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670900521909,
+    "modifiedTime": 1680913292851,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "dQlj9WZ1N2PP07ya"
+}

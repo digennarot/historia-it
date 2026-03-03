@@ -1,0 +1,36 @@
+{
+  "name": "Hammer",
+  "type": "loot",
+  "img": "icons/tools/hand/hammer-backing-steel.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.14pNRT4sZy9rgvhb"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A tool with heavy metal head mounted ar the right angles at the end of a handle, used for job such as breaking things and driving in nails. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210595,
+    "modifiedTime": 1673573973657,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "SeV4nYjpk351rS2e"
+}

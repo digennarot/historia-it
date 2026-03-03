@@ -1,0 +1,36 @@
+{
+  "name": "Pole",
+  "type": "loot",
+  "img": "icons/commodities/wood/log-stack-maple-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.tut1jbW3UCsrUjCG"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A ten-foot long pole of sturdy wood.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 7,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210766,
+    "modifiedTime": 1673573973842,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "zjHYYEqZIBbsdHPw"
+}

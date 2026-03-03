@@ -1,0 +1,64 @@
+{
+  "name": "Chest",
+  "type": "backpack",
+  "img": "icons/containers/chest/chest-reinforced-steel-walnut-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.2YbuclKfhDL0bU4u"
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A chest holds 12 cubic feet or 300 pounds of gear.</p>\n<p>Cost: 5</p>\n<p>Weight w/o contents: 25 lbs</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 153",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "type": "weight",
+      "value": 300,
+      "weightless": false
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210722,
+    "modifiedTime": 1673573973793,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "tAvoSg2Gj9A54JBL"
+}

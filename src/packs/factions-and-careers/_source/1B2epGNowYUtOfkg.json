@@ -1,0 +1,241 @@
+{
+  "name": "Faction: Pug Heresy",
+  "type": "feat",
+  "img": "media/Factions/Pug Heresy.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.jU2cObma7tzymXZ6"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Faction Information</h2>\n<p>@Compendium[world.historia-factions.whTEtuZT0FMtd2AW]{Pug Heresy}</p>\n<h2><span class=\"fontstyle0\">RANK 0 - STRIPPED<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requirements: </strong></em>Attend a Stripping Ceremony and take an oath at the Simple Church.</span> </p>\n<p><span class=\"fontstyle0\">You will begin your service as a priest or deacon of the Simple Church, abandoning all material possessions. You will have to perform various tasks and services for the good of the community to which you belong, often menial and hard work. However, you can always find refuge, food and lodging in the structures of the Simple Church.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - SIMPLE TARSUS<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fame earned in the Faction to spend: </span></strong></em><span class=\"fontstyle0\">3<br /></span><span class=\"fontstyle3\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle0\">Being a priest. Serving your community with dedication and following the Simple Doctrine.<br /></span></p>\n<p><span class=\"fontstyle0\">You become a leader of a small Indicant community. You are in charge of children’s education and supporting activities, and must continually work for the community or the Rank may be withdrawn.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, Salt of the Earth.</strong></em> </span><span class=\"fontstyle0\">The humblest people are the very foundations on which the Pug Heresy rests, motivated and dedicated as they are to a doctrine that puts them on the same level as the rich and the powerful. If the Simple Church lends support to one of its members, that member is sure to receive back in equal measure: you can always count on the support of the rural and poor communities living in symbiosis with the Faction. Stripped of its glories and excesses, the Church also manages to draw individuals from higher social statuses.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 2 – SIMPLE COSTOLARE<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle0\">15<br /></span><span class=\"fontstyle3\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle0\">Gaining the support of influential and powerful resources for the sake of the Simple Church and acting in the interests of the community in the role of Tarsus.<br /></span></p>\n<p><span class=\"fontstyle0\">You are now responsible for a group of small communities or a city community that placed trust in you, and on whom you can rely in case of need. The Cathedrals of the Costolares are financed by wealthy faithful who believe that the salvation of the soul, and making a good impression on the community, count more than money.<br /></span></p>\n<p><span class=\"fontstyle0\">City administrations of the Indicant communities must necessarily come to terms with the Simple Church, and for the good of the community itself they have an interest in making it a fruitful collaboration for both parties.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 3 - SIMPLE OCCIPUT<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle0\">30<br /></span><span class=\"fontstyle3\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle0\">Having transformed a Rib into a thriving </span><span class=\"fontstyle0\">basin dedicated to the Simple Church to the point of making it necessary to establish a new Occipitary, or alternatively replace an Occiput after having proven to be a great Ribber by winning the support of a governor or an Occiput.<br /></span></p>\n<p><span class=\"fontstyle0\">The Occipitary Council of the Simple Church is more flexible than its counterpart of the Holy Kingdom, not being limited in number but rather in continuous development. At the moment it is made up of only four members, each leading the only communities large enough to justify an Occiput: Albea, Nova Marina, Wind Town and Liveccia. This council is the strategic fulcrum of the Simple Church and is directly supported by the Confederation and by enemies of the traditional Church, relying on their numbers and resources. At the head of the council there is Talus II, Occiput of Albea. It is said that Talus II used to be an incredible and generous figure for the Church, but that with the passing of years he became hungry for fame and a little too attached to material goods and reliant on strong political support, which may have to with his easily malleable nature.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 222",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210282,
+    "modifiedTime": 1680916515696,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "1B2epGNowYUtOfkg"
+}

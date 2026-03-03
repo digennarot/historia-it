@@ -1,0 +1,241 @@
+{
+  "name": "Faction: Church of Bones",
+  "type": "feat",
+  "img": "media/Factions/Church of Bones.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.QvJ5SxVJvnfyDNt3"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Faction Information</h2>\n<p>@Compendium[world.historia-factions.UzfVBe1F2ZqZ8daV]{Church of Bones}</p>\n<h2><span class=\"fontstyle0\">RANK 0 - FAITHFUL<br /></span></h2>\n<p><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> Swearing an oath to the Church on completing seminary or to an affiliate such as the Order of Paladins or the Inquisition.<br /></span></p>\n<p><span class=\"fontstyle2\">You vow to serve and follow the Church until all is left of your body is your bones. The Church welcomes you in its ranks, making its facilities available to you; you can now find shelter in shrines, protection in barracks and ears ready to listen among Inquisitors. Your dedication and spirit will be the meters by which your potential will be measured, whenever simple services are required for the Church.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, Grow Like Bones.</strong></em> </span><span class=\"fontstyle2\">If you invest in the Church of Bones without being a priest, you receive the standard benefits of the Faction depending on the amount of Fame points invested, corresponding to that Rank and not the Rank actually obtained, up to Rank 2. The Church has several branches, such as the Order of Paladins and the Inquisition, where you can prove yourself to be a true believer without necessarily having to rise to power that is in itself spiritual and unattainable… or is it?<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 1 - TARSUS<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fame earned in the Faction to spend: </span></strong></em><span class=\"fontstyle2\">3<br /></span><span class=\"fontstyle3\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle2\">Being a priest. Proof that the commitment and the oath you made is as hard as Bones.<br /></span></p>\n<p><span class=\"fontstyle2\">You become an effective member of the ecclesiastical organization and are appointed Tarsus, a priest in charge of a community or city parish where you exercise a discrete authority and influence. You must continuously work for this community or the Rank is withdrawn. You must report to the area Ribber.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 2 - COSTOLARES<br /></span></h2>\n<p><em><strong><span class=\"fontstyle3\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle2\">15<br /></span><span class=\"fontstyle3\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle2\">Have demonstrated total alignment with the thinking and policies of the Church of Bones and have shown leadership and steadfastness of spirit.<br /></span></p>\n<p><span class=\"fontstyle2\">You are now the head of a congregation of churches or the diocese of a large city. Your influence and power increases, granting you support from your Occiput and the ability to request military and political reinforcements to manage Church affairs.</span> </p>\n<h2><span class=\"fontstyle0\">RANK 3 - OCCIPUT<br /></span></h2>\n<p><em><strong><span class=\"fontstyle2\">Fame earned in Faction to spend: </span></strong></em><span class=\"fontstyle3\">30<br /></span><span class=\"fontstyle2\"><em><strong>Requirements:</strong></em> </span><span class=\"fontstyle3\">Having won the support of other Occipites, or alternatively at least one Duke of the Holy Kingdom, and having successfully carried out the management of the diocese as Ribber with total skill and dedication. One of the twelve seats must be vacant.<br /></span></p>\n<p><span class=\"fontstyle3\">You are elected to one of the twelve seats of the Occipitary Council, where the spiritual representatives of each duchy of the Holy Kingdom give advice to the Keeper of Bones and organize the strategies of growth and affirmation of the Church. Your political power is now equal to that of a Duke and you can count on an organized army under your command, as well as the various resources of the Church. Having become political leaders of great value to the organization, you will now find greater danger to your safety within the organization. The Occipites respond only to the Council and the Keeper of Bones and are in direct competition with each other, especially if there is a Keeper to replace. At the moment, Femur III is strong, albeit old, and still enjoys a lot of support.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 210",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210307,
+    "modifiedTime": 1680916425563,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "gEzlGxNnZXAajfda"
+}

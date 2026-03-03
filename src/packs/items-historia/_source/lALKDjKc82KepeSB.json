@@ -1,0 +1,36 @@
+{
+  "name": "Pipe",
+  "type": "loot",
+  "img": "icons/sundries/misc/pipe-elegant.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.GASDccD2nwmQKzSk"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A smoking pipe</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 191",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210687,
+    "modifiedTime": 1673573973757,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "lALKDjKc82KepeSB"
+}

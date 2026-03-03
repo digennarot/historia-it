@@ -1,0 +1,120 @@
+{
+  "name": "Vitalist",
+  "type": "subclass",
+  "img": "media/Professions/bane.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The views of Iatro, says the Vitalist, are narrow: why limit yourself to the study of what is already alive, when you could research what animates inert matter? What is the secret of life, of the soul, of the consciousness of intelligent creatures? These and many more are the questions that fill the minds of the followers of this school, engaged in the construction of their sentient simulacra and in the mad search for a substance capable of instilling real life in what alive is not.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 128",
+    "identifier": "vitalist",
+    "classIdentifier": "alchemist",
+    "advancement": [
+      {
+        "_id": "hmU2bq56MmbNwfwd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.GPqIG5P17zCn3bU8"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "WBIUvkyvpcBWaPzd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.BQjTq0e0gS2jIIqT"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "duoxBoiCz8Hjy4Y3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.m9Wb8tqWoF4UECvZ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "fW8ZJyKWD81yhVDL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.tRGzsPJ0fC9J1Vz0"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.fADPOvE3rfMkpoAW"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670898513813,
+    "modifiedTime": 1680913249492,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "TeRKZB7xuDsHow8A"
+}

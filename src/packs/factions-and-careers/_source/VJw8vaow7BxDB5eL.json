@@ -1,0 +1,241 @@
+{
+  "name": "Career: Cartographer",
+  "type": "feat",
+  "img": "icons/tools/navigation/map-marked-green.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.8n2C4e0reZfpEchi"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Career Information</h2>\n<p><span class=\"fontstyle0\">Exploration is one of the founding stones of Vesterian society. Whether by land, water or sky, charting the best trade routes, opening new passages, or discovering new mineral resources in uncharted territories, exploration is part of the vibrant life of the people of the continent. For this reason, the art of representing accurate and precise maps is held in the highest regard. If pursued, it is a very renowned career and the best and most famous cartographers become members of courts and palaces, participate in competitions held by local lords, or travel with the most important commercial enterprises.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 0 - AMATEUR<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle0\">Finding a cartographer willing to initiate the character in the art of mapmaking.<br /></span></p>\n<p><span class=\"fontstyle0\">You begin your own journey in the world of cartography, acquiring proficiency in the tools of a cartographer and are encouraged to explore as much as possible of the continent to practice detailed reproduction of its geography and features.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - CARTOGRAPHER<br /></span></h2>\n<p><span class=\"fontstyle0\">You have learned some tricks of the trade and know how not to be caught unprepared: you have memorized a good number of maps and can understand where you are precisely in a matter of minutes through observation of your surroundings. You also begin to have some success in selling their products.<br /></span></p>\n<p><em><strong><span class=\"fontstyle3\">Special, Art of Maps. </span></strong></em><span class=\"fontstyle0\">You always have at hand the necessary equipment to draw up a map of the surroundings and the routes you take, even with makeshift means. This makes it virtually impossible for you to lose their way, unless supernatural circumstances occur...</span> </p>\n<h2><span class=\"fontstyle0\">RANK 2 - EXPLORER<br /></span></h2>\n<p><span class=\"fontstyle2\">Your Fame as a professional cartographer is now well known in a wide area and people ask you for advice. Furthermore, once per session, drawing from among your contacts, acquaintances and past research, you have the opportunity to find a map of a particular area or building. </span><span class=\"fontstyle2\">Moreover, your notoriety and ability make your work precious: your maps are considered real works of art and are requested to appear in the best parlors and by the most powerful and wealthy socialites.<br /></span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - PIONEER<br /></span></h2>\n<p><span class=\"fontstyle2\">You have now gained experience of places so remote to only be known to others as distant legends. No matter whether the maps were drawn on-site or from the tranquility of your workshop, still they are so evocative and precise of the places indicated to represent true and inimitable masterpieces in terms of style and content. Maps prepared by the you are of such high quality that they grant advantage on Nature, Survival and History checks on the spot for the viewer and can be of great advantage in case of battle.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 231",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210303,
+    "modifiedTime": 1680916347892,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "VJw8vaow7BxDB5eL"
+}

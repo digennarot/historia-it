@@ -1,0 +1,244 @@
+{
+  "name": "Secret of the Water",
+  "type": "feat",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "animLevel": false,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.mLA2mcQK9r0PyiXr"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Water nourishes, restores and soothes, and so this Secret has potential for protection and healing. But woe to those who forget that water can turn into ice, and that the bite of frost is as fearsome as any flame.<br /></span></p><p><span class=\"fontstyle2\"><strong>KNOWN SPELLS</strong><br /></span><span class=\"fontstyle0\">When you choose this secret, you learn the @Compendium[dnd5e.spells.Item.ctW81uiX56xZR2c5]{Ray of Frost}</span><span class=\"fontstyle3\"> </span><span class=\"fontstyle0\">and @Compendium[dnd5e.spells.Item.vrN18tbTw7io5MWd]{Chill Touch}</span><span class=\"fontstyle3\"> </span><span class=\"fontstyle0\">cantrips, and when you gain a new level in the secret they learn the corresponding spells indicated in the following table:<br /></span></p><p><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>Cantrips:</strong> @Compendium[dnd5e.spells.Item.ctW81uiX56xZR2c5]{Ray of Frost}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.vrN18tbTw7io5MWd]{Chill Touch}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>1st level:</strong> @Compendium[dnd5e.spells.Item.a3XtAO5n2GrqiAh5]{Create or Destroy Water}</span><span class=\"fontstyle3\">, @Compendium[world.spells-historia.q7Ctq6wAHtzf1Mgf]{Frost Fingers}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>2nd level:</strong> </span><span style=\"font-family:Signika, sans-serif\">@Compendium[world.spells-historia.Zg9UNOkjf2H0axlY]{Icingdeath's Frost}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>3rd level:</strong> @Compendium[dnd5e.spells.Item.YBda6nLKjxdT1LbS]{Water Walk}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.13uVuBQP6VaiSPvC]{Water Breathing}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>4th level:</strong> @Compendium[dnd5e.spells.Item.7fFHlBk3UNX8gPKL]{Control Water}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.pybg5MNc3lkerH4Y]{Blight}<br /></span><span class=\"fontstyle2\" style=\"font-size:10pt\"><strong>5th level:</strong> @Compendium[dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental(Water)}</span><span class=\"fontstyle3\">, @Compendium[dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Greater Restoration}</span></p><p><span class=\"fontstyle0\"><strong>MYSTERIES</strong></span><br /><span class=\"fontstyle0\">@Compendium[world.profession-features.vhdGg8mj4opslvUI]{Founding Mystery: Wave Erosion}</span></p><p><span class=\"fontstyle0\">@Compendium[world.profession-features.LWd5JNFwi7G6Ydj9]{Major Mystery: Fluid Adaptation}</span></p><p><span class=\"fontstyle0\">@Compendium[world.profession-features.Hv9TFbc9SfNMTY10]{Greater Mystery: Liquid Charms}</span></p><p>@Compendium[world.profession-features.PXF55YL77QVhXr86]{Universal Mystery: Control the Water}</p><p><span class=\"fontstyle0\"><strong>METAMAGIC OF THE SECRET<br /></strong></span><span class=\"fontstyle2\">When you reach 3rd level in this Secret, you became able to modify the spells they can cast, adapting them to your current needs, and learns the following metamagic options.</span></p><p>@Compendium[world.profession-features.PRfLcU65SBjooD7w]{Metamagic: Twinned Spell}</p><p>@Compendium[world.profession-features.xFBGHjhAlAQBl09J]{Metamagic: Quickened Spell}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 147",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Magus Level 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409208980,
+    "modifiedTime": 1673573972175,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "fxZbW4CYP7W81IxY"
+}

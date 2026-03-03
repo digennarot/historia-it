@@ -1,0 +1,42 @@
+{
+  "name": "Explorer's Pack",
+  "type": "loot",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p>Includes:</p><ul class=\"rd__list\"><li class=\"rd__li \">a @item[backpack|phb]</li><li class=\"rd__li \">a @item[bedroll|phb]</li><li class=\"rd__li \">a @item[mess kit|phb]</li><li class=\"rd__li \">a @item[tinderbox|phb]</li><li class=\"rd__li \">10 @item[torch|phb|torches]</li><li class=\"rd__li \">10 days of @item[Rations (1 day)|phb|rations]</li><li class=\"rd__li \">a @item[waterskin|phb]</li><li class=\"rd__li \">@item[Hempen Rope (50 feet)|phb|50 feet of hempen rope]</li></ul></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "quantity": 1,
+    "weight": 59,
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": false
+  },
+  "img": "icons/containers/bags/pack-leather-red.webp",
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "PHB",
+      "hash": "explorer's%20pack_phb",
+      "propDroppable": "item"
+    },
+    "core": {
+      "sourceId": "Item.8ONmtk7fCixMVmo8"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673704336578,
+    "modifiedTime": 1673704363048,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "5oH06F3e7IrqPcnQ"
+}

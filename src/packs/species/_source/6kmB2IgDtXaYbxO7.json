@@ -1,0 +1,232 @@
+{
+  "name": "Little Owls",
+  "type": "feat",
+  "img": "modules/historia/Species/Little%20Owls.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Libraries are the natural environment of several Avians, but none of them treasure the content of these forests of knowledge as much as the Little Owls. Rational, sharp and thirsty for knowledge, these little Strigi are considered the best teachers thanks to their temperament and analytical side, and for many noble families being able to boast their offspring having been educated by an owl is a very prestigious claim. Little Owls love knowledge when it is not an end in itself and especially when it brings them closer to the Truth: they despise superstition and everything that in their opinion smells of cultural backwardness, and tolerate the study of such subjects only if it can give them tools to be used for their own benefit. They hate injustice and dishonesty and feel empowered to intervene when they meet them. They are not the most emotional of creatures, but their crystalline sincerity and love for justice make them honest, open and faithful companions, who will never change their word. To change a Little Owl’s mind, especially one convinced of being right, is practically impossible: the only eventuality lies in demonstrating to them with irrefutable facts, possibly supported by an authoritative writing, the fallacy of their position, which they will then hesitantly accept.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Wisdom </span>score increases by 2 and your <span class=\"fontstyle0\">Intelligence </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Strigi reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 15 feet. <span class=\"fontstyle0\">Your flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Little Owl can reach a maximum height of 1 meter <span class=\"fontstyle0\">and a weight not exceeding 30 kg. Your size is Small. </span>The female <span class=\"fontstyle0\">specimens of Strigi are notoriously larger than the males.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Improved darkvision.</strong></em> </span><span class=\"fontstyle2\">You benefit from excellent eyesight suitable for dark or dim light conditions. You can see up to 120ft. in dim light conditions away as if you were in bright </span><span class=\"fontstyle0\">light conditions, and in darkness as if you were in dim light. In the dark you are unable to discern colors, but only shades of grey.</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle0\">You have proficiency in the Survival skill.</span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></span></p>\n<p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</p>\n<p>@Compendium[world.species-features.5gVT96RmF9wzuyOe]{Strong Intuition}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.2Xg3aL44vxRZHBhI]{Reasoning}</span></span></span></p>\n<p>@Compendium[world.species-features.ytz30kh4BQMPNKoT]{Sensitivity to Daylight}</p>\n<p>@Compendium[world.species-features.XXAgaQu5o3hNCwQA]{Rapax Claws}</p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.p1DYyduPHPQnUREg]{Silent Flight}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.fi6RkzMjKEhDmiZL]{Bringer of Bad Luck}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Nocturne (Predator): </span></strong></em><span class=\"fontstyle4\">“I prefer to act without being seen.”</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Truth:</strong></em> </span><span class=\"fontstyle2\">“I intervene when there is something wrong”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 118",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Strigi Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205499,
+    "modifiedTime": 1680907778195,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "6kmB2IgDtXaYbxO7"
+}

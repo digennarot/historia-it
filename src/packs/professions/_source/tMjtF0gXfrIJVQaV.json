@@ -1,0 +1,141 @@
+{
+  "name": "Warlord",
+  "type": "subclass",
+  "img": "media/Professions/rage.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The warlord knows that victory will always be a little closer if the party fights like a single individual and is ready to be the instrument of this cohesion by guiding, inspiring or whipping their companions towards success. This is a fighter who, depending on their temperament, oscillates between supportive and altruistic, or tyrannical and inflexible, but in any case, ready to lead by example. Despite fighting with no holds barred, they will never lose sight of the conditions of the group, because for a leader, the death of one soldier is already half a defeat, whether for the money spent to arm and train them or for the loss of a life.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 134",
+    "identifier": "warlord",
+    "classIdentifier": "armiger",
+    "advancement": [
+      {
+        "_id": "Cxx2sGVFFKqh8q8v",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.hqEleoeprjAXGgbH"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "X4ZsYTK3rfnw9PdU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.7DUcMRtPnHvOwikF"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "d8hEc576eeRfCBdP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.6OG2UnRez372jVtU"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "rApsiAPjjHPkY3T5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.sxy9FHF5kyfOHp92"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Eyb69XHxvWISjg91",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.1UzaCvHNiPkIVmW5"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.vJccjfsOw5hcP2q7"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670900677804,
+    "modifiedTime": 1680913320850,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "tMjtF0gXfrIJVQaV"
+}

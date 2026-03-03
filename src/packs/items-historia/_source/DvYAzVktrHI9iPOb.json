@@ -1,0 +1,36 @@
+{
+  "name": "Tinderbox",
+  "type": "loot",
+  "img": "icons/commodities/treasure/box-jade-tassel.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.DNOSEAvF4Oh1DlWy"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 153",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210529,
+    "modifiedTime": 1673573973576,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "DvYAzVktrHI9iPOb"
+}

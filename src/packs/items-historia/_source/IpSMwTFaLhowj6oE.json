@@ -1,0 +1,36 @@
+{
+  "name": "Crowbar",
+  "type": "loot",
+  "img": "icons/tools/fasteners/pin-round.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.V5UAjT3ed6sDNtgm"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210552,
+    "modifiedTime": 1673573973605,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "IpSMwTFaLhowj6oE"
+}

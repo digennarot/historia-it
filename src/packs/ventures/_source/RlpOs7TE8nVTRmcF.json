@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Enlightenment",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>To Alcibiades De Fossa<br />who in the saddest and darkest hour<br />was the guide of the rebel fugitives,<br />brave and fearless,<br />who fought enemy knives with bare claws</strong></span></p><p><span class=\"fontstyle0\">There are countless stories that tell with extraordinary detail the great deeds of many heroes worthy of legend. There’s one who saved a whole kingdom armed only with a glass dagger given to them by the Queen of Snowdrops, another who deceived death thanks to a rhyme that was taught to them by an old nanny in exchange of a seed from the tree of the eternal fruit, yet another who taught the Geese to fly and asked nothing in return, but still received a feather of their wings as a pledge, and with it they discovered the art of writing… Not all of these stories are true, but they all have one very important thing in common: someone, at a certain point, helped the heroes by giving them the tool to fulfill their noble destiny.</span></p><p><span class=\"fontstyle0\">Those who embark on the path of enlightenment aim to be equally decisive: whether through their readiness, their knowledge, their network of contacts or their skills, they will know how to find the decisive inspiration when the situation becomes difficult.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.8PJAAmyDQGnnKJfF]{Prominence: At The Right Place, At The Right Time}</span></p><p><span class=\"fontstyle0\"><strong>EQUIPMENT</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">An object that will show everyone the reason for your existence.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Common clothes, compass, herbalist, or artisan’s tools.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency</strong>: </span><span class=\"fontstyle1\" style=\"color:#000000\">chosen tool.<br /></span><span class=\"fontstyle3\"><strong>Coinage</strong>: </span><span class=\"fontstyle1\" style=\"color:#000000\">5</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong></em>. </span><span class=\"fontstyle3\">What do you think your mission is leading you to?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Who assigned your mission to you? Who are you in charge of protecting?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong></em>. </span><span class=\"fontstyle3\">Do you dislike someone you should help or collaborate with? Why?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle3\">Can you tell when your services are required?</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 195",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.8PJAAmyDQGnnKJfF"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825296282,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "RlpOs7TE8nVTRmcF"
+}

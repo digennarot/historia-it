@@ -1,0 +1,243 @@
+{
+  "name": "Cycles",
+  "type": "feat",
+  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.P2TNMlAB8lEscMhI"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Some alchemists have discovered secrets for combining different alchemical acts through which they are able to obtain more sensational and mysterious results: these secrets are called Cycles. From 5th level, each alchemist knows a cycle consisting of two acts and can learn a new cycle every two Alchemist levels.</span></p><p><span class=\"fontstyle0\">The cycles should be personal displays of the alchemist who combines the effects of the acts in unusual or unexpected ways. They can combine the effects of the acts they apply or replace them for complex interactions between the elements. <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p><p><span class=\"fontstyle0\">As a general idea to create new cycles, two-act cycles should replicate spell effects between 3rd and 5th level, three-act cycles should replicate spells between 6th and 8th levels, and four-act cycles 9th level spells. The GM and player should extract significant effects for the history and philosophy of the alchemist. <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p><p><span class=\"fontstyle0\"><strong>Two-Acts Cycles</strong></span></p><p>@UUID[Compendium.world.profession-features.evWvzLjcdw9J3nce]{Refresh the Soul}</p><p>@UUID[Compendium.world.profession-features.L2V1vrxx85gxEkvK]{Material Refinement}</p><p>@UUID[Compendium.world.profession-features.qphp6O8NdtHktsER]{Air Body}</p><p>@UUID[Compendium.world.profession-features.SjbJJsFo4T5hNFku]{Restorative Vapors}</p><p><strong>Three-Acts Cycles</strong></p><p>@UUID[Compendium.world.profession-features.HlI76VOcKHkD5urN]{Body Refinement}</p><p>@UUID[Compendium.world.profession-features.n15oTqBNIcz7smvk]{Curtain of the Flames}</p><p>@UUID[Compendium.world.profession-features.67fyoHdy2t2L0Ari]{Focus the Pain}</p><p>@UUID[Compendium.world.profession-features.Z8YtlbYTw3X7OblC]{Force Cage}</p><p><strong>Four-Acts Cycles</strong></p><p>@UUID[Compendium.world.profession-features.dDWhgW6LRGGwgvZC]{Weird}</p><p>@UUID[Compendium.world.profession-features.OxjFAsrjS4C64fv9]{Occult Replica}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 129",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Alchemist Level 5",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409209011,
+    "modifiedTime": 1673573972217,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "kX8S7y5hYPXp8ISq"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Block of Incense",
+  "type": "loot",
+  "img": "icons/commodities/stone/rock-chunk-pumice-white.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.eJY20LOs3pOkRDPl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210739,
+    "modifiedTime": 1673573973812,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "vcVpFQJwVFtYnBPC"
+}

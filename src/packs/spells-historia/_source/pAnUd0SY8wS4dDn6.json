@@ -1,0 +1,133 @@
+{
+  "name": "Transformation",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</li><li class=\"rd__li \">You have advantage on attack rolls that you make with simple and martial weapons.</li><li class=\"rd__li \">When you hit a target with a weapon attack, that target takes an extra [[/r 2d12]] force damage.</li><li class=\"rd__li \">You have proficiency with all armor, shields, simple weapons, and martial weapons.</li><li class=\"rd__li \">You have proficiency in Strength and Constitution saving throws.</li><li class=\"rd__li \">You can attack twice, instead of once, when you take the @action[Attack] action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</li></ul><p>Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of @condition[exhaustion].</p></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d12",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "a few hairs from a bull",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "XGE",
+      "hash": "tenser's%20transformation_xge",
+      "propDroppable": "spell"
+    },
+    "core": {
+      "sourceId": "Item.Nd0MemqgZqGvA5Dl"
+    },
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        }
+      },
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      },
+      "quickSave": {
+        "value": true
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671387202737,
+    "modifiedTime": 1673573979848,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "pAnUd0SY8wS4dDn6"
+}

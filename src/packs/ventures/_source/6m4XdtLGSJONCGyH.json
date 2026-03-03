@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Destiny",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>The parents, too, thought she was dead.<br />However, in the winter of the following year, the<br />unexpected happened: Plautilla returned to the village,<br />dragging a centuries-old bone with her, of such size it<br />could not belong to any known animal.<br />People fell to their knees, begging her to forgive<br />their lack of faith. Truly, hers was not madness but<br />a blessing from the gods, who spoke to the world<br />through her.</strong></span></p><p><span class=\"fontstyle0\">In certain nomadic tribes, especially among Coyotes, there is often a tent not far from the others, whose entrance is covered by a star-strewn cloth. The air around smells of something impossible to describe, inspiring something different, great, unknown to the nose of every new traveller. Inside sits an old woman with a marked face, serious but not intimidating. At first glance you would tell she is a fortune teller, or one of those charlatans who divine the future in crystal balls. Do not let your eyes fool you, however, as she is anything but a swindler.</span></p><p><span class=\"fontstyle0\">Whoever sits on the stool in front of her will be asked only one question: “Do you want to know your future?” Many say no, some agree, but only those who have chosen Destiny as their venture can answer with sincerity because in their hearts they are already aware of that future, even if they do not know how to get there. This enigmatic venture leads to great things, and the roads leading to them are as numerous as the stars on the cloth, at the entrance of the tent, and in the sky above.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.n5wYyR5SF4yiFIVP]{Prominence: Against all Expectations}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">A trinket, a relic or even a strange habit that symbolizes your destiny.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Common clothes, personal journal, calligrapher supplies or artisan’s tools.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency: </strong></span><span class=\"fontstyle1\" style=\"color:#000000\">chosen tool.<br /></span><span class=\"fontstyle3\"><strong>Coinage: </strong></span><span class=\"fontstyle1\" style=\"color:#000000\">10</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong>.</em> </span><span class=\"fontstyle3\">What awaits you in the future? What great project do you want to accomplish?</span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong>.</em> </span><span class=\"fontstyle3\">For what or for whom did you embark on the path towards your vision of the future?</span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong>.</em> </span><span class=\"fontstyle3\">Which thought is holding you back on your journey? What obstacle is blocking you from fulfilling yourself?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle3\">What does the importance of your vision show to others?</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 192",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.n5wYyR5SF4yiFIVP"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "media/Profession Features/diamond-body.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1680915776652,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "6m4XdtLGSJONCGyH"
+}

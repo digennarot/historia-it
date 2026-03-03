@@ -1,0 +1,241 @@
+{
+  "name": "Career: Sailor",
+  "type": "feat",
+  "img": "icons/tools/nautical/anchor-blue-orange.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1
+      }
+    },
+    "core": {
+      "sourceId": "Item.HHtq6rVE49lx1PtR"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h2>Career Information</h2>\n<p><span class=\"fontstyle0\">In a peninsular continent like that of Vesteria, with three sides bathed by the sea and the fourth closed by an imposing mountain range, navigation has always been of fundamental importance for trade and travel. The call of the sea has always attracted the inhabitants of both sky and land, pushing them towards the adventurous unknown with all of its risks and rewards: while sailing, many have found luck, but far more have lost everything. Sailors cannot resist the call, driven as they are by their heart or by the mere need to earn money.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 0 – CABIN BOY<br /></span></h2>\n<p><span class=\"fontstyle3\"><em><strong>Requirements</strong></em>: </span><span class=\"fontstyle0\">To be accepted aboard a ship.<br /></span></p>\n<p><span class=\"fontstyle0\">You begin your adventure at sea by carrying out the humblest tasks on the ship. In addition to working on or below deck, finding some sort of leisure while sailing is important in order to lighten the time spent on sea. For this, you gain proficiency in a game and, every time you win in that game (whether cheating or not) they gain inspiration.<br /></span></p>\n<h2><span class=\"fontstyle2\">RANK 1 - SAILOR<br /></span></h2>\n<p><span class=\"fontstyle0\">You have gained experience at sea and now occupy a defined role among the crew. In addition to having earned the respect of the crew, you have gained mastery of seafaring jargon and the habits of life at sea. You gain proficiency with navigational tools and have an advantage in using, tying or securing ropes, thanks to your knowledge of seafaring knots.<br /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Special, Fortune of the Sea.</strong></em> </span><span class=\"fontstyle0\">If you are at sea or on a ship, when you roll a 1 on any die roll, you can roll again and keep the second result. You can use this ability a number of times per long rest equal to your career rank.</span> </p>\n<h2><span class=\"fontstyle0\">RANK 2 - BOATSWAIN<br /></span></h2>\n<p><span class=\"fontstyle2\">You have become one of the ship’s officers and have a role of great responsibility dealing with the management of crewmembers and resources. Your name has traveled the seas as much as the ship you sail, reaching ears near and far. You have at least one contact in each port of Vesteria and gain a spyglass as a symbol of their status.</span></p>\n<h2><span class=\"fontstyle0\">RANK 3 - CAPTAIN<br /></span></h2>\n<p><span class=\"fontstyle2\">You have earned the right to command a vessel and your Fame has crossed the sea, reaching even territories far from the coasts where you usually set sail. Only the wealthiest can afford your services (unless yours have chosen... “alternative” approaches, such as piracy) and your exploits blend with legend in the stories told on the piers or inside harbor inns: each time you gain Fame through feats performed at sea, they gain 1 additional Fame point.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 236",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210296,
+    "modifiedTime": 1680916373920,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Rt0D9uk8X6VVXi2P"
+}

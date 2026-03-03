@@ -1,0 +1,810 @@
+{
+  "name": "Flagellant",
+  "type": "class",
+  "img": "media/Professions/flagellant.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.TNmChKAFBCgh1EPK"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">When an adventurer prepares to leave, knowing that they will face possible skirmishes, intrigues, and dangers of all sorts, they do everything to protect themselves effectively. They choose a good armory, ask the blacksmith’s advice, and make their purchases: if modest possibilities, they will opt for a good Gambeson, perhaps a solid bascinet; if wealthy, they might order a complete suit of armor, to be dressed in steel from head to toe. No price is too high to avoid injuries and return home all in </span>one piece. All of this does not apply to a Flagellant, since <span class=\"fontstyle0\">the wounds they are sure to take will most certainly be inflicted by their own hand. Those belonging to this sinister religious sect, perhaps the most extreme fringe of the Church of the Bones known as the Mortifieds (admittedly only recently formally recognized) believe that flesh, especially their own, is a useless foil that covers the sacred skeleton, and because of this reason, it has to be flagellated. However, the practices of self-harm that distinguish them do not only have a symbolic value but seem capable of activating a state of frightening mystical fury that is often exploited in battle.</span></p><h1><span class=\"fontstyle0\">Class Features</span></h1><p>As an  <span class=\"fontstyle0\">flagellant </span>you gain the following class features.</p><p><span class=\"fontstyle0\"><strong>Hit Points</strong></span><br /><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em>1d12 per flagellant level <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Hit Points at 1st Level:</strong></em> 12 + your Constitution modifier<br /><em><strong>Hit Points at Higher Levels:</strong></em> 1d12 (or 7) + your Constitution modifier per flagellant level after 1st</span></p><p><strong>Proficiencies</strong><br /><em><strong>Armor:</strong></em>  <span class=\"fontstyle0\">Light armors</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Weapons:</strong> </em>Simple weapons, flail<br /><em><strong>Tools:</strong></em> none<br /><em><strong>Saving Throws: </strong></em>Constitution, Charisma<br /><em><strong>Skills:</strong></em> Choose two from Arcana, Insight, Medicine, <span class=\"fontstyle0\">Nature, Perception, Religion and Survival.</span></p><p><strong>Equipment</strong><br /><span class=\"fontstyle0\">You begin with the following equipment, in addition to the equipment provided by your venture:</span></p><ul><li><span class=\"fontstyle0\">(a) a pair of daggers or (b) any simple weapon</span></li><li><span class=\"fontstyle0\">(a) a flail or (b) any simple melee weapon</span></li><li><span class=\"fontstyle0\">A studded tabard, an explorer’s pack, and a sack</span></li></ul><h1>Flagellant Advancement</h1><table style=\"height:353px;width:98.9399%\"><tbody><tr style=\"height:33px\"><td style=\"width:4.4985%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Level</td><td style=\"width:7.63901%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Proficiency Bonus</td><td style=\"width:33.9119%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Features</td><td style=\"width:7.19495%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Blood Charges</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">1</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.AlCQLlsvdvLz5Fo5]{Mortification}, @Compendium[world.profession-features.RwQS5asy6TlC7c3V]{Defense Without Armor}, @Compendium[world.profession-features.p40i8SqR3b3SfEPT]{Self-inflicted Injury}</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">-</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">2</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.RmbhE93EYBd5v91G]{Mortified Philosophy}, @Compendium[world.profession-features.BpduYN0p07p5kmUB]{Blood Charges}, @Compendium[world.profession-features.EEZ1I2ong44GGPow]{Magic of Pain}</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">1</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">3</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.v2vP871Vy6dkiEMy]{From Pain to Triumph}, @Compendium[world.profession-features.6EkIvC6vqwSPt49R]{Attack with Abandonment}</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">1</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">4</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:7.19495%;height:16px;text-align:center\">1</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">5</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Flagellant Philosophy</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">6</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:7.19495%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">7</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.HsGGOUVQqOwboyRx]{Red Blessing}</td><td style=\"width:7.19495%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">8</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:7.19495%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">9</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">10</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Mortified philosophy</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">2</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">11</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.wlAUb49nbRSsYwtW]{Mystical Song}</td><td style=\"width:7.19495%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">12</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:7.19495%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">13</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Mortified Philosophy</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">14</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.FEy4jMVrt8vFq8y3]{Mystical Trance}</td><td style=\"width:7.19495%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">15</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td><td style=\"width:7.19495%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">16</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:7.19495%;height:16px;text-align:center\">3</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">17</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.IJUNjCf6X5Y0kceL]{Pain Beyond Death}</td><td style=\"width:7.19495%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">18</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Feature of the Mortified Philosophy</span></td><td style=\"width:7.19495%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">19</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td><td style=\"width:7.19495%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">20</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.AydpcXKTXlQXIYcP]{Pain is Life}</td><td style=\"width:7.19495%;height:16px;text-align:center\"><span class=\"fontstyle0\">4</span></td></tr></tbody></table><p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 135",
+    "identifier": "flagellant",
+    "levels": 1,
+    "hitDice": "d12",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "xbZbi6HXURZGTzy9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.AlCQLlsvdvLz5Fo5",
+            "Compendium.world.profession-features.RwQS5asy6TlC7c3V",
+            "Compendium.world.profession-features.p40i8SqR3b3SfEPT"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "kcThNcTcgtgsS4Es",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.EEZ1I2ong44GGPow"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Spellcasting"
+      },
+      {
+        "_id": "xbFqQPWpjywPoo7e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.BpduYN0p07p5kmUB"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Y71yFM0JB8TJVqUu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.RmbhE93EYBd5v91G"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Choose a Subclass"
+      },
+      {
+        "_id": "GmS67awDLDeUTGQX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.v2vP871Vy6dkiEMy",
+            "Compendium.world.profession-features.6EkIvC6vqwSPt49R"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grand Ability"
+      },
+      {
+        "_id": "gRqQgggFNuNMS0GB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "I8tN3FmXhMMMgEJH",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "v817Kw0BjgN1cUtI",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "BzAgnLCI35Ujhuiu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.HsGGOUVQqOwboyRx"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grand Ability"
+      },
+      {
+        "_id": "pLZMmfpKi07WF4iW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "4QAGPj6S4n5yII80",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.wlAUb49nbRSsYwtW"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": ""
+      },
+      {
+        "_id": "l4QVytPIWnLdhEzk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "UizxIerHpqqn4DhH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.FEy4jMVrt8vFq8y3"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": ""
+      },
+      {
+        "_id": "LgtTdKCMJsSotM8B",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "V0ONoqJcpB5vpEVc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.IJUNjCf6X5Y0kceL"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": ""
+      },
+      {
+        "_id": "7HcCYQHw1tIEj0r5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "7s21b1gfgNyLUXG8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.AydpcXKTXlQXIYcP"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": ""
+      },
+      {
+        "_id": "82X3QSF7RlZPwuz2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.spells-historia.1ncqhmmA7Elc38Xj"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "You get the Cantirp Spell"
+      },
+      {
+        "_id": "TrVZYxTzx8zOqJNs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "You pick 2 Flagellant Cantirp Spells"
+      },
+      {
+        "_id": "3YQ28n6LS7CGDVjf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Choose 1 Flagellant Cantirp Spells"
+      },
+      {
+        "_id": "Ibw7ELeZZXbv8cpl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Pick 1 Flagellant Cantirp Spells"
+      },
+      {
+        "_id": "WilSBOT5OAFSyRFZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "You pick 3 1st-Level Flagellant Spells"
+      },
+      {
+        "_id": "gQjCaxzHdrWIbqEU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Pick 1 1st-Level Flagellant Spell"
+      },
+      {
+        "_id": "ozQqRXi3epGgLl4T",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "Choose 1 1st or 2nd Level Flagellant Spell"
+      },
+      {
+        "_id": "HVveW3WRlPPRHhuF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Pick 1 1st or 2nd Level Flagellant Spell"
+      },
+      {
+        "_id": "wCxmfpkWYL1OFwy8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Choose 1 1st,2nd or 3rd Level Flagellant Spell"
+      },
+      {
+        "_id": "hbrBw6UL5KcsoRuU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Pick 1 1st,2nd or 3rd Level Flagellant Spell"
+      },
+      {
+        "_id": "cKut2qFsWTnBEKwq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "Choose 1 1st,2nd,3rd or 4th Level Flagellant Spell"
+      },
+      {
+        "_id": "0vncS3VWqFcLCjdn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Choose 1 1st,2nd,3rd or 4th Level Flagellant Spell"
+      },
+      {
+        "_id": "w6BSZKMUgWsMlLQk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Choose 1 1st,2nd,3rd,4th or 5th Lvl Flagellant Spell"
+      },
+      {
+        "_id": "R7lr7rXIUUVMuqBF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Then pick 1 1st,2nd,3rd,4th or 5th Lvl Flagellant Spell"
+      },
+      {
+        "_id": "XrdYtnmxLYAvftvJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "ZGI2s8F98sKFfUU1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "6rfquOZKF5U1B6h9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "LSA4qEymDlY5vGn4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "nRHOujwdjpfGs2Ag",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "RbN1fas4zGfiT4h2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "agXDT5iuYNDcx6Cm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "TnpZKyhFk3UTO3qm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Option: Change a spell with another of the same level."
+      }
+    ],
+    "saves": [
+      "con",
+      "cha"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "arc",
+        "ins",
+        "med",
+        "nat",
+        "prc",
+        "rel",
+        "sur"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "con"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207410,
+    "modifiedTime": 1680913069852,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "1HXgLO5vCof0DI8B"
+}

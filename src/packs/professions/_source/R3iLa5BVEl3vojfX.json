@@ -1,0 +1,142 @@
+{
+  "name": "Explorer",
+  "type": "subclass",
+  "img": "icons/tools/navigation/compass-brass-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Explorers possesse literally everything needed not only to survive, but to thrive in the traveling and adventurous life they have chosen: they know how to orient themselves, the characteristics of the landscape from its flora to its inhabitants, how to make a meal out of anything, and is able to recover and even fight with great finesse. Their keen senses and great awareness make them difficult to catch unawares, and their tenacity is difficult to break.</span></p><p><span class=\"fontstyle0\"><strong>AROUND THE WORLD</strong><br /></span><span class=\"fontstyle2\">You get proficiency in a skill chosen from Nature, Survival or History, in the cartographer’s tools or in the navigator’s tools, in cook’s utensils, in medium armors and in the following martial weapons: dueling sword, bastard sword and side sword.</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 186",
+    "identifier": "explorer",
+    "classIdentifier": "venturer",
+    "advancement": [
+      {
+        "_id": "v5MyPZwBedgP4G1i",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.FRNKMFPK9KmpdHBi"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "qQdyEf2nKZriFSmW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.9LWlY7czks90Xe3y"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "k1omSt510mz0Mwhh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.vBHM3d2Wfr801Scp",
+            "Compendium.world.profession-features.Bi9VSPddbvnKUB15"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "uLeFyusoGYgSWpvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.N7mgobJB4ILHgRVz"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "4RoVmOkmZCEK8YB6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.uS6KytQDfpOzQW9e"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.qqmS4Cvoabjbbijr"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671316406116,
+    "modifiedTime": 1673573969094,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "R3iLa5BVEl3vojfX"
+}

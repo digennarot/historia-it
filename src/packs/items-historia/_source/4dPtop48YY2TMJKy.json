@@ -1,0 +1,36 @@
+{
+  "name": "Compass",
+  "type": "loot",
+  "img": "icons/tools/navigation/compass-worn-copper.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.4NQMbIippI89tgP6"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Always points north.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg.195",
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210478,
+    "modifiedTime": 1673573973520,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "4dPtop48YY2TMJKy"
+}

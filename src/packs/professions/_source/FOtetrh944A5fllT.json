@@ -1,0 +1,120 @@
+{
+  "name": "Philosopher",
+  "type": "subclass",
+  "img": "icons/skills/trades/smithing-smelter-tongs.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Life is too mutable and unpredictable: way too often the results of an experiment turn out to be an exception more than a fixed outcome. For the Philosopher, who paradoxically can be defined as the greatest materialist and therefore finds themself in conflict with Iatri and Vitalists, it is a thousand times better to devote oneself to things that are inert, pure and eternal. They can shape metals to their liking as no blacksmith ever could, and their highest aim is to achieve the transmutation of the vilest matter into the noblest. However, every philosopher eventually learns that the real treasure is the actual journey to the Occult Stone, a metaphor for refining oneself in order to rise to a higher level of awareness.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 127",
+    "identifier": "philosopher",
+    "classIdentifier": "alchemist",
+    "advancement": [
+      {
+        "_id": "SnbgbuGavs9H7tE9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.xEaRkajw4E8fQF7W"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "WrnOcjVeRtEGHY7H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.b89IL4bWcYMjX5zx"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "sX5XtDg9OK7MnpXC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.OY4PkRkbAxloAdyS"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "5dtrUsp4NRxU6Mv4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.xKWEOhlSlY2L6Slo"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.h5EvBCbDfOBH8S8M"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670898319812,
+    "modifiedTime": 1673573969074,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "FOtetrh944A5fllT"
+}

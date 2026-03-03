@@ -1,0 +1,117 @@
+{
+  "name": "Create Magen",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>While casting the spell, you place a vial of quicksilver in the chest of a life-sized human doll stuffed with ash or dust. You then stitch up the doll and drip your blood on it. At the end of the casting, you tap the doll with a crystal rod, transforming it into a <a href=\"https://5etools-mirror-1.github.io/bestiary.html#blankhash,fbsr:magen,flstsource:idrotf=1\">magen</a> clothed in whatever the doll was wearing. The type of magen is chosen by you during the casting of the spell. See <a href=\"https://5etools-mirror-1.github.io/adventure.html#IDRotF,21\">appendix C</a> for different kinds of magen and their statistics.</p><div class=\"rd__spc-inline-post\"></div><p>When the magen appears, your hit point maximum decreases by an amount equal to the magen's challenge rating (minimum reduction of 1). Only a @spell[wish] spell can undo this reduction to your hit point maximum.</p><p>Any magen you create with this spell obeys your commands without question.</p></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "IDRotF",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "touch",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a vial of quicksilver worth 500 gp and a life-sized human doll, both of which the spell consumes, and an intricate crystal rod worth at least 1,500 gp that is not consumed",
+      "consumed": true,
+      "cost": 500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "IDRotF",
+      "hash": "create%20magen_idrotf",
+      "propDroppable": "spell"
+    },
+    "core": {
+      "sourceId": "Item.hyUZxRyNhjJy3V6p"
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671387252349,
+    "modifiedTime": 1673573979841,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "oCOXpY7Kv24EZLXf"
+}

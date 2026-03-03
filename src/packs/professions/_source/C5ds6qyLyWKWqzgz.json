@@ -1,0 +1,120 @@
+{
+  "name": "Smuggler",
+  "type": "subclass",
+  "img": "icons/containers/bags/sack-open-grain-red-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Not all goods are allowed everywhere, not all ports impose fair tariffs and not all customers are willing to wait; that is why there are Smugglers to bypass all these long-standing issues. Specialized in circulating their merchandise outside of the conventional (and strictly legal) channels, Smugglers know how to get their hands on those objects that are usually impossible to find.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 156",
+    "identifier": "smuggler",
+    "classIdentifier": "merchant",
+    "advancement": [
+      {
+        "_id": "8xtVn9k7YsbE2iBm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.HUFcYEdFlj0hEjhl"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ZTelvjP43s8nrvgZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.eeCq1kR4hlCXLPrQ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "NSwQCim21J4KCMQc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.408VSQsJoWAHFrMt"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "mVrKVKuCmVK0zFpD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.rKfCpTW6KksMcWoW"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.N0PqHsVxGZGCXtiO"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670991633609,
+    "modifiedTime": 1673573969073,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "C5ds6qyLyWKWqzgz"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Transmogrification",
+  "type": "spell",
+  "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You permanently alter the physical body of a humanoid creature into another type of humanoid body. After encasing the target in clay, you conduct a rigorous, one-hour-long ritual that manipulates the flesh and function of the target's body into that of another humanoid race. They lose their previous racial traits and instead gain the racial traits of another humanoid race of the target's choice, aside from languages known (which remain unchanged). Should the target wish to alter their gender along with or instead of their race, they can choose to do so as part of the spell. When the ritual is completed, you and the target suffer one level of exhaustion.</p><p>Once a creature's race or gender has been changed via this spell, they cannot be affected again by this spell for 1 year.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "CRT",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Damp clay equal to the weight of the target and 150 gp worth of crushed gem dust, both of which the spell consumes",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.RosuTYKlntzROiiK"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671400030603,
+    "modifiedTime": 1673573979695,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "NULpiBlDzsHp9dg8"
+}

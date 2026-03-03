@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Revolution",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Caught in a cage, small and torn, seized by burning<br />fury, he killed the guard with claws and fangs, because<br />the fool had the audacity to offend what family<br />he had lost in battle.<br />The other slaves, dragged along by the ardor of the<br />little rebel, followed with great enthusiasm. The revolt<br />arose, many managed to escape - of Torquato, the<br />brave young hero, they couldn’t even seize his shadow.</strong></span></p><p><span class=\"fontstyle0\">Power is a mysterious thing, depending on how it is used it can change face like the puppet of a mummer. In the hands of a just ruler, it lightens burdens, establishes right laws and becomes an instrument of prosperity: it is like a farmer’s plow, heavy to carry but without it crops could not be collected. When it becomes the reaper’s sickle many twist their noses, but they know they must be patient, because without the sickle you cannot reap what you have sown. But when it becomes the millstone of a mill whose flour goes only in the pockets of the millers, rebellion is the only way out</span></p><p><span class=\"fontstyle0\">Those who choose the venture of Revolution have no intention of spending a minute more tied to that millstone and are set on freeing those around them from this infamous yoke. Equipped with intuition and always ready for action, the followers of this venture are courageous not because they do not feel fear, but because the ideal of change that they pursue motivates them beyond any caution or reserve.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.r0DNn20HVcJNu1LF]{Prominence: Nose for Resentment}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle1\" style=\"color:#000000\">A cameo with the image of the reason you fight.</span></li><li><span class=\"fontstyle1\" style=\"color:#000000\">Common clothes, an artisan’s tool of your choice.</span></li></ul><p><span class=\"fontstyle3\"><strong>Proficiency: </strong></span><span class=\"fontstyle1\" style=\"color:#000000\">chosen tool.<br /></span><span class=\"fontstyle3\"><strong>Coinage: </strong>10</span></p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong></em>. </span><span class=\"fontstyle3\">What is the reason that makes you move the world? What should a fair world be like?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong></em>. </span><span class=\"fontstyle3\">Who is by your side in the world you want to build? Who is by your side whilst you are building it?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong></em>. </span><span class=\"fontstyle3\">What is the line you are afraid to cross?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle3\">What is your battle cry? What do your enemies call you?</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 198",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.r0DNn20HVcJNu1LF"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/sundries/flags/banner-standard-tattered-red.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825452669,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "A50Zlc4VpAQqzr4D"
+}

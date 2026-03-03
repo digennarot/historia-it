@@ -1,0 +1,36 @@
+{
+  "name": "Personal Journal",
+  "type": "loot",
+  "img": "icons/sundries/books/book-open-red.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.TB2M702I9DgS7XqQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your own personal Journal</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 192",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210487,
+    "modifiedTime": 1673573973527,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "6EZtf6ZA7prUZCl4"
+}

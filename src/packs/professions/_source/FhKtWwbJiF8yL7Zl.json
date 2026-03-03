@@ -1,0 +1,164 @@
+{
+  "name": "Prophet",
+  "type": "subclass",
+  "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The Prophet’s weapon is not the flail, the sword, the dagger, or the pike. It is the truth that their divinity has revealed to them in the sea of whispers crossing their mind, and there is no higher their in his existence than to reveal this truth to all peoples. Often their desire to spread the divine words leads them to travel far and wide, and it is not unusual to meet a wandering Prophet committed to preaching both in the poorest villages and in the squares of Nochemburg.<br /></span></p><p><span class=\"fontstyle2\"><strong>MAGIC OF THE PROPHET<br /></strong></span><span class=\"fontstyle0\">Your magic derives from your mystical vision and from the need to share it with the world. Each odd level your slots increase in level: at 3rd level they are of 2nd level, at 5th level they are of 3rd level, at 7th level they are of 4th level and at 9th level they are of 5th level. Likewise, you increases the maximum spell level you can know.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 163",
+    "identifier": "prophet",
+    "classIdentifier": "priest",
+    "advancement": [
+      {
+        "_id": "FkMdQpudFnkZuW0I",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.UVt9LeRIvuFZb0V9",
+            "Compendium.world.profession-features.J2GaAnzvik1qdzfa"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "bg0gJ23phQPGlB9v",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.mMTCWavPqGs8aXqk",
+            "Compendium.world.profession-features.3eG8xOx9f5bDuDTc"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "GWFTQu5iaCO2CO2b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.xjTNEqE3T8nSnH8O"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "5MLyMWyWTcxfSKlR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.CEYKkGzJEqaiJdob"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "m34OqDEdbDOJuOOZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.Q2dv0kl938dbZnXx"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "3dAi1Vzn5HftSdQZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.ODJffWd92ivpB9YT"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.AKoYy4gESbOvzzZr"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671072490808,
+    "modifiedTime": 1673573969078,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "FhKtWwbJiF8yL7Zl"
+}

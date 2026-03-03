@@ -1,0 +1,552 @@
+{
+  "name": "Venturer",
+  "type": "class",
+  "img": "media/Professions/venturer.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.oM2w7xuYBvPcJG7J"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When traveling through the wilderness, being able to share a campfire <span class=\"fontstyle0\">with another traveler on the road, along with a few words and a hot meal, is a great blessing. When the traveler, once the evening falls, extracts a lyre from their bag and asks for silence, everyone holds their breath. Sometimes you need someone in your party who knows the area like the pad of their paw, knows how to look for tracks without leaving any and can smell a danger in the air invisible to everyone else, to have the ability to </span>stoke the fate of a trip that until then had promised little or nothing. If someone asked these individuals where <span class=\"fontstyle0\">they hail from, they would simply answer ‘Vesteria’, because their traveling and enterprising nature leads them to travel as perhaps only certain merchants have done. Those who choose the profession of venturer, choose a lifestyle rather than an occupation, a predisposition for adventure and improvisation. Venturers are extraordinarily in tune with their surroundings, and they can exploit every aspect of it to their advantage. Their resilient and versatile temperament is particularly suitable for transforming the risks of failure into the promises of success.</span></p><h1><span class=\"fontstyle0\">Class Features</span></h1><p>As a  <span class=\"fontstyle0\">venturer </span>you gain the following class features.</p><p><span class=\"fontstyle0\"><strong>Hit Points</strong></span><br /><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em>1d10 per </span>venturer<span class=\"fontstyle0\"> level <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Hit Points at 1st Level:</strong></em> 10 + your Constitution modifier<br /><em><strong>Hit Points at Higher Levels:</strong></em> 1d10 (or 6) + </span>your <span class=\"fontstyle0\">Constitution modifier per venturer level after 1st</span></p><p><strong>Proficiencies</strong><br /><em><strong>Armor:</strong></em><strong> </strong> <span class=\"fontstyle0\">Light armor</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Weapons:</strong> </em> <span class=\"fontstyle0\">Simple weapons, sabers, scimitars, swords</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Tools:</strong></em>   <span class=\"fontstyle0\">Two artisan tools of your choice. A game set of your choice</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Saving Throws: </strong></em>  <span class=\"fontstyle0\">Constitution, Wisdom</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Skills:</strong></em> Choose three from Acrobatics, Athletics, Stealth, <span class=\"fontstyle0\">Investigation, Performance, Insight, Nature, Perception, Sleight of Hand and Survival</span></p><p><strong>Equipment</strong><br /><span class=\"fontstyle0\">A venturer starts with the following equipment, in addition to the equipment provided by their venture:</span></p><ul><li><span class=\"fontstyle0\">(a) a saber, or (b) a sword, or (c) any simple weapon</span></li><li><span class=\"fontstyle0\">(a) bow and a quiver with 20 arrows, or (b) any simple weapon</span></li><li><span class=\"fontstyle0\">(a) an explorer’s pack, or (b) an entertainer’s pack</span></li><li><span class=\"fontstyle0\">(a) an artisan’s tool of your choice, or (b) a musical instrument of your choice</span></li><li><span class=\"fontstyle0\">A studded tabard</span></li></ul><h1>Venturer Advancement</h1><table style=\"height:353px;width:98.9399%\"><tbody><tr style=\"height:33px\"><td style=\"width:4.4985%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Level</td><td style=\"width:7.63901%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Proficiency Bonus</td><td style=\"width:33.9119%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Features</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">1</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.l4hfUq0tMOEUsAwc]{Born Explorer}, @Compendium[world.profession-features.BhKVEdsn3QYyoEyS]{Precious Information}, @Compendium[world.profession-features.ErEpnbRavrYqG6RR]{Ready for Adventure}</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">2</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.MWkvm6DOntaArTss]{Improvising}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">3</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.F4czte2SW5n0tCjZ]{Harmony with the World}, @Compendium[world.profession-features.hvw2mjOoQJO0RVK3]{Journey of the Venturer}</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">4</td><td style=\"width:7.63901%;height:16px;text-align:center\">+2</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">5</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Journey Feature, @Compendium[world.profession-features.caoa5ZU8y9lRBqdL]{Impetus}</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">6</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.9bw7x6Xpxk9WL1aN]{World Knowledge}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">7</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Journey Feature</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">8</td><td style=\"width:7.63901%;height:16px;text-align:center\">+3</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">9</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.UgnqZSqubxNEPo0L]{Expert Camouflage}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">10</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.cp3krwqjNwwe0KS0]{The World is my Refuge}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">11</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.lgo65vICBaqKZWjM]{Inner Instincts}, Journey Feature</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">12</td><td style=\"width:7.63901%;height:16px;text-align:center\">+4</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">13</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.CAOKS5xYK2tMgc55]{Without Trace}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">14</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.orXjmuTlAUrZCLuO]{Unshakable}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">15</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Journey Feature</span></td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">16</td><td style=\"width:7.63901%;height:16px;text-align:center\">+5</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">17</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.QE2JdM5vvQDBOPXg]{One with the Environment}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">18</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.YzrYD3kEZU9Lg5M3]{Understanding of the World}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">19</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.gWNw1LL4Y6x5OYgF]{Ability Score Improvement}</td></tr><tr style=\"height:16px\"><td style=\"width:4.4985%;height:16px;text-align:center\">20</td><td style=\"width:7.63901%;height:16px;text-align:center\">+6</td><td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.IS9xuEEVGQvrCLWX]{Apex}</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 181",
+    "identifier": "venturer",
+    "levels": 1,
+    "hitDice": "d10",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "BxyU9d6ZOu5mYtMB",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "SEdSa5SzHuiB9vSv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.l4hfUq0tMOEUsAwc",
+            "Compendium.world.profession-features.BhKVEdsn3QYyoEyS",
+            "Compendium.world.profession-features.ErEpnbRavrYqG6RR"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "4hQUclh5Ava0EyaU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.MWkvm6DOntaArTss"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "tGRbuWKqRkhdXrkp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.F4czte2SW5n0tCjZ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "CGcY01ihyfN0Qrhr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.hvw2mjOoQJO0RVK3"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass"
+      },
+      {
+        "_id": "m19TSbd2KkLSOuEv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "WSO4n1AJnk0GaUTD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.caoa5ZU8y9lRBqdL"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "7V71K7f2L25xzVzg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.9bw7x6Xpxk9WL1aN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "emdcQo81cJf41sgF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "WH68s22q0G97TrE0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.UgnqZSqubxNEPo0L"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "smRJ08t6aQULP2J7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.cp3krwqjNwwe0KS0"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "TwhQJLPOEo1qrCp8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.lgo65vICBaqKZWjM"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "n9b39vh1BdprAoCv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "laKTVZlPsiye3B30",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.CAOKS5xYK2tMgc55"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "I2m4DsbJXG1WyQze",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.orXjmuTlAUrZCLuO"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "AA6ALXRvVG6R36dA",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "hJe0LIp8tVRWem23",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.QE2JdM5vvQDBOPXg"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "kdAbj8ile80NUzM7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.YzrYD3kEZU9Lg5M3"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "rBmRuymZbtugLjGW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "GdAaYcIGN0yH5Iep",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.IS9xuEEVGQvrCLWX"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "rD1YLifN4MUn9G2g",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Improvisation Pool = prof + WIS bon/2 (min 1)"
+      },
+      {
+        "_id": "P0A31ffxh4uGuXox",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Increase Improvisation Point Pool by 1"
+      },
+      {
+        "_id": "mh2f6nyBurW5kGg6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Increase Improvisation Point Pool by 1"
+      },
+      {
+        "_id": "ids4UQGmal3B2WuK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Increase Improvisation Point Pool by 1"
+      },
+      {
+        "_id": "maJWi9QxGJbJn1o8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Increase Improvisation Point Pool by 1"
+      }
+    ],
+    "saves": [
+      "con",
+      "wis"
+    ],
+    "skills": {
+      "number": 3,
+      "choices": [
+        "acr",
+        "ath",
+        "ins",
+        "inv",
+        "nat",
+        "prc",
+        "prf",
+        "slt",
+        "ste",
+        "sur"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207436,
+    "modifiedTime": 1673573969083,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "KeYPiTNGYeoYv23c"
+}

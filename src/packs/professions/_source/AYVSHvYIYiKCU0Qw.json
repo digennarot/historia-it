@@ -1,0 +1,438 @@
+{
+  "name": "Scholar",
+  "type": "class",
+  "img": "media/Professions/scholar.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.oM2w7xuYBvPcJG7J"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Three pups play in a courtyard. Two <span class=\"fontstyle0\">are dueling, armed with sticks, while the third stays seated by the side. Whenever the younger sister engaged in combat makes a mistake or performs something particularly daring and effective, her brother’s eyes thin, attentive and focused. The intrepid puppy is losing, until her spectator starts shouting advice and directions. He is certainly not sweating with a stick in his hand, but he is confident that those instructions will be instrumental: his words, in fact, </span>show the way forward to the little swordswoman, and soon <span class=\"fontstyle0\">the fate of the duel is reversed. The sword is not the only weight that can tip the balance: at times, knowledge can be an equally precious and heavy coin. Some Scholars can be considered to all intents and purposes warriors of the mind, skilled as they are in debate, rhetoric and the arts of persuasion, while others give a different form and purpose to their knowledge. Whether they devote themselves to the study of medicine, engineering or any other academic field, Scholars share a constant desire to broaden their intellectual horizons and make the most of specific knowledge, whether it is to their own benefit or that of others.</span></p>\n<h1><span class=\"fontstyle0\">Class Features</span></h1>\n<p>As a <span class=\"fontstyle0\">scholar </span>you gain the following class features.</p>\n<p><strong><span class=\"fontstyle0\">Hit Points</span></strong><br /><span class=\"fontstyle0\"><em><strong>Hit Dice:</strong> </em><span class=\"fontstyle0\">1d8 per scholar level</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Hit Points at 1st Level:</strong></em> 8 + your Constitution modifier<br /><em><strong>Hit Points at Higher Levels:</strong></em> 1d8 (or 5) + </span>your Constitution <span class=\"fontstyle0\">modifier per scholar level after 1st.</span></p>\n<p><strong>Proficiencies</strong><br /><strong><em>Armor:</em> </strong>None<br /><em><strong>Weapons:</strong> </em>Simple weapons<br /><strong><em>Tools:</em></strong>  <span class=\"fontstyle0\"> <span class=\"fontstyle0\">Two of your choice</span></span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><strong><em>Saving Throws: </em></strong><span class=\"fontstyle0\">Intelligence, </span> <span class=\"fontstyle0\">Charisma</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /><em><strong>Skills:</strong></em> Four of your choice</p>\n<p><strong>Equipment</strong><br /><span class=\"fontstyle0\">You start with the following equipment, in addition to the equipment provided by your venture:</span></p>\n<ul>\n<li><span class=\"fontstyle0\">(a) a staff or (b) a stiletto</span></li>\n<li><span class=\"fontstyle0\">(a) A light crossbow and 20 bolts or (b) a small sword</span></li>\n<li><span class=\"fontstyle0\">(a) An dungeoneer’s pack or (b) a scholar’s pack</span></li>\n<li><span class=\"fontstyle0\"><span class=\"fontstyle0\">A tool of your choice and two tomes of the topic of your choice</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></li>\n</ul>\n<h1>Scholar Advancement</h1>\n<table style=\"height:353px;width:98.9399%\">\n<tbody>\n<tr style=\"height:33px\">\n<td style=\"width:4.4985%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Level</td>\n<td style=\"width:7.63901%;height:33px;background-color:#7e8c8d;border-style:solid;border-color:#000000;text-align:center\">Proficiency Bonus</td>\n<td style=\"width:33.9119%;height:33px;text-align:center;background-color:#7e8c8d;border-style:solid;border-color:#000000\">Features</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">1</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">@Compendium[world.profession-features.f4hX1ClYWufR9atr]{Learning By Mistake}, @Compendium[world.profession-features.TVFlDuoGcLtTfxED]{Wise Advice}</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">2</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.QC9EfAGx6YnzweBc]{Factotum}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">3</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.whNfSQ3QvWU3C8X7]{Field of Study}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">4</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+2</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.fAZvQq5embEx3bS4]{Ability Score Improvement (Scholar)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">5</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.TVFlDuoGcLtTfxED]{Wise Advice}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">6</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.fAZvQq5embEx3bS4]{Ability Score Improvement (Scholar)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">7</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Field of Study Feature</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">8</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+3</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.fAZvQq5embEx3bS4]{Ability Score Improvement (Scholar)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">9</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.qpnPH4VmcQNjhT4V]{Ready for Anything}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">10</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">-</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">11</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.XcWWlEaaM5xA8QyR]{Words of Hope}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">12</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+4</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.fAZvQq5embEx3bS4]{Ability Score Improvement (Scholar)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">13</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.WOUlHS7HUNHHCnHb]{Keep Calm}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">14</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\"><span class=\"fontstyle0\">Field of Study Feature</span></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">15</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.ImX4r8yIlTJGe2AB]{Holistic knowledge}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">16</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+5</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.fAZvQq5embEx3bS4]{Ability Score Improvement (Scholar)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">17</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.zSRccVAcENjYslDL]{Enlightening Words}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">18</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.pYBxdLbUqAA4b2or]{Knowledge Gives, Knowledge Takes}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">19</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.fAZvQq5embEx3bS4]{Ability Score Improvement (Scholar)}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:4.4985%;height:16px;text-align:center\">20</td>\n<td style=\"width:7.63901%;height:16px;text-align:center\">+6</td>\n<td style=\"width:33.9119%;height:16px;text-align:center\">@Compendium[world.profession-features.CMXuwYZzCJSmAEIT]{Supreme Erudition}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 171",
+    "identifier": "scholar",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "g3YT1GSXyNIjB48w",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "xgj16zz51wapDgZ0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.f4hX1ClYWufR9atr"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "QPEcOQyUSBlisDDD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.QC9EfAGx6YnzweBc"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "O3BDzSFISjm2iz57",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.whNfSQ3QvWU3C8X7"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass"
+      },
+      {
+        "_id": "4rekB74ZBVvHuw2u",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 4,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "SnC2mwGyYR8uCWns",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.TVFlDuoGcLtTfxED"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "Wise Advice (1HD)"
+      },
+      {
+        "_id": "nZLwxZMDd0j117N7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Wise Advise (2HD)"
+      },
+      {
+        "_id": "2DCoPaovO1iXeRbV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "yI1dtyJsqjVzKu1P",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 8,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "XuknXCbViViv7122",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.qpnPH4VmcQNjhT4V"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "Qh7g8drDWz77mF7e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.XcWWlEaaM5xA8QyR"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "X4snYdtxagsmRnab",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 12,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "LVbRE08kSUBZojjw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.WOUlHS7HUNHHCnHb"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "pSe5M3rRQTJ8PEJt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.ImX4r8yIlTJGe2AB"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "9AQpFz1bvo3teMcV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 16,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "7JCZHKZmAG9VJkau",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.zSRccVAcENjYslDL"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "zgkf4RruvtZOmnaK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 19,
+        "title": "ASI or FEAT"
+      },
+      {
+        "_id": "diB15qlfBVZ6Ndxi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.pYBxdLbUqAA4b2or"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "qAKuhvHuLCOjmr2D",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.CMXuwYZzCJSmAEIT"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "Grant Ability"
+      }
+    ],
+    "saves": [
+      "int",
+      "cha"
+    ],
+    "skills": {
+      "number": 4,
+      "choices": [
+        "acr",
+        "ani",
+        "arc",
+        "ath",
+        "dec",
+        "his",
+        "ins",
+        "itm",
+        "inv",
+        "med",
+        "nat",
+        "prc",
+        "prf",
+        "per",
+        "rel",
+        "slt",
+        "ste",
+        "sur"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207420,
+    "modifiedTime": 1680913123408,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "AYVSHvYIYiKCU0Qw"
+}

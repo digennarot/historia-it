@@ -1,0 +1,141 @@
+{
+  "name": "Ascetic",
+  "type": "subclass",
+  "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Ascetics are followers of a particular philosophy within the sect called the Heresy of the Iron Hand. As sinister as it is extreme, its disciples condemn themselves to eternal torment by gradually covering themselves with plates of hooked metal riveted to their own flesh, starting from their hands. Frightening in the eyes of others and constantly in pain, the Ascetics reach the heights of mysticism possible for the flagellant.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 138",
+    "identifier": "ascetic",
+    "classIdentifier": "flagellant",
+    "advancement": [
+      {
+        "_id": "jes7eO5Ukk65mvgf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.H4IgwnjOyxKlHyAX"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "9HatEJr8iuABsQe8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.rf8TxC5EPukIHZZN"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "l4pPDlk63YhnELzB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.q77b5t2oVlLFpwU9"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "eoFzzHtZyCAcMDwp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.VP2I0FcA2lr0xtWF"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "dticGblaPeMj93pn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.FsMRG4aVC6fucQ6o"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.khjN6jkMpCR2LgsO"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670901663714,
+    "modifiedTime": 1673573969149,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "l4zAQb6FqXhNJM4H"
+}

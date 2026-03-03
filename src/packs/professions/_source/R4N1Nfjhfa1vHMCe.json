@@ -1,0 +1,215 @@
+{
+  "name": "Trapper",
+  "type": "subclass",
+  "img": "icons/environment/traps/trap-jaw-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Big centers can count on the city guard, the rural villages on their local militia, but sometimes there are adversaries that these organizations are not strong enough to face. For these situations there are Trappers, all-round hunters that you would not want to be found by and guarantors of public security, with an eye for unorthodox methods. They excel in this field thanks to their martial skills, survival, talent for investigation and readiness of spirits.</span></p><p><span class=\"fontstyle0\"><strong>THE HUNT IS ON</strong><br /></span><span class=\"fontstyle2\">When choosing this journey, you gain proficiency in medium armor and martial weapons. You also became proficient in Stealth or Investigation skill and in the disguise kits.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 184",
+    "identifier": "trapper",
+    "classIdentifier": "venturer",
+    "advancement": [
+      {
+        "_id": "x8059ctYsZ4Wa1QR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.lPeCtPEnKlFMUdxu",
+            "Compendium.world.profession-features.EeqiOqCOat1XQjGA",
+            "Compendium.world.profession-features.pvUjKQwwzcmCfbP1",
+            "Compendium.world.profession-features.VIjDxkdNmL85tbjA"
+          ],
+          "optional": true,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Choose a Fighting Style"
+      },
+      {
+        "_id": "iWMxzNNAVLslrItC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.CRPWrrwco2nOcJfX",
+            "Compendium.world.profession-features.9487XSu41nXSPMLG",
+            "Compendium.world.profession-features.ezveE9RFWAW8btbg"
+          ],
+          "optional": true,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Choose a Hunting Strategy"
+      },
+      {
+        "_id": "97D6w4QSldSuROTN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.vBHM3d2Wfr801Scp"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "aowKHshIuVgZ0WnY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.NVeTunQKcYGbNz6q"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "iCjbD92IpuxJR79N",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.JwZu0FErFR8H4LRj",
+            "Compendium.world.profession-features.osp2Ue5ACZlHXoLm",
+            "Compendium.world.profession-features.miQIlv8sYNsFaYRE"
+          ],
+          "optional": true,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Choose a Defensive Strategy"
+      },
+      {
+        "_id": "R2E5eCLxysQhOJcl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.eY2VHz91l5lOxqxW",
+            "Compendium.world.profession-features.zx5NIl0TUfP5oFYb",
+            "Compendium.world.profession-features.CTQcvrsqWRVsWVi8"
+          ],
+          "optional": true,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Choose a Big Time Strategy"
+      },
+      {
+        "_id": "AaE9cHnkM5kk9D0r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.cBn9NGY1itPIcZde"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ubA2ow0WCsTE3yxX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.OOMTY6g32KL9iEJs",
+            "Compendium.world.profession-features.KeugSNMzWvueiWK0",
+            "Compendium.world.profession-features.4NUfw0gXIFGOrpa8"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "title": "Choose a Higher Defensive Strategy"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.gu1PRVvqSCFoMdsc"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671317392817,
+    "modifiedTime": 1673573969095,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "R4N1Nfjhfa1vHMCe"
+}

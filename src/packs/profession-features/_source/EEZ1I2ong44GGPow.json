@@ -1,0 +1,243 @@
+{
+  "name": "Magic of Pain",
+  "type": "feat",
+  "img": "icons/magic/unholy/orb-droplet-pink.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30,
+      "templates": {
+        "tempType": "a1",
+        "tempAnim": "",
+        "tempColor": "",
+        "tempLoop": 1,
+        "customAnim": false,
+        "customPath": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.stGYxpB0GZi58d9n"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The innate abilities of a flagellant are hidden between the flow of blood and the acrid ferrous smell that ensues, giving them the ability to cast spells through their blood charges. Flagellant’s spell list includes Paladin and Warlock spell lists. The spell list may be modified with GMs and players in agreement.</span></p><p><strong>CANTRIPS</strong><br /><span class=\"fontstyle0\">At 2nd level you always know the </span><span class=\"fontstyle2\"><em>@Compendium[world.spells-historia.1ncqhmmA7Elc38Xj]{Martyr's Brilliant Blood}</em> </span><span class=\"fontstyle0\">cantrip plus two other cantrips. You can change a cantrip when you gain a new flagellant level. You know one more cantrip starting from the 5th level, and another cantrip from the 11th level.</span></p><p><strong>BLOOD SPELLS</strong><br /><span class=\"fontstyle0\">You use blood charges as a spell slot. The level of the spell slot is equal to half of your falgellant’s levels, up to 5th level. You know a number of spells equal to 1+ your flagellant’s levels up to a maximum of 12 spells. You can change a choice of spell after taking a long rest.</span></p><p><strong>SPELLCATING ABILITY</strong><br /><span class=\"fontstyle0\">Constitution is your Spellcasting Ability for your Flagellant Spells. The power of your Spells comes from your blood and your own lifeforce. You use your Constitution whenever a Flagellant spell refers to your Spellcasting Ability. In addition, you use your Constitution modifier when setting the saving throw DC for a Flagellant spell you cast and when Making an Attack roll with one.</span></p><p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>DC of the spell saving throw:</strong> </span><span class=\"fontstyle2\">8 + your proficiency bonus<br />+ your Constitution modifier</span></p><p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Spell Attack Modifier: </strong></span><span class=\"fontstyle2\">your proficiency bonus<br />+ your Constitution modifier</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></p><table style=\"width:394px;height:333px\"><tbody><tr style=\"height:16px\"><td style=\"width:10%;height:16px;background-color:#95a5a6;text-align:center\"><strong>Flagellant Level</strong></td><td style=\"width:10%;height:16px;background-color:#95a5a6;text-align:center\"><strong>Blood Charges</strong></td><td style=\"width:10%;height:16px;background-color:#95a5a6;text-align:center\"><strong>Cantrips</strong></td><td style=\"width:10%;height:16px;background-color:#95a5a6;text-align:center\"><strong>Known Spells</strong></td><td style=\"width:10%;height:16px;background-color:#95a5a6;text-align:center\"><strong>Spell Level</strong></td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">1</td><td style=\"width:72px;height:16px\">-</td><td style=\"width:71px;height:16px\">-</td><td style=\"width:67px;height:16px\">-</td><td style=\"width:88px;height:16px\">-</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">2</td><td style=\"width:72px;height:16px\">1</td><td style=\"width:71px;height:16px\">3</td><td style=\"width:67px;height:16px\">3</td><td style=\"width:88px;height:16px\">1</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">3</td><td style=\"width:72px;height:16px\">1</td><td style=\"width:71px;height:16px\">3</td><td style=\"width:67px;height:16px\">4</td><td style=\"width:88px;height:16px\">1</td></tr><tr style=\"height:13px\"><td style=\"width:88px;height:13px\">4</td><td style=\"width:72px;height:13px\">1</td><td style=\"width:71px;height:13px\">3</td><td style=\"width:67px;height:13px\">5</td><td style=\"width:88px;height:13px\">2</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">5</td><td style=\"width:72px;height:16px\">2</td><td style=\"width:71px;height:16px\">4</td><td style=\"width:67px;height:16px\">6</td><td style=\"width:88px;height:16px\">2</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">6</td><td style=\"width:72px;height:16px\">2</td><td style=\"width:71px;height:16px\">4</td><td style=\"width:67px;height:16px\">7</td><td style=\"width:88px;height:16px\">3</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">7</td><td style=\"width:72px;height:16px\">2</td><td style=\"width:71px;height:16px\">4</td><td style=\"width:67px;height:16px\">8</td><td style=\"width:88px;height:16px\">3</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">8</td><td style=\"width:72px;height:16px\">2</td><td style=\"width:71px;height:16px\">4</td><td style=\"width:67px;height:16px\">9</td><td style=\"width:88px;height:16px\">4</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">9</td><td style=\"width:72px;height:16px\">2</td><td style=\"width:71px;height:16px\">4</td><td style=\"width:67px;height:16px\">10</td><td style=\"width:88px;height:16px\">4</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">10</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">4</td><td style=\"width:67px;height:16px\">11</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">11</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">12</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">13</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">14</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">15</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">16</td><td style=\"width:72px;height:16px\">3</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">17</td><td style=\"width:72px;height:16px\">4</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">18</td><td style=\"width:72px;height:16px\">4</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">19</td><td style=\"width:72px;height:16px\">4</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr><tr style=\"height:16px\"><td style=\"width:88px;height:16px\">20</td><td style=\"width:72px;height:16px\">4</td><td style=\"width:71px;height:16px\">5</td><td style=\"width:67px;height:16px\">12</td><td style=\"width:88px;height:16px\">5</td></tr></tbody></table><p><strong>FLAGELLANT SPELL LIST</strong></p><p><strong>CANTRIPS (0 LEVEL)</strong><br />@UUID[Compendium.world.spells-historia.16Im3rB8ckLd8t0B]{Blade Ward}<br />@UUID[Compendium.world.spells-historia.2ocZpZwY4xvq0jK9]{Booming Blade}<br />@UUID[Compendium.dnd5e.spells.vrN18tbTw7io5MWd]{Chill Touch}<br />@Compendium[world.spells-historia.TFf6elZaJMafOklD]{Create Bonfire}<br />@Compendium[dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Eldritch Blast}<br />@Compendium[world.spells-historia.3jBmsCuboaBsRGwA]{Friends}<br />@Compendium[world.spells-historia.dBkEYQ5VEQ9MuUOT]{Frostbite}<br />@Compendium[world.spells-historia.HYGlqmVPqgRx4GI6]{Green-Flame Blade}<br />@Compendium[world.spells-historia.oE7Jm6NjbJtNUUzL]{Infestation}<br />@Compendium[world.spells-historia.7bfQhuiMvVcBH6Bj]{Lightning Lure}<br />@Compendium[dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{Mage Hand}<br />@Compendium[world.spells-historia.CwBTe0NXsV5VCVxW]{Magic Stone}<br />@Compendium[world.spells-historia.hpBtjVnF4T4iGVKP]{Mind Sliver}<br />@Compendium[dnd5e.spells.Item.oIzA2MEHwxhtQneU]{Minor Illusion}<br />@Compendium[dnd5e.spells.Item.g2u9PYfqWQAyg9OI]{Poison Spray}<br />@Compendium[dnd5e.spells.Item.udsLtG0BugXHR2JQ]{Prestidigitation}<br />@Compendium[world.spells-historia.N2jBySjY3Hr58BIW]{Sword Burst}<br />@Compendium[world.spells-historia.TEKUl6mz0f1PjSu4]{Thunderclap}<br />@Compendium[world.spells-historia.KV3K5DetB9XXa3gK]{Toll The Dead}<br />@Compendium[dnd5e.spells.Item.mGGlcLdggHwcL7MG]{True Strike}</p><p><strong>LEVEL 1</strong><br />@Compendium[world.spells-historia.pNqWsntCrO8JlCkR]{Armor of Sepctral Frost}<br />@Compendium[world.spells-historia.q3ByNVYPNP1dsTrS]{Arms of the Dark Hunger}<br />@Compendium[dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Bless}<br />@Compendium[world.spells-historia.fwN1VSFV9qzfwFkk]{Cause fear}<br />@Compendium[world.spells-historia.0ytpam5fRhXuvKBj]{Ceremony}<br />@Compendium[dnd5e.spells.Item.eS7XnnApoxRxYXPs]{Charm Person}<br />@Compendium[dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}<br />@Compendium[world.spells-historia.OdumFbym6pRXJvvc]{Compelled Duel}<br />@Compendium[dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k]{Comprehend Languages}<br />@Compendium[dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds}<br />@Compendium[dnd5e.spells.Item.Mzh95utKDPIrjiH8]{Detect Evil and Good}<br />@Compendium[dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic}<br />@Compendium[dnd5e.spells.Item.2skfDtglk1mGrb3l]{Detect Poison and Disease}<br />@Compendium[world.spells-historia.anipDMr2P8Y1bEWr]{Distort Value}<br />@Compendium[dnd5e.spells.Item.8MICCMeOXT3aJUy9]{Divine Favor}<br />@Compendium[dnd5e.spells.Item.zPGohqJRir6MyQ3U]{Expeditious Retreat}<br />@Compendium[dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Hellish Rebuke}<br />@Compendium[dnd5e.spells.Item.ge3Saet9zPTDyaoL]{Heroism}<br />@Compendium[world.spells-historia.gbJhqaxft4RGWt9p]{Hex}<br />@UUID[Compendium.world.spells-historia.otq7FSLgXH8YYCH2]{Id Insinuation}<br />@Compendium[dnd5e.spells.Item.82jM6qD9axLJsTrH]{Illusory Script}<br />@Compendium[dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protection from Evil and Good}<br />@UUID[Compendium.world.spells-historia.8PkGrInavb3GAMsb]{Puppet}<br />@Compendium[dnd5e.spells.Item.Kn7K5PtYUJAKZTTp]{Purify Food and Drink}<br />@Compendium[world.spells-historia.xg1fm7IP5STexRJd]{Searing Smite}<br />@UUID[Compendium.world.spells-historia.9GLAnOgvmR5JHxvD]{Sense Emotion}<br />@Compendium[dnd5e.spells.Item.jZ6JNykRtdQ90MOo]{Shield of Faith}<br />@Compendium[world.spells-historia.hEl2QUukGLIHTw4j]{Thunderous Smite}<br />@Compendium[dnd5e.spells.Item.WTbOQBsarsL1LuXJ]{Thunderwave}<br />@Compendium[dnd5e.spells.Item.ccduLIvutyNqvkgv]{Unseen Servant}<br />@UUID[Compendium.world.spells-historia.HY9csGO0VisavxjG]{Witch Bolt}<br />@Compendium[world.spells-historia.5sR3CHvp8SgqAm7A]{Wrathful Smite}</p><p><strong>LEVEL 2</strong><br />@Compendium[dnd5e.spells.Item.Opwh2PdX4runSBlm]{Aid}<br />@Compendium[dnd5e.spells.Item.7UwUjJ6owIQkEPrs]{Branding Smite}<br />@Compendium[world.spells-historia.oywdaHV7dwi0wJyr]{Cloud of Daggers}<br />@UUID[Compendium.world.spells-historia.aZ3s7CQGQU5s9PB7]{Crown of Madness}<br />@Compendium[dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness}<br />@Compendium[world.spells-historia.pAHnWXQFfnprw8vB]{Earthbind}<br />@Compendium[dnd5e.spells.Item.30ZgXtijJVCxQk5N]{Enthrall}<br />@Compendium[dnd5e.spells.Item.5eh2HFbS13078Y3H]{Find Steed}<br />@Compendium[world.spells-historia.17JdsP1MmMs4ghGb]{Flock of Familiars}<br />@Compendium[dnd5e.spells.Item.n4JDcFKe5ikzYmAc]{Gentle Repose}<br />@Compendium[dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{Hold Person}<br />@Compendium[dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Invisibility}<br />@Compendium[dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}<br />@Compendium[dnd5e.spells.Item.SleYkHovQ8NagmeV]{Locate Object}<br />@Compendium[dnd5e.spells.Item.Sgjrf8qqv97CCWM4]{Magic Weapon}<br />@Compendium[world.spells-historia.vJ9VF96h4FXB0cU5]{Mental Barrier}<br />@Compendium[world.spells-historia.WCPC7rNwQkUwHmwI]{Mind Spike}<br />@Compendium[world.spells-historia.HMTThoBHfEbN0kma]{Mind Thrust}<br />@Compendium[dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{Mirror Image}<br />@Compendium[dnd5e.spells.Item.wqfAVANuQonNBgnL]{Misty Step}<br />@Compendium[dnd5e.spells.Item.MOEmz9N0j0QPkKEE]{Prayer of Healing}<br />@Compendium[dnd5e.spells.Item.MAxM77CDUu8dgIRQ]{Protection from Poison}<br />@Compendium[dnd5e.spells.Item.ODhLKBxLnvvLOnw1]{Ray of Enfeeblement}<br />@Compendium[world.spells-historia.LC2h0nGPpY0uDYhH]{Shadow Blade}<br />@Compendium[dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{Shatter}<br />@Compendium[dnd5e.spells.Item.KJRVzeMQXPj8Gtyx]{Spider Climb}<br />@Compendium[world.spells-historia.Vo8lsQIDYYw9CqSs]{Spray of Cards}<br />@Compendium[dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion}<br />@Compendium[world.spells-historia.KRuVYHU4NIsoPiBt]{Thought Shield}<br />@Compendium[dnd5e.spells.Item.JVhKeanAXZH62DrF]{Warding Bond}<br />@Compendium[dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth}</p><p><strong>LEVEL 3</strong><br />@UUID[Compendium.world.spells-historia.MVQ3dqB0uhWHaBnW]{Antagonize}<br />@Compendium[world.spells-historia.0htaeXIaETnOxNFB]{Aura of Vitality}<br />@UUID[Compendium.world.spells-historia.XpnEg61NfAJ611vc]{Blinding Smite}<br />@Compendium[dnd5e.spells.Item.Ek45cBpVXvJdv1Qy]{Counterspell}<br />@Compendium[dnd5e.spells.Item.BV0mpbHh29IbbIj5]{Create Food and Water}<br />@UUID[Compendium.world.spells-historia.D9AdntJeGvFjaMXQ]{Crusader's Mantle}<br />@Compendium[dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Daylight}<br />@Compendium[dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dispel Magic}<br />@Compendium[world.spells-historia.Hk2WU1ft7YZtfES5]{Elemental Weapon}<br />@Compendium[world.spells-historia.BB3VUp5x8AdKU36U]{Enemies Abound}<br />@Compendium[dnd5e.spells.Item.XXUDGFELgoskdOD0]{Fear}<br />@Compendium[dnd5e.spells.Item.yfbK8gZqESlaoY5t]{Fly}<br />@Compendium[dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{Gaseous Form}<br />@UUID[Compendium.world.spells-historia.ELcvvkU90hL3VzMs]{Hunger Of the Dark}<br />@Compendium[dnd5e.spells.Item.6g3WLOZ2u0EbaLAd]{Hypnotic Pattern}<br />@Compendium[world.spells-historia.jaPnXIONKUOQxsYK]{Incite Greed}<br />@Compendium[world.spells-historia.HSbx76KqwM5rkKpr]{Intellect Fortress}<br />@Compendium[dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Magic Circle}<br />@Compendium[dnd5e.spells.Item.nslx2nT3p4lNkmdp]{Major Image}<br />@UUID[Compendium.world.spells-historia.sA5wXhlCTMphKsTx]{Psionic Blast}<br />@Compendium[dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Remove Curse}<br />@Compendium[dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify}<br />@Compendium[world.spells-historia.3mShQcB0A55zABEv]{Spirit Shroud}<br />@Compendium[world.spells-historia.3FcqlE0WgXj25fOG]{Summon Fey}<br />@Compendium[world.spells-historia.dLm1GEC3yzWNvXlu]{Summon Lesser Demons}<br />@Compendium[world.spells-historia.JPTaTD5dmarEi1eS]{Summon Shadowspawn}<br />@Compendium[world.spells-historia.GrcWRUiM8DkjofYt]{Summon Undead}<br />@UUID[Compendium.world.spells-historia.Uwdq6TIRiAkwTAM4]{Summon Warrior Spirit}<br />@Compendium[world.spells-historia.l8cG8DQ9XBmA79Ej]{Thunder Step}<br />@Compendium[dnd5e.spells.Item.gopnZvS0c2jD5FP8]{Tongues}<br />@Compendium[dnd5e.spells.Item.UfHQhA54M4323gVO]{Vampiric Touch}</p><p><strong>LEVEL 4</strong><br />@Compendium[world.spells-historia.NRb8OowPC5HEFtP1]{Aura of Life}<br />@Compendium[world.spells-historia.b1jssRyy0zlzS39L]{Aura of Purity}<br />@Compendium[dnd5e.spells.Item.pxpb2eOB6bv4phAf]{Banishment}<br />@Compendium[dnd5e.spells.Item.pybg5MNc3lkerH4Y]{Blight}<br />@UUID[Compendium.world.spells-historia.CmkgHu2GSXeI9pTa]{Charm Monster}<br />@Compendium[dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Death Ward}<br />@Compendium[dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{Dimension Door}<br />@UUID[Compendium.world.spells-historia.nQLKaWKwi6F5Aji2]{Ego Whip}<br />@Compendium[world.spells-historia.aXDWVSUi15b9tktb]{Elemental Bane}<br />@Compendium[world.spells-historia.lMyyQrS7BbFpd5NJ]{Find Greater Steed}<br />@Compendium[dnd5e.spells.Item.sTIkQK7KuQNOyY0C]{Hallucinatory Terrain}<br />@Compendium[dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{Locate Creature}<br />@UUID[Compendium.world.spells-historia.NFBKHEv7KoieJQuL]{Psychic Lance}<br />@Compendium[world.spells-historia.0U9kKsCE0sRvMQzo]{Shadow of Moil}<br />@Compendium[world.spells-historia.Vhynbp7yoiuiqIbC]{Sickening Radiance}<br />@Compendium[world.spells-historia.ZLkiPxzkwyXi7FTK]{Speedy Courier}<br />@UUID[Compendium.world.spells-historia.I6Ar3wAAr1dtYKhI]{Spirit of Death}<br />@Compendium[world.spells-historia.QFSQ8zQnxANG9xvb]{Staggering Smite}<br />@Compendium[world.spells-historia.ihwbEvUgttZ9VVGg]{Summon Aberration}<br />@Compendium[world.spells-historia.mFuT4rhKlx0CoHkv]{Summon Greater Demon}</p><p><strong>LEVEL 5</strong><br />@Compendium[world.spells-historia.N4a3BClgfZEt8sAy]{Banishing Smite}<br />@UUID[Compendium.world.spells-historia.lORQuW9hiAEdeGMN]{Circle of Power}<br />@Compendium[dnd5e.spells.Item.dSTu1MaPhBqPITwM]{Contact Other Plane}<br />@Compendium[world.spells-historia.1mp2XWXapZ9viQax]{Danse Macabre}<br />@Compendium[world.spells-historia.ABifTRHCZUxXvT8c]{Destructive Wave}<br />@Compendium[dnd5e.spells.Item.TkJ8Wtg1L7TZtspm]{Dispel Evil and Good}<br />@Compendium[dnd5e.spells.Item.kSPRpeIx3w3nihrF]{Dream}<br />@Compendium[world.spells-historia.mfnAd32agMyj7vnO]{Enervation}<br />@Compendium[world.spells-historia.yBvOEntSJPjk4NEW]{Far Step}<br />@Compendium[dnd5e.spells.Item.JQyigMNPiDnGI18b]{Geas}<br />@Compendium[dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{Hold Monster}<br />@Compendium[world.spells-historia.gGrGzBGmroq0iOeG]{Holy Weapon}<br />@Compendium[world.spells-historia.cIFQFay1cYE5kOfO]{Infernal Calling}<br />@Compendium[dnd5e.spells.Item.MBMaQLwoy05qzMJ3]{Mislead}<br />@Compendium[world.spells-historia.U1yyF4XCBIioenSp]{Negative Energy Flood}<br />@Compendium[dnd5e.spells.Item.42O2aNBW7vK90gTL]{Planar Binding}<br />@Compendium[dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Raise Dead}<br />@Compendium[dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying}<br />@Compendium[world.spells-historia.kEhtMPXp1eV63WHc]{Summon Celestial}<br />@Compendium[world.spells-historia.MIlCmoZxZHLKmLwM]{Synaptic Static}<br />@UUID[Compendium.dnd5e.spells.8aWtP5hcrmcEesBW]{Teleportation Circle}<br />@Compendium[world.spells-historia.vsfYJemjvpX7orXv]{Wall of Light}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 136",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Flagellant Level 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409207854,
+    "modifiedTime": 1673573971354,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "EEZ1I2ong44GGPow"
+}

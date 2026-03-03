@@ -1,0 +1,120 @@
+{
+  "name": "Tycoon",
+  "type": "subclass",
+  "img": "icons/commodities/metal/ingot-stack-steel-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">If the collector cares about rarities and the smuggler does not let the guards discover their secret warehouses, the tycoon only cares about what commerce has to offer: the generation of new wealth, the opening of new shops, the development of new contacts. Effectively, this type of merchant aims at growing their business in every direction. Tycoons desire success and are willing to take a lot of risk to achieve it; on the other hand, it is known that the most uncertain of investments are often the ones that yield the largest profits.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 157",
+    "identifier": "tycoon",
+    "classIdentifier": "merchant",
+    "advancement": [
+      {
+        "_id": "o3wqBVIma382TF7r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.K9GAkGenf0csGcp6"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "5c5zA4Bu2ajO6nUT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.AuDECTXxfdFPIKLv"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "18BIP5F29UCjx37H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.4bSpI85FAKckxWPE"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "LJQgy9yUvTKXt3UK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.HQijfHu7J3HTpAxp"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.D73voNzbH1mUmthM"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670991751914,
+    "modifiedTime": 1673573969065,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "9BsJz6WRHFAAqLXR"
+}

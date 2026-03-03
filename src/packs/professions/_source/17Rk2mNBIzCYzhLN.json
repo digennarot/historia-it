@@ -1,0 +1,99 @@
+{
+  "name": "Doctor",
+  "type": "subclass",
+  "img": "icons/magic/life/cross-embers-glow-yellow-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">While the inventor wants to explore the internal mechanisms of everything, the doctor is interested in the vital processes of each creature. Death is their greatest adversary; however, doctors do not have the metaphysical ambitions of certain Alchemists, and merely hinder it by administering decoctions, tinctures and wraps, splitting fractures and sewing wounds. Doctors are at the service of others, and from the humblest of patients to royalty, their priority remains the care of those who suffer, more in body than in spirit.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 174",
+    "identifier": "doctor",
+    "classIdentifier": "scholar",
+    "advancement": [
+      {
+        "_id": "X1PJ7NpyeSDb5k3o",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.dQJsuA4I47Wjvbvy"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "n3KNJQijwpO5WnrZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.6Hr2OPQIgVL2QnoU"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "du2RQS3GKvrPrkPs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.1W92TYGoTLhMs2MW"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.6oCPRRyf6TNbLoOw"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671102493305,
+    "modifiedTime": 1673573969051,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "17Rk2mNBIzCYzhLN"
+}

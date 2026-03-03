@@ -1,0 +1,36 @@
+{
+  "name": "Grappling Hook",
+  "type": "loot",
+  "img": "icons/tools/fishing/hook-multi-steel-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.tfDxZIKDpOkz6pbx"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A device with iron claws, can be used with rope for dragging or grasping.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210708,
+    "modifiedTime": 1673573973779,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "pb4xRZTkfVKtSpny"
+}

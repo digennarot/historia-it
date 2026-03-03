@@ -1,0 +1,36 @@
+{
+  "name": "Ladder (10-foot)",
+  "type": "loot",
+  "img": "icons/sundries/misc/ladder.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.eQTKbhnpkrtXUfwN"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A ladder 10-foot long, as sturdy or rickety as the hand that crafted or bodged it together.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 25,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210541,
+    "modifiedTime": 1673573973591,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "G7MR54ivWXopWXKC"
+}

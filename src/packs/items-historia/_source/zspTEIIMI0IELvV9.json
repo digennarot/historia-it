@@ -1,0 +1,36 @@
+{
+  "name": "Small Knife",
+  "type": "loot",
+  "img": "icons/weapons/daggers/knife-green.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.3nVvaHVfHsgwGlkL"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210768,
+    "modifiedTime": 1673573973843,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "zspTEIIMI0IELvV9"
+}

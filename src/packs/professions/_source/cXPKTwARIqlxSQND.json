@@ -1,0 +1,99 @@
+{
+  "name": "Inventor",
+  "type": "subclass",
+  "img": "icons/commodities/tech/levers-colored.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">From the hydraulic pump to the lock, from the movable type to the catapult, all devices now considered to be in common use in the life of Vestierians once were nothing but the embryo of an idea in the mind of an Inventor. Those belonging to this category love to wonder about the internal </span> <span class=\"fontstyle0\">functioning of everything, they are greedy for novelties and insatiably curious, proactive and full of practical sense. The love of knowledge is not for them an end in itself, but on the contrary they are deeply convinced that every innovation must be put at the service of the progress of civilization.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 174",
+    "identifier": "inventor",
+    "classIdentifier": "scholar",
+    "advancement": [
+      {
+        "_id": "qHLyRNN5D1QxUPKx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.bhiieMRoRRW6SQLh"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "n4w8CDyVXcA3k9ai",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.nArQvb8vGKLlsEQw"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "gU6CeQm5F6rdAfB7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.nBrOBHz5JJPlI3np"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.NH595Q1yDTi6E6CP"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671102641123,
+    "modifiedTime": 1673573969104,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "cXPKTwARIqlxSQND"
+}

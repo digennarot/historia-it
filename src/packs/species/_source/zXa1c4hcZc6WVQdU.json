@@ -1,0 +1,218 @@
+{
+  "name": "Sloths",
+  "type": "feat",
+  "img": "modules/historia/Species/Sloths.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Taking life slowly can be an attractive option for some and a silly waste of time for others. For the sloths, it is the only way. The members of this species are lovers of domesticity, creatures of habit, constant in their views and little attracted by innovation, towards which they tend to be rather stubborn. Getting a Sloth to change their mind is as difficult as anything one might consider trying, and is something that the Sloth would not appreciate . This predisposition makes sloths traditionalist, posed, punctilious and immovable. It is not uncommon for jobs in these Edenti Familia to be passed down from parent to child. If, on one hand, this practice allows them to reach remarkable peaks of excellence derived from the experience gained generation after generation, on the other, it risks nullifying any aspirations that the younger generation might have. The slowness that pervades the life of Sloths also extends to their metabolism, allowing them to resist privations for times impossible for other species. Not only that: the choice of a life taken calmly also limits </span>common habits, such as personal hygiene. This leads to an <span class=\"fontstyle0\">unusual natural defense, i.e. the growth of poisonous mold on their fur, harmless to the sloths themselves but toxic to anyone else.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Constitution score increases by 2 and your  <span class=\"fontstyle0\">Wisdom </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">An Edenti reaches maturity around the age of 14 and is immediately considered independent. They have an average life span of 50 years.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em></span>Your base walking speed is 20 feet and your <span class=\"fontstyle0\">swimming speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle0\">A Sloth can reach a height between 4 feet and 5 feet, </span><span class=\"fontstyle0\">and may weigh up to 155 lbs. Your size is Medium.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Careful.</strong></em> </span><span class=\"fontstyle0\">You have expertise in the Perception skill.</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.AbseAiubt8i5WKVi]{Poor Vision}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.iT4JOqV9XFo6k3qt]{Cautious}</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.xuOgH32dvzDkveEa]{Calm}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.3inQrQXB1xEgpwb1]{Slow}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.1vDFpG480QmOjYno]{Slow Metabolism}</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.z8WpLYbdqRY2XSca]{Poisonous Fur}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Confidence (prey): </span></strong></em><span class=\"fontstyle4\">“I always rely on my strengths”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Patient:</strong></em> </span><span class=\"fontstyle2\">“I believe that waiting is often<br />preferable to action\".</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 61",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Edenti Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205612,
+    "modifiedTime": 1680908072937,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "zXa1c4hcZc6WVQdU"
+}

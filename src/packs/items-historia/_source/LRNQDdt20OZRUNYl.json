@@ -1,0 +1,36 @@
+{
+  "name": "Perfume",
+  "type": "loot",
+  "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.uuh4UH3Jx5CsFjdA"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A vial of aromatic perfume.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210564,
+    "modifiedTime": 1673573973621,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "LRNQDdt20OZRUNYl"
+}

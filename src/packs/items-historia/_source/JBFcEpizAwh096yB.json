@@ -1,0 +1,36 @@
+{
+  "name": "Chalk",
+  "type": "loot",
+  "img": "icons/commodities/bones/bone-fragments-grey.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.5fJn3LQ2eQG7luEO"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>It is soft white porous sedimentary acarbonate rock, a form of limestone composed of the mineral calcite. Can be used to draw shapes. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 10,
+    "weight": 0,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210554,
+    "modifiedTime": 1673573973608,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "JBFcEpizAwh096yB"
+}

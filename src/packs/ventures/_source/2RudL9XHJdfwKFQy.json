@@ -1,0 +1,50 @@
+{
+  "name": "Venture: Art",
+  "type": "background",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong>Luscinia was a mercenary of the word, a bard. As an<br />honest and impartial Historian, I must admit that I<br />never had the opportunity to hear a more musical voice<br />than hers in singing. I am convinced that Luscinia,<br />given her fame, her ability to amuse those who listen<br />to her and her persuasive voice, could sing about the<br />truth, helping our thankless work.</strong></span></p><p><span class=\"fontstyle0\">An old Squirrel contemplates the precise and minute beauty of the vine branch that they have lovingly chiseled on a bracelet band. Smiling, they think of that day many years prior when they picked up the burin for the first time. A crane launches into dance on the evening of her debut, and the creaking of the stage becomes one with her and her music. A Marten snorts as she paints yet another boring portrait of a banker’s wife: one more, she thinks, only one more mediocre commission before I can dedicate myself to my masterpiece.</span></p><p><span class=\"fontstyle0\">Equipped with sensitivity, intuition and a spirit of observation, those who choose Art as their venture walk the tortuous path between beauty and technical ability, dedicating their lives to chasing the moment they will be able to create their definite work, be it a poem so exceptional as to be recited in all the courts of Vesteria or a crystal salt shaker that will never leave the workshop of the craftsman who created it.</span></p><p><span class=\"fontstyle0\">@Compendium[world.ventures.UMZTAINJmIzKErNv]{Prominence: Eye of the Watcher}</span></p><p><span class=\"fontstyle0\"><strong>ENDOWMENT</strong></span></p><ul><li><span class=\"fontstyle0\">Your first work, recovered after selling it, or an item that reminds you of it.</span></li><li><span class=\"fontstyle0\">Common clothes, pipe, herbs, musical instrument or artisan’s tool.</span></li></ul><p><span class=\"fontstyle0\"><strong>Proficiency: </strong></span><span class=\"fontstyle2\">chosen tool.<br /></span><span class=\"fontstyle0\"><strong>Coinage: </strong></span><span class=\"fontstyle2\">10</span> </p><p><span class=\"fontstyle0\"><strong>DESCRIPTORS</strong><br /></span><span class=\"fontstyle1\"><em><strong>Ideal</strong>.</em> </span><span class=\"fontstyle3\">What is the beauty you are looking for? What is the message you want to bring to the world?</span></p><p><span class=\"fontstyle1\"><em><strong>Bond</strong>.</em> </span><span class=\"fontstyle3\">Who introduced you to art? Who changed your style?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Flaw</strong>.</em> </span><span class=\"fontstyle3\">What is the horrible thing you want? What danger harbors in your soul?<br /></span></p><p><span class=\"fontstyle1\"><em><strong>Character trait.</strong></em> </span><span class=\"fontstyle3\">What will your last masterpiece look like?</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 191",
+    "advancement": [
+      {
+        "_id": "EJkakfOZ2gdrD8Qp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.ventures.UMZTAINJmIzKErNv"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "img": "icons/commodities/treasure/bust-carved-stone.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.z7EDdsqQ85a8OUNu"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673824919426,
+    "modifiedTime": 1673825051240,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "2RudL9XHJdfwKFQy"
+}

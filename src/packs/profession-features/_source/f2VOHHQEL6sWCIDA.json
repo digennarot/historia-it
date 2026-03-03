@@ -1,0 +1,64 @@
+{
+  "name": "AP: Calcinatio (Nigredo, 1 act)",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-worn-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Recipe",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {
+    "beavers-crafting": {
+      "recipe": {
+        "ingredients": {},
+        "results": {
+          "Compendium-world-profession-features-UwqXI31n3TfqcrAg": {
+            "id": "UwqXI31n3TfqcrAg",
+            "uuid": "Compendium.world.profession-features.UwqXI31n3TfqcrAg",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Calcinatio (Nigredo, 1 act)",
+            "img": "icons/consumables/potions/potion-bottle-corked-white.webp",
+            "quantity": 1
+          }
+        },
+        "attendants": {
+          "Actor-tsdbAt8U1QngL3kz-Item-QQHXvhQgkOqGPbHS": {
+            "id": "QQHXvhQgkOqGPbHS",
+            "uuid": "Actor.tsdbAt8U1QngL3kz.Item.QQHXvhQgkOqGPbHS",
+            "type": "Item",
+            "itemType": "class",
+            "name": "Alchemist",
+            "img": "Wynther%27s%20Files/Historia/Professions/alchemist.webp",
+            "quantity": 1
+          }
+        },
+        "macro": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.1WBiXQHtTcItBtov"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671894085195,
+    "modifiedTime": 1673804215697,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "f2VOHHQEL6sWCIDA"
+}

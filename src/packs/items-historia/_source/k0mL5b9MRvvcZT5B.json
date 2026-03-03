@@ -1,0 +1,36 @@
+{
+  "name": "Two-Person Tent",
+  "type": "loot",
+  "img": "icons/sundries/flags/banner-worn-blue.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.PanSr5EbqlfpSvwK"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A simple and portable canvas shelter, a tent sleeps two.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 153",
+    "quantity": 1,
+    "weight": 20,
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210683,
+    "modifiedTime": 1673573973754,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "k0mL5b9MRvvcZT5B"
+}

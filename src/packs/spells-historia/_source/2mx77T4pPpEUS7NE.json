@@ -1,0 +1,108 @@
+{
+  "name": "Vault of Amber",
+  "type": "spell",
+  "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You arrange 5 small amber gems in a loose circle around any non-living materials and trace Transmutative sigils above each of them. All materials within the circle are pulled into the largest of the gems and are stored there, in stasis. The contents do not age, weather, or rot. The gem can hold up to 500lbs of material.</p><p>The caster can use an Action to speak a single, chosen word and release the gem's contents onto the ground. Contents are also released if dispelled.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "CRT",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "spec"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "nec",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "5 small amber gems worth 200 gp",
+      "consumed": true,
+      "cost": null,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.S6GR99OLmlJdQiMC"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671398929930,
+    "modifiedTime": 1673573979558,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "2mx77T4pPpEUS7NE"
+}

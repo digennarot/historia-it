@@ -1,0 +1,36 @@
+{
+  "name": "Ink Pen",
+  "type": "loot",
+  "img": "icons/commodities/materials/feather-red-.webp",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.uVm7MiB71QblfnoY"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409210712,
+    "modifiedTime": 1673573973783,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "q6BEEvDMflV1AL7D"
+}

@@ -1,0 +1,218 @@
+{
+  "name": "Armadillos",
+  "type": "feat",
+  "img": "modules/historia/Species/Armadillo.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Individualism is certainly not an unusual trait in species that feel removed from the crowd, and the Armadillos are no exception. Proud of their peculiarities, Armadillos are always ready to solve problems in their own way, even when they face defeat. If on one hand they are extraordinarily confident in their own ability independent and proactive, on the other they also tend to be stubborn, deaf to criticism and largely unable to learn from their mistakes. This fortitude is also reflected in their physical appearance, characterized by the leathery plates that cover them, giving them unparalleled protection. Despite this natural armor, Armadillos are excellent swimmers and are comfortable in aquatic environments. Versatile and whimsical, members of this species do not actively seek risk but are not afraid to face the challenges posed by any situation, confident that they will somehow emerge victorious.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Constitution score increases by 2 and your  <span class=\"fontstyle0\">Dexterity </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">An Edenti reaches maturity around the age of 14 and is immediately considered independent. They have an average life span of 50 years.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em></span>Your base walking speed is 25 feet, your swimming <span class=\"fontstyle0\">speed is 30 feet, and your burrowing speed is 5 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle0\">An Armadillo can reach a height of 4 feet and weigh </span><span class=\"fontstyle0\">up to 130 lbs. Your size is Small.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Athletic.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Athletics skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency with the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><em><strong>Careful.</strong></em> </span><span class=\"fontstyle0\">You have expertise in the Perception skill.</span></span></span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.AbseAiubt8i5WKVi]{Poor Vision}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.M0VrAD7lTiaCZzpo]{Jump}</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.V4Y5bZH75xaGnH8u]{Excellent Swimmer}</span></span></p>\n<p>@Compendium[world.species-features.iT4JOqV9XFo6k3qt]{Cautious}</p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.aMBs0FrPVKG5AcRK]{Roll-up}</span></p>\n<p>@Compendium[world.species-features.2bobes0Ld6y0qVDa]{Armored}</p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Confidence (prey): </span></strong></em><span class=\"fontstyle4\">“I always rely on my strengths”.</span></p>\n<p><em><strong><span class=\"fontstyle0\">Instinct of Species, Fear: </span></strong></em><span class=\"fontstyle2\">“I look for situations with the least possible risk”.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 60",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Edenti Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205502,
+    "modifiedTime": 1680907422067,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "90ixvIhSYmtHxtMY"
+}

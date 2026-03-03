@@ -1,0 +1,74 @@
+{
+  "name": "AP: Putrefatio (Albedo, 2 acts)",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-worn-tan.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Recipe",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {
+    "beavers-crafting": {
+      "recipe": {
+        "ingredients": {
+          "Compendium-world-profession-features-G8K6bc72mYP5wjQq": {
+            "id": "G8K6bc72mYP5wjQq",
+            "uuid": "Compendium.world.profession-features.G8K6bc72mYP5wjQq",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Putrefatio (Nigredo, 1 act)",
+            "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+            "quantity": 2
+          }
+        },
+        "results": {
+          "Compendium-world-profession-features-BbrFqMGtDP07rzQL": {
+            "id": "BbrFqMGtDP07rzQL",
+            "uuid": "Compendium.world.profession-features.BbrFqMGtDP07rzQL",
+            "type": "Item",
+            "itemType": "consumable",
+            "name": "Putrefatio (Albedo, 2 acts)",
+            "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+            "quantity": 1
+          }
+        },
+        "attendants": {
+          "Actor-tsdbAt8U1QngL3kz-Item-QQHXvhQgkOqGPbHS": {
+            "id": "QQHXvhQgkOqGPbHS",
+            "uuid": "Actor.tsdbAt8U1QngL3kz.Item.QQHXvhQgkOqGPbHS",
+            "type": "Item",
+            "itemType": "class",
+            "name": "Alchemist",
+            "img": "Wynther%27s%20Files/Historia/Professions/alchemist.webp",
+            "quantity": 1
+          }
+        },
+        "macro": ""
+      }
+    },
+    "core": {
+      "sourceId": "Item.1WBiXQHtTcItBtov"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671894085195,
+    "modifiedTime": 1673804205076,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "J1YXU3pml4pIdVUb"
+}

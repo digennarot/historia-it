@@ -1,0 +1,142 @@
+{
+  "name": "Fanatic",
+  "type": "subclass",
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">All the flagellants draw power from their own blood, but Fanatics reach paroxysm when they suffer serious injuries, becoming a terrifying vision of blood and fury. The more they take damage the more they are able to fight back, animated by a blind thirst for violence. Even their own blood can become a weapon, burning opponents as a divine punishment. Fanatics are impossible to keep at bay when they are in this destructive trance state, and those who cross their path find only devastation.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 139",
+    "identifier": "fanatic",
+    "classIdentifier": "flagellant",
+    "advancement": [
+      {
+        "_id": "jrYRFoVLw1amYoN8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.phz39TAnkuEJTetT",
+            "Compendium.world.profession-features.LxolGFOUwyPfjbdJ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 2,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "TfMBTj6p2JFmvJ96",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.vBHM3d2Wfr801Scp"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "vtcFTy41eP883pri",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.fcj34v0OL0cYpMKJ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "PhzTdG5PGGgB1vu2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.uQUMzTCwXKuJaCKW"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "erIeouuENMM79Wpu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.lw4bGE1YLGmNEg6x"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.28aQ88t0C8th1xoG"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1670901822162,
+    "modifiedTime": 1673573969076,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "FTZe8kAWSVZcph9V"
+}

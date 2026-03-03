@@ -1,0 +1,120 @@
+{
+  "name": "Rifleman",
+  "type": "subclass",
+  "img": "icons/weapons/guns/gun-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">In the heat of confrontation, the Rifleman carries with them the firepower they control. The members of this special infantry division made muskets their favorite weapon, and their devastating efficacy soon became much feared on the battlefields of the continent, where for a long time the crossbow was the most feared range weapon. Although riflemen are perfectly capable of modifying, improving and innovating their weapons, the focal point of their training is knowing how to use them as effectively as possible in battle.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 168",
+    "identifier": "rifleman",
+    "classIdentifier": "sapper",
+    "advancement": [
+      {
+        "_id": "K0WPrGUVvrXpz6yC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.hCe2TKjiYs8MrDNU"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "vOZ54xKCsq9c4dP0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.40YDe7QCQRyWZrfw"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "CxgzZDm8CA6jYEmn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.rfgSH3HaF9nJLIC2"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "XNrQTNqOwn5ZjuAS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.hTXcWpv2KvFvsdWc"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.Tc0MG02IZk2ZVTeJ"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671073645573,
+    "modifiedTime": 1673573969108,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "eq7n9AOpBah3EPCN"
+}

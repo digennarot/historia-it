@@ -1,0 +1,218 @@
+{
+  "name": "Domesti",
+  "type": "feat",
+  "img": "modules/historia/Species/Domesti.webp",
+  "effects": [],
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": true
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true
+      },
+      "quickFooter": {
+        "value": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">The warmth of a fireplace, a well-kept house, careful and diligent servitude, good food and good entertainment: these are the wishes of most Domesti. The members of this species are lovers of the less adventurous pleasures of life, and yet they should not be underestimated for this. They are often individuals of great culture or shrewdness, who can easily become generous patrons or subtle manipulators. While many Domesti undeniably appear little inclined to physical efforts, it is wrong to define them lazy: their goal is comfort, and to achieve it they are willing to deploy significant resources, both material and intellectual. These Canids are perhaps the most social species of all. They hate solitude and excel in every context that leads them to leverage their personal charisma: those with a more benevolent soul will therefore be altruistic, empathetic, bright and affable; the most unscrupulous ones, on the other hand, will be shrewd and deceptive, true masters at manipulating others from behind the scenes.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Wisdom score increases by 2,</span></span> y<span class=\"fontstyle0\">our Charisma score increases by 1</span>,<span class=\"fontstyle0\"><span class=\"fontstyle2\"> and another ability score of your choice increases by 1.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">A Canid reaches maturity around the age of 16 and is immediately considered independent. They have an average life span of about 70 years.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span><span class=\"fontstyle2\">Your base walking speed is  <span class=\"fontstyle0\">25 </span>feet.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span></span>A Domesti can reach a maximum height of 4 feet <span class=\"fontstyle0\">and a weight of not more than 90 lbs. Your size is Small.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Trained nose.</strong></em> </span><span class=\"fontstyle2\">A Canid has proficiency in an ability of their choice between Investigate or Insight.</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><em><span class=\"fontstyle0\"><strong>Hobby.</strong> </span></em><span class=\"fontstyle2\">Thanks to your tendency to spend a lot of time in your home, you have proficiency in the History skill and in a craft tool of your choice.</span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Darkvision, minor </span></strong></em><span class=\"fontstyle2\">In dim light, you can see up to 30 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></span></span></p>\n<p>@Compendium[world.species-features.s3ECstHXdhQ8cnRi]{Keen Smell and Hearing}</p>\n<p>@Compendium[world.species-features.2p1RFCZR4uEWHqJm]{Tender Look}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.fWjnyGpnIsnivS8u]{Fast Learning}</span></span></span></p>\n<p>@Compendium[world.species-features.Fr8OczGC9Gwhg4wM]{Lucky}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Alfa (Predator):</strong></em> </span><span class=\"fontstyle4\">“They are the guard to<br />follow on every occasion”.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Sociality:</strong></em> </span><span class=\"fontstyle2\">“My place is among people,<br />far from loneliness”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 55",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Canidi Familia",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1673409205527,
+    "modifiedTime": 1680907625974,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "OzizXDeyszdmAr5L"
+}

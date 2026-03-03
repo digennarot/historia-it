@@ -1,0 +1,120 @@
+{
+  "name": "Grenadier",
+  "type": "subclass",
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">When an architect contemplates a beautiful building, especially one built with new techniques, they are already mentally analysing what it took to build it. When a grenadier scans a construction, they are wondering exactly how many barrels of powder are needed to burn it to the ground. These specialists of destruction have refined their knowledge of black powder in order to create explosive devices to open a road where there was a mountain, transform a siege into an assault and reduce the opposing war machines to smouldering embers.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 167",
+    "identifier": "grenadier",
+    "classIdentifier": "sapper",
+    "advancement": [
+      {
+        "_id": "OhkaHDvtsyx04ycz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.zXW9aeG1Ee9ZLb8q"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "EVU4iKfOQyICRQcK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.6EX2i5sYQq6DTxLa"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ypCLoP3p49UAGKoM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.4wkpXmgaOmyGXciS"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "ddD0CCcaxQOzrrZd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.yHpf17fi81sIQarW"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.YMUowJm0hJ988MQ0"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671073477381,
+    "modifiedTime": 1673573969158,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "vLZQKgrL13OIKEOF"
+}

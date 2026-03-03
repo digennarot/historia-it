@@ -1,0 +1,121 @@
+{
+  "name": "Technician",
+  "type": "subclass",
+  "img": "icons/commodities/tech/tube-chamber-lightning.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Technicians, although with a military background, does not only see the elementary function of the firearm in shooting a lead ball at the strongest enemy, but the possibility of innovating, of building something unexpected, of finding alternative or better ways, and even to create something beautiful. Refined and attentive more to the creative aspect than to the brutal effectiveness, Technicians are highly sought after for the creation of unconventional weapons.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HCB pg. 169",
+    "identifier": "technician",
+    "classIdentifier": "sapper",
+    "advancement": [
+      {
+        "_id": "P4TvYjinqlewHg8Y",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.QC9EfAGx6YnzweBc",
+            "Compendium.world.profession-features.QYjbZoHZlOXkYJr4"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "IL0e8aWRsXUn52Pv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.JLvQkQxQNbUu6DO1"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "3GlXNcDnu0UOdMXT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.25ZMhRd2lRg7W6LQ"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Grant Ability"
+      },
+      {
+        "_id": "AgIonxGX2Cbsiv9t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.world.profession-features.2qNmXy4cOllD2Urm"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Grant Ability"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.XCkiLU1thcp0ooyS"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1671073855463,
+    "modifiedTime": 1673573969068,
+    "lastModifiedBy": "wQoDSdpaeF9aGBWt"
+  },
+  "_id": "Aqn4wLMuROENvNTZ"
+}

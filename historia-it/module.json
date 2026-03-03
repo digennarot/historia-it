@@ -20,7 +20,7 @@
   "packs": [
     {
       "name": "factions-and-careers",
-      "label": "Factions and Careers (EN)",
+      "label": "Fazioni e Carriere (EN)",
       "path": "packs/factions-and-careers",
       "type": "Item",
       "system": "dnd5e",
@@ -35,8 +35,24 @@
       "folder": "Historia"
     },
     {
+      "name": "factions-it",
+      "label": "Fazioni (IT)",
+      "path": "packs/factions-it",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "folder": "Historia"
+    },
+    {
+      "name": "historia-factions",
+      "label": "Fazioni (Historia) (EN)",
+      "path": "packs/historia-factions",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "folder": "Historia"
+    },
+    {
       "name": "items-historia",
-      "label": "Items (Historia) (EN)",
+      "label": "Oggetti (Historia) (EN)",
       "path": "packs/items-historia",
       "type": "Item",
       "system": "dnd5e",
@@ -52,7 +68,7 @@
     },
     {
       "name": "profession-features",
-      "label": "Profession Features (EN)",
+      "label": "Privilegi di Professione (EN)",
       "path": "packs/profession-features",
       "type": "Item",
       "system": "dnd5e",
@@ -68,7 +84,7 @@
     },
     {
       "name": "professions",
-      "label": "Professions (EN)",
+      "label": "Professioni (EN)",
       "path": "packs/professions",
       "type": "Item",
       "system": "dnd5e",
@@ -83,8 +99,16 @@
       "folder": "Historia"
     },
     {
+      "name": "species",
+      "label": "Specie (EN)",
+      "path": "packs/species",
+      "type": "Item",
+      "system": "dnd5e",
+      "folder": "Historia"
+    },
+    {
       "name": "species-features",
-      "label": "Species Features (EN)",
+      "label": "Privilegi di Specie (EN)",
       "path": "packs/species-features",
       "type": "Item",
       "system": "dnd5e",
@@ -99,14 +123,6 @@
       "folder": "Historia"
     },
     {
-      "name": "species",
-      "label": "Species (EN)",
-      "path": "packs/species",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
       "name": "species-it",
       "label": "Specie (IT)",
       "path": "packs/species-it",
@@ -116,7 +132,7 @@
     },
     {
       "name": "spells-historia",
-      "label": "Spells (Historia) (EN)",
+      "label": "Incantesimi (Historia) (EN)",
       "path": "packs/spells-historia",
       "type": "Item",
       "system": "dnd5e",
@@ -132,7 +148,7 @@
     },
     {
       "name": "ventures",
-      "label": "Ventures (EN)",
+      "label": "Imprese (EN)",
       "path": "packs/ventures",
       "type": "Item",
       "system": "dnd5e",
@@ -143,22 +159,6 @@
       "label": "Imprese (IT)",
       "path": "packs/ventures-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "factions-it",
-      "label": "Fazioni (IT)",
-      "path": "packs/factions-it",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "historia-factions",
-      "label": "Historia Factions (EN)",
-      "path": "packs/historia-factions",
-      "type": "JournalEntry",
       "system": "dnd5e",
       "folder": "Historia"
     }
