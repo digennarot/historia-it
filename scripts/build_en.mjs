@@ -44,8 +44,8 @@ const COMPENDIUM_MAP = {
 
 async function main() {
     console.log("Starting English build process...");
-    // We use the same version as the Italian module for consistency or read from a base module if it existed
-    const rootManifest = JSON.parse(await fs.readFile("module.json", "utf-8"));
+    // Read from the English module base manifest
+    const rootManifest = JSON.parse(await fs.readFile("module-en.json", "utf-8"));
     const MODULE_VERSION = rootManifest.version;
     console.log(`Version: ${MODULE_VERSION}`);
 
@@ -267,35 +267,28 @@ async function main() {
                 label: pack_label,
                 path: `packs/${pack_name}`,
                 type: pack_type,
-                system: "dnd5e",
-                folder: "Historia"
+                system: "dnd5e"
             });
         }
     }
 
-    const module_json = {
-        id: MODULE_ID,
-        title: MODULE_TITLE,
-        version: MODULE_VERSION,
-        compatibility: {
-            minimum: 11,
-            verified: 13
-        },
-        authors: [{ name: "Tiziano Di Gennaro" }],
-        description: "English module for Historia.",
-        manifest: "https://raw.githubusercontent.com/digennarot/historia-en-dist/main/module.json",
-        download: `https://github.com/digennarot/historia-en-dist/releases/latest/download/historia-en.zip`,
-        esmodules: ["scripts/main.js"],
-        packs: packs,
-        folders: [
+    rootManifest.packs = packs;
+    const folderConfig = rootManifest.folders?.find(f => f.name === "Historia");
+    if (folderConfig) {
+        folderConfig.packs = packs.map(p => p.name);
+    } else {
+        rootManifest.folders = [
+            ...(rootManifest.folders || []),
             {
                 name: "Historia",
-                sorting: "a"
+                sorting: "a",
+                color: "#d4af37",
+                packs: packs.map(p => p.name)
             }
-        ]
-    };
+        ];
+    }
 
-    await fs.writeFile(`${buildDir}/module.json`, JSON.stringify(module_json, null, 2));
+    await fs.writeFile(`${buildDir}/module.json`, JSON.stringify(rootManifest, null, 2));
     console.log(`Generated ${buildDir}/module.json`);
 
     // Copy runtime scripts

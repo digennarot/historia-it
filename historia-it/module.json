@@ -17,84 +17,87 @@
   "esmodules": [
     "scripts/main.js"
   ],
+  "folders": [
+    {
+      "name": "Historia",
+      "sorting": "a",
+      "color": "#d4af37",
+      "packs": [
+        "factions-and-careers-it",
+        "factions-it",
+        "items-it",
+        "profession-features-it",
+        "professions-it",
+        "species-features-it",
+        "species-it",
+        "spells-it",
+        "ventures-it"
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "factions-and-careers-it",
       "label": "Fazioni e Carriere (IT)",
       "path": "packs/factions-and-careers-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "factions-it",
       "label": "Fazioni (IT)",
       "path": "packs/factions-it",
       "type": "JournalEntry",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "items-it",
       "label": "Oggetti (IT)",
       "path": "packs/items-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "profession-features-it",
       "label": "Privilegi di Professione (IT)",
       "path": "packs/profession-features-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "professions-it",
       "label": "Professioni (IT)",
       "path": "packs/professions-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "species-features-it",
       "label": "Privilegi di Specie (IT)",
       "path": "packs/species-features-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "species-it",
       "label": "Specie (IT)",
       "path": "packs/species-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "spells-it",
       "label": "Incantesimi (IT)",
       "path": "packs/spells-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
+      "system": "dnd5e"
     },
     {
       "name": "ventures-it",
       "label": "Imprese (IT)",
       "path": "packs/ventures-it",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    }
-  ],
-  "folders": [
-    {
-      "name": "Historia",
-      "sorting": "a"
+      "system": "dnd5e"
     }
   ]
 }

@@ -44,7 +44,7 @@ const COMPENDIUM_MAP = {
 
 async function main() {
     console.log("Starting build process...");
-    const rootManifest = JSON.parse(await fs.readFile("module.json", "utf-8"));
+    const rootManifest = JSON.parse(await fs.readFile("module-it.json", "utf-8"));
     const MODULE_VERSION = rootManifest.version;
     console.log(`Version: ${MODULE_VERSION}`);
 
@@ -264,35 +264,28 @@ async function main() {
                 label: pack_label,
                 path: `packs/${pack_name}`,
                 type: pack_type,
-                system: "dnd5e",
-                folder: "Historia"
+                system: "dnd5e"
             });
         }
     }
 
-    const module_json = {
-        id: MODULE_ID,
-        title: MODULE_TITLE,
-        version: MODULE_VERSION,
-        compatibility: {
-            minimum: 11,
-            verified: 13
-        },
-        authors: [{ name: "Tiziano Di Gennaro" }],
-        description: "Italian translation packs for Historia.",
-        manifest: "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
-        download: `https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip`,
-        esmodules: ["scripts/main.js"],
-        packs: packs,
-        folders: [
+    rootManifest.packs = packs;
+    const folderConfig = rootManifest.folders?.find(f => f.name === "Historia");
+    if (folderConfig) {
+        folderConfig.packs = packs.map(p => p.name);
+    } else {
+        rootManifest.folders = [
+            ...(rootManifest.folders || []),
             {
                 name: "Historia",
-                sorting: "a"
+                sorting: "a",
+                color: "#d4af37",
+                packs: packs.map(p => p.name)
             }
-        ]
-    };
+        ];
+    }
 
-    await fs.writeFile("historia-it/module.json", JSON.stringify(module_json, null, 2));
+    await fs.writeFile("historia-it/module.json", JSON.stringify(rootManifest, null, 2));
     console.log("Generated historia-it/module.json");
 
     // Copy runtime scripts
@@ -313,7 +306,7 @@ async function main() {
 
     for (const chunk of chunks) {
         await Promise.all(chunk.map(async ([srcPath, moduleRelPath]) => {
-            const destPath = path.join(moduleRelPath);
+            const destPath = path.join("historia-it", moduleRelPath);
             try {
                 await copyFileAndDirs(srcPath, destPath);
                 copiedCount++;

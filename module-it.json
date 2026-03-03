@@ -1,0 +1,27 @@
+{
+    "id": "historia-it",
+    "title": "Historia (Italiano)",
+    "version": "1.0.8",
+    "compatibility": {
+        "minimum": 11,
+        "verified": 13
+    },
+    "authors": [
+        {
+            "name": "Tiziano Di Gennaro"
+        }
+    ],
+    "description": "Italian translation packs for Historia.",
+    "manifest": "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
+    "download": "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "folders": [
+        {
+            "name": "Historia",
+            "sorting": "a",
+            "color": "#d4af37"
+        }
+    ]
+}
