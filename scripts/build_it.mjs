@@ -75,7 +75,7 @@ async function main() {
 
 
         for (const p of potentialMedia) {
-            const srcMediaPath = path.join("src/media", p);
+            const srcMediaPath = path.join("media", p);
             try {
                 const stats = await fs.stat(srcMediaPath);
                 if (stats.isFile()) {
