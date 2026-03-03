@@ -53,8 +53,8 @@ jobs:
       - name: Create ZIP archives
         run: |
           mkdir -p zip-output
-          zip -r zip-output/historia-it.zip historia-it/
-          zip -r zip-output/historia-en.zip historia-en/
+          cd historia-it && zip -r ../zip-output/historia-it.zip . && cd ..
+          cd historia-en && zip -r ../zip-output/historia-en.zip . && cd ..
 
       - name: Create Release
         uses: ncipollo/release-action@v1

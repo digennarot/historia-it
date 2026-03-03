@@ -280,8 +280,8 @@ async function main() {
         },
         authors: [{ name: "Tiziano Di Gennaro" }],
         description: "Italian translation packs for Historia.",
-        manifest: "https://raw.githubusercontent.com/digennarot/historia-it/main/module.json",
-        download: `https://github.com/digennarot/historia-it-dist/releases/download/v${MODULE_VERSION}/historia-it.zip`,
+        manifest: "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
+        download: `https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip`,
         esmodules: ["scripts/main.js"],
         packs: packs,
         folders: [
@@ -292,8 +292,8 @@ async function main() {
         ]
     };
 
-    await fs.writeFile("module.json", JSON.stringify(module_json, null, 2));
-    console.log("Generated module.json");
+    await fs.writeFile("historia-it/module.json", JSON.stringify(module_json, null, 2));
+    console.log("Generated historia-it/module.json");
 
     // Copy runtime scripts
     try {

@@ -283,6 +283,8 @@ async function main() {
         },
         authors: [{ name: "Tiziano Di Gennaro" }],
         description: "English module for Historia.",
+        manifest: "https://raw.githubusercontent.com/digennarot/historia-en-dist/main/module.json",
+        download: `https://github.com/digennarot/historia-en-dist/releases/latest/download/historia-en.zip`,
         esmodules: ["scripts/main.js"],
         packs: packs,
         folders: [

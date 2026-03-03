@@ -1,7 +1,7 @@
 {
   "id": "historia-it",
-  "title": "Historia",
-  "version": "1.0.4",
+  "title": "Historia (Italiano)",
+  "version": "1.0.7",
   "compatibility": {
     "minimum": 11,
     "verified": 13
@@ -11,21 +11,13 @@
       "name": "Tiziano Di Gennaro"
     }
   ],
-  "description": "English and Italian packs for Historia.",
+  "description": "Italian translation packs for Historia.",
   "manifest": "https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json",
-  "download": "https://github.com/digennarot/historia-it-dist/releases/download/v1.0.4/historia-it.zip",
+  "download": "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
   "esmodules": [
     "scripts/main.js"
   ],
   "packs": [
-    {
-      "name": "factions-and-careers",
-      "label": "Fazioni e Carriere (EN)",
-      "path": "packs/factions-and-careers",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
     {
       "name": "factions-and-careers-it",
       "label": "Fazioni e Carriere (IT)",
@@ -43,33 +35,9 @@
       "folder": "Historia"
     },
     {
-      "name": "historia-factions",
-      "label": "Fazioni (Historia) (EN)",
-      "path": "packs/historia-factions",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "items-historia",
-      "label": "Oggetti (Historia) (EN)",
-      "path": "packs/items-historia",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
       "name": "items-it",
       "label": "Oggetti (IT)",
       "path": "packs/items-it",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "profession-features",
-      "label": "Privilegi di Professione (EN)",
-      "path": "packs/profession-features",
       "type": "Item",
       "system": "dnd5e",
       "folder": "Historia"
@@ -83,33 +51,9 @@
       "folder": "Historia"
     },
     {
-      "name": "professions",
-      "label": "Professioni (EN)",
-      "path": "packs/professions",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
       "name": "professions-it",
       "label": "Professioni (IT)",
       "path": "packs/professions-it",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "species",
-      "label": "Specie (EN)",
-      "path": "packs/species",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "species-features",
-      "label": "Privilegi di Specie (EN)",
-      "path": "packs/species-features",
       "type": "Item",
       "system": "dnd5e",
       "folder": "Historia"
@@ -131,25 +75,9 @@
       "folder": "Historia"
     },
     {
-      "name": "spells-historia",
-      "label": "Incantesimi (Historia) (EN)",
-      "path": "packs/spells-historia",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
       "name": "spells-it",
       "label": "Incantesimi (IT)",
       "path": "packs/spells-it",
-      "type": "Item",
-      "system": "dnd5e",
-      "folder": "Historia"
-    },
-    {
-      "name": "ventures",
-      "label": "Imprese (EN)",
-      "path": "packs/ventures",
       "type": "Item",
       "system": "dnd5e",
       "folder": "Historia"
