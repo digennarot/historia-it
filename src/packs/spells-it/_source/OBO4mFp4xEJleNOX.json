@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si evoca un'onda d'acqua che si schianta su un'area all'interno della gamma. La zona può essere fino a 30 piedi di lunghezza, fino a 10 piedi di larghezza, e fino a 10 piedi di altezza. Ogni creatura in quella zona deve fare un tiro di salvataggio di Dexterity. Su un salvataggio fallito, una creatura prende [[/r 4d8]] offuscare danni ed è bussato @condizione[prone]. Su un salvataggio di successo, una creatura prende la metà di quanto danno e non è bussato @condizione[prone]. L'acqua poi si diffonde attraverso il terreno in tutte le direzioni, spegnendo le fiamme non protette nella sua zona e entro 30 piedi di esso, e poi scompare.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si evoca un'onda d'acqua che si schianta su un'area all'interno della gamma. La zona può essere fino a 30 piedi di lunghezza, fino a 10 piedi di larghezza, e fino a 10 piedi di altezza. Ogni creatura in quella zona deve effettuare un tiro salvezza di Dexterity. Su un tiro salvezza fallito, una creatura prende [[/r 4d8]] offuscare danni ed è bussato @condizione[prone]. Su un tiro salvezza superato, una creatura prende la metà di quanto danno e non è bussato @condizione[prone]. L'acqua poi si diffonde attraverso il terreno in tutte le direzioni, spegnendo le fiamme non protette nella sua zona e entro 30 piedi di esso, e poi scompare.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {

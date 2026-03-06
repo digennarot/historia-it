@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco di arma da mischia durante la durata di questo incantesimo, l'arma si infiamma di luce brillante, e l'attacco tratta un ulteriore [[/r 3d8]] danno luminoso al bersaglio. Inoltre, l'obiettivo deve avere successo su un Tiro Salvezza della Costituzione o essere @condizione[obbligato] fino alla fine dell'incantesimo.</p><div class=\"rd__spc-inline-post\"></div><p>Una creatura @condizione[citata] da questo incantesimo rende un altro passo di risparmio di Costituzione alla fine di ogni sua svolta. Su un risparmio di successo, non è più @condizione[obbligato].</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco di arma da mischia durante la durata di questo incantesimo, l'arma si infiamma di luce brillante, e l'attacco tratta un ulteriore [[/r 3d8]] danno luminoso al bersaglio. Inoltre, il bersaglio deve avere successo su un Tiro Salvezza su Costituzione o essere @condizione[obbligato] fino alla fine dell'incantesimo.</p><div class=\"rd__spc-inline-post\"></div><p>Una creatura @condizione[citata] da questo incantesimo rende un altro passo di risparmio di Costituzione alla fine di ogni sua svolta. Su un risparmio di successo, non è più @condizione[obbligato].</p></div>",
       "chat": ""
     },
     "source": {
