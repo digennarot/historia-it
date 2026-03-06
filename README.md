@@ -16,7 +16,7 @@ Puoi installare facilmente questo modulo direttamente da Foundry VTT:
 2. Clicca sul pulsante **Installa Modulo** in basso.
 3. Incolla il seguente link nel campo **URL Manifesto**:
    ```
-   https://raw.githubusercontent.com/digennarot/historia-it/main/module.json
+   https://raw.githubusercontent.com/digennarot/historia-it-dist/main/module.json
    ```
 4. Clicca su **Installa**.
 
@@ -39,7 +39,7 @@ You can install the English version using the following Manifest URL:
 2. Click the **Install Module** button at the bottom.
 3. Paste the following link into the **Manifest URL** field:
    ```
-   https://raw.githubusercontent.com/digennarot/historia-en/main/module.json
+   https://github.com/digennarot/historia-it/releases/latest/download/module-en.json
    ```
    *(Make sure the URL points to the correct repository for the English version)*
 

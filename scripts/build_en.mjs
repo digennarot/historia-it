@@ -267,25 +267,26 @@ async function main() {
                 label: pack_label,
                 path: `packs/${pack_name}`,
                 type: pack_type,
-                system: "dnd5e"
+                system: "dnd5e",
+                folder: "Historia"
             });
         }
     }
 
     rootManifest.packs = packs;
     const folderConfig = rootManifest.folders?.find(f => f.name === "Historia");
-    if (folderConfig) {
-        folderConfig.packs = packs.map(p => p.name);
-    } else {
+    if (!folderConfig) {
         rootManifest.folders = [
             ...(rootManifest.folders || []),
             {
                 name: "Historia",
                 sorting: "a",
                 color: "#d4af37",
-                packs: packs.map(p => p.name)
+                id: "Historia"
             }
         ];
+    } else {
+        folderConfig.id = "Historia";
     }
 
     await fs.writeFile(`${buildDir}/module.json`, JSON.stringify(rootManifest, null, 2));

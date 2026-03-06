@@ -55,11 +55,12 @@ jobs:
           mkdir -p zip-output
           cd historia-it && zip -r ../zip-output/historia-it.zip . && cd ..
           cd historia-en && zip -r ../zip-output/historia-en.zip . && cd ..
+          cp historia-en/module.json zip-output/module-en.json
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'zip-output/historia-it.zip,historia-it/module.json,zip-output/historia-en.zip,historia-en/module.json'
+          artifacts: 'zip-output/historia-it.zip,historia-it/module.json,zip-output/historia-en.zip,zip-output/module-en.json'
           token: ${{ secrets.GITHUB_TOKEN }}
           name: Release ${{ steps.extract_version.outputs.VERSION }}
           tag: v${{ steps.extract_version.outputs.VERSION }}
