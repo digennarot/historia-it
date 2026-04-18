@@ -1,9 +1,9 @@
-{
+﻿{
   "name": "Barriera mentale",
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Tu proteggi la tua mente con un muro di looping, pensiero ripetitivo. Fino all'inizio del vostro prossimo turno, avete vantaggio su Intelligenza, Saggezza e Charisma getti di risparmio, e avete resistenza ai danni psichici.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Tu proteggi la tua mente con un muro di looping, pensiero ripetitivo. Fino all'inizio del vostro prossimo turno, avete vantaggio su Intelligenza, Saggezza e Charisma tiri salvezza, e avete resistenza ai danni psichici.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {
@@ -13,7 +13,7 @@
     },
     "activation": {
       "type": "reaction",
-      "condition": "which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw",
+      "condition": "which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma Tiro Salvezza",
       "value": 1
     },
     "duration": {

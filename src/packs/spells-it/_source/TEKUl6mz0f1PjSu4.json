@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Thunderclap",
   "type": "spell",
   "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
@@ -42,7 +42,7 @@
   },
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una raffica di suono tuono che può essere sentito fino a 100 piedi di distanza. Ogni creatura all'interno della gamma, diverso da voi, deve fare un getto di risparmio della Costituzione o prendere [[/r 1d6]] danno del tuono.</p><div class=\"rd__spc-inline-post\"></div><p>Il danno dell'incantesimo aumenta di [[[/r 1d6]] quando si raggiunge il 5° livello ([[[/r 2d6]]), 11o livello ([[[/r 3d6]]), e 17o livello ([[[/r 4d6]]]).</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea una raffica di suono tuono che può essere sentito fino a 100 piedi di distanza. Ogni creatura all'interno della gamma, diverso da voi, deve fare un tiro salvezza della Costituzione o prendere [[/r 1d6]] danno del tuono.</p><div class=\"rd__spc-inline-post\"></div><p>Il danno dell'incantesimo aumenta di [[[/r 1d6]] quando si raggiunge il 5° livello ([[[/r 2d6]]), 11o livello ([[[/r 3d6]]), e 17o livello ([[[/r 4d6]]]).</p></div>",
       "chat": ""
     },
     "source": {

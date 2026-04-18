@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Mente Sliver",
   "type": "spell",
   "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
@@ -31,7 +31,7 @@
       "quickOther": {
         "value": true,
         "altValue": true,
-        "context": "saving throw reduction",
+        "context": "Tiro Salvezza reduction",
         "type": "Boolean"
       },
       "quickFlavor": {
