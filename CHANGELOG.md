@@ -5,6 +5,30 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.21] - 2026-04-24
+
+### Fixed
+- **Traduzioni italiane**: tradotti 41 nomi di incantesimi, talenti e
+  oggetti che contenevano ancora termini inglesi:
+  - `Tackle di pesca` → `Attrezzatura da Pesca`
+  - `Blade Ward` → `Protezione dalle Lame`
+  - `Booming Blade` → `Lama Tonante`
+  - `Thunder Step` → `Passo del Tuono`
+  - `Smite` varianti → `Castigo` varianti
+  - `Metamagic: *Spell` → `Metamagia: Incantesimo *`
+  - `Spellcasting` → `Incantare`
+  - `Cloud of Daggers` → `Nube di Pugnali`
+  - `Hail of Thorns` → `Grandine di Spine`
+  - `Ray of Sickness` → `Raggio di Malattia`
+  - `Toll The Dead` → `Rintocco della Morte`
+  - `Zephyr Strike` → `Colpo dello Zefiro`
+  - e altri.
+- Descrizioni: tradotti punteggi di caratteristica in inglese
+  (`Charisma`, `Dexterity`, `Intelligence`, ecc.) e termini tecnici
+  (`bludgeoning`, `piercing`, `slashing`) dove comparivano nel testo,
+  lasciando intatti gli enum tecnici del sistema D&D 5e (`"types":
+  ["piercing"]`).
+
 ## [1.0.20] - 2026-04-24
 
 ### Fixed
