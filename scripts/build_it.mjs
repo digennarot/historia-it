@@ -6,6 +6,13 @@ const MODULE_ID = "historia-it";
 const MODULE_TITLE = "Historia (Italiano)";
 const labelSuffix = " (IT)";
 
+// Read a JSON file tolerating a UTF-8 BOM, which JSON.parse rejects.
+async function readJson(filePath) {
+    let text = await fs.readFile(filePath, "utf-8");
+    if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+    return JSON.parse(text);
+}
+
 // Helper to copy a file and create directories as needed
 async function copyFileAndDirs(src, dest) {
     const rootDir = path.dirname(path.dirname(new URL(import.meta.url).pathname));
@@ -44,7 +51,7 @@ const COMPENDIUM_MAP = {
 
 async function main() {
     console.log("Starting build process...");
-    const rootManifest = JSON.parse(await fs.readFile("module-it.json", "utf-8"));
+    const rootManifest = await readJson("module-it.json");
     const MODULE_VERSION = rootManifest.version;
     console.log(`Version: ${MODULE_VERSION}`);
 
@@ -219,7 +226,7 @@ async function main() {
         if (entryFiles.length === 0) continue;
 
         // Peek at first file to determine type
-        const firstEntry = JSON.parse(await fs.readFile(path.join(sourceDir, entryFiles[0]), "utf-8"));
+        const firstEntry = await readJson(path.join(sourceDir, entryFiles[0]));
         const pack_type = firstEntry.pages ? "JournalEntry" : "Item"; // Simple detection based on content
         const collection = TYPE_TO_COLLECTION[pack_type] || "items";
 
@@ -232,7 +239,7 @@ async function main() {
 
         for (const file of entryFiles) {
             const filePath = path.join(sourceDir, file);
-            const entryData = JSON.parse(await fs.readFile(filePath, "utf-8"));
+            const entryData = await readJson(filePath);
 
             await processData(entryData);
 
