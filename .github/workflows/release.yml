@@ -46,6 +46,12 @@ jobs:
       - name: Build both versions
         run: npm run build:all
 
+      - name: Verify build output
+        run: |
+          test -f historia-it/scripts/main.js || { echo "ERROR: historia-it/scripts/main.js missing from build output"; exit 1; }
+          test -f historia-it/module.json || { echo "ERROR: historia-it/module.json missing from build output"; exit 1; }
+          echo "Build output verified."
+
       - name: Substitute version in module.json
         run: |
           sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.extract_version.outputs.VERSION }}\"/g" historia-it/module.json

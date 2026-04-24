@@ -290,12 +290,8 @@ async function main() {
     console.log("Generated historia-it/module.json");
 
     // Copy runtime scripts
-    try {
-        await copyFileAndDirs("src/scripts/main.js", "historia-it/scripts/main.js");
-        console.log("Copied runtime scripts.");
-    } catch (e) {
-        console.error("Failed to copy runtime scripts:", e);
-    }
+    await copyFileAndDirs("src/scripts/main.js", "historia-it/scripts/main.js");
+    console.log("Copied runtime scripts.");
 
     console.log(`Need to copy ${imagesToCopy.size} image files...`);
     let copiedCount = 0;
