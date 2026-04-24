@@ -5,6 +5,22 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.20] - 2026-04-24
+
+### Fixed
+- **Workflow di release corretto**: in v1.0.18 avevo referenziato versioni
+  inesistenti delle GitHub Actions (`actions/checkout@v4.2.0`,
+  `mozilla-sops-action@v1.8.0`). Il workflow falliva con
+  `Unable to resolve action ... unable to find version`. Aggiornate alle
+  versioni realmente disponibili:
+  - `actions/checkout@v5` (nativamente Node.js 24)
+  - `mdgreenwald/mozilla-sops-action@v1.6.0` (ultima disponibile)
+- Rimosso l'env var `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24` che non è più
+  necessario con `checkout@v5`.
+
+> Nota: la v1.0.19 è stata taggata ma il workflow è fallito prima di
+> pubblicare gli artefatti. Questa release re-include tutti i fix.
+
 ## [1.0.19] - 2026-04-24
 
 ### Fixed
