@@ -1,6 +1,6 @@
 # Historia - Modulo per Foundry VTT
 
-Questo repository contiene sia la versione Italiana che quella Inglese dei contenuti per l'ambientazione **Historia** (sistema D&D 5e). Include sia i testi che tutti i media necessari (immagini e icone) in formato standalone.
+Questo repository contiene sia la versione italiana che quella inglese dei contenuti per l'ambientazione **Historia** (sistema D&D 5e). Include i testi e tutti i media necessari (immagini e icone) in formato standalone.
 
 ---
 
@@ -20,7 +20,7 @@ Puoi installare facilmente questo modulo direttamente da Foundry VTT:
    ```
 4. Clicca su **Installa**.
 
-### Installazione Manuale
+### Installazione manuale
 
 1. Vai alla pagina dei [rilasci](https://github.com/digennarot/historia-it-dist/releases) e scarica il file `historia-it.zip` dell'ultima versione.
 2. Estrai il contenuto nella cartella `Data/modules/historia-it` all'interno del percorso dei dati utente di Foundry VTT.
@@ -50,19 +50,39 @@ You can install the English version using the following Manifest URL:
 
 ---
 
-## 🛠️ Build and Development
+## 🛠️ Build e sviluppo
 
-Se desideri compilare il modulo dai sorgenti, puoi usare i seguenti comandi dopo aver installato le dipendenze con `npm install`:
+Se desideri compilare il modulo dai sorgenti, installa prima le dipendenze con `npm install`, poi usa uno dei seguenti comandi:
 
-- Build versione Italiana: `npm run build:it`
-- Build versione Inglese: `npm run build:en`
-- Build entrambe: `npm run build:all`
+- Build della versione italiana: `npm run build:it`
+- Build della versione inglese: `npm run build:en`
+- Build di entrambe: `npm run build:all`
 
-## 🐛 Segnalazione Bug e Contatti
+Il build produce le directory `historia-it/` e `historia-en/` (entrambe ignorate da git) con i pack compilati, il manifesto `module.json` e gli asset necessari.
 
-Se trovi refusi, errori o problemi tecnici, apri una [Issue](https://github.com/digennarot/historia-it/issues) su questo repository. 
+## 🚀 Processo di release
 
-## ⚖️ Licenza e Riconoscimenti
+Le release sono gestite dal workflow GitHub Actions `.github/workflows/release.yml`, che si attiva automaticamente al push di un tag con prefisso `v*`.
+
+Per rilasciare una nuova versione:
+
+1. Aggiorna la versione in `module-it.json`, `module-en.json`, `historia-it/module.json` e `package.json`.
+2. Committa e apri una PR verso `main`; dopo il merge, crea e pusha il tag corrispondente:
+   ```bash
+   git tag v<versione>
+   git push origin v<versione>
+   ```
+3. Il workflow compila i pack, crea gli archivi ZIP, pubblica la release su GitHub e sincronizza il repository di distribuzione `historia-it-dist`.
+
+## 🐛 Segnalazione bug e contatti
+
+Se trovi refusi, errori o problemi tecnici, apri una [Issue](https://github.com/digennarot/historia-it/issues) su questo repository.
+
+## 📝 Changelog
+
+Le modifiche di ogni versione sono documentate in [CHANGELOG.md](CHANGELOG.md).
+
+## ⚖️ Licenza e riconoscimenti
 
 *   **Autore della conversione:** Tiziano Di Gennaro
 *   Compatibile con **Foundry VTT versione 11+** (verificato per **v13**).
