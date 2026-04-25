@@ -83,7 +83,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile utilizzare il veleno in questa fiala per ricoprire un'arma schiacciante o piercing o fino a tre pezzi di munizioni. Applicare il veleno fa un'azione. Una creatura colpita dall'arma avvelenata o dalle munizioni deve fare un tiro salvezza della Costituzione DC 10 o prendere 1d4 danni al veleno. Una volta applicato, il veleno mantiene la potenza per 1 minuto prima di asciugarsi.</p>",
+      "value": "<p>È possibile utilizzare il veleno in questa fiala per ricoprire un'arma schiacciante o perforanti o fino a tre pezzi di munizioni. Applicare il veleno fa un'azione. Una creatura colpita dall'arma avvelenata o dalle munizioni deve fare un tiro salvezza della Costituzione DC 10 o prendere 1d4 danni al veleno. Una volta applicato, il veleno mantiene la potenza per 1 minuto prima di asciugarsi.</p>",
       "chat": ""
     },
     "source": {
@@ -148,7 +148,7 @@
         "activation": {
           "type": "action",
           "value": 1,
-          "condition": "one slashing or piercing weapon, or up to three pieces of ammunition",
+          "condition": "one taglienti or perforanti weapon, or up to three pieces of ammunition",
           "override": false
         },
         "consumption": {
