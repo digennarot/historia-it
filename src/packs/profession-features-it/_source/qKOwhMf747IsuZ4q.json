@@ -183,7 +183,7 @@
       "rules": "2014"
     },
     "uses": {
-      "max": "@scale.armigero.action",
+      "max": "@scale.armiger.action",
       "recovery": [
         {
           "period": "sr",
@@ -274,7 +274,7 @@
           "recovery": []
         },
         "roll": {
-          "formula": "@scale.armigero.dice",
+          "formula": "@scale.armiger.dice",
           "name": "",
           "prompt": false,
           "visible": false
