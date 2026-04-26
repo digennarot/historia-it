@@ -5,6 +5,88 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.25] - 2026-04-26
+
+### Fixed
+- **Nomi di professione usati come sostantivi nel testo**: tradotti
+  ovunque appaiono nelle descrizioni come parole inglesi: `bard` →
+  `bardo`, `scoundrel` → `canaglia`, `magus` → `mago`, `vitalist`
+  → `vitalista`, `tycoon` → `magnate`, `storyteller` → `cantastorie`,
+  `healer` → `guaritore`, `rifleman` → `fuciliere`, `armiger` →
+  `armigero`, `paladin` → `paladino`, `explorer` → `esploratore`,
+  `trapper` → `trappolatore`, `grenadier` → `granatiere`,
+  `technician` → `tecnico`, `hitman` → `sicario`. Sostituite con
+  smart-replace che protegge `identifier`, `classIdentifier`,
+  `@Compendium[...]`, `@UUID[...]`, `@item[...]`, `@spell[...]`,
+  `@skill[...]`, `@condizione[...]`, `@creature[...]` e attributi
+  di sistema (img, baseItem, ecc.).
+- **classIdentifier**: ripristinati a inglese i valori che il sweep
+  precedente aveva tradotto in italiano (es. `canaglia` →
+  `scoundrel`, `armigero` → `armiger`) — questo campo dnd5e DEVE
+  combaciare con `identifier` della classe parent per far funzionare
+  i link sottoclasse → classe.
+- **Nomi delle abilità D&D 5e**: tradotti in tutto il pack:
+  Stealth → Furtività, Insight → Intuizione, Performance →
+  Esibizione, Acrobatics → Acrobazia, Perception → Percezione,
+  Survival → Sopravvivenza, Deception → Inganno, Investigation →
+  Indagare, Persuasion → Persuasione, Intimidation → Intimidire,
+  History → Storia, Nature → Natura, Arcana → Arcano, Medicine →
+  Medicina, Religion → Religione, Athletics → Atletica, Animal
+  Handling → Addestrare Animali, Sleight of Hand → Rapidità di Mano.
+  Costrutti come `controlli di Destrezza (Stealth)` →
+  `prove di Destrezza (Furtività)` ecc.
+- **Caratteristiche standard D&D 5e**:
+  - `Action Surge` → `Azione Impetuosa`
+  - `Sneak Attack` → `Attacco Furtivo` (e residuo `Attacco Sneak` →
+    `Attacco Furtivo`)
+  - `Extra Attack` → `Attacco Extra`
+  - `Action Dice` → `Dadi Azione`
+  - `Channel Divinity` → `Divinità del canale`
+  - `Master of Explosives` → `Maestro degli Esplosivi`
+  - `Weapon Improvement (The Artist's Touch)` →
+    `Miglioramento dell'Arma (Il Tocco dell'Artista)`
+  - `War Archetype Feature` → `Caratteristica Archetipo da Guerra`
+  - `MAGUS SPELL LIST` → `LISTA INCANTESIMI DEL MAGO`,
+    `TRUCCHETTI (0 LEVEL)` → `TRUCCHETTI (LIVELLO 0)`,
+    `Modificatore di attacco Spell` → `Modificatore di attacco
+    dell'incantesimo`.
+  - `+1 Damage Bonus` → `Bonus +1 ai Danni`; `Damage Bonus` →
+    `Bonus al Danno`; `Increase CA by +1` → `Aumenta CA di +1`;
+    `Damage aumenta` → `Il danno aumenta`; `NPC Ally` →
+    `Alleato PNG`; `Increase to Rank N of NPC Ally` → `Aumenta al
+    Grado N di Alleato PNG`.
+  - `Grant/Grand Ability` (e typo `Grant Abilty`) → `Concedere
+    Abilità`.
+- **Titoli di advancement del Mago**:
+  - `Major Arcana: Choose a/an Nth Level spell` → `Arcani Maggiori:
+    Scegli un incantesimo di N° livello`.
+  - `Spell: Nth Secret Mth Level Spells` → `Incantesimo: Incantesimi
+    di M° livello del N° Segreto` (tutte le combinazioni 1°-4°
+    Segreto, 1°-5° livello).
+  - `Spell: Nth Secret TRUCCHETTI` → `Incantesimo: Trucchetti del
+    N° Segreto`.
+  - `Spell: Take a Nth level Spell` (e typo `3th`) → `Incantesimo:
+    Scegli un incantesimo di N° livello`.
+- **Riferimenti `@action[...]` e azioni**:
+  - `@action[Dodge]` → `@action[Schivata]`.
+  - `to grapple creatura` → `a immobilizzare la creatura`;
+    `grapple/Grapple` → `immobilizzazione/Immobilizzazione`;
+    `grappling o grappled da voi` → `afferra o è afferrata da voi`.
+  - `un focus incantesimo` → `un focus per incantesimi`;
+    `Incantare Focus.` → `Focus per Incantare.`
+- **Mistraduzioni MT residue**:
+  - `ortografico/ortografica` (mistraduzione MT di "spell") →
+    `incantesimo/magico`; `ortografia arcana` → `magia arcana`;
+    `aiutare con l'ortografia` → `aiutare con la magia`.
+  - `controllare contro il` → `prova contro il` (in spell saves).
+  - `Increase Improvisation Pool by CHA bon.` → `Aumenta la
+    Riserva di Improvvisazione del bonus di Carisma`.
+  - `Saggezza (Insight o Medicina)` → `Saggezza (Intuizione o
+    Medicina)`; `controlli Stealth` → `prove di Furtività`;
+    `nell'abilità di X` (skill nomi) → `nell'abilità Y` italianizzata.
+  - `The gruppo` → `Il gruppo`.
+  - `un controllo di Saggezza` → `una prova di Saggezza`.
+
 ## [1.0.24] - 2026-04-26
 
 ### Fixed

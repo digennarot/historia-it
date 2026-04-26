@@ -1,5 +1,5 @@
 {
-  "name": "Attacco Sneak",
+  "name": "Attacco Furtivo",
   "type": "feat",
   "img": "icons/skills/melee/strike-dagger-arcane-pink.webp",
   "effects": [],
@@ -277,7 +277,7 @@
               "types": [],
               "custom": {
                 "enabled": true,
-                "formula": "(@scale.scoundrel.sneak)d6"
+                "formula": "(@scale.canaglia.sneak)d6"
               },
               "scaling": {
                 "mode": "whole",
