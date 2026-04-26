@@ -5,6 +5,70 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.23] - 2026-04-26
+
+### Fixed
+- **Nomi documento ancora in inglese tradotti** (25 elementi):
+  - Incantesimi: `Frostbite` → `Morso del Gelo`, `Summon Grande Demone`
+    → `Evocare Grande Demone`, `Summon Fey/Fiend/Celestial/Lesser Demos/
+    non morto/Spirito Draconico` → `Evocare Fatato/Immondo/Celestiale/
+    Demoni Minori/Non Morto/Spirito Draconico`, `Costruzioni di Summon`
+    → `Evocare Costrutti`, `Dust Devil` → `Diavolo di Polvere`.
+  - Oggetti: `Spyglass` → `Cannocchiale`, `Mess Kit` → `Kit da Mensa`,
+    `Kit Healer` → `Kit del Guaritore`, `Kit forgery` → `Kit da
+    Falsificazione`, `Plumesword` → `Spada di Piume`, `Plumeblade` →
+    `Lama di Piume`, `Parola di piume` → `Spada di Piume`.
+  - Profession-features: `Arch-Thief` → `Arciladro`, `Viaggio del
+    Venturer` → `Viaggio dell'Avventuriero`, `Aumento dei Punteggi di
+    Caratteristica (Merchant/Scholar/Armiger)` → `(Mercante/Erudito/
+    Armigero)`, `Attacco Extra (Armiger)` → `(Armigero)`,
+    `Divinità del canale: Foresight/Summon Mystical Energies` →
+    `Preveggenza/Evocare Energie Mistiche`, `Devil in/nei dettagli` →
+    `Diavolo nei dettagli`, `Mistero universale: Adamantine Soul` →
+    `Anima Adamantina`, `Strategia difensiva: Iron Will` →
+    `Volontà di Ferro`.
+- **Frasi mistraduzioni e grammatica**:
+  - `rotoli` (rolls/dadi) → `tiri` ovunque (`rotoli di danno` → `tiri
+    di danno`, `rotoli per colpire/iniziativa/danno incantesimo` →
+    `tiri per …`); `rullo` → `tiro` / `tiro del dado`.
+  - `assegni` (checks) → `prove` (`assegni di Stealth` → `prove di
+    Furtività`); `controlli di abilità` → `prove di abilità`.
+  - `Hindrance` → `Impedimento`; blocco "encumbers assegni su stealth
+    e acrobatici" → "impone svantaggio alle prove di Furtività e
+    Acrobazia"; `getti di salvataggio` → `tiri salvezza`.
+  - `modificatore di resistenza` → `modificatore di Costituzione` (4
+    file di species-features).
+  - `modifier <Caratteristica>` (es. `modifier Intelligenza`) →
+    `modificatore di <Caratteristica>`.
+  - `Gli avi` → `Gli Aviani`; `Avians` rimasto → `Aviani`/`Un Aviano`.
+  - `parola di piume` / `parola d'ordine` / `idraulica` (mistraduzioni
+    di plumesword/feathersword/plumeblade) → `spada/lama di piume`.
+  - `gauntlet[s] di artigli` → `guanti d'arme con artigli`; `spiedini`
+    → `artigli`; `ali e gambe libere` → `ali e zampe libere`.
+  - `Refining the Work` → `Rifinire l'Opera`; `del Magus`/`il Magus`/
+    `un Magus` (sostantivo) → `del Mago`/`il Mago`/`un Mago`.
+  - `ranged` → `a distanza`; `Barn Owl` → `Barbagianni`;
+    `un naturale 20` → `un 20 naturale`.
+  - `Pug Heresy` (rimasto in fazione) → `Eresia del Carlino`;
+    `Eretici Occiputsi` → `Eretici Occiputi`.
+  - `Selvaggio spirito` → `Spirito selvaggio`; `corna infliggere` →
+    `corna infliggono`; `DC ` → `CD ` (Classe Difficoltà).
+- **Effetti con nomi ancora in inglese**: `Bonus Intelligenza modifier
+  to Initiative` → `Bonus Intelligenza all'Iniziativa`,
+  `Curtain of the Flames` → `Cortina di Fiamme`,
+  `Network of Contacts` → `Rete di Contatti`,
+  `Refresh the Soul` → `Ristoro dell'Anima`,
+  `Focus the Pain` → `Concentrare il Dolore`,
+  `Add proficiency bonus to initiative` → `Aggiunge bonus di
+  competenza all'iniziativa`, `Bonus +4 CA against the same creature
+  attacking you` → `Bonus +4 CA contro la stessa creatura che ti
+  attacca`, e simili.
+- **Etichette dei link `@Compendium[...]`**: aggiornate per i 30
+  documenti rinominati così che le label visibili nei riferimenti
+  combacino col nuovo nome italiano.
+- **HTML img**: `larghezza/altezza` → `width/height` (attributi non
+  valevoli in italiano, browser li ignorava).
+
 ## [1.0.22] - 2026-04-26
 
 ### Fixed

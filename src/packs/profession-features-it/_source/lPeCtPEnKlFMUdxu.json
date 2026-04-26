@@ -1,7 +1,7 @@
 {
   "name": "Stile di combattimento: Obiettivo",
   "type": "feat",
-  "img": "icons/skills/ranged/arrow-flying-white-blue.webp",
+  "img": "icons/skills/a distanza/arrow-flying-white-blue.webp",
   "effects": [
     {
       "_id": "zZ9cKLaVdtB7BtUW",
@@ -33,8 +33,8 @@
         }
       },
       "tint": "#ffffff",
-      "name": "Bonus +2 to attack rolls with ranged weapon",
-      "img": "icons/skills/ranged/arrow-flying-white-blue.webp",
+      "name": "Bonus +2 ai tiri per colpire con armi a distanza",
+      "img": "icons/skills/a distanza/arrow-flying-white-blue.webp",
       "type": "base",
       "system": {},
       "description": "",
@@ -202,7 +202,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Si ottiene un +2 bonus per attaccare rotoli si fanno con armi ranged.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Si ottiene un +2 bonus per tiri per colpire si fanno con armi a distanza.</span> </p>",
       "chat": ""
     },
     "source": {

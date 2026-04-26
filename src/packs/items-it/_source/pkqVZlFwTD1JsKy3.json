@@ -1,7 +1,7 @@
 {
   "name": "Sling Bullet",
   "type": "consumable",
-  "img": "icons/skills/ranged/bullets-triple-ball-yellow.webp",
+  "img": "icons/skills/a distanza/bullets-triple-ball-yellow.webp",
   "effects": [],
   "flags": {
     "core": {},
@@ -282,7 +282,7 @@
           },
           "flat": false,
           "type": {
-            "value": "ranged",
+            "value": "a distanza",
             "classification": "weapon"
           }
         },
