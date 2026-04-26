@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si brandisce l'arma usata nel casting dell'incantesimo e si fa un attacco da mischia con esso contro una creatura dentro 5 piedi di voi. Su un colpo, il bersaglio subisce gli effetti normali dell'attacco dell'arma e poi diventa coperto di energia in boom fino all'inizio del tuo prossimo turno. Se il bersaglio si muove volentieri 5 piedi o più prima di allora, il bersaglio prende [[[/r 1d8]] danno del tuono, e l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>Questo incantesimo aumenta quando si raggiungono determinati livelli. Al 5° livello, l'attacco da mischia tratta un ulteriore [[[/r 1d8]] tuono danni al bersaglio su un colpo, e il danno che il bersaglio prende per spostare aumenta a [[/r 2d8]. Entrambi i tiri di danno aumentano di 1d8 a 11° livello ([[[/r 2d8]] e [[/r 3d8]]) e di nuovo a 17° livello ([[[/r 3d8]] e [[/r 4d8]]]).</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si brandisce l'arma usata nel lancio dell'incantesimo e si fa un attacco da mischia con esso contro una creatura dentro 5 piedi di voi. Su un colpo, il bersaglio subisce gli effetti normali dell'attacco dell'arma e poi diventa coperto di energia in boom fino all'inizio del tuo prossimo turno. Se il bersaglio si muove volentieri 5 piedi o più prima di allora, il bersaglio prende [[[/r 1d8]] danno del tuono, e l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>Questo incantesimo aumenta quando si raggiungono determinati livelli. Al 5° livello, l'attacco da mischia tratta un ulteriore [[[/r 1d8]] tuono danni al bersaglio su un colpo, e il danno che il bersaglio prende per spostare aumenta a [[/r 2d8]. Entrambi i tiri di danno aumentano di 1d8 a 11° livello ([[[/r 2d8]] e [[/r 3d8]]) e di nuovo a 17° livello ([[[/r 3d8]] e [[/r 4d8]]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -43,7 +43,7 @@
     "level": 0,
     "school": "evo",
     "materials": {
-      "value": "a da mischia weapon worth at least 1 sp",
+      "value": "un'arma da mischia del valore di almeno 1 ma",
       "consumed": false,
       "cost": 0,
       "supply": 0

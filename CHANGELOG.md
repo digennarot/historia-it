@@ -5,6 +5,78 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.24] - 2026-04-26
+
+### Fixed
+- **Componenti materiali degli incantesimi (`materials.value`)**: tradotti
+  101 spell components dalle versioni inglesi originali alle equivalenti
+  italiane (es. `a coin` → `una moneta`, `a vial of blood from a humanoid
+  killed within the past 24 hours` → `una fiala di sangue di un umanoide
+  ucciso nelle ultime 24 ore`, e così via per tutte le 68 stringhe uniche
+  trovate nel pack `spells-it`).
+- **Etichette di advancement (`title`)**: tradotti i testi inglesi dei
+  titoli degli avanzamenti di livello (visualizzati in level-up):
+  - `Hit Dice` → `Dadi Vita` (nelle descrizioni di ogni professione).
+  - `Channel Divinity` → `Divinità del canale`; `Subclass` →
+    `Sottoclasse`; `ASI or FEAT` → `ASI o Talento`; `Grant/Grand
+    Ability` → `Concedere Abilità`.
+  - `Choose/Pick X 1st-Level Flagellant Spell` → `Scegli X
+    incantesimi da Flagellante di 1° livello` (con varianti
+    1°/2°/3°/4°/5°).
+  - `Choose 2 Priest TRUCCHETTI` → `Scegli 2 trucchetti da Sacerdote`;
+    `Pick a new Priest Crucchetto` → `Scegli un nuovo trucchetto da
+    Sacerdote`; `Choose a new 1st-Level Priest Spell` → `Scegli un
+    nuovo incantesimo da Sacerdote di 1° livello`; `Option: Replace
+    with a new Spell of the same level.` → `Opzione: sostituisci con
+    un nuovo incantesimo dello stesso livello.`
+  - `Choose your First Secret`/`2nd Secret not opposite of previous
+    choice`/etc. → `Scegli il tuo Primo Segreto`/`Scegli il 2°
+    Segreto non opposto alla scelta precedente`.
+  - `Learn a Founding/Greater/Major/Universal Mystery from your
+    Secret(s).` → `Impara un Mistero Fondante/Maggiore/Universale dal
+    tuo Segreto/dai tuoi Segreti.`
+  - `Magus Incantare` → `Incantare del Mago`; `Enchantment Points` →
+    `Punti di Incanto`.
+- **Testo descrizione**:
+  - `casting` (sostantivo isolato come "tempo di casting") → `lancio`
+    nelle frasi `tempo di casting` → `tempo di lancio`, `Alla fine
+    del casting` → `Alla fine del lancio`, `nel casting/utilizzata
+    nel casting` → `nel lancio/utilizzata nel lancio`.
+  - `ortografico/ortografica` (errore MT per "spell") → `incantesimo`.
+  - `Cantirp/Crucchetto/Canticoltura` (errori ortografici) →
+    `Trucchetto`/`Trucchetti`.
+  - `Fellowship of the Compass` (residuo nel testo) → `Compagnia
+    della Bussola`; `Apopi of Whispers` → `Apopi dei Sussurri`; `The
+    Pug Heresy` → `L'Eresia del Carlino`; `Elisir of Eternal Life` →
+    `Elisir di Vita Eterna`.
+  - `Instinct of Species, Pack` → `Istinto di specie, Branco`;
+    `Sleight of hand skill` → `abilità Rapidità di mano`; `Sleight
+    of Hand` → `Rapidità di mano`; `un fast shuffle delle carte` →
+    `un rapido mescolamento delle carte`.
+  - `Spell Slots/SPELL SLOT` → `Slot Incantesimo`; `Spells conosciuti`
+    → `Incantesimi conosciuti`; `Levels Max Spell` → `Livello Max
+    Incantesimo`; `venturer` → `avventuriero`.
+  - `hard-to-penetrate` (residuo) → `difficile da penetrare`;
+    `ta rgeted` (typo) → `bersagliato`; `targeted solo una volta da
+    ogni casting` → `bersagliato una sola volta da ogni lancio`.
+  - `tabella Magus`/`Magus mostra quanti`/`del Magus stesso` (uso del
+    nome di classe come sostantivo nel corpo) → `tabella del Mago`/
+    `Mago mostra quanti`/`del Mago stesso`.
+  - `Learn a new Metamagia from your Secrets.` → `Impara una nuova
+    Metamagia dai tuoi Segreti.`; `Secret Crucchetto and 1 other
+    trucchetto` → `Trucchetto del Segreto e 1 altro trucchetto`;
+    `Option: Change a spell with another of the same level.` →
+    `Opzione: sostituisci un incantesimo con un altro dello stesso
+    livello.`
+  - `2/short`, `1/short`, `3/short` → `2/riposo breve` ecc.;
+    `both of which the spell consumes` → `entrambi consumati
+    dall'incantesimo`; `which the spell consumes` → `che
+    l'incantesimo consuma`.
+- **Riferimenti `@item[...]`**: tradotte le label inglesi nei link agli
+  item del Player's Handbook (es. `Oil (flask)` → `Olio (fiala)`,
+  `Ball Bearings (Bag of 1,000)` → `Cuscinetti a Sfera (Sacchetto da
+  1.000)`, `backpack|phb` → `zaino|phb`).
+
 ## [1.0.23] - 2026-04-26
 
 ### Fixed
