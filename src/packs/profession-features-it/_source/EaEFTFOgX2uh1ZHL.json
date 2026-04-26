@@ -1,7 +1,7 @@
 {
   "name": "Master Grenades",
   "type": "consumable",
-  "img": "icons/skills/ranged/bomb-grenade-thrown-yellow.webp",
+  "img": "icons/skills/a distanza/bomb-grenade-thrown-yellow.webp",
   "effects": [],
   "flags": {
     "betterRolls5e": {
@@ -286,7 +286,7 @@
           },
           "flat": false,
           "type": {
-            "value": "ranged",
+            "value": "a distanza",
             "classification": "weapon"
           }
         },

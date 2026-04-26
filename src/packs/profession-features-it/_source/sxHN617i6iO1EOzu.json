@@ -180,7 +180,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>@Compendium[historia-it.profession-features-it.UwqXI31n3TfqcrAg]{Calcinatio (Nigredo, 1 atto)} + @Compendium[historia-it.profession-features-it.G8K6bc72mYP5wjQq]{Putrefatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">I due atti non hanno effetto, ma l'arma mirata e le sue munizioni diventano più solide e inclini a distruggere l'avversario, acquisendo un +2 bonus su attacchi e rotoli di danni.</span></p>",
+      "value": "<p>@Compendium[historia-it.profession-features-it.UwqXI31n3TfqcrAg]{Calcinatio (Nigredo, 1 atto)} + @Compendium[historia-it.profession-features-it.G8K6bc72mYP5wjQq]{Putrefatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">I due atti non hanno effetto, ma l'arma mirata e le sue munizioni diventano più solide e inclini a distruggere l'avversario, acquisendo un +2 bonus su tiri per colpire e tiri di danno.</span></p>",
       "chat": ""
     },
     "source": {
@@ -299,7 +299,7 @@
           },
           "flat": false,
           "type": {
-            "value": "ranged",
+            "value": "a distanza",
             "classification": "weapon"
           }
         },
