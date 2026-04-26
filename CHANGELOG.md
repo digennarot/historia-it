@@ -5,6 +5,44 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.22] - 2026-04-26
+
+### Fixed
+- **Termini inglesi residui nelle traduzioni italiane**:
+  - Specie/Tratti: `Rapax Peck` → `Beccata Rapax`,
+    `Stealth innato` → `Furtività innata`, `Acute Hearing` → `Udito Acuto`,
+    `udito acuto` → `Udito Acuto`, `Avians` → `Aviani` nelle descrizioni
+    di Coyote, Galli, Allocchi.
+  - Oggetti aviani: `Peckax` → `Beccoscure`, `Pecker.` → `Becco`;
+    descrizioni ripulite (`Avians non può gestire` → `Gli Aviani non
+    possono maneggiare`).
+  - Tratto Beccata Rapax: `uno sciopero disarmato` → `un attacco
+    senza armi`, `Rinforzo modificatore` → `modificatore di Forza`,
+    `becco agganciato` → `becco uncinato`.
+  - Effetto Armatura: `CA is 17, unaffected by Dex bonus` →
+    `CA è 17, non influenzata dal bonus di Destrezza`.
+  - Professione Ladro: `glitters` → `luccica`, `treasuries` →
+    `tesorerie`, `tenuta di mano` → `destrezza di mano`.
+  - Professione Smuggler: nome e occorrenze tradotti in
+    `Contrabbandiere`/`Contrabbandieri`.
+  - Fazioni: `Grow Like Bones` → `Crescere come le Ossa`,
+    `duri quanto Bones` → `duri quanto le Ossa`,
+    `l'Eresia del Pug` → `l'Eresia del Carlino`.
+- **Riferimenti @Compendio rotti**: 8 occorrenze corrette in
+  `@Compendium[...]` (rendendo cliccabili i link interni del
+  compendio nelle pagine di specie e fazioni); etichetta link
+  `Pug Heresy` → `Eresia del Carlino`. Risolto anche un `}` di
+  chiusura mancante nel link "Pelle spessa" della specie Cinghiali.
+- **Requisiti professione (`requirements`)**: tradotti i nomi di
+  professione e i livelli per tutte le profession-features italiane
+  (es. `Alchemist Level 7, Vitalist` → `Alchimista Livello 7,
+  Vitalista`; `Magus Level 13, Secret of the Air` → `Mago Livello
+  13, Segreto dell'Aria`; `Tycoon` → `Magnate`; `Collector of
+  Rarities` → `Raccoglitore di Rarità`).
+- **Ricette alchemiche**: nei nomi dei risultati `(Nigredo, 1 act)`
+  → `(Nigredo, 1 atto)` e equivalenti per Albedo/Citrinitas/Rubedo;
+  attendant `Alchemist` → `Alchimista`.
+
 ## [1.0.21] - 2026-04-24
 
 ### Fixed
