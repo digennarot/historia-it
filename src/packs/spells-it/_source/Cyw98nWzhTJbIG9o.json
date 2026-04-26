@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Quando si lancia l'incantesimo, si getta la moneta che è il componente materiale dell'incantesimo a qualsiasi punto all'interno della gamma. La moneta si accende come se sotto l'effetto di un incantesimo @spell[light]. Ogni creatura di vostra scelta che potete vedere entro 30 piedi della moneta deve avere successo su un tiro salvezza della Saggezza o essere distratto per tutta la durata. Mentre è distratto, una creatura ha svantaggio sulla Saggezza (@skill[Perception]) controlli e tiri di iniziativa.</p><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Quando si lancia l'incantesimo, si getta la moneta che è il componente materiale dell'incantesimo a qualsiasi punto all'interno della gamma. La moneta si accende come se sotto l'effetto di un incantesimo @spell[luce]. Ogni creatura di vostra scelta che potete vedere entro 30 piedi della moneta deve avere successo su un tiro salvezza della Saggezza o essere distratto per tutta la durata. Mentre è distratto, una creatura ha svantaggio sulla Saggezza (@skill[Perception]) controlli e tiri di iniziativa.</p><div class=\"rd__spc-inline-post\"><p></p></div></div>",
       "chat": ""
     },
     "source": {
@@ -42,7 +42,7 @@
     "level": 2,
     "school": "enc",
     "materials": {
-      "value": "a coin",
+      "value": "una moneta",
       "consumed": false,
       "cost": 0,
       "supply": 0
