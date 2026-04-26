@@ -5,6 +5,89 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.26] - 2026-04-26
+
+### Fixed
+- **Refusi enricher `@UUUID` → `@UUID`** (18+ file in
+  `profession-features-it`/`spells-it`): il prefisso `@UUUID` è
+  invalido, i link non si risolvevano in Foundry. Bulk fix.
+- **Etichette in inglese nei link `@UUID/@Compendium`**: sostituite
+  con i nomi italiani delle professioni e degli incantesimi
+  (Thief→Ladro, Spy→Spia, Fanatic→Fanatico, Philosopher→Filosofo,
+  Gladiator→Gladiatore, Inventor→Inventore, Smuggler→Contrabbandiere,
+  Warlord→Condottiero, Ascetic→Mortificato, Holy Guide→Guida Sacra,
+  Doctor→Dottore, ecc.).
+- **14 nomi di incantesimo MT-corrotti** in `spells-it`:
+  `Witch Bolt`→`Dardo della Strega`,
+  `Crusader's Mantle`→`Manto del Crociato`,
+  `Fist of Iron`→`Pugno di Ferro`,
+  `Grasping Vine`→`Vite Afferrante`,
+  `Ensnaring Strike`→`Colpo Avvinghiante`,
+  `Blood Tide`→`Marea di Sangue`,
+  `Psychic Crush`→`Schiacciamento Psichico`,
+  `Sudden Awakening`→`Risveglio Improvviso`,
+  `Swift Quiver`→`Faretra Veloce`,
+  `Hand of Radiance`→`Mano Radiante`,
+  `Telekinetic trip`→`Viaggio Telecinetico`,
+  `Charm Monster`→`Ammalia Mostro`,
+  `Feign Death`→`Finzione di Morte`,
+  `Douse Light`→`Soffoca Luce`.
+- **Etichette nei link aggiornate** per riflettere i nuovi nomi
+  italiani in tutti i file profession-features che vi facevano
+  riferimento.
+- **Etichette mancanti aggiunte** ai link `@Compendium[...]`
+  orfani: `{Perché la paura}`, `{Santa arma}`, `{Inquisitore}`,
+  `{Profeta}`, `{Fiamma Sacra}`, `{Fondersi nella Pietra}`,
+  `{Ego Whip}`, `{Prigione mentale}`.
+- **Nomi MT-corrotti in `XMpClF8MhUMdZ4jN`** (Mago):
+  `Mente Sliver`→`Scheggia Mentale`,
+  `Mente Spike`→`Picco Mentale`,
+  `Mente Whip`→`Frusta Mentale`,
+  `Radianza di pollo`→`Radianza Nauseante`,
+  `Aberrazione di sumo`→`Evocare Aberrazione`,
+  `Elemento sumonale`→`Evocare Elementale`,
+  `Banale elementare`→`Maledizione Elementale`,
+  `Tempo Ravage`→`Devastazione del Tempo`,
+  `Mage Armatura`→`Armatura del Mago`,
+  `Condividi su Google`→`Evocare Spirito Ombroso`,
+  `Charm mostro`→`Ammalia Mostro`,
+  `Diavolo di Polvere`→`Diavolo della Polvere`,
+  `Strano`/`Ciclo: Strano`→`Visione Inquietante`/
+  `Ciclo: Visione Inquietante`.
+- **Testo italiano in `XMpClF8MhUMdZ4jN`**:
+  `di del Mago`→`del Mago`,
+  `POLITICA DI RICERCA (PE)`→`PUNTI INCANTESIMO`,
+  `SCIPLEMENTARI`→`INCANTESIMI SUPPLEMENTARI` (10 file),
+  `tuoi Mago Spells`→`tuoi incantesimi da Mago`,
+  `Aria condizionata`→`Aria` (9 occorrenze),
+  `Feeeblemind`→`Feeblemind`.
+- **Link strutturali**: aggiunto segmento `.Item.` mancante a
+  `Animal Messenger` e `Find Familiar`; rimosso link rotto a
+  `world.feats.xQKE6nD2IzSp6N35]{Telepathic}`; rimossi spazi
+  spuri prima/dentro `{...}` etichette (`Tower`→`Torre`,
+  `{ Lingue complete}`→`{Comprendere Lingue}`,
+  `{ Gravity inversa}`→`{Inversione di Gravità}`); rimosso
+  spazio spurio in `@UUID[Compendium.world.creatures. Oa5...]`.
+- **Grammatica italiana** (12 file): `sui prove`→`sulle prove` (9),
+  `dei prove`→`delle prove` (3); concordanza femminile plurale
+  per `prove` (sostantivo femminile).
+- **`bX6x2Un82XhGq7xh`**: `sui controlli di resistenza per
+  spostare o immobilizzazione creatura` →
+  `alle prove di Forza di resistenza per spostare o immobilizzare
+  una creatura` (verbo invece di sostantivo, articolo).
+- **Refuso `Persuasionee` → `Persuasione`** in 4 file
+  (`species-it` + `profession-features-it`).
+- **`ZLi1iMohq7hDP6mK`**: corpo testo `Sicario, Spy o Thief Tutti`
+  → `Sicario, Spia o Ladro. Tutti`.
+- **`KeYPiTNGYeoYv23c`** (Cantastorie): elenco competenze
+  `Performance` → `Esibizione`; aggiunto spazio dopo `Furtività,`
+  prima del tag `<span>Indagine`; titolo advancement
+  `P0A31ffxh4uGuXox`: `Improvisation Pool = prof + WIS bon/2 (min 1)`
+  → `Riserva Punti di Improvvisazione = competenza + bonus SAG/2
+  (min 1)`.
+- **`EEZ1I2ong44GGPow`**: heading `ELENCO DI SPELLAZIONE` →
+  `Elenco degli incantesimi`.
+
 ## [1.0.25] - 2026-04-26
 
 ### Fixed
