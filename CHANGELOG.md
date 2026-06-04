@@ -5,6 +5,15 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.27] - 2026-06-04
+
+### Changed
+- **Compatibilità Foundry VTT v14**: aggiornato
+  `compatibility.verified` a `14` in `module-it.json` e `module-en.json`,
+  e adeguato l'hook `renderCompendiumDirectory` alla firma
+  ApplicationV2 (HTMLElement nativo) introdotta in v13+, mantenendo
+  comunque la retrocompatibilità con jQuery per v11/v12.
+
 ## [1.0.26] - 2026-04-26
 
 ### Fixed
