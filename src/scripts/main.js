@@ -56,14 +56,17 @@ Hooks.once("ready", () => {
     }
 });
 
-Hooks.on("renderCompendiumDirectory", (app, html, data) => {
+function applyCompendiumVisibility(html) {
     const preference = game.settings.get(MODULE_ID, "languagePreference");
 
-    // Select all pack items in the sidebar
-    const packs = html.find(".directory-item.pack");
+    // v13+ ApplicationV2 passes a native HTMLElement; older versions pass jQuery.
+    const root = html instanceof HTMLElement ? html : html?.[0];
+    if (!root) return;
 
-    packs.each((index, element) => {
-        const packId = element.dataset.pack;
+    const packs = root.querySelectorAll(".directory-item.pack, .directory-item.compendium");
+
+    packs.forEach((element) => {
+        const packId = element.dataset.pack ?? element.dataset.entryId;
         if (!packId || !packId.startsWith(MODULE_ID)) return;
 
         const isItPack = packId.endsWith("-it") || packId.includes(".factions-it");
@@ -72,6 +75,10 @@ Hooks.on("renderCompendiumDirectory", (app, html, data) => {
             element.style.display = "none";
         } else if (preference === "en" && isItPack) {
             element.style.display = "none";
+        } else {
+            element.style.display = "";
         }
     });
-});
+}
+
+Hooks.on("renderCompendiumDirectory", (app, html) => applyCompendiumVisibility(html));
