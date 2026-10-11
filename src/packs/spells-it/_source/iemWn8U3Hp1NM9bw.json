@@ -1,9 +1,9 @@
 {
-  "name": "Scream psichico",
+  "name": "Urlo Psichico",
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scatenate il potere della vostra mente per far saltare l'intelletto di fino a dieci creature di vostra scelta che potete vedere all'interno della gamma. Le creature che hanno un punteggio di intelligenza di 2 o inferiore non sono influenzate.</p><div class=\"rd__spc-inline-post\"></div><p>Ogni bersaglio deve fare un tiro salvezza di intelligenza. Su un tiro salvezza fallito, un bersaglio prende [[/r 14d6]] danni psichici ed è &Reference[stunned]{stordito}. Su un tiro salvezza superato, un bersaglio prende la metà di quanto danno e non è &Reference[stunned]{stordito}. Se un bersaglio viene ucciso da questo danno, la sua testa esplode, supponendo che ne abbia uno.</p><p>un bersaglio &Reference[stunned]{stordito} può fare un tiro salvezza di intelligenza alla fine di ciascuno dei suoi giri. Su un risparmio di successo, l'effetto mozzafiato termina.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Liberi la potenza della tua mente per scagliare un colpo contro l'intelletto di fino a dieci creature a tua scelta che puoi vedere entro gittata. Le creature con punteggio di Intelligenza pari o inferiore a 2 non sono influenzate.</p><p>Ogni bersaglio deve effettuare un tiro salvezza di Intelligenza. Se fallisce, il bersaglio subisce [[/r 14d6]] danni psichici ed è &Reference[stunned]{stordito}. Se lo supera, il bersaglio subisce metà dei danni e non è &Reference[stunned]{stordito}. Se un bersaglio viene ucciso da questi danni, la sua testa esplode, sempre che ne abbia una.</p><p>Un bersaglio &Reference[stunned]{stordito} può effettuare un tiro salvezza di Intelligenza alla fine di ciascuno dei suoi turni. Se lo supera, l'effetto di stordimento termina.</p></div>",
       "chat": ""
     },
     "source": {

@@ -1,9 +1,9 @@
 {
-  "name": "Gravità Fissaggio",
+  "name": "Fenditura Gravitazionale",
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si manifesta un burrone di energia gravitazionale in una linea proveniente da voi che è lunga 100 piedi e larga 5 piedi. Ogni creatura in quella linea deve fare un tiro salvezza di Costituzione, prendendo [[/r 8d8]] danni di forza su un tiro salvezza fallito, o la metà quanto danni su uno di successo.</p><div class=\"rd__spc-inline-post\"></div><p>Ogni creatura entro 10 piedi della linea ma non in esso deve avere successo su un tiro salvezza di Costituzione o prendere [[/r 8d8] danno forza e essere tirato verso la linea fino a quando la creatura è nella sua zona.</p></div><div class=\"rd__b rd__b--3\"><div class=\"rd__b rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"7\"> <span class=\"entry-title-inner\">Ai livelli superiori.</span></span> <p>Quando si digita questo incantesimo utilizzando una scanalatura di 7° livello o superiore, il danno aumenta di [[/r 1d8] per ogni livello di slot superiore al 6°.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Manifesti un burrone di energia gravitazionale in una linea che parte da te, lunga 100 piedi e larga 5 piedi. Ogni creatura in quella linea deve effettuare un tiro salvezza di Costituzione, subendo [[/r 8d8]] danni da forza se fallisce, o metà di tali danni se lo supera.</p><p>Ogni creatura entro 10 piedi dalla linea ma non al suo interno deve superare un tiro salvezza di Costituzione o subire [[/r 8d8]] danni da forza ed essere attirata verso la linea, fino a trovarsi nella sua area.</p><p><strong><em>Ai livelli superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 7° livello o superiore, i danni aumentano di [[/r 1d8]] per ogni livello dello slot superiore al 6°.</p></div>",
       "chat": ""
     },
     "source": {

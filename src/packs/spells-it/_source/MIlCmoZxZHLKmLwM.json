@@ -1,5 +1,5 @@
 {
-  "name": "Sinottica statica",
+  "name": "Interferenza Sinaptica",
   "type": "spell",
   "img": "media/Profession Features/light-sensititivty.webp",
   "effects": [],
@@ -181,7 +181,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Scegli un punto all'interno della gamma e fai esplodere l'energia psichica. Ogni creatura in una sfera di radi di 20 piedi incentrata su quel punto deve fare un tiro salvezza di intelligenza. Una creatura con un punteggio di intelligenza di 2 o inferiore non può essere influenzata da questo incantesimo. un bersaglio subisce 8d6 danni psichici su un tiro salvezza fallito, o metà quanto danni su uno di successo.</p>\n<p>Dopo un tiro salvezza fallito, un bersaglio ha ingoiato pensieri per 1 minuto. Durante quel periodo, tira un d6 e sottrae il numero rotolato da tutti i suoi tiri per colpire e prove di abilità, così come il suo risparmio di Costituzione getta per mantenere la concentrazione. Il bersaglio può fare un tiro salvezza di intelligenza alla fine di ogni sua svolta, terminando l'effetto su se stesso su un successo.</p>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un punto entro gittata e fai esplodere lì un'energia psichica. Ogni creatura in una sfera di raggio 20 piedi centrata su quel punto deve effettuare un tiro salvezza di Intelligenza. Una creatura con punteggio di Intelligenza pari o inferiore a 2 non può essere influenzata da questo incantesimo. Un bersaglio subisce 8d6 danni psichici se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p>Dopo un tiro salvezza fallito, un bersaglio ha i pensieri confusi per 1 minuto. Durante questo tempo, tira un d6 e sottrae il risultato da tutti i suoi tiri per colpire e prove di caratteristica, nonché dai suoi tiri salvezza di Costituzione per mantenere la concentrazione. Il bersaglio può effettuare un tiro salvezza di Intelligenza alla fine di ciascuno dei suoi turni, ponendo fine all'effetto su di sé in caso di successo.</p></div>",
       "chat": ""
     },
     "source": {

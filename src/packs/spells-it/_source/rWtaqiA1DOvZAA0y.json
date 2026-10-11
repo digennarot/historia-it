@@ -1,9 +1,9 @@
 {
-  "name": "Parete di sabbia",
+  "name": "Parete di Sabbia",
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea un muro di sabbia strisciante a terra ad un punto si può vedere all'interno della gamma. Si può fare la parete fino a 30 piedi di lunghezza, 10 piedi di altezza, e 10 piedi di spessore, e scompare quando l'incantesimo termina. Blocca la linea di vista ma non movimento. Una creatura è &Reference[blinded]{accecata} mentre nello spazio del muro e deve spendere 3 piedi di movimento per ogni 1 piede si muove lì.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una parete di sabbia turbinante sul terreno, in un punto che puoi vedere entro gittata. Puoi creare la parete lunga fino a 30 piedi, alta 10 piedi e spessa 10 piedi, e svanisce quando l'incantesimo termina. Blocca la linea di vista ma non il movimento. Una creatura è &Reference[blinded]{accecata} mentre si trova nello spazio della parete e deve spendere 3 piedi di movimento per ogni piede percorso al suo interno.</p></div>",
       "chat": ""
     },
     "source": {
