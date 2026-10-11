@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Ogni creatura addormentata che scegli all'interno della gamma si risveglia, e poi ogni creatura @condizione[prone] all'interno della gamma può alzarsi senza espellere alcun movimento.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Ogni creatura addormentata che scegli all'interno della gamma si risveglia, e poi ogni creatura &Reference[prone]{prona} all'interno della gamma può alzarsi senza espellere alcun movimento.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {

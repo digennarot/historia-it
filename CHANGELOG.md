@@ -5,6 +5,102 @@ Tutte le modifiche significative a questo modulo sono documentate in questo file
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+- **117 nomi ancora in inglese, misti o mal tradotti corretti** nei pack italiani,
+  seguendo la nomenclatura del D&D 5e italiano dove esiste:
+  - Oggetti: `Crowbar`→`Piede di porco`, `Halberd`→`Alabarda`,
+    `Bullseye Lantern`→`Lanterna a lente sporgente`, `Dulcimer`→`Salterio`,
+    `Shawm`→`Ciaramella`, `Pole`→`Pertica`, `Ranseur`→`Corsesca`,
+    `Set di giochi di dadi`→`Set di dadi`,
+    `Custodia per bullone a balestra`→`Custodia per quadrelli`, ecc.
+  - Incantesimi: `Hex`→`Maleficio`, `Thunderclap`→`Rombo di Tuono`,
+    `Psionic Blast`→`Esplosione Psionica`, `Gust`→`Folata`, ecc.
+  - Privilegi: `Grenade`→`Granata`, `Butler`→`Maggiordomo`,
+    `Chemistry Essay (…)`→`Saggio di Chimica (…)`,
+    `Trattasi su Geometria`→`Trattato di Geometria`,
+    `Big Time Strategy: …`→`Grande Strategia: …`,
+    `Strategia di caccia: Horde Raveger`→`Strategia di Caccia:
+    Devastatore di Orde`, `Consigli per il futuro`→`Saggio Consiglio`
+    (*Wise Advice*), ecc.
+  - Cicli: `Occult Replica`→`Replica Occulta`, `Forza gabbia`→
+    `Gabbia di Forza`, `Vapori Restorativi`→`Vapori Ristoratori`,
+    `Tenda delle Fiamme`→`Cortina di Fiamme`, `rinfrescare l'anima`→
+    `Ristoro dell'Anima`, `Rifinizione del corpo/dei materiali`→
+    `Raffinazione del Corpo/dei Materiali`, ecc.
+  - Fazioni: `Fratelli di vermi`→`Fratelli dei Vermi`, `Circolo dei
+    sussurri`→`Circolo dei Sussurri`, `Eresia del carlino`→`Eresia del
+    Carlino`; professione `spia`→`Spia`; tratto `Vista acuta`→`Vista
+    Acuta` (come `Udito Acuto`).
+- **Etichette dei link** (143) allineate esattamente al nome del
+  bersaglio, maiuscole comprese (le forme brevi senza prefisso `AP:` /
+  `Ciclo:` negli elenchi restano volutamente brevi), comprese
+  quelle rimaste in inglese o tradotte male (`{Toll The Dead}`→
+  `{Rintocco della Morte}`, `{Bullone di fissaggio}`→`{Dardo della
+  Strega}`, `{Metamagia: Subtle Spell}`→`{Metamagia: Incantesimo
+  Sottile}`, `{Calcinaro …}`→`{Calcinatio …}`…); corretti 9 link
+  con uno spazio tra `]` e `{etichetta}` che Foundry non riconosceva
+  (`{Hex}`→`{Maleficio}`, `{Wise Advice}`→`{Saggio Consiglio}`,
+  `{Sermon}`→`{Sermone}`, `{Uno con l'ambiente}`).
+- **Termini rinominati anche nel testo**: `Creare Homunculus`→`Creare
+  Omuncolo`, sottotitoli di `Trasmutare Roccia`, tabella `Effetti di
+  Frattura della Realtà`, `Unmasking`→`Smascheramento` nella
+  descrizione, titoli di advancement (`Choose a Big Time Strategy`→
+  `Scegli una Grande Strategia`, `Uncommon Essay (Pick one)`→`Scegli
+  un Saggio Non comune`, `Wise Advice (1HD)`→`Saggio Consiglio (1 DV)`,
+  `Learn a Two-Act Cycle`→`Impara un Ciclo in Due Atti`, `Fighting Style
+  (Pick one)`→`Stile di Combattimento (scegline uno)`, `Lethality X2`→
+  `Letalità ×2`, `Major Arcana`→`Arcani Maggiori`, `Divinità del
+  canale`→`Incanalare Divinità`, `ASI o Talento`→`Aumento
+  Caratteristiche o Talento`, ecc.); nomi degli effetti (`Fighting
+  Style: Dueling`→`Stile di Combattimento: Duello`, `Damge Bonus`→
+  `Bonus ai Danni`, `Adds +1 to CA`→`+1 alla CA`…).
+- **Grammatica delle condizioni**: accordo di genere (`Mentre affascinata…,
+  una creatura`) e `l'effetto trattenuto`/`la condizione trattenuta`→
+  `la condizione di trattenuto` in 4 incantesimi.
+- **48 immagini che non esistevano** corrette (IT ed EN): percorsi
+  delle icone di Foundry tradotti per errore (`daggers/pugnale-…`,
+  `skills/a distanza/`, `flagello-…`, `sword-taglienti-…`) riportati agli
+  originali; `broach-…`→`brooch-…`; icone degli incantesimi in
+  `src/assets/icons/historia` ora referenziate in modo che il build le
+  trovi (in EN puntavano a `worlds/dnd/adventures/…`); immagini di
+  *Compagnia della Bussola* e *Barbagianni* collegate ai file esistenti;
+  icone degli effetti (`armor-proficiency-light`, `lightning-reflexes`)
+  mancanti sostituite. Copiati in `media/` `ac-deflection.webp`,
+  `Ducks.webp` e `Herons.webp`, che esistevano solo in `src/media`.
+- **Link rotti**: `combat-utility-belt` (modulo non dipendente) →
+  `&Reference[blinded]` in *Sbuffo di Fumo*; *Construct Spirit* (assente
+  in dnd5e) e *Warrior Spirit* (`Compendium.world`) resi testo;
+  etichette italiane per 4 link a dnd5e che mostravano il nome inglese.
+- **106 riferimenti `@condizione[...]` non validi** in 47 incantesimi
+  convertiti nell'enricher nativo dnd5e `&Reference[<condizione>]{…}`,
+  ora cliccabili. Gli ID sono presi dall'originale inglese (molti
+  valori erano corrotti: `obbligato`, `citata`, `innescato`,
+  `visibili`, `restribuita`…); le etichette usano i termini ufficiali
+  (accecato, affascinato, trattenuto, prono, stordito,
+  indebolimento…) accordati al soggetto. Lo stesso per i **106
+  `@condition[...]`** del pack inglese `spells-historia`.
+- **Tutti gli altri tag 5etools** (IT ed EN), che dnd5e non interpreta e
+  comparivano come testo grezzo: `@skill[…]`→`&Reference[skill=…]`
+  (Indagare, Percezione, Atletica…), `@sense[…]`/`@action[…]`→
+  `&Reference[rule=…]` (scurovisione, Schivata, Scatto…), `@spell[…]`→
+  link al compendio incantesimi di dnd5e, `@creature[…]`/`@item[…]`→
+  testo (zombi, Spirito Fatato, piede di porco, fiasche d'olio…).
+- **21 effetti del pack inglese** con le chiavi v10 `label`/`icon`
+  convertiti in `name`/`img`: Foundry v14 non le migra più, e l'effetto
+  risultava senza nome (non valido) e senza icona.
+
+### Changed
+- **Compatibilità minima: Foundry VTT v12 e dnd5e 4.0.** I pack usano
+  le *activities* di dnd5e 4.x (e ora l'enricher `&Reference`), che
+  non esistono su v11 / dnd5e 2.x. Aggiunta la dipendenza dal sistema
+  `dnd5e` in `relationships` di `module-it.json` e `module-en.json`.
+- **Compatibilità dnd5e 6.x**: `relationships.systems[dnd5e].compatibility.verified`
+  impostato a `6.0.5`. Verificato che nessun effetto dei pack usi le chiavi
+  `system.attributes.ac.calc`/`ac.formula` (cambiate in 6.0) e che gli
+  script non usino `CONFIG.DND5E.senses` né `Activity#applicableEffects`.
+
 ## [1.0.27] - 2026-06-04
 
 ### Changed

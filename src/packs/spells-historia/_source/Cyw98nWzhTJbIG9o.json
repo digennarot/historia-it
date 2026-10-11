@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b  rd__b--3\"><p>When you cast the spell, you hurl the coin that is the spell's material component to any spot within range. The coin lights up as if under the effect of a @spell[light] spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom (@skill[Perception]) checks and initiative rolls.</p><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+      "value": "<div class=\"rd__b  rd__b--3\"><p>When you cast the spell, you hurl the coin that is the spell's material component to any spot within range. The coin lights up as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light} spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom (&Reference[skill=prc]{Perception}) checks and initiative rolls.</p><div class=\"rd__spc-inline-post\"><p></p></div></div>",
       "chat": "",
       "unidentified": ""
     },
