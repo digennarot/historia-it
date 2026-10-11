@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea un muro di sabbia strisciante a terra ad un punto si può vedere all'interno della gamma. Si può fare la parete fino a 30 piedi di lunghezza, 10 piedi di altezza, e 10 piedi di spessore, e scompare quando l'incantesimo termina. Blocca la linea di vista ma non movimento. Una creatura è @condizione[bblinded] mentre nello spazio del muro e deve spendere 3 piedi di movimento per ogni 1 piede si muove lì.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Si crea un muro di sabbia strisciante a terra ad un punto si può vedere all'interno della gamma. Si può fare la parete fino a 30 piedi di lunghezza, 10 piedi di altezza, e 10 piedi di spessore, e scompare quando l'incantesimo termina. Blocca la linea di vista ma non movimento. Una creatura è &Reference[blinded]{accecata} mentre nello spazio del muro e deve spendere 3 piedi di movimento per ogni 1 piede si muove lì.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {

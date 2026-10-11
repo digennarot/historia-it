@@ -85,5 +85,5 @@ Le modifiche di ogni versione sono documentate in [CHANGELOG.md](CHANGELOG.md).
 ## ⚖️ Licenza e riconoscimenti
 
 *   **Autore della conversione:** Tiziano Di Gennaro
-*   Compatibile con **Foundry VTT versione 11+** (verificato per **v14**).
+*   Compatibile con **Foundry VTT versione 12+** (verificato per **v14**) e sistema **dnd5e 4.0+** (verificato per **dnd5e 6.x**).
 
