@@ -7,6 +7,8 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.29] - 2026-10-12
+
 ### Changed
 - **Sistema metrico nei pack italiani**, come nella traduzione ufficiale di
   dnd5e (`dnd5e-it-translation`): distanze in metri (piedi × 0,3: 1,5 m,
