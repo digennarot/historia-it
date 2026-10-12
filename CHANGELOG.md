@@ -7,6 +7,26 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.30] - 2026-10-12
+
+### Fixed
+- **Specie italiane allineate al Manuale Base**: incrementi di
+  caratteristica, taglia, velocità in metri, scurovisione, competenze,
+  tratti concessi e istinti. Coyote e Toporagni contenevano i dati di
+  Polli e Moffette. Nomi del manuale: Bracchi, Domesti, Moffette, Polli;
+  familia Grarconi.
+- **Tratti di specie**: nomi del manuale, testi in seconda persona con la
+  terminologia ufficiale di dnd5e, unità metriche; corretti i tiri
+  salvezza di Stridio e Spruzzo Nauseante e la ricarica di Canto Soave.
+- **Fonte uniforme** "Historia – Manuale Base" con numero di pagina per
+  specie e tratti.
+- **Sfondo del login** ora incluso nel modulo; le impostazioni funzionano
+  anche in `historia-en`.
+
+### Changed
+- Il workflow di release verifica la coerenza tra tag e versione, esegue
+  i test e si ferma se la build fallisce; zip più leggeri.
+
 ## [1.0.29] - 2026-10-12
 
 ### Changed
