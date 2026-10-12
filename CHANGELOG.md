@@ -7,7 +7,34 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.28] - 2026-10-12
+
 ### Fixed
+- **Terminologia allineata alla traduzione ufficiale di dnd5e**
+  (`dnd5e-it-translation`) in `spells-it`: *modificatore di caratteristica
+  da incantatore* (non "di abilità"), *CD del tiro salvezza
+  dell'incantesimo*, *tiro salvezza su Destrezza* (e simili), *per ogni
+  slot di livello superiore al …*, *Ai Livelli Superiori*, *danni
+  radiosi*, *copertura parziale*, *indebolimento*, *senso del tremore*,
+  *visione del vero*, *Intimidire*, *velocità base* / *di volare*,
+  *attacco con un'arma*, *Coltre Oscura*, *Reame Remoto*, *Mazzo delle
+  Meraviglie*. Nomi ufficiali degli incantesimi presenti nel modulo
+  (`Hex`→`Sortilegio`, `Chromatic Orb`→`Globo Cromatico`, `Mind Spike`→
+  `Aculeo Mentale`, `Ice Knife`→`Coltello di Ghiaccio`, `Searing Smite`→
+  `Punizione Incandescente`…) e *Punizione* per tutti gli *Smite*.
+  Riallineate 177 etichette di link agli incantesimi negli altri pack IT.
+- **Descrizioni di tutti i 224 incantesimi IT riscritte** (`spells-it`),
+  ritradotte dal testo inglese in registro "tu": rimossi bracket rotti
+  (`[[[/r …]]`), `@condizione` e residui di traduzione automatica; le
+  condizioni sono `&Reference[…]{…}` con i termini ufficiali; tiri, link
+  e riferimenti identici all'EN. Corretti i nomi ancora in inglese o
+  sgrammaticati (es. `Illuminazione Lure`→`Richiamo Fulmineo`,
+  `Il sangue brillante di Martyr`→`Sangue Brillante di Martyr`,
+  `Viaggio Telecinetico`→`Sgambetto Telecinetico`, `Ombra di Moil`).
+- *Illuminazione Lure* usa il tiro salvezza di Forza, come nell'inglese.
+- **Build su Windows**: `scripts/build_it.mjs` e `build_en.mjs` generavano
+  il percorso `C:C:…` e la copia di `main.js` e delle immagini falliva;
+  ora usano `fileURLToPath`.
 - **117 nomi ancora in inglese, misti o mal tradotti corretti** nei pack italiani,
   seguendo la nomenclatura del D&D 5e italiano dove esiste:
   - Oggetti: `Crowbar`→`Piede di porco`, `Halberd`→`Alabarda`,
@@ -15,7 +42,7 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
     `Shawm`→`Ciaramella`, `Pole`→`Pertica`, `Ranseur`→`Corsesca`,
     `Set di giochi di dadi`→`Set di dadi`,
     `Custodia per bullone a balestra`→`Custodia per quadrelli`, ecc.
-  - Incantesimi: `Hex`→`Maleficio`, `Thunderclap`→`Rombo di Tuono`,
+  - Incantesimi: `Hex`→`Sortilegio`, `Thunderclap`→`Rombo di Tuono`,
     `Psionic Blast`→`Esplosione Psionica`, `Gust`→`Folata`, ecc.
   - Privilegi: `Grenade`→`Granata`, `Butler`→`Maggiordomo`,
     `Chemistry Essay (…)`→`Saggio di Chimica (…)`,
@@ -41,7 +68,7 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
   Strega}`, `{Metamagia: Subtle Spell}`→`{Metamagia: Incantesimo
   Sottile}`, `{Calcinaro …}`→`{Calcinatio …}`…); corretti 9 link
   con uno spazio tra `]` e `{etichetta}` che Foundry non riconosceva
-  (`{Hex}`→`{Maleficio}`, `{Wise Advice}`→`{Saggio Consiglio}`,
+  (`{Hex}`→`{Sortilegio}`, `{Wise Advice}`→`{Saggio Consiglio}`,
   `{Sermon}`→`{Sermone}`, `{Uno con l'ambiente}`).
 - **Termini rinominati anche nel testo**: `Creare Homunculus`→`Creare
   Omuncolo`, sottotitoli di `Trasmutare Roccia`, tabella `Effetti di
