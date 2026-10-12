@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai esperienza nell'abilità dell'inganno e hai vantaggio nei prove di Saggezza (Intuizione) per determinare se qualcuno sta cercando di ingannarti.</p>",
+      "value": "<p>Hai competenza nell'abilità Inganno e hai vantaggio alle prove di Saggezza (Intuizione) per capire se qualcuno sta cercando di ingannarti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 71",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "70"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Foxes",
+    "requirements": "Volpi Rosse",
     "cover": null,
     "crewed": false,
     "prerequisites": {

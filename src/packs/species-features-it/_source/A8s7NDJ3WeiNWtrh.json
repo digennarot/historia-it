@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Non puoi usare le gambe per afferrare gli oggetti, ma piuttosto usare il becco sul tuo collo lungo e articolato o sulle loro ali. In qualsiasi momento che si prende l'azione di Scatto durante il nuoto, si può raddoppiare il movimento.</span></p>",
+      "value": "<p>Non puoi usare le zampe per afferrare oggetti: devi servirti del becco, all'estremità del tuo collo lungo e snodato, oppure delle ali. In ogni turno in cui effettui l'azione di Scatto mentre nuoti, puoi raddoppiare il tuo movimento.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 95",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "95"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Anseri Familia",
+    "requirements": "Anseri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

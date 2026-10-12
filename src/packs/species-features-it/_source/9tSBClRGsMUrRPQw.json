@@ -1,5 +1,5 @@
 {
-  "name": "Maldestro",
+  "name": "Goffo",
   "type": "feat",
   "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai svantaggio sulle prove di Destrezza (Furtività) per muoversi silenziosamente sulla terra secca.</p>",
+      "value": "<p>Hai svantaggio alle prove di Destrezza (Furtività) per muoverti in silenzio sulla terraferma.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 95",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "95"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Anseri Familia",
+    "requirements": "Anseri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

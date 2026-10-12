@@ -174,13 +174,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete vantaggio nel fare Saggezza (Intuizione o Medicina) prove di abilità per determinare lo stato fisico e la salute mentale di una creatura che possono osservare per almeno 1 minuto.</p>",
+      "value": "<p>Hai vantaggio alle prove di Saggezza (Intuizione o Medicina) per determinare lo stato di salute fisica e mentale di una creatura che puoi osservare per almeno 1 minuto.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 104",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "102"
     },
     "uses": {
       "max": "",
@@ -191,7 +194,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Storks",
+    "requirements": "Cicogne",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -147,13 +147,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">Quando in combattimento, si può entrare in uno stato di furia. Mentre in questo stato, il vostro attacco di morso infligge 1d6 danni perforanti al posto della quantità normale, e temporaneamente ignorare gli effetti di qualsiasi livello di sfinimento.</span></span><span class=\"fontstyle0\">Questa furia dura per un certo numero di giri pari al modificatore della Costituzione, e può essere utilizzata solo di nuovo dopo il completamento di un lungo o breve riposo.</span></p>",
+      "value": "<p>Durante un combattimento puoi entrare in uno stato di furia. Finché dura, il tuo attacco con il morso infligge 1d6 danni perforanti invece dei danni normali e ignori temporaneamente gli effetti di qualsiasi livello di indebolimento. La furia dura un numero di round pari al tuo modificatore di Costituzione e puoi usarla di nuovo solo dopo aver terminato un riposo breve o lungo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 76",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "76"
     },
     "uses": {
       "max": "1",
@@ -169,7 +172,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Wolverines",
+    "requirements": "Ghiottoni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

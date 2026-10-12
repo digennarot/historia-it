@@ -1,5 +1,5 @@
 {
-  "name": "Caduta controllata",
+  "name": "Riflesso Verticale",
   "type": "feat",
   "img": "media/Species Features/hover.webp",
   "effects": [],
@@ -170,13 +170,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando si cade da un'altezza di meno di 18 metri e non sono incapacitati, è possibile effettuare un tiro salvezza di Destrezza con CD pari a 1 per ogni 90 centimetri di caduta, e non subire danni alla caduta, o la metà di quel danno se falliscono. Se si cade da più di 18 metri, è possibile effettuare un tiro salvezza di Destrezza con CD 18 +1 per ogni 90 centimetri oltre il 60° a metà del danno di caduta.</p>",
+      "value": "<p>Quando cadi da un'altezza inferiore a 18 metri e non sei incapacitato, puoi effettuare un tiro salvezza su Destrezza con CD pari a 1 ogni 90 cm di caduta: se lo superi non subisci danni da caduta, altrimenti ne subisci la metà. Se cadi da più di 18 metri, puoi effettuare un tiro salvezza su Destrezza con CD 18 + 1 ogni 90 cm oltre i 18 metri per dimezzare i danni da caduta.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 67",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "67"
     },
     "uses": {
       "max": "",
@@ -187,7 +190,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Cats",
+    "requirements": "Gatti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

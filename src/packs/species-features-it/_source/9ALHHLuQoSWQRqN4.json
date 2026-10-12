@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Avete sviluppato zampe posteriori prensili che potete usare per afferrare oggetti in modo semplice; cioè, potete gestirli, ma non sono trattati come abili con qualsiasi arma, strumento o azione, che richiederebbe l'uso di due gambe simultaneamente. Un Aviano ha bisogno di almeno una gamba libera per essere in grado di stare ancora a terra o appendere da qualcosa.</span></p>",
+      "value": "<p>Hai sviluppato zampe posteriori prensili con cui puoi afferrare oggetti in modo semplice: puoi maneggiarli, ma non sei considerato competente con armi, strumenti o azioni che richiedono l'uso simultaneo di due zampe. Hai bisogno di almeno una zampa libera per restare fermo a terra o appenderti a qualcosa.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 94",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "94"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Aviani",
+    "requirements": "Ruspei, Pici, Strigi, Rapax, Corbei, Grarconi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

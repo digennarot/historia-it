@@ -1,5 +1,5 @@
 {
-  "name": "Spirito Ardente",
+  "name": "Spirito di Branco",
   "type": "feat",
   "img": "media/Species Features/empathic-link.webp",
   "effects": [],
@@ -171,13 +171,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile spendere la loro reazione per ottenere vantaggio sul tiro per colpire contro una creatura che è entro 1,5 metri del vostro alleato o eseguire un'azione di aiuto per aiutare un alleato contro un avversario a 1,5 metri da voi.</p>",
+      "value": "<p>Puoi usare la reazione per ottenere vantaggio al tiro per colpire contro una creatura che si trova entro 1,5 metri da un tuo alleato, oppure per effettuare l'azione Aiuto in favore di un alleato contro un avversario entro 1,5 metri da te.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 70",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "69"
     },
     "uses": {
       "max": "",
@@ -188,7 +191,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Coyote",
+    "requirements": "Coyote, Lupi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Pelle spessa",
+  "name": "Pelle Spessa",
   "type": "feat",
   "img": "media/Species Features/blinding.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Riduci eventuali danni non immaginari, perforanti o schizzi da 1, ad un minimo di 1.</p>",
+      "value": "<p>Riduci di 1 i danni contundenti, perforanti o taglienti non magici che subisci, fino a un minimo di 1.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 88",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "88"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Urcidi Familia",
+    "requirements": "Urcidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

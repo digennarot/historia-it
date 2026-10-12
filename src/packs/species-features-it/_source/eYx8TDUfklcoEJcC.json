@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Tu hai</span><span class=\"fontstyle2\">vantaggio sulle prove di abilità fatti per rompere un oggetto.</span></p>",
+      "value": "<p>Hai vantaggio alle prove di caratteristica effettuate per rompere un oggetto.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 81",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "uses": {
       "max": "",
@@ -177,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Squirrels",
+    "requirements": "Scoiattoli",
     "cover": null,
     "crewed": false,
     "prerequisites": {

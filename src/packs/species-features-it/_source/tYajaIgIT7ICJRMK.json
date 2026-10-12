@@ -1,5 +1,5 @@
 {
-  "name": "Pelle spessa",
+  "name": "Pelle Spessa",
   "type": "feat",
   "img": "icons/commodities/leather/fur-white.webp",
   "effects": [
@@ -188,13 +188,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai una pelle naturalmente spessa, difficile da penetrare che ti dà un bonus di classe di armatura +1.</p>",
+      "value": "<p>La tua pelle naturalmente spessa e difficile da penetrare ti conferisce un bonus di +1 alla Classe Armatura.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 87",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "86"
     },
     "uses": {
       "max": "",
@@ -205,7 +208,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Boars",
+    "requirements": "Cinghiali",
     "cover": null,
     "crewed": false,
     "prerequisites": {

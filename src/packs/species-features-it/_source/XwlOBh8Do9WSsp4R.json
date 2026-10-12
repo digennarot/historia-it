@@ -1,5 +1,5 @@
 {
-  "name": "Armatura di Vello",
+  "name": "Armatura di Lana",
   "type": "feat",
   "img": "media/Species Features/share-spells.webp",
   "effects": [
@@ -205,13 +205,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Il vostro pile spesso protegge da ammorbidire alcuni colpi, aumentando il vostro CA da 1.</span></p>",
+      "value": "<p>Il tuo vello folto attutisce alcuni colpi e aumenta la tua CA di 1.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 73",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "uses": {
       "max": "",
@@ -222,7 +225,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Sheep",
+    "requirements": "Pecore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

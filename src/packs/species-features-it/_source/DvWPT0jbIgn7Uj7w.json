@@ -1,5 +1,5 @@
 {
-  "name": "Grandi guance",
+  "name": "Guance",
   "type": "feat",
   "img": "media/Species Features/frightful-moan.webp",
   "effects": [],
@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Hai guance particolarmente elastiche che puoi espandere e utilizzare per immagazzinare cibo o altri oggetti, fino a un peso massimo di 6 1/2 lbs.</span></p>",
+      "value": "<p>Hai guance particolarmente elastiche che puoi dilatare per riporvi cibo o altri oggetti, fino a un peso massimo di 3 kg.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 81",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "uses": {
       "max": "",
@@ -177,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Squirrels",
+    "requirements": "Scoiattoli",
     "cover": null,
     "crewed": false,
     "prerequisites": {

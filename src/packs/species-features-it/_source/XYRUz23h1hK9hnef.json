@@ -1,5 +1,5 @@
 {
-  "name": "Visione periferica",
+  "name": "Visione Periferica",
   "type": "feat",
   "img": "media/Species Features/dominate.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Possiedi una visione periferica sviluppata fino a 310°. Per questo motivo, non puoi essere colto di sorpresa dagli attacchi alle spalle, e i tuoi avversari non ottengono vantaggio quando ti attaccano mentre sei affiancato.</span></p>",
+      "value": "<p>Possiedi una visione periferica che si estende fino a 310°. Per questo non puoi essere colto di sorpresa da attacchi alle spalle e gli avversari non ottengono vantaggio quando ti attaccano mentre sei accerchiato.</p>",
       "chat": ""
     },
     "source": {
       "custom": "",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "86"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Sauti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

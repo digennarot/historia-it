@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong> </strong></em><span class=\"fontstyle2\">Quando si calcola quanto lontano si può viaggiare durante il salto, si può viaggiare un ulteriore 1,5 metri.</span></p>",
+      "value": "<p>Quando calcoli la distanza che puoi coprire con un salto, aggiungi 1,5 metri.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 78",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "78"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Leporidae",
+    "requirements": "Leporidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

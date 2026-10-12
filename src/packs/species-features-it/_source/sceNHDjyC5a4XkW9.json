@@ -1,5 +1,5 @@
 {
-  "name": "Adattamento all'acqua",
+  "name": "Adattamento all'Acqua",
   "type": "feat",
   "img": "icons/magic/water/wave-water-rolling-blue.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile tenere il respiro sott'acqua per un certo numero di minuti pari a 8 + il modificatore della Costituzione.</p>",
+      "value": "<p>Puoi trattenere il respiro sott'acqua per un numero di minuti pari a 8 + il tuo modificatore di Costituzione.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 74",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "74"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Otter",
+    "requirements": "Lontre",
     "cover": null,
     "crewed": false,
     "prerequisites": {

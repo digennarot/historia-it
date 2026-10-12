@@ -167,13 +167,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non è possibile utilizzare strumenti, armi pesanti o qualsiasi cosa che richiede l'uso di due mani durante il volo. Volare con Ali Membranose richiede concentrazione e si schianta se si utilizza le ali in qualsiasi altro modo. Se si esegue un'azione di Scatto durante il volo, si ottiene un aumento di movimento pari al doppio della velocità di volo.</p>",
+      "value": "<p>Mentre voli non puoi usare strumenti, armi pesanti o qualsiasi cosa richieda l'uso di due mani. Volare con le ali membranose richiede concentrazione: se usi le ali in qualsiasi altro modo, precipiti. Se effettui l'azione di Scatto mentre voli, ottieni un movimento extra pari al doppio della tua velocità di volo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 72",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "91"
     },
     "uses": {
       "max": "",
@@ -184,7 +187,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Vespertili Familia",
+    "requirements": "Vespertili",
     "cover": null,
     "crewed": false,
     "prerequisites": {

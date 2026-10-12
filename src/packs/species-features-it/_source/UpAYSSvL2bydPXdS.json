@@ -1,5 +1,5 @@
 {
-  "name": "Cuore forte",
+  "name": "Cuore Forte",
   "type": "feat",
   "img": "icons/magic/life/heart-glowing-red.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Considera sempre qualsiasi livello di sfinimento come se fosse di un grado inferiore; se hai un solo livello di sfinimento, puoi ignorarne l'effetto.</p>",
+      "value": "<p>Consideri sempre il tuo livello di indebolimento come se fosse inferiore di uno; se hai un solo livello di indebolimento, puoi ignorarne gli effetti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 73",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "73"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Badger",
+    "requirements": "Tassi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

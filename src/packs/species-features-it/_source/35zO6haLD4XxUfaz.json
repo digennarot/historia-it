@@ -1,5 +1,5 @@
 {
-  "name": "Roditore Migliorato",
+  "name": "Rosicchiatore Migliorato",
   "type": "feat",
   "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai esperienza nell'uso dei tuoi incisivi come strumento, gestendo a rosicchiare alberi o intere strutture in legno come una sega.</p>",
+      "value": "<p>Il tuo bonus di competenza è raddoppiato quando usi gli incisivi come strumento, e riesci a rosicchiare alberi o intere strutture in legno come se fossi una sega.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 78",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "78"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Beavers",
+    "requirements": "Castori",
     "cover": null,
     "crewed": false,
     "prerequisites": {

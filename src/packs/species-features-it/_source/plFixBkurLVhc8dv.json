@@ -1,5 +1,5 @@
 {
-  "name": "Udito Acuto",
+  "name": "Udito Sopraffino",
   "type": "feat",
   "img": "media/Species Features/wild-empathy.webp",
   "effects": [
@@ -313,13 +313,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai vantaggio rispetto ai controlli basati sull'udito sulla Saggezza (Percezione).</p>",
+      "value": "<p>Hai vantaggio alle prove di Saggezza (Percezione) basate sull'udito.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 66",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -330,7 +333,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Vespertili, Felidi, Cervi, Rodenti, Strigi, Fagiani",
     "cover": null,
     "crewed": false,
     "prerequisites": {

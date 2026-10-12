@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Potete farvi comprendere e comunicare messaggi semplici in modo eccezionale, anche se solo attraverso le vostre espressioni facciali.</p>",
+      "value": "<p>Riesci a farti capire e a comunicare messaggi semplici in modo eccezionale, anche solo attraverso le espressioni del volto.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 119",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "119"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Owls",
+    "requirements": "Gufi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

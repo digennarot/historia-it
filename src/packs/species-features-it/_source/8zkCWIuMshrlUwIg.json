@@ -1,5 +1,5 @@
 {
-  "name": "Volo elusivo",
+  "name": "Volo Sfuggente",
   "type": "feat",
   "img": "media/Species Features/agile.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non si innescano attacchi di opportunità se si utilizza un'azione di Scatto per allontanarsi da un nemico.</p>",
+      "value": "<p>Non provochi attacchi di opportunità quando usi l'azione di Scatto per uscire volando dalla portata di un nemico.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 101",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "100"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Corbei Familia",
+    "requirements": "Gazze",
     "cover": null,
     "crewed": false,
     "prerequisites": {

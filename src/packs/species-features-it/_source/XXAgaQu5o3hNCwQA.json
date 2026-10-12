@@ -1,5 +1,5 @@
 {
-  "name": "Artigli Rapax",
+  "name": "Artigli Rapaci",
   "type": "weapon",
   "img": "media/Species Features/claw.webp",
   "effects": [],
@@ -214,13 +214,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Durante il volo, puoi usare gli artigli come arma naturale per fare un attacco senz'armi. Infliggeranno 1d6 + il tuo modificatore di forza che perfora i danni, a differenza del normale danni contundenti di un attacco senz'armi.</span></p>",
+      "value": "<p>Mentre voli, puoi usare gli artigli come arma naturale per effettuare un colpo senz'armi. Se colpisci, infliggi 1d4 + il tuo modificatore di Forza danni taglienti, invece dei normali danni contundenti di un colpo senz'armi.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 110",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "quantity": 1,
     "weight": {
@@ -394,7 +397,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Strigi, Avvoltoi, Falchi"
   },
   "_stats": {
     "coreVersion": "13.350",

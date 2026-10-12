@@ -1,5 +1,5 @@
 {
-  "name": "Vita arborea",
+  "name": "Vita Arborea",
   "type": "feat",
   "img": "media/Species Features/skill-mastery.webp",
   "effects": [],
@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Hai competenza nell'abilità Acrobazia e hai vantaggio sui tiri salvezza basati su Destrezza.</span></p>",
+      "value": "<p>Hai competenza nell'abilità Acrobazia e hai vantaggio ai tiri salvezza su Destrezza.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 81",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "uses": {
       "max": "",
@@ -177,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Squirrels",
+    "requirements": "Scoiattoli",
     "cover": null,
     "crewed": false,
     "prerequisites": {

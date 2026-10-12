@@ -185,13 +185,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Se il tuo alleato è colpito da un avversario, puoi usare la tua reazione per ottenere un +1 bonus sui rulli per colpire quell'avversario fino alla fine del tuo prossimo round.</span></p>",
+      "value": "<p>Quando un alleato che puoi vedere viene colpito da un avversario, puoi usare la reazione per ottenere un bonus di +1 ai tiri per colpire contro quell'avversario fino alla fine del tuo prossimo round.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 112",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "112"
     },
     "uses": {
       "max": "",
@@ -202,7 +205,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Ruspei Familia",
+    "requirements": "Ruspei",
     "cover": null,
     "crewed": false,
     "prerequisites": {

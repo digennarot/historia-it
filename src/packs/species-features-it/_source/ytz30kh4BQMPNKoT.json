@@ -1,5 +1,5 @@
 {
-  "name": "Sensibilità alla luce del giorno",
+  "name": "Sensibilità alla Luce",
   "type": "feat",
   "img": "icons/magic/light/beam-rays-yellow.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Il vostro hanno svantaggio sui controlli di vista basati sulla Saggezza (Percezione) quando esposto a forte luce del giorno.</span></p>",
+      "value": "<p>Hai svantaggio alle prove di Saggezza (Percezione) basate sulla vista quando sei esposto alla forte luce del giorno.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 116",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "116"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Strigi Familia",
+    "requirements": "Strigi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

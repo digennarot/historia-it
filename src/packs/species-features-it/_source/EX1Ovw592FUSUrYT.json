@@ -1,5 +1,5 @@
 {
-  "name": "Camminare Barcollando",
+  "name": "Sgambettata",
   "type": "feat",
   "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
   "effects": [],
@@ -157,13 +157,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">A differenza degli altri Aviani, un Barbagianni può anche usare il loro attacco di artiglio da terra mettendosi prono, ma senza avere svantaggi per tiri per colpire.</span></p>",
+      "value": "<p>A differenza degli altri aviani, puoi attaccare con gli artigli anche da terra mettendoti prono, senza subire svantaggio ai tiri per colpire.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 117",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "118"
     },
     "uses": {
       "max": "",
@@ -174,7 +177,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Barbagiannis",
+    "requirements": "Barbagianni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

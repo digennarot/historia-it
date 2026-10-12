@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non si soffre le dure condizioni climatiche d'inverno o il freddo e non considerano il terreno coperto di neve difficile.</p>",
+      "value": "<p>Non soffri le rigide condizioni climatiche dell'inverno né il freddo, e non consideri il terreno innevato come terreno difficile.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 58",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Primoi",
+    "requirements": "Linci, Lontre, Ghiottoni, Alci, Caprini, Primoi, Castori",
     "cover": null,
     "crewed": false,
     "prerequisites": {

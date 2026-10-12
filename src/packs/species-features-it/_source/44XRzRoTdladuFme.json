@@ -1,5 +1,5 @@
 {
-  "name": "Attacco elusivo",
+  "name": "Attacco Sfuggente",
   "type": "feat",
   "img": "media/Species Features/weapon-focus-epic.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Un Falcon non provoca attacchi di opportunità quando vola fuori dalla portata di un nemico dopo un attacco di artigli. Deve aver percorso almeno 4,5 metri in volo prima di poter effettuare un attacco.</span></p>",
+      "value": "<p>Non provochi attacchi di opportunità quando esci in volo dalla portata di un nemico dopo averlo attaccato con gli artigli, a patto di aver percorso almeno 4,5 metri in volo prima dell'attacco.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 110",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "111"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Falcons",
+    "requirements": "Falchi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

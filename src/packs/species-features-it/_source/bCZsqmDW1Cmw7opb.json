@@ -1,5 +1,5 @@
 {
-  "name": "Grandi corni",
+  "name": "Grandi Corna",
   "type": "weapon",
   "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
   "effects": [],
@@ -200,13 +200,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Solo il maschio Bovinae ha grandi corna. Data la tua grande dimensione, le tue corna infliggono 1d6 + il tuo modificatore di Costituzione ai danni invece del danno normale di un attacco di corno, ma creano difficoltà per te quando si tenta di nascondere e ti dà svantaggio alle prove di Furtività quando si tenta di nascondere.</p>",
+      "value": "<p>Date le loro grandi dimensioni, le tue corna infliggono 1d6 + il tuo modificatore di Forza danni invece dei normali danni di un attacco con le corna, ma ti intralciano quando cerchi di nasconderti e ti impongono svantaggio alle prove di Destrezza (Furtività) per nasconderti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 82",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "82"
     },
     "quantity": 1,
     "weight": {
@@ -380,7 +383,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Bovini"
   },
   "_stats": {
     "coreVersion": "13.350",

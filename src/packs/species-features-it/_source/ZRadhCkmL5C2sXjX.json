@@ -1,5 +1,5 @@
 {
-  "name": "Volo limitato",
+  "name": "Volo Ruspante",
   "type": "feat",
   "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non è possibile utilizzare la velocità di volo per due giri consecutivi e non può salire più di 3 metri sopra il terreno.</p>",
+      "value": "<p>Non puoi usare la tua velocità di volo per due turni consecutivi e non puoi salire a più di 3 metri da terra.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 112",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "112"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Ruspei Familia",
+    "requirements": "Ruspei",
     "cover": null,
     "crewed": false,
     "prerequisites": {

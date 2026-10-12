@@ -1,5 +1,5 @@
 {
-  "name": "Resistenza inaspettata",
+  "name": "Resistenza Inaspettata",
   "type": "feat",
   "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
   "effects": [],
@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Sei metà tutti i danni da schiacciare e cadere a causa della tua struttura fisica elastica che ti permette di sopportare una forte pressione senza subire danni.</p>",
+      "value": "<p>Dimezzi tutti i danni da schiacciamento e da caduta, grazie alla tua struttura fisica elastica che ti permette di sopportare forti pressioni senza subire danni.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 65",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "64"
     },
     "uses": {
       "max": "",
@@ -177,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Shrews",
+    "requirements": "Toporagni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

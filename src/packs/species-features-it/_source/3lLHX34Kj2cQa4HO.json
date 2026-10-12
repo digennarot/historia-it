@@ -1,5 +1,5 @@
 {
-  "name": "Affascinante",
+  "name": "Fascinoso",
   "type": "feat",
   "img": "icons/magic/perception/eye-slit-orange.webp",
   "effects": [],
@@ -188,13 +188,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si può tentare di affascinare un'altra creatura per 1 minuto con il movimento del vostro piumaggio utilizzando un'azione, per evitarlo, la creatura bersaglio deve superare un tiro salvezza su Carisma con CD pari a 8 + il vostro modificatore di Carisma + il vostro bonus di competenza. Se il tiro salvezza fallisce, il bersaglio vede l'incantatore come una persona di cui si fida e che ama. Le creature non intelligenti non sono influenzate. Il bersaglio risponde in modo appropriato, seguendo l'incantatore fino a quando questi non rappresenta un rischio per la sua sicurezza. La condizione di ammaliamento termina anche se il bersaglio diventa aggressivo verso la creatura ammaliata. Questa capacità può essere utilizzata di nuovo dopo aver terminato un riposo breve.</p>",
+      "value": "<p>Puoi usare un'azione per tentare di affascinare un'altra creatura per 1 minuto con il movimento del tuo piumaggio. Il bersaglio deve superare un tiro salvezza su Carisma con CD pari a 8 + il tuo modificatore di Carisma + il tuo bonus di competenza. Se lo fallisce, ti considera una persona di cui si fida e a cui vuole bene. Le creature non intelligenti non sono influenzate. Il bersaglio reagisce di conseguenza e ti segue, purché questo non metta a rischio la sua incolumità. L'effetto termina anche se ti mostri ostile nei confronti del bersaglio. Puoi usare di nuovo questa capacità dopo aver terminato un riposo breve.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 114",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "114"
     },
     "uses": {
       "max": "1",
@@ -210,7 +213,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Peacocks",
+    "requirements": "Pavoni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

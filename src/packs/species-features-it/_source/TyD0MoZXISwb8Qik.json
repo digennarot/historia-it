@@ -171,13 +171,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong> </strong></em> Si può ri-rollare un Tiro Salvezza e mantenere il secondo risultato. Si può fare questo solo una volta prima di prendere un lungo o breve riposo.</p>",
+      "value": "<p>Puoi ripetere un tiro salvezza e devi usare il secondo risultato. Non puoi farlo di nuovo finché non termini un riposo breve o lungo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 72",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "1",
@@ -193,7 +196,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mustacei Familia",
+    "requirements": "Mustacei, Anatre",
     "cover": null,
     "crewed": false,
     "prerequisites": {

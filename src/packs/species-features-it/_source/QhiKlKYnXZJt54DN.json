@@ -1,5 +1,5 @@
 {
-  "name": "Ecolocalizzazione Terrestre",
+  "name": "Ecolocazione",
   "type": "feat",
   "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
   "effects": [],
@@ -143,13 +143,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile utilizzare una forma rudimentale di ecolocalizzazione per comprendere meglio l'ambiente che ti circonda fino a 4,5 m Questa capacità consente di comprendere lo spessore e i materiali di pareti e pavimenti, oltre a individuare gli spazi vuoti oltre di essi. È anche possibile rilevare oggetti invisibili.</p>",
+      "value": "<p>Puoi usare una forma rudimentale di ecolocazione per percepire meglio l'ambiente circostante fino a 4,5 metri. Questa capacità ti permette di capire lo spessore e i materiali di pareti e pavimenti e di individuare eventuali spazi vuoti al di là di essi. Puoi anche individuare gli oggetti invisibili.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 65",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "64"
     },
     "uses": {
       "max": "",
@@ -160,7 +163,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Shrews",
+    "requirements": "Toporagni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

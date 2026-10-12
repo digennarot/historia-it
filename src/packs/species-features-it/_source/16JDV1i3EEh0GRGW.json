@@ -1,5 +1,5 @@
 {
-  "name": "Conoscenza naturale",
+  "name": "Conoscenza Naturale",
   "type": "feat",
   "img": "icons/magic/nature/tree-roots-glow-yellow.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai competenza nell'abilità della natura, e il tuo bonus di competenza a questa abilità è raddoppiato su qualsiasi controllo che coinvolge terreno o roccia,</p>",
+      "value": "<p>Hai competenza nell'abilità Natura e il tuo bonus di competenza è raddoppiato per qualsiasi prova che riguardi terreno o roccia.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 64",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "63"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Moles",
+    "requirements": "Talpe",
     "cover": null,
     "crewed": false,
     "prerequisites": {

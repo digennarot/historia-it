@@ -1,5 +1,5 @@
 {
-  "name": "Coda Spessa",
+  "name": "Coda Folta",
   "type": "feat",
   "img": "icons/creatures/abilities/tail-swipe-green.webp",
   "effects": [
@@ -209,13 +209,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>La coda spessa di un Anteater viene utilizzata per scopi difensivi, garantendo un +1 bonus alla vostra Classe Armatura.</p>",
+      "value": "<p>Usi la tua coda folta a scopo difensivo: ottieni un bonus di +1 alla Classe Armatura.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 59",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "59"
     },
     "uses": {
       "max": "",
@@ -226,7 +229,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Anteaters",
+    "requirements": "Formichieri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

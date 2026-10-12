@@ -1,5 +1,5 @@
 {
-  "name": "Tocco straordinario",
+  "name": "Tatto Straordinario",
   "type": "feat",
   "img": "icons/skills/social/wave-halt-stop.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai un senso di tocco altamente sviluppato e puoi riconoscere le proprietà materiali di un oggetto semplicemente tenendolo in mano. Per fare questo, è necessario passare un controllo di intelligenza (Natura) con CD 12.</p>",
+      "value": "<p>Hai un senso del tatto molto sviluppato e puoi riconoscere le proprietà materiali di un oggetto semplicemente tenendolo in mano. Per farlo devi superare una prova di Intelligenza (Natura) con CD 12.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 75",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "75"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Raccoons",
+    "requirements": "Procioni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

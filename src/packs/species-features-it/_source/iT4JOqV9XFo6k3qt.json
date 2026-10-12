@@ -167,13 +167,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Sempre attento, attacchi di opportunità fatti contro di voi hanno svantaggio.</p>",
+      "value": "<p>Sempre all'erta: gli attacchi di opportunità effettuati contro di te hanno svantaggio.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 57",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -184,7 +187,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Levri",
+    "requirements": "Edenti, Levri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

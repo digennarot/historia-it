@@ -1,5 +1,5 @@
 {
-  "name": "Furtività innata",
+  "name": "Furtività Innata",
   "type": "feat",
   "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
   "effects": [],
@@ -167,13 +167,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si può tentare di nascondere anche se solo oscurato da una singola creatura, fino a quando è almeno una dimensione più grande di te.</p>",
+      "value": "<p>Puoi tentare di nasconderti anche quando sei oscurato soltanto da una creatura, purché sia di almeno una taglia più grande di te.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 62",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -184,7 +187,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Eulipi Familia",
+    "requirements": "Eulipi, Topi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

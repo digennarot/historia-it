@@ -1,5 +1,5 @@
 {
-  "name": "Memoria associativa",
+  "name": "Memoria Associativa",
   "type": "feat",
   "img": "media/Species Features/wholeness-of-body.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Le tue capacità sensoriali e mnemoniche ti permettono di trovare sempre il tuo modo di tornare in un luogo familiare, anche dopo aver viaggiato una certa distanza in territori sconosciuti.</p>",
+      "value": "<p>Le tue capacità sensoriali e mnemoniche ti permettono di ritrovare sempre la strada per tornare in un luogo familiare, anche dopo aver percorso una certa distanza in territori sconosciuti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 67",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "67"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Cats",
+    "requirements": "Gatti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

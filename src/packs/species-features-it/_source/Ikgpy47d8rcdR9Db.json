@@ -1,5 +1,5 @@
 {
-  "name": "Salto Prodigioso",
+  "name": "Balzo",
   "type": "feat",
   "img": "media/Species Features/burst.webp",
   "effects": [],
@@ -198,13 +198,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile fare un salto lungo con una distanza di 0,3 m moltiplicato per raddoppiare il bonus di resistenza. Questo sostituisce il calcolo normale per fare un salto lungo.</p>",
+      "value": "<p>Puoi effettuare un salto in lungo di una distanza pari a 30 cm moltiplicati per il doppio del tuo modificatore di Forza. Questo sostituisce il normale calcolo del salto in lungo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 68",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "68"
     },
     "uses": {
       "max": "",
@@ -215,7 +218,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Lynx",
+    "requirements": "Puma",
     "cover": null,
     "crewed": false,
     "prerequisites": {

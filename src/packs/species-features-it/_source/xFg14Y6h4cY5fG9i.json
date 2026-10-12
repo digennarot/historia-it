@@ -157,13 +157,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai la competenza nel abilità Rapidità di mano e hai vantaggio nei controlli di cattura e controlli contrapposti per mantenere la tua presa.</p>",
+      "value": "<p>Hai competenza nell'abilità Rapidità di Mano e hai vantaggio alle prove per afferrare e alle prove contrapposte per mantenere la presa.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 119",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "117"
     },
     "uses": {
       "max": "",
@@ -174,7 +177,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Tawny Owls",
+    "requirements": "Allocchi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

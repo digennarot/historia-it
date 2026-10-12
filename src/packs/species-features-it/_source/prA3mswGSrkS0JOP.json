@@ -1,5 +1,5 @@
 {
-  "name": "Grande memoria",
+  "name": "Buona Memoria",
   "type": "feat",
   "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Ricorda sempre ogni dettaglio, luogo o persona che hanno visto.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/><br/></p>",
+      "value": "<p>Ricordi sempre ogni dettaglio, luogo o persona che hai visto.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 64",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Talpe, Corbei",
     "cover": null,
     "crewed": false,
     "prerequisites": {

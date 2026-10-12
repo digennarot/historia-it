@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi portare fino a un terzo del tuo peso e un terzo della loro dimensione nella busta del tuo becco.</p>",
+      "value": "<p>Nella sacca del becco puoi trasportare oggetti fino a un terzo del tuo peso e a un terzo delle tue dimensioni.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 97",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "98"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Pelicans",
+    "requirements": "Pellicani",
     "cover": null,
     "crewed": false,
     "prerequisites": {

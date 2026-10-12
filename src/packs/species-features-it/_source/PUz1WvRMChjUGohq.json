@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai vantaggio quando fai tiri per resistere a essere spinto o afferrato.</p>",
+      "value": "<p>Hai vantaggio ai tiri per resistere a spinte o a tentativi di afferrarti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 87",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "87"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Pigs",
+    "requirements": "Porci",
     "cover": null,
     "crewed": false,
     "prerequisites": {

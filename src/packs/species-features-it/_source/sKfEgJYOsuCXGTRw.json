@@ -1,5 +1,5 @@
 {
-  "name": "Sfruttamento",
+  "name": "Sfruttare",
   "type": "feat",
   "img": "media/Species Features/psion-ego.webp",
   "effects": [],
@@ -171,13 +171,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile spendere la vostra reazione per reindirizzare un attacco che mira verso un altro alleato entro 1,5 metri. È possibile utilizzare questa capacità un certo numero di volte al giorno pari al modificatore di intelligenza.</p>",
+      "value": "<p>Puoi usare la reazione per reindirizzare un attacco diretto contro di te verso un alleato entro 1,5 metri. Puoi usare questa capacità un numero di volte al giorno pari al tuo modificatore di Intelligenza.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 71",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "70"
     },
     "uses": {
       "max": "",
@@ -188,7 +191,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Foxes",
+    "requirements": "Volpi Rosse",
     "cover": null,
     "crewed": false,
     "prerequisites": {

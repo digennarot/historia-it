@@ -1,5 +1,5 @@
 {
-  "name": "Testardo",
+  "name": "Testa Dura",
   "type": "feat",
   "img": "media/Species Features/psion-tele.webp",
   "effects": [],
@@ -157,13 +157,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete vantaggio sul risparmio di Costituzione getti contro gli effetti che vi colpirebbero.</p>",
+      "value": "<p>Hai vantaggio ai tiri salvezza su Costituzione contro gli effetti che ti renderebbero stordito.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 108",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "107"
     },
     "uses": {
       "max": "",
@@ -174,7 +177,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Woodpeckers",
+    "requirements": "Picchi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

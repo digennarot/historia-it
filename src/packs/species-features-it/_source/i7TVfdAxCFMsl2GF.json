@@ -170,13 +170,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Barn I gufi possono fare uno screzio affilato che confonde e stuns i loro avversari. Ogni creatura entro 6 metri di voi deve passare un Tiro Salvezza su Costituzione con CD 8 + bonus di Costituzione + il vostro bonus di profezie o diventare stordito per 1 giro. È possibile utilizzare questa capacità di nuovo dopo aver finito un riposo breve.</p>",
+      "value": "<p>Puoi emettere uno stridio acuto che confonde e stordisce gli avversari. Ogni creatura entro 6 metri da te deve superare un tiro salvezza su Carisma con CD 10 + il tuo bonus di competenza, altrimenti è stordita per 1 round. Puoi usare di nuovo questa capacità dopo aver terminato un riposo breve.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 117",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "118"
     },
     "uses": {
       "max": "1",
@@ -192,7 +195,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Barbagiannis",
+    "requirements": "Barbagianni",
     "cover": null,
     "crewed": false,
     "prerequisites": {
@@ -275,11 +278,11 @@
         },
         "save": {
           "ability": [
-            "con"
+            "cha"
           ],
           "dc": {
-            "calculation": "con",
-            "formula": ""
+            "calculation": "",
+            "formula": "10 + @prof"
           }
         },
         "sort": 0,

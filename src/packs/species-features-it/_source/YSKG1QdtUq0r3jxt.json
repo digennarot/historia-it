@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai il vantaggio di salvare getti contro la paura.</p>",
+      "value": "<p>Hai vantaggio ai tiri salvezza contro la paura.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 55",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Dogo",
+    "requirements": "Avvoltoi, Dogo, Oche",
     "cover": null,
     "crewed": false,
     "prerequisites": {

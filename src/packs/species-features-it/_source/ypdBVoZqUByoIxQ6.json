@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile utilizzare strumenti senza utilizzare le ali e può ottenere la competenza in uno strumento quando si utilizza l'abilità di apprendimento veloce.</p>",
+      "value": "<p>Puoi usare gli strumenti senza le limitazioni dettate dalle ali e, quando usi Apprendimento Rapido, puoi ottenere competenza in uno strumento.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 99",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "100"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Crows",
+    "requirements": "Corvi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

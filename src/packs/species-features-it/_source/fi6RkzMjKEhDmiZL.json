@@ -1,5 +1,5 @@
 {
-  "name": "Portatore di cattiva fortuna",
+  "name": "Porta Sfortuna",
   "type": "feat",
   "img": "icons/skills/wounds/injury-face-impact-orange.webp",
   "effects": [],
@@ -183,13 +183,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete la reputazione, in tutta Vesteria, di essere un portatore di disgrazia se avvistato sul campo di battaglia. Quando un avversario tira un 20 naturale su un attacco o un tiro salvezza, e si può vedere, è possibile utilizzare la reazione per trasformare che 20 in un 1. È possibile utilizzare questa capacità di nuovo dopo aver finito un riposo breve.</p>",
+      "value": "<p>In tutta Vesteria hai la fama di portare sventura se avvistato sul campo di battaglia. Quando un avversario che puoi vedere ottiene un 20 naturale a un tiro per colpire o a un tiro salvezza, puoi usare la reazione per trasformare quel 20 in un 1. Puoi usare di nuovo questa capacità dopo aver terminato un riposo breve.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 118",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "118"
     },
     "uses": {
       "max": "1",
@@ -205,7 +208,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Little Owls",
+    "requirements": "Civette",
     "cover": null,
     "crewed": false,
     "prerequisites": {

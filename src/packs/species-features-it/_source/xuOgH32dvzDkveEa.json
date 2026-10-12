@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Sei immune agli effetti di fascino e paura.</p>",
+      "value": "<p>Sei immune agli effetti che ti renderebbero affascinato o spaventato.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 62",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "61"
     },
     "uses": {
       "max": "",
@@ -177,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Sloths",
+    "requirements": "Bradipi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

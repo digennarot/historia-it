@@ -1,5 +1,5 @@
 {
-  "name": "Anatomia semplice",
+  "name": "Anatomia Semplice",
   "type": "feat",
   "img": "media/Species Features/psion-uncarnate.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Le creature hanno vantaggio nell'abilità di Medicina per tutti i controlli effettuati su di voi.</p>",
+      "value": "<p>Le creature hanno vantaggio alle prove di Saggezza (Medicina) effettuate su di te.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 88",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "87"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Pigs",
+    "requirements": "Porci",
     "cover": null,
     "crewed": false,
     "prerequisites": {

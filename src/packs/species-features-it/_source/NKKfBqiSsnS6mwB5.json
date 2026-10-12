@@ -214,13 +214,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi usare il tuo morso come arma naturale per fare un attacco senz'armi. Infligge 1d4 + il modificatore di Costituzione danni perforanti.</p>",
+      "value": "<p>Puoi usare il morso come arma naturale per effettuare un colpo senz'armi. Se colpisci, infliggi 1d4 + il tuo modificatore di Forza danni perforanti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 73",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "72"
     },
     "quantity": 1,
     "weight": {
@@ -394,7 +397,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Tassi, Ghiottoni"
   },
   "_stats": {
     "coreVersion": "13.350",

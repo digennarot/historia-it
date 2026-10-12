@@ -1,5 +1,5 @@
 {
-  "name": "Competenze sociali",
+  "name": "Capacità Sociali",
   "type": "feat",
   "img": "media/Species Features/polyglot.webp",
   "effects": [],
@@ -181,13 +181,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si ottiene vantaggio quando si fanno tiri per quanto riguarda le interazioni sociali con creature senzienti non ostile.</p>",
+      "value": "<p>Hai vantaggio alle prove di interazione sociale con creature senzienti non ostili.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 105",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "105"
     },
     "uses": {
       "max": "",
@@ -198,7 +201,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Pici Familia",
+    "requirements": "Pici",
     "cover": null,
     "crewed": false,
     "prerequisites": {

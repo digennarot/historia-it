@@ -1,5 +1,5 @@
 {
-  "name": "Preparazione meticolosa",
+  "name": "Preparazione Minuziosa",
   "type": "feat",
   "img": "media/Species Features/diamon-soul.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Se si utilizza la prima azione in combattimento per preparare un'azione di attacco, si ha vantaggio al tiro per colpire quell'attacco.</p>",
+      "value": "<p>Se la tua prima azione in combattimento è preparare un'azione di Attacco e la condizione scatenante si verifica, hai vantaggio al tiro per colpire di quell'attacco.</p>",
       "chat": ""
     },
     "source": {
       "custom": "HVB pg. 103",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "102"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Herons",
+    "requirements": "Aironi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

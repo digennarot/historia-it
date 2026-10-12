@@ -143,13 +143,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando un Levri utilizza l'azione di Scatto, la loro velocità aumenta di altri 6 metri.</p>",
+      "value": "<p>Quando usi l'azione di Scatto, la tua velocità aumenta di altri 6 metri.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 57",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "57"
     },
     "uses": {
       "max": "",

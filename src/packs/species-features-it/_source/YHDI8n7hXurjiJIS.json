@@ -1,5 +1,5 @@
 {
-  "name": "Messaggi odorosi",
+  "name": "Messaggi Odorosi",
   "type": "feat",
   "img": "icons/magic/water/wave-water-teal.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong> </strong></em><span class=\"fontstyle2\">Hai la capacità innata di rilasciare un forte odore, capace di marcare un oggetto o un luogo e interpretabile solo dai membri della Familia. Questi messaggi odorosi possono essere una firma personale o un'indicazione di uno stato emotivo e possono persistere fino a una settimana a seconda dell'intensità desiderata.</span></p>",
+      "value": "<p>Hai la capacità innata di rilasciare un forte odore, capace di marcare un oggetto o un luogo e interpretabile solo dai membri della tua familia. Questi messaggi odorosi possono essere una firma personale o l'indicazione di uno stato d'animo e possono persistere fino a una settimana, a seconda dell'intensità desiderata.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 72",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "72"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mustacei Familia",
+    "requirements": "Mustacei",
     "cover": null,
     "crewed": false,
     "prerequisites": {

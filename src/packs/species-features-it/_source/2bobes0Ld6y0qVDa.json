@@ -209,13 +209,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Le scale dure che coprono il corpo di un Armadillo ti danno una base CA di 17 (il tuo bonus di Destrezza non influisce su questo numero). Armatura non offre alcun vantaggio aggiuntivo, anche se i bonus da scudi sono applicati normalmente.</p>",
+      "value": "<p>Le dure placche che ricoprono il tuo corpo ti conferiscono una CA base di 17 (il tuo modificatore di Destrezza non si applica). Indossare un'armatura non ti offre alcun beneficio aggiuntivo, ma il bonus di uno scudo si applica normalmente.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 60",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "58"
     },
     "uses": {
       "max": "",
@@ -226,7 +229,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Armadillos",
+    "requirements": "Pangolini, Armadilli",
     "cover": null,
     "crewed": false,
     "prerequisites": {
