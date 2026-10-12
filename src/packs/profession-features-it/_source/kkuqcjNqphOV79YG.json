@@ -166,7 +166,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero universale, si può mostrare l'oscurità che abita nel vostro cuore manifestandolo al di fuori del proprio corpo. Come azione, è possibile spendere 10 Punti di Incanto per portare l'oscurità in un raggio di 120 piedi dalla vostra posizione, che bloccherà la vista e qualsiasi senso straordinario di coloro che sono dentro di esso per un minuto, con l'eccezione di voi e i vostri alleati. Inoltre, le tue parole diventano irresistibili e finché la Sindone Oscura è attiva, sei credibile, per quanto lontano possa sembrare.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero universale, si può mostrare l'oscurità che abita nel vostro cuore manifestandolo al di fuori del proprio corpo. Come azione, è possibile spendere 10 Punti di Incanto per portare l'oscurità in un raggio di 36 metri dalla vostra posizione, che bloccherà la vista e qualsiasi senso straordinario di coloro che sono dentro di esso per un minuto, con l'eccezione di voi e i vostri alleati. Inoltre, le tue parole diventano irresistibili e finché la Sindone Oscura è attiva, sei credibile, per quanto lontano possa sembrare.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -231,10 +231,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "120",
+            "size": "36",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

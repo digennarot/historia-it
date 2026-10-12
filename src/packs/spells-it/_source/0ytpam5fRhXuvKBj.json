@@ -152,7 +152,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Esegui una speciale cerimonia religiosa intrisa di magia. Quando lanci l'incantesimo, scegli uno dei seguenti riti, il cui bersaglio deve trovarsi entro 10 piedi da te per tutta la durata del lancio.</p><p><strong>Espiazione.</strong> Tocchi una creatura consenziente il cui allineamento è cambiato, ed effettui una prova di Saggezza (Intuizione) con CD 20. Se la prova riesce, riporti il bersaglio al suo allineamento originale.</p><p><strong>Benedizione dell'acqua.</strong> Tocchi una fiala d'acqua e la rendi acqua santa.</p><p><strong>Rito della Maggiore Età.</strong> Tocchi un umanoide che è un giovane adulto. Per le successive 24 ore, ogni volta che il bersaglio effettua una prova di caratteristica, può tirare un d4 e aggiungere il risultato alla prova. Una creatura può beneficiare di questo rito una sola volta.</p><p><strong>Dedizione.</strong> Tocchi un umanoide che desidera essere dedicato al servizio del tuo dio. Per le successive 24 ore, ogni volta che il bersaglio effettua un tiro salvezza, può tirare un d4 e aggiungere il risultato al tiro salvezza. Una creatura può beneficiare di questo rito una sola volta.</p><p><strong>Rito funebre.</strong> Tocchi un cadavere e, per i successivi 7 giorni, il bersaglio non può diventare non morto con alcun mezzo, a meno di un incantesimo desiderio.</p><p><strong>Matrimonio.</strong> Tocchi umanoidi adulti disposti a unirsi in matrimonio. Per i successivi 7 giorni, ogni bersaglio ottiene un bonus di +2 alla CA mentre si trova entro 30 piedi dall'altro. Una creatura può beneficiare di questo rito di nuovo solo se è rimasta vedova.</p>",
+      "value": "<p>Esegui una speciale cerimonia religiosa intrisa di magia. Quando lanci l'incantesimo, scegli uno dei seguenti riti, il cui bersaglio deve trovarsi entro 3 metri da te per tutta la durata del lancio.</p><p><strong>Espiazione.</strong> Tocchi una creatura consenziente il cui allineamento è cambiato, ed effettui una prova di Saggezza (Intuizione) con CD 20. Se la prova riesce, riporti il bersaglio al suo allineamento originale.</p><p><strong>Benedizione dell'acqua.</strong> Tocchi una fiala d'acqua e la rendi acqua santa.</p><p><strong>Rito della Maggiore Età.</strong> Tocchi un umanoide che è un giovane adulto. Per le successive 24 ore, ogni volta che il bersaglio effettua una prova di caratteristica, può tirare un d4 e aggiungere il risultato alla prova. Una creatura può beneficiare di questo rito una sola volta.</p><p><strong>Dedizione.</strong> Tocchi un umanoide che desidera essere dedicato al servizio del tuo dio. Per le successive 24 ore, ogni volta che il bersaglio effettua un tiro salvezza, può tirare un d4 e aggiungere il risultato al tiro salvezza. Una creatura può beneficiare di questo rito una sola volta.</p><p><strong>Rito funebre.</strong> Tocchi un cadavere e, per i successivi 7 giorni, il bersaglio non può diventare non morto con alcun mezzo, a meno di un incantesimo desiderio.</p><p><strong>Matrimonio.</strong> Tocchi umanoidi adulti disposti a unirsi in matrimonio. Per i successivi 7 giorni, ogni bersaglio ottiene un bonus di +2 alla CA mentre si trova entro 9 metri dall'altro. Una creatura può beneficiare di questo rito di nuovo solo se è rimasta vedova.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -234,7 +234,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

@@ -152,7 +152,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Energia protettrice della vita irradia da te in un'aura di raggio 30 piedi. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Ogni creatura non ostile nell'aura (incluso te) ha resistenza ai danni necrotici, e il suo massimo di punti ferita non può essere ridotto. Inoltre, una creatura non ostile e vivente recupera 1 punto ferita quando inizia il proprio turno nell'aura con 0 punti ferita.</p>",
+      "value": "<p>Energia protettrice della vita irradia da te in un'aura di raggio 9 metri. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Ogni creatura non ostile nell'aura (incluso te) ha resistenza ai danni necrotici, e il suo massimo di punti ferita non può essere ridotto. Inoltre, una creatura non ostile e vivente recupera 1 punto ferita quando inizia il proprio turno nell'aura con 0 punti ferita.</p>",
       "chat": ""
     },
     "source": {
@@ -174,9 +174,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
@@ -234,7 +234,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

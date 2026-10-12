@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Un vento forte (20 miglia orarie) soffia attorno a te in un raggio di 10 piedi e si muove con te, restando centrato su di te. Il vento dura per la durata dell'incantesimo.</p><p>Il vento ha i seguenti effetti:</p><ul class=\"rd__list\"><li class=\"rd__li \">Ti &Reference[deafened]{assorda} e assorda le altre creature nella sua area.</li><li class=\"rd__li \">Spegne le fiamme non protette nella sua area di dimensioni pari o inferiori a quelle di una torcia.</li><li class=\"rd__li \">Tiene lontani vapori, gas e nebbia che possono essere dispersi da un vento forte.</li><li class=\"rd__li \">L'area è terreno difficile per le creature diverse da te.</li><li class=\"rd__li \">I tiri per colpire degli attacchi a distanza con un'arma hanno svantaggio se gli attacchi attraversano il vento entrando o uscendo da esso.</li></ul></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Un vento forte (30 chilometri orari) soffia attorno a te in un raggio di 3 metri e si muove con te, restando centrato su di te. Il vento dura per la durata dell'incantesimo.</p><p>Il vento ha i seguenti effetti:</p><ul class=\"rd__list\"><li class=\"rd__li \">Ti &Reference[deafened]{assorda} e assorda le altre creature nella sua area.</li><li class=\"rd__li \">Spegne le fiamme non protette nella sua area di dimensioni pari o inferiori a quelle di una torcia.</li><li class=\"rd__li \">Tiene lontani vapori, gas e nebbia che possono essere dispersi da un vento forte.</li><li class=\"rd__li \">L'area è terreno difficile per le creature diverse da te.</li><li class=\"rd__li \">I tiri per colpire degli attacchi a distanza con un'arma hanno svantaggio se gli attacchi attraversano il vento entrando o uscendo da esso.</li></ul></div>",
       "chat": ""
     },
     "source": {
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

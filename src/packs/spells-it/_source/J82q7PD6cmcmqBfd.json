@@ -4,7 +4,7 @@
   "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
   "system": {
     "description": {
-      "value": "<p>Il vento ti avvolge il corpo, scuotendo i tuoi capelli e i tuoi vestiti mentre i tuoi piedi si sollevano da terra. Ottieni una velocità di volare di 60 piedi. Inoltre, hai vantaggio sulle prove di caratteristica per evitare di essere afferrato, e sui tiri salvezza contro l'essere trattenuto o paralizzato.</p><p>Quando un incantesimo o un attacco ti prende di mira mentre questo incantesimo è in effetto, puoi usare una reazione per teletrasportarti fino a 60 piedi in uno spazio non occupato che puoi vedere. Se questo movimento ti porta fuori dalla gittata dell'incantesimo o dell'attacco che ha innescato la reazione, non ne subisci gli effetti. L'incantesimo termina quando riappari.</p>",
+      "value": "<p>Il vento ti avvolge il corpo, scuotendo i tuoi capelli e i tuoi vestiti mentre i tuoi piedi si sollevano da terra. Ottieni una velocità di volare di 18 metri. Inoltre, hai vantaggio sulle prove di caratteristica per evitare di essere afferrato, e sui tiri salvezza contro l'essere trattenuto o paralizzato.</p><p>Quando un incantesimo o un attacco ti prende di mira mentre questo incantesimo è in effetto, puoi usare una reazione per teletrasportarti fino a 18 metri in uno spazio non occupato che puoi vedere. Se questo movimento ti porta fuori dalla gittata dell'incantesimo o dell'attacco che ha innescato la reazione, non ne subisci gli effetti. L'incantesimo termina quando riappari.</p>",
       "chat": ""
     },
     "source": {
@@ -26,7 +26,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

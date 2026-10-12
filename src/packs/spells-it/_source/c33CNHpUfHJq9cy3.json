@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un campo di luce argentea che avvolge una creatura a tua scelta entro gittata (puoi scegliere te stesso). Il campo emette luce fioca fino a 5 piedi di distanza. Mentre è avvolta dal campo, una creatura ottiene i seguenti benefici:</p><ul class=\"rd__list\"><li class=\"rd__li \"><p>Copertura. La creatura ha copertura parziale.</p></li><li class=\"rd__li \"><p>Resistenza ai danni. La creatura ha resistenza ai danni da acido, freddo, fuoco, fulmine e veleno.</p></li><li class=\"rd__li \"><p>Elusione. Se la creatura è sottoposta a un effetto che le permette di effettuare un tiro salvezza su Destrezza per subire solo metà dei danni, la creatura non subisce alcun danno se supera il tiro salvezza, e subisce solo metà dei danni se lo fallisce.</p></li></ul><p>Come azione bonus nei turni successivi, puoi spostare il campo verso un'altra creatura entro 60 piedi dal campo.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un campo di luce argentea che avvolge una creatura a tua scelta entro gittata (puoi scegliere te stesso). Il campo emette luce fioca fino a 1,5 metri di distanza. Mentre è avvolta dal campo, una creatura ottiene i seguenti benefici:</p><ul class=\"rd__list\"><li class=\"rd__li \"><p>Copertura. La creatura ha copertura parziale.</p></li><li class=\"rd__li \"><p>Resistenza ai danni. La creatura ha resistenza ai danni da acido, freddo, fuoco, fulmine e veleno.</p></li><li class=\"rd__li \"><p>Elusione. Se la creatura è sottoposta a un effetto che le permette di effettuare un tiro salvezza su Destrezza per subire solo metà dei danni, la creatura non subisce alcun danno se supera il tiro salvezza, e subisce solo metà dei danni se lo fallisce.</p></li></ul><p>Come azione bonus nei turni successivi, puoi spostare il campo verso un'altra creatura entro 18 metri dal campo.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

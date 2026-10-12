@@ -42,7 +42,7 @@
   },
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un falò su un terreno che puoi vedere entro gittata. Finché l'incantesimo non termina, il falò magico occupa un cubo di 5 piedi. Ogni creatura nello spazio del falò quando lanci l'incantesimo deve superare un tiro salvezza su Destrezza o subire [[/r 1d8]] danni da fuoco. Una creatura deve effettuare il tiro salvezza anche quando entra per la prima volta nello spazio del falò durante un turno o termina lì il proprio turno.</p><p>Il falò accende gli oggetti infiammabili nella sua area che non sono indossati o portati.</p><p>Il danno dell'incantesimo aumenta di [[/r 1d8]] quando raggiungi il 5° livello ([[/r 2d8]]), l'11° livello ([[/r 3d8]]) e il 17° livello ([[/r 4d8]]).</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un falò su un terreno che puoi vedere entro gittata. Finché l'incantesimo non termina, il falò magico occupa un cubo di 1,5 metri. Ogni creatura nello spazio del falò quando lanci l'incantesimo deve superare un tiro salvezza su Destrezza o subire [[/r 1d8]] danni da fuoco. Una creatura deve effettuare il tiro salvezza anche quando entra per la prima volta nello spazio del falò durante un turno o termina lì il proprio turno.</p><p>Il falò accende gli oggetti infiammabili nella sua area che non sono indossati o portati.</p><p>Il danno dell'incantesimo aumenta di [[/r 1d8]] quando raggiungi il 5° livello ([[/r 2d8]]), l'11° livello ([[/r 3d8]]) e il 17° livello ([[/r 4d8]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -64,15 +64,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -127,7 +127,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

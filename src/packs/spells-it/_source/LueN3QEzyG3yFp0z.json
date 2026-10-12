@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Una raffica di palle di neve magiche erompe da un punto che scegli entro gittata. Ogni creatura in una sfera di raggio 5 piedi centrata su quel punto deve effettuare un tiro salvezza su Destrezza. Una creatura subisce [[/r 3d6]] danni da freddo se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di [[/r 1d6]] per ogni slot di livello superiore al 2°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Una raffica di palle di neve magiche erompe da un punto che scegli entro gittata. Ogni creatura in una sfera di raggio 1,5 metri centrata su quel punto deve effettuare un tiro salvezza su Destrezza. Una creatura subisce [[/r 3d6]] danni da freddo se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di [[/r 1d6]] per ogni slot di livello superiore al 2°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "sphere",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "90",
-      "units": "ft"
+      "value": "27",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

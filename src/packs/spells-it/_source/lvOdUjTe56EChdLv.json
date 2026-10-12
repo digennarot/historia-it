@@ -161,7 +161,7 @@
   },
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area d'acqua che puoi vedere entro gittata e che rientri in un cubo di 5 piedi. La manipoli in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Muovi o alteri in altro modo il flusso dell'acqua come desideri, fino a 5 piedi in qualsiasi direzione. Questo movimento non ha forza sufficiente a causare danni.</li><li class=\"rd__li \">Fai assumere all'acqua forme semplici e la animi secondo le tue indicazioni. Questo cambiamento dura 1 ora.</li><li class=\"rd__li \">Cambi il colore o l'opacità dell'acqua. L'acqua deve essere modificata allo stesso modo in tutta la sua estensione. Questo cambiamento dura 1 ora.</li><li class=\"rd__li \">Congeli l'acqua, purché non ci siano creature al suo interno. L'acqua si scongela dopo 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere non più di due dei suoi effetti non istantanei attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area d'acqua che puoi vedere entro gittata e che rientri in un cubo di 1,5 metri. La manipoli in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Muovi o alteri in altro modo il flusso dell'acqua come desideri, fino a 1,5 metri in qualsiasi direzione. Questo movimento non ha forza sufficiente a causare danni.</li><li class=\"rd__li \">Fai assumere all'acqua forme semplici e la animi secondo le tue indicazioni. Questo cambiamento dura 1 ora.</li><li class=\"rd__li \">Cambi il colore o l'opacità dell'acqua. L'acqua deve essere modificata allo stesso modo in tutta la sua estensione. Questo cambiamento dura 1 ora.</li><li class=\"rd__li \">Congeli l'acqua, purché non ci siano creature al suo interno. L'acqua si scongela dopo 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere non più di due dei suoi effetti non istantanei attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
       "chat": ""
     },
     "source": {
@@ -183,13 +183,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "30",
-      "units": "ft"
+      "value": "9",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -241,7 +241,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

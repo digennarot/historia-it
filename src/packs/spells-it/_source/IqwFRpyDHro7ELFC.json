@@ -36,7 +36,7 @@
   "name": "Zolfo",
   "system": {
     "description": {
-      "value": "<p>Evochi un pezzo di zolfo bruciante che si materializza nell'aria e poi cade al suolo in un punto entro gittata. Ogni creatura che occupa quello spazio deve superare un tiro salvezza su Destrezza o subire 2d8 danni contundenti.</p><p>Lo zolfo rimane nello spazio in cui è caduto finché l'incantesimo persiste. Ogni creatura che inizia il proprio turno entro 15 piedi dallo zolfo deve superare un tiro salvezza su Destrezza o subire [[/r 1d8]] danni da fuoco. Lo zolfo può essere distrutto: ha CA 8 e 12 punti ferita. Se subisce danni da fuoco, esplode: l'esplosione termina l'incantesimo e infligge 1d8 danni contundenti a tutte le creature entro 15 piedi, o metà di tali danni a una creatura che supera un tiro salvezza su Destrezza.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni da fuoco aumentano di 1d8 per ogni slot di livello superiore al 1°.</p>",
+      "value": "<p>Evochi un pezzo di zolfo bruciante che si materializza nell'aria e poi cade al suolo in un punto entro gittata. Ogni creatura che occupa quello spazio deve superare un tiro salvezza su Destrezza o subire 2d8 danni contundenti.</p><p>Lo zolfo rimane nello spazio in cui è caduto finché l'incantesimo persiste. Ogni creatura che inizia il proprio turno entro 4,5 metri dallo zolfo deve superare un tiro salvezza su Destrezza o subire [[/r 1d8]] danni da fuoco. Lo zolfo può essere distrutto: ha CA 8 e 12 punti ferita. Se subisce danni da fuoco, esplode: l'esplosione termina l'incantesimo e infligge 1d8 danni contundenti a tutte le creature entro 4,5 metri, o metà di tali danni a una creatura che supera un tiro salvezza su Destrezza.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni da fuoco aumentano di 1d8 per ogni slot di livello superiore al 1°.</p>",
       "chat": ""
     },
     "source": {
@@ -58,13 +58,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -118,7 +118,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -197,7 +197,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

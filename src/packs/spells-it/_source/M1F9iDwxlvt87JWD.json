@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una spada di forza a forma di lama che fluttua entro gittata. Dura per la durata dell'incantesimo.</p><p>Quando compare la spada, effettui un attacco in mischia con incantesimo contro un bersaglio a tua scelta entro 5 piedi dalla spada. Se colpisci, il bersaglio subisce [[/r 3d10]] danni da forza. Finché l'incantesimo non termina, puoi usare un'azione bonus in ciascuno dei tuoi turni per spostare la spada fino a 20 piedi verso un punto che puoi vedere, e ripetere questo attacco contro lo stesso bersaglio o contro un altro.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una spada di forza a forma di lama che fluttua entro gittata. Dura per la durata dell'incantesimo.</p><p>Quando compare la spada, effettui un attacco in mischia con incantesimo contro un bersaglio a tua scelta entro 1,5 metri dalla spada. Se colpisci, il bersaglio subisce [[/r 3d10]] danni da forza. Finché l'incantesimo non termina, puoi usare un'azione bonus in ciascuno dei tuoi turni per spostare la spada fino a 6 metri verso un punto che puoi vedere, e ripetere questo attacco contro lo stesso bersaglio o contro un altro.</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,13 +27,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -89,7 +89,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

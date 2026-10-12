@@ -239,9 +239,9 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 5,
+      "value": 1.5,
       "long": null,
-      "units": "ft",
+      "units": "m",
       "reach": null
     },
     "uses": {
@@ -335,8 +335,8 @@
         },
         "effects": [],
         "range": {
-          "value": "5",
-          "units": "ft",
+          "value": "1.5",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -348,7 +348,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

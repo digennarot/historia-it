@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una mano incorporea di luce scintillante, minuscola, in uno spazio non occupato che puoi vedere entro gittata. La mano esiste per la durata, ma scompare se teletrasporti o viaggi verso un altro piano di esistenza.</p><p>Quando la mano compare, nomini un grande punto di riferimento, come una città, una montagna, un castello o un campo di battaglia, sullo stesso piano di esistenza in cui ti trovi. Qualcuno nella storia deve aver visitato il luogo e tracciato una mappa. Se il punto di riferimento non compare su alcuna mappa esistente, l'incantesimo fallisce. Altrimenti, ogni volta che ti muovi verso la mano, questa si allontana da te alla stessa velocità con cui ti sei mosso, nella direzione del punto di riferimento, restando sempre a 5 piedi di distanza da te.</p><p>Se non ti muovi verso la mano, essa resta sul posto finché non lo fai e ti fa cenno di seguirla ogni [[/r 1d4]] minuti.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una mano incorporea di luce scintillante, minuscola, in uno spazio non occupato che puoi vedere entro gittata. La mano esiste per la durata, ma scompare se teletrasporti o viaggi verso un altro piano di esistenza.</p><p>Quando la mano compare, nomini un grande punto di riferimento, come una città, una montagna, un castello o un campo di battaglia, sullo stesso piano di esistenza in cui ti trovi. Qualcuno nella storia deve aver visitato il luogo e tracciato una mappa. Se il punto di riferimento non compare su alcuna mappa esistente, l'incantesimo fallisce. Altrimenti, ogni volta che ti muovi verso la mano, questa si allontana da te alla stessa velocità con cui ti sei mosso, nella direzione del punto di riferimento, restando sempre a 1,5 metri di distanza da te.</p><p>Se non ti muovi verso la mano, essa resta sul posto finché non lo fai e ti fa cenno di seguirla ogni [[/r 1d4]] minuti.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "5",
-      "units": "ft"
+      "value": "1.5",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

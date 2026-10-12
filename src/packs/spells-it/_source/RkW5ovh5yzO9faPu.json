@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Riempi di magia fatata e draconica un cubo di 20 piedi per lato che puoi vedere entro gittata. Tira sulla tabella Ondata Maliziosa per determinare l'effetto magico prodotto, e tira di nuovo all'inizio di ciascuno dei tuoi turni finché l'incantesimo non termina. Puoi spostare il cubo fino a 10 piedi prima di tirare.</p><table><caption>Ondata Maliziosa</caption><thead><tr><th>[[/r d4]]</th><th>Effetto</th></tr></thead><tbody><tr><td>1</td><td>Un profumo di torta di mele riempie l'aria, e ogni creatura nel cubo deve superare un tiro salvezza su Saggezza o diventare &Reference[charmed]{affascinata} da te fino all'inizio del tuo turno successivo.</td></tr><tr><td>2</td><td>Compaiono mazzi di fiori tutt'intorno, e ogni creatura nel cubo deve superare un tiro salvezza su Destrezza o essere &Reference[blinded]{accecata} fino all'inizio del tuo turno successivo, poiché i fiori le spruzzano acqua in faccia.</td></tr><tr><td>3</td><td>Ogni creatura nel cubo deve superare un tiro salvezza su Saggezza o iniziare a ridacchiare fino all'inizio del tuo turno successivo. Una creatura che ridacchia è &Reference[incapacitated]{incapacitata} e usa tutto il proprio movimento per muoversi in una direzione casuale.</td></tr><tr><td>4</td><td>Gocce di melassa fluttuano nel cubo, rendendolo terreno difficile fino all'inizio del tuo turno successivo.</td></tr></tbody></table></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Riempi di magia fatata e draconica un cubo di 6 metri per lato che puoi vedere entro gittata. Tira sulla tabella Ondata Maliziosa per determinare l'effetto magico prodotto, e tira di nuovo all'inizio di ciascuno dei tuoi turni finché l'incantesimo non termina. Puoi spostare il cubo fino a 3 metri prima di tirare.</p><table><caption>Ondata Maliziosa</caption><thead><tr><th>[[/r d4]]</th><th>Effetto</th></tr></thead><tbody><tr><td>1</td><td>Un profumo di torta di mele riempie l'aria, e ogni creatura nel cubo deve superare un tiro salvezza su Saggezza o diventare &Reference[charmed]{affascinata} da te fino all'inizio del tuo turno successivo.</td></tr><tr><td>2</td><td>Compaiono mazzi di fiori tutt'intorno, e ogni creatura nel cubo deve superare un tiro salvezza su Destrezza o essere &Reference[blinded]{accecata} fino all'inizio del tuo turno successivo, poiché i fiori le spruzzano acqua in faccia.</td></tr><tr><td>3</td><td>Ogni creatura nel cubo deve superare un tiro salvezza su Saggezza o iniziare a ridacchiare fino all'inizio del tuo turno successivo. Una creatura che ridacchia è &Reference[incapacitated]{incapacitata} e usa tutto il proprio movimento per muoversi in una direzione casuale.</td></tr><tr><td>4</td><td>Gocce di melassa fluttuano nel cubo, rendendolo terreno difficile fino all'inizio del tuo turno successivo.</td></tr></tbody></table></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

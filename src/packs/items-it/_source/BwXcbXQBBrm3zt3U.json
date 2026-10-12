@@ -197,9 +197,9 @@
     "identified": true,
     "range": {
       "value": null,
-      "long": 60,
-      "units": "ft",
-      "reach": 20
+      "long": 18,
+      "units": "m",
+      "reach": 6
     },
     "uses": {
       "max": "",
@@ -295,7 +295,7 @@
         },
         "effects": [],
         "range": {
-          "units": "ft",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -307,7 +307,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "0",

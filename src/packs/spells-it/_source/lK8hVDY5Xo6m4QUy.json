@@ -148,7 +148,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Stabilisci un collegamento telepatico con una bestia che tocchi e che ti è amichevole o che è affascinata da te. L'incantesimo fallisce se il punteggio di Intelligenza della bestia è 4 o superiore. Finché l'incantesimo non termina, il collegamento resta attivo mentre la bestia si trova in linea di vista con te. Attraverso il collegamento, la bestia può comprendere i tuoi messaggi telepatici e comunicarti telepaticamente semplici emozioni e concetti. Mentre il collegamento è attivo, la bestia ottiene vantaggio sui tiri per colpire contro qualsiasi creatura entro 5 piedi da te che tu puoi vedere.</p>",
+      "value": "<p>Stabilisci un collegamento telepatico con una bestia che tocchi e che ti è amichevole o che è affascinata da te. L'incantesimo fallisce se il punteggio di Intelligenza della bestia è 4 o superiore. Finché l'incantesimo non termina, il collegamento resta attivo mentre la bestia si trova in linea di vista con te. Attraverso il collegamento, la bestia può comprendere i tuoi messaggi telepatici e comunicarti telepaticamente semplici emozioni e concetti. Mentre il collegamento è attivo, la bestia ottiene vantaggio sui tiri per colpire contro qualsiasi creatura entro 1,5 metri da te che tu puoi vedere.</p>",
       "chat": ""
     },
     "source": {
@@ -172,7 +172,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -232,7 +232,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

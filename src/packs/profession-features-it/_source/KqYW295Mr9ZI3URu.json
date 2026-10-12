@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si ottiene l'accesso a questo mistero fondante, si impara a inviare e ricevere messaggi telepatici da una creatura che può capire entro 60 piedi. Spendendo 1 Punto di Incanto, è possibile stabilire un legame telepatico della durata di 1 ora, con una creatura in grado di comprendervi entro 60 piedi, con la quale è possibile condividere pensieri, sentimenti e, utilizzando un'azione, visione troppo. È possibile lanciare incantesimi sulla creatura con cui si è collegati telepaticamente come se fosse sempre all'interno della gamma.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">Quando si ottiene l'accesso a questo mistero fondante, si impara a inviare e ricevere messaggi telepatici da una creatura che può capire entro 18 metri. Spendendo 1 Punto di Incanto, è possibile stabilire un legame telepatico della durata di 1 ora, con una creatura in grado di comprendervi entro 18 metri, con la quale è possibile condividere pensieri, sentimenti e, utilizzando un'azione, visione troppo. È possibile lanciare incantesimi sulla creatura con cui si è collegati telepaticamente come se fosse sempre all'interno della gamma.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -227,8 +227,8 @@
         },
         "effects": [],
         "range": {
-          "value": "60",
-          "units": "ft",
+          "value": "18",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -240,7 +240,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

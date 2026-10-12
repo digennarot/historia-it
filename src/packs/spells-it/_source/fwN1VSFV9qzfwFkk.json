@@ -101,7 +101,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Risvegli il senso di mortalità in una creatura che puoi vedere entro gittata. Un costrutto o un non morto è immune a questo effetto. Il bersaglio deve superare un tiro salvezza su Saggezza o diventare spaventato nei tuoi confronti finché l'incantesimo non termina. Il bersaglio spaventato può ripetere il tiro salvezza alla fine di ciascuno dei suoi turni, ponendo fine all'effetto su di sé in caso di successo.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 1°. Le creature devono trovarsi entro 30 piedi l'una dall'altra quando le bersagli.</p>",
+      "value": "<p>Risvegli il senso di mortalità in una creatura che puoi vedere entro gittata. Un costrutto o un non morto è immune a questo effetto. Il bersaglio deve superare un tiro salvezza su Saggezza o diventare spaventato nei tuoi confronti finché l'incantesimo non termina. Il bersaglio spaventato può ripetere il tiro salvezza alla fine di ciascuno dei suoi turni, ponendo fine all'effetto su di sé in caso di successo.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando le bersagli.</p>",
       "chat": ""
     },
     "source": {
@@ -125,13 +125,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -185,7 +185,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

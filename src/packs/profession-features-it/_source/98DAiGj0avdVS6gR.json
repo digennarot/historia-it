@@ -197,7 +197,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>@Compendium[historia-it.profession-features-it.oouGluCFWp00TSe3]{Sublimatio (Nigredo, 1 atto)} + @Compendium[historia-it.profession-features-it.WBumObWSisScufbF]{Distillatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">Viene creata una nube di diametro di 10 piedi di vapore e replica<br/>gli effetti della distillatio su tutte le creature al suo interno per un minuto.</span></p>",
+      "value": "<p>@Compendium[historia-it.profession-features-it.oouGluCFWp00TSe3]{Sublimatio (Nigredo, 1 atto)} + @Compendium[historia-it.profession-features-it.WBumObWSisScufbF]{Distillatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">Viene creata una nube di diametro di 3 metri di vapore e replica<br/>gli effetti della distillatio su tutte le creature al suo interno per un minuto.</span></p>",
       "chat": ""
     },
     "source": {
@@ -285,8 +285,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -295,10 +295,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "5",
+            "size": "1.5",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

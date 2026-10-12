@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi un elementale dell'aria Piccolo in un punto entro gittata. L'elementale è senza forma, quasi trasparente, immune a tutti i danni, e non può interagire con altre creature o oggetti. Porta con sé un baule aperto e vuoto, le cui dimensioni interne sono 3 piedi per lato. Finché l'incantesimo dura, puoi depositare nel baule tutti gli oggetti che ci stanno. Puoi poi nominare una creatura vivente che hai incontrato e visto almeno una volta, oppure qualsiasi creatura di cui possiedi una parte del corpo, una ciocca di capelli, un frammento di unghia o una porzione simile del suo corpo.</p><p>Non appena il coperchio del baule viene chiuso, l'elementale e il baule scompaiono, per poi ricomparire accanto alla creatura bersaglio. Se la creatura bersaglio si trova su un altro piano, o se è protetta contro la rilevazione o la localizzazione magica, il contenuto del baule ricompare sul terreno ai tuoi piedi.</p><p>La creatura bersaglio viene informata del contenuto del baule prima di decidere se aprirlo o meno, e sa quanta parte della durata dell'incantesimo resta entro la quale può recuperarlo. Nessun'altra creatura può aprire il baule e recuperarne il contenuto. Quando l'incantesimo scade o quando tutto il contenuto del baule è stato rimosso, l'elementale e il baule scompaiono. L'elementale scompare anche se la creatura bersaglio gli ordina di riportarti gli oggetti. Quando l'elementale scompare, eventuali oggetti non prelevati dal baule ricompaiono sul terreno ai tuoi piedi.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 8° livello, puoi inviare il baule a una creatura che si trova su un piano di esistenza diverso dal tuo.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi un elementale dell'aria Piccolo in un punto entro gittata. L'elementale è senza forma, quasi trasparente, immune a tutti i danni, e non può interagire con altre creature o oggetti. Porta con sé un baule aperto e vuoto, le cui dimensioni interne sono 90 centimetri per lato. Finché l'incantesimo dura, puoi depositare nel baule tutti gli oggetti che ci stanno. Puoi poi nominare una creatura vivente che hai incontrato e visto almeno una volta, oppure qualsiasi creatura di cui possiedi una parte del corpo, una ciocca di capelli, un frammento di unghia o una porzione simile del suo corpo.</p><p>Non appena il coperchio del baule viene chiuso, l'elementale e il baule scompaiono, per poi ricomparire accanto alla creatura bersaglio. Se la creatura bersaglio si trova su un altro piano, o se è protetta contro la rilevazione o la localizzazione magica, il contenuto del baule ricompare sul terreno ai tuoi piedi.</p><p>La creatura bersaglio viene informata del contenuto del baule prima di decidere se aprirlo o meno, e sa quanta parte della durata dell'incantesimo resta entro la quale può recuperarlo. Nessun'altra creatura può aprire il baule e recuperarne il contenuto. Quando l'incantesimo scade o quando tutto il contenuto del baule è stato rimosso, l'elementale e il baule scompaiono. L'elementale scompare anche se la creatura bersaglio gli ordina di riportarti gli oggetti. Quando l'elementale scompare, eventuali oggetti non prelevati dal baule ricompaiono sul terreno ai tuoi piedi.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 8° livello, puoi inviare il baule a una creatura che si trova su un piano di esistenza diverso dal tuo.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "10",
-      "units": "ft"
+      "value": "3",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

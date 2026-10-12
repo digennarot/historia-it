@@ -176,7 +176,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un'energia curativa irradia da te in un'aura di raggio 30 piedi. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Puoi usare un'azione bonus per far recuperare a una creatura nell'aura (incluso te) 2d6 punti ferita.</p>",
+      "value": "<p>Un'energia curativa irradia da te in un'aura di raggio 9 metri. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Puoi usare un'azione bonus per far recuperare a una creatura nell'aura (incluso te) 2d6 punti ferita.</p>",
       "chat": ""
     },
     "source": {
@@ -198,9 +198,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
@@ -259,7 +259,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

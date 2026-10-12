@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Frantumi le barriere tra realtà e linee temporali, gettando una creatura nel caos e nella follia. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti non può usare reazioni finché l'incantesimo non termina. Il bersaglio colpito deve inoltre tirare un [[/r d10]] all'inizio di ciascuno dei suoi turni; il numero ottenuto determina cosa succede al bersaglio, come indicato nella tabella Effetti della Frattura della Realtà.</p><p>Alla fine di ciascuno dei suoi turni, il bersaglio colpito può ripetere il tiro salvezza su Saggezza, ponendo fine all'incantesimo su di sé in caso di successo.</p><table><caption>Effetti della Frattura della Realtà</caption><thead><tr><th>[[/r d10]]</th><th>Effetto</th></tr></thead><tbody><tr><td>1-2</td><td><b>Visione del Reame Remoto.</b> Il bersaglio subisce [[/r 6d12]] danni psichici ed è &Reference[stunned]{stordito} fino alla fine del turno.</td></tr><tr><td>3-5</td><td><b>Squarcio Lacerante.</b> Il bersaglio deve effettuare un tiro salvezza su Destrezza, subendo [[/r 8d12]] danni da forza se fallisce, o metà di tali danni se lo supera.</td></tr><tr><td>6-8</td><td><b>Cunicolo Spaziale.</b> Il bersaglio viene teletrasportato, insieme a tutto ciò che indossa e porta, fino a 30 piedi in uno spazio non occupato a tua scelta che puoi vedere. Il bersaglio subisce anche [[/r 10d12]] danni da forza ed è atterrato &Reference[prone]{prono}.</td></tr><tr><td>9-10</td><td><b>Gelo del Vuoto Oscuro.</b> Il bersaglio subisce [[/r 10d12]] danni da freddo ed è &Reference[blinded]{accecato} fino alla fine del turno.</td></tr></tbody></table></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Frantumi le barriere tra realtà e linee temporali, gettando una creatura nel caos e nella follia. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti non può usare reazioni finché l'incantesimo non termina. Il bersaglio colpito deve inoltre tirare un [[/r d10]] all'inizio di ciascuno dei suoi turni; il numero ottenuto determina cosa succede al bersaglio, come indicato nella tabella Effetti della Frattura della Realtà.</p><p>Alla fine di ciascuno dei suoi turni, il bersaglio colpito può ripetere il tiro salvezza su Saggezza, ponendo fine all'incantesimo su di sé in caso di successo.</p><table><caption>Effetti della Frattura della Realtà</caption><thead><tr><th>[[/r d10]]</th><th>Effetto</th></tr></thead><tbody><tr><td>1-2</td><td><b>Visione del Reame Remoto.</b> Il bersaglio subisce [[/r 6d12]] danni psichici ed è &Reference[stunned]{stordito} fino alla fine del turno.</td></tr><tr><td>3-5</td><td><b>Squarcio Lacerante.</b> Il bersaglio deve effettuare un tiro salvezza su Destrezza, subendo [[/r 8d12]] danni da forza se fallisce, o metà di tali danni se lo supera.</td></tr><tr><td>6-8</td><td><b>Cunicolo Spaziale.</b> Il bersaglio viene teletrasportato, insieme a tutto ciò che indossa e porta, fino a 9 metri in uno spazio non occupato a tua scelta che puoi vedere. Il bersaglio subisce anche [[/r 10d12]] danni da forza ed è atterrato &Reference[prone]{prono}.</td></tr><tr><td>9-10</td><td><b>Gelo del Vuoto Oscuro.</b> Il bersaglio subisce [[/r 10d12]] danni da freddo ed è &Reference[blinded]{accecato} fino alla fine del turno.</td></tr></tbody></table></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

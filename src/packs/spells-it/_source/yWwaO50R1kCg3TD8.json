@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>L'aria vibra attorno a fino a cinque creature a tua scelta che puoi vedere entro gittata. Una creatura non consenziente deve superare un tiro salvezza su Saggezza per resistere a questo incantesimo. Teletrasporti ciascun bersaglio colpito in uno spazio non occupato che puoi vedere entro 120 piedi da te. Quello spazio deve trovarsi sul terreno o su un pavimento.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>L'aria vibra attorno a fino a cinque creature a tua scelta che puoi vedere entro gittata. Una creatura non consenziente deve superare un tiro salvezza su Saggezza per resistere a questo incantesimo. Teletrasporti ciascun bersaglio colpito in uno spazio non occupato che puoi vedere entro 36 metri da te. Quello spazio deve trovarsi sul terreno o su un pavimento.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "30",
-      "units": "ft"
+      "value": "9",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -84,7 +84,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

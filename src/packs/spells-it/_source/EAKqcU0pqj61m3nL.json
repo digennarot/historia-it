@@ -115,7 +115,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Fiamme avvolgono una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Destrezza. Subisce 8d6 danni da fuoco se fallisce, o metà di tali danni se lo supera. Se fallisce, il bersaglio brucia anche per la durata dell'incantesimo. Il bersaglio in fiamme emette luce intensa in un raggio di 30 piedi e luce fioca per altri 30 piedi. Alla fine di ciascuno dei suoi turni, il bersaglio ripete il tiro salvezza. Subisce 4d6 danni da fuoco se fallisce, e l'incantesimo termina se lo supera. Queste fiamme magiche non possono essere spente con mezzi non magici.</p><p>Se i danni di questo incantesimo uccidono un bersaglio, il bersaglio viene ridotto in cenere.</p>",
+      "value": "<p>Fiamme avvolgono una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Destrezza. Subisce 8d6 danni da fuoco se fallisce, o metà di tali danni se lo supera. Se fallisce, il bersaglio brucia anche per la durata dell'incantesimo. Il bersaglio in fiamme emette luce intensa in un raggio di 9 metri e luce fioca per altri 9 metri. Alla fine di ciascuno dei suoi turni, il bersaglio ripete il tiro salvezza. Subisce 4d6 danni da fuoco se fallisce, e l'incantesimo termina se lo supera. Queste fiamme magiche non possono essere spente con mezzi non magici.</p><p>Se i danni di questo incantesimo uccidono un bersaglio, il bersaglio viene ridotto in cenere.</p>",
       "chat": ""
     },
     "source": {
@@ -139,13 +139,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "90",
-      "units": "ft"
+      "value": "27",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -198,7 +198,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

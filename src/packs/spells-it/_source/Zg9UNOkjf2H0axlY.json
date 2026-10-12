@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Un'esplosione di energia gelida erompe da te in un cono di 30 piedi. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione. Se fallisce, la creatura subisce [[/r 3d8]] danni da freddo ed è coperta di ghiaccio per 1 minuto, o finché una creatura non usa la propria azione per spezzare il ghiaccio da sé o da un'altra creatura. Una creatura coperta di ghiaccio ha la velocità ridotta a 0. Se supera il tiro salvezza, la creatura subisce metà dei danni senza altri effetti.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni da freddo aumentano di [[/r 1d8]] per ogni slot di livello superiore al 2°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Un'esplosione di energia gelida erompe da te in un cono di 9 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione. Se fallisce, la creatura subisce [[/r 3d8]] danni da freddo ed è coperta di ghiaccio per 1 minuto, o finché una creatura non usa la propria azione per spezzare il ghiaccio da sé o da un'altra creatura. Una creatura coperta di ghiaccio ha la velocità ridotta a 0. Se supera il tiro salvezza, la creatura subisce metà dei danni senza altri effetti.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni da freddo aumentano di [[/r 1d8]] per ogni slot di livello superiore al 2°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,9 +25,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cone",
-        "size": "15",
+        "size": "4.5",
         "contiguous": false
       }
     },
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

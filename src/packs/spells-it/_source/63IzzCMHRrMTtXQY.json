@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Un getto di acido emana da te in una linea lunga 30 piedi e larga 5 piedi, nella direzione che scegli. Ogni creatura nella linea deve superare un tiro salvezza su Destrezza o essere ricoperta di acido per la durata dell'incantesimo, o finché una creatura non usa la propria azione per raschiare o lavare via l'acido da sé o da un'altra creatura. Una creatura ricoperta di acido subisce [[/r 3d4]] danni da acido all'inizio di ciascuno dei suoi turni.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di [[/r 1d4]] per ogni slot di livello superiore al 1°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Un getto di acido emana da te in una linea lunga 9 metri e larga 1,5 metri, nella direzione che scegli. Ogni creatura nella linea deve superare un tiro salvezza su Destrezza o essere ricoperta di acido per la durata dell'incantesimo, o finché una creatura non usa la propria azione per raschiare o lavare via l'acido da sé o da un'altra creatura. Una creatura ricoperta di acido subisce [[/r 3d4]] danni da acido all'inizio di ciascuno dei suoi turni.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di [[/r 1d4]] per ogni slot di livello superiore al 1°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,9 +25,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "line",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

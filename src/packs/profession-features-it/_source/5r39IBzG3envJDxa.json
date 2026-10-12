@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando una creatura si può vedere attacchi un bersaglio diverso da voi che è dentro 5 piedi di voi, è possibile utilizzare la vostra reazione per imporre svantaggi sul tiro per colpire. Devi tenere uno scudo.</p>",
+      "value": "<p>Quando una creatura si può vedere attacchi un bersaglio diverso da voi che è dentro 1,5 metri di voi, è possibile utilizzare la vostra reazione per imporre svantaggi sul tiro per colpire. Devi tenere uno scudo.</p>",
       "chat": ""
     },
     "source": {
@@ -219,8 +219,8 @@
         },
         "effects": [],
         "range": {
-          "value": "5",
-          "units": "ft",
+          "value": "1.5",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -232,7 +232,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

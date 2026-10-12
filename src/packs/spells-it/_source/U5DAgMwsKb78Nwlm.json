@@ -147,7 +147,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Crei una scheggia di ghiaccio e la scagli contro una creatura entro gittata. Effettua un attacco a distanza con incantesimo contro il bersaglio. Se colpisci, il bersaglio subisce 1d10 danni perforanti. Che l'attacco vada a segno o manchi, la scheggia esplode. Il bersaglio e ogni creatura entro 5 piedi da esso devono superare un tiro salvezza su Destrezza o subire 2d6 danni da freddo.</p><p>Aggiungi 1d6 ai danni da freddo per ogni livello dello slot incantesimo di 2° livello o superiore.</p>",
+      "value": "<p>Crei una scheggia di ghiaccio e la scagli contro una creatura entro gittata. Effettua un attacco a distanza con incantesimo contro il bersaglio. Se colpisci, il bersaglio subisce 1d10 danni perforanti. Che l'attacco vada a segno o manchi, la scheggia esplode. Il bersaglio e ogni creatura entro 1,5 metri da esso devono superare un tiro salvezza su Destrezza o subire 2d6 danni da freddo.</p><p>Aggiungi 1d6 ai danni da freddo per ogni livello dello slot incantesimo di 2° livello o superiore.</p>",
       "chat": ""
     },
     "source": {
@@ -171,13 +171,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -232,7 +232,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -323,7 +323,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -408,7 +408,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

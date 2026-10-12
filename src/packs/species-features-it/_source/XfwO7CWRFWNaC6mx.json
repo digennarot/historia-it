@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile spendere la loro reazione per ottenere vantaggio sul tiro per colpire contro una creatura che è entro 5 piedi del vostro alleato o eseguire un'azione di aiuto per aiutare un alleato contro un avversario a 5 piedi da voi.</p>",
+      "value": "<p>È possibile spendere la loro reazione per ottenere vantaggio sul tiro per colpire contro una creatura che è entro 1,5 metri del vostro alleato o eseguire un'azione di aiuto per aiutare un alleato contro un avversario a 1,5 metri da voi.</p>",
       "chat": ""
     },
     "source": {
@@ -227,7 +227,7 @@
         },
         "effects": [],
         "range": {
-          "units": "ft",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -239,7 +239,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

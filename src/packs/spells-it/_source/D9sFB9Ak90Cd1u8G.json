@@ -32,7 +32,7 @@
   "name": "Fuoco sotto la Lingua",
   "system": {
     "description": {
-      "value": "<p>Puoi ingerire un fuoco non magico delle dimensioni di un normale falò, che si trova entro gittata. Il fuoco viene immagazzinato senza danno nella tua bocca e si dissipa senza effetto se non viene usato prima che l'incantesimo termini. Puoi sputare il fuoco immagazzinato come azione. Se vuoi colpire un bersaglio specifico, considera questo come un attacco a distanza con gittata di 5 piedi. Le fiamme delle dimensioni di un falò infliggono 2d6 danni da fuoco, mentre quelle delle dimensioni di una torcia ne infliggono 1d6. Una volta sputato, il fuoco si spegne immediatamente, a meno che non colpisca un materiale infiammabile in grado di alimentarlo.</p>",
+      "value": "<p>Puoi ingerire un fuoco non magico delle dimensioni di un normale falò, che si trova entro gittata. Il fuoco viene immagazzinato senza danno nella tua bocca e si dissipa senza effetto se non viene usato prima che l'incantesimo termini. Puoi sputare il fuoco immagazzinato come azione. Se vuoi colpire un bersaglio specifico, considera questo come un attacco a distanza con gittata di 1,5 metri. Le fiamme delle dimensioni di un falò infliggono 2d6 danni da fuoco, mentre quelle delle dimensioni di una torcia ne infliggono 1d6. Una volta sputato, il fuoco si spegne immediatamente, a meno che non colpisca un materiale infiammabile in grado di alimentarlo.</p>",
       "chat": ""
     },
     "source": {
@@ -54,13 +54,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "5",
-      "units": "ft"
+      "value": "1.5",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -114,7 +114,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

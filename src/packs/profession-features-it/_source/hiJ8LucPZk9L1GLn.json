@@ -180,7 +180,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A 15° livello è possibile utilizzare Divinità Canale per dissipare il dolore di qualcuno. Come azione, una creatura mirata entro 60 piedi delle vostre preghiere diventa resistente ai danni per un minuto e ignora gli effetti del livello di sfinimento fino alla fine del vostro turno successivo.<br/></span></p>\n<p><span class=\"fontstyle0\">L'effetto può essere attivato su un bersaglio non sensibile, che può effettuare un Tiro Salvezza su Carisma per resistere.<br/></span></p>\n<p><span class=\"fontstyle0\">Questo effetto termina altri effetti che vengono mantenuti da danni inflitti o sofferenti, come la mortificazione.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">A 15° livello è possibile utilizzare Divinità Canale per dissipare il dolore di qualcuno. Come azione, una creatura mirata entro 18 metri delle vostre preghiere diventa resistente ai danni per un minuto e ignora gli effetti del livello di sfinimento fino alla fine del vostro turno successivo.<br/></span></p>\n<p><span class=\"fontstyle0\">L'effetto può essere attivato su un bersaglio non sensibile, che può effettuare un Tiro Salvezza su Carisma per resistere.<br/></span></p>\n<p><span class=\"fontstyle0\">Questo effetto termina altri effetti che vengono mantenuti da danni inflitti o sofferenti, come la mortificazione.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -236,8 +236,8 @@
         },
         "effects": [],
         "range": {
-          "value": "60",
-          "units": "ft",
+          "value": "18",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -249,7 +249,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

@@ -153,7 +153,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Crei portali di teletrasporto collegati tra loro che restano aperti per la durata. Scegli due punti sul terreno che puoi vedere, uno entro 10 piedi da te e uno entro 500 piedi da te. Un portale circolare, di 10 piedi di diametro, si apre su ciascun punto. Se il portale dovesse aprirsi nello spazio occupato da una creatura, l'incantesimo fallisce e il lancio va perso.</p><p>I portali sono anelli bidimensionali luminosi riempiti di nebbia, che fluttuano a pochi pollici dal terreno e perpendicolari ad esso nei punti che scegli. Un anello è visibile solo da un lato (a tua scelta), che è il lato che funziona come portale.</p><p>Ogni creatura od oggetto che entra nel portale esce dall'altro portale come se i due fossero adiacenti; attraversare un portale dal lato non portale non ha effetto. La nebbia che riempie ciascun portale è opaca e blocca la vista attraverso di esso. Nel tuo turno, puoi ruotare gli anelli come azione bonus, in modo che il lato attivo sia rivolto in una direzione diversa.</p>",
+      "value": "<p>Crei portali di teletrasporto collegati tra loro che restano aperti per la durata. Scegli due punti sul terreno che puoi vedere, uno entro 3 metri da te e uno entro 150 metri da te. Un portale circolare, di 3 metri di diametro, si apre su ciascun punto. Se il portale dovesse aprirsi nello spazio occupato da una creatura, l'incantesimo fallisce e il lancio va perso.</p><p>I portali sono anelli bidimensionali luminosi riempiti di nebbia, che fluttuano a pochi centimetri dal terreno e perpendicolari ad esso nei punti che scegli. Un anello è visibile solo da un lato (a tua scelta), che è il lato che funziona come portale.</p><p>Ogni creatura od oggetto che entra nel portale esce dall'altro portale come se i due fossero adiacenti; attraversare un portale dal lato non portale non ha effetto. La nebbia che riempie ciascun portale è opaca e blocca la vista attraverso di esso. Nel tuo turno, puoi ruotare gli anelli come azione bonus, in modo che il lato attivo sia rivolto in una direzione diversa.</p>",
       "chat": ""
     },
     "source": {
@@ -175,13 +175,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "500",
-      "units": "ft"
+      "value": "150",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -235,7 +235,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

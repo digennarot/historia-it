@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei sei piccole meteore nel tuo spazio. Fluttuano nell'aria e ti orbitano attorno per la durata dell'incantesimo. Quando lanci l'incantesimo, e come azione bonus in ciascuno dei tuoi turni successivi, puoi consumarne una o due, facendole sfrecciare verso un punto o più punti a tua scelta entro 120 piedi da te. Quando una meteora raggiunge la propria destinazione o urta una superficie solida, esplode. Ogni creatura entro 5 piedi dal punto in cui la meteora esplode deve effettuare un tiro salvezza su Destrezza. Una creatura subisce [[/r 2d6]] danni da fuoco se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, il numero di meteore create aumenta di due per ogni slot di livello superiore al 3°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei sei piccole meteore nel tuo spazio. Fluttuano nell'aria e ti orbitano attorno per la durata dell'incantesimo. Quando lanci l'incantesimo, e come azione bonus in ciascuno dei tuoi turni successivi, puoi consumarne una o due, facendole sfrecciare verso un punto o più punti a tua scelta entro 36 metri da te. Quando una meteora raggiunge la propria destinazione o urta una superficie solida, esplode. Ogni creatura entro 1,5 metri dal punto in cui la meteora esplode deve effettuare un tiro salvezza su Destrezza. Una creatura subisce [[/r 2d6]] danni da fuoco se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, il numero di meteore create aumenta di due per ogni slot di livello superiore al 3°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

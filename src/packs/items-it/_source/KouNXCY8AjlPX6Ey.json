@@ -164,7 +164,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Come azione, è possibile diffondere un singolo sacchetto di caltrops per coprire una superficie di 5 piedi quadrati. Qualsiasi creatura che entra nell'area deve avere successo su un lancio CD 15 Destrezza risparmio o smettere di muoversi e prendere 1 danno di perforazione. Fino a quando la creatura non riacquista almeno 1 punto di colpo, la sua velocità di camminata è ridotta di 10 piedi. Una creatura che si muove attraverso la zona a metà velocità non ha bisogno di fare il tiro salvezza.</p>",
+      "value": "<p>Come azione, è possibile diffondere un singolo sacchetto di caltrops per coprire un'area quadrata di 1,5 metri di lato. Qualsiasi creatura che entra nell'area deve avere successo su un lancio CD 15 Destrezza risparmio o smettere di muoversi e prendere 1 danno di perforazione. Fino a quando la creatura non riacquista almeno 1 punto di colpo, la sua velocità di camminata è ridotta di 3 metri. Una creatura che si muove attraverso la zona a metà velocità non ha bisogno di fare il tiro salvezza.</p>",
       "chat": ""
     },
     "source": {
@@ -271,10 +271,10 @@
             "count": "",
             "contiguous": false,
             "type": "square",
-            "size": "5",
+            "size": "1.5",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Una luce fioca e verdastra si diffonde in una sfera di raggio 30 piedi centrata su un punto a tua scelta entro gittata. La luce si propaga attorno agli angoli e dura finché l'incantesimo non termina.</p><p>Quando una creatura entra per la prima volta nell'area dell'incantesimo in un turno o inizia lì il proprio turno, deve superare un tiro salvezza su Costituzione o subire [[/r 4d10]] danni radiosi, e subisce un livello di &Reference[exhaustion]{indebolimento} ed emette una luce fioca verdastra in un raggio di 5 piedi. Questa luce rende impossibile alla creatura beneficiare dell'essere &Reference[invisible]{invisibile}. La luce e gli eventuali livelli di &Reference[exhaustion]{indebolimento} causati da questo incantesimo scompaiono quando l'incantesimo termina.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Una luce fioca e verdastra si diffonde in una sfera di raggio 9 metri centrata su un punto a tua scelta entro gittata. La luce si propaga attorno agli angoli e dura finché l'incantesimo non termina.</p><p>Quando una creatura entra per la prima volta nell'area dell'incantesimo in un turno o inizia lì il proprio turno, deve superare un tiro salvezza su Costituzione o subire [[/r 4d10]] danni radiosi, e subisce un livello di &Reference[exhaustion]{indebolimento} ed emette una luce fioca verdastra in un raggio di 1,5 metri. Questa luce rende impossibile alla creatura beneficiare dell'essere &Reference[invisible]{invisibile}. La luce e gli eventuali livelli di &Reference[exhaustion]{indebolimento} causati da questo incantesimo scompaiono quando l'incantesimo termina.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "sphere",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
     "range": {
-      "value": "120",
-      "units": "ft"
+      "value": "36",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

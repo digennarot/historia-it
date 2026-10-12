@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli una creatura che puoi vedere entro gittata. Strisce gialle di energia magica si avvolgono attorno alla creatura. Il bersaglio deve superare un tiro salvezza su Forza, altrimenti la sua velocità di volare (se ne ha una) è ridotta a 0 piedi per la durata dell'incantesimo. Una creatura in volo colpita da questo incantesimo scende in sicurezza a 60 piedi per round, fino a raggiungere il suolo o fino al termine dell'incantesimo.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli una creatura che puoi vedere entro gittata. Strisce gialle di energia magica si avvolgono attorno alla creatura. Il bersaglio deve superare un tiro salvezza su Forza, altrimenti la sua velocità di volare (se ne ha una) è ridotta a 0 centimetri per la durata dell'incantesimo. Una creatura in volo colpita da questo incantesimo scende in sicurezza a 18 metri per round, fino a raggiungere il suolo o fino al termine dell'incantesimo.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "300",
-      "units": "ft"
+      "value": "90",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

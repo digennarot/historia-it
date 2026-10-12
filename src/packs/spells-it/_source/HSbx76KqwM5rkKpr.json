@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Per la durata, tu o una creatura consenziente che puoi vedere entro gittata ha resistenza ai danni psichici, oltre a vantaggio sui tiri salvezza su Intelligenza, Saggezza e Carisma.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 3°. Le creature devono trovarsi entro 30 piedi l'una dall'altra quando le bersagli.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Per la durata, tu o una creatura consenziente che puoi vedere entro gittata ha resistenza ai danni psichici, oltre a vantaggio sui tiri salvezza su Intelligenza, Saggezza e Carisma.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 3°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando le bersagli.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "30",
-      "units": "ft"
+      "value": "9",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

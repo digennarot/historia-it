@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Una fortezza di pietra erompe da un'area quadrata di terreno a tua scelta che puoi vedere entro gittata. L'area è di 120 piedi per lato e non deve avere edifici o altre strutture. Le creature nell'area vengono sollevate senza danno mentre la fortezza si innalza.</p><p>La fortezza ha quattro torri con basi quadrate, ciascuna di 20 piedi per lato e alta 30 piedi, una per ogni angolo. Le torri sono collegate tra loro da mura di pietra lunghe 80 piedi ciascuna, che creano un'area racchiusa. Ogni muro è spesso 1 piede ed è composto da pannelli larghi 10 piedi e alti 20 piedi. Ogni pannello è contiguo a due altri pannelli, oppure a un altro pannello e a una torre. Puoi collocare fino a quattro porte di pietra nella cinta esterna della fortezza.</p><p>All'interno dell'area racchiusa sorge un piccolo maniero. Il maniero ha una base quadrata di 50 piedi per lato e tre piani con soffitti alti 10 piedi. Ciascun piano può essere suddiviso in quante stanze desideri, purché ogni stanza misuri almeno 5 piedi per lato. I piani del maniero sono collegati da scale di pietra, le sue pareti sono spesse 6 pollici, e le stanze interne possono avere porte di pietra o archi aperti, a tua scelta. Il maniero è arredato e decorato come preferisci, e contiene cibo sufficiente per servire ogni giorno un banchetto di nove portate a 100 persone. Mobili, cibo e altri oggetti creati da questo incantesimo si sbriciolano in polvere se vengono rimossi dalla fortezza.</p><p>Uno staff di cento servitori invisibili obbedisce a qualsiasi comando impartito dalle creature che designi quando lanci l'incantesimo. Ogni servitore funziona come se fosse stato creato dall'incantesimo servitore inosservato.</p><p>Le mura, le torri e il maniero sono tutti di pietra, che può essere danneggiata. Ogni sezione di pietra di 10 piedi per 10 piedi ha CA 15 e 30 punti ferita per pollice di spessore. È immune a danni da veleno e psichici. Ridurre una sezione di pietra a 0 punti ferita la distrugge, e può far cedere e crollare le sezioni collegate a discrezione del DM.</p><p>Dopo 7 giorni, o quando lanci questo incantesimo altrove, la fortezza si sbriciola innocuamente e sprofonda nel terreno, lasciando le creature che si trovavano al suo interno sane e salve sul terreno.</p><p>Lanciare questo incantesimo nello stesso punto una volta ogni 7 giorni per un anno rende la fortezza permanente.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Una fortezza di pietra erompe da un'area quadrata di terreno a tua scelta che puoi vedere entro gittata. L'area è di 36 metri per lato e non deve avere edifici o altre strutture. Le creature nell'area vengono sollevate senza danno mentre la fortezza si innalza.</p><p>La fortezza ha quattro torri con basi quadrate, ciascuna di 6 metri per lato e alta 9 metri, una per ogni angolo. Le torri sono collegate tra loro da mura di pietra lunghe 24 metri ciascuna, che creano un'area racchiusa. Ogni muro è spesso 30 centimetri ed è composto da pannelli larghi 3 metri e alti 6 metri. Ogni pannello è contiguo a due altri pannelli, oppure a un altro pannello e a una torre. Puoi collocare fino a quattro porte di pietra nella cinta esterna della fortezza.</p><p>All'interno dell'area racchiusa sorge un piccolo maniero. Il maniero ha una base quadrata di 15 metri per lato e tre piani con soffitti alti 3 metri. Ciascun piano può essere suddiviso in quante stanze desideri, purché ogni stanza misuri almeno 1,5 metri per lato. I piani del maniero sono collegati da scale di pietra, le sue pareti sono spesse 15 centimetri, e le stanze interne possono avere porte di pietra o archi aperti, a tua scelta. Il maniero è arredato e decorato come preferisci, e contiene cibo sufficiente per servire ogni giorno un banchetto di nove portate a 100 persone. Mobili, cibo e altri oggetti creati da questo incantesimo si sbriciolano in polvere se vengono rimossi dalla fortezza.</p><p>Uno staff di cento servitori invisibili obbedisce a qualsiasi comando impartito dalle creature che designi quando lanci l'incantesimo. Ogni servitore funziona come se fosse stato creato dall'incantesimo servitore inosservato.</p><p>Le mura, le torri e il maniero sono tutti di pietra, che può essere danneggiata. Ogni sezione di pietra di 3 metri per 3 metri ha CA 15 e 30 punti ferita per ogni 2,5 centimetri di spessore. È immune a danni da veleno e psichici. Ridurre una sezione di pietra a 0 punti ferita la distrugge, e può far cedere e crollare le sezioni collegate a discrezione del DM.</p><p>Dopo 7 giorni, o quando lanci questo incantesimo altrove, la fortezza si sbriciola innocuamente e sprofonda nel terreno, lasciando le creature che si trovavano al suo interno sane e salve sul terreno.</p><p>Lanciare questo incantesimo nello stesso punto una volta ogni 7 giorni per un anno rende la fortezza permanente.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "1",
-      "units": "mi"
+      "value": "1.5",
+      "units": "km"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

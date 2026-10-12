@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Finché l'incantesimo non termina, il ghiaccio ricopre il tuo corpo, e ottieni i seguenti benefici:</p><ul class=\"rd__list\"><li class=\"rd__li \">Sei immune ai danni da freddo e hai resistenza ai danni da fuoco.</li><li class=\"rd__li \">Puoi attraversare il terreno difficile creato da ghiaccio o neve senza spendere movimento extra.</li><li class=\"rd__li \">Il terreno in un raggio di 10 piedi intorno a te è ghiacciato e costituisce terreno difficile per le creature diverse da te. Il raggio si muove con te.</li><li class=\"rd__li \">Puoi usare la tua azione per creare un cono di 15 piedi di vento gelido che si estende dalla mano tesa in una direzione a tua scelta. Ogni creatura nel cono deve effettuare un tiro salvezza su Costituzione. Una creatura subisce [[/r 4d6]] danni da freddo se fallisce, o metà di tali danni se lo supera. Una creatura che fallisce il tiro salvezza contro questo effetto ha la velocità dimezzata fino all'inizio del tuo turno successivo.</li></ul></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Finché l'incantesimo non termina, il ghiaccio ricopre il tuo corpo, e ottieni i seguenti benefici:</p><ul class=\"rd__list\"><li class=\"rd__li \">Sei immune ai danni da freddo e hai resistenza ai danni da fuoco.</li><li class=\"rd__li \">Puoi attraversare il terreno difficile creato da ghiaccio o neve senza spendere movimento extra.</li><li class=\"rd__li \">Il terreno in un raggio di 3 metri intorno a te è ghiacciato e costituisce terreno difficile per le creature diverse da te. Il raggio si muove con te.</li><li class=\"rd__li \">Puoi usare la tua azione per creare un cono di 4,5 metri di vento gelido che si estende dalla mano tesa in una direzione a tua scelta. Ogni creatura nel cono deve effettuare un tiro salvezza su Costituzione. Una creatura subisce [[/r 4d6]] danni da freddo se fallisce, o metà di tali danni se lo supera. Una creatura che fallisce il tiro salvezza contro questo effetto ha la velocità dimezzata fino all'inizio del tuo turno successivo.</li></ul></div>",
       "chat": ""
     },
     "source": {
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

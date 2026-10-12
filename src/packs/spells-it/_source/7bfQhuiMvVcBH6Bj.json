@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b  rd__b--3\"><p>Crei una frusta di energia fulminea che colpisce una creatura a tua scelta che puoi vedere entro 15 piedi da te. Il bersaglio deve superare un tiro salvezza su Forza o essere trascinato fino a 10 piedi in linea retta verso di te e poi subire [[/r 1d8]] danni da fulmine se si trova entro 5 piedi da te.</p><div class=\"rd__spc-inline-post\"></div><p>Il danno di questo incantesimo aumenta di [[/r 1d8]] quando raggiungi il 5° livello ([[/r 2d8]]), l'11° livello ([[/r 3d8]]) e il 17° livello ([[/r 4d8]]).</p></div>",
+      "value": "<div class=\"rd__b  rd__b--3\"><p>Crei una frusta di energia fulminea che colpisce una creatura a tua scelta che puoi vedere entro 4,5 metri da te. Il bersaglio deve superare un tiro salvezza su Forza o essere trascinato fino a 3 metri in linea retta verso di te e poi subire [[/r 1d8]] danni da fulmine se si trova entro 1,5 metri da te.</p><div class=\"rd__spc-inline-post\"></div><p>Il danno di questo incantesimo aumenta di [[/r 1d8]] quando raggiungi il 5° livello ([[/r 2d8]]), l'11° livello ([[/r 3d8]]) e il 17° livello ([[/r 4d8]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

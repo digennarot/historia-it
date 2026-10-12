@@ -187,13 +187,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "90",
-      "units": "ft"
+      "value": "27",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -248,7 +248,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

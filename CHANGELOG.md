@@ -7,6 +7,15 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Changed
+- **Sistema metrico nei pack italiani**, come nella traduzione ufficiale di
+  dnd5e (`dnd5e-it-translation`): distanze in metri (piedi × 0,3: 1,5 m,
+  9 m, 18 m…), pollici in centimetri, miglia in chilometri, volumi in metri
+  cubi, aree come "area quadrata di X metri di lato". Convertiti anche i
+  dati: gittata, area, velocità e sensi passano da `ft` a `m` (e `mi` a
+  `km`), così scheda e descrizione coincidono. Le libbre restano invariate.
+  Corrette le altezze delle specie rovinate dalla traduzione automatica.
+
 ## [1.0.28] - 2026-10-12
 
 ### Fixed

@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una parete di sabbia turbinante sul terreno, in un punto che puoi vedere entro gittata. Puoi creare la parete lunga fino a 30 piedi, alta 10 piedi e spessa 10 piedi, e svanisce quando l'incantesimo termina. Blocca la linea di vista ma non il movimento. Una creatura è &Reference[blinded]{accecata} mentre si trova nello spazio della parete e deve spendere 3 piedi di movimento per ogni piede percorso al suo interno.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una parete di sabbia turbinante sul terreno, in un punto che puoi vedere entro gittata. Puoi creare la parete lunga fino a 9 metri, alta 3 metri e spessa 3 metri, e svanisce quando l'incantesimo termina. Blocca la linea di vista ma non il movimento. Una creatura è &Reference[blinded]{accecata} mentre si trova nello spazio della parete e deve spendere 3 metri di movimento per ogni metro percorso al suo interno.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "wall",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
     "range": {
-      "value": "90",
-      "units": "ft"
+      "value": "27",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

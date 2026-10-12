@@ -185,7 +185,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>La prossima volta che colpisci una creatura con un attacco in mischia con un'arma durante la durata dell'incantesimo, la tua arma si accende di un'intensità bianco-rovente, e l'attacco infligge 1d6 danni da fuoco extra al bersaglio, che prende fuoco. All'inizio di ciascuno dei suoi turni, finché l'incantesimo non termina, il bersaglio deve effettuare un tiro salvezza su Costituzione. Se fallisce, subisce 1d6 danni da fuoco. Se lo supera, l'incantesimo termina. Se il bersaglio o una creatura entro 5 piedi da esso usa un'azione per spegnere le fiamme, o se un altro effetto le spegne (come l'essere immerso nell'acqua), l'incantesimo termina.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni extra iniziali inflitti dall'attacco aumentano di 1d6 per ogni slot di livello superiore al 1°.</p>",
+      "value": "<p>La prossima volta che colpisci una creatura con un attacco in mischia con un'arma durante la durata dell'incantesimo, la tua arma si accende di un'intensità bianco-rovente, e l'attacco infligge 1d6 danni da fuoco extra al bersaglio, che prende fuoco. All'inizio di ciascuno dei suoi turni, finché l'incantesimo non termina, il bersaglio deve effettuare un tiro salvezza su Costituzione. Se fallisce, subisce 1d6 danni da fuoco. Se lo supera, l'incantesimo termina. Se il bersaglio o una creatura entro 1,5 metri da esso usa un'azione per spegnere le fiamme, o se un altro effetto le spegne (come l'essere immerso nell'acqua), l'incantesimo termina.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni extra iniziali inflitti dall'attacco aumentano di 1d6 per ogni slot di livello superiore al 1°.</p>",
       "chat": ""
     },
     "source": {
@@ -207,7 +207,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -266,7 +266,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -357,7 +357,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

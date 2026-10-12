@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Tocchi il terreno ed eviti una struttura difensiva fatta di carte da gioco enormi. La struttura si innalza con te al centro, sollevando senza danno te e le creature nell'area. La casa di carte ha una base quadrata di 30 piedi per lato, e ha tre piani con soffitti alti 10 piedi. Il secondo piano è di 20 piedi per lato e il piano più alto è di 10 piedi per lato, entrambi centrati sopra il piano inferiore. Rampe collegano l'interno di ciascun piano, e stipiti di porte vuoti collegano l'interno e l'esterno di ogni livello. Le creature all'interno o sopra la struttura hanno copertura parziale.</p><p>Ogni carta che compone la casa è larga 5 piedi e alta 10 piedi, ed è molto fragile. Una carta ha CA 10 e 1 punto ferita. Le carte sono immuni a danni da veleno e psichici. Ridurre una carta a 0 punti ferita la distrugge. Ogni volta che una carta viene distrutta, tira [[/r 1d6]]. Se ottieni un 5 o un 6, la casa crolla, e l'incantesimo termina.</p><p>La casa e tutte le sue carte svaniscono quando l'incantesimo termina.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Tocchi il terreno ed eviti una struttura difensiva fatta di carte da gioco enormi. La struttura si innalza con te al centro, sollevando senza danno te e le creature nell'area. La casa di carte ha una base quadrata di 9 metri per lato, e ha tre piani con soffitti alti 3 metri. Il secondo piano è di 6 metri per lato e il piano più alto è di 3 metri per lato, entrambi centrati sopra il piano inferiore. Rampe collegano l'interno di ciascun piano, e stipiti di porte vuoti collegano l'interno e l'esterno di ogni livello. Le creature all'interno o sopra la struttura hanno copertura parziale.</p><p>Ogni carta che compone la casa è larga 1,5 metri e alta 3 metri, ed è molto fragile. Una carta ha CA 10 e 1 punto ferita. Le carte sono immuni a danni da veleno e psichici. Ridurre una carta a 0 punti ferita la distrugge. Ogni volta che una carta viene distrutta, tira [[/r 1d6]]. Se ottieni un 5 o un 6, la casa crolla, e l'incantesimo termina.</p><p>La casa e tutte le sue carte svaniscono quando l'incantesimo termina.</p></div>",
       "chat": ""
     },
     "source": {
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
