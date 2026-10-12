@@ -25,13 +25,13 @@ async function copyFileAndDirs(src, dest) {
 
 const LABEL_TRANSLATIONS = {
     "factions-and-careers": "Fazioni e Carriere",
-    "ventures": "Imprese",
-    "factions": "Fazioni",
-    "items": "Oggetti",
+    "ventures": "Imprese e Prominenze",
+    "factions": "Guida alle Fazioni",
+    "items": "Equipaggiamento",
     "species": "Specie",
-    "profession-features": "Privilegi di Professione",
-    "professions": "Professioni",
-    "species-features": "Privilegi di Specie",
+    "profession-features": "Privilegi dei Mestieri",
+    "professions": "Mestieri",
+    "species-features": "Tratti di Specie",
     "spells": "Incantesimi",
     "historia-factions": "Fazioni (Historia)",
     "items-historia": "Oggetti (Historia)",
@@ -244,7 +244,9 @@ async function main() {
 
             await processData(entryData);
 
-            if (entryData.type === "Folder") {
+            const isFolder = entryData.type === "Folder" || (entryData.sorting !== undefined && !entryData.system && !entryData.pages);
+            if (isFolder) {
+                if (entryData.type === "Folder") entryData.type = pack_type;
                 const folderId = entryData._id;
                 entryData._key = `!folders!${folderId}`;
                 folderCount++;
@@ -272,27 +274,28 @@ async function main() {
                 label: pack_label,
                 path: `packs/${pack_name}`,
                 type: pack_type,
-                system: "dnd5e",
-                folder: "Historia"
+                system: "dnd5e"
             });
         }
     }
 
-    rootManifest.packs = packs;
-    const folderConfig = rootManifest.folders?.find(f => f.name === "Historia");
-    if (!folderConfig) {
-        rootManifest.folders = [
-            ...(rootManifest.folders || []),
-            {
-                name: "Historia",
-                sorting: "a",
-                color: "#d4af37",
-                id: "Historia"
-            }
-        ];
-    } else {
-        folderConfig.id = "Historia";
-    }
+    // Ordine dei pack e cartelle colorate nella barra dei compendi (packFolders, Foundry v11+)
+    const PACK_GROUPS = [
+        { name: "Personaggio", color: "#2e7d32", packs: ["species", "species-features", "ventures", "professions", "profession-features"] },
+        { name: "Mondo", color: "#1565c0", packs: ["factions", "factions-and-careers"] },
+        { name: "Equipaggiamento e Magia", color: "#6a1b9a", packs: ["items", "spells"] }
+    ];
+    const PACK_NAME = n => packs.find(p => p.name === n || p.name === `${n}-it`)?.name;
+    rootManifest.packs = PACK_GROUPS.flatMap(g => g.packs.map(PACK_NAME)).filter(Boolean).map(n => packs.find(p => p.name === n));
+    for (const p of packs) if (!rootManifest.packs.includes(p)) rootManifest.packs.push(p);
+    delete rootManifest.folders;
+    rootManifest.packFolders = [{
+        name: "Historia",
+        sorting: "m",
+        color: "#d4af37",
+        packs: [],
+        folders: PACK_GROUPS.map((g, i) => ({ name: g.name, sorting: "m", color: g.color, packs: g.packs.map(PACK_NAME).filter(Boolean), folders: [] }))
+    }];
 
     await fs.writeFile("historia-it/module.json", JSON.stringify(rootManifest, null, 2));
     console.log("Generated historia-it/module.json");

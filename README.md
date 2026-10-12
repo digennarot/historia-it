@@ -57,6 +57,8 @@ Se desideri compilare il modulo dai sorgenti, installa prima le dipendenze con `
 - Build della versione italiana: `npm run build:it`
 - Build della versione inglese: `npm run build:en`
 - Build di entrambe: `npm run build:all`
+- Riordino delle schede dei pack IT in cartelle colorate: `npm run organize`
+  (rilanciabile dopo aver aggiunto schede; le cartelle sono file `folder-*.json` in `_source`).
 
 Il build produce le directory `historia-it/` e `historia-en/` (entrambe ignorate da git) con i pack compilati, il manifesto `module.json` e gli asset necessari.
 

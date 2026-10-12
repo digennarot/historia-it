@@ -26,12 +26,7 @@
   "description": "English module for Historia.",
   "manifest": "https://raw.githubusercontent.com/digennarot/historia-it/main/module-en.json",
   "download": "https://github.com/digennarot/historia-it/releases/latest/download/historia-en.zip",
-  "esmodules": ["scripts/main.js"],
-  "folders": [
-    {
-      "name": "Historia",
-      "sorting": "a",
-      "color": "#d4af37"
-    }
+  "esmodules": [
+    "scripts/main.js"
   ]
 }

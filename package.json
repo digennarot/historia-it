@@ -8,6 +8,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "cli": "node src/cli.mjs",
+    "organize": "node scripts/organize_folders.mjs",
     "build:it": "node scripts/build_it.mjs",
     "build:en": "node scripts/build_en.mjs",
     "build:all": "npm run build:it && npm run build:en"
