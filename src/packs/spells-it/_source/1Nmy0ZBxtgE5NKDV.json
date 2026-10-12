@@ -4,7 +4,7 @@
   "img": "icons/magic/defensive/shield-barrier-blue.webp",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Tu tocchi una creatura, imbevuta di vitalità. Se il bersaglio ha almeno 1 punto di colpo, ottiene un certo numero di Punti Ferita temporanei pari a [[/r 1d4] + il modificatore di abilità di incantesimo. I Punti Ferita temporanei vengono persi quando l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"></div></div>",
+      "value": "<div class=\"rd__b  rd__b--3\"><p>Tocchi una creatura, infondendole vitalità. Se il bersaglio ha almeno 1 punto ferita, ottiene un numero di punti ferita temporanei pari a [[/r 1d4]] + il tuo modificatore di abilità da incantatore. I punti ferita temporanei vanno persi quando l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"></div></div>",
       "chat": ""
     },
     "source": {

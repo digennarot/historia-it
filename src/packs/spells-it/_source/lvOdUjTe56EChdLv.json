@@ -1,5 +1,5 @@
 {
-  "name": "Forma Acqua",
+  "name": "Modellare l'Acqua",
   "type": "spell",
   "img": "icons/magic/water/pseudopod-swirl-blue.webp",
   "effects": [],
@@ -161,7 +161,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Scegli una zona d'acqua che puoi vedere all'interno della gamma e che si adatta a un cubo di 5 piedi. Lo manipola in uno dei seguenti modi:</p>\n<ul>\n<li>Si muove istantaneamente o altrimenti cambiare il flusso dell'acqua come si dirige, fino a 5 piedi in qualsiasi direzione. Questo movimento non ha abbastanza forza per causare danni.</li>\n<li>L'acqua si forma in forme semplici e si anima nella vostra direzione. Questo cambiamento dura per 1 ora.</li>\n<li>Cambia il colore o l'opacità dell'acqua. L'acqua deve essere cambiata nello stesso modo. Questo cambiamento dura per 1 ora.</li>\n<li>Si congela l'acqua, a condizione che non ci sono creature in esso. L'acqua si congela in 1 ora.</li>\n</ul>\n<p>Se si lancia questo incantesimo più volte, si può avere non più di due dei suoi effetti non-instantanei attivi alla volta, e si può respingere tale effetto come un'azione.</p>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area d'acqua che puoi vedere entro gittata e che rientri in un cubo di 5 piedi. La manipoli in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Muovi o alteri in altro modo il flusso dell'acqua come desideri, fino a 5 piedi in qualsiasi direzione. Questo movimento non ha forza sufficiente a causare danni.</li><li class=\"rd__li \">Fai assumere all'acqua forme semplici e la animi secondo le tue indicazioni. Questo cambiamento dura 1 ora.</li><li class=\"rd__li \">Cambi il colore o l'opacità dell'acqua. L'acqua deve essere modificata allo stesso modo in tutta la sua estensione. Questo cambiamento dura 1 ora.</li><li class=\"rd__li \">Congeli l'acqua, purché non ci siano creature al suo interno. L'acqua si scongela dopo 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere non più di due dei suoi effetti non istantanei attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
       "chat": ""
     },
     "source": {
