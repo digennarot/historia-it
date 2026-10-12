@@ -7,6 +7,18 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.32] - 2026-10-13
+
+### Changed
+- **Compendi organizzati in cartelle colorate**: mestieri e privilegi per
+  mestiere e sottoclasse, specie e tratti per ordine e familia,
+  incantesimi per livello, equipaggiamento per categoria; fazioni e
+  carriere, imprese e prominenze separate.
+- **Barra dei compendi**: pack raggruppati in Personaggio, Mondo ed
+  Equipaggiamento e Magia (packFolders), con etichette coi termini del
+  manuale (Mestieri, Privilegi dei Mestieri, Tratti di Specie,
+  Equipaggiamento, Imprese e Prominenze, Guida alle Fazioni).
+
 ## [1.0.31] - 2026-10-12
 
 ### Fixed
