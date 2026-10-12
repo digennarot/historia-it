@@ -1,3 +1,4 @@
+import { fileURLToPath } from "url";
 import fs from "fs/promises";
 import path from "path";
 import { compilePack } from "@foundryvtt/foundryvtt-cli/lib/package.mjs";
@@ -15,7 +16,7 @@ async function readJson(filePath) {
 
 // Helper to copy a file and create directories as needed
 async function copyFileAndDirs(src, dest) {
-    const rootDir = path.dirname(path.dirname(new URL(import.meta.url).pathname));
+    const rootDir = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
     const fullSrc = path.isAbsolute(src) ? src : path.join(rootDir, src);
     const fullDest = path.isAbsolute(dest) ? dest : path.join(rootDir, dest);
     await fs.mkdir(path.dirname(fullDest), { recursive: true });
