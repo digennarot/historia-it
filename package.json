@@ -1,22 +1,22 @@
 {
-    "name": "historia-cli",
-    "version": "1.0.29",
-    "description": "Maintenance CLI for Historia VTT module",
-    "type": "module",
-    "main": "src/cli.mjs",
-    "scripts": {
-        "test": "vitest run",
-        "test:watch": "vitest",
-        "cli": "node src/cli.mjs",
-        "build:it": "node scripts/build_it.mjs",
-        "build:en": "node scripts/build_en.mjs",
-        "build:all": "npm run build:it && npm run build:en"
-    },
-    "dependencies": {
-        "commander": "^12.0.0"
-    },
-    "devDependencies": {
-        "@foundryvtt/foundryvtt-cli": "^3.0.3",
-        "vitest": "^1.4.0"
-    }
+  "name": "historia-cli",
+  "version": "1.0.29",
+  "description": "Maintenance CLI for Historia VTT module",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "node src/cli.mjs",
+    "build:it": "node scripts/build_it.mjs",
+    "build:en": "node scripts/build_en.mjs",
+    "build:all": "npm run build:it && npm run build:en"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3",
+    "vitest": "^1.4.0"
+  }
 }

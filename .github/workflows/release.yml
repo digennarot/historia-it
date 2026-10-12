@@ -5,6 +5,11 @@ on:
     tags:
       - 'v*'
 
+# Un solo rilascio alla volta: due tag pushati insieme non si pestano i piedi sul repo di distribuzione.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -14,54 +19,89 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Extract version
+        id: extract_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> "$GITHUB_OUTPUT"
+
+      - name: Check version consistency
+        env:
+          VERSION: ${{ steps.extract_version.outputs.VERSION }}
+        run: |
+          for f in module-it.json module-en.json package.json; do
+            v=$(jq -r .version "$f")
+            if [ "$v" != "$VERSION" ]; then
+              echo "::error file=$f::version is $v but tag is v$VERSION"
+              exit 1
+            fi
+          done
+
       - name: Install SOPS
         uses: mdgreenwald/mozilla-sops-action@v1.6.0
         with:
-          version: 'latest'
+          version: 'v3.9.4'
 
       - name: Decrypt secrets
-        id: decrypt_secrets
         env:
           SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
         run: |
           if [ -z "$SOPS_AGE_KEY" ]; then
-            echo "Error: SOPS_AGE_KEY is not set in GitHub Secrets."
-            echo "Please ensure you have added the 'SOPS_AGE_KEY' secret to your repository settings."
+            echo "::error::SOPS_AGE_KEY is not set in GitHub Secrets."
             exit 1
           fi
           DIST_REPO_PAT=$(sops -d --extract '["DIST_REPO_PAT"]' secrets.enc.yaml)
+          if [ -z "$DIST_REPO_PAT" ]; then
+            echo "::error::DIST_REPO_PAT is empty after decryption."
+            exit 1
+          fi
           echo "::add-mask::$DIST_REPO_PAT"
-          echo "DIST_REPO_PAT=$DIST_REPO_PAT" >> $GITHUB_ENV
+          echo "DIST_REPO_PAT=$DIST_REPO_PAT" >> "$GITHUB_ENV"
 
-      - name: Extract version
-        id: extract_version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
 
       - name: Build both versions
         run: npm run build:all
 
       - name: Verify build output
         run: |
-          test -f historia-it/scripts/main.js || { echo "ERROR: historia-it/scripts/main.js missing from build output"; exit 1; }
-          test -f historia-it/module.json || { echo "ERROR: historia-it/module.json missing from build output"; exit 1; }
+          for m in historia-it historia-en; do
+            for f in module.json scripts/main.js "media/Background/historia login page.webp"; do
+              test -f "$m/$f" || { echo "::error::$m/$f missing from build output"; exit 1; }
+            done
+            test -n "$(ls -A "$m/packs")" || { echo "::error::$m/packs is empty"; exit 1; }
+          done
           echo "Build output verified."
 
       - name: Substitute version in module.json
+        env:
+          VERSION: ${{ steps.extract_version.outputs.VERSION }}
         run: |
-          sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.extract_version.outputs.VERSION }}\"/g" historia-it/module.json
-          sed -i "s|/releases/latest/download/historia-it.zip|/releases/download/v${{ steps.extract_version.outputs.VERSION }}/historia-it.zip|g" historia-it/module.json
-          sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.extract_version.outputs.VERSION }}\"/g" historia-en/module.json
-          sed -i "s|/releases/latest/download/historia-en.zip|/releases/download/v${{ steps.extract_version.outputs.VERSION }}/historia-en.zip|g" historia-en/module.json
+          for m in historia-it historia-en; do
+            jq --arg v "$VERSION" --arg m "$m" \
+              '.version = $v | .download |= sub("/releases/latest/download/\($m).zip$"; "/releases/download/v\($v)/\($m).zip")' \
+              "$m/module.json" > "$m/module.json.tmp"
+            mv "$m/module.json.tmp" "$m/module.json"
+            jq -r '"\(.id) \(.version) \(.download)"' "$m/module.json"
+          done
 
       - name: Create ZIP archives
         run: |
           mkdir -p zip-output
-          cd historia-it && zip -r ../zip-output/historia-it.zip . && cd ..
-          cd historia-en && zip -r ../zip-output/historia-en.zip . && cd ..
+          # I file LOG/LOCK sono residui di LevelDB e non servono a Foundry.
+          for m in historia-it historia-en; do
+            (cd "$m" && zip -r -q "../zip-output/$m.zip" . -x 'packs/*/LOG*' 'packs/*/LOCK')
+          done
           cp historia-en/module.json zip-output/module-en.json
+          ls -lh zip-output
 
       - name: Create Release
         uses: ncipollo/release-action@v1
@@ -76,6 +116,25 @@ jobs:
           allowUpdates: true
           skipIfReleaseExists: false
 
+      # Prima aggiorna main del repo di distribuzione, così il tag della release punta al commit con il nuovo module.json.
+      - name: Update module.json in Distribution Repo Main
+        env:
+          VERSION: ${{ steps.extract_version.outputs.VERSION }}
+        run: |
+          git clone --depth 1 "https://x-access-token:${DIST_REPO_PAT}@github.com/digennarot/historia-it-dist.git" dist-repo
+          cp historia-it/module.json dist-repo/module.json
+          cd dist-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add module.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update module.json to v$VERSION"
+            git push
+          fi
+          echo "DIST_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
       - name: Create Release on Distribution Repo
         uses: ncipollo/release-action@v1
         with:
@@ -83,6 +142,7 @@ jobs:
           token: ${{ env.DIST_REPO_PAT }}
           owner: digennarot
           repo: historia-it-dist
+          commit: ${{ env.DIST_SHA }}
           name: Release ${{ steps.extract_version.outputs.VERSION }}
           tag: v${{ steps.extract_version.outputs.VERSION }}
           draft: false
@@ -90,14 +150,3 @@ jobs:
           generateReleaseNotes: true
           allowUpdates: true
           skipIfReleaseExists: false
-
-      - name: Update module.json in Distribution Repo Main
-        run: |
-          git clone https://x-access-token:${{ env.DIST_REPO_PAT }}@github.com/digennarot/historia-it-dist.git dist-repo
-          cp historia-it/module.json dist-repo/module.json
-          cd dist-repo
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add module.json
-          git commit -m "Update module.json to v${{ steps.extract_version.outputs.VERSION }}" || echo "No changes to commit"
-          git push

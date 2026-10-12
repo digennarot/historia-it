@@ -303,9 +303,11 @@ async function main() {
     // Copy runtime scripts
     try {
         await copyFileAndDirs("src/scripts/main.js", `${buildDir}/scripts/main.js`);
+        await copyFileAndDirs("media/Background/historia login page.webp", `${buildDir}/media/Background/historia login page.webp`);
         console.log("Copied runtime scripts.");
     } catch (e) {
         console.error("Failed to copy runtime scripts:", e);
+        throw e;
     }
 
     console.log(`Need to copy ${imagesToCopy.size} image files...`);
@@ -337,4 +339,7 @@ async function main() {
     await fs.rm("temp_packs_en", { recursive: true, force: true });
 }
 
-main().catch(console.error);
+main().catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+});

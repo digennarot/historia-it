@@ -1,39 +1,37 @@
 {
-    "id": "historia-en",
-    "title": "Historia (English)",
-    "version": "1.0.29",
-    "compatibility": {
-        "minimum": 12,
-        "verified": 14
-    },
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "compatibility": {
-                    "minimum": "4.0.0",
-                    "verified": "6.0.5"
-                }
-            }
-        ]
-    },
-    "authors": [
-        {
-            "name": "Tiziano Di Gennaro"
+  "id": "historia-en",
+  "title": "Historia (English)",
+  "version": "1.0.29",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 14
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0",
+          "verified": "6.0.5"
         }
-    ],
-    "description": "English module for Historia.",
-    "manifest": "https://raw.githubusercontent.com/digennarot/historia-it/main/module-en.json",
-    "download": "https://github.com/digennarot/historia-it/releases/latest/download/historia-en.zip",
-    "esmodules": [
-        "scripts/main.js"
-    ],
-    "folders": [
-        {
-            "name": "Historia",
-            "sorting": "a",
-            "color": "#d4af37"
-        }
+      }
     ]
+  },
+  "authors": [
+    {
+      "name": "Tiziano Di Gennaro"
+    }
+  ],
+  "description": "English module for Historia.",
+  "manifest": "https://raw.githubusercontent.com/digennarot/historia-it/main/module-en.json",
+  "download": "https://github.com/digennarot/historia-it/releases/latest/download/historia-en.zip",
+  "esmodules": ["scripts/main.js"],
+  "folders": [
+    {
+      "name": "Historia",
+      "sorting": "a",
+      "color": "#d4af37"
+    }
+  ]
 }
