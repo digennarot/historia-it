@@ -1,5 +1,5 @@
 {
-  "name": "Contro tutti",
+  "name": "Solo Contro Tutti",
   "type": "feat",
   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A 20° livello, se non ci sono alleati entro 9 metri e sei in inferiorità numerica da nemici, si aggiunge sempre @Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} danneggia i vostri attacchi, e recupera l'uso della vostra reazione all'inizio di ogni altro turno in combattimento.</span> </p>",
+      "value": "<p>Al 20° livello, se non ci sono alleati entro 9 metri da te e sei in inferiorità numerica, aggiungi sempre i danni dell'@Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} ai tuoi attacchi e recuperi l'uso della reazione all'inizio di ogni altro turno in combattimento.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canaglia Livello 20",
+    "requirements": "Furfante Livello 20",
     "cover": null,
     "crewed": false,
     "prerequisites": {

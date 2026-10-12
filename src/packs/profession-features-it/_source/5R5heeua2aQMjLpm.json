@@ -1,5 +1,5 @@
 {
-  "name": "Valutazione attiva",
+  "name": "Valutatore Attento",
   "type": "feat",
   "img": "icons/skills/trades/academics-investigation-study-blue.webp",
   "effects": [],
@@ -149,7 +149,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Un occhio addestrato nella valutazione degli oggetti è altamente richiesto nel commercio e necessario quando partecipa a una vendita di asta, dove i commercianti sono considerati i compagni perfetti. In ogni controllo di intelligenza o Saggezza fatto per determinare la qualità, le proprietà e il valore di un oggetto, si considera qualsiasi risultato inferiore a 9 come se fosse 9.</span> </p>",
+      "value": "<p>Un occhio allenato nel valutare gli oggetti è molto richiesto negli affari e indispensabile quando si partecipa a un'asta, dove i mercanti sono considerati i compagni perfetti. In ogni prova di Intelligenza o Saggezza effettuata per determinare la qualità, le proprietà e il valore di un oggetto, ogni risultato del d20 inferiore a 9 conta come un 9.</p>",
       "chat": ""
     },
     "source": {
@@ -166,7 +166,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mercante Livello 3, Raccoglitore di Rarità",
+    "requirements": "Mercante Livello 3, Collezionista di Rarità",
     "cover": null,
     "crewed": false,
     "prerequisites": {

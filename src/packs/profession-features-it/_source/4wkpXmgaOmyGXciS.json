@@ -1,5 +1,5 @@
 {
-  "name": "Esplosioni strategiche",
+  "name": "Esplosioni Strategiche",
   "type": "feat",
   "img": "icons/tools/navigation/map-marked-red.webp",
   "effects": [],
@@ -161,7 +161,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal 13° livello, la vostra preparazione tattica è ineguagliabile. Come azione bonus, è possibile comunicare che in precedenza hai posto cariche esplosive entro 18 metri di</span> <span class=\"fontstyle0\">la tua posizione, rimanendo nei limiti del realistico (potresti aver corrotto una guardia, inviato un pacchetto o simili). Questi dispositivi esploderanno e tratteranno danni come una delle loro granate, e i bersagli devono effettuare un tiro salvezza con svantaggio a causa di essere sorpresi.</span></p>\n<p><span class=\"fontstyle0\">Durante una sequenza di assedio o storytelling, questa capacità può essere utilizzata per ottenere due colpi automatici come azione bonus, senza alcun costo punto Ferita. Una volta usata, questa abilità non può essere utilizzata di nuovo fino a completare un riposo lungo.</span></p>",
+      "value": "<p>A partire dal 13° livello la tua preparazione tattica non ha eguali. Come azione bonus puoi dichiarare di aver piazzato in precedenza delle cariche esplosive entro 18 metri dalla tua posizione, restando nei limiti del realistico (potresti aver corrotto una guardia, spedito un pacco o simili). Questi ordigni esplodono e infliggono danni come una delle tue granate, e i bersagli effettuano il tiro salvezza con svantaggio perché colti di sorpresa.</p>\n<p>Durante un assedio o una sequenza narrativa, puoi usare questa capacità come azione bonus per ottenere due successi automatici, senza costi in punti ferita. Una volta usata, non puoi usarla di nuovo finché non completi un riposo lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -183,7 +183,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Geniere Livello 13, Granatiere",
+    "requirements": "Geniere Livello 13, Guastatore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

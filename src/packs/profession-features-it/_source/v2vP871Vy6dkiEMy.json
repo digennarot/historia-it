@@ -1,5 +1,5 @@
 {
-  "name": "Da Dolore a Trionfo",
+  "name": "Dal Dolore al Trionfo",
   "type": "feat",
   "img": "icons/magic/fire/flame-burning-fist-strike.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si ottiene un 1 su un tiro per colpire o un tiro salvezza, si può scegliere di utilizzare lesioni auto-inflitte per renderlo un 20 naturale. Il danno è necrotico, ignora la resistenza e l'immunità, e permette di attivare la Mortificazione.</span></p>",
+      "value": "<p>Quando ottieni 1 a un tiro per colpire o a un tiro salvezza, puoi scegliere di usare @Compendium[historia-it.profession-features-it.p40i8SqR3b3SfEPT]{Lesioni Autoinflitte} per trasformarlo in un 20 naturale. I danni sono necrotici, ignorano resistenze e immunità e permettono di attivare la @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione}.</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 3",
+    "requirements": "Mortificato Livello 3",
     "cover": null,
     "crewed": false,
     "prerequisites": {

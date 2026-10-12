@@ -1,5 +1,5 @@
 {
-  "name": "Pratiche alchemiche - Nigredo, 1 atto",
+  "name": "Pratiche Alchemiche: Nigredo (1 atto)",
   "type": "feat",
   "img": "icons/tools/laboratory/vials-blue-pink.webp",
   "effects": [],
@@ -192,7 +192,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Un alchimista sa come trasmutare la materia, il corpo e lo spirito attraverso le fondamenta dell'alchimia. Tutto inizia con la fase nera, chiamata Nigredo, attraverso la quale i quattro elementi fondamentali - acqua, aria, fuoco e terra - possono essere manipolati nei quattro atti fondamentali della pratica alchemica: Calcinatio, Putrefatio, Distillatio e Sublimatio.</span></p><p><span class=\"fontstyle0\">Al primo livello, si è in grado di utilizzare rapidamente una versione ruvida del Nigredo. Come azione bonus sul vostro turno, si può eseguire uno dei quattro atti descritti di seguito. Ognuno di loro crea una miscela semplice che può essere utilizzata da chiunque come azione:</span></p><ul><li>@UUID[Compendium.historia-it.profession-features-it.f2VOHHQEL6sWCIDA]{Calcinatio (Nigredo, 1 atto)}</li><li>@UUID[Compendium.historia-it.profession-features-it.009XtDGPgbuuoTcB]{Putrefatio (Nigredo, 1 atto)}</li><li>@UUID[Compendium.historia-it.profession-features-it.AmhkLm6tgPUUV9hX]{Distillatio (Nigredo, 1 atto)}</li><li>@UUID[Compendium.historia-it.profession-features-it.Pvp9npbvvHUfg2Ow]{Sublimatio (Nigredo, 1 atto)}</li></ul><p><span class=\"fontstyle0\">È possibile eseguire queste procedure più volte come mostrato nella tabella. Alla fine di un breve o lungo riposo, le miscele esistenti perdono il loro potere e si recuperano tutti gli usi. Con esperienza, gli alchimisti impareranno a usare rapidamente più procedure nello stesso turno, combinando i quattro effetti fondamentali per ottenere risultati nuovi e misteriosi.<br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>",
+      "value": "<p>Un alchimista sa trasmutare materia, corpo e spirito attraverso i fondamenti dell'alchimia. Tutto inizia con la fase nera, detta Nigredo, attraverso la quale i quattro elementi di base (acqua, aria, fuoco e terra) possono essere manipolati nei quattro atti fondamentali della pratica alchemica: Calcinatio, Putrefatio, Distillatio e Sublimatio.</p><p>Al 1° livello sai usare rapidamente una versione grezza della Nigredo. Come azione bonus nel tuo turno puoi eseguire uno dei quattro atti descritti di seguito. Ognuno crea una semplice mistura che chiunque può usare come azione:</p><ul><li>@UUID[Compendium.historia-it.profession-features-it.Item.f2VOHHQEL6sWCIDA]{Pratica Alchemica: Calcinatio (Nigredo, 1 atto)}</li><li>@UUID[Compendium.historia-it.profession-features-it.Item.009XtDGPgbuuoTcB]{Pratica Alchemica: Putrefatio (Nigredo, 1 atto)}</li><li>@UUID[Compendium.historia-it.profession-features-it.Item.AmhkLm6tgPUUV9hX]{Pratica Alchemica: Distillatio (Nigredo, 1 atto)}</li><li>@UUID[Compendium.historia-it.profession-features-it.Item.Pvp9npbvvHUfg2Ow]{Pratica Alchemica: Sublimatio (Nigredo, 1 atto)}</li></ul><p>Puoi eseguire queste procedure il numero di volte indicato nella tabella. Alla fine di un riposo breve o lungo, le misture esistenti perdono il loro potere e recuperi tutti gli usi. Con l'esperienza, gli alchimisti imparano a eseguire rapidamente più procedure nello stesso processo, combinando i quattro effetti fondamentali per ottenere risultati nuovi e misteriosi.</p>",
       "chat": ""
     },
     "source": {
@@ -209,7 +209,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Alchimista",
+    "requirements": "Alchimista Livello 1",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Mistero maggiore: il terremoto",
+  "name": "Mistero Maggiore: Sisma",
   "type": "feat",
   "img": "icons/magic/earth/barrier-stone-brown-green.webp",
   "effects": [],
@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo grande mistero, si sa come invocare la terra nella propria difesa. Quando una creatura a piedi arriva a una distanza di meno di 1,5 metri, si può spendere</span><span class=\"fontstyle0\">1 Punto di Incanto come reazione e forzare la creatura a tirare un Tiro Salvezza su Forza. Se la creatura fallisce il tiro salvezza, la sua velocità diminuirà a 0 e cadrà prono a terra, spinto appena oltre 1,5 metri lontano dal mago.</span> </p>",
+      "value": "<p>Quando accedi a questo Mistero Maggiore sai invocare la terra in tua difesa. Quando una creatura che cammina arriva a meno di 1,5 metri da te, puoi spendere 1 punto incanto come reazione e costringerla a effettuare un tiro salvezza su Forza. Se lo fallisce, la sua velocità scende a 0 e cade a terra prona, spinta poco oltre 1,5 metri dal magus.</p>",
       "chat": ""
     },
     "source": {
@@ -186,7 +186,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 7, Segreto dell'Acqua",
+    "requirements": "Magus Livello 7, Segreto della Terra",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Il dolore oltre la morte",
+  "name": "Dolore Oltre la Morte",
   "type": "feat",
   "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A 17° livello, avete un legame così forte tra la loro anima e il dolore che anche la morte non è in grado di separare i due. Durante la mortificazione, non puoi morire.</span> </p>",
+      "value": "<p>Al 17° livello il legame tra la tua anima e il dolore è così forte che neppure la morte può spezzarlo. Durante la @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione} non puoi morire.</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 17",
+    "requirements": "Mortificato Livello 17",
     "cover": null,
     "crewed": false,
     "prerequisites": {

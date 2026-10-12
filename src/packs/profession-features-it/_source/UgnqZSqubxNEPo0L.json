@@ -1,5 +1,5 @@
 {
-  "name": "Camouflage esperto",
+  "name": "Mimetizzazione Esperta",
   "type": "feat",
   "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
   "effects": [],
@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal 9° livello, è possibile utilizzare l'azione bonus per nascondere. Inoltre, è possibile trascorrere 1 minuto camouflaging con l'ambiente utilizzando fango, potting suolo, piante o fuliggine. In questo modo si può cercare di nascondere appiattindo contro una parete, un albero, una roccia o altri elementi almeno grande come la vostra dimensione. Se lo fai, ottieni un bonus +10 sulle prove di Destrezza (Furtività) fino a quando rimani ancora senza muovere o eseguire azioni. Se si muove o eseguire un'azione o una reazione, si dovrà camuffare di nuovo per ottenere questo beneficio.</span></p>",
+      "value": "<p>A partire dal 9° livello puoi usare l'azione bonus per effettuare l'azione di Nascondersi. Inoltre, puoi dedicare 1 minuto a mimetizzarti con l'ambiente usando fango, terriccio, piante o fuliggine. In questo modo puoi tentare di nasconderti appiattendoti contro un muro, un albero, una roccia o un altro elemento grande almeno quanto te. Se lo fai, ottieni un bonus di +10 alle prove di Destrezza (Furtività) finché resti immobile, senza muoverti né compiere azioni. Se ti muovi o compi un'azione o una reazione, devi mimetizzarti di nuovo per ottenere questo beneficio.</p>",
       "chat": ""
     },
     "source": {
@@ -188,7 +188,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 9",
+    "requirements": "Venturiero Livello 9",
     "cover": null,
     "crewed": false,
     "prerequisites": {

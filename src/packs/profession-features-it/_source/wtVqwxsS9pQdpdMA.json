@@ -1,5 +1,5 @@
 {
-  "name": "Strumenti di richiesta",
+  "name": "Strumenti dell'Inquisizione",
   "type": "feat",
   "img": "media/Profession Features/bonus-cl-psionic.webp",
   "effects": [],
@@ -89,9 +89,9 @@
       "sorting": "l",
       "spells": {
         "0": {
-          "id": "gbJhqaxft4RGWt9p",
-          "name": "Hex",
-          "pack": "historia-it.spells-it",
+          "id": "0xmXiPiuYws1OGcX",
+          "name": "Marchio del Cacciatore",
+          "pack": "dnd5e.spells",
           "img": "Profession%20Features/trs.webp",
           "baseLevel": "1",
           "level": "1",
@@ -179,7 +179,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Da quando hai scelto questo modo, hai sempre il @Compendium[historia-it.spells-it.gbJhqaxft4RGWt9p]{Sortilegio} incantesimo pronto, oltre agli altri incantesimi. Questo incantesimo non richiede concentrazione e la slot incantesimo utilizzata per lanciare è recuperato alla fine del vostro turno.</span></p>\n<p><span class=\"fontstyle0\">Se si lancia un incantesimo che richiede concentrazione e si mantiene per tutta la durata, alla fine dell'incantesimo si può spendere un Dado Vita per recuperare una quantità di Punti Ferita pari al risultato + il modificatore Costituzione.</span></p>",
+      "value": "<p>Da quando scegli questa Via hai sempre pronto l'incantesimo @Compendium[dnd5e.spells.Item.0xmXiPiuYws1OGcX]{Marchio del Cacciatore}, in aggiunta agli altri tuoi incantesimi. Questo incantesimo non richiede concentrazione e lo slot incantesimo usato per lanciarlo viene recuperato alla fine del tuo turno.</p>\n<p>Se lanci un incantesimo che richiede concentrazione e la mantieni per tutta la durata, alla fine dell'incantesimo puoi spendere un Dado Vita per recuperare punti ferita pari al risultato + il tuo modificatore di Costituzione.</p>",
       "chat": ""
     },
     "source": {

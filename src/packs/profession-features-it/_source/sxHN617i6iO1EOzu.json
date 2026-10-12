@@ -1,5 +1,5 @@
 {
-  "name": "Rifinitura dei materiali",
+  "name": "Affinamento Materiale",
   "type": "consumable",
   "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
   "effects": [],
@@ -180,7 +180,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>@Compendium[historia-it.profession-features-it.UwqXI31n3TfqcrAg]{Calcinatio (Nigredo, 1 atto)} + @Compendium[historia-it.profession-features-it.G8K6bc72mYP5wjQq]{Putrefatio (Nigredo, 1 atto)}</p>\n<p><span class=\"fontstyle0\">I due atti non hanno effetto, ma l'arma mirata e le sue munizioni diventano più solide e inclini a distruggere l'avversario, acquisendo un +2 bonus su tiri per colpire e tiri di danno.</span></p>",
+      "value": "<p>@Compendium[historia-it.profession-features-it.UwqXI31n3TfqcrAg]{Calcinatio (Nigredo, 1 atto)} + @Compendium[historia-it.profession-features-it.G8K6bc72mYP5wjQq]{Putrefatio (Nigredo, 1 atto)}</p>\n<p>I due atti non hanno effetto, ma l'arma bersaglio e le sue munizioni diventano più solide e letali, ottenendo un bonus di +2 ai tiri per colpire e ai tiri per i danni.</p>",
       "chat": ""
     },
     "source": {

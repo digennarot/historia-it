@@ -1,5 +1,5 @@
 {
-  "name": "Il mistero universale: controlla l'acqua",
+  "name": "Mistero Universale: Controllare l'Acqua",
   "type": "weapon",
   "img": "icons/magic/water/projectiles-ice-explosion.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si accede a questo mistero universale, è possibile creare acqua o farlo evaporare a volontà. Spendendo 1 Punto di Incanto, è possibile creare o evaporare fino a circa 5 litri di liquido.<br/></span></p>\n<p><span class=\"fontstyle0\">Spendendo 10 Punti di Incanto, si può anche cercare di evaporare l'acqua dal corpo di una creatura vivente. Dopo un colpo su un attacco da mischia incantesimo, il bersaglio deve effettuare un Tiro Salvezza su Costituzione o terminare a 0 Punti Ferita, mentre se successo soffrono 10d10 danni necrotici.</span> </p>",
+      "value": "<p>Quando accedi a questo Mistero Universale puoi creare acqua o farla evaporare a volontà. Spendendo 1 punto incanto puoi creare o far evaporare fino a circa 5 litri di liquido.</p>\n<p>Spendendo 10 punti incanto puoi anche tentare di far evaporare l'acqua dal corpo di una creatura vivente. Dopo aver colpito con un attacco in mischia con incantesimo, il bersaglio deve effettuare un tiro salvezza su Costituzione: se lo fallisce scende a 0 punti ferita, se lo supera subisce 10d10 danni necrotici.</p>",
       "chat": ""
     },
     "source": {
@@ -312,7 +312,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Magus Livello 20, Segreto dell'Acqua"
   },
   "_stats": {
     "coreVersion": "13.350",

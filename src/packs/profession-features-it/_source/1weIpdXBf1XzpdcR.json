@@ -1,5 +1,5 @@
 {
-  "name": "Grande mistero: pieno di luce",
+  "name": "Mistero Superiore: Ricolmo di Luce",
   "type": "feat",
   "img": "icons/magic/light/beam-explosion-orange.webp",
   "effects": [],
@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si ottiene l'accesso a questo mistero superiore, possono imbue incantesimi con luce. Come azione bonus, è possibile spendere 5 Punti di Incanto per cambiare il tipo di danni incantesimo che si getta, fino alla fine del prossimo turno, in danni radianti, e qualsiasi rotolo infliggere danni raggiunge il punteggio massimo. Dopo la prima volta che uno dei vostri incantesimi beneficia di questa capacità, fino a quando non si prende un riposo lungo, si prende danni radianti ogni altra volta che un incantesimo beneficia di esso: il danno è pari a 1d12 danni radianti per Punto di Incanto utilizzato nell'incantesimo e ignora la resistenza e l'immunità.</span></p>",
+      "value": "<p>Quando accedi a questo Mistero Superiore puoi infondere luce negli incantesimi. Come azione bonus puoi spendere 5 punti incanto per trasformare in radiosi, fino alla fine del tuo turno successivo, i danni degli incantesimi che lanci, e ogni tiro per i danni ottiene il risultato massimo. Dopo la prima volta in cui un tuo incantesimo beneficia di questa capacità, e finché non completi un riposo lungo, ogni volta che un incantesimo ne beneficia subisci 1d12 danni radiosi per ogni punto incanto usato per l'incantesimo; questi danni ignorano resistenze e immunità.</p>",
       "chat": ""
     },
     "source": {
@@ -180,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 13, Segreto della Luce",
+    "requirements": "Magus Livello 13, Segreto della Luce",
     "cover": null,
     "crewed": false,
     "prerequisites": {

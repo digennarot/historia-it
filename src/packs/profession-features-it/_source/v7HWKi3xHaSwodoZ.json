@@ -1,5 +1,5 @@
 {
-  "name": "Metamagico: maggiore",
+  "name": "Metamagia: Incantesimo Intensificato",
   "type": "feat",
   "img": "media/Profession Features/brilliant_energy.webp",
   "effects": [],
@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si lancia un incantesimo che costringe una creatura a effettuare un tiro salvezza per resistere ai suoi effetti, è possibile spendere 3 Punti di Incanto per mettere quel bersaglio a uno svantaggio sul primo tiro salvezza fa contro di esso.</span> </p>",
+      "value": "<p>Quando lanci un incantesimo che costringe una creatura a effettuare un tiro salvezza per resistere ai suoi effetti, puoi spendere 3 punti incanto per imporre a quel bersaglio svantaggio al primo tiro salvezza che effettua contro l'incantesimo.</p>",
       "chat": ""
     },
     "source": {
@@ -189,7 +189,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 3, Segreto della Mente, Segreto della Luce",
+    "requirements": "Magus Livello 3, Segreto della Mente, Segreto della Luce",
     "cover": null,
     "crewed": false,
     "prerequisites": {

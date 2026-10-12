@@ -1,5 +1,5 @@
 {
-  "name": "Vedi il sangue",
+  "name": "Sangue Ribollente",
   "type": "feat",
   "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
   "effects": [],
@@ -161,7 +161,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A 13° livello, quando si è colpiti da Mortification e prende danni da un attacco fatto da una creatura entro 1,5 metri, è possibile spendere una carica di sangue per affrontare 4d10 danni radianti o necrotici al bersaglio (a vostra scelta).</span></p>",
+      "value": "<p>Al 13° livello, quando sei sotto l'effetto della @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione} e subisci danni da un attacco effettuato da una creatura entro 1,5 metri, puoi spendere una carica sanguigna per infliggere al bersaglio 4d10 danni radiosi o necrotici (a tua scelta).</p>",
       "chat": ""
     },
     "source": {
@@ -178,7 +178,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 13, Fanatico",
+    "requirements": "Mortificato Livello 13, Fanatico",
     "cover": null,
     "crewed": false,
     "prerequisites": {

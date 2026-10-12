@@ -1,5 +1,5 @@
 {
-  "name": "Strategia Difensiva: Fuga dal Branco",
+  "name": "Strategia Difensiva: Sfuggire al Branco",
   "type": "feat",
   "img": "media/Species Features/silent-moves.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Attacchi di opportunità contro di voi smaltire di svantaggio.</span></p>",
+      "value": "<p>Gli attacchi di opportunità contro di te hanno svantaggio.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 7, Trappolatore",
+    "requirements": "Venturiero Livello 7, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

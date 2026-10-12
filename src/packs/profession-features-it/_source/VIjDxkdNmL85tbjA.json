@@ -1,5 +1,5 @@
 {
-  "name": "Stile di combattimento: due armi combattenti",
+  "name": "Stile di Combattimento: Combattere con Due Armi",
   "type": "feat",
   "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando si impegna in due armi di combattimento, è possibile aggiungere il modificatore di abilità al danno del secondo attacco.</p>",
+      "value": "<p>Quando combatti con due armi, puoi aggiungere il tuo modificatore di caratteristica ai danni del secondo attacco. L'attacco effettuato con l'azione bonus può essere compiuto anche con una pistola.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Armigero Livello 1, Avventuriero Livello 3 (Trappolatore)",
+    "requirements": "Armigero Livello 1, Venturiero Livello 3 (Battitore)",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Giù le unghie",
+  "name": "Inchiodare",
   "type": "feat",
   "img": "icons/skills/wounds/injury-pain-impaled-hand-blood.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 9° livello, non si lascia sfuggire facilmente la vostra preda, e si conosce molti metodi per ostacolarli. Se una creatura provoca un attacco di opportunità e si può usare @Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} contro il bersaglio, la loro velocità scende a 0.</span></p>",
+      "value": "<p>Al 9° livello non lasci sfuggire facilmente la tua preda e conosci molti modi per ostacolarla. Se una creatura provoca un attacco di opportunità e puoi applicare l'@Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} contro di essa, la sua velocità scende a 0.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canaglia Livello 9, Sicario",
+    "requirements": "Furfante Livello 9, Sicario",
     "cover": null,
     "crewed": false,
     "prerequisites": {

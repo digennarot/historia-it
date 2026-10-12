@@ -1,5 +1,5 @@
 {
-  "name": "Metamagia: Incantesimo intensivo",
+  "name": "Metamagia: Incantesimo Intensificato",
   "type": "feat",
   "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
   "effects": [],
@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando il mago lancia un incantesimo che costringe una creatura a effettuare un tiro salvezza per resistere ai suoi effetti, è possibile spendere 3 Punti di Incanto per mettere quel bersaglio a uno svantaggio sul primo tiro salvezza che fanno contro di esso.</span> </p>",
+      "value": "<p>Quando lanci un incantesimo che costringe una creatura a effettuare un tiro salvezza per resistere ai suoi effetti, puoi spendere 3 punti incanto per imporre a quel bersaglio svantaggio al primo tiro salvezza che effettua contro l'incantesimo.</p>",
       "chat": ""
     },
     "source": {
@@ -189,7 +189,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Magnus Livello 3",
+    "requirements": "Magus Livello 3, Segreto dell'Ombra",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Grande Strategia: Incoccare Tre Frecce",
+  "name": "Strategia di Caccia Grossa: Incoccare Tre Frecce",
   "type": "feat",
   "img": "icons/skills/ranged/arrows-triple-yellow-red.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Puoi attaccare tre volte invece di due, ogni volta che fai l'azione Attacco usando un arco.</span> </p>",
+      "value": "<p>Ogni volta che effettui l'azione di Attacco usando un arco, puoi attaccare tre volte anziché due.</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 11, Trappolatore",
+    "requirements": "Venturiero Livello 11, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

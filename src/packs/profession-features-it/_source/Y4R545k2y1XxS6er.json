@@ -1,5 +1,5 @@
 {
-  "name": "Metamagia: Incantesimo Prolungato",
+  "name": "Metamagia: Incantesimo Esteso",
   "type": "feat",
   "img": "icons/magic/time/hourglass-yellow-green.webp",
   "effects": [],
@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si lancia un incantesimo che ha avuto una durata di 1 minuto o più, è possibile spendere 1 Punto di Incanto per raddoppiare la sua durata, fino a un massimo di 24 ore.</span> </p>",
+      "value": "<p>Quando lanci un incantesimo con una durata pari o superiore a 1 minuto, puoi spendere 1 punto incanto per raddoppiarne la durata, fino a un massimo di 24 ore.</p>",
       "chat": ""
     },
     "source": {
@@ -189,7 +189,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 3, Segreto del Corpo, Segreto dell'Aria, Segreto della Terra",
+    "requirements": "Magus Livello 3, Segreto del Corpo, Segreto dell'Aria, Segreto della Terra",
     "cover": null,
     "crewed": false,
     "prerequisites": {

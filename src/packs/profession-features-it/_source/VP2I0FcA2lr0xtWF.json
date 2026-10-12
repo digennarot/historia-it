@@ -1,5 +1,5 @@
 {
-  "name": "Imperviante",
+  "name": "Impervio",
   "type": "feat",
   "img": "media/Profession Features/pyrokineticist.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal 13° livello, l'avversità non può disturbare la vostra anima. Quando si fallisce un tiro salvezza, è possibile utilizzare lesioni auto-inflitte per cambiare il risultato di morire nel numero di Punti Ferita persi, potenzialmente cambiando il risultato.</span> </p>",
+      "value": "<p>A partire dal 13° livello le avversità non possono turbare la tua anima. Quando fallisci un tiro salvezza, puoi usare @Compendium[historia-it.profession-features-it.p40i8SqR3b3SfEPT]{Lesioni Autoinflitte} per sostituire il risultato del dado con il numero di punti ferita persi, potenzialmente cambiando l'esito.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 13, Ascetic",
+    "requirements": "Mortificato Livello 13, Asceta",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Precisione morta",
+  "name": "Precisione Mortale",
   "type": "feat",
   "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A diciottesimo livello, uno sai come colpire gli organi vitali delle vittime con precisione. Se un attacco che beneficia della @Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} infligge qualsiasi livello di sfinimento, infligge un livello aggiuntivo.</span> </p>",
+      "value": "<p>Al 18° livello sai colpire con precisione gli organi vitali delle vittime. Se un attacco che beneficia dell'@Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} infligge livelli di indebolimento, ne infligge uno aggiuntivo.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canaglia Livello 18, Sicario",
+    "requirements": "Furfante Livello 18, Sicario",
     "cover": null,
     "crewed": false,
     "prerequisites": {

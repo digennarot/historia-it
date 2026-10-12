@@ -1,5 +1,5 @@
 {
-  "name": "Vitalità interiore",
+  "name": "Vitalità Interiore",
   "type": "feat",
   "img": "icons/magic/control/encase-creature-monster-hold.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A diciottesimo livello la vostra anima domina il loro corpo. Dal momento in cui si entra in uno stato di mortificazione possono recuperare fino a metà dei punti di massimo successo. Questa abilità può essere utilizzata di nuovo dopo aver preso un riposo lungo.</span> </p>",
+      "value": "<p>Al 18° livello la tua anima domina il tuo corpo. Quando entri nello stato di @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione} puoi recuperare fino a metà dei tuoi punti ferita massimi. Puoi usare di nuovo questa capacità dopo aver completato un riposo lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 13, Ascetic",
+    "requirements": "Mortificato Livello 18, Asceta",
     "cover": null,
     "crewed": false,
     "prerequisites": {

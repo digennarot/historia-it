@@ -1,5 +1,5 @@
 {
-  "name": "Trance mistica",
+  "name": "Trance Mistica",
   "type": "feat",
   "img": "media/Profession Features/ki-focus.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 14° livello, il vostro corpo trascende la vostra propria carne, portando il dolore a un livello mistico: durante la Mortificazione, si può</span><span class=\"fontstyle0\">ignorare gli effetti dei primi cinque livelli di sfinimento.</span> </p>",
+      "value": "<p>Al 14° livello il tuo corpo trascende la tua stessa carne, portando il dolore a un livello mistico: durante la @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione} puoi ignorare gli effetti dei primi cinque livelli di indebolimento.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 14",
+    "requirements": "Mortificato Livello 14",
     "cover": null,
     "crewed": false,
     "prerequisites": {

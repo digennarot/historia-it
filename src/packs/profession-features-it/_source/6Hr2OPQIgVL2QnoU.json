@@ -1,5 +1,5 @@
 {
-  "name": "Benvenuto universale",
+  "name": "Abilità Famigerata",
   "type": "feat",
   "img": "media/Profession Features/command-undead.webp",
   "effects": [],
@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 7° livello, la vostra fama è tale da farvi ben voluto e di essere considerato come una risorsa preziosa. Aggiungi 1d4 a tutti i prove di abilità per influenzare gli altri, fino a quando non tradiscono quelle aspettative. Quando si stabilizza una creatura morente con una Saggezza o intelligenza (Medicina) controllo abilità e ottenere un punteggio di 15 o superiore, la creatura stabilizzata recupera 1 punto di colpo. È possibile utilizzare questa funzione solo su una creatura una volta prima di completare un breve o lungo riposo.</span></p>",
+      "value": "<p>Al 7° livello la tua fama è tale da renderti benvoluto e da farti considerare una risorsa preziosa. Aggiungi 1d4 a tutte le prove di caratteristica per influenzare gli altri, finché non ne tradisci le aspettative. Quando stabilizzi una creatura morente con una prova di Saggezza o Intelligenza (Medicina) e ottieni 15 o più, la creatura stabilizzata recupera 1 punto ferita. Puoi usare questo privilegio su una stessa creatura una sola volta prima di completare un riposo breve o lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -191,7 +191,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Erudito Livello 7, Dottore",
+    "requirements": "Erudito Livello 7, Medico",
     "cover": null,
     "crewed": false,
     "prerequisites": {

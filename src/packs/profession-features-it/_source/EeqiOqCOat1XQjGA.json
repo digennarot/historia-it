@@ -1,5 +1,5 @@
 {
-  "name": "Stile di combattimento: Duellante",
+  "name": "Stile di Combattimento: Duellare",
   "type": "feat",
   "img": "icons/skills/melee/hand-grip-sword-orange.webp",
   "effects": [
@@ -196,7 +196,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando si sta bloccando un'arma da mischia in una mano e nessun'altra armi, si ottiene un +2 bonus per tiri di danno con quell'arma.</p>",
+      "value": "<p>Quando impugni un'arma da mischia in una mano e nessun'altra arma, ottieni un bonus di +2 ai tiri per i danni effettuati con quell'arma.</p>",
       "chat": ""
     },
     "source": {
@@ -213,7 +213,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Armigero Livello 1, Avventuriero Livello 3 (Trappolatore)",
+    "requirements": "Armigero Livello 1, Venturiero Livello 3 (Battitore)",
     "cover": null,
     "crewed": false,
     "prerequisites": {

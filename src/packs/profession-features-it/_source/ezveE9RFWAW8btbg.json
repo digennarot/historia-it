@@ -1,5 +1,5 @@
 {
-  "name": "Strategia di Caccia: Maestro delle Imboscate",
+  "name": "Strategia di Caccia: Maestro di Agguati",
   "type": "feat",
   "img": "icons/magic/nature/stealth-hide-eyes-pink.webp",
   "effects": [],
@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Hai vantaggio ai tiri di iniziativa. Se non sei il primo ad agire in ordine di iniziativa, puoi spendere una reazione per fare un attacco o nasconderti prima che qualcun altro inizi il loro turno. Se siete stati sorpresi all'inizio della lotta, non siete sorpresi, ma non potete usare questo beneficio.</span> </p>",
+      "value": "<p>Hai vantaggio ai tiri di iniziativa. Se non sei il primo ad agire nell'ordine di iniziativa, puoi spendere la tua reazione per effettuare un attacco o per nasconderti prima che qualcun altro inizi il suo turno. Se all'inizio del combattimento saresti sorpreso, non lo sei, ma non puoi usare questo beneficio.</p>",
       "chat": ""
     },
     "source": {
@@ -188,7 +188,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 3, Trappolatore",
+    "requirements": "Venturiero Livello 3, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

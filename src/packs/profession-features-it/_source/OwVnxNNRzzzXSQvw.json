@@ -1,5 +1,5 @@
 {
-  "name": "Spettacolo personale",
+  "name": "Incantesimo Personale",
   "type": "feat",
   "img": "media/Profession Features/aura-of-despair.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A diciottesimo livello, hai imparato a padroneggiare un incantesimo in modo così raffinato che non devi ricorrere alle loro riserve per gettarlo. Si sceglie un incantesimo di terzo livello che si conosce e si ottiene la capacità di gettarlo al suo livello più basso (mentre senza effetti metamagici), senza spendere punti di incanto. Se si desidera lanciare a un livello superiore o applicare un effetto metamagico ad esso, il mago deve spendere punti di incanto come al solito.</span> </p>",
+      "value": "<p>Al 18° livello hai imparato a padroneggiare un incantesimo in modo così raffinato da non dover attingere alle tue riserve per lanciarlo. Scegli un incantesimo di 3° livello che conosci: puoi lanciarlo al suo livello minimo (senza effetti di metamagia) senza spendere punti incanto. Se vuoi lanciarlo a un livello superiore o applicargli un effetto di metamagia, devi spendere i punti incanto come di consueto.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 18",
+    "requirements": "Magus Livello 18",
     "cover": null,
     "crewed": false,
     "prerequisites": {

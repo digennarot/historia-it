@@ -1,5 +1,5 @@
 {
-  "name": "Stile di combattimento",
+  "name": "Stile di Combattimento (Battitore)",
   "type": "feat",
   "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si sceglie questo viaggio si adotta un particolare stile di combattimento come la vostra specialità. Scegli una delle seguenti opzioni. Non si può prendere un Fighting Style opzione più di una volta, anche se in seguito si arriva a scegliere di nuovo.</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.lPeCtPEnKlFMUdxu]{Stile di combattimento: Obiettivo}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.EeqiOqCOat1XQjGA]{Stile di combattimento: Duellante}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.pvUjKQwwzcmCfbP1]{Stile di combattimento: Grande arma Combattere}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.VIjDxkdNmL85tbjA]{Stile di combattimento: due armi combattenti}</span></p>",
+      "value": "<p>Quando scegli questo viaggio adotti uno stile di combattimento particolare come tua specialità. Scegli una delle opzioni seguenti. Non puoi scegliere la stessa opzione di Stile di Combattimento più di una volta, anche se in seguito puoi sceglierne un'altra.</p>\n<p>@Compendium[historia-it.profession-features-it.pvUjKQwwzcmCfbP1]{Stile di Combattimento: Combattere con Armi Possenti}</p>\n<p>@Compendium[historia-it.profession-features-it.VIjDxkdNmL85tbjA]{Stile di Combattimento: Combattere con Due Armi}</p>\n<p>@Compendium[historia-it.profession-features-it.EeqiOqCOat1XQjGA]{Stile di Combattimento: Duellare}</p>\n<p>@Compendium[historia-it.profession-features-it.lPeCtPEnKlFMUdxu]{Stile di Combattimento: Tiro}</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 3, Trappolatore",
+    "requirements": "Venturiero Livello 3, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

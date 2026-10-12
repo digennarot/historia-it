@@ -1,5 +1,5 @@
 {
-  "name": "Metamagia: Incantesimo Sottile",
+  "name": "Metamagia: Incantesimo Celato",
   "type": "feat",
   "img": "media/Profession Features/chitin-electricity.webp",
   "effects": [],
@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si lancia un incantesimo, è possibile spendere 1 punto di incanto per lanciare senza componenti somatici o verbali.</span></p>",
+      "value": "<p>Quando lanci un incantesimo, puoi spendere 1 punto incanto per lanciarlo senza componenti somatiche o verbali.</p>",
       "chat": ""
     },
     "source": {
@@ -189,7 +189,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 3, Segreto della Mente, Segreto della Terra, Segreto dell'Ombra",
+    "requirements": "Magus Livello 3, Segreto della Mente, Segreto della Terra, Segreto dell'Ombra",
     "cover": null,
     "crewed": false,
     "prerequisites": {

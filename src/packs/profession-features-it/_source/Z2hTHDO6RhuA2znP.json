@@ -1,5 +1,5 @@
 {
-  "name": "Potere Alchemico",
+  "name": "Caratteristica da Alchimista",
   "type": "feat",
   "img": "media/Profession Features/command-fish.webp",
   "effects": [],
@@ -186,7 +186,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">L’intelligenza è la vostra capacità usata per determinare l’efficacia degli effetti dell’alchimista, poiché l’acum e la preparazione sono la pietra angolare della disciplina. Un alchimista usa l'Intelligenza ogni volta che un effetto si riferisce alla loro abilità alchimista. Inoltre, si utilizza il modificatore di intelligenza quando si imposta il tiro salvezza CD per un effetto che si è preparato, e quando si effettua un tiro per colpire utilizzando uno dei tuoi effetti, come alchimista si può fare un rotolo di incantesimo utilizzando le proprie caratteristiche.</span></p>\n<p style=\"text-align:center\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><strong>Risparmio di corrente continua</strong> </span><span class=\"fontstyle2\">= 8 + il bonus di competenza<br/>+ il tuo modificatore di Intelligenza</span></span></p>\n<p style=\"text-align:center\"><span class=\"fontstyle0\"><strong><span class=\"fontstyle0\">Modificatore di attacco effetto</span></strong><span class=\"fontstyle2\">= il tuo bonus di competenza<br/>+ il modificatore di intelligenza.</span> </span></p>\n<p><strong><span class=\"fontstyle0\">Focus alchemico</span></strong><br/><span class=\"fontstyle0\"><span class=\"fontstyle0\">È possibile utilizzare forme geometriche regolari o un sacchetto di componenti come un focus alchemico per eseguire le procedure. Alcune procedure segrete possono richiedere un focus specifico.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>",
+      "value": "<p>L'Intelligenza è la caratteristica che determina l'efficacia degli effetti dell'alchimista, poiché acume e preparazione sono il fondamento di questa disciplina. Un alchimista usa l'Intelligenza ogni volta che un effetto fa riferimento alla sua caratteristica da alchimista. Inoltre, usi il tuo modificatore di Intelligenza per stabilire la CD del tiro salvezza di un effetto che hai preparato e quando effettui un tiro per colpire con uno dei tuoi effetti; come alchimista puoi effettuare un tiro per colpire con incantesimo usando la tua caratteristica.</p>\n<p><strong>CD del tiro salvezza</strong> = 8 + il tuo bonus di competenza + il tuo modificatore di Intelligenza</p>\n<p><strong>Modificatore di attacco degli effetti</strong> = il tuo bonus di competenza + il tuo modificatore di Intelligenza</p>\n<p><strong>Focus alchemico</strong><br>Puoi usare forme geometriche regolari o una borsa di componenti come focus alchemico per eseguire le procedure. Alcune procedure segrete possono richiedere un focus specifico.</p>",
       "chat": ""
     },
     "source": {
@@ -203,7 +203,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Alchimista",
+    "requirements": "Alchimista Livello 1",
     "cover": null,
     "crewed": false,
     "prerequisites": {

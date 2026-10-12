@@ -1,5 +1,5 @@
 {
-  "name": "Smascheramento",
+  "name": "Gettare la Maschera",
   "type": "feat",
   "img": "icons/skills/social/intimidation-impressing.webp",
   "effects": [],
@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal terzo livello, è possibile rivelare la vostra vera identità, sorprendendo coloro che non ne erano consapevoli. Per un minuto si considera ogni 1 o 2 sul danno dadi contro i bersagli sorpresi come se fossero 3. Nelle sequenze narrative, Smascheramento conta come un successo automatico senza usare un'azione.</span> </p>",
+      "value": "<p>A partire dal 3° livello puoi rivelare la tua vera identità, cogliendo di sorpresa chi non ne era al corrente. Per 1 minuto, ogni 1 o 2 ottenuto sui dadi di danno contro i bersagli sorpresi conta come 3. Nelle sequenze narrative, Gettare la Maschera conta come un successo automatico e non richiede un'azione.</p>",
       "chat": ""
     },
     "source": {
@@ -180,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canaglia Livello 3, Spia",
+    "requirements": "Furfante Livello 3, Spia",
     "cover": null,
     "crewed": false,
     "prerequisites": {

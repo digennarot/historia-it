@@ -1,5 +1,5 @@
 {
-  "name": "Metamagico",
+  "name": "Metamagia",
   "type": "feat",
   "img": "media/Profession Features/save-bonus.webp",
   "effects": [],
@@ -166,7 +166,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal terzo livello, impari a modificare gli incantesimi che sei in grado di lanciare, adattandoli alle tue esigenze attuali, imparando le opzioni metamagiche di un segreto che conosci. A 10° e 15° livelli, si ottiene le opzioni metamagiche di un altro Segreto si sa.</span></p>",
+      "value": "<p>A partire dal 3° livello impari a modificare gli incantesimi che sai lanciare, adattandoli alle tue esigenze del momento: apprendi le opzioni di metamagia di un Segreto che conosci. Al 10° e al 15° livello ottieni le opzioni di metamagia di un altro Segreto che conosci.</p>",
       "chat": ""
     },
     "source": {
@@ -183,7 +183,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 3",
+    "requirements": "Magus Livello 3",
     "cover": null,
     "crewed": false,
     "prerequisites": {

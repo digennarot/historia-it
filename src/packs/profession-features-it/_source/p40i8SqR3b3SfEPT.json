@@ -1,5 +1,5 @@
 {
-  "name": "Lesioni autoinflitte",
+  "name": "Lesioni Autoinflitte",
   "type": "feat",
   "img": "icons/skills/wounds/injury-hand-blood-red.webp",
   "effects": [],
@@ -186,7 +186,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">In qualsiasi momento, puoi infliggerti una serie di ferite uguali ai livelli del tuo flagellante. Tale danno ignora qualsiasi immunità e, se lo desiderate, qualsiasi resistenza.</span> </p>",
+      "value": "<p>In qualsiasi momento puoi infliggerti ferite pari al tuo livello da mortificato. Questi danni ignorano qualsiasi immunità e, se lo desideri, qualsiasi resistenza.</p>",
       "chat": ""
     },
     "source": {
@@ -203,7 +203,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 1",
+    "requirements": "Mortificato Livello 1",
     "cover": null,
     "crewed": false,
     "prerequisites": {

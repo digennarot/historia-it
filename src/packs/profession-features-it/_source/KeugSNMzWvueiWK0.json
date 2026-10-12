@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando sei soggetto a un effetto che ti permette un Tiro Salvezza su destrezza per arrestare il danno, non si prendono danni se si riesce a lanciare il salvataggio, e solo la metà del danno se si fallisce.</span></p>",
+      "value": "<p>Quando sei soggetto a un effetto che ti consente di effettuare un tiro salvezza su Destrezza per subire soltanto la metà dei danni, non subisci alcun danno se superi il tiro salvezza e subisci soltanto la metà dei danni se lo fallisci.</p>",
       "chat": ""
     },
     "source": {
@@ -180,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 15, Trappolatore",
+    "requirements": "Venturiero Livello 15, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

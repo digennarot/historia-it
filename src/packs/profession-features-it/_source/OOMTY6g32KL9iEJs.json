@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando una creatura ostile ti manca con un semplice attacco, puoi usare una reazione per forzare quella creatura a ripetere lo stesso attacco contro un'altra creatura (escludendo te stesso) di tua scelta se è possibile farlo entro i requisiti dell'attacco.</span> </p>",
+      "value": "<p>Quando una creatura ostile ti manca con un attacco in mischia, puoi usare la tua reazione per costringerla a ripetere lo stesso attacco contro un'altra creatura a tua scelta (escluso te stesso), se è possibile farlo rispettando i requisiti dell'attacco.</p>",
       "chat": ""
     },
     "source": {
@@ -180,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 15, Trappolatore",
+    "requirements": "Venturiero Livello 15, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

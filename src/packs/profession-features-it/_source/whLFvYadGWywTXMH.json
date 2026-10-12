@@ -1,5 +1,5 @@
 {
-  "name": "Metamagia: Attenzione",
+  "name": "Metamagia: Incantesimo Preciso",
   "type": "feat",
   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
   "effects": [],
@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si lancia un incantesimo che costringe altre creature a fare un tiro salvezza, è possibile proteggere alcune di quelle creature dal vostro potere. Per fare questo, spendi 1 Punto di Incanto e scegli un certo numero di creature pari al tuo Modificatore di Intelligenza (minimo di una creatura). Ogni creatura scelta passa automaticamente il getto di salvataggio contro l'incantesimo.</span></p>",
+      "value": "<p>Quando lanci un incantesimo che costringe altre creature a effettuare un tiro salvezza, puoi proteggere alcune di esse dal tuo potere. Per farlo, spendi 1 punto incanto e scegli un numero di creature pari al tuo modificatore di Intelligenza (minimo una). Ogni creatura scelta supera automaticamente il tiro salvezza contro l'incantesimo.</p>",
       "chat": ""
     },
     "source": {
@@ -189,7 +189,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Magnus Livello 3",
+    "requirements": "Magus Livello 3, Segreto del Fuoco",
     "cover": null,
     "crewed": false,
     "prerequisites": {

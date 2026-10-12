@@ -1,5 +1,5 @@
 {
-  "name": "Fortezza",
+  "name": "Preveggenza",
   "type": "feat",
   "img": "icons/magic/perception/third-eye-blue-red.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 10° livello, il dolore mostra la strada giusta del flagellante. Quando si effettua un prova di caratteristica o un attacco, è possibile utilizzare lesioni autoinflitte e sostituire il numero di Punti Ferita che hanno perso al risultato di morire, fino a un massimo di 19.</span></p>",
+      "value": "<p>Al 10° livello il dolore indica al mortificato la giusta via. Quando effettui una prova di caratteristica o un attacco, puoi usare @Compendium[historia-it.profession-features-it.p40i8SqR3b3SfEPT]{Lesioni Autoinflitte} e sostituire il risultato del dado con il numero di punti ferita persi, fino a un massimo di 19.</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 10, Ascetic",
+    "requirements": "Mortificato Livello 10, Asceta",
     "cover": null,
     "crewed": false,
     "prerequisites": {

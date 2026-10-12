@@ -1,5 +1,5 @@
 {
-  "name": "Difesa senza armatura",
+  "name": "Difesa Senza Armatura",
   "type": "feat",
   "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
   "effects": [
@@ -231,7 +231,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">se non indossi armature, hai un CA pari a 10+ il tuo<br/>Modificatore di Costituzione + il tuo modificatore di Destrezza.</span></p>",
+      "value": "<p>Se non indossi alcuna armatura, la tua CA è pari a 10 + il tuo modificatore di Costituzione + il tuo modificatore di Destrezza. Puoi usare uno scudo e ottenere comunque questo beneficio.</p>",
       "chat": ""
     },
     "source": {
@@ -248,7 +248,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 1",
+    "requirements": "Mortificato Livello 1",
     "cover": null,
     "crewed": false,
     "prerequisites": {

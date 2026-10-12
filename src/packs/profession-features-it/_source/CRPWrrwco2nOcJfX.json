@@ -1,5 +1,5 @@
 {
-  "name": "Strategia di Caccia: Colpo Cruciale",
+  "name": "Strategia di Caccia: Colpo Importante",
   "type": "feat",
   "img": "icons/skills/ranged/arrow-strike-apple-orange.webp",
   "effects": [],
@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">La prima volta che si colpisce una creatura con un attacco d'arma, quella creatura subisce 1d8 danni extra se è al di sotto dei punti di massimo colpo. Se l'attacco è critico, il bersaglio ottiene un ulteriore livello di sfinimento.</span></p>",
+      "value": "<p>La prima volta che colpisci una creatura con un attacco con un'arma, quella creatura subisce 1d8 danni extra se è al di sotto dei suoi punti ferita massimi. Se l'attacco è un colpo critico, il bersaglio subisce un livello di indebolimento aggiuntivo.</p>",
       "chat": ""
     },
     "source": {
@@ -180,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 3, Trappolatore",
+    "requirements": "Venturiero Livello 3, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

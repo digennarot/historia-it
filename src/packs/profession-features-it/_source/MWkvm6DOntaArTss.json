@@ -1,5 +1,5 @@
 {
-  "name": "Miglioramento",
+  "name": "Improvvisare",
   "type": "feat",
   "img": "icons/skills/trades/academics-investigation-puzzles.webp",
   "effects": [],
@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al secondo livello, si sa come improvvisare di recuperare e trasformare un fallimento in un successo.</span><span class=\"fontstyle0\">Hai una riserva di punto di improvvisazione pari al tuo bonus di competenza + la metà del loro bonus di Saggezza (minimo di 1).</span></p>\n<p><span class=\"fontstyle0\">Una volta per turno, se si fallisce un tiro per colpire con un'arma da mischia, si può spendere un punto di improvvisazione per fare un altro attacco con la stessa arma come parte della stessa azione. Una volta per turno, se si fallisce un colpo con arma a distanza, si può spendere un punto di improvvisazione per fare un altro attacco con la stessa arma come parte della stessa azione, diretto a un bersaglio diverso, se l'arma non ha la proprietà di ricarica.</span></p>\n<p><span class=\"fontstyle0\">Recupera tutti i tuoi</span><span class=\"fontstyle0\">Punti di improvvisazione dopo un riposo lungo. A partire dal 6° livello, è possibile spendere un punto di improvvisazione dopo aver fallito un rotolo di abilità per dare un vantaggio del membro del team. Dal 15° livello è possibile utilizzare un punto di improvvisazione per ri-tirare un Tiro Salvezza, ma deve mantenere il secondo risultato.</span></p>",
+      "value": "<p>Al 2° livello sai improvvisare per riprenderti e trasformare un fallimento in un successo. Disponi di una riserva di punti improvvisazione pari al tuo bonus di competenza + la metà del tuo modificatore di Saggezza (minimo 1).</p>\n<p>Una volta per turno, se manchi un tiro per colpire con un'arma da mischia, puoi spendere un punto improvvisazione per effettuare un altro attacco con la stessa arma come parte della stessa azione. Una volta per turno, se manchi un tiro per colpire con un'arma a distanza, puoi spendere un punto improvvisazione per effettuare un altro attacco con la stessa arma come parte della stessa azione, contro un bersaglio diverso, se l'arma non ha la proprietà ricarica.</p>\n<p>Recuperi tutti i punti improvvisazione dopo un riposo lungo. A partire dal 6° livello, dopo aver fallito una prova puoi spendere un punto improvvisazione per dare vantaggio a un compagno di squadra. Dal 15° livello puoi usare un punto improvvisazione per ripetere un tiro salvezza, ma devi tenere il secondo risultato.</p>",
       "chat": ""
     },
     "source": {
@@ -191,7 +191,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 2",
+    "requirements": "Venturiero Livello 2",
     "cover": null,
     "crewed": false,
     "prerequisites": {

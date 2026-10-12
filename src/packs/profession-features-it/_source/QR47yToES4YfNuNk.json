@@ -1,5 +1,5 @@
 {
-  "name": "Strategie difensive",
+  "name": "Strategie Difensive",
   "type": "feat",
   "img": "icons/magic/defensive/shield-barrier-blue.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 7° livello si ottiene una delle seguenti caratteristiche:</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.JwZu0FErFR8H4LRj]{Strategia Difensiva: Fuga dal Branco}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.osp2Ue5ACZlHXoLm]{Strategia Difensiva: Volontà di Ferro}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[historia-it.profession-features-it.miQIlv8sYNsFaYRE]{Strategia Difensiva: Difesa Ripetuta}</span></p>",
+      "value": "<p>Al 7° livello ottieni uno dei privilegi seguenti:</p>\n<p>@Compendium[historia-it.profession-features-it.miQIlv8sYNsFaYRE]{Strategia Difensiva: Difesa Reiterata}</p>\n<p>@Compendium[historia-it.profession-features-it.JwZu0FErFR8H4LRj]{Strategia Difensiva: Sfuggire al Branco}</p>\n<p>@Compendium[historia-it.profession-features-it.osp2Ue5ACZlHXoLm]{Strategia Difensiva: Volontà di Ferro}</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 7, Trappolatore",
+    "requirements": "Venturiero Livello 7, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

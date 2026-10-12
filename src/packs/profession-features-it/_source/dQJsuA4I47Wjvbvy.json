@@ -1,5 +1,5 @@
 {
-  "name": "Consigli utili",
+  "name": "Consigli Salutari",
   "type": "feat",
   "img": "icons/magic/control/silhouette-hold-change-green.webp",
   "effects": [],
@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al terzo livello, il tuo consiglio può stimolare l'ascoltatore, migliorando le loro prestazioni. Dopo che il bersaglio è rotolato, si può aumentare il risultato di il risultato di quel tiro fino al numero uguale al vostro modificatore di Intelligenza. Raddoppi il tuo bonus di competenza sui controlli di Medicina e Natura se sei esperto in loro, Altrimenti, si ottiene la competenza in tali competenze.</span> </p>",
+      "value": "<p>Al 3° livello i tuoi consigli possono stimolare chi ti ascolta, migliorandone le prestazioni. Dopo che il bersaglio ha tirato i Dadi Vita, puoi aumentare il risultato di uno dei dadi fino a un numero pari al tuo modificatore di Intelligenza. Raddoppi il tuo bonus di competenza nelle prove di Medicina e Natura, se sei competente in esse; altrimenti ottieni competenza in quelle abilità.</p>",
       "chat": ""
     },
     "source": {
@@ -188,7 +188,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Erudito Livello 3, Dottore",
+    "requirements": "Erudito Livello 3, Medico",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Canzone mistica",
+  "name": "Canto Mistico",
   "type": "feat",
   "img": "media/Species Features/bard.webp",
   "effects": [],
@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A undicesimo livello, puoi sublimare il tuo dolore e ascoltare la canzone della tua anima purificata. Mentre sotto l'effetto di Mortification, è possibile utilizzare una reazione quando un'altra creatura entro 9 metri di loro soffre danni, per rendere la canzone del proprio dolore risuona con gli altri. Per il minuto successivo durante la Mortification, ogni attacco che si effettua raddoppia il danno e può utilizzare una reazione per prendere il danno di un'altra creatura entro 9 metri, compreso quello che ha causato l'attivazione della canzone mistica. Questa abilità può essere utilizzata di nuovo dopo aver preso un riposo lungo.</span></p>",
+      "value": "<p>All'11° livello puoi sublimare il tuo dolore e ascoltare il canto della tua anima purificata. Mentre sei sotto l'effetto della @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione}, quando un'altra creatura entro 9 metri da te subisce danni puoi usare la tua reazione per far risuonare in essa il canto del tuo dolore. Per il minuto successivo, durante la Mortificazione, ogni tuo attacco raddoppia i dadi di danno e puoi usare la tua reazione per subire i danni di un attacco al posto di un'altra creatura entro 9 metri, compresa quella che ha attivato il Canto Mistico. Puoi usare di nuovo questa capacità dopo aver completato un riposo lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -191,7 +191,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 11",
+    "requirements": "Mortificato Livello 11",
     "cover": null,
     "crewed": false,
     "prerequisites": {

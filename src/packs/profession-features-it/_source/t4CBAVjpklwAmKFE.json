@@ -1,5 +1,5 @@
 {
-  "name": "Saggio (Raro)",
+  "name": "Trattato (Raro)",
   "type": "feat",
   "img": "icons/sundries/documents/document-letter-blue.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A 13° livello, si completano le note di ricerca nello stesso argomento saggio che hai scelto al 2° e 3° livello.</span></p>\n<p>@Compendium[historia-it.profession-features-it.Rt79KT8RyLHvpweq]{Saggio di Chimica (Raro)}</p>\n<p>@Compendium[historia-it.profession-features-it.4IDGqxCIqBmHQo6u]{Trattato di Geometria (Raro)}</p>",
+      "value": "<p>Al 13° livello completi le note di ricerca sullo stesso argomento del trattato scelto al 2° livello.</p>\n<p>@Compendium[historia-it.profession-features-it.Rt79KT8RyLHvpweq]{Trattato di Chimica (Raro)}</p>\n<p>@Compendium[historia-it.profession-features-it.4IDGqxCIqBmHQo6u]{Trattato di Geometria (Raro)}</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Alchimista Livello 2",
+    "requirements": "Alchimista Livello 13",
     "cover": null,
     "crewed": false,
     "prerequisites": {

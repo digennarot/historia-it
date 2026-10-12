@@ -1,5 +1,5 @@
 {
-  "name": "Attacco con abbandono",
+  "name": "Attaccare con Abbandono",
   "type": "feat",
   "img": "media/Species Features/improved-bull-rush.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal terzo livello, è possibile gettare da parte tutta la preoccupazione per la difesa di attaccare con feroce disperazione. Quando fai il tuo primo attacco alla tua svolta, puoi decidere di attaccare in modo imprudente. In questo modo ti dà vantaggio su tiri per colpire da mischia arma utilizzando Forza durante questo turno, ma i tiri per colpire contro di voi hanno vantaggio fino al vostro turno successivo.</span> </p>",
+      "value": "<p>A partire dal 3° livello puoi mettere da parte ogni preoccupazione per la difesa e attaccare con feroce disperazione. Quando effettui il tuo primo attacco nel tuo turno, puoi decidere di attaccare con abbandono. Se lo fai, hai vantaggio ai tiri per colpire con le armi da mischia che usano la Forza durante questo turno, ma i tiri per colpire contro di te hanno vantaggio fino all'inizio del tuo turno successivo.</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 3",
+    "requirements": "Mortificato Livello 3",
     "cover": null,
     "crewed": false,
     "prerequisites": {

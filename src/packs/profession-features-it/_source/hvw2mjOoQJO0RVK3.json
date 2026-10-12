@@ -1,5 +1,5 @@
 {
-  "name": "Viaggio dell'Avventuriero",
+  "name": "Viaggio del Venturiero",
   "type": "feat",
   "img": "icons/environment/wilderness/terrain-river-road-gray.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 3° livello, si prende il percorso che vi porterà nel vostro viaggio attraverso Vesteria tra Esploratore, Cantastorie e Trappolatore a seconda della capacità che si sceglie di lavorare fino a sopravvivere in questo mondo feral.</span></p><p><span class=\"fontstyle0\">Il viaggio ti dà alcune caratteristiche al 3° livello e poi ancora a 5, 7, 11 e 15.</span></p><p><span class=\"fontstyle0\">@UUID[Compendium.historia-it.professions-it.R3iLa5BVEl3vojfX]{Esploratore}</span></p><p><span class=\"fontstyle0\">@UUID[Compendium.historia-it.professions-it.41dcGt71bmt6YKKK]{Cantastorie}</span></p><p><span class=\"fontstyle0\">@UUID[Compendium.historia-it.professions-it.R4N1Nfjhfa1vHMCe]{Trappolatore}</span></p>",
+      "value": "<p>Al 3° livello intraprendi il cammino che ti guiderà nel tuo viaggio attraverso Vesteria, scegliendo tra Battitore, Cantastorie ed Esploratore in base alle capacità che vuoi sviluppare per sopravvivere in questo mondo selvaggio.</p><p>Il viaggio ti conferisce privilegi al 3° livello e poi di nuovo al 5°, 7°, 11° e 15° livello.</p><p>@UUID[Compendium.historia-it.professions-it.R4N1Nfjhfa1vHMCe]{Battitore}</p><p>@UUID[Compendium.historia-it.professions-it.41dcGt71bmt6YKKK]{Cantastorie}</p><p>@UUID[Compendium.historia-it.professions-it.R3iLa5BVEl3vojfX]{Esploratore}</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 3",
+    "requirements": "Venturiero Livello 3",
     "cover": null,
     "crewed": false,
     "prerequisites": {

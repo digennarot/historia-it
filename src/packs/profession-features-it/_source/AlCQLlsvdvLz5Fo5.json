@@ -193,7 +193,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si perde Punti Ferita, è possibile utilizzare la reazione per entrare in uno stato mistico simile a trance. Durante questo stato si ottiene +2 danni agli attacchi e la resistenza a contundenti, taglienti, e danni perforanti. La mortificazione termina alla fine del tuo turno successivo se non hai attaccato una creatura ostile o hai subito danni all'ultimo turno, o dopo un minuto. Questa abilità non può essere usata di nuovo se non avete passato il loro turno senza mortificazione prima. Se il flagellante ha livelli di sfinimento, possono attivare la mortificazione in qualsiasi momento. La mortificazione non può essere utilizzata per ridurre il costo delle azioni in una sequenza narrativa.</span> </p>",
+      "value": "<p>Quando perdi punti ferita, puoi usare la tua reazione per entrare in uno stato di trance mistica. In questo stato ottieni un bonus di +2 ai danni degli attacchi e resistenza ai danni contundenti, perforanti e taglienti. La Mortificazione termina alla fine del tuo turno successivo se nel tuo ultimo turno non hai attaccato una creatura ostile né subito danni, oppure dopo 1 minuto. Non puoi usare di nuovo questa capacità se prima non hai trascorso un tuo turno senza Mortificazione. Se il mortificato ha livelli di indebolimento, può attivare la Mortificazione in qualsiasi momento. La Mortificazione non può essere usata per ridurre il costo delle azioni in una sequenza narrativa.</p>",
       "chat": ""
     },
     "source": {
@@ -210,7 +210,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 1",
+    "requirements": "Mortificato Livello 1",
     "cover": null,
     "crewed": false,
     "prerequisites": {

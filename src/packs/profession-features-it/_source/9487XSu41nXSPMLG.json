@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Una volta per ogni turno, quando si effettua un attacco con un'arma, si può fare un altro attacco con la stessa arma contro una creatura diversa situata entro 1,5 metri del bersaglio originale e all'interno della gamma.</span></p>",
+      "value": "<p>Una volta per turno, quando effettui un attacco con un'arma, puoi effettuare un altro attacco con la stessa arma contro una creatura diversa che si trovi entro 1,5 metri dal bersaglio originale e a portata dell'arma.</p>",
       "chat": ""
     },
     "source": {
@@ -188,7 +188,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 3, Trappolatore",
+    "requirements": "Venturiero Livello 3, Battitore",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Benedizione rossa",
+  "name": "Benedizione Rossa",
   "type": "feat",
   "img": "icons/magic/life/heart-glowing-red.webp",
   "effects": [],
@@ -169,7 +169,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal settimo livello, si conosce il valore del proprio sangue e la vita che ne deriva. Come azione è possibile utilizzare lesioni autoinflitte per aumentare i Punti Ferita massimo di tre alleati di 10, fino al loro prossimo breve o lungo riposo. Questa abilità può essere utilizzata di nuovo dopo aver preso un riposo lungo.</span></p>",
+      "value": "<p>A partire dal 7° livello conosci il valore del tuo sangue e della vita che ne deriva. Come azione puoi usare @Compendium[historia-it.profession-features-it.p40i8SqR3b3SfEPT]{Lesioni Autoinflitte} per aumentare di 10 i punti ferita massimi di tre alleati, fino al loro riposo breve o lungo successivo. Puoi usare di nuovo questa capacità dopo aver completato un riposo lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -191,7 +191,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 7",
+    "requirements": "Mortificato Livello 7",
     "cover": null,
     "crewed": false,
     "prerequisites": {

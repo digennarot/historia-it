@@ -1,5 +1,5 @@
 {
-  "name": "Impeto",
+  "name": "Slancio",
   "type": "feat",
   "img": "icons/magic/control/buff-luck-fortune-green.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 5° livello si sa come valutare il successo delle vostre azioni. Ogni volta che si fa un prova di caratteristica, un tiro salvezza, o un tiro per colpire in un'azione pericolosa, si ottiene 1 impulso, fino ad un massimo di 3. Quando fai un prova di caratteristica, un tiro salvezza o un tiro per colpire, puoi aggiungere +1 al risultato per ogni impulso nella tua riserva. Quando si fallisce uno dei rulli precedenti o completa un riposo breve o lungo, si perde tutto l'impeto che avete. Se un rotolo fallito viene ripetuto con successo grazie all'improvvisazione, la corsa dell'avventuriero è ancora persa.</span></p>",
+      "value": "<p>Al 5° livello sai far valere il successo delle tue azioni. Ogni volta che superi una prova di abilità, un tiro salvezza o un tiro per colpire durante un'azione rischiosa, ottieni 1 slancio, fino a un massimo di 3. Quando effettui una prova di abilità, un tiro salvezza o un tiro per colpire, puoi aggiungere +1 al risultato per ogni slancio nella tua riserva. Quando fallisci uno di questi tiri o completi un riposo breve o lungo, perdi tutto lo slancio accumulato. Se un tiro fallito viene ripetuto con successo grazie a Improvvisare, lo slancio va comunque perso.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Avventuriero Livello 5",
+    "requirements": "Venturiero Livello 5",
     "cover": null,
     "crewed": false,
     "prerequisites": {

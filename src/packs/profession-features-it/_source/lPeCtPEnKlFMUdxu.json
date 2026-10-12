@@ -1,5 +1,5 @@
 {
-  "name": "Stile di combattimento: Obiettivo",
+  "name": "Stile di Combattimento: Tiro",
   "type": "feat",
   "img": "icons/skills/ranged/arrow-flying-white-blue.webp",
   "effects": [
@@ -202,7 +202,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Si ottiene un +2 bonus per tiri per colpire si fanno con armi a distanza.</span> </p>",
+      "value": "<p>Ottieni un bonus di +2 ai tiri per colpire effettuati con le armi a distanza.</p>",
       "chat": ""
     },
     "source": {
@@ -219,7 +219,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Armigero Livello 1, Avventuriero Livello 3 (Trappolatore)",
+    "requirements": "Armigero Livello 1, Venturiero Livello 3 (Battitore)",
     "cover": null,
     "crewed": false,
     "prerequisites": {

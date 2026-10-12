@@ -172,7 +172,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Quando si rotola per danni ortografici, è possibile spendere 1 Punto di Incanto per ripetere il rotolo di un certo numero di dadi pari al loro Modificatore di Intelligenza (minimo di uno) ma deve utilizzare i nuovi risultati ottenuti. Puoi usare Empowered Spell anche se hai già usato un'opzione metamagica diversa durante il lancio dell'incantesimo.</span> </p>",
+      "value": "<p>Quando tiri i danni di un incantesimo, puoi spendere 1 punto incanto per ritirare un numero di dadi di danno pari al tuo modificatore di Intelligenza (minimo uno), ma devi usare i nuovi risultati. Puoi usare Incantesimo Potenziato anche se hai già usato un'altra opzione di metamagia durante il lancio dell'incantesimo.</p>",
       "chat": ""
     },
     "source": {
@@ -189,7 +189,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Magnus Livello 3",
+    "requirements": "Magus Livello 3, Segreto del Fuoco",
     "cover": null,
     "crewed": false,
     "prerequisites": {

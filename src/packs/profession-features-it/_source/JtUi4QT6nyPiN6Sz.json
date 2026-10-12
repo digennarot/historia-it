@@ -1,5 +1,5 @@
 {
-  "name": "Rete di Alleanza",
+  "name": "Rete di Alleanze",
   "type": "feat",
   "img": "icons/skills/social/diplomacy-unity-alliance.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dall'11° livello, si espande efficacemente la rete di contatti e clienti che consente di ottenere informazioni o vantaggi che normalmente non si avrebbe accesso, ottenendo alleati anche di diversi tipi e con competenze più specifiche e appartenenti ad altre aree al di là del proprio.</span></p>\n<p><span class=\"fontstyle0\">È possibile utilizzare la rete di contatto per chiedere favori e informazioni che espongono l'informatore a un piccolo rischio: recuperare oggetti illeciti, protezione da un gruppo di banditi, ritardando il pagamento di un debito.<br/></span></p>\n<p><span class=\"fontstyle0\">Con il pagamento di 600 monete, sarà possibile chiedere un enorme favore che mette in pericolo la salute dell'informatore: traffico informazioni proibite, richieste di furto contro nobili minori, rendere la merce calda sparire o garantire i servizi di un gruppo di guardie.</span> </p>",
+      "value": "<p>A partire dall'11° livello espandi efficacemente la tua rete di contatti e di clienti, ottenendo informazioni o vantaggi a cui normalmente non avresti accesso e alleati di tipo diverso, con competenze più specifiche e appartenenti ad ambiti diversi dal tuo.</p>\n<p>Puoi usare la @Compendium[historia-it.profession-features-it.KX3mk6Tcu51q7PGa]{Rete di Contatti} per chiedere favori e informazioni che espongono l'informatore a un piccolo rischio: recuperare oggetti illeciti, ottenere protezione da un gruppo di banditi, ritardare il pagamento di un debito.</p>\n<p>Pagando 600 monete puoi chiedere un favore enorme che mette a rischio l'incolumità dell'informatore: trafficare informazioni proibite, commissionare furti ai danni di nobili minori, far sparire merce scottante o assicurarti i servigi di un gruppo di guardie.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mercante Livello 6",
+    "requirements": "Mercante Livello 11",
     "cover": null,
     "crewed": false,
     "prerequisites": {

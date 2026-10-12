@@ -1,5 +1,5 @@
 {
-  "name": "Cariche di sangue",
+  "name": "Cariche Sanguigne",
   "type": "feat",
   "img": "icons/skills/wounds/blood-cells-red.webp",
   "effects": [],
@@ -182,7 +182,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Coloro che praticano la flagellazione disegnano la loro forza di vedere il loro sangue che scorre sulla loro pelle, come simbolo della penitenza che meritano. Da questa tortura, un flagellante guadagna accuse di sangue. È possibile spendere una carica di sangue per attivare abilità filosofiche o abilità che utilizzano lesioni auto-inflitte, e si ottiene una carica di sangue aggiuntiva a 5° livello, 11° e 17° livello. Si recupera la metà delle loro spese di sangue ogni volta che si soffre un livello di sfinimento, e tutti loro dopo aver completato un breve o un riposo lungo.</span></p>",
+      "value": "<p>Chi pratica la mortificazione trae la propria forza dalla vista del sangue che gli scorre sulla pelle, simbolo della penitenza che merita. Da questo tormento un mortificato ottiene cariche sanguigne. Hai 1 carica sanguigna, che puoi spendere per attivare i privilegi della tua filosofia o le capacità che usano @Compendium[historia-it.profession-features-it.p40i8SqR3b3SfEPT]{Lesioni Autoinflitte}; ottieni una carica sanguigna aggiuntiva al 5°, all'11° e al 17° livello. Recuperi metà delle cariche sanguigne ogni volta che subisci un livello di indebolimento, e tutte quando completi un riposo breve o lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -199,7 +199,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 2",
+    "requirements": "Mortificato Livello 2",
     "cover": null,
     "crewed": false,
     "prerequisites": {

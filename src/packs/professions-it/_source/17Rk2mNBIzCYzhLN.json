@@ -1,10 +1,10 @@
 {
-  "name": "Dottore",
+  "name": "Medico",
   "type": "subclass",
   "img": "icons/magic/life/cross-embers-glow-yellow-purple.webp",
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Mentre l'inventore vuole esplorare i meccanismi interni di tutto, il medico è interessato ai processi vitali di ogni creatura. La morte è il loro più grande avversario; tuttavia, i medici non hanno le ambizioni metafisiche di alcuni alchimisti, e semplicemente ostacolarlo somministrando decotti, tinture e involucri, fratture di divisione e ferite da cucito. I medici sono al servizio degli altri, e dal più umile dei pazienti alla regalità, la loro priorità rimane la cura di coloro che soffrono, più nel corpo che nello spirito.</span></p>",
+      "value": "<p>Mentre l'inventore vuole esplorare i meccanismi interni di ogni cosa, il medico si interessa ai processi vitali di ogni creatura. La morte è il suo più grande avversario; tuttavia, i medici non hanno le ambizioni metafisiche di certi alchimisti e si limitano a ostacolarla somministrando decotti, tinture e impacchi, steccando fratture e ricucendo ferite. I medici sono al servizio degli altri e, dal più umile dei pazienti ai reali, la loro priorità resta la cura di chi soffre, più nel corpo che nello spirito.</p>",
       "chat": ""
     },
     "source": {
@@ -40,7 +40,7 @@
         },
         "value": {},
         "level": 3,
-        "title": "Concedere Abilità"
+        "title": "Privilegio"
       },
       {
         "_id": "n3KNJQijwpO5WnrZ",
@@ -67,7 +67,7 @@
         },
         "value": {},
         "level": 7,
-        "title": "Concedere Abilità"
+        "title": "Privilegio"
       },
       {
         "_id": "du2RQS3GKvrPrkPs",
@@ -94,7 +94,7 @@
         },
         "value": {},
         "level": 14,
-        "title": "Concedere Abilità"
+        "title": "Privilegio"
       }
     ],
     "spellcasting": {

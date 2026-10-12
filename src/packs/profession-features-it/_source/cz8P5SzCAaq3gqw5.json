@@ -1,5 +1,5 @@
 {
-  "name": "Maggiore Arcana",
+  "name": "Arcani Maggiori",
   "type": "feat",
   "img": "media/Profession Features/wish.webp",
   "effects": [],
@@ -165,7 +165,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al 11° livello, è possibile scegliere un incantesimo di livello 6, al 13° livello è possibile scegliere un incantesimo di 7° livello, al 15° livello un incantesimo di 8° livello e al 17° livello un livello di incantesimo.</span></p>\n<p><span class=\"fontstyle0\">Sarete in grado di lanciare ciascuno di questi incantesimi una volta, ma dovrà prendere un riposo lungo per usarli di nuovo.</span></p>\n<p><span class=\"fontstyle0\">È possibile sostituire uno di questi incantesimi con uno dello stesso livello, quando si ottiene un nuovo livello mago.</span></p>",
+      "value": "<p>All'11° livello puoi scegliere un incantesimo di 6° livello, al 13° livello uno di 7°, al 15° livello uno di 8° e al 17° livello uno di 9°.</p>\n<p>Puoi lanciare ciascuno di questi incantesimi una volta, dopodiché devi completare un riposo lungo per poterlo usare di nuovo.</p>\n<p>Quando acquisisci un nuovo livello da magus puoi sostituire uno di questi incantesimi con un altro dello stesso livello.</p>",
       "chat": ""
     },
     "source": {
@@ -182,7 +182,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mago Livello 11",
+    "requirements": "Magus Livello 11",
     "cover": null,
     "crewed": false,
     "prerequisites": {

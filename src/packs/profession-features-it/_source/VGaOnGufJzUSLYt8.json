@@ -1,5 +1,5 @@
 {
-  "name": "Sorpresa Hit",
+  "name": "Colpo a Sorpresa",
   "type": "feat",
   "img": "media/Profession Features/barbarian.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Al terzo livello, la tua precisione è letale contro chiunque sia più lento dei tuoi scioperi. Un @Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} su un bersaglio che non ha ancora preso una svolta nel combattimento infligge 2d6 danni piuttosto che 1d6. Inoltre, se si utilizza un pugnale o simili armi corte, il danno dell'arma aumenta fino a 1d6.</span></p>",
+      "value": "<p>Al 3° livello la tua precisione è letale contro chiunque sia più lento dei tuoi colpi. Un @Compendium[historia-it.profession-features-it.yHVqUgYNSoJym2GD]{Attacco Furtivo} contro un bersaglio che non ha ancora agito in combattimento infligge 2d6 danni anziché 1d6. Inoltre, se usi un pugnale o un'arma corta simile, il danno dell'arma sale a 1d6.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canaglia Livello 3, Sicario",
+    "requirements": "Furfante Livello 3, Sicario",
     "cover": null,
     "crewed": false,
     "prerequisites": {

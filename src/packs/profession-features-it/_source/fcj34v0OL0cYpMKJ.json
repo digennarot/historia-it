@@ -1,5 +1,5 @@
 {
-  "name": "Terrore rosso",
+  "name": "Terrore Rosso",
   "type": "feat",
   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
   "effects": [],
@@ -155,7 +155,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal decimo livello, sei una visione terrificante del sangue e delle ferite. Quando si attiva la mortificazione e quando si soffre di un colpo critico, è possibile spendere una carica di sangue per forzare qualsiasi numero di creature entro 9 metri per effettuare un Tiro Salvezza su Saggezza. Le creature ingannevoli sono spaventate fino alla fine del loro turno successivo. Creature che con successo fanno un Tiro Salvezza sono immuni a questa capacità per 24 ore.</span></p>",
+      "value": "<p>A partire dal 10° livello sei una visione terrificante di sangue e ferite. Quando attivi la @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione} e quando subisci un colpo critico, puoi spendere una carica sanguigna per costringere un numero qualsiasi di creature entro 9 metri a effettuare un tiro salvezza su Saggezza. Le creature che lo falliscono sono spaventate fino alla fine del loro turno successivo. Le creature che superano il tiro salvezza sono immuni a questa capacità per 24 ore.</p>",
       "chat": ""
     },
     "source": {
@@ -172,7 +172,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 10, Fanatico",
+    "requirements": "Mortificato Livello 10, Fanatico",
     "cover": null,
     "crewed": false,
     "prerequisites": {

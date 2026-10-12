@@ -149,7 +149,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Una volta a turno, se sei interessato dalla Mortificazione, puoi spendere una sanguinosa carica o usare lesioni autoinflitte per fare un attacco supplementare durante l'azione Attacco.</span> </p>",
+      "value": "<p>Una volta per turno, se sei sotto l'effetto della @Compendium[historia-it.profession-features-it.AlCQLlsvdvLz5Fo5]{Mortificazione}, puoi spendere una carica sanguigna o usare @Compendium[historia-it.profession-features-it.p40i8SqR3b3SfEPT]{Lesioni Autoinflitte} per effettuare un attacco aggiuntivo quando effettui l'azione di Attacco.</p>",
       "chat": ""
     },
     "source": {
@@ -166,7 +166,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Flagellante Livello 2, Fanatico",
+    "requirements": "Mortificato Livello 2, Fanatico",
     "cover": null,
     "crewed": false,
     "prerequisites": {

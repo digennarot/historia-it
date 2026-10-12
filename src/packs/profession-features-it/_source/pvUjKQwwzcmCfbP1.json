@@ -1,5 +1,5 @@
 {
-  "name": "Stile di combattimento: Grande arma Combattere",
+  "name": "Stile di Combattimento: Combattere con Armi Possenti",
   "type": "feat",
   "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
   "effects": [],
@@ -157,7 +157,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando si tira un 1 o 2 su un danno morire per un attacco si fa con un'arma da mischia che si sta tenendo con due mani, è possibile riscrivere il dado e deve utilizzare il nuovo rotolo, anche se il nuovo rotolo è un 1 o un 2. L'arma deve avere la proprietà a due mani o versatili per ottenere questo vantaggio.</p>",
+      "value": "<p>Quando ottieni 1 o 2 a un dado di danno di un attacco effettuato con un'arma da mischia impugnata a due mani, puoi ritirare il dado e devi usare il nuovo risultato, anche se è di nuovo 1 o 2. Per ottenere questo beneficio l'arma deve avere la proprietà a due mani o versatile.</p>",
       "chat": ""
     },
     "source": {
@@ -174,7 +174,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Armigero Livello 1, Avventuriero Livello 3 (Trappolatore)",
+    "requirements": "Armigero Livello 1, Venturiero Livello 3 (Battitore)",
     "cover": null,
     "crewed": false,
     "prerequisites": {

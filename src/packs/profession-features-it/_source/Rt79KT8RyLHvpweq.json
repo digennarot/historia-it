@@ -1,5 +1,5 @@
 {
-  "name": "Saggio di Chimica (Raro)",
+  "name": "Trattato di Chimica (Raro)",
   "type": "feat",
   "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
   "effects": [],
@@ -149,7 +149,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Alla fine di un breve o lungo riposo e con accesso a strumenti erboristici,</span><span class=\"fontstyle0\"><span class=\"fontstyle0\">è possibile preparare una pozione rara spendendo 350 monete, aggiungendo i processi per</span><span class=\"fontstyle2\"><em>pozione di guarigione superiore</em> </span><span class=\"fontstyle0\">e il</span><em><span class=\"fontstyle2\">pozione di forza gigante</span><span class=\"fontstyle0\">(25).</span></em></span></p>",
+      "value": "<p>Alla fine di un riposo breve o lungo, con accesso a una borsa da erborista, puoi preparare una pozione rara spendendo 350 mo. Aggiungi al trattato i procedimenti per la <em>pozione di guarigione superiore</em> e la <em>pozione di forza dei giganti (25)</em>.</p>",
       "chat": ""
     },
     "source": {
@@ -166,7 +166,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Alchimista Livello 2",
+    "requirements": "Alchimista Livello 13",
     "cover": null,
     "crewed": false,
     "prerequisites": {
