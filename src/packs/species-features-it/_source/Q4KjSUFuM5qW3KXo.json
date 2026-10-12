@@ -1,5 +1,5 @@
 {
-  "name": "Manopole",
+  "name": "Testa Dura",
   "type": "feat",
   "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
   "effects": [],
@@ -155,13 +155,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>L'impatto da headbutt è qualcosa che nessuno vuole sperimentare. Dopo che un avversario è stato colpito dal tuo attacco di corno, devono effettuare un tiro salvezza di resistenza (CD 8 + il tuo modifier di resistenza + il tuo bonus di competenza). Si inclinino se falliscono questo tiro salvezza.</p>",
+      "value": "<p>L'impatto delle tue testate è qualcosa che nessuno vorrebbe provare. Quando colpisci un avversario con un attacco con le corna, questo deve superare un tiro salvezza su Forza (CD 8 + il tuo modificatore di Forza + il tuo bonus di competenza), altrimenti cade prono.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 73",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "uses": {
       "max": "",
@@ -172,7 +175,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Goats",
+    "requirements": "Caprini",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -1,5 +1,5 @@
 {
-  "name": "Polmoni Forti",
+  "name": "Forti Polmoni",
   "type": "feat",
   "img": "icons/magic/water/bubbles-air-water-pink.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non si soffre dei livelli di sfinimento causati da una mancanza di riposo a causa di un lungo viaggio o di un prolungato sforzo di resistenza.</p>",
+      "value": "<p>Non subisci livelli di indebolimento dovuti alla mancanza di riposo durante un lungo viaggio o uno sforzo fisico prolungato.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 57",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Primoi",
+    "requirements": "Tassi, Lupi, Primoi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

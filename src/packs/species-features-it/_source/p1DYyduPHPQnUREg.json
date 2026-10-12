@@ -1,5 +1,5 @@
 {
-  "name": "Volo silenzioso",
+  "name": "Volo Silenzioso",
   "type": "feat",
   "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>A differenza del volo degli altri Aviani, quello dello Strige è estremamente silenzioso e non produce il classico rumore delle ali a ribalta. Si approfitta delle prove di Destrezza (Furtività) per evitare di essere notato mentre si vola.</p>",
+      "value": "<p>A differenza di quello degli altri aviani, il tuo volo è estremamente silenzioso e non produce il classico rumore del battito d'ali. Hai vantaggio alle prove di Destrezza (Furtività) per non farti notare mentre voli.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 117",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "116"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Strigi Familia",
+    "requirements": "Strigi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

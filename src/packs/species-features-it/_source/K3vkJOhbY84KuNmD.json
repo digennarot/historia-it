@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si avvantaggia delle prove di Destrezza (Acrobazia) effettuati mentre in volo e può effettuare un Tiro Salvezza su destrezza invece del tiro salvezza di Costituzione per mantenere la concentrazione durante il volo.</p>",
+      "value": "<p>Hai vantaggio alle prove di Destrezza (Acrobazia) effettuate in volo e puoi effettuare un tiro salvezza su Destrezza invece che su Costituzione per mantenere la concentrazione mentre voli.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 92",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Bats",
+    "requirements": "Pici, Falchi, Chirotteri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

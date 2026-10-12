@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete il vantaggio di salvare getti contro la paura ed evitare di essere affascinati da creature diverse da Peacocks.</p>",
+      "value": "<p>Hai vantaggio ai tiri salvezza contro la paura e contro gli effetti che ti renderebbero affascinato, se provengono da creature che non sono pavoni.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 114",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "114"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Peacocks",
+    "requirements": "Pavoni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

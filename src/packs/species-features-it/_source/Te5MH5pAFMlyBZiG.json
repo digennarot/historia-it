@@ -1,5 +1,5 @@
 {
-  "name": "Canzone di Suave",
+  "name": "Canto Soave",
   "type": "feat",
   "img": "icons/skills/trades/music-singing-voice-blue.webp",
   "effects": [],
@@ -182,19 +182,22 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi spendere un'azione per produrre una dolce canzone che rinfresca l'anima e il corpo dei tuoi compagni. Qualsiasi alleato entro 15 metri che può sentirti può ignorare un livello di sfinimento per un minuto. Questa capacità può essere utilizzata di nuovo dopo aver terminato un riposo breve.</p>",
+      "value": "<p>Puoi usare un'azione per intonare un canto dolce che ristora l'anima e il corpo dei tuoi compagni. Ogni alleato entro 15 metri che può sentirti ignora per 1 minuto l'ultimo livello di indebolimento. Puoi usare di nuovo questa capacità dopo aver terminato un riposo breve.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 106",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "108"
     },
     "uses": {
       "max": "1",
       "recovery": [
         {
-          "period": "lr",
+          "period": "sr",
           "type": "recoverAll"
         }
       ],
@@ -204,7 +207,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Nightingales",
+    "requirements": "Usignoli",
     "cover": null,
     "crewed": false,
     "prerequisites": {

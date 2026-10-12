@@ -267,13 +267,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">La tua pelliccia presenta spine affilate sulla schiena, che ti danno un +1 bonus per la tua classe di armatura. In ogni round in cui attacchi fisicamente un avversario, o vieni attaccato fisicamente da uno, quell'avversario subisce 1 punto di danno perforante dalle spine.</span></p>",
+      "value": "<p>La tua pelliccia è irta di aculei affilati sulla schiena, che ti conferiscono un bonus di +1 alla Classe Armatura. In ogni round in cui attacchi fisicamente un avversario o vieni attaccato fisicamente da uno, quell'avversario subisce 1 danno perforante dagli aculei.</p>",
       "chat": ""
     },
     "source": {
       "custom": "",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "63"
     },
     "uses": {
       "max": "",
@@ -284,7 +287,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Ricci",
     "cover": null,
     "crewed": false,
     "prerequisites": {

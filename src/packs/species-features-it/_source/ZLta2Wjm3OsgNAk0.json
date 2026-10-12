@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">È possibile utilizzare le ali per semplici interazioni con gli oggetti, ma non è possibile gestirli o tenerli. Volare con le ali richiede concentrazione e cadere se li usi in qualsiasi altro modo. Se si esegue l'azione di Scatto durante il volo, la velocità di volo è raddoppiata per il turno.</span> </p>",
+      "value": "<p>Puoi usare le ali per semplici interazioni con gli oggetti, ma non per impugnarli o reggerli. Volare con le ali richiede concentrazione: se le usi in qualsiasi altro modo, precipiti. Se effettui l'azione di Scatto mentre voli, ottieni un movimento extra pari al doppio della tua velocità di volo. Se la tua velocità di volo scende sotto la metà, non puoi volare e, se sei in volo, precipiti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 94",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "94"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Aviano",
+    "requirements": "Aviani",
     "cover": null,
     "crewed": false,
     "prerequisites": {

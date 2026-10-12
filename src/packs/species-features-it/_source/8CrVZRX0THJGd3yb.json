@@ -1,5 +1,5 @@
 {
-  "name": "Aspetto comune",
+  "name": "Apparenze Comuni",
   "type": "feat",
   "img": "icons/creatures/mammals/bat-movement-flying-blue-purple.webp",
   "effects": [],
@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un Rossetto ha vantaggio nei controlli con il kit camouflage per assomigliare a un Theri, un Canide o una Licae.</p>",
+      "value": "<p>Hai vantaggio alle prove con i trucchi per il camuffamento effettuate per sembrare un canide o un licae.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 74",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "91"
     },
     "uses": {
       "max": "",

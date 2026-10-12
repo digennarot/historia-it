@@ -1,5 +1,5 @@
 {
-  "name": "Bussola interna",
+  "name": "Orientamento",
   "type": "feat",
   "img": "icons/tools/navigation/compass-brass-blue-red.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non si perde mai, e può sempre determinare la direzione del Nord.</p>",
+      "value": "<p>Non ti perdi mai e sai sempre individuare la direzione del nord.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 79",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mice",
+    "requirements": "Topi, Anseri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai svantaggio sulle prove di Saggezza (Percezione) a vista.</p>",
+      "value": "<p>Hai svantaggio alle prove di Saggezza (Percezione) basate sulla vista.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 59",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Edenti Familia",
+    "requirements": "Vampiri, Chirotteri, Talpe, Edenti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

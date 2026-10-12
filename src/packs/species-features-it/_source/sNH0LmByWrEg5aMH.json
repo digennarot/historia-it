@@ -187,13 +187,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi gonfiare i muscoli del tuo corpo e allungare la spina dorsale per guadagnare diversi centimetri di altezza. Questo ti dà vantaggio sui controlli di Carisma (Intimidate) contro creature più brevi di te.</p>",
+      "value": "<p>Puoi gonfiare i muscoli e allungare la schiena per guadagnare qualche centimetro di altezza. Questo ti dà vantaggio alle prove di Carisma (Intimidire) contro le creature più basse di te.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 59",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -204,7 +207,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Formichieri, Gufi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

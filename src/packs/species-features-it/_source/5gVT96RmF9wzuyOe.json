@@ -1,5 +1,5 @@
 {
-  "name": "Forte intuizione",
+  "name": "Forte Intuito",
   "type": "feat",
   "img": "media/Species Features/still-mind.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete vantaggio nei prove di Saggezza (Intuizione), nel valutare se una situazione potrebbe presentare una minaccia o un inganno.</p>",
+      "value": "<p>Hai vantaggio alle prove di Saggezza (Intuizione) per valutare se una situazione può nascondere una minaccia o un inganno.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 116",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "116"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Strigi Familia",
+    "requirements": "Strigi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

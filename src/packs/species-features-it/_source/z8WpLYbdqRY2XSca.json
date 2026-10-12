@@ -172,13 +172,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Qualsiasi creatura che afferra, è afferrato, o viene a contatto diretto prolungato la tua pelliccia riempita di stampi deve avere successo in un CD 12 Costituzione risparmio getto o ottenere la condizione avvelenata per 1 minuto. Una creatura avvelenata non più in contatto diretto con voi può ri-tirare il tiro salvezza alla fine di ciascuno dei suoi giri, terminando la condizione di avvelenamento se successo.</p>",
+      "value": "<p>Qualsiasi creatura che ti afferra, che è afferrata da te o che resta a lungo a contatto diretto con la tua pelliccia piena di muffe deve superare un tiro salvezza su Costituzione con CD 12, altrimenti è avvelenata per 1 minuto. Una creatura avvelenata che non è più a contatto diretto con te può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto termina.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 62",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "61"
     },
     "uses": {
       "max": "",
@@ -189,7 +192,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Sloths",
+    "requirements": "Bradipi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

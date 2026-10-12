@@ -66,7 +66,7 @@ Le release sono gestite dal workflow GitHub Actions `.github/workflows/release.y
 
 Per rilasciare una nuova versione:
 
-1. Aggiorna la versione in `module-it.json`, `module-en.json`, `historia-it/module.json` e `package.json`.
+1. Aggiorna la versione in `module-it.json`, `module-en.json` e `package.json` (il tag `vX.Y.Z` deve coincidere: il workflow lo verifica).
 2. Committa e apri una PR verso `main`; dopo il merge, crea e pusha il tag corrispondente:
    ```bash
    git tag v<versione>

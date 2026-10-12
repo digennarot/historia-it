@@ -1,5 +1,5 @@
 {
-  "name": "Roditore",
+  "name": "Rosicchiatore",
   "type": "feat",
   "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
   "effects": [],
@@ -167,13 +167,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>I vostri incisivi sono sovrasviluppati, permettendovi di incidere facilmente attraverso materiali come legno, corda, carta, gesso ecc. Sono considerati uno strumento in cui si ha competenza, paragonabile a un coltello da lavoro.</p>",
+      "value": "<p>I tuoi incisivi sono molto sviluppati e ti permettono di rosicchiare facilmente materiali come legno, corda, carta, gesso e simili. Sono considerati uno strumento in cui hai competenza, paragonabile a un coltello da lavoro.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 77",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "77"
     },
     "uses": {
       "max": "",
@@ -184,7 +187,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Rodenti Familia",
+    "requirements": "Rodenti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

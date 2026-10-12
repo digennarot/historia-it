@@ -1,5 +1,5 @@
 {
-  "name": "Imparare velocemente",
+  "name": "Apprendimento Rapido",
   "type": "feat",
   "img": "icons/skills/trades/academics-investigation-puzzles.webp",
   "effects": [],
@@ -184,13 +184,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Alla fine di un riposo lungo, è possibile trascorrere un'ora praticando una particolare attività. Se lo fanno, si ottiene la competenza in una abilità legata a quella attività fino al vostro prossimo lungo riposo.</p>",
+      "value": "<p>Alla fine di un riposo lungo, puoi passare un'ora a esercitarti in una particolare attività. Se lo fai, hai competenza in un'abilità correlata a quell'attività fino al tuo prossimo riposo lungo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 54",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -201,7 +204,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canidi Familia",
+    "requirements": "Canidi, Corbei",
     "cover": null,
     "crewed": false,
     "prerequisites": {

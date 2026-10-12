@@ -1,5 +1,5 @@
 {
-  "name": "Fuga Rapida",
+  "name": "Fuggire",
   "type": "feat",
   "img": "media/Species Features/epic-reflexes.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete vantaggio nei prove di Destrezza (Furtività) per nascondersi da inseguitori durante una fuga, al costo di ottenere un livello di sfinimento subito dopo.</p>",
+      "value": "<p>Hai vantaggio alle prove di Destrezza (Furtività) per nasconderti dagli inseguitori durante una fuga, ma subito dopo subisci un livello di indebolimento.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 71",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "70"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Foxes",
+    "requirements": "Volpi Rosse",
     "cover": null,
     "crewed": false,
     "prerequisites": {

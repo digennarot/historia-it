@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si può passare attraverso gli spazi di qualsiasi creatura più grande e passare attraverso qualsiasi fessura o spazio fino a quando si può ottenere la testa attraverso.</p>",
+      "value": "<p>Puoi attraversare lo spazio di qualsiasi creatura più grande di te e passare attraverso qualsiasi fessura o apertura, purché vi passi la testa.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 79",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "79"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mice",
+    "requirements": "Topi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

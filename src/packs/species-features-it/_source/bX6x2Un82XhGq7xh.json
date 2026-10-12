@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai vantaggio alle prove di Forza di resistenza per spostare o immobilizzare una creatura.</p>",
+      "value": "<p>Hai vantaggio alle prove di Forza per spingere o afferrare una creatura.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 90",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "88"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Urcidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

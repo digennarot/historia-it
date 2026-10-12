@@ -1,5 +1,5 @@
 {
-  "name": "Connessione mistica",
+  "name": "Connessione Mistica",
   "type": "feat",
   "img": "media/Species Features/purity-of-body.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Siete molto sensibili alle presenze mistiche, riuscendo a percepire entità soprannaturali attraverso l'odore.</p>",
+      "value": "<p>Sei molto sensibile alle presenze mistiche e riesci a fiutare le entità soprannaturali.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 70",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "70"
     },
     "uses": {
       "max": "",

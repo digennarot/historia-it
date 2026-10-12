@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>La capacità innata di utilizzare gli ultrasuoni per capire la zona circostante garantisce una visione perfetta in condizioni di scarsa luce. È possibile mappare lo spazio fisico circostante e gli oggetti o creature che si muovono dentro di esso, fino a 18 metri di distanza. Non sei in grado di distinguere colori o texture, solo forme, e non puoi vedere oltre oggetti fisici e barriere. Altre creature non ottengono alcun vantaggio sui tiri per colpire fatti contro di voi come risultato di essere nascosti.</p>",
+      "value": "<p>La capacità innata di usare gli ultrasuoni per comprendere l'area circostante ti garantisce una percezione perfetta in condizioni di scarsa luce. Puoi mappare lo spazio fisico intorno a te e gli oggetti o le creature che vi si muovono, fino a 18 metri di distanza. Non sei in grado di distinguere colori o consistenze, solo forme, e non puoi percepire oltre oggetti e barriere fisiche. Le altre creature non ottengono vantaggio ai tiri per colpire contro di te per il fatto di essere nascoste.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 74",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "91"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Bats",
+    "requirements": "Vampiri, Chirotteri",
     "cover": null,
     "crewed": false,
     "prerequisites": {

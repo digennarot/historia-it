@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai vantaggio sulla Saggezza (Percezione) prova di caratteristica che si basano sull'odore e sull'udito.</p>",
+      "value": "<p>Hai vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto o sull'udito.</p>",
       "chat": ""
     },
     "source": {
       "custom": "HXB pg.54",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "54"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Canidi Familia",
+    "requirements": "Canidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

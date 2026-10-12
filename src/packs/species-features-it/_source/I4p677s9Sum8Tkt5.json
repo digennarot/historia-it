@@ -1,5 +1,5 @@
 {
-  "name": "Passo tranquillo",
+  "name": "Passo Felpato",
   "type": "feat",
   "img": "media/Species Features/silent-moves.webp",
   "effects": [],
@@ -177,13 +177,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>In caso di svantaggio, un Felid approfitterà delle prove di Furtività per muoversi silenziosamente.</p>",
+      "value": "<p>Se non hai svantaggio, hai vantaggio alle prove di Destrezza (Furtività) per muoverti in silenzio.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 66",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "66"
     },
     "uses": {
       "max": "",
@@ -194,7 +197,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Felifi Familia",
+    "requirements": "Felidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

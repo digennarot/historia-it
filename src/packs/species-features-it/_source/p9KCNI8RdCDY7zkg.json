@@ -185,13 +185,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Se sei colpito da un avversario, puoi usare la tua reazione per ottenere vantaggio sugli attacchi contro quell'avversario fino alla fine del loro turno successivo.</span></p>",
+      "value": "<p>Quando un avversario ti colpisce, puoi usare la reazione per ottenere vantaggio ai tiri per colpire contro di lui fino alla fine del tuo prossimo turno.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 95",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -202,7 +205,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Anseri Familia",
+    "requirements": "Anseri, Pettirossi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

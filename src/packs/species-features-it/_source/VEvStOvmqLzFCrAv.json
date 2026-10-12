@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Capisci sempre l'evoluzione del tempo nelle aree marittime e hai la capacità di trovare le migliori correnti e il momento migliore per avventurarsi in mare.</p>",
+      "value": "<p>Sai sempre prevedere l'evoluzione del tempo nelle zone di mare e sei in grado di individuare le correnti migliori e il momento più adatto per prendere il largo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 97",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "98"
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Pelicans",
+    "requirements": "Pellicani",
     "cover": null,
     "crewed": false,
     "prerequisites": {

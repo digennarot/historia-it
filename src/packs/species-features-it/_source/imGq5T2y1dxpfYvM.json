@@ -1,5 +1,5 @@
 {
-  "name": "Sopracciglia migliorate",
+  "name": "Artigli Migliorati",
   "type": "weapon",
   "img": "icons/creatures/claws/claw-hooked-curved.webp",
   "effects": [],
@@ -214,13 +214,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi usare gli artigli per fare un attacco senz'armi. Le artiglie sono considerate un'arma di finezza e possono tirare 1d4 danneggiando invece del normale danno di attacco disarmato.</p>",
+      "value": "<p>Puoi usare gli artigli per effettuare un colpo senz'armi. Gli artigli sono considerati un'arma accurata e infliggono 1d4 danni taglienti invece dei normali danni di un colpo senz'armi.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 59",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "68"
     },
     "quantity": 1,
     "weight": {
@@ -396,7 +399,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Puma"
   },
   "_stats": {
     "coreVersion": "13.350",

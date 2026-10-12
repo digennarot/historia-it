@@ -1,5 +1,5 @@
 {
-  "name": "Resistenza al veleno",
+  "name": "Resistenza al Veleno",
   "type": "feat",
   "img": "icons/magic/defensive/shield-barrier-glowing-triangle-green.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai il vantaggio di risparmiare getti contro avvelenamento e danni avvelenati.</p>",
+      "value": "<p>Hai vantaggio ai tiri salvezza contro il veleno e hai resistenza ai danni da veleno.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 74",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Martens",
+    "requirements": "Martore, Sauti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

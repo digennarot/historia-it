@@ -1,5 +1,5 @@
 {
-  "name": "Attenzione",
+  "name": "Attento",
   "type": "feat",
   "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai competenza nell'abilità Percezione. Altre creature non ottengono alcun vantaggio nell'attaccarti mentre sei nascosto.</p>",
+      "value": "<p>Hai competenza nell'abilità Percezione. Le altre creature non ottengono vantaggio ai tiri per colpire contro di te per il fatto di essere nascoste.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 73",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Gaots",
+    "requirements": "Fagiani, Gru, Orsi Bruni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

@@ -299,6 +299,7 @@ async function main() {
 
     // Copy runtime scripts
     await copyFileAndDirs("src/scripts/main.js", "historia-it/scripts/main.js");
+    await copyFileAndDirs("media/Background/historia login page.webp", "historia-it/media/Background/historia login page.webp");
     console.log("Copied runtime scripts.");
 
     console.log(`Need to copy ${imagesToCopy.size} image files...`);
@@ -330,4 +331,7 @@ async function main() {
     await fs.rm("temp_packs", { recursive: true, force: true });
 }
 
-main().catch(console.error);
+main().catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+});

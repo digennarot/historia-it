@@ -191,13 +191,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Il vostro becco infligge 1d4 punti di danno invece del danno normale di un attacco disarmato. Puoi usare la tua azione bonus per fare un attacco con il becco come se fosse la seconda arma di un attacco a due armi.</p>",
+      "value": "<p>Il tuo becco infligge 1d4 danni perforanti invece dei normali danni di un colpo senz'armi. Puoi usare l'azione bonus per effettuare un attacco con il becco come se fosse la seconda arma di un combattimento con due armi.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 108",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "107"
     },
     "quantity": 1,
     "weight": {
@@ -371,7 +374,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Picchi"
   },
   "_stats": {
     "coreVersion": "13.350",

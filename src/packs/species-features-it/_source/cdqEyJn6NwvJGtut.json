@@ -1,5 +1,5 @@
 {
-  "name": "Attacco del corno",
+  "name": "Attacco con le Corna",
   "type": "weapon",
   "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
   "effects": [],
@@ -228,13 +228,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">È possibile utilizzare le corna (se le hanno) come arma naturale, per eseguire un attacco senz'armi. Se colpisce, infligge 1d4 + il tuo parametro di forza che perfora danni.</span></p>",
+      "value": "<p>Puoi usare le corna (se le hai) come arma naturale per effettuare un colpo senz'armi. Se colpisci, infliggi 1d4 + il tuo modificatore di Forza danni perforanti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 81",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "quantity": 1,
     "weight": {
@@ -408,7 +411,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Ruminsi"
   },
   "_stats": {
     "coreVersion": "13.350",

@@ -1,5 +1,5 @@
 {
-  "name": "Opportunità",
+  "name": "Opportunista",
   "type": "feat",
   "img": "media/Species Features/merciful.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Quando si effettuano attacchi di opportunità, si ottiene vantaggio su quei tiri per colpire.</span></p>",
+      "value": "<p>Hai vantaggio ai tiri per colpire degli attacchi di opportunità.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 101",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Ravens",
+    "requirements": "Cornacchie, Allocchi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

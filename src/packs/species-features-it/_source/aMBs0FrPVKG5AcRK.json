@@ -170,13 +170,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi appallottolarti per proteggerti meglio con la tua armatura. Per farlo devi utilizzare un'azione bonus. Mentre sei appallottolato, hai vantaggio sui tiri salvezza di Costituzione e i tuoi avversari hanno svantaggio quando ti attaccano; l'unica azione che puoi intraprendere è tornare in posizione eretta. Mentre sei appallottolato, la tua velocità è 0 e non può essere aumentata, e non puoi utilizzare la tua reazione.</p>",
+      "value": "<p>Puoi usare un'azione bonus per appallottolarti e proteggerti meglio con la tua corazza. Mentre sei appallottolato hai vantaggio ai tiri salvezza su Costituzione, gli avversari hanno svantaggio ai tiri per colpire contro di te e l'unica azione che puoi compiere è tornare in posizione eretta. Inoltre la tua velocità è 0 e non può aumentare, e non puoi usare la reazione.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 60",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -187,7 +190,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Armadillos",
+    "requirements": "Ricci, Pangolini, Armadilli",
     "cover": null,
     "crewed": false,
     "prerequisites": {

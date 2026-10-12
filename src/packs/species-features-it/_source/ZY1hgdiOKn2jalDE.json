@@ -1,5 +1,5 @@
 {
-  "name": "Morso Velenoso",
+  "name": "Morso Venefico",
   "type": "weapon",
   "img": "icons/creatures/abilities/fang-tooth-venomous.webp",
   "effects": [],
@@ -206,13 +206,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Se si afferra con successo una creatura, è possibile utilizzare la reazione per fare un attacco di morso contro quella creatura. Un attacco di morso è un attacco senz'armi che infligge 1d4 danni perforanti. Inoltre, qualsiasi creatura colpita deve effettuare un Tiro Salvezza su Costituzione (CD 10 + il tuo bonus di competenza) o diventare avvelenato per un minuto.</p>",
+      "value": "<p>Se afferri con successo una creatura, puoi usare la reazione per effettuare un attacco con il morso contro di essa. Il morso è un colpo senz'armi che infligge 1d4 danni perforanti. Inoltre la creatura colpita deve superare un tiro salvezza su Costituzione (CD 10 + il tuo bonus di competenza), altrimenti è avvelenata per 1 minuto.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 65",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "64"
     },
     "quantity": 1,
     "weight": {
@@ -464,7 +467,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Toporagni"
   },
   "_stats": {
     "coreVersion": "13.350",

@@ -1,5 +1,5 @@
 {
-  "name": "Flessuoso",
+  "name": "Scattante",
   "type": "feat",
   "img": "icons/skills/movement/feet-winged-boots-brown.webp",
   "effects": [],
@@ -149,13 +149,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si può saltare o prendere un'azione di Scatto come azione bonus.</p>",
+      "value": "<p>Puoi saltare o effettuare l'azione di Scatto come azione bonus.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 78",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "78"
     },
     "uses": {
       "max": "",
@@ -166,7 +169,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Leporidae",
+    "requirements": "Leporidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

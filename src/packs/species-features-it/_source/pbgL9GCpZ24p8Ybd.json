@@ -1,5 +1,5 @@
 {
-  "name": "Gamba Lunga",
+  "name": "Passo Piuma",
   "type": "feat",
   "img": "icons/commodities/materials/feather-blue-glowing.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Se non si dispone di svantaggio, si ottiene vantaggio sulle prove di Furtività per muoversi silenziosamente.</span></p>",
+      "value": "<p>Se non hai svantaggio, hai vantaggio alle prove di Destrezza (Furtività) per muoverti in silenzio.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 103",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "102"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Herons",
+    "requirements": "Aironi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

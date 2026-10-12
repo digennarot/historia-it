@@ -143,13 +143,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Avete vantaggio sui tiri salvezza costituzionali che porterebbero ad acquisire una condizione.</p>",
+      "value": "<p>Hai vantaggio ai tiri salvezza su Costituzione che ti farebbero subire una condizione.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 67",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "67"
     },
     "uses": {
       "max": "",
@@ -160,7 +163,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Lynx",
+    "requirements": "Linci",
     "cover": null,
     "crewed": false,
     "prerequisites": {

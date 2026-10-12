@@ -1,5 +1,5 @@
 {
-  "name": "Sensibilità alla luce",
+  "name": "Sensibilità alla Luce",
   "type": "feat",
   "img": "icons/magic/light/explosion-star-glow-orange.webp",
   "effects": [],
@@ -181,13 +181,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai svantaggio di tiri per colpire in condizioni luminose.</p>",
+      "value": "<p>Hai svantaggio ai tiri per colpire in condizioni di luce intensa.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 91",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "91"
     },
     "uses": {
       "max": "",
@@ -198,7 +201,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Vespertili Familia",
+    "requirements": "Vespertili",
     "cover": null,
     "crewed": false,
     "prerequisites": {

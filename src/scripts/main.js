@@ -3,7 +3,8 @@
  * Handles the visibility of English and Italian compendium packs and login background.
  */
 
-const MODULE_ID = "historia-it";
+// Lo stesso script è incluso sia in historia-it sia in historia-en: ricava l'id dal percorso.
+const MODULE_ID = import.meta.url.match(/\/modules\/([^/]+)\//)?.[1] ?? "historia-it";
 
 Hooks.once("init", () => {
     // Register the language preference setting
@@ -35,7 +36,7 @@ Hooks.once("init", () => {
         default: true,
         onChange: (value) => {
             if (value && game.user.isGM) {
-                game.settings.set("core", "loginBackground", `modules/${MODULE_ID}/src/media/Background/historia%20login%20page.webp`);
+                game.settings.set("core", "loginBackground", `modules/${MODULE_ID}/media/Background/historia%20login%20page.webp`);
             }
         }
     });
@@ -47,7 +48,7 @@ Hooks.once("ready", () => {
     const applyBackground = game.settings.get(MODULE_ID, "applyLoginBackground");
     if (applyBackground) {
         const currentBackground = game.settings.get("core", "loginBackground");
-        const targetBackground = `modules/${MODULE_ID}/src/media/Background/historia%20login%20page.webp`;
+        const targetBackground = `modules/${MODULE_ID}/media/Background/historia%20login%20page.webp`;
 
         if (currentBackground !== targetBackground) {
             game.settings.set("core", "loginBackground", targetBackground);

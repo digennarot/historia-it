@@ -1,5 +1,5 @@
 {
-  "name": "Carico",
+  "name": "Carica",
   "type": "feat",
   "img": "media/Species Features/lightning-reflexes.webp",
   "effects": [],
@@ -170,13 +170,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Immediatamente dopo aver eseguito un azione di Scatto e aver viaggiato almeno 6 metri, è possibile eseguire un attacco di corno come azione bonus, o un attacco disarmato se non si dispone di uno.</span></p>",
+      "value": "<p>Subito dopo aver effettuato l'azione di Scatto e aver percorso almeno 6 metri, puoi effettuare un attacco con le corna come azione bonus (o un colpo senz'armi, se non hai le corna).</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 81",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "81"
     },
     "uses": {
       "max": "",
@@ -187,7 +190,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Ruminsi Familia",
+    "requirements": "Ruminsi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

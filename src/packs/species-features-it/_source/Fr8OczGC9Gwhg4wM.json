@@ -181,13 +181,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando si rotola 1 su un tiro per colpire, o un Tiro Salvezza, è possibile ri-roll i dadi. È necessario utilizzare il nuovo risultato.</p>",
+      "value": "<p>Quando ottieni 1 a un tiro per colpire, a una prova di caratteristica o a un tiro salvezza, puoi ritirare il dado e devi usare il nuovo risultato.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 56",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -198,7 +201,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Domesti",
+    "requirements": "Cicogne, Domesti",
     "cover": null,
     "crewed": false,
     "prerequisites": {

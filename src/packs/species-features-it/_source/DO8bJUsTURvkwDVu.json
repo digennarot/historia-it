@@ -214,13 +214,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">È possibile utilizzare il becco per effettuare attacchi senz'armi, infliggendo danni perforanti invece di danni contundenti.</span> </p>",
+      "value": "<p>Puoi usare il becco per effettuare colpi senz'armi che infliggono danni perforanti invece che contundenti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 94",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "94"
     },
     "quantity": 1,
     "weight": {
@@ -394,7 +397,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Ruspei, Usignoli, Passeri, Pettirossi, Strigi, Corbei, Anseri, Grarconi"
   },
   "_stats": {
     "coreVersion": "13.350",

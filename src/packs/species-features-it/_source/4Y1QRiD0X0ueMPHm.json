@@ -1,5 +1,5 @@
 {
-  "name": "Rosicchiare",
+  "name": "Morso",
   "type": "weapon",
   "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
   "effects": [],
@@ -215,13 +215,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"> </span><span class=\"fontstyle2\">Se si afferra con successo una creatura, è possibile utilizzare la reazione per fare un attacco di morso contro quella creatura. Un attacco di morso è un attacco senz'armi che infligge 1d4 danni perforanti.</span></p>",
+      "value": "<p>Se afferri con successo una creatura, puoi usare la reazione per effettuare un attacco con il morso contro di essa. Il morso è un colpo senz'armi che infligge 1d4 danni perforanti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 55",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "quantity": 1,
     "weight": {
@@ -394,7 +397,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Licai, Dogo, Primoi"
   },
   "_stats": {
     "coreVersion": "13.350",

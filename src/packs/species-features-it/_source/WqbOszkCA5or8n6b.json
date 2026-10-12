@@ -259,13 +259,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi usare il tuo morso come arma naturale per fare un attacco senz'armi. Se lo colpisce infligge 1+ il modificatore della Costituzione del danno di perforanti, a differenza del normale danno contundente di un attacco senz'armi. Inoltre, si recupera una quantità di Punti Ferita pari al danno fatto con il morso.</p>",
+      "value": "<p>Puoi usare il morso come arma naturale per effettuare un colpo senz'armi. Se colpisci, infliggi danni perforanti pari a 1 + il tuo modificatore di Costituzione, invece dei normali danni contundenti di un colpo senz'armi. Inoltre recuperi un ammontare di punti ferita pari ai danni inflitti con il morso.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 93",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "93"
     },
     "quantity": 1,
     "weight": {
@@ -439,7 +442,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Vampiri"
   },
   "_stats": {
     "coreVersion": "13.350",

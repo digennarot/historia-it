@@ -1,5 +1,5 @@
 {
-  "name": "Potrebbe",
+  "name": "Possanza",
   "type": "feat",
   "img": "icons/skills/melee/unarmed-punch-fist.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Siete trattati come se la vostra dimensione fosse grande quando si determinano quanto si può trasportare o muoversi.</p>",
+      "value": "<p>Quando determini quanto peso puoi trasportare, spingere, trascinare o sollevare, sei considerato di taglia Grande.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 82",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Bovine",
+    "requirements": "Alci, Bovini, Urcidi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

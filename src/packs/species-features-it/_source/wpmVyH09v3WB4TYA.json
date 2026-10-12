@@ -1,5 +1,5 @@
 {
-  "name": "Mimica",
+  "name": "Mimetismo",
   "type": "feat",
   "img": "icons/environment/settlement/sewer-entrance.webp",
   "effects": [],
@@ -157,13 +157,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Quando si crea il personaggio, si sceglie una zona di origine tra urbano o deserto. Avete vantaggio nei prove di Destrezza (Furtività) effettuati per nascondere all'interno del vostro territorio scelto.</span></p>",
+      "value": "<p>Quando crei il personaggio, scegli un ambiente d'origine tra urbano e selvatico. Hai vantaggio alle prove di Destrezza (Furtività) per nasconderti in quel tipo di ambiente.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 119",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "117"
     },
     "uses": {
       "max": "",
@@ -174,7 +177,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Tawny Owls",
+    "requirements": "Allocchi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

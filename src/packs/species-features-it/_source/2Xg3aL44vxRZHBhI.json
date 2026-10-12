@@ -1,5 +1,5 @@
 {
-  "name": "Ragione",
+  "name": "Ragionare",
   "type": "feat",
   "img": "icons/skills/trades/academics-book-study-runes.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai vantaggio sui tiri salvezza basati su intelligenza.</p>",
+      "value": "<p>Hai vantaggio ai tiri salvezza su Intelligenza.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 118",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "118"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Little Owls",
+    "requirements": "Civette",
     "cover": null,
     "crewed": false,
     "prerequisites": {

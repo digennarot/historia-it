@@ -1,5 +1,5 @@
 {
-  "name": "Tenacità senza sosta",
+  "name": "Tenacia Implacabile",
   "type": "feat",
   "img": "icons/magic/life/heart-hand-gold-green.webp",
   "effects": [],
@@ -168,13 +168,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Quando si scende a 0 Punti Ferita, ma non ucciso istantaneamente, si può decidere di rimanere a 1 punto di colpo. Questa capacità può essere utilizzata di nuovo solo dopo</span><span class=\"fontstyle0\">finire un riposo lungo.</span></p>",
+      "value": "<p>Quando scendi a 0 punti ferita ma non vieni ucciso sul colpo, puoi decidere di rimanere invece a 1 punto ferita. Puoi usare di nuovo questa capacità solo dopo aver terminato un riposo lungo.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 72",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "1",
@@ -190,7 +193,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Mustacei Familia",
+    "requirements": "Mustacei, Cigni",
     "cover": null,
     "crewed": false,
     "prerequisites": {

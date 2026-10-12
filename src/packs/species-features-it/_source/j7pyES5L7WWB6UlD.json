@@ -1,5 +1,5 @@
 {
-  "name": "Aiuto",
+  "name": "Generoso",
   "type": "feat",
   "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
   "effects": [],
@@ -149,13 +149,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile utilizzare l'azione bonus per utilizzare l'azione Aiuto.</p>",
+      "value": "<p>Puoi effettuare l'azione Aiuto come azione bonus.</p>",
       "chat": ""
     },
     "source": {
       "custom": "",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "56"
     },
     "uses": {
       "max": "",
@@ -166,7 +169,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Bracchi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

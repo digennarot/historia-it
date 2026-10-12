@@ -1,5 +1,5 @@
 {
-  "name": "Autunno Cuscino",
+  "name": "Caduta Ammortizzata",
   "type": "feat",
   "img": "icons/skills/movement/ball-spinning-blue.webp",
   "effects": [],
@@ -170,13 +170,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si può balzare mentre cade, prendendo 1d6 in meno danno di caduta del normale.</p>",
+      "value": "<p>Puoi appallottolarti mentre cadi, subendo 1d6 danni da caduta in meno del normale.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 63",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "63"
     },
     "uses": {
       "max": "",
@@ -187,7 +190,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Hedgehogs",
+    "requirements": "Ricci",
     "cover": null,
     "crewed": false,
     "prerequisites": {

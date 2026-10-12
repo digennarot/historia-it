@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Hai sempre successo quando si tenta di raccogliere il cibo grazie alla peculiarità dei Maiali di considerare cose commestibili che praticamente nessun altro avrebbe considerato mangiare.</span></p>",
+      "value": "<p>Riesci sempre a racimolare cibo, perché consideri commestibili cose che praticamente nessun altro riterrebbe tali.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 88",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "uses": {
       "max": "",
@@ -181,7 +184,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Pigs",
+    "requirements": "Porci, Corvi, Cornacchie",
     "cover": null,
     "crewed": false,
     "prerequisites": {

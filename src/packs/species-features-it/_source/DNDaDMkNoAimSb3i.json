@@ -1,5 +1,5 @@
 {
-  "name": "Volo esteso",
+  "name": "Volo Leggero",
   "type": "feat",
   "img": "media/Species Features/fly.webp",
   "effects": [],
@@ -178,13 +178,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Si può volare continuamente per 12 ore prima di iniziare a sentirsi affaticato.</p>",
+      "value": "<p>Puoi volare ininterrottamente per 12 ore prima di cominciare a sentire la fatica.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 101",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "101"
     },
     "uses": {
       "max": "",
@@ -195,7 +198,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Garcona Familia",
+    "requirements": "Grarconi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

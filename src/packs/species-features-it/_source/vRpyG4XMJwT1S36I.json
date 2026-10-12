@@ -1,5 +1,5 @@
 {
-  "name": "Corna",
+  "name": "Grandi Palchi",
   "type": "weapon",
   "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
   "effects": [],
@@ -214,13 +214,16 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle2\">Maschio Deer e maschio Moose hanno una struttura ossea sulla loro testa, chiamato antlers. Anche se non sono vere corna, funzionano come tali. Data la loro grande dimensione, si infligge 1d6 + il modificatore di Costituzione invece del danno normale quando si effettua un attacco di corno, ma creano difficoltà per voi quando si tenta di nascondere e ti dà svantaggio di prove di Furtività quando si tenta di nascondere.</span></p>",
+      "value": "<p>Sulla testa hai grandi strutture ossee chiamate palchi: pur non essendo vere corna, funzionano come tali. Date le loro dimensioni, quando effettui un attacco con le corna infliggi 1d6 + il tuo modificatore di Forza danni invece dei danni normali, ma i palchi ti intralciano quando cerchi di nasconderti e ti impongono svantaggio alle prove di Destrezza (Furtività) per nasconderti.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 83",
+      "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": "84"
     },
     "quantity": 1,
     "weight": {
@@ -394,7 +397,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Alci"
   },
   "_stats": {
     "coreVersion": "13.350",

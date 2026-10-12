@@ -1,5 +1,5 @@
 {
-  "name": "Metabolismo lento",
+  "name": "Metabolismo Lento",
   "type": "feat",
   "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
   "effects": [],
@@ -160,13 +160,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Non è necessario bere, e dopo aver mangiato il loro riempimento si può sopravvivere senza cibo per un mese. Questo tipo di metabolismo ti rende immune ai veleni più comuni e danno di tipo veleno.</p>",
+      "value": "<p>Non hai bisogno di bere e, dopo un pasto abbondante, puoi sopravvivere senza cibo per un mese. Questo metabolismo ti rende immune ai veleni più comuni e ai danni da veleno.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 62",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "61"
     },
     "uses": {
       "max": "",
@@ -177,7 +180,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Sloth",
+    "requirements": "Bradipi",
     "cover": null,
     "crewed": false,
     "prerequisites": {

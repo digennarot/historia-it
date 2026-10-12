@@ -1,5 +1,5 @@
 {
-  "name": "Legame Rurale",
+  "name": "Legame Agreste",
   "type": "feat",
   "img": "icons/skills/trades/farming-wheat-circle-yellow.webp",
   "effects": [],
@@ -157,13 +157,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai esperienza nei prove di Intelligenza (Natura) che coinvolgono semi o colture.</p>",
+      "value": "<p>Il tuo bonus di competenza è raddoppiato alle prove di Intelligenza (Natura) che riguardano semi o coltivazioni.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 112",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "112"
     },
     "uses": {
       "max": "",
@@ -174,7 +177,7 @@
       "value": "",
       "subtype": ""
     },
-    "requirements": "Ruspei Familia",
+    "requirements": "Ruspei",
     "cover": null,
     "crewed": false,
     "prerequisites": {

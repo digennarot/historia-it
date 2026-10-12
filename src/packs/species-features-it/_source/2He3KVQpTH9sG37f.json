@@ -1,5 +1,5 @@
 {
-  "name": "Voce musicale",
+  "name": "Voce Musicale",
   "type": "feat",
   "img": "media/Species Features/bard.webp",
   "effects": [],
@@ -164,13 +164,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Hai vantaggio sulle prove di Carisma (Esibizione) relativi al canto.</p>",
+      "value": "<p>Hai vantaggio alle prove di Carisma (Intrattenere) legate al canto.</p>",
       "chat": ""
     },
     "source": {
       "custom": "Historia Manuale pagina: 70",
+      "license": "",
       "rules": "2014",
-      "revision": 1
+      "revision": 1,
+      "book": "Historia – Manuale Base",
+      "page": "70"
     },
     "uses": {
       "max": "",

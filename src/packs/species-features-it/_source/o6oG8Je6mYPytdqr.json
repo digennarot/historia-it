@@ -214,16 +214,16 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un formichiere può usare i suoi artigli per fare un attacco senz'armi, con il quale ha competenza. Questo attacco infligge 1d4 danni taglienti.</p>",
+      "value": "<p>Puoi usare gli artigli per effettuare un colpo senz'armi, con cui hai competenza. Se colpisci, infliggi 1d4 + il tuo modificatore di Forza danni taglienti, invece dei normali danni contundenti. Gli artigli dei felidi sono considerati un'arma accurata.</p>",
       "chat": ""
     },
     "source": {
       "custom": "",
-      "book": "Historia Manuale pagina: ",
-      "page": "59",
       "license": "",
+      "rules": "2014",
       "revision": 1,
-      "rules": "2014"
+      "book": "Historia – Manuale Base",
+      "page": ""
     },
     "quantity": 1,
     "weight": {
@@ -397,7 +397,8 @@
     "ammunition": {},
     "crew": {
       "value": []
-    }
+    },
+    "requirements": "Linci, Gatti, Urcidi, Pangolini, Formichieri"
   },
   "_stats": {
     "coreVersion": "13.350",
