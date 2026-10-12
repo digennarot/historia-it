@@ -7,6 +7,22 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.31] - 2026-10-12
+
+### Fixed
+- **Mestieri italiani allineati al Manuale Base**: tutti i privilegi, le
+  classi e le sottoclassi ritradotti, con i nomi del manuale (Mortificato,
+  Furfante, Venturiero, Magus; Medico, Politico, Collezionista di Rarità,
+  Asceta, Santone, Battitore, Guastatore), intestazioni di classe, tabelle
+  di avanzamento e titoli degli avanzamenti in italiano.
+- **Livelli e meccaniche** corretti dove la versione inglese divergeva dal
+  manuale (Segreti del magus, Rete di Alleanze, Migliorie del geniere,
+  Distillatio Rubedo, Strumenti dell'Inquisizione, Sublimatio).
+- **Liste incantesimi** di magus, sacerdote e mortificato con i nomi
+  ufficiali italiani degli incantesimi.
+- **Carriere**: nomi del manuale (Milite, Maestro, Funzionario), gradi con
+  Fama e Benefici.
+
 ## [1.0.30] - 2026-10-12
 
 ### Fixed
