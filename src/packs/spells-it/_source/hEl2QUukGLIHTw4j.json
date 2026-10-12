@@ -1,5 +1,5 @@
 {
-  "name": "Castigo del Tuono",
+  "name": "Punizione Tonante",
   "type": "spell",
   "img": "icons/magic/lightning/bolt-cloud-sky-white.webp",
   "effects": [],
@@ -185,7 +185,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>La prima volta che colpisci con un attacco con arma da mischia durante la durata di questo incantesimo, la tua arma risuona di tuono udibile fino a 300 piedi da te, e l'attacco infligge 2d6 danni da tuono extra al bersaglio. Inoltre, se il bersaglio è una creatura, deve superare un tiro salvezza di Forza o essere spinto a 10 piedi di distanza da te e atterrato prono.</p>",
+      "value": "<p>La prima volta che colpisci con un attacco in mischia con un'arma durante la durata di questo incantesimo, la tua arma risuona di tuono udibile fino a 300 piedi da te, e l'attacco infligge 2d6 danni da tuono extra al bersaglio. Inoltre, se il bersaglio è una creatura, deve superare un tiro salvezza su Forza o essere spinto a 10 piedi di distanza da te e atterrato prono.</p>",
       "chat": ""
     },
     "source": {

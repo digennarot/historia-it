@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi un'onda d'acqua che si abbatte su un'area entro gittata. L'area può essere lunga fino a 30 piedi, larga fino a 10 piedi e alta fino a 10 piedi. Ogni creatura in quell'area deve effettuare un tiro salvezza di Destrezza. Se fallisce, la creatura subisce [[/r 4d8]] danni contundenti ed è atterrata &Reference[prone]{prona}. Se lo supera, la creatura subisce metà dei danni e non viene atterrata &Reference[prone]{prona}. L'acqua poi si diffonde sul terreno in tutte le direzioni, spegnendo le fiamme non protette nella sua area e entro 30 piedi da essa, e poi svanisce.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi un'onda d'acqua che si abbatte su un'area entro gittata. L'area può essere lunga fino a 30 piedi, larga fino a 10 piedi e alta fino a 10 piedi. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza. Se fallisce, la creatura subisce [[/r 4d8]] danni contundenti ed è atterrata &Reference[prone]{prona}. Se lo supera, la creatura subisce metà dei danni e non viene atterrata &Reference[prone]{prona}. L'acqua poi si diffonde sul terreno in tutte le direzioni, spegnendo le fiamme non protette nella sua area e entro 30 piedi da essa, e poi svanisce.</p></div>",
       "chat": ""
     },
     "source": {

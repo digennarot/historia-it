@@ -1,5 +1,5 @@
 {
-  "name": "Raggio di Malattia",
+  "name": "Raggio di Infermità",
   "type": "spell",
   "img": "icons/historia/ray_of_sickness_icon_1772486332630.webp",
   "effects": [],
@@ -148,7 +148,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un raggio di energia verdastra e nauseante si scaglia verso una creatura entro gittata. Effettua un attacco con incantesimo a distanza contro il bersaglio. Se colpisci, il bersaglio subisce 2d8 danni da veleno e deve effettuare un tiro salvezza di Costituzione. Se fallisce, è anche avvelenato fino alla fine del tuo turno successivo.</p><p><strong><em>Ai livelli superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d8 per ogni livello dello slot superiore al 1°.</p>",
+      "value": "<p>Un raggio di energia verdastra e nauseante si scaglia verso una creatura entro gittata. Effettua un attacco a distanza con incantesimo contro il bersaglio. Se colpisci, il bersaglio subisce 2d8 danni da veleno e deve effettuare un tiro salvezza su Costituzione. Se fallisce, è anche avvelenato fino alla fine del tuo turno successivo.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 1°.</p>",
       "chat": ""
     },
     "source": {

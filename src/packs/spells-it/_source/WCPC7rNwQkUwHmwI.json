@@ -1,5 +1,5 @@
 {
-  "name": "Picco Mentale",
+  "name": "Aculeo Mentale",
   "type": "spell",
   "img": "icons/magic/control/silhouette-aura-energy.webp",
   "effects": [],
@@ -181,7 +181,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Ti insinui nella mente di una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza di Saggezza, subendo 3d8 danni psichici se fallisce, o metà di tali danni se lo supera. Se fallisce, conosci inoltre sempre la posizione del bersaglio finché l'incantesimo non termina, ma solo se si trova sul tuo stesso piano di esistenza. Finché hai questa conoscenza, il bersaglio non può nascondersi da te e, se è invisibile, non ottiene alcun beneficio da tale condizione nei tuoi confronti.</p><p><strong><em>Ai livelli superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di 1d6 per ogni livello dello slot superiore al 2°.</p>",
+      "value": "<p>Ti insinui nella mente di una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza, subendo 3d8 danni psichici se fallisce, o metà di tali danni se lo supera. Se fallisce, conosci inoltre sempre la posizione del bersaglio finché l'incantesimo non termina, ma solo se si trova sul tuo stesso piano di esistenza. Finché hai questa conoscenza, il bersaglio non può nascondersi da te e, se è invisibile, non ottiene alcun beneficio da tale condizione nei tuoi confronti.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 2°.</p>",
       "chat": ""
     },
     "source": {

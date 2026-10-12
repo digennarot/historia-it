@@ -1,9 +1,9 @@
 {
-  "name": "Castigo Accecante",
+  "name": "Punizione Accecante",
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco con arma da mischia durante la durata di questo incantesimo, la tua arma si accende di una luce intensa, e l'attacco infligge [[/r 3d8]] danni radianti extra al bersaglio. Inoltre, il bersaglio deve superare un tiro salvezza di Costituzione o essere &Reference[blinded]{accecato} fino al termine dell'incantesimo.</p><p>Una creatura &Reference[blinded]{accecata} da questo incantesimo effettua un altro tiro salvezza di Costituzione alla fine di ciascuno dei suoi turni. In caso di successo, non è più &Reference[blinded]{accecata}.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco in mischia con un'arma durante la durata di questo incantesimo, la tua arma si accende di una luce intensa, e l'attacco infligge [[/r 3d8]] danni radiosi extra al bersaglio. Inoltre, il bersaglio deve superare un tiro salvezza su Costituzione o essere &Reference[blinded]{accecato} fino al termine dell'incantesimo.</p><p>Una creatura &Reference[blinded]{accecata} da questo incantesimo effettua un altro tiro salvezza su Costituzione alla fine di ciascuno dei suoi turni. In caso di successo, non è più &Reference[blinded]{accecata}.</p></div>",
       "chat": ""
     },
     "source": {
