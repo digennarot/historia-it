@@ -7,6 +7,13 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.33] - 2026-10-13
+
+### Changed
+- **Immagini di Imprese e Prominenze**: sostituite con icone coerenti col
+  tema di ciascuna scheda (set di icone di Foundry), applicate ai pack
+  italiano e inglese.
+
 ## [1.0.32] - 2026-10-13
 
 ### Changed
