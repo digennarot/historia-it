@@ -189,7 +189,7 @@
     "range": {
       "value": null,
       "long": null,
-      "units": "ft",
+      "units": "m",
       "reach": null
     },
     "uses": {
@@ -278,7 +278,7 @@
         "target": {
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

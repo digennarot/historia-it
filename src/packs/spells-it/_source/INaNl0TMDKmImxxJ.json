@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "sphere",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "5",
-      "units": "ft"
+      "value": "1.5",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

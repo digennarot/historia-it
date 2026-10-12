@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli una fiamma non magica che puoi vedere entro gittata e che rientri in un cubo di 5 piedi. La influenzi in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Espandi istantaneamente la fiamma di 5 piedi in una direzione, a condizione che nella nuova posizione sia presente legno o altro combustibile.</li><li class=\"rd__li \">Estingui istantaneamente le fiamme all'interno del cubo.</li><li class=\"rd__li \">Raddoppi o dimezzi l'area di luce intensa e di luce fioca emessa dalla fiamma, ne cambi il colore, o entrambe le cose. Il cambiamento dura 1 ora.</li><li class=\"rd__li \">Fai apparire forme semplici, come la vaga sagoma di una creatura, un oggetto inanimato o un luogo, all'interno delle fiamme, e le animi come desideri. Le forme durano 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere fino a tre effetti non istantanei creati da esso attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli una fiamma non magica che puoi vedere entro gittata e che rientri in un cubo di 1,5 metri. La influenzi in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Espandi istantaneamente la fiamma di 1,5 metri in una direzione, a condizione che nella nuova posizione sia presente legno o altro combustibile.</li><li class=\"rd__li \">Estingui istantaneamente le fiamme all'interno del cubo.</li><li class=\"rd__li \">Raddoppi o dimezzi l'area di luce intensa e di luce fioca emessa dalla fiamma, ne cambi il colore, o entrambe le cose. Il cambiamento dura 1 ora.</li><li class=\"rd__li \">Fai apparire forme semplici, come la vaga sagoma di una creatura, un oggetto inanimato o un luogo, all'interno delle fiamme, e le animi come desideri. Le forme durano 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere fino a tre effetti non istantanei creati da esso attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

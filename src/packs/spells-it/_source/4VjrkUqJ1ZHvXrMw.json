@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Tocchi un oggetto Minuscolo, non magico, che non è attaccato a un altro oggetto o a una superficie e che non è portato da un'altra creatura. Il bersaglio prende vita, mettendo fuori piccole braccia e piccole gambe, e diventa una creatura sotto il tuo controllo finché l'incantesimo non termina o la creatura scende a 0 punti ferita. Consulta il blocco statistiche del servitore minuscolo per le sue caratteristiche.</p><p>Come azione bonus, puoi comandare mentalmente la creatura se si trova entro 120 piedi da te. (Se controlli più creature con questo incantesimo, puoi comandarne una, alcune o tutte contemporaneamente, impartendo lo stesso comando a ciascuna.) Decidi quale azione compirà la creatura e dove si muoverà durante il suo turno successivo, oppure puoi impartire un comando semplice e generico, come recuperare una chiave, fare la guardia o impilare alcuni libri. Se non impartisci comandi, il servitore non fa altro che difendersi dalle creature ostili. Una volta ricevuto un ordine, il servitore continua a seguirlo finché il suo compito non è completato.</p><p>Quando la creatura scende a 0 punti ferita, torna alla sua forma originale, e gli eventuali danni residui si riversano su quella forma.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, puoi animare due oggetti aggiuntivi per ogni slot di livello superiore al 3°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Tocchi un oggetto Minuscolo, non magico, che non è attaccato a un altro oggetto o a una superficie e che non è portato da un'altra creatura. Il bersaglio prende vita, mettendo fuori piccole braccia e piccole gambe, e diventa una creatura sotto il tuo controllo finché l'incantesimo non termina o la creatura scende a 0 punti ferita. Consulta il blocco statistiche del servitore minuscolo per le sue caratteristiche.</p><p>Come azione bonus, puoi comandare mentalmente la creatura se si trova entro 36 metri da te. (Se controlli più creature con questo incantesimo, puoi comandarne una, alcune o tutte contemporaneamente, impartendo lo stesso comando a ciascuna.) Decidi quale azione compirà la creatura e dove si muoverà durante il suo turno successivo, oppure puoi impartire un comando semplice e generico, come recuperare una chiave, fare la guardia o impilare alcuni libri. Se non impartisci comandi, il servitore non fa altro che difendersi dalle creature ostili. Una volta ricevuto un ordine, il servitore continua a seguirlo finché il suo compito non è completato.</p><p>Quando la creatura scende a 0 punti ferita, torna alla sua forma originale, e gli eventuali danni residui si riversano su quella forma.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, puoi animare due oggetti aggiuntivi per ogni slot di livello superiore al 3°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -84,7 +84,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

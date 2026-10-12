@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli una porzione di terra o pietra che puoi vedere entro gittata e che rientri in un cubo di 5 piedi. La manipoli in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Se prendi di mira un'area di terra sciolta, puoi scavarla istantaneamente, spostarla lungo il suolo e depositarla fino a 5 piedi di distanza. Questo movimento non comporta forza sufficiente a causare danni.</li><li class=\"rd__li \">Fai comparire forme, colori o entrambi sulla terra o sulla pietra, componendo parole, creando immagini o disegnando motivi. I cambiamenti durano 1 ora.</li><li class=\"rd__li \">Se la terra o la pietra che prendi di mira si trova sul suolo, la rendi terreno difficile. In alternativa, puoi rendere il suolo terreno normale se è già terreno difficile. Questo cambiamento dura 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere non più di due dei suoi effetti non istantanei attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli una porzione di terra o pietra che puoi vedere entro gittata e che rientri in un cubo di 1,5 metri. La manipoli in uno dei seguenti modi:</p><ul class=\"rd__list\"><li class=\"rd__li \">Se prendi di mira un'area di terra sciolta, puoi scavarla istantaneamente, spostarla lungo il suolo e depositarla fino a 1,5 metri di distanza. Questo movimento non comporta forza sufficiente a causare danni.</li><li class=\"rd__li \">Fai comparire forme, colori o entrambi sulla terra o sulla pietra, componendo parole, creando immagini o disegnando motivi. I cambiamenti durano 1 ora.</li><li class=\"rd__li \">Se la terra o la pietra che prendi di mira si trova sul suolo, la rendi terreno difficile. In alternativa, puoi rendere il suolo terreno normale se è già terreno difficile. Questo cambiamento dura 1 ora.</li></ul><p>Se lanci questo incantesimo più volte, puoi avere non più di due dei suoi effetti non istantanei attivi contemporaneamente, e puoi interrompere uno di tali effetti come azione.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "30",
-      "units": "ft"
+      "value": "9",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

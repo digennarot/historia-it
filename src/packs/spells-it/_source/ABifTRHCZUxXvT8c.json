@@ -173,7 +173,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Colpisci il terreno, creando uno scoppio di energia divina che si propaga verso l'esterno da te. Ogni creatura a tua scelta entro 30 piedi da te deve superare un tiro salvezza su Costituzione o subire 5d6 danni da tuono, oltre a 5d6 danni radiosi o necrotici (a tua scelta), ed essere atterrata prona. Una creatura che supera il tiro salvezza subisce metà dei danni e non viene atterrata prona.</p>",
+      "value": "<p>Colpisci il terreno, creando uno scoppio di energia divina che si propaga verso l'esterno da te. Ogni creatura a tua scelta entro 9 metri da te deve superare un tiro salvezza su Costituzione o subire 5d6 danni da tuono, oltre a 5d6 danni radiosi o necrotici (a tua scelta), ed essere atterrata prona. Una creatura che supera il tiro salvezza subisce metà dei danni e non viene atterrata prona.</p>",
       "chat": ""
     },
     "source": {
@@ -195,9 +195,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
@@ -255,7 +255,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -340,7 +340,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

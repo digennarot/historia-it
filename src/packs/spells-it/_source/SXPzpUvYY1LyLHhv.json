@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Indichi un punto entro gittata, e una sfera di acido smeraldo luminosa di diametro 1 piede sfreccia fino a lì ed esplode in una sfera di raggio 20 piedi. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza. Se fallisce, una creatura subisce [[/r 10d4]] danni da acido e, alla fine del suo turno successivo, subisce altri [[/r 5d4]] danni da acido. Se lo supera, una creatura subisce metà dei danni iniziali e nessun danno alla fine del suo turno successivo.</p></div><div class=\"rd__b rd__b--3\"><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni iniziali aumentano di [[/r 2d4]] per ogni slot di livello superiore al 4°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Indichi un punto entro gittata, e una sfera di acido smeraldo luminosa di diametro 30 centimetri sfreccia fino a lì ed esplode in una sfera di raggio 6 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza. Se fallisce, una creatura subisce [[/r 10d4]] danni da acido e, alla fine del suo turno successivo, subisce altri [[/r 5d4]] danni da acido. Se lo supera, una creatura subisce metà dei danni iniziali e nessun danno alla fine del suo turno successivo.</p></div><div class=\"rd__b rd__b--3\"><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni iniziali aumentano di [[/r 2d4]] per ogni slot di livello superiore al 4°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "sphere",
-        "size": "20",
+        "size": "6",
         "contiguous": false
       }
     },
     "range": {
-      "value": "150",
-      "units": "ft"
+      "value": "45",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

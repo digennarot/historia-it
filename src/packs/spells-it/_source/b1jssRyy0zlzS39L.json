@@ -156,7 +156,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Energia purificatrice irradia da te in un'aura di raggio 30 piedi. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Ogni creatura non ostile nell'aura (incluso te) non può contrarre malattie, ha resistenza ai danni da veleno e ha vantaggio sui tiri salvezza contro effetti che causano una qualsiasi delle seguenti condizioni: accecato, affascinato, assordato, spaventato, paralizzato, avvelenato e stordito.</p>",
+      "value": "<p>Energia purificatrice irradia da te in un'aura di raggio 9 metri. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Ogni creatura non ostile nell'aura (incluso te) non può contrarre malattie, ha resistenza ai danni da veleno e ha vantaggio sui tiri salvezza contro effetti che causano una qualsiasi delle seguenti condizioni: accecato, affascinato, assordato, spaventato, paralizzato, avvelenato e stordito.</p>",
       "chat": ""
     },
     "source": {
@@ -178,9 +178,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
@@ -238,7 +238,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

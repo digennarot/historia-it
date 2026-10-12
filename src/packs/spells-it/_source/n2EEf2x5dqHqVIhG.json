@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Sottrai l'umidità a ogni creatura in un cubo di 30 piedi per lato centrato su un punto a tua scelta entro gittata. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione. I costrutti e i non morti non sono influenzati, mentre le piante e gli elementali dell'acqua effettuano questo tiro salvezza con svantaggio. Una creatura subisce [[/r 12d8]] danni necrotici se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p>Le piante non magiche nell'area che non sono creature, come alberi e arbusti, avvizziscono e muoiono all'istante.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Sottrai l'umidità a ogni creatura in un cubo di 9 metri per lato centrato su un punto a tua scelta entro gittata. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione. I costrutti e i non morti non sono influenzati, mentre le piante e gli elementali dell'acqua effettuano questo tiro salvezza con svantaggio. Una creatura subisce [[/r 12d8]] danni necrotici se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p>Le piante non magiche nell'area che non sono creature, come alberi e arbusti, avvizziscono e muoiono all'istante.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
     "range": {
-      "value": "150",
-      "units": "ft"
+      "value": "45",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

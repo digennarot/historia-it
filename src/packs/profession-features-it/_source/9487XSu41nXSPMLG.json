@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">Una volta per ogni turno, quando si effettua un attacco con un'arma, si può fare un altro attacco con la stessa arma contro una creatura diversa situata entro 5 piedi del bersaglio originale e all'interno della gamma.</span></p>",
+      "value": "<p><span class=\"fontstyle0\">Una volta per ogni turno, quando si effettua un attacco con un'arma, si può fare un altro attacco con la stessa arma contro una creatura diversa situata entro 1,5 metri del bersaglio originale e all'interno della gamma.</span></p>",
       "chat": ""
     },
     "source": {
@@ -227,8 +227,8 @@
         },
         "effects": [],
         "range": {
-          "value": "5",
-          "units": "ft",
+          "value": "1.5",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -240,7 +240,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

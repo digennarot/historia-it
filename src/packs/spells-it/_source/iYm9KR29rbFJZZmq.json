@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi una torre a due piani fatta di pietra, legno o materiali simili sufficientemente robusti. La torre può avere pianta circolare o quadrata. Ogni piano della torre è alto 10 piedi e ha un'area fino a 100 piedi quadrati. Il passaggio tra i piani avviene tramite una semplice scala e un'apertura nel pavimento. Ogni piano assume una delle seguenti forme, scelta da te quando lanci l'incantesimo:</p><ul class=\"rd__list\"><li class=\"rd__li \">Una camera da letto con un letto, sedie, un baule e un caminetto magico</li><li class=\"rd__li \">Uno studio con scrivanie, libri, scaffali, pergamene, inchiostro e penne</li><li class=\"rd__li \">Una sala da pranzo con un tavolo, sedie, un caminetto magico, contenitori e utensili da cucina</li><li class=\"rd__li \">Un salotto con divani, poltrone, tavolini e sgabelli</li><li class=\"rd__li \">Un bagno con gabinetti, tinozze, un braciere magico e panche da sauna</li><li class=\"rd__li \">Un osservatorio con un telescopio e mappe del cielo notturno</li><li class=\"rd__li \">Una stanza vuota e non arredata</li></ul><p>L'interno della torre è caldo e asciutto, indipendentemente dalle condizioni esterne. Qualsiasi equipaggiamento o arredo evocato con la torre si dissolve in fumo se viene portato via da essa. Al termine della durata dell'incantesimo, tutte le creature e gli oggetti all'interno della torre che non sono stati creati dall'incantesimo compaiono sani e salvi all'esterno, sul terreno, e ogni traccia della torre e del suo arredo scompare.</p><p>Puoi lanciare di nuovo questo incantesimo mentre è attivo per mantenere l'esistenza della torre per altre 24 ore. Puoi creare una torre permanente lanciando questo incantesimo nello stesso luogo e con la stessa configurazione ogni giorno per un anno.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, la torre può avere un piano aggiuntivo per ogni slot di livello superiore al 3°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi una torre a due piani fatta di pietra, legno o materiali simili sufficientemente robusti. La torre può avere pianta circolare o quadrata. Ogni piano della torre è alto 3 metri e ha un'area fino a 9 metri quadrati. Il passaggio tra i piani avviene tramite una semplice scala e un'apertura nel pavimento. Ogni piano assume una delle seguenti forme, scelta da te quando lanci l'incantesimo:</p><ul class=\"rd__list\"><li class=\"rd__li \">Una camera da letto con un letto, sedie, un baule e un caminetto magico</li><li class=\"rd__li \">Uno studio con scrivanie, libri, scaffali, pergamene, inchiostro e penne</li><li class=\"rd__li \">Una sala da pranzo con un tavolo, sedie, un caminetto magico, contenitori e utensili da cucina</li><li class=\"rd__li \">Un salotto con divani, poltrone, tavolini e sgabelli</li><li class=\"rd__li \">Un bagno con gabinetti, tinozze, un braciere magico e panche da sauna</li><li class=\"rd__li \">Un osservatorio con un telescopio e mappe del cielo notturno</li><li class=\"rd__li \">Una stanza vuota e non arredata</li></ul><p>L'interno della torre è caldo e asciutto, indipendentemente dalle condizioni esterne. Qualsiasi equipaggiamento o arredo evocato con la torre si dissolve in fumo se viene portato via da essa. Al termine della durata dell'incantesimo, tutte le creature e gli oggetti all'interno della torre che non sono stati creati dall'incantesimo compaiono sani e salvi all'esterno, sul terreno, e ogni traccia della torre e del suo arredo scompare.</p><p>Puoi lanciare di nuovo questo incantesimo mentre è attivo per mantenere l'esistenza della torre per altre 24 ore. Puoi creare una torre permanente lanciando questo incantesimo nello stesso luogo e con la stessa configurazione ogni giorno per un anno.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, la torre può avere un piano aggiuntivo per ogni slot di livello superiore al 3°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "30",
-      "units": "ft"
+      "value": "9",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

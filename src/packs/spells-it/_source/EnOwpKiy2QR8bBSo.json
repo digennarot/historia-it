@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una fenditura planare a forma di lama, lunga circa 3 piedi, in uno spazio non occupato che puoi vedere entro gittata. La lama dura per la durata. Quando lanci questo incantesimo, puoi effettuare fino a due attacchi in mischia con incantesimo con la lama, ciascuno contro una creatura, un oggetto incustodito o una struttura entro 5 piedi da essa. Se colpisci, il bersaglio subisce [[/r 4d12]] danni da forza. Questo attacco è un colpo critico se il numero sul [[/r d20]] è 18 o superiore. In caso di colpo critico, la lama infligge [[/r 8d12]] danni da forza extra (per un totale di [[/r 12d12]] danni da forza).</p><p>Come azione bonus nel tuo turno, puoi muovere la lama fino a 30 piedi, in uno spazio non occupato che puoi vedere, e poi effettuare di nuovo fino a due attacchi in mischia con incantesimo con essa.</p><p>La lama può attraversare innocuamente qualsiasi barriera, compreso un @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{muro di forza}.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una fenditura planare a forma di lama, lunga circa 90 centimetri, in uno spazio non occupato che puoi vedere entro gittata. La lama dura per la durata. Quando lanci questo incantesimo, puoi effettuare fino a due attacchi in mischia con incantesimo con la lama, ciascuno contro una creatura, un oggetto incustodito o una struttura entro 1,5 metri da essa. Se colpisci, il bersaglio subisce [[/r 4d12]] danni da forza. Questo attacco è un colpo critico se il numero sul [[/r d20]] è 18 o superiore. In caso di colpo critico, la lama infligge [[/r 8d12]] danni da forza extra (per un totale di [[/r 12d12]] danni da forza).</p><p>Come azione bonus nel tuo turno, puoi muovere la lama fino a 9 metri, in uno spazio non occupato che puoi vedere, e poi effettuare di nuovo fino a due attacchi in mischia con incantesimo con essa.</p><p>La lama può attraversare innocuamente qualsiasi barriera, compreso un @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{muro di forza}.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

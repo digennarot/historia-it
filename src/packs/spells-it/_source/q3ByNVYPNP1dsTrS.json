@@ -199,7 +199,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Invochi il potere della Fame Oscura. Tentacoli di energia oscura erompono da te e colpiscono tutte le creature entro 10 piedi da te. Ogni creatura in quell'area deve effettuare un tiro salvezza su Forza. Se fallisce, il bersaglio subisce 2d6 danni necrotici e non può usare reazioni fino al suo turno successivo. Se supera il tiro salvezza, la creatura subisce metà danni, ma nessun altro effetto.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 1°.</p>",
+      "value": "<p>Invochi il potere della Fame Oscura. Tentacoli di energia oscura erompono da te e colpiscono tutte le creature entro 3 metri da te. Ogni creatura in quell'area deve effettuare un tiro salvezza su Forza. Se fallisce, il bersaglio subisce 2d6 danni necrotici e non può usare reazioni fino al suo turno successivo. Se supera il tiro salvezza, la creatura subisce metà danni, ma nessun altro effetto.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 1°.</p>",
       "chat": ""
     },
     "source": {
@@ -221,9 +221,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "10",
+        "size": "3",
         "contiguous": false
       }
     },
@@ -282,7 +282,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

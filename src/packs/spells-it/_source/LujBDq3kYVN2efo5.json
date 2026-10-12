@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area di pietra o fango che puoi vedere, che rientri in un cubo di 40 piedi per lato e che si trovi entro gittata, poi scegli uno dei seguenti effetti.</p><p><strong>Trasmutare Roccia in Fango.</strong> La roccia non magica di qualsiasi tipo nell'area diventa un volume uguale di fango denso e scorrevole, che resta per la durata dell'incantesimo.</p><p>Il terreno nell'area dell'incantesimo diventa così fangoso che le creature possono affondarvi. Ogni piede che una creatura percorre nel fango le costa 4 piedi di movimento, e ogni creatura sul terreno quando lanci l'incantesimo deve effettuare un tiro salvezza su Forza. Una creatura deve effettuare il tiro salvezza anche quando entra nell'area per la prima volta in un turno o termina lì il proprio turno. Se fallisce, la creatura sprofonda nel fango ed è &Reference[restrained]{trattenuta}, anche se può usare un'azione per porre fine alla condizione di &Reference[restrained]{trattenuto} tirandosi fuori dal fango.</p><p>Se lanci l'incantesimo su un soffitto, il fango cade. Ogni creatura sotto il fango quando cade deve effettuare un tiro salvezza su Destrezza. Subisce [[/r 4d8]] danni contundenti se fallisce, o metà di tali danni se lo supera.</p><p><strong>Trasmutare Fango in Roccia.</strong> Il fango o le sabbie mobili non magici nell'area, profondi al massimo 10 piedi, si trasformano in pietra tenera per la durata dell'incantesimo. Ogni creatura nel fango quando si trasforma deve effettuare un tiro salvezza su Destrezza. Se lo supera, la creatura viene spinta in sicurezza in superficie, in uno spazio non occupato. Se fallisce, la creatura viene &Reference[restrained]{trattenuta} dalla roccia. Una creatura &Reference[restrained]{trattenuta}, o un'altra creatura entro portata, può usare un'azione per tentare di spezzare la roccia riuscendo in una prova di Forza con CD 20 oppure infliggendole danni. La roccia ha CA 15 e 25 punti ferita, ed è immune a danni da veleno e psichici.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area di pietra o fango che puoi vedere, che rientri in un cubo di 12 metri per lato e che si trovi entro gittata, poi scegli uno dei seguenti effetti.</p><p><strong>Trasmutare Roccia in Fango.</strong> La roccia non magica di qualsiasi tipo nell'area diventa un volume uguale di fango denso e scorrevole, che resta per la durata dell'incantesimo.</p><p>Il terreno nell'area dell'incantesimo diventa così fangoso che le creature possono affondarvi. Ogni metro che una creatura percorre nel fango le costa 1,2 metri di movimento, e ogni creatura sul terreno quando lanci l'incantesimo deve effettuare un tiro salvezza su Forza. Una creatura deve effettuare il tiro salvezza anche quando entra nell'area per la prima volta in un turno o termina lì il proprio turno. Se fallisce, la creatura sprofonda nel fango ed è &Reference[restrained]{trattenuta}, anche se può usare un'azione per porre fine alla condizione di &Reference[restrained]{trattenuto} tirandosi fuori dal fango.</p><p>Se lanci l'incantesimo su un soffitto, il fango cade. Ogni creatura sotto il fango quando cade deve effettuare un tiro salvezza su Destrezza. Subisce [[/r 4d8]] danni contundenti se fallisce, o metà di tali danni se lo supera.</p><p><strong>Trasmutare Fango in Roccia.</strong> Il fango o le sabbie mobili non magici nell'area, profondi al massimo 3 metri, si trasformano in pietra tenera per la durata dell'incantesimo. Ogni creatura nel fango quando si trasforma deve effettuare un tiro salvezza su Destrezza. Se lo supera, la creatura viene spinta in sicurezza in superficie, in uno spazio non occupato. Se fallisce, la creatura viene &Reference[restrained]{trattenuta} dalla roccia. Una creatura &Reference[restrained]{trattenuta}, o un'altra creatura entro portata, può usare un'azione per tentare di spezzare la roccia riuscendo in una prova di Forza con CD 20 oppure infliggendole danni. La roccia ha CA 15 e 25 punti ferita, ed è immune a danni da veleno e psichici.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "40",
+        "size": "12",
         "contiguous": false
       }
     },
     "range": {
-      "value": "120",
-      "units": "ft"
+      "value": "36",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Mentre lanci l'incantesimo, disegni sul terreno un cerchio di 10 piedi di diametro, inciso con sigilli che collegano la tua posizione a un circolo di teletrasporto permanente a tua scelta, di cui conosci la sequenza di sigilli e che si trova sul tuo stesso piano di esistenza. Un portale scintillante si apre all'interno del cerchio che hai disegnato e resta aperto fino alla fine del tuo turno successivo. Ogni creatura che entra nel portale compare istantaneamente entro 5 piedi dal cerchio di destinazione, o nello spazio non occupato più vicino se quello spazio è occupato.</p><p>Molti grandi templi, gilde e altri luoghi importanti hanno circoli di teletrasporto permanenti incisi da qualche parte al loro interno. Ogni circolo del genere include una sequenza di sigilli unica, una serie di rune magiche disposte secondo uno schema particolare. Quando acquisisci per la prima volta la capacità di lanciare questo incantesimo, impari le sequenze di sigilli per due destinazioni sul Piano Materiale, stabilite dal DM. Puoi apprenderne altre durante le tue avventure. Puoi memorizzare una nuova sequenza di sigilli dopo averla studiata per 1 minuto.</p><p>Puoi creare un circolo di teletrasporto permanente lanciando questo incantesimo nello stesso luogo ogni giorno per un anno. Non è necessario usare il circolo per teletrasportarti quando lanci l'incantesimo in questo modo.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Mentre lanci l'incantesimo, disegni sul terreno un cerchio di 3 metri di diametro, inciso con sigilli che collegano la tua posizione a un circolo di teletrasporto permanente a tua scelta, di cui conosci la sequenza di sigilli e che si trova sul tuo stesso piano di esistenza. Un portale scintillante si apre all'interno del cerchio che hai disegnato e resta aperto fino alla fine del tuo turno successivo. Ogni creatura che entra nel portale compare istantaneamente entro 1,5 metri dal cerchio di destinazione, o nello spazio non occupato più vicino se quello spazio è occupato.</p><p>Molti grandi templi, gilde e altri luoghi importanti hanno circoli di teletrasporto permanenti incisi da qualche parte al loro interno. Ogni circolo del genere include una sequenza di sigilli unica, una serie di rune magiche disposte secondo uno schema particolare. Quando acquisisci per la prima volta la capacità di lanciare questo incantesimo, impari le sequenze di sigilli per due destinazioni sul Piano Materiale, stabilite dal DM. Puoi apprenderne altre durante le tue avventure. Puoi memorizzare una nuova sequenza di sigilli dopo averla studiata per 1 minuto.</p><p>Puoi creare un circolo di teletrasporto permanente lanciando questo incantesimo nello stesso luogo ogni giorno per un anno. Non è necessario usare il circolo per teletrasportarti quando lanci l'incantesimo in questo modo.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "10",
-      "units": "ft"
+      "value": "3",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

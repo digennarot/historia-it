@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scagli una lancia di disgregazione psionica nella mente di una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Intelligenza. Se fallisce, subisce [[/r 3d6]] danni psichici e, nel suo turno successivo, può usare la propria azione solo per &Reference[rule=dash]{Scatto} o &Reference[rule=disengage]{Disimpegno}. Se supera il tiro salvezza, il bersaglio subisce metà dei danni e questo incantesimo non limita le sue opzioni di azione.</p></div><div class=\"rd__b rd__b--3\"><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 2°. Le creature devono trovarsi entro 30 piedi l'una dall'altra quando le bersagli.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scagli una lancia di disgregazione psionica nella mente di una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Intelligenza. Se fallisce, subisce [[/r 3d6]] danni psichici e, nel suo turno successivo, può usare la propria azione solo per &Reference[rule=dash]{Scatto} o &Reference[rule=disengage]{Disimpegno}. Se supera il tiro salvezza, il bersaglio subisce metà dei danni e questo incantesimo non limita le sue opzioni di azione.</p></div><div class=\"rd__b rd__b--3\"><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 2°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando le bersagli.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

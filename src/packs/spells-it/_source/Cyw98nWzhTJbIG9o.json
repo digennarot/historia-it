@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Quando lanci l'incantesimo, scagli la moneta che ne è la componente materiale in un punto qualsiasi entro gittata. La moneta si illumina come se fosse sotto l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{luce}. Ogni creatura a tua scelta che puoi vedere entro 30 piedi dalla moneta deve superare un tiro salvezza su Saggezza o essere distratta per la durata. Mentre è distratta, una creatura ha svantaggio sulle prove di Saggezza (&Reference[skill=prc]{Percezione}) e sui tiri di iniziativa.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Quando lanci l'incantesimo, scagli la moneta che ne è la componente materiale in un punto qualsiasi entro gittata. La moneta si illumina come se fosse sotto l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{luce}. Ogni creatura a tua scelta che puoi vedere entro 9 metri dalla moneta deve superare un tiro salvezza su Saggezza o essere distratta per la durata. Mentre è distratta, una creatura ha svantaggio sulle prove di Saggezza (&Reference[skill=prc]{Percezione}) e sui tiri di iniziativa.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

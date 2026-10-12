@@ -196,9 +196,9 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 20,
-      "long": 60,
-      "units": "ft",
+      "value": 6,
+      "long": 18,
+      "units": "m",
       "reach": null
     },
     "uses": {
@@ -296,8 +296,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -309,7 +309,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "0",

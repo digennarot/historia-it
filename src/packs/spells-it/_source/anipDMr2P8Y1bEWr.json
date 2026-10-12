@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Ti serve spremere qualche moneta d'oro in più da un mercante mentre cerchi di vendere quella strana statua di polpo che hai liberato dal tempio del caos? Ti serve ridimensionare il valore di alcuni beni magici quando passa l'esattore delle tasse? Distorsione del valore fa al caso tuo.</p><p>Lanci questo incantesimo su un oggetto che non misura più di 1 piede per lato, raddoppiandone il valore percepito aggiungendogli ornamenti illusori o lucidature, oppure dimezzandone il valore percepito con l'aiuto di graffi, ammaccature e altri difetti illusori. Chiunque esamini l'oggetto può scoprirne il valore reale superando una prova di Intelligenza (&Reference[skill=inv]{Indagare}) contro la CD del tiro salvezza dell'incantesimo.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, la dimensione massima dell'oggetto aumenta di 1 piede per ogni slot di livello superiore al 1°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Ti serve spremere qualche moneta d'oro in più da un mercante mentre cerchi di vendere quella strana statua di polpo che hai liberato dal tempio del caos? Ti serve ridimensionare il valore di alcuni beni magici quando passa l'esattore delle tasse? Distorsione del valore fa al caso tuo.</p><p>Lanci questo incantesimo su un oggetto che non misura più di 30 centimetri per lato, raddoppiandone il valore percepito aggiungendogli ornamenti illusori o lucidature, oppure dimezzandone il valore percepito con l'aiuto di graffi, ammaccature e altri difetti illusori. Chiunque esamini l'oggetto può scoprirne il valore reale superando una prova di Intelligenza (&Reference[skill=inv]{Indagare}) contro la CD del tiro salvezza dell'incantesimo.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, la dimensione massima dell'oggetto aumenta di 30 centimetri per ogni slot di livello superiore al 1°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -83,7 +83,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

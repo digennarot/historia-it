@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che effettui un attacco a distanza con un'arma durante la durata dell'incantesimo, la munizione dell'arma, o l'arma stessa se è un'arma da lancio, si trasforma in un fulmine. Effettua il tiro per colpire normalmente. Il bersaglio subisce [[/r 4d8]] danni da fulmine se colpito, o metà di tali danni se manchi, al posto dei danni normali dell'arma.</p><p>Che tu colpisca o manchi, ogni creatura entro 10 piedi dal bersaglio deve effettuare un tiro salvezza su Destrezza. Ciascuna di queste creature subisce [[/r 2d8]] danni da fulmine se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p>La munizione o l'arma tornano poi alla loro forma normale.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, i danni di entrambi gli effetti dell'incantesimo aumentano di [[/r 1d8]] per ogni slot di livello superiore al 3°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che effettui un attacco a distanza con un'arma durante la durata dell'incantesimo, la munizione dell'arma, o l'arma stessa se è un'arma da lancio, si trasforma in un fulmine. Effettua il tiro per colpire normalmente. Il bersaglio subisce [[/r 4d8]] danni da fulmine se colpito, o metà di tali danni se manchi, al posto dei danni normali dell'arma.</p><p>Che tu colpisca o manchi, ogni creatura entro 3 metri dal bersaglio deve effettuare un tiro salvezza su Destrezza. Ciascuna di queste creature subisce [[/r 2d8]] danni da fulmine se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p>La munizione o l'arma tornano poi alla loro forma normale.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, i danni di entrambi gli effetti dell'incantesimo aumentano di [[/r 1d8]] per ogni slot di livello superiore al 3°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Un potere sacro irradia da te in un'aura di raggio 30 piedi, risvegliando il coraggio nelle creature alleate. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Mentre si trova nell'aura, ogni creatura non ostile nell'aura (incluso te) infligge [[/r 1d4]] danni radiosi extra quando colpisce con un attacco con un'arma.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Un potere sacro irradia da te in un'aura di raggio 9 metri, risvegliando il coraggio nelle creature alleate. Finché l'incantesimo non termina, l'aura si muove con te, centrata su di te. Mentre si trova nell'aura, ogni creatura non ostile nell'aura (incluso te) infligge [[/r 1d4]] danni radiosi extra quando colpisce con un attacco con un'arma.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,9 +25,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "radius",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

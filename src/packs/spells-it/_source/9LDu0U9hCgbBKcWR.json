@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Finché l'incantesimo non termina, frammenti di roccia si diffondono sul tuo corpo, e ottieni i seguenti benefici:</p><ul class=\"rd__list\"><li class=\"rd__li \">Hai resistenza ai danni contundenti, perforanti e taglienti provenienti da attacchi non magici.</li><li class=\"rd__li \">Puoi usare la tua azione per provocare un piccolo terremoto sul terreno in un raggio di 15 piedi centrato su di te. Le altre creature su quel terreno devono superare un tiro salvezza su Destrezza o essere atterrate &Reference[prone]{prone}.</li><li class=\"rd__li \">Puoi attraversare il terreno difficile di terra o pietra senza spendere movimento extra. Puoi muoverti attraverso terra o pietra solide come se fossero aria, senza destabilizzarle, ma non puoi terminare il movimento lì. Se lo fai, vieni espulso nello spazio non occupato più vicino, l'incantesimo termina e sei &Reference[stunned]{stordito} fino alla fine del tuo turno successivo.</li></ul></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Finché l'incantesimo non termina, frammenti di roccia si diffondono sul tuo corpo, e ottieni i seguenti benefici:</p><ul class=\"rd__list\"><li class=\"rd__li \">Hai resistenza ai danni contundenti, perforanti e taglienti provenienti da attacchi non magici.</li><li class=\"rd__li \">Puoi usare la tua azione per provocare un piccolo terremoto sul terreno in un raggio di 4,5 metri centrato su di te. Le altre creature su quel terreno devono superare un tiro salvezza su Destrezza o essere atterrate &Reference[prone]{prone}.</li><li class=\"rd__li \">Puoi attraversare il terreno difficile di terra o pietra senza spendere movimento extra. Puoi muoverti attraverso terra o pietra solide come se fossero aria, senza destabilizzarle, ma non puoi terminare il movimento lì. Se lo fai, vieni espulso nello spazio non occupato più vicino, l'incantesimo termina e sei &Reference[stunned]{stordito} fino alla fine del tuo turno successivo.</li></ul></div>",
       "chat": ""
     },
     "source": {
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

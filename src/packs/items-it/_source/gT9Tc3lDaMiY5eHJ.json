@@ -116,7 +116,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Come azione, è possibile spruzzare il contenuto di questa fiala su una creatura entro 5 piedi da voi o gettare la fiala fino a 20 piedi, raschiandolo sull'impatto. In entrambi i casi, fare un attacco a distanza contro una creatura o un oggetto, trattando l'acido come un'arma improvvisata. Su un colpo, il bersaglio subisce 2d6 danni acidi.</p>",
+      "value": "<p>Come azione, è possibile spruzzare il contenuto di questa fiala su una creatura entro 1,5 metri da voi o gettare la fiala fino a 6 metri, raschiandolo sull'impatto. In entrambi i casi, fare un attacco a distanza contro una creatura o un oggetto, trattando l'acido come un'arma improvvisata. Su un colpo, il bersaglio subisce 2d6 danni acidi.</p>",
       "chat": ""
     },
     "source": {
@@ -204,8 +204,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -217,7 +217,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

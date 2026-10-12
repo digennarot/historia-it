@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Provochi un tremore nel terreno entro gittata. Ogni creatura diversa da te in quell'area deve effettuare un tiro salvezza su Destrezza. Se fallisce, la creatura subisce [[/r 1d6]] danni contundenti ed è atterrata &Reference[prone]{prona}. Se il terreno in quell'area è terra sciolta o pietrisco, diventa terreno difficile finché non viene sgombrato; ogni porzione del diametro di 5 piedi richiede almeno 1 minuto per essere sgomberata a mano.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di [[/r 1d6]] per ogni slot di livello superiore al 1°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Provochi un tremore nel terreno entro gittata. Ogni creatura diversa da te in quell'area deve effettuare un tiro salvezza su Destrezza. Se fallisce, la creatura subisce [[/r 1d6]] danni contundenti ed è atterrata &Reference[prone]{prona}. Se il terreno in quell'area è terra sciolta o pietrisco, diventa terreno difficile finché non viene sgombrato; ogni porzione del diametro di 1,5 metri richiede almeno 1 minuto per essere sgomberata a mano.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di [[/r 1d6]] per ogni slot di livello superiore al 1°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "10",
-      "units": "ft"
+      "value": "3",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -84,7 +84,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

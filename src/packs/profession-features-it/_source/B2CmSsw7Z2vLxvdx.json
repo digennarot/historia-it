@@ -186,7 +186,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"><strong><em>Citrinitas, 3 atti</em></strong><em><strong>:</strong></em> </span> Crea una pietra nera che può essere gettata fino a 30 piedi di distanza, formando una nuvola di nebbia nera spessa 20 piedi di diametro, rendendo l'area pesantemente oscurata <span class=\"fontstyle0\">fino alla fine del turno successivo dell'alchimista, o infligge un certo numero di bersagli presenti all'interno di esso, pari al modificatore di intelligenza dell'alchimista, gli effetti di qualsiasi altro atto alchemico eseguito nello stesso processo.</span><span class=\"fontstyle0\">Durante il suo effetto l'alchimista può usare una reazione per spostarli o fino a tre piccoli oggetti non tenuti da una creatura di 10 piedi. L'alchimista può vedere normalmente all'interno dell'effetto.</span><span class=\"fontstyle0\">Quando l'effetto viene attivato, tutte le creature all'interno della sfera devono effettuare un Tiro Salvezza su forza o cadere a terra prono.</span></p>\n<p> </p>",
+      "value": "<p><span class=\"fontstyle0\"><strong><em>Citrinitas, 3 atti</em></strong><em><strong>:</strong></em> </span> Crea una pietra nera che può essere gettata fino a 9 metri di distanza, formando una nuvola di nebbia nera spessa 6 metri di diametro, rendendo l'area pesantemente oscurata <span class=\"fontstyle0\">fino alla fine del turno successivo dell'alchimista, o infligge un certo numero di bersagli presenti all'interno di esso, pari al modificatore di intelligenza dell'alchimista, gli effetti di qualsiasi altro atto alchemico eseguito nello stesso processo.</span><span class=\"fontstyle0\">Durante il suo effetto l'alchimista può usare una reazione per spostarli o fino a tre piccoli oggetti non tenuti da una creatura di 3 metri. L'alchimista può vedere normalmente all'interno dell'effetto.</span><span class=\"fontstyle0\">Quando l'effetto viene attivato, tutte le creature all'interno della sfera devono effettuare un Tiro Salvezza su forza o cadere a terra prono.</span></p>\n<p> </p>",
       "chat": ""
     },
     "source": {
@@ -268,8 +268,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -278,10 +278,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "10",
+            "size": "3",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",
@@ -354,8 +354,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -364,10 +364,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "10",
+            "size": "3",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

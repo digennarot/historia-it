@@ -198,7 +198,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile fare un salto lungo con una distanza di 1ft moltiplicato per raddoppiare il bonus di resistenza. Questo sostituisce il calcolo normale per fare un salto lungo.</p>",
+      "value": "<p>È possibile fare un salto lungo con una distanza di 0,3 m moltiplicato per raddoppiare il bonus di resistenza. Questo sostituisce il calcolo normale per fare un salto lungo.</p>",
       "chat": ""
     },
     "source": {
@@ -266,7 +266,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

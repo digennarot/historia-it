@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<p>Due creature che puoi vedere entro gittata devono effettuare un tiro salvezza su Costituzione, con svantaggio se si trovano entro 30 piedi l'una dall'altra. Ciascuna creatura può fallire volontariamente il tiro salvezza. Se uno dei due tiri riesce, l'incantesimo non ha effetto. Se entrambi falliscono, le creature sono magicamente legate per la durata, indipendentemente dalla distanza che le separa. Quando viene inflitto un danno a una delle due, lo stesso danno viene inflitto anche all'altra. Se vengono ripristinati punti ferita a una delle due, lo stesso numero di punti ferita viene ripristinato anche all'altra. Se una delle creature legate scende a 0 punti ferita, l'incantesimo termina per entrambe. Se l'incantesimo termina per una creatura, termina per entrambe.</p></div>",
+      "value": "<p>Due creature che puoi vedere entro gittata devono effettuare un tiro salvezza su Costituzione, con svantaggio se si trovano entro 9 metri l'una dall'altra. Ciascuna creatura può fallire volontariamente il tiro salvezza. Se uno dei due tiri riesce, l'incantesimo non ha effetto. Se entrambi falliscono, le creature sono magicamente legate per la durata, indipendentemente dalla distanza che le separa. Quando viene inflitto un danno a una delle due, lo stesso danno viene inflitto anche all'altra. Se vengono ripristinati punti ferita a una delle due, lo stesso numero di punti ferita viene ripristinato anche all'altra. Se una delle creature legate scende a 0 punti ferita, l'incantesimo termina per entrambe. Se l'incantesimo termina per una creatura, termina per entrambe.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

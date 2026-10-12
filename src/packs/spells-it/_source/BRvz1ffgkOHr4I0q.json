@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b  rd__b--3\"><p>Portando un dito alla testa, estrai un ricordo, un'idea o un messaggio dalla tua mente e lo trasformi in una stringa tangibile di energia luminosa chiamata filo di pensiero, che persiste per la durata o finché non lanci di nuovo questo incantesimo. Il filo di pensiero compare in uno spazio non occupato entro 5 piedi da te, come un oggetto Minuscolo, privo di peso e semisolido, che può essere tenuto e trasportato come un nastro. Per il resto, è immobile.</p><div class=\"rd__spc-inline-post\"></div><p>Se lanci questo incantesimo mentre sei concentrato su un incantesimo o una capacità che permette di leggere o manipolare i pensieri altrui (come @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Individuazione dei Pensieri} o @UUID[Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4]{Modificare Memoria}), puoi trasformare in un filo di pensiero i pensieri o i ricordi che stai leggendo, anziché i tuoi.</p><p>Lanciare questo incantesimo mentre tieni un filo di pensiero ti permette di ricevere immediatamente qualsiasi ricordo, idea o messaggio che il filo contiene. (Lanciare @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Individuazione dei Pensieri} sul filo ha lo stesso effetto.)</p></div>",
+      "value": "<div class=\"rd__b  rd__b--3\"><p>Portando un dito alla testa, estrai un ricordo, un'idea o un messaggio dalla tua mente e lo trasformi in una stringa tangibile di energia luminosa chiamata filo di pensiero, che persiste per la durata o finché non lanci di nuovo questo incantesimo. Il filo di pensiero compare in uno spazio non occupato entro 1,5 metri da te, come un oggetto Minuscolo, privo di peso e semisolido, che può essere tenuto e trasportato come un nastro. Per il resto, è immobile.</p><div class=\"rd__spc-inline-post\"></div><p>Se lanci questo incantesimo mentre sei concentrato su un incantesimo o una capacità che permette di leggere o manipolare i pensieri altrui (come @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Individuazione dei Pensieri} o @UUID[Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4]{Modificare Memoria}), puoi trasformare in un filo di pensiero i pensieri o i ricordi che stai leggendo, anziché i tuoi.</p><p>Lanciare questo incantesimo mentre tieni un filo di pensiero ti permette di ricevere immediatamente qualsiasi ricordo, idea o messaggio che il filo contiene. (Lanciare @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Individuazione dei Pensieri} sul filo ha lo stesso effetto.)</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

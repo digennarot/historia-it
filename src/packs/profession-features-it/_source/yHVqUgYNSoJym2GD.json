@@ -180,7 +180,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\">A partire dal primo livello, si sa come colpire sottilmente e sfruttare la distrazione di un nemico. Una volta per turno, è possibile affrontare un ulteriore 1d6 danni a una creatura che ha colpito con un attacco se si dispone di vantaggio sul tiro per colpire. L'attacco deve usare un'arma in cui sei abile. Non avete bisogno di vantaggio sul tiro per colpire se un altro nemico del bersaglio è entro 5 piedi di esso, che il nemico non è incapace, e non avete svantaggio sul tiro per colpire.</span> </p>",
+      "value": "<p><span class=\"fontstyle0\">A partire dal primo livello, si sa come colpire sottilmente e sfruttare la distrazione di un nemico. Una volta per turno, è possibile affrontare un ulteriore 1d6 danni a una creatura che ha colpito con un attacco se si dispone di vantaggio sul tiro per colpire. L'attacco deve usare un'arma in cui sei abile. Non avete bisogno di vantaggio sul tiro per colpire se un altro nemico del bersaglio è entro 1,5 metri di esso, che il nemico non è incapace, e non avete svantaggio sul tiro per colpire.</span> </p>",
       "chat": ""
     },
     "source": {
@@ -248,7 +248,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

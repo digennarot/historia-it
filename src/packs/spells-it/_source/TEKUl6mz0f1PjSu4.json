@@ -42,7 +42,7 @@
   },
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un'esplosione di suono tonante udibile fino a 100 piedi di distanza. Ogni creatura entro gittata, diversa da te, deve superare un tiro salvezza su Costituzione o subire [[/r 1d6]] danni da tuono.</p><p>Il danno dell'incantesimo aumenta di [[/r 1d6]] quando raggiungi il 5° livello ([[/r 2d6]]), l'11° livello ([[/r 3d6]]) e il 17° livello ([[/r 4d6]]).</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un'esplosione di suono tonante udibile fino a 30 metri di distanza. Ogni creatura entro gittata, diversa da te, deve superare un tiro salvezza su Costituzione o subire [[/r 1d6]] danni da tuono.</p><p>Il danno dell'incantesimo aumenta di [[/r 1d6]] quando raggiungi il 5° livello ([[/r 2d6]]), l'11° livello ([[/r 3d6]]) e il 17° livello ([[/r 4d6]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -64,15 +64,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "15",
+        "size": "4.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "5",
-      "units": "ft"
+      "value": "1.5",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -125,7 +125,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

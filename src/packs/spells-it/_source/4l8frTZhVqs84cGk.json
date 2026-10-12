@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>“<em>Quando ho incontrato Jim Darkmagic, mi chiedevo come riuscisse a combinare qualcosa con quell'abito addosso. Da allora ho capito che la maggior parte dei suoi talenti consiste nello stare in piedi e parlare. Quell'abito è perfetto per questo.</em>”</p><p>— Môrgæn</p><p>Si dice che Jim Darkmagic abbia inventato questo incantesimo, chiamandolo originariamente <em>Cosa ho detto?!</em> Ti è mai capitato di parlare con il monarca locale e menzionare per sbaglio quanto suo figlio somigli al maiale preferito della tua infanzia nella fattoria di famiglia? Tutti ci siamo passati! Ma invece di essere decapitato per un onesto lapsus, puoi fingere che non sia mai accaduto, assicurandoti che nessuno lo sappia.</p><p>Quando lanci questo incantesimo, rimodelli abilmente i ricordi degli ascoltatori nella tua zona immediata, così che ogni creatura a tua scelta entro 5 piedi da te dimentichi tutto ciò che hai detto negli ultimi 6 secondi. Quelle creature ricordano poi di aver sentito le parole che hai effettivamente pronunciato come componente verbale dell'incantesimo.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>“<em>Quando ho incontrato Jim Darkmagic, mi chiedevo come riuscisse a combinare qualcosa con quell'abito addosso. Da allora ho capito che la maggior parte dei suoi talenti consiste nello stare in piedi e parlare. Quell'abito è perfetto per questo.</em>”</p><p>— Môrgæn</p><p>Si dice che Jim Darkmagic abbia inventato questo incantesimo, chiamandolo originariamente <em>Cosa ho detto?!</em> Ti è mai capitato di parlare con il monarca locale e menzionare per sbaglio quanto suo figlio somigli al maiale preferito della tua infanzia nella fattoria di famiglia? Tutti ci siamo passati! Ma invece di essere decapitato per un onesto lapsus, puoi fingere che non sia mai accaduto, assicurandoti che nessuno lo sappia.</p><p>Quando lanci questo incantesimo, rimodelli abilmente i ricordi degli ascoltatori nella tua zona immediata, così che ogni creatura a tua scelta entro 1,5 metri da te dimentichi tutto ciò che hai detto negli ultimi 6 secondi. Quelle creature ricordano poi di aver sentito le parole che hai effettivamente pronunciato come componente verbale dell'incantesimo.</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

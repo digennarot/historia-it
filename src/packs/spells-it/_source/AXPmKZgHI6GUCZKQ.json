@@ -104,7 +104,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Crei un'illusione che prende radice nella mente di una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un <strong>tiro salvezza su Intelligenza</strong>. Se fallisce, crei un oggetto fantasma, una creatura o un altro fenomeno visibile a tua scelta, non più grande di un cubo di 10 piedi per lato, percepibile solo dal bersaglio per la durata. Questo incantesimo non ha effetto su non morti o costrutti.</p><p>Il fantasma include suoni, temperatura e altri stimoli, anch'essi percepibili solo dalla creatura.</p><p>Il bersaglio può usare la propria azione per esaminare il fantasma con una <strong>prova di Intelligenza (Indagare)</strong> contro la CD del tiro salvezza dell'incantesimo. Se la prova riesce, il bersaglio capisce che il fantasma è un'illusione, e l'incantesimo termina.</p><p>Mentre un bersaglio è influenzato dall'incantesimo, tratta il fantasma come se fosse reale. Il bersaglio razionalizza qualsiasi esito illogico derivante dall'interazione con il fantasma. Per esempio, un bersaglio che tenta di attraversare un ponte fantasma sopra un burrone cade non appena mette piede sul ponte. Se sopravvive alla caduta, continua a credere che il ponte esista e trova un'altra spiegazione per la caduta: è stato spinto, è scivolato, oppure un forte vento potrebbe averlo fatto cadere.</p><p>Il bersaglio colpito è così convinto della realtà del fantasma che può perfino subire danni dall'illusione. Un fantasma creato per apparire come una creatura può attaccare il bersaglio. Allo stesso modo, un fantasma creato per apparire come fuoco, una pozza di acido o lava può bruciare il bersaglio. Ogni round, durante il tuo turno, il fantasma può infliggere <strong>1d6 danni psichici</strong> al bersaglio se questo si trova nell'area del fantasma o entro 5 piedi da esso, purché l'illusione rappresenti una creatura o un pericolo che logicamente potrebbe infliggere danni, per esempio attaccando. Il bersaglio percepisce il danno come di un tipo appropriato all'illusione.</p>",
+      "value": "<p>Crei un'illusione che prende radice nella mente di una creatura che puoi vedere entro gittata. Il bersaglio deve effettuare un <strong>tiro salvezza su Intelligenza</strong>. Se fallisce, crei un oggetto fantasma, una creatura o un altro fenomeno visibile a tua scelta, non più grande di un cubo di 3 metri per lato, percepibile solo dal bersaglio per la durata. Questo incantesimo non ha effetto su non morti o costrutti.</p><p>Il fantasma include suoni, temperatura e altri stimoli, anch'essi percepibili solo dalla creatura.</p><p>Il bersaglio può usare la propria azione per esaminare il fantasma con una <strong>prova di Intelligenza (Indagare)</strong> contro la CD del tiro salvezza dell'incantesimo. Se la prova riesce, il bersaglio capisce che il fantasma è un'illusione, e l'incantesimo termina.</p><p>Mentre un bersaglio è influenzato dall'incantesimo, tratta il fantasma come se fosse reale. Il bersaglio razionalizza qualsiasi esito illogico derivante dall'interazione con il fantasma. Per esempio, un bersaglio che tenta di attraversare un ponte fantasma sopra un burrone cade non appena mette piede sul ponte. Se sopravvive alla caduta, continua a credere che il ponte esista e trova un'altra spiegazione per la caduta: è stato spinto, è scivolato, oppure un forte vento potrebbe averlo fatto cadere.</p><p>Il bersaglio colpito è così convinto della realtà del fantasma che può perfino subire danni dall'illusione. Un fantasma creato per apparire come una creatura può attaccare il bersaglio. Allo stesso modo, un fantasma creato per apparire come fuoco, una pozza di acido o lava può bruciare il bersaglio. Ogni round, durante il tuo turno, il fantasma può infliggere <strong>1d6 danni psichici</strong> al bersaglio se questo si trova nell'area del fantasma o entro 1,5 metri da esso, purché l'illusione rappresenti una creatura o un pericolo che logicamente potrebbe infliggere danni, per esempio attaccando. Il bersaglio percepisce il danno come di un tipo appropriato all'illusione.</p>",
       "chat": ""
     },
     "source": {
@@ -126,13 +126,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -188,7 +188,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

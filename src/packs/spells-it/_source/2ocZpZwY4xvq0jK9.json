@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b  rd__b--3\"><p>Brandisci l'arma usata per lanciare l'incantesimo ed effettui con essa un attacco in mischia contro una creatura entro 5 piedi da te. Se colpisci, il bersaglio subisce i normali effetti dell'attacco con l'arma e poi viene avvolto da energia tonante fino all'inizio del tuo turno successivo. Se prima di allora il bersaglio si sposta volontariamente di 5 piedi o più, subisce [[/r 1d8]] danni da tuono e l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>Il danno di questo incantesimo aumenta quando raggiungi determinati livelli. Al 5° livello, l'attacco in mischia infligge al bersaglio [[/r 1d8]] danni da tuono aggiuntivi se colpisce, e il danno subito dal bersaglio per lo spostamento aumenta a [[/r 2d8]]. Entrambi i tiri di danno aumentano di 1d8 all'11° livello ([[/r 2d8]] e [[/r 3d8]]) e di nuovo al 17° livello ([[/r 3d8]] e [[/r 4d8]]).</p></div>",
+      "value": "<div class=\"rd__b  rd__b--3\"><p>Brandisci l'arma usata per lanciare l'incantesimo ed effettui con essa un attacco in mischia contro una creatura entro 1,5 metri da te. Se colpisci, il bersaglio subisce i normali effetti dell'attacco con l'arma e poi viene avvolto da energia tonante fino all'inizio del tuo turno successivo. Se prima di allora il bersaglio si sposta volontariamente di 1,5 metri o più, subisce [[/r 1d8]] danni da tuono e l'incantesimo termina.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>Il danno di questo incantesimo aumenta quando raggiungi determinati livelli. Al 5° livello, l'attacco in mischia infligge al bersaglio [[/r 1d8]] danni da tuono aggiuntivi se colpisce, e il danno subito dal bersaglio per lo spostamento aumenta a [[/r 2d8]]. Entrambi i tiri di danno aumentano di 1d8 all'11° livello ([[/r 2d8]] e [[/r 3d8]]) e di nuovo al 17° livello ([[/r 3d8]] e [[/r 4d8]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -177,7 +177,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

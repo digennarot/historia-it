@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area di fiamma non magica che puoi vedere, che rientri in un cubo di 5 piedi per lato entro gittata. Puoi spegnere il fuoco in quell'area e, nel farlo, crei fuochi d'artificio oppure fumo.</p><div><p><strong>Fuochi d'artificio.</strong> Il bersaglio esplode in uno spettacolo abbagliante di colori. Ogni creatura entro 10 piedi dal bersaglio deve superare un tiro salvezza su Costituzione o essere &Reference[blinded]{accecata} fino alla fine del tuo turno successivo.</p></div><div><p><strong>Fumo.</strong> Un denso fumo nero si diffonde dal bersaglio in un raggio di 20 piedi, aggirando gli angoli. L'area del fumo è pesantemente oscurata. Il fumo persiste per 1 minuto o finché un forte vento non lo disperde.</p></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un'area di fiamma non magica che puoi vedere, che rientri in un cubo di 1,5 metri per lato entro gittata. Puoi spegnere il fuoco in quell'area e, nel farlo, crei fuochi d'artificio oppure fumo.</p><div><p><strong>Fuochi d'artificio.</strong> Il bersaglio esplode in uno spettacolo abbagliante di colori. Ogni creatura entro 3 metri dal bersaglio deve superare un tiro salvezza su Costituzione o essere &Reference[blinded]{accecata} fino alla fine del tuo turno successivo.</p></div><div><p><strong>Fumo.</strong> Un denso fumo nero si diffonde dal bersaglio in un raggio di 6 metri, aggirando gli angoli. L'area del fumo è pesantemente oscurata. Il fumo persiste per 1 minuto o finché un forte vento non lo disperde.</p></div></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

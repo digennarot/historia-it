@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi uno spirito che assume la forma di una cavalcatura leale e maestosa. Comparendo in uno spazio non occupato entro gittata, lo spirito assume una forma a tua scelta: un grifone, un pegaso, un peryton, un lupo cupo, un rinoceronte o una tigre dai denti a sciabola. La creatura ha le statistiche indicate nel Manuale dei Mostri per la forma scelta, anche se è un celestiale, una fata o un immondo (a tua scelta) invece del suo tipo di creatura normale. Inoltre, se ha un punteggio di Intelligenza pari o inferiore a 5, la sua Intelligenza diventa 6, e acquisisce la capacità di comprendere una lingua a tua scelta che tu parli.</p><p>Controlli la cavalcatura in combattimento. Mentre la cavalcatura si trova entro 1 miglio da te, puoi comunicare con essa telepaticamente. Mentre sei in sella, puoi far sì che qualsiasi incantesimo che lanci e che ha come unico bersaglio te includa anche la cavalcatura.</p><p>La cavalcatura scompare temporaneamente quando scende a 0 punti ferita o quando la congedi usando un'azione. Lanciare di nuovo questo incantesimo evoca di nuovo la cavalcatura legata, con tutti i suoi punti ferita ripristinati e senza alcuna condizione.</p><p>Non puoi avere più di una cavalcatura legata da questo incantesimo o da @UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{trova cavalcatura} contemporaneamente. Come azione, puoi liberare una cavalcatura dal suo legame, facendola scomparire in modo permanente.</p><p>Ogni volta che la cavalcatura scompare, lascia dietro di sé qualsiasi oggetto che stava indossando o portando.</p><div data-source=\"FTD\"><h4>Destrieri Draconici</h4> FTD p190[–]<p>Con il permesso del DM, un paladino può evocare uno spirito nella forma di un draconcello usando l'incantesimo trova cavalcatura superiore, che compare in <i>Xanathar's Guide to Everything</i>.</p></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Evochi uno spirito che assume la forma di una cavalcatura leale e maestosa. Comparendo in uno spazio non occupato entro gittata, lo spirito assume una forma a tua scelta: un grifone, un pegaso, un peryton, un lupo cupo, un rinoceronte o una tigre dai denti a sciabola. La creatura ha le statistiche indicate nel Manuale dei Mostri per la forma scelta, anche se è un celestiale, una fata o un immondo (a tua scelta) invece del suo tipo di creatura normale. Inoltre, se ha un punteggio di Intelligenza pari o inferiore a 5, la sua Intelligenza diventa 6, e acquisisce la capacità di comprendere una lingua a tua scelta che tu parli.</p><p>Controlli la cavalcatura in combattimento. Mentre la cavalcatura si trova entro 1,5 chilometri da te, puoi comunicare con essa telepaticamente. Mentre sei in sella, puoi far sì che qualsiasi incantesimo che lanci e che ha come unico bersaglio te includa anche la cavalcatura.</p><p>La cavalcatura scompare temporaneamente quando scende a 0 punti ferita o quando la congedi usando un'azione. Lanciare di nuovo questo incantesimo evoca di nuovo la cavalcatura legata, con tutti i suoi punti ferita ripristinati e senza alcuna condizione.</p><p>Non puoi avere più di una cavalcatura legata da questo incantesimo o da @UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{trova cavalcatura} contemporaneamente. Come azione, puoi liberare una cavalcatura dal suo legame, facendola scomparire in modo permanente.</p><p>Ogni volta che la cavalcatura scompare, lascia dietro di sé qualsiasi oggetto che stava indossando o portando.</p><div data-source=\"FTD\"><h4>Destrieri Draconici</h4> FTD p190[–]<p>Con il permesso del DM, un paladino può evocare uno spirito nella forma di un draconcello usando l'incantesimo trova cavalcatura superiore, che compare in <i>Xanathar's Guide to Everything</i>.</p></div></div>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "30",
-      "units": "ft"
+      "value": "9",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

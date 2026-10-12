@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un cubo d'aria non occupato di 5 piedi per lato che puoi vedere entro gittata. Una forza elementale simile a un diavolo di polvere appare nel cubo e dura per la durata dell'incantesimo.</p><p>Ogni creatura che termina il proprio turno entro 5 piedi dal diavolo di polvere deve effettuare un tiro salvezza su Forza. Se fallisce, la creatura subisce [[/r 1d8]] danni contundenti e viene spinta a 10 piedi di distanza dal diavolo di polvere. Se lo supera, la creatura subisce metà dei danni e non viene spinta.</p><p>Come azione bonus, puoi spostare il diavolo di polvere fino a 30 piedi in qualsiasi direzione. Se si muove sopra sabbia, polvere, terra sciolta o ghiaia leggera, ne risucchia il materiale e forma attorno a sé una nube di detriti di raggio 10 piedi, che dura fino all'inizio del tuo turno successivo. La nube oscura pesantemente la sua area.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di [[/r 1d8]] per ogni slot di livello superiore al 2°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Scegli un cubo d'aria non occupato di 1,5 metri per lato che puoi vedere entro gittata. Una forza elementale simile a un diavolo di polvere appare nel cubo e dura per la durata dell'incantesimo.</p><p>Ogni creatura che termina il proprio turno entro 1,5 metri dal diavolo di polvere deve effettuare un tiro salvezza su Forza. Se fallisce, la creatura subisce [[/r 1d8]] danni contundenti e viene spinta a 3 metri di distanza dal diavolo di polvere. Se lo supera, la creatura subisce metà dei danni e non viene spinta.</p><p>Come azione bonus, puoi spostare il diavolo di polvere fino a 9 metri in qualsiasi direzione. Se si muove sopra sabbia, polvere, terra sciolta o ghiaia leggera, ne risucchia il materiale e forma attorno a sé una nube di detriti di raggio 3 metri, che dura fino all'inizio del tuo turno successivo. La nube oscura pesantemente la sua area.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di [[/r 1d8]] per ogni slot di livello superiore al 2°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -89,7 +89,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

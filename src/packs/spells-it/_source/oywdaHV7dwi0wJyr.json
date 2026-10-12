@@ -179,7 +179,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Riempi l'aria di pugnali roteanti in un cubo di 5 piedi per lato, centrato su un punto a tua scelta entro gittata. Una creatura subisce 4d4 danni taglienti quando entra per la prima volta nell'area dell'incantesimo in un turno o inizia il proprio turno lì.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di 2d4 per ogni slot di livello superiore al 2°.</p>",
+      "value": "<p>Riempi l'aria di pugnali roteanti in un cubo di 1,5 metri per lato, centrato su un punto a tua scelta entro gittata. Una creatura subisce 4d4 danni taglienti quando entra per la prima volta nell'area dell'incantesimo in un turno o inizia il proprio turno lì.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di 2d4 per ogni slot di livello superiore al 2°.</p>",
       "chat": ""
     },
     "source": {
@@ -201,15 +201,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -264,7 +264,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

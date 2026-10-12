@@ -194,7 +194,7 @@
   },
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una mano Grande di forza scintillante e traslucida in uno spazio non occupato che puoi vedere entro gittata. La mano dura per la durata dell'incantesimo e si muove al tuo comando, imitando i movimenti della tua mano.</p><p>La mano è un oggetto con CA 20 e punti ferita pari al tuo massimo di punti ferita. Se scende a 0 punti ferita, l'incantesimo termina. Ha Forza 26 (+8) e Destrezza 10 (+0). La mano non occupa il proprio spazio.</p><p>Quando lanci l'incantesimo e come azione bonus nei tuoi turni successivi, puoi muovere la mano fino a 60 piedi e poi farle compiere uno dei seguenti effetti.</p><p><strong>Pugno Serrato.</strong> La mano colpisce una creatura o un oggetto entro 5 piedi da essa. Effettua un attacco in mischia con incantesimo per la mano usando le tue statistiche di gioco. Se colpisce, il bersaglio subisce 4d8 danni da forza.</p><p><strong>Mano Possente.</strong> La mano tenta di spingere una creatura entro 5 piedi da essa in una direzione a tua scelta. Effettua una prova della Forza della mano in contrapposizione alla prova di Forza (Atletica) del bersaglio. Se il bersaglio è di taglia Media o inferiore, hai vantaggio sulla prova. Se hai successo, la mano spinge il bersaglio fino a 5 piedi più un numero di piedi pari a cinque volte il tuo modificatore di caratteristica da incantatore. La mano si muove con il bersaglio per restare entro 5 piedi da esso.</p><p><strong>Mano Afferrante.</strong> La mano tenta di afferrare una creatura di taglia Enorme o inferiore entro 5 piedi da essa. Usi il punteggio di Forza della mano per risolvere la lotta. Se il bersaglio è di taglia Media o inferiore, hai vantaggio sulla prova. Mentre la mano afferra il bersaglio, puoi usare un'azione bonus per farla stritolare il bersaglio. Quando lo fai, il bersaglio subisce danni contundenti pari a 2d6 + il tuo modificatore di caratteristica da incantatore.</p><p><strong>Mano Interponente.</strong> La mano si interpone tra te e una creatura a tua scelta finché non le impartisci un comando diverso. La mano si muove per restare tra te e il bersaglio, fornendoti copertura parziale contro il bersaglio. Il bersaglio non può muoversi attraverso lo spazio della mano se il suo punteggio di Forza è pari o inferiore a quello della mano. Se il suo punteggio di Forza è superiore a quello della mano, il bersaglio può muoversi verso di te attraverso lo spazio della mano, ma quello spazio è terreno difficile per il bersaglio.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni dell'opzione Pugno Serrato aumentano di 2d8 e i danni della Mano Afferrante aumentano di 2d6 per ogni slot di livello superiore al 5°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una mano Grande di forza scintillante e traslucida in uno spazio non occupato che puoi vedere entro gittata. La mano dura per la durata dell'incantesimo e si muove al tuo comando, imitando i movimenti della tua mano.</p><p>La mano è un oggetto con CA 20 e punti ferita pari al tuo massimo di punti ferita. Se scende a 0 punti ferita, l'incantesimo termina. Ha Forza 26 (+8) e Destrezza 10 (+0). La mano non occupa il proprio spazio.</p><p>Quando lanci l'incantesimo e come azione bonus nei tuoi turni successivi, puoi muovere la mano fino a 18 metri e poi farle compiere uno dei seguenti effetti.</p><p><strong>Pugno Serrato.</strong> La mano colpisce una creatura o un oggetto entro 1,5 metri da essa. Effettua un attacco in mischia con incantesimo per la mano usando le tue statistiche di gioco. Se colpisce, il bersaglio subisce 4d8 danni da forza.</p><p><strong>Mano Possente.</strong> La mano tenta di spingere una creatura entro 1,5 metri da essa in una direzione a tua scelta. Effettua una prova della Forza della mano in contrapposizione alla prova di Forza (Atletica) del bersaglio. Se il bersaglio è di taglia Media o inferiore, hai vantaggio sulla prova. Se hai successo, la mano spinge il bersaglio fino a 1,5 metri più 1,5 metri per ogni punto del tuo modificatore di caratteristica da incantatore. La mano si muove con il bersaglio per restare entro 1,5 metri da esso.</p><p><strong>Mano Afferrante.</strong> La mano tenta di afferrare una creatura di taglia Enorme o inferiore entro 1,5 metri da essa. Usi il punteggio di Forza della mano per risolvere la lotta. Se il bersaglio è di taglia Media o inferiore, hai vantaggio sulla prova. Mentre la mano afferra il bersaglio, puoi usare un'azione bonus per farla stritolare il bersaglio. Quando lo fai, il bersaglio subisce danni contundenti pari a 2d6 + il tuo modificatore di caratteristica da incantatore.</p><p><strong>Mano Interponente.</strong> La mano si interpone tra te e una creatura a tua scelta finché non le impartisci un comando diverso. La mano si muove per restare tra te e il bersaglio, fornendoti copertura parziale contro il bersaglio. Il bersaglio non può muoversi attraverso lo spazio della mano se il suo punteggio di Forza è pari o inferiore a quello della mano. Se il suo punteggio di Forza è superiore a quello della mano, il bersaglio può muoversi verso di te attraverso lo spazio della mano, ma quello spazio è terreno difficile per il bersaglio.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni dell'opzione Pugno Serrato aumentano di 2d8 e i danni della Mano Afferrante aumentano di 2d6 per ogni slot di livello superiore al 5°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -216,13 +216,13 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
     "range": {
-      "value": "120",
-      "units": "ft"
+      "value": "36",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -278,7 +278,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -369,7 +369,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
@@ -454,7 +454,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

@@ -163,7 +163,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Uno Skunk può usare un'azione per emettere uno spray fetido in una linea retta per 10 piedi. Ogni creatura in questa linea deve effettuare un tiro salvezza di Destrezza con CD 8 + il bonus di Costituzione + il bonus di competenza. Se falliscono questo tiro salvezza, una creatura spruzzata diventa avvelenata per un minuto e un odore disgustoso marcito persiste sul suo corpo fino a una settimana, causando la loro presenza di essere annusata fino a 60 piedi nelle giuste condizioni del vento.</p>",
+      "value": "<p>Uno Skunk può usare un'azione per emettere uno spray fetido in una linea retta per 3 metri. Ogni creatura in questa linea deve effettuare un tiro salvezza di Destrezza con CD 8 + il bonus di Costituzione + il bonus di competenza. Se falliscono questo tiro salvezza, una creatura spruzzata diventa avvelenata per un minuto e un odore disgustoso marcito persiste sul suo corpo fino a una settimana, causando la loro presenza di essere annusata fino a 18 metri nelle giuste condizioni del vento.</p>",
       "chat": ""
     },
     "source": {
@@ -185,9 +185,9 @@
     "rarity": "",
     "identified": true,
     "range": {
-      "value": 10,
+      "value": 3,
       "long": null,
-      "units": "ft",
+      "units": "m",
       "reach": null
     },
     "uses": {
@@ -275,8 +275,8 @@
         },
         "effects": [],
         "range": {
-          "value": "10",
-          "units": "ft",
+          "value": "3",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -288,7 +288,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

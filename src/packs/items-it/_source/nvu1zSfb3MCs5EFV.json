@@ -151,7 +151,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong><span class=\"fontstyle0\">Ingombrante.</span></strong></em><span class=\"fontstyle2\">A causa della dimensione considerevole di questo scudo, la velocità di coloro che lo utilizzano è ridotta di 5 piedi e gli effetti di ostacolo sono applicati..</span> </p>\n<p><span class=\"fontstyle0\"><em><strong>Parry.</strong></em> </span><span class=\"fontstyle2\">Se i personaggi che tengono questo scudo prendono un colpo critico, possono usare la loro reazione per fermare il colpo con lo scudo, riducendo il colpo critico a un normale attacco di successo, ma distruggendo lo scudo</span> </p>",
+      "value": "<p><em><strong><span class=\"fontstyle0\">Ingombrante.</span></strong></em><span class=\"fontstyle2\">A causa della dimensione considerevole di questo scudo, la velocità di coloro che lo utilizzano è ridotta di 1,5 metri e gli effetti di ostacolo sono applicati..</span> </p>\n<p><span class=\"fontstyle0\"><em><strong>Parry.</strong></em> </span><span class=\"fontstyle2\">Se i personaggi che tengono questo scudo prendono un colpo critico, possono usare la loro reazione per fermare il colpo con lo scudo, riducendo il colpo critico a un normale attacco di successo, ma distruggendo lo scudo</span> </p>",
       "chat": ""
     },
     "source": {
@@ -191,7 +191,7 @@
     "speed": {
       "value": null,
       "conditions": "",
-      "units": "ft"
+      "units": "m"
     },
     "strength": null,
     "proficient": 1,

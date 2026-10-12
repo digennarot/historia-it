@@ -192,8 +192,8 @@
         },
         "effects": [],
         "range": {
-          "value": "150",
-          "units": "ft",
+          "value": "45",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -202,10 +202,10 @@
             "count": "",
             "contiguous": false,
             "type": "sphere",
-            "size": "20",
+            "size": "6",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

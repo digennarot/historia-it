@@ -249,8 +249,8 @@
         },
         "effects": [],
         "range": {
-          "value": "60",
-          "units": "ft",
+          "value": "18",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -259,10 +259,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "10",
+            "size": "3",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",
@@ -335,8 +335,8 @@
         },
         "effects": [],
         "range": {
-          "value": "60",
-          "units": "ft",
+          "value": "18",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -345,10 +345,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "10",
+            "size": "3",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

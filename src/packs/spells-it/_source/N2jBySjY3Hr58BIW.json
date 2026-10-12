@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un istantaneo cerchio di lame spettrali che roteano intorno a te. Tutte le altre creature entro 5 piedi da te devono superare un tiro salvezza su Destrezza o subire [[/r 1d6]] danni da forza.</p><p>Il danno di questo incantesimo aumenta di [[/r 1d6]] quando raggiungi il 5° livello ([[/r 2d6]]), l'11° livello ([[/r 3d6]]) e il 17° livello ([[/r 4d6]]).</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei un istantaneo cerchio di lame spettrali che roteano intorno a te. Tutte le altre creature entro 1,5 metri da te devono superare un tiro salvezza su Destrezza o subire [[/r 1d6]] danni da forza.</p><p>Il danno di questo incantesimo aumenta di [[/r 1d6]] quando raggiungi il 5° livello ([[/r 2d6]]), l'11° livello ([[/r 3d6]]) e il 17° livello ([[/r 4d6]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,9 +25,9 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "sphere",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
@@ -85,7 +85,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

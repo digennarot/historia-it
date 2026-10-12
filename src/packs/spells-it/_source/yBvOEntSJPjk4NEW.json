@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Ti teletrasporti fino a 60 piedi in uno spazio non occupato che puoi vedere. In ciascuno dei tuoi turni prima che l'incantesimo termini, puoi usare un'azione bonus per teletrasportarti di nuovo in questo modo.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Ti teletrasporti fino a 18 metri in uno spazio non occupato che puoi vedere. In ciascuno dei tuoi turni prima che l'incantesimo termini, puoi usare un'azione bonus per teletrasportarti di nuovo in questo modo.</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

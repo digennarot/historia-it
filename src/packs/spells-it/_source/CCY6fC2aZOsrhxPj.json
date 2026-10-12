@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Richiami uno spirito della natura per lenire i feriti. Lo spirito intangibile compare in uno spazio che è un cubo di 5 piedi per lato e che puoi vedere entro gittata. Lo spirito ha l'aspetto di una bestia o di una fata trasparente, a tua scelta.</p><p>Finché l'incantesimo non termina, ogni volta che una creatura che puoi vedere, tu compreso, entra per la prima volta nello spazio dello spirito in un turno o inizia lì il proprio turno, puoi far ripristinare a quella creatura [[/r 1d6]] punti ferita dallo spirito (senza richiedere un'azione). Lo spirito non può curare costrutti o non morti. Può curare un numero di volte pari a 1 + il tuo modificatore di caratteristica da incantatore (minimo due volte). Dopo aver curato quel numero di volte, lo spirito scompare.</p><p>Come azione bonus nel tuo turno, puoi spostare lo spirito fino a 30 piedi, in uno spazio che puoi vedere.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, la guarigione aumenta di [[/r 1d6]] per ogni slot di livello superiore al 2°.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Richiami uno spirito della natura per lenire i feriti. Lo spirito intangibile compare in uno spazio che è un cubo di 1,5 metri per lato e che puoi vedere entro gittata. Lo spirito ha l'aspetto di una bestia o di una fata trasparente, a tua scelta.</p><p>Finché l'incantesimo non termina, ogni volta che una creatura che puoi vedere, tu compreso, entra per la prima volta nello spazio dello spirito in un turno o inizia lì il proprio turno, puoi far ripristinare a quella creatura [[/r 1d6]] punti ferita dallo spirito (senza richiedere un'azione). Lo spirito non può curare costrutti o non morti. Può curare un numero di volte pari a 1 + il tuo modificatore di caratteristica da incantatore (minimo due volte). Dopo aver curato quel numero di volte, lo spirito scompare.</p><p>Come azione bonus nel tuo turno, puoi spostare lo spirito fino a 9 metri, in uno spazio che puoi vedere.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 3° livello o superiore, la guarigione aumenta di [[/r 1d6]] per ogni slot di livello superiore al 2°.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

@@ -83,7 +83,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questo fluido adesivo appiccicosa si accende quando esposto all'aria. Come azione, è possibile gettare questo flask fino a 20 piedi, rasatura su impatto. Fai un attacco a distanza contro una creatura o un oggetto, trattando il fuoco dell'alchimista come un'arma improvvisata. Su un colpo, il bersaglio subisce 1d4 danni al fuoco all'inizio di ciascuno dei suoi giri. Una creatura può porre fine a questo danno utilizzando la sua azione per fare un controllo CD 10 Destrezza per spegnere le fiamme.</p>",
+      "value": "<p>Questo fluido adesivo appiccicosa si accende quando esposto all'aria. Come azione, è possibile gettare questo flask fino a 6 metri, rasatura su impatto. Fai un attacco a distanza contro una creatura o un oggetto, trattando il fuoco dell'alchimista come un'arma improvvisata. Su un colpo, il bersaglio subisce 1d4 danni al fuoco all'inizio di ciascuno dei suoi giri. Una creatura può porre fine a questo danno utilizzando la sua azione per fare un controllo CD 10 Destrezza per spegnere le fiamme.</p>",
       "chat": ""
     },
     "source": {
@@ -181,8 +181,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -194,7 +194,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",
@@ -277,8 +277,8 @@
         },
         "effects": [],
         "range": {
-          "value": "20",
-          "units": "ft",
+          "value": "6",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -290,7 +290,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

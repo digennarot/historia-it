@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Le fiamme ondeggianti di un drago avvolgono i tuoi piedi, concedendoti una velocità esplosiva. Per la durata, la tua velocità aumenta di 20 piedi e il movimento non provoca attacchi di opportunità.</p><p>Quando ti muovi entro 5 piedi da una creatura o da un oggetto non indossato né portato, questo subisce [[/r 1d6]] danni da fuoco dalla tua scia di calore. Una creatura o un oggetto può subire questi danni una sola volta per turno.</p></div><div><div><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, aumenta la tua velocità di 5 piedi per ogni slot di livello superiore al 3°. Inoltre, l'incantesimo infligge [[/r 1d6]] danni da fuoco extra per ogni slot di livello superiore al 3°.</p></div></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Le fiamme ondeggianti di un drago avvolgono i tuoi piedi, concedendoti una velocità esplosiva. Per la durata, la tua velocità aumenta di 6 metri e il movimento non provoca attacchi di opportunità.</p><p>Quando ti muovi entro 1,5 metri da una creatura o da un oggetto non indossato né portato, questo subisce [[/r 1d6]] danni da fuoco dalla tua scia di calore. Una creatura o un oggetto può subire questi danni una sola volta per turno.</p></div><div><div><p><strong><em>Ai Livelli Superiori.</em></strong> Quando lanci questo incantesimo usando uno slot incantesimo di 4° livello o superiore, aumenta la tua velocità di 1,5 metri per ogni slot di livello superiore al 3°. Inoltre, l'incantesimo infligge [[/r 1d6]] danni da fuoco extra per ogni slot di livello superiore al 3°.</p></div></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -87,7 +87,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

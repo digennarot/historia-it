@@ -79,7 +79,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una lanterna di bullseye getta luce luminosa in un cono di 60 piedi e luce dim per un ulteriore 60 piedi. Una volta acceso, brucia per 6 ore su un lino (1 pinta) di olio.</p>",
+      "value": "<p>Una lanterna di bullseye getta luce luminosa in un cono di 18 metri e luce dim per un ulteriore 18 metri. Una volta acceso, brucia per 6 ore su un lino (1 pinta) di olio.</p>",
       "chat": ""
     },
     "source": {
@@ -180,10 +180,10 @@
             "count": "",
             "contiguous": false,
             "type": "cone",
-            "size": "120",
+            "size": "36",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

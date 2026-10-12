@@ -171,7 +171,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>È possibile spendere la vostra reazione per reindirizzare un attacco che mira verso un altro alleato entro 5 piedi. È possibile utilizzare questa capacità un certo numero di volte al giorno pari al modificatore di intelligenza.</p>",
+      "value": "<p>È possibile spendere la vostra reazione per reindirizzare un attacco che mira verso un altro alleato entro 1,5 metri. È possibile utilizzare questa capacità un certo numero di volte al giorno pari al modificatore di intelligenza.</p>",
       "chat": ""
     },
     "source": {
@@ -227,8 +227,8 @@
         },
         "effects": [],
         "range": {
-          "value": "5",
-          "units": "ft",
+          "value": "1.5",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -240,7 +240,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "1",

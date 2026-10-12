@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una parete d'acqua sul terreno, in un punto che puoi vedere entro gittata. Puoi creare la parete lunga fino a 30 piedi, alta 10 piedi e spessa 1 piede, oppure una parete ad anello con diametro fino a 20 piedi, alta 20 piedi e spessa 1 piede. La parete svanisce quando l'incantesimo termina. Lo spazio della parete è terreno difficile.</p><p>Qualsiasi attacco a distanza con un'arma che entra nello spazio della parete ha svantaggio sul tiro per colpire, e i danni da fuoco sono dimezzati se l'effetto di fuoco attraversa la parete per raggiungere il bersaglio. Gli incantesimi che infliggono danni da freddo e attraversano la parete fanno congelare completamente la porzione di parete attraversata (almeno una sezione quadrata di 5 piedi per lato viene congelata). Ogni sezione congelata di 5 piedi per lato ha CA 5 e 15 punti ferita. Ridurre una sezione congelata a 0 punti ferita la distrugge. Quando una sezione viene distrutta, l'acqua della parete non la riempie.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Crei una parete d'acqua sul terreno, in un punto che puoi vedere entro gittata. Puoi creare la parete lunga fino a 9 metri, alta 3 metri e spessa 30 centimetri, oppure una parete ad anello con diametro fino a 6 metri, alta 6 metri e spessa 30 centimetri. La parete svanisce quando l'incantesimo termina. Lo spazio della parete è terreno difficile.</p><p>Qualsiasi attacco a distanza con un'arma che entra nello spazio della parete ha svantaggio sul tiro per colpire, e i danni da fuoco sono dimezzati se l'effetto di fuoco attraversa la parete per raggiungere il bersaglio. Gli incantesimi che infliggono danni da freddo e attraversano la parete fanno congelare completamente la porzione di parete attraversata (almeno una sezione quadrata di 1,5 metri per lato viene congelata). Ogni sezione congelata di 1,5 metri per lato ha CA 5 e 15 punti ferita. Ridurre una sezione congelata a 0 punti ferita la distrugge. Quando una sezione viene distrutta, l'acqua della parete non la riempie.</p></div>",
       "chat": ""
     },
     "source": {
@@ -25,15 +25,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "wall",
-        "size": "30",
+        "size": "9",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -88,7 +88,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

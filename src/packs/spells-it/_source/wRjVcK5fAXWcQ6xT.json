@@ -35,7 +35,7 @@
   "name": "Esplosione Stellare",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>Fai apparire un granello di luce stellare che esplode in un cubo di 5 piedi che puoi vedere entro gittata. Se una creatura si trova nel cubo, deve superare un tiro salvezza su Carisma o subire 1d8 danni radiosi.</p><p>Il danno di questo incantesimo aumenta a 2d8 quando raggiungi il 5° livello, a 3d8 quando raggiungi l'11° livello e a 4d8 quando raggiungi il 17° livello.</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>Fai apparire un granello di luce stellare che esplode in un cubo di 1,5 metri che puoi vedere entro gittata. Se una creatura si trova nel cubo, deve superare un tiro salvezza su Carisma o subire 1d8 danni radiosi.</p><p>Il danno di questo incantesimo aumenta a 2d8 quando raggiungi il 5° livello, a 3d8 quando raggiungi l'11° livello e a 4d8 quando raggiungi il 17° livello.</p></div>",
       "chat": ""
     },
     "source": {
@@ -57,15 +57,15 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "type": "cube",
-        "size": "5",
+        "size": "1.5",
         "contiguous": false
       }
     },
     "range": {
-      "value": "60",
-      "units": "ft"
+      "value": "18",
+      "units": "m"
     },
     "uses": {
       "max": "",
@@ -119,7 +119,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false

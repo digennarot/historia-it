@@ -79,7 +79,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una lanterna incappucciata getta luce luminosa in un raggio di 30 piedi e dim luce per un ulteriore 30 piedi. Una volta acceso, brucia per 6 ore su un lino (1 pinta) di olio. Come azione, è possibile abbassare il cofano, riducendo la luce per attenuare la luce in un raggio di 5 piedi.</p>",
+      "value": "<p>Una lanterna incappucciata getta luce luminosa in un raggio di 9 metri e dim luce per un ulteriore 9 metri. Una volta acceso, brucia per 6 ore su un lino (1 pinta) di olio. Come azione, è possibile abbassare il cofano, riducendo la luce per attenuare la luce in un raggio di 1,5 metri.</p>",
       "chat": ""
     },
     "source": {
@@ -180,10 +180,10 @@
             "count": "",
             "contiguous": false,
             "type": "radius",
-            "size": "60",
+            "size": "18",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

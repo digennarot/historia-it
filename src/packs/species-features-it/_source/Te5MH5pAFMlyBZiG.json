@@ -182,7 +182,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Puoi spendere un'azione per produrre una dolce canzone che rinfresca l'anima e il corpo dei tuoi compagni. Qualsiasi alleato entro 50 piedi che può sentirti può ignorare un livello di sfinimento per un minuto. Questa capacità può essere utilizzata di nuovo dopo aver terminato un riposo breve.</p>",
+      "value": "<p>Puoi spendere un'azione per produrre una dolce canzone che rinfresca l'anima e il corpo dei tuoi compagni. Qualsiasi alleato entro 15 metri che può sentirti può ignorare un livello di sfinimento per un minuto. Questa capacità può essere utilizzata di nuovo dopo aver terminato un riposo breve.</p>",
       "chat": ""
     },
     "source": {
@@ -253,8 +253,8 @@
         },
         "effects": [],
         "range": {
-          "value": "50",
-          "units": "ft",
+          "value": "15",
+          "units": "m",
           "special": "",
           "override": false
         },
@@ -266,7 +266,7 @@
             "size": "",
             "width": "",
             "height": "",
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "count": "",

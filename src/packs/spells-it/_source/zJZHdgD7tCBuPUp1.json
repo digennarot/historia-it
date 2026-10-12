@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco a distanza con un'arma prima che l'incantesimo termini, questo crea una pioggia di spine che germoglia dalla tua arma a distanza o dalle munizioni. Oltre all'effetto normale dell'attacco, il bersaglio dell'attacco e ogni creatura entro 5 piedi da esso devono effettuare un tiro salvezza su Destrezza. Una creatura subisce [[/r 1d10]] danni perforanti se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Se lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di [[/r 1d10]] per ogni slot di livello superiore al 1° (fino a un massimo di [[/r 6d10]]).</p></div>",
+      "value": "<div class=\"rd__b rd__b--3\"><p>La prossima volta che colpisci una creatura con un attacco a distanza con un'arma prima che l'incantesimo termini, questo crea una pioggia di spine che germoglia dalla tua arma a distanza o dalle munizioni. Oltre all'effetto normale dell'attacco, il bersaglio dell'attacco e ogni creatura entro 1,5 metri da esso devono effettuare un tiro salvezza su Destrezza. Una creatura subisce [[/r 1d10]] danni perforanti se fallisce il tiro salvezza, o metà di tali danni se lo supera.</p><p><strong><em>Ai Livelli Superiori.</em></strong> Se lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di [[/r 1d10]] per ogni slot di livello superiore al 1° (fino a un massimo di [[/r 6d10]]).</p></div>",
       "chat": ""
     },
     "source": {
@@ -27,7 +27,7 @@
         "choice": false
       },
       "template": {
-        "units": "ft",
+        "units": "m",
         "contiguous": false
       }
     },
@@ -86,7 +86,7 @@
           "prompt": true,
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "m"
           },
           "affects": {
             "choice": false
