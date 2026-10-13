@@ -7,7 +7,22 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.34] - 2026-10-13
+
 ### Added
+- **Nuovo compendio "Regole"** con le regole generali del Manuale Base:
+  *Ricchezza & Influenza* (cap. 6: Conio, tabella stili di vita, Fama,
+  fama negativa, investire, perdere e guadagnare Fama), *Ispirazione*,
+  *Ferite, Combattimento e Morte* (tabella d20 delle Ferite, tiri salvezza
+  contro morte, traumi, riposo), *Avventure e Sequenze* (ranghi, sequenze,
+  avversità, ricompense, alzare la posta), *Avversari* (profili base,
+  rango, bande, qualità speciali) e *Battaglie Campali* (cap. 9: Momentum,
+  fasi, azioni, conseguenze, eserciti).
+- **Nuovo compendio "Personaggi di Historia"** (cap. 10 del Manuale Base):
+  21 Eroi e 25 Personaggi Non Giocanti in due cartelle, ciascuno con
+  biografia, legame/ideale/difetto, rango e scheda completa (caratteristiche,
+  privilegi, incantesimi, azioni, azioni bonus e reazioni), più la pagina
+  introduttiva del capitolo.
 - **Scheda "Istinti"** nei Tratti di Specie (cartella *Regole generali*):
   regola completa del manuale (istinti generali Predatore/Preda/Onnivoro,
   di familia e di specie, linea guida per usarli come ideale, legame o
