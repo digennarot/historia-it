@@ -5,6 +5,37 @@
   },
   "pages": [
     {
+      "name": "Ritratto: Wolfgang Gabrinus",
+      "type": "image",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "_id": "PersWolfgangGI01",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "media/Characters/p291-0.webp",
+      "system": {},
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
       "name": "Wolfgang Gabrinus",
       "type": "text",
       "title": {
@@ -13,7 +44,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Wolfgang Gabrinus nacque in una piccola famiglia di mercanti dei sobborghi del Ducato di San Mastino. Figlio unico, arrivò quando i suoi genitori, ormai avanti negli anni, avevano ormai disperato di poter produrre eredi. Fin da piccolo conobbe il significato del lavoro, cominciando ad aiutare come poteva nella bottega del padre. La loro attività crebbe pian piano, finché poterono permettersi di spostarla nella città di San Mastino, molto più ricca e piena d'opportunità. Poco più tardi, quell'anno, arrivò la guerra tra Duchi e Custode. Lo sforzo bellico dei nobili fedeli a Nochemburgo ricadde gravemente sulle spalle dei mercanti: le gabelle quasi schiacciarono suo padre.</p>\n<p>Quasi vent'anni dopo,Wolfgang è deciso a non farsi strappare tutti i suoi averi per finanziare una possibile guerra che non lo riguarda, e il Mastro Nero ha tutto l'interesse a supportare questo folle, questo rivoluzionario, questo simbolo.</p>\n<p><strong>Legame:</strong> <em>Il Popolo non ha bisogno di un Padrone, ma ha bisogno di una Guida.</em></p>\n<p><strong>Ideale:</strong> <em>Desidero un popolo libero dal giogo di padroni ingiusti.</em></p>\n<p><strong>Difetto:</strong> <em>La mia parola è cristallina e non so trattenerla anche quando mi converrebbe tacere.</em></p>\n<p><strong>Rango:</strong> 2</p>\n<h2>WOLFGANG</h2>\n<p><em>Umanoide Medio (licae lupo)</em></p>\n<p><strong>Classe Armatura</strong> 12</p>\n<p><strong>Punti Ferita</strong> 45 (10d8)</p>\n<p><strong>Velocità</strong> 9m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>8 (-1)</td><td>14 (+2)</td><td>10 (+0)</td><td>14 (+2)</td><td>12 (+1)</td><td>18 (+4)</td></tr></tbody></table>\n<p><strong>Tiri Salvezza</strong> Int +6, Car +8</p>\n<p><strong>Abilità</strong> Intuizione +5, Persuasione +8, Sopravvivenza +5, Storia +6</p>\n<p><strong>Sensi</strong> Percezione passiva 11, scurovisione 18m</p>\n<p><strong>Sfida</strong> 6 (2.300 PE)</p>\n<p><em><strong>Factotum.</strong></em> Wolfgang aggiunge +2 a tutte le prove a cui non aggiunge il bonus di competenza.</p>\n<p><em><strong>Lingua Melliflua.</strong></em> Wolfgang può comunicare con un alleato senza farsi capire dagli altri e dispone di vantaggio alle prove di Carisma (Persuasione).</p>\n<p><em><strong>Sbagliando S'Impara.</strong></em> Se Wolfgang fallisce una prova di caratteristica, un tiro salvezza o un tiro per colpire, la prossima prova di caratteristica o tiro salvezza otterrà automaticamente 20 sul dado.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +6 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 4 (1d4+2) danni perforanti. Saggi Consigli (Ricarica 5–6). Wolfgang può incoraggiare e spronare una persona, consentendole di spendere fino a due Dadi Vita per recuperare punti ferita e di aggiungere 1d4 alla sua prossima prova di caratteristica effettuata entro 1 minuto. Wolfgang recupera la stessa quantità di punti ferita.</p>"
+        "content": "<p>Wolfgang Gabrinus nacque in una piccola famiglia di mercanti dei sobborghi del Ducato di San Mastino. Figlio unico, arrivò quando i suoi genitori, ormai avanti negli anni, avevano ormai disperato di poter produrre eredi. Fin da piccolo conobbe il significato del lavoro, cominciando ad aiutare come poteva nella bottega del padre. La loro attività crebbe pian piano, finché poterono permettersi di spostarla nella città di San Mastino, molto più ricca e piena d'opportunità. Poco più tardi, quell'anno, arrivò la guerra tra Duchi e Custode. Lo sforzo bellico dei nobili fedeli a Nochemburgo ricadde gravemente sulle spalle dei mercanti: le gabelle quasi schiacciarono suo padre.</p>\n<p>Quasi vent'anni dopo,Wolfgang è deciso a non farsi strappare tutti i suoi averi per finanziare una possibile guerra che non lo riguarda, e il Mastro Nero ha tutto l'interesse a supportare questo folle, questo rivoluzionario, questo simbolo.</p>\n<p><strong>Legame:</strong> <em>Il Popolo non ha bisogno di un Padrone, ma ha bisogno di una Guida.</em></p>\n<p><strong>Ideale:</strong> <em>Desidero un popolo libero dal giogo di padroni ingiusti.</em></p>\n<p><strong>Difetto:</strong> <em>La mia parola è cristallina e non so trattenerla anche quando mi converrebbe tacere.</em></p>\n<p><strong>Rango:</strong> 2</p>\n<p>@UUID[Compendium.historia-it.actors-it.Actor.AttrWolfgangG001]{Attore: Wolfgang Gabrinus}</p>\n<h2>WOLFGANG</h2>\n<p><em>Umanoide Medio (licae lupo)</em></p>\n<p><strong>Classe Armatura</strong> 12</p>\n<p><strong>Punti Ferita</strong> 45 (10d8)</p>\n<p><strong>Velocità</strong> 9m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>8 (-1)</td><td>14 (+2)</td><td>10 (+0)</td><td>14 (+2)</td><td>12 (+1)</td><td>18 (+4)</td></tr></tbody></table>\n<p><strong>Tiri Salvezza</strong> Int +6, Car +8</p>\n<p><strong>Abilità</strong> Intuizione +5, Persuasione +8, Sopravvivenza +5, Storia +6</p>\n<p><strong>Sensi</strong> Percezione passiva 11, scurovisione 18m</p>\n<p><strong>Sfida</strong> 6 (2.300 PE)</p>\n<p><em><strong>Factotum.</strong></em> Wolfgang aggiunge +2 a tutte le prove a cui non aggiunge il bonus di competenza.</p>\n<p><em><strong>Lingua Melliflua.</strong></em> Wolfgang può comunicare con un alleato senza farsi capire dagli altri e dispone di vantaggio alle prove di Carisma (Persuasione).</p>\n<p><em><strong>Sbagliando S'Impara.</strong></em> Se Wolfgang fallisce una prova di caratteristica, un tiro salvezza o un tiro per colpire, la prossima prova di caratteristica o tiro salvezza otterrà automaticamente 20 sul dado.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +6 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 4 (1d4+2) danni perforanti. Saggi Consigli (Ricarica 5–6). Wolfgang può incoraggiare e spronare una persona, consentendole di spendere fino a due Dadi Vita per recuperare punti ferita e di aggiungere 1d4 alla sua prossima prova di caratteristica effettuata entro 1 minuto. Wolfgang recupera la stessa quantità di punti ferita.</p>"
       },
       "_id": "PersWolfgangGP01",
       "image": {},
@@ -23,7 +54,7 @@
       },
       "src": null,
       "system": {},
-      "sort": 0,
+      "sort": 100000,
       "flags": {},
       "_stats": {
         "coreVersion": "13.350",

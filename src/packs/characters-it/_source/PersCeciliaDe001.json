@@ -5,6 +5,37 @@
   },
   "pages": [
     {
+      "name": "Ritratto: Cecilia De Furi",
+      "type": "image",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "_id": "PersCeciliaDeI01",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "media/Characters/p278-0.webp",
+      "system": {},
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
       "name": "Cecilia De Furi",
       "type": "text",
       "title": {
@@ -13,7 +44,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Cecilia fu molte cose: una moglie, una madre, ma soprattutto una De Furi. Come rappresentante di una delle famiglie attualmente più influenti di Buchebuie, il suo destino sarebbe stato quello di sposare un altro rappresentante di un'altra famiglia notabile, e assicurare così una discendenza e dei nuovi profittevoli legami.</p>\n<p>Capitò che Galeazzo De Furi, zio di Cecilia, vedendo un'opportunità nell'ascesa dell'ambizioso Ermello, gli promettesse in sposa la nipote. Ermello e Cecilia si amarono profondamente, ed ebbero un solo figlio: Lodovico.</p>\n<p>Oggi Cecilia si trova con suo figlio Lodovico e il fido guardiano Baudolino nascosta nelle profondità della Fossa, data per morta ai tempi della riconquista di Tanafonda.</p>\n<p>Man mano che passano gli anni le capita sempre più spesso di perdersi nei ricordi, estraniandosi da quel che le succede attorno.</p>\n<p><strong>Legame:</strong> <em>Difendo il mio piccolo Lodovico dalle minacce.</em></p>\n<p><strong>Ideale:</strong> <em>Vorrei avere di nuovo un luogo da chiamare casa.</em></p>\n<p><strong>Difetto:</strong> <em>Devo evitare il conflitto, che farà spargere altro sangue della mia famiglia.</em></p>\n<p><strong>Rango:</strong> 1</p>\n<h2>CECILIA</h2>\n<p><em>Umanoide Medio (mustacea martora)</em></p>\n<p><strong>Classe Armatura</strong> 11</p>\n<p><strong>Punti Ferita</strong> 18 (4d8)</p>\n<p><strong>Velocità</strong> 9m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>12 (+1)</td><td>12 (+1)</td><td>10 (+0)</td><td>16 (+3)</td><td>14 (+2)</td><td>14 (+2)</td></tr></tbody></table>\n<p><strong>Abilità</strong> Intuizione +4, Persuasione +4, Storia +5</p>\n<p><strong>Resistenze ai Danni</strong> veleno</p>\n<p><strong>Sensi</strong> Percezione passiva 15, scurovisione 18m</p>\n<p><strong>Sfida</strong> 1 (200 PE)</p>\n<p><em><strong>Affinità agli Odori.</strong></em> Cecilia ha vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto e può rilasciare un odore riconoscibile da chi abbia la stessa affinità.</p>\n<p><em><strong>Tenacia Implacabile (ricarica 6).</strong></em> Quando Cecilia scende a 0 punti ferita, rimane invece a 1 punto ferita.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +3 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 3 (1d4+1) danni taglienti.</p>\n<h3>Azioni Bonus</h3>\n<p><em><strong>Diavolo nei Dettagli.</strong></em> Cecilia sa analizzare rapidamente le persone di fronte a sé. È in grado di stimare immediatamente grado sociale e un tratto della personalità di un bersaglio a meno che il bersaglio non effettui un tiro salvezza su Carisma a CD 14 o abbia precedentemente effettuato una prova di Carisma (Inganno) superiore al punteggio di Carisma di Cecilia.</p>"
+        "content": "<p>Cecilia fu molte cose: una moglie, una madre, ma soprattutto una De Furi. Come rappresentante di una delle famiglie attualmente più influenti di Buchebuie, il suo destino sarebbe stato quello di sposare un altro rappresentante di un'altra famiglia notabile, e assicurare così una discendenza e dei nuovi profittevoli legami.</p>\n<p>Capitò che Galeazzo De Furi, zio di Cecilia, vedendo un'opportunità nell'ascesa dell'ambizioso Ermello, gli promettesse in sposa la nipote. Ermello e Cecilia si amarono profondamente, ed ebbero un solo figlio: Lodovico.</p>\n<p>Oggi Cecilia si trova con suo figlio Lodovico e il fido guardiano Baudolino nascosta nelle profondità della Fossa, data per morta ai tempi della riconquista di Tanafonda.</p>\n<p>Man mano che passano gli anni le capita sempre più spesso di perdersi nei ricordi, estraniandosi da quel che le succede attorno.</p>\n<p><strong>Legame:</strong> <em>Difendo il mio piccolo Lodovico dalle minacce.</em></p>\n<p><strong>Ideale:</strong> <em>Vorrei avere di nuovo un luogo da chiamare casa.</em></p>\n<p><strong>Difetto:</strong> <em>Devo evitare il conflitto, che farà spargere altro sangue della mia famiglia.</em></p>\n<p><strong>Rango:</strong> 1</p>\n<p>@UUID[Compendium.historia-it.actors-it.Actor.AttrCeciliaDe001]{Attore: Cecilia De Furi}</p>\n<h2>CECILIA</h2>\n<p><em>Umanoide Medio (mustacea martora)</em></p>\n<p><strong>Classe Armatura</strong> 11</p>\n<p><strong>Punti Ferita</strong> 18 (4d8)</p>\n<p><strong>Velocità</strong> 9m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>12 (+1)</td><td>12 (+1)</td><td>10 (+0)</td><td>16 (+3)</td><td>14 (+2)</td><td>14 (+2)</td></tr></tbody></table>\n<p><strong>Abilità</strong> Intuizione +4, Persuasione +4, Storia +5</p>\n<p><strong>Resistenze ai Danni</strong> veleno</p>\n<p><strong>Sensi</strong> Percezione passiva 15, scurovisione 18m</p>\n<p><strong>Sfida</strong> 1 (200 PE)</p>\n<p><em><strong>Affinità agli Odori.</strong></em> Cecilia ha vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto e può rilasciare un odore riconoscibile da chi abbia la stessa affinità.</p>\n<p><em><strong>Tenacia Implacabile (ricarica 6).</strong></em> Quando Cecilia scende a 0 punti ferita, rimane invece a 1 punto ferita.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +3 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 3 (1d4+1) danni taglienti.</p>\n<h3>Azioni Bonus</h3>\n<p><em><strong>Diavolo nei Dettagli.</strong></em> Cecilia sa analizzare rapidamente le persone di fronte a sé. È in grado di stimare immediatamente grado sociale e un tratto della personalità di un bersaglio a meno che il bersaglio non effettui un tiro salvezza su Carisma a CD 14 o abbia precedentemente effettuato una prova di Carisma (Inganno) superiore al punteggio di Carisma di Cecilia.</p>"
       },
       "_id": "PersCeciliaDeP01",
       "image": {},
@@ -23,7 +54,7 @@
       },
       "src": null,
       "system": {},
-      "sort": 0,
+      "sort": 100000,
       "flags": {},
       "_stats": {
         "coreVersion": "13.350",

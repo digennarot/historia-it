@@ -35,6 +35,7 @@ const LABEL_TRANSLATIONS = {
     "spells": "Incantesimi",
     "rules": "Regole",
     "characters": "Personaggi di Historia",
+    "actors": "Attori di Historia",
     "historia-factions": "Fazioni (Historia)",
     "items-historia": "Oggetti (Historia)",
     "spells-historia": "Incantesimi (Historia)"
@@ -231,7 +232,7 @@ async function main() {
         // Peek at the first non-folder file to determine type
         const firstFile = entryFiles.find(f => !f.startsWith("folder-")) ?? entryFiles[0];
         const firstEntry = await readJson(path.join(sourceDir, firstFile));
-        const pack_type = firstEntry.pages ? "JournalEntry" : "Item"; // Simple detection based on content
+        const pack_type = firstEntry.pages ? "JournalEntry" : firstEntry.prototypeToken ? "Actor" : "Item"; // Simple detection based on content
         const collection = TYPE_TO_COLLECTION[pack_type] || "items";
 
         const tempSrcDir = path.join("temp_packs", pack_name);
@@ -286,7 +287,7 @@ async function main() {
     const PACK_GROUPS = [
         { name: "Regole", color: "#8d6e63", packs: ["rules"] },
         { name: "Personaggio", color: "#2e7d32", packs: ["species", "species-features", "ventures", "professions", "profession-features"] },
-        { name: "Mondo", color: "#1565c0", packs: ["factions", "factions-and-careers", "characters"] },
+        { name: "Mondo", color: "#1565c0", packs: ["factions", "factions-and-careers", "characters", "actors"] },
         { name: "Equipaggiamento e Magia", color: "#6a1b9a", packs: ["items", "spells"] }
     ];
     const PACK_NAME = n => packs.find(p => p.name === n || p.name === `${n}-it`)?.name;

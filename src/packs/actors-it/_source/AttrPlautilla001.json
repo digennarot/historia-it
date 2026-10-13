@@ -1,0 +1,4244 @@
+{
+  "_id": "AttrPlautilla001",
+  "name": "Plautilla",
+  "type": "npc",
+  "img": "media/Characters/p285-0.webp",
+  "system": {
+    "identifier": "plautilla",
+    "abilities": {
+      "str": {
+        "value": 9,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": "1"
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": "1"
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 11,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 49,
+        "max": 49,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "11d8"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "0",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "units": "m",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 9,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      },
+      "spellcasting": "wis",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "hd": {
+        "spent": 0
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Ogni villaggio ha il suo pazzo inoffensivo o il suo eccentrico locale, ma nessun genitore vorrebbe mai che questo ruolo ricadesse sulla propria figlia. Plautilla venne al mondo in una famiglia di poveri contadini del Ducato di Vesterre. Sin dalla primissima infanzia fu evidente la sua stranezza, e non appena imparò a parlare usò questa nuova capacità di favella per rispondere alle voci che solo lei poteva sentire. Quando scomparve nel nulla per poi ricomparire un anno dopo trascinando dietro di sé un osso mastodontico e probabilmente più che millenario, la Chiesa delle Ossa non tardò a discendere su di lei come uno sparviero: venne portata a Nochemburgo e trattata come una profetessa, anche se il Costolare che la accompagnò fino alla capitale scrisse di lei: \"Non oso dubitare della sanctità de le visioni di costei, ma ella è semplice di mente, e Nocchemburgo le sarà perigliosa\".</p>\n<p><strong>Rango:</strong> 2</p>\n<p>@UUID[Compendium.historia-it.characters-it.JournalEntry.PersPlautilla001]{Plautilla}</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "canide levro",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 7,
+      "spellLevel": 6,
+      "ideal": "Le voci mi parlano e mi dicono di unire le genti sotto un'unica fede per un mondo migliore.",
+      "bond": "Le voci mi parlano e mi dicono che se c'è un mistero, esso può sempre essere svelato.",
+      "flaw": "Le voci mi parlano."
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "1",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "1",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "1",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "1",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "1",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": "1"
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "tools": {},
+    "source": {
+      "custom": "",
+      "book": "Historia Manuale Base",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Plautilla",
+    "displayName": 30,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "media/Characters/p285-0.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 9,
+      "brightness": 1,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "appendNumber": false,
+    "prependAdjective": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "depth": 1
+  },
+  "effects": [],
+  "folder": "FoldEroiAttori00",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "lastModifiedBy": null,
+    "createdTime": 1791900000000,
+    "modifiedTime": 1791900000000,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "items": [
+    {
+      "_id": "EnKnRTHRxWu6lNJV",
+      "name": "Incantesimi",
+      "type": "feat",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "system": {
+        "description": {
+          "value": "<p>Plautilla è un'incantatrice di 6° livello. La sua caratteristica da incantatrice è Saggezza (tiro salvezza degli incantesimi CD 16, +8 al tiro per colpire degli attacchi con incantesimo) e aggiunge il modificatore di Saggezza al danno di tutti i suoi trucchetti. Di solito ha preparati i seguenti incantesimi:<br />Trucchetti (a volontà): <em>fiamma sacra, guida, luce</em><br />Incantesimi preparati (3 slot di 3° livello): <em>anti-individuazione, arma spirituale, benedizione, camminare sull'acqua, cura ferite, faro di speranza, ristorare inferiore, scagliare maledizione, silenzio</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "identifier": "incantesimi"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "soZ1CHHWKJs3kT1C",
+      "name": "Fiamma Sacra",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Trucchetto di Invocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,137,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,111,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[112,137,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[113,127,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[138,254,0,0]}\">Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[256,425,0,0]}\">Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[427,561,0,0]}\">I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "radiant"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "sacred-flame"
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "icons/magic/light/beam-strike-village-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "sVRJGnmK8bzCMhak",
+      "name": "Guida",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>L'incantatore tocca una creatura consenziente. Una volta prima che l'incantesimo termini il bersaglio può tirare un d4 e aggiungere il risultato a una prova di caratteristica a sua scelta. Può tirare il dado prima o dopo avere effettuato la prova di caratteristica. Dopodiché l'incantesimo termina.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "div",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "KsQdGorCuwDjaUGF",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "guidance"
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
+      "effects": [
+        {
+          "name": "Guidance",
+          "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
+          "origin": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
+          "transfer": false,
+          "_id": "KsQdGorCuwDjaUGF",
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": 60,
+            "units": "seconds",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one ability check of your choice. You can roll the die before or after making the ability check. The spell then ends.</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.367",
+            "systemId": "dnd5e",
+            "systemVersion": "5.3.0",
+            "createdTime": 1772660540103,
+            "modifiedTime": 1772660584253,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!items.effects!P7mF2MxSuVJwHRRY.KsQdGorCuwDjaUGF"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "M4Qggvkhd421cviW",
+      "name": "Luce",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Trucchetto di Invocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,63,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[65,90,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[65,90,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[67,82,3,3]}\">Gittata:&nbsp;</strong>Contatto</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[92,159,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[92,159,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[94,112,3,3]}\">Componenti:&nbsp;</strong>V, M (una lucciola o del muschio fosforescente)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[161,182,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[161,182,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[163,177,3,3]}\">Durata:&nbsp;</strong>1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[183,259,0,0]}\">L'incantatore tocca un oggetto non più grande di 3 metri in ogni dimensione.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[261,385,0,0]}\">Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[387,445,0,0]}\">La luce può essere del colore desiderato dall'incantatore.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[447,516,0,0]}\">Coprire completamente l'oggetto con qualcosa di opaco blocca la luce.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[518,606,0,0]}\">L'incantesimo termina se l'incantatore lo lancia di nuovo o lo interrompe con un'azione.</p>\n<p>Se l'incantatore bersaglia un oggetto impugnato o posseduto da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "type": "object",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "una lucciola o del muschio fosforescente",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "material"
+        ],
+        "activities": {
+          "A0r24ncbAuYRHrRX": {
+            "type": "save",
+            "name": "Avoid Light Save",
+            "_id": "A0r24ncbAuYRHrRX",
+            "img": "",
+            "sort": 200000,
+            "activation": {
+              "type": "special",
+              "override": true,
+              "condition": "When you target an object held or worn by a hostile creature."
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "stationary": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            }
+          },
+          "x3oDVP0hPkb9fAa1": {
+            "type": "utility",
+            "name": "Cast",
+            "_id": "x3oDVP0hPkb9fAa1",
+            "img": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "stationary": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        },
+        "identifier": "light"
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "5xXE0vT9GarLmIzW",
+      "name": "Anti-Individuazione",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>Per la durata dell'incantesimo, l'incantatore nasconde un bersaglio da lui toccato dalle magie di divinazione. Il bersaglio può essere una creatura consenziente o un luogo o un oggetto non più grande di 3 metri in ogni dimensione. Il bersaglio non può essere bersagliato da alcuna magia di divinazione né percepito dai sensori di scrutamento magico.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "abj",
+        "materials": {
+          "value": "un pizzico di polvere di diamante da spruzzare sul bersaglio del valore di 25 mo, che l'incantatore consuma",
+          "consumed": true,
+          "cost": 25,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "activities": {
+          "2NuVawqLGZyCNlFT": {
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "",
+              "value": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "VcHisfZtWwBeEBCP",
+                "level": {}
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "stationary": false
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 100000,
+            "name": "Cast",
+            "img": "",
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "_id": "2NuVawqLGZyCNlFT"
+          }
+        },
+        "identifier": "nondetection"
+      },
+      "sort": 500000,
+      "flags": {},
+      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+      "effects": [
+        {
+          "name": "Nondetection",
+          "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+          "origin": "Compendium.dnd5e.spells.Item.aU62xVUBYkAQWIHv",
+          "transfer": false,
+          "_id": "VcHisfZtWwBeEBCP",
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "start": null,
+          "duration": {
+            "value": 8,
+            "units": "hours",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "description": "<p>For the Duration, you are hidden from Divination magic. You can't be targeted by any divination magic or perceived through magical @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{scrying} sensors.</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1781356910548,
+            "modifiedTime": 1783217155373,
+            "lastModifiedBy": "dnd5ebuilder0000",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!items.effects!aU62xVUBYkAQWIHv.VcHisfZtWwBeEBCP"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.aU62xVUBYkAQWIHv",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "d9eQXMsTUdl1H6Kn",
+      "name": "Arma Spirituale",
+      "type": "spell",
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>L'incantatore crea entro gittata un'arma fluttuante spettrale che permane per la durata dell'incantesimo o finché l'incantatore non.lancia di nuovo questo incantesimo. Quando lancia questo incantesimo, l'incantatore può effettuare un attacco in mischia con questo incantesimo contro una creatura entro 1,5 metri dall'arma. Se colpisce, il bersaglio subisce 1d8 danni da forza+ il modificatore di caratteristica da incantatore.</p><p>Con un'azione bonus nel suo turno, l'incantatore può muovere l'arma di un massimo di 6 metri e ripetere l'attacco contro una creatura situata entro 1,5 metri da essa. L'arma può assumere la forma che l'incantatore preferisce. I chierici di una divinità associata a un tipo particolare di arma (come per esempio St Cuthbert, noto per la sua mazza, o Thor per il suo martello} impartiranno all'arma creata da questo incantesimo la forma di tale arma.</p><p><strong> Ai Livelll Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o Superiore, i danni aumentano di ld8 per ogni due slot incantesimo superiori al 2•.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "bonus",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "template": {
+            "units": "ft",
+            "type": "square",
+            "size": "5",
+            "contiguous": false,
+            "count": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 2,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "vdlxZxKmIlZiZ2Ij": {
+            "type": "summon",
+            "name": "Conjure Spiritual Weapon",
+            "_id": "vdlxZxKmIlZiZ2Ij",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "value": "",
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "stationary": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "bonuses": {
+              "ac": "",
+              "hd": "",
+              "hp": "",
+              "attackDamage": "(@item.level - 2)d8",
+              "saveDamage": "",
+              "healing": ""
+            },
+            "creatureSizes": [],
+            "creatureTypes": [],
+            "match": {
+              "attacks": true,
+              "disposition": false,
+              "proficiency": true,
+              "saves": false,
+              "ability": ""
+            },
+            "profiles": [
+              {
+                "count": "",
+                "name": "",
+                "_id": "PF2nMpKVeCspeYH5",
+                "uuid": "Compendium.dnd5e.monsters.Actor.phbsplSpiritualW",
+                "level": {
+                  "min": null,
+                  "max": null
+                },
+                "types": []
+              }
+            ],
+            "summon": {
+              "prompt": true,
+              "mode": ""
+            },
+            "tempHP": ""
+          },
+          "edJeSEGfYmZKzrPa": {
+            "type": "utility",
+            "name": "Move & Command Spiritual Weapon",
+            "_id": "edJeSEGfYmZKzrPa",
+            "img": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": false,
+              "targets": []
+            },
+            "description": {
+              "value": "",
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": true
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "ft",
+              "override": true,
+              "special": "",
+              "value": "20"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "stationary": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": true,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        },
+        "identifier": "spiritual-weapon"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "iaTGpvIADGxwHzdu",
+      "name": "Benedizione",
+      "type": "spell",
+      "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>L'incantatore benedice fino a tre creature a sua scelta entro gittata. Ogni volta che un bersaglio effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini può tirare un d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p><p><strong> Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot superiore al l°.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "@item.level + 2",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "enc",
+        "materials": {
+          "value": "Uno spruzzo di acqua santa",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "8rP3gwmXVTgZqYZE",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "bless"
+      },
+      "effects": [
+        {
+          "_id": "8rP3gwmXVTgZqYZE",
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "disabled": true,
+          "duration": {
+            "value": 60,
+            "units": "seconds",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "origin": "Item.kZZAZ6kp9YzgPQEe",
+          "tint": "#ffffff",
+          "transfer": false,
+          "name": "Bless",
+          "description": "<p>Whenever you make an attack roll or a saving throw before the spell ends, you can roll 1d4 and add the number rolled to the attack roll or saving throw.</p>",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.367",
+            "systemId": "dnd5e",
+            "systemVersion": "5.3.0",
+            "createdTime": null,
+            "modifiedTime": 1772827553614,
+            "lastModifiedBy": "dnd5ebuilder0000",
+            "exportSource": null
+          },
+          "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.bonuses.abilities.save",
+                "value": "1d4",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.bonuses.mwak.attack",
+                "value": "1d4",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.bonuses.msak.attack",
+                "value": "1d4",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.bonuses.rsak.attack",
+                "value": "1d4",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.bonuses.rwak.attack",
+                "value": "1d4",
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "sort": 0,
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!items.effects!8dzaICjGy6mTUaUr.8rP3gwmXVTgZqYZE"
+        }
+      ],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Q1Ur9ywrfwD3qyEZ",
+      "name": "Camminare sull'Acqua",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>Questo incantesimo conferisce la capacit&agrave; di muoversi attraverso superfici liquide (come acqua, acido, fango, neve, sabbie mobili o lava) come se fossero innocuo terreno solido (le creature che attraversano la lava fusa possono comunque subire danni dal calore). Fino a dieci creature consenzienti a gittata, e che puoi vedere, ricevono questa capacit&agrave; per tutta la durata.</p><p>Se il tuo bersaglio &egrave; immerso in un liquido, l&rsquo;incantesimo riporta il bersaglio in superficie del liquido a una velocit&agrave; di 18 metri per round.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "10",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "trs",
+        "materials": {
+          "value": "un pezzo di sughero",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "ritual"
+        ],
+        "activities": {
+          "ZsjhMgT1mBbAi5yN": {
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "",
+              "value": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "2WdkWIsjxEWwsGKf",
+                "level": {}
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "stationary": false
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 100000,
+            "name": "Cast",
+            "img": "",
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "_id": "ZsjhMgT1mBbAi5yN"
+          }
+        },
+        "identifier": "water-walk"
+      },
+      "sort": 800000,
+      "flags": {},
+      "img": "icons/magic/water/waves-water-blue.webp",
+      "effects": [
+        {
+          "name": "Water Walking",
+          "img": "icons/magic/water/waves-water-blue.webp",
+          "origin": "Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS",
+          "transfer": false,
+          "_id": "2WdkWIsjxEWwsGKf",
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "start": null,
+          "duration": {
+            "value": 1,
+            "units": "hours",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "description": "<p>This spell grants you the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (crossing molten lava can still damage you from the heat).</p><p>If you are submerged in a liquid, the spell carries you to the surface of the liquid at a rate of 60 feet per round.</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1781305802686,
+            "modifiedTime": 1781305860873,
+            "lastModifiedBy": "dnd5ebuilder0000",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!items.effects!YBda6nLKjxdT1LbS.2WdkWIsjxEWwsGKf"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "MfY7FBVSQDJga8Jg",
+      "name": "Cura Ferite",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>Una creatura toccata dall'incantatore recupera un numero di punti ferita pari a 1d8 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, la guarigione aumenta di 1d8 per ogni slot di livello superiore al 1°.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "heal",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "healing": {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "@mod",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "cure-wounds"
+      },
+      "sort": 900000,
+      "flags": {},
+      "img": "icons/magic/life/cross-explosion-burst-green.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "5YSqjL2dRfGTgWsN",
+      "name": "Faro di Speranza",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>Questo incantesimo infonde speranza e vitalit&agrave;.</p>\n<p>L'incantatore sceglie un qualsiasi numero di creature entro gittata.</p>\n<p>Per la durata dell'incantesimo, ogni bersaglio dispone di vantaggio ai tiri salvezza su Saggezza e ai tiri salvezza contro morte e recupera il numero massimo di punti ferita possibile da qualsiasi guarigione.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "choice": false,
+            "count": "",
+            "special": ""
+          },
+          "template": {
+            "units": "any",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "activities": {
+          "neGH93QTgzddzbRa": {
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "",
+              "value": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "stationary": false
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 100000,
+            "name": "Cast",
+            "img": "",
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "_id": "neGH93QTgzddzbRa"
+          }
+        },
+        "identifier": "beacon-of-hope"
+      },
+      "sort": 1000000,
+      "flags": {},
+      "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+      "effects": [
+        {
+          "name": "Hopeful",
+          "origin": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+          "_id": "rTmKyD87PuzUBGpJ",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.wis.save.roll.mode",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.attributes.death.roll.mode",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt.ActiveEffect.rTmKyD87PuzUBGpJ",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761859046145,
+            "modifiedTime": 1781359646912,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!items.effects!ZU9d6woBdUP8pIPt.rTmKyD87PuzUBGpJ"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "gwQBiMPAOYzzBfiA",
+      "name": "Ristorare Inferiore",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>L'incantatore tocca una creatura e può porre termine a una malattia o una condizione che lo affligge tra accecato, assordato, avvelenato o paralizzato.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 2,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "lesser-restoration"
+      },
+      "sort": 1100000,
+      "flags": {},
+      "img": "icons/consumables/plants/leaf-hastate-glowing-green.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "CTHahAVOM8UW3maY",
+      "name": "Scagliare Maledizione",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>L'incantatore tocca una creatura che deve superare un tiro salvezza su Saggezza per non essere maledetta per la durata dell'incantesimo.</p>\n<p>Quando l'incantatore lancia questo incantesimo, sceglie la natura della maledizione tra le opzioni seguenti:</p>\n<ul>\n<li>L'incantatore sceglie un punteggio di caratteristica. Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio alle prove di caratteristica e ai tiri salvezza effettuati con quel punteggio di caratteristica.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio ai tiri per colpire contro l'incantatore.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio deve effettuare un tiro salvezza su Saggezza all'inizio di ogni suo turno. Se lo fallisce, spreca la sua azione di quel turno e non fa niente.</li>\n<li>Finch&eacute; il bersaglio &egrave; maledetto, gli attacchi e gli incantesimi dell'incantatore infliggono 1d8 danni necrotici extra al bersaglio.</li>\n</ul>\n<p>Un incantesimo&nbsp;<a title=\"Rimuovi Maledizione\" href=\"https://incantesimibellibelli.fandom.com/it/wiki/Rimuovi_Maledizione\">Rimuovi Maledizione</a>&nbsp;pone fine a questo effetto.</p>\n<p>A discrezione del DM, l'incantatore pu&ograve; scegliere un effetto alternativo per la maledizione, che per&ograve; non dovrebbe risultare pi&ugrave; potente di quelli descritti sopra.</p>\n<p>Il DM ha l'ultima parola su tali effetti della maledizione.</p>\n<p><strong>Ai Livelli Superiori</strong>.&nbsp;Se l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4&deg; livello o superiore, la durata diventa concentrazione, fino a 10 minuti.</p>\n<p>Se usa uno slot incantesimo di 5&deg; livello o superiore, la durata diventa 8 ore.</p>\n<p>Se usa uno slot incantesimo di 7&deg; livello o superiore, la durata &egrave; 24 ore.</p>\n<p>Se usa uno slot incantesimo di 9&deg; livello o superiore, l'incantesimo dura finch&eacute; non viene dissolto.</p>\n<p>L'uso di uno slot incantesimo di 5&deg; livello o superiore conferisce una durata che non richiede concentrazione.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 3,
+        "school": "nec",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "OSGSF1Zm61GXLvrC",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "pgBN0brGeJBSc413",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "RoAMbIx9IUqpNREv",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "KCdm5KtgQkFm9L9b",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "yO17H6NUUH6yTtJj",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "yFn5nMRayDT5pVeT",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "aahOmoNF6ZsMVxUs",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "Ebzd58ARPldBzKci",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              {
+                "_id": "2EP5ujWSLnkP1zV0",
+                "onSave": false,
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": "wis",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              },
+              "bonus": ""
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "bestow-curse"
+      },
+      "sort": 1200000,
+      "flags": {},
+      "img": "icons/magic/unholy/hand-light-pink.webp",
+      "effects": [
+        {
+          "name": "Cursed Charisma",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "systems/dnd5e/icons/svg/abilities/charisma.svg",
+          "_id": "OSGSF1Zm61GXLvrC",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.cha.check.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.abilities.cha.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have Disadvantage on Charisma checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL.ActiveEffect.OSGSF1Zm61GXLvrC",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861699311,
+            "modifiedTime": 1783217402003,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.OSGSF1Zm61GXLvrC"
+        },
+        {
+          "name": "Cursed Constitution",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "systems/dnd5e/icons/svg/abilities/constitution.svg",
+          "_id": "pgBN0brGeJBSc413",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.con.check.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.abilities.con.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have Disadvantage on Constitution checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL.ActiveEffect.pgBN0brGeJBSc413",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861700362,
+            "modifiedTime": 1783217405566,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.pgBN0brGeJBSc413"
+        },
+        {
+          "name": "Cursed Dexterity",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "systems/dnd5e/icons/svg/abilities/dexterity.svg",
+          "_id": "RoAMbIx9IUqpNREv",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.dex.check.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.abilities.dex.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have Disadvantage on Dexterity checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL.ActiveEffect.RoAMbIx9IUqpNREv",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861702288,
+            "modifiedTime": 1783217409287,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.RoAMbIx9IUqpNREv"
+        },
+        {
+          "name": "Cursed Intelligence",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "systems/dnd5e/icons/svg/abilities/intelligence.svg",
+          "_id": "KCdm5KtgQkFm9L9b",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.int.check.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.abilities.int.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have Disadvantage on Intelligence checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL.ActiveEffect.KCdm5KtgQkFm9L9b",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861704580,
+            "modifiedTime": 1783217414140,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.KCdm5KtgQkFm9L9b"
+        },
+        {
+          "name": "Cursed Strength",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "systems/dnd5e/icons/svg/abilities/strength.svg",
+          "_id": "yO17H6NUUH6yTtJj",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.str.check.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.abilities.str.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have Disadvantage on Strength checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL.ActiveEffect.yO17H6NUUH6yTtJj",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861706464,
+            "modifiedTime": 1783217417782,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.yO17H6NUUH6yTtJj"
+        },
+        {
+          "name": "Cursed Wisdom",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "disabled": false,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "img": "systems/dnd5e/icons/svg/abilities/wisdom.svg",
+          "_id": "yFn5nMRayDT5pVeT",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "system.abilities.wis.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "system.abilities.wis.save.roll.mode",
+                "value": -1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "description": "<p>You have Disadvantage on Wisdom checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL.ActiveEffect.yFn5nMRayDT5pVeT",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861707655,
+            "modifiedTime": 1783217421087,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.yFn5nMRayDT5pVeT"
+        },
+        {
+          "name": "Cursed Attacks",
+          "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "transfer": false,
+          "_id": "aahOmoNF6ZsMVxUs",
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "description": "<p>You have Disadvantage on attack rolls against the caster.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Item.aTXZkpQ5Ay6bIxZV.ActiveEffect.u7Yc7mxHYPDvipS1",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861708992,
+            "modifiedTime": 1783217424280,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.aahOmoNF6ZsMVxUs"
+        },
+        {
+          "name": "Cursed Actions",
+          "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "transfer": false,
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnEnd",
+            "expired": false
+          },
+          "description": "<p>In combat, you must succeed on a [[/save wis]] saving throw at the start of each of your turns. On a failure, you waste your action on your turn doing nothing.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Item.aTXZkpQ5Ay6bIxZV.ActiveEffect.T3x6XvQbSkg6kW6u",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861710228,
+            "modifiedTime": 1783217430033,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "_id": "Ebzd58ARPldBzKci",
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.Ebzd58ARPldBzKci"
+        },
+        {
+          "name": "Cursed Resilience",
+          "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+          "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+          "transfer": false,
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": 1,
+            "units": "minutes",
+            "expiry": "turnStart",
+            "expired": false
+          },
+          "description": "<p>When the caster deals damqage to you with an attack or spell, they deal an additional [[/damage 1d8 necrotic]] damage.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "cursed"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": "Item.aTXZkpQ5Ay6bIxZV.ActiveEffect.DRsQi8p3Zvhte2G0",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.361",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.0",
+            "createdTime": 1761861711417,
+            "modifiedTime": 1783217434817,
+            "lastModifiedBy": "dnd5ebuilder0000"
+          },
+          "_id": "2EP5ujWSLnkP1zV0",
+          "showIcon": 2,
+          "start": null,
+          "folder": null,
+          "_key": "!items.effects!pO4zGe5LmFIYqJiL.2EP5ujWSLnkP1zV0"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "tyuVbUENhq3i4C6x",
+      "name": "Silenzio",
+      "ownership": {
+        "default": 0
+      },
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p data-parsoid=\"{&quot;dsr&quot;:[0,37,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,37,2,2]}\">Illusione di 2° livello (rituale)</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[38,167,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[38,70,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[39,62,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[71,95,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[72,87,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[96,119,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[97,115,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[120,167,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[121,135,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[168,277,0,0]}\">L'incantatore genera una sfera del raggio di 6 metri centrata su un punto a sua scelta situato entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[279,386,0,0]}\">Per la durata dell'incantesimo, nessun suono può essere creato all'interno di quella sfera o attraversarla.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[388,539,0,0]}\">Ogni creatura o oggetto interamente all'interno della sfera è immune ai danni da tuono e ogni creatura interamente all'interno della sfera è assordata.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[541,636,0,0]}\">All'interno dell'area è impossibile lanciare un incantesimo che includa una componente verbale.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "template": {
+            "units": "ft",
+            "type": "sphere",
+            "size": "20",
+            "contiguous": false,
+            "count": ""
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 2,
+        "school": "ill",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration",
+          "ritual"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "silence"
+      },
+      "sort": 1300000,
+      "flags": {},
+      "img": "icons/magic/unholy/orb-glowing-purple.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": "Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "yQjrj900P1VkrHKI",
+      "name": "Scintilla Guaritrice",
+      "type": "feat",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "system": {
+        "description": {
+          "value": "<p>Quando Plautilla lancia un trucchetto, una singola creatura entro 3m da Plautilla può spendere un Dado Vita per curarsi come se l'avesse fatto durante un riposo breve.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "identifier": "scintilla-guaritrice"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "pScd1pluqBqyDuXB",
+      "name": "Guaritrice Santa",
+      "type": "feat",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "system": {
+        "description": {
+          "value": "<p>Quando qualcuno recupera punti ferita grazie a Plautilla, recupera 4 punti ferita addizionali. Plautilla ha una riserva di 11 dadi di guarigione, dei d6, che può spendere per il Tocco Guaritore al posto dei Dadi Vita del bersaglio.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "identifier": "guaritrice-santa"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "ETfjGhza1b6SRTAE",
+      "name": "Profetessa dell'Ossarium",
+      "type": "feat",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "system": {
+        "description": {
+          "value": "<p>Plautilla ha un legame speciale con l'Ossarium e le reliquie delle Ossa: quando ne è in prossimità avvengono eventi sovrannaturali inspiegabili.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "identifier": "profetessa-dell-ossarium"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Bai81LSWGWkGcNah",
+      "name": "Bastone",
+      "type": "weapon",
+      "img": "icons/weapons/staves/staff-simple.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attacco con Arma da Mischia:</em> +3 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 3 (1d6-1) danni contundenti.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "kg"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "cover": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": 1.5
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [],
+        "proficient": 1,
+        "unidentified": {
+          "description": ""
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "container": null,
+        "crewed": false,
+        "activities": {
+          "MUW0hNt6mJNQBpqE": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "",
+              "value": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "1.5",
+              "units": "m",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m",
+                "stationary": false
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "none",
+              "bonus": "3",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "-1",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "sort": 100000,
+            "img": "",
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "_id": "MUW0hNt6mJNQBpqE",
+            "name": ""
+          }
+        },
+        "attuned": false,
+        "ammunition": {},
+        "magicalBonus": null,
+        "identifier": "bastone",
+        "mastery": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "LAG9L1HdMjwXwb96",
+      "name": "Tocco Guaritore",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>Plautilla tocca un bersaglio e questo può spendere fino a tre Dadi Vita per curarsi. Il bersaglio può utilizzare i dadi di Guaritrice Santa di Plautilla al posto dei propri Dadi Vita.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {
+          "fyAJzrQHnrTcG9rv": {
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "",
+              "value": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m",
+                "stationary": false
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 100000,
+            "img": "",
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "_id": "fyAJzrQHnrTcG9rv",
+            "name": ""
+          }
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "identifier": "tocco-guaritore"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "dX9Z5n6nMgDXeETB",
+      "name": "Generosità",
+      "type": "feat",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Plautilla può effettuare l'azione di Aiuto come azione bonus.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "Historia Manuale Base",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {
+          "hzL2TDaKaHYQQC4v": {
+            "type": "utility",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "",
+              "value": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m",
+                "stationary": false
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 100000,
+            "img": "",
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "_id": "hzL2TDaKaHYQQC4v",
+            "name": ""
+          }
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null
+        },
+        "identifier": "generosita"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1791900000000,
+        "modifiedTime": 1791900000000,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ]
+}

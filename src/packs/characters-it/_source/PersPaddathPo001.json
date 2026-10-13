@@ -5,6 +5,37 @@
   },
   "pages": [
     {
+      "name": "Ritratto: Paddath, Podestà di Salso Nero",
+      "type": "image",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "_id": "PersPaddathPoI01",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "media/Characters/p283-0.webp",
+      "system": {},
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
       "name": "Paddath, Podestà di Salso Nero",
       "type": "text",
       "title": {
@@ -13,7 +44,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Salso Nero è unica per molti motivi, ed è la sola città di Vesteria a vedere un batrace a guidarla. Paddath si arricchì col commercio degli schiavi, e il carico di carne che la conquista di Tanafonda da parte di Buchebuie gli regalò fu la svolta decisiva nella sua ambiziosa scalata: acquistò a un prezzo stracciato (ma che fece credere al venditore fosse oltraggioso) quasi un terzo della popolazione della città, la maggior parte cuccioli di ogni razza. I piccoli spesso valgono forti somme quando vengono venduti nelle Terre Lontane, e Paddath non si fece scrupoli a riguardo. Tornò a Salso Nero ricco come un re, divenne Podestà e riuscì in seguito a rendere vitalizia la carica convincendo la magus Ni-Shung a lavorare per lui in cambio della Perla Buia di Salso Nero.</p>\n<p><strong>Legame:</strong> <em>Salso Nero è la mia città e rimarrà mia, a ogni costo.</em></p>\n<p><strong>Ideale:</strong> <em>La mia città diverrà la più ricca di tutta Vesteria.</em></p>\n<p><strong>Difetto:</strong> <em>Non mi sbilancio mai. Non apertamente.</em></p>\n<p><strong>Rango:</strong> 3</p>\n<h2>PADDATH</h2>\n<p><em>Umanoide Medio (anuro bufo)</em></p>\n<p><strong>Classe Armatura</strong> 9</p>\n<p><strong>Punti Ferita</strong> 104 (16d8+32)</p>\n<p><strong>Velocità</strong> 6m, nuotare 12 m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>9 (-1)</td><td>8 (-1)</td><td>15 (+2)</td><td>14 (+2)</td><td>16 (+3)</td><td>19 (+4)</td></tr></tbody></table>\n<p><strong>Tiri Salvezza</strong> Int +7, Car +9</p>\n<p><strong>Abilità</strong> Inganno +14, Intuizione +13, Percezione +8, Persuasione +9</p>\n<p><strong>Resistenze ai Danni</strong> veleno</p>\n<p><strong>Sensi</strong> Percezione passiva 18</p>\n<p><strong>Sfida</strong> 14 (11.500 PE)</p>\n<p><em><strong>Ricchezza Spropositata.</strong></em> Paddath ha accesso a tutto ciò che il denaro può comprare.</p>\n<p><em><strong>Ragnatela.</strong></em> Paddath ha accesso a una rete fittissima di conoscenze, alleanze e amicizie. Per qualsiasi compito, sa chi è la persona più qualificata per portarlo a termine.</p>\n<p><em><strong>Servitori Fedeli.</strong></em> Paddath ha una schiera di servitori con le specializzazioni più disparate. Finché è accompagnato dai suoi servitori, ha resistenza a tutti i danni. Tipicamente Paddath viaggia con quattro valide guardie del corpo, ma nel suo palazzo i servitori sono in numero particolarmente ingente.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +4 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 1 (1d4-1) danni perforanti.</p>\n<p><em><strong>Incitare.</strong></em> Paddath incita fino a tre servitori fedeli, consentendo loro di effettuare un attacco in mischia se sono in grado di spendere la loro reazione.</p>\n<h3>Azioni Bonus</h3>\n<p><em><strong>Occhio del Mercante.</strong></em> Paddath può scrutare l'animo di una persona che possa vedere e con cui possa dialogare, che deve effettuare un tiro salvezza su Carisma (CD 16, basata sulla Saggezza di Paddath). In caso di fallimento, Paddath scopre un tratto di personalità e un punto debole del bersaglio, rendendolo inoltre affascinato per 1 minuto. Il bersaglio può ripetere il tiro salvezza alla fine del proprio turno per rimuovere la condizione di affascinato.</p>"
+        "content": "<p>Salso Nero è unica per molti motivi, ed è la sola città di Vesteria a vedere un batrace a guidarla. Paddath si arricchì col commercio degli schiavi, e il carico di carne che la conquista di Tanafonda da parte di Buchebuie gli regalò fu la svolta decisiva nella sua ambiziosa scalata: acquistò a un prezzo stracciato (ma che fece credere al venditore fosse oltraggioso) quasi un terzo della popolazione della città, la maggior parte cuccioli di ogni razza. I piccoli spesso valgono forti somme quando vengono venduti nelle Terre Lontane, e Paddath non si fece scrupoli a riguardo. Tornò a Salso Nero ricco come un re, divenne Podestà e riuscì in seguito a rendere vitalizia la carica convincendo la magus Ni-Shung a lavorare per lui in cambio della Perla Buia di Salso Nero.</p>\n<p><strong>Legame:</strong> <em>Salso Nero è la mia città e rimarrà mia, a ogni costo.</em></p>\n<p><strong>Ideale:</strong> <em>La mia città diverrà la più ricca di tutta Vesteria.</em></p>\n<p><strong>Difetto:</strong> <em>Non mi sbilancio mai. Non apertamente.</em></p>\n<p><strong>Rango:</strong> 3</p>\n<p>@UUID[Compendium.historia-it.actors-it.Actor.AttrPaddathPo001]{Attore: Paddath, Podestà di Salso Nero}</p>\n<h2>PADDATH</h2>\n<p><em>Umanoide Medio (anuro bufo)</em></p>\n<p><strong>Classe Armatura</strong> 9</p>\n<p><strong>Punti Ferita</strong> 104 (16d8+32)</p>\n<p><strong>Velocità</strong> 6m, nuotare 12 m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>9 (-1)</td><td>8 (-1)</td><td>15 (+2)</td><td>14 (+2)</td><td>16 (+3)</td><td>19 (+4)</td></tr></tbody></table>\n<p><strong>Tiri Salvezza</strong> Int +7, Car +9</p>\n<p><strong>Abilità</strong> Inganno +14, Intuizione +13, Percezione +8, Persuasione +9</p>\n<p><strong>Resistenze ai Danni</strong> veleno</p>\n<p><strong>Sensi</strong> Percezione passiva 18</p>\n<p><strong>Sfida</strong> 14 (11.500 PE)</p>\n<p><em><strong>Ricchezza Spropositata.</strong></em> Paddath ha accesso a tutto ciò che il denaro può comprare.</p>\n<p><em><strong>Ragnatela.</strong></em> Paddath ha accesso a una rete fittissima di conoscenze, alleanze e amicizie. Per qualsiasi compito, sa chi è la persona più qualificata per portarlo a termine.</p>\n<p><em><strong>Servitori Fedeli.</strong></em> Paddath ha una schiera di servitori con le specializzazioni più disparate. Finché è accompagnato dai suoi servitori, ha resistenza a tutti i danni. Tipicamente Paddath viaggia con quattro valide guardie del corpo, ma nel suo palazzo i servitori sono in numero particolarmente ingente.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +4 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 1 (1d4-1) danni perforanti.</p>\n<p><em><strong>Incitare.</strong></em> Paddath incita fino a tre servitori fedeli, consentendo loro di effettuare un attacco in mischia se sono in grado di spendere la loro reazione.</p>\n<h3>Azioni Bonus</h3>\n<p><em><strong>Occhio del Mercante.</strong></em> Paddath può scrutare l'animo di una persona che possa vedere e con cui possa dialogare, che deve effettuare un tiro salvezza su Carisma (CD 16, basata sulla Saggezza di Paddath). In caso di fallimento, Paddath scopre un tratto di personalità e un punto debole del bersaglio, rendendolo inoltre affascinato per 1 minuto. Il bersaglio può ripetere il tiro salvezza alla fine del proprio turno per rimuovere la condizione di affascinato.</p>"
       },
       "_id": "PersPaddathPoP01",
       "image": {},
@@ -23,7 +54,7 @@
       },
       "src": null,
       "system": {},
-      "sort": 0,
+      "sort": 100000,
       "flags": {},
       "_stats": {
         "coreVersion": "13.350",

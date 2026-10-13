@@ -231,7 +231,7 @@ async function main() {
         if (entryFiles.length === 0) continue;
 
         const firstEntry = await readJson(path.join(sourceDir, entryFiles[0]));
-        const pack_type = firstEntry.pages ? "JournalEntry" : "Item";
+        const pack_type = firstEntry.pages ? "JournalEntry" : firstEntry.prototypeToken ? "Actor" : "Item";
         const collection = TYPE_TO_COLLECTION[pack_type] || "items";
 
         const tempSrcDir = path.join("temp_packs_en", pack_name);

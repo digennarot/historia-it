@@ -5,6 +5,37 @@
   },
   "pages": [
     {
+      "name": "Ritratto: Prudenzio",
+      "type": "image",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "_id": "PersPrudenzioI01",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "media/Characters/p314-0.webp",
+      "system": {},
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
       "name": "Prudenzio",
       "type": "text",
       "title": {
@@ -13,7 +44,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Quando Hermann Von Rott occupò Forte Lacustre, la Duchessa Siglinda Blaugarten gli fece giurare che non ci sarebbe dovuta essere alcuna rappresaglia contro la popolazione civile. Von Rott onorò la promessa, tanto da chiedere a Mastro Prudenzio, vecchissimo alchimista al servizio della Duchessa, non solo di restare, ma di diventare il precettore di sua figlia Elaine. Prudenzio, ben conscio di quanto difficile sarebbe stato ritagliarsi una nuova posizione di privilegio dopo essere stato per tanti anni nell'entourage di una traditrice, accettò di buon grado. La giovane rampolla si rivelò di mente sveglia, ma più interessata alla letteratura che all'alchimia, cosa che non sorprese Prudenzio: difficilmente una fanciulla cresciuta a pane e amor cortese si appassionerà alle finezze della dottrina del filosofo e al suo studio della materia inerte. Di questi affari e di molte altre questioni, Prudenzio discorre via lettera col suo più vecchio amico e conterraneo Homar, il banchiere del Custode delle Ossa, che da Nochemburgo tiene in piedi il colosso della Chiesa un prestito alla volta. Le testuggini vengono spesso prese per lente di comprendonio perché lente in tutto il resto, e i due si trovano sovente a scherzare su questo pregiudizio delle genti di Vesteria: Homar sa che Prudenzio è sopravvissuto alla più sanguinosa guerra civile armato solo del proprio acume, e Prudenzio sa che Homar ha saputo tener testa a Femore III in persona, guadagnandosi una posizione di prestigio così invidiabile da essersi costruito al contempo la più formidabile delle armature e una schiera di aspiranti carnefici. A volte Prudenzio ha il sospetto che Homar possa riferire parte delle loro conversazioni al suo illustre patrono, ma questo non fa che stuzzicarlo ulteriormente nella loro eterna tenzone verbale.</p>\n<p><strong>Legame:</strong> <em>La mia vita è come i miei studi: metodica, ordinata e ponderata.</em></p>\n<p><strong>Ideale:</strong> <em>Desidero solo avere il tempo di pensare ai miei studi.</em></p>\n<p><strong>Difetto:</strong> <em>Desidero così tanto conversare con un acume adeguato che quando succede mi si scioglie troppo la lingua.</em></p>\n<p><strong>Rango:</strong> 2</p>\n<h2>PRUDENZIO</h2>\n<p><em>Umanoide Medio (chelone testuggine)</em></p>\n<p><strong>Classe Armatura</strong> 17 (armatura naturale)</p>\n<p><strong>Punti Ferita</strong> 68 (8d6+40)</p>\n<p><strong>Velocità</strong> 6m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>10 (+0)</td><td>8 (-1)</td><td>20 (+5)</td><td>19 (+4)</td><td>14 (+2)</td><td>13 (+1)</td></tr></tbody></table>\n<p><strong>Tiri Salvezza</strong> Cos +8, Int +7</p>\n<p><strong>Abilità</strong> Arcano +10, Medicina +5, Natura +7</p>\n<p><strong>Sensi</strong> Percezione passiva 12</p>\n<p><strong>Sfida</strong> 5 (1.800 PE)</p>\n<p><em><strong>Pratiche Alchemiche.</strong></em> Prudenzio è in grado di effettuare pratiche alchemiche di nigredo (1 atto) e albedo (2 atti) a volontà, e può effettuare due pratiche di citrinitas (3 atti) tra un riposo e l'altro. La CD dei tiri salvezza è 15.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +3 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 2 (1d4) danni perforanti.</p>\n<p><em><strong>Calcinatio.</strong></em> Aumenta di 3 la CA di un bersaglio entro 9m. <em>Albedo:</em> il bersaglio guadagna 10 punti ferita temporanei. <em>Citrinitas:</em> conferisce anche resistenza ai danni contundenti, perforanti e taglienti.</p>\n<p><em><strong>Putrefatio. Attacco con Incantesimo a Distanza:</strong></em> +7 al tiro per colpire, gittata Corta, un bersaglio. <em>Colpito:</em> 10 (3d6) danni da veleno. <em>Albedo:</em> i danni salgono a 17 (5d6) e il bersaglio è avvelenato fino alla fine del suo prossimo turno. <em>Citrinitas:</em> i danni salgono a 28 (8d6) e, se il bersaglio subisce un livello di indebolimento mentre è avvelenato, ne subisce uno in più.</p>\n<p><em><strong>Distillatio.</strong></em> Un bersaglio entro 1,5m può spendere un dado vita per recuperare 9 (2d8) punti ferita. <em>Albedo:</em> la cura sale a 18 (4d8) e rimuove la condizione avvelenato. <em>Citrinitas:</em> la cura sale a 27 (6d8) e rimuove tutte le malattie e le condizioni avvelenato, maledetto o pietrificato.</p>\n<p><em><strong>Sublimatio.</strong></em> Crea una cortina di oscurità con 3m di raggio entro 9m. <em>Albedo:</em> Prudenzio vede normalmente all'interno della cortina, oppure non crea la cortina di oscurità, ma replica gli effetti di un'altra pratica da un singolo atto su 4 bersagli diversi. <em>Citrinitas:</em> tutte le creature nell'area devono effettuare un tiro salvezza su Forza per non cadere a terra prone.</p>"
+        "content": "<p>Quando Hermann Von Rott occupò Forte Lacustre, la Duchessa Siglinda Blaugarten gli fece giurare che non ci sarebbe dovuta essere alcuna rappresaglia contro la popolazione civile. Von Rott onorò la promessa, tanto da chiedere a Mastro Prudenzio, vecchissimo alchimista al servizio della Duchessa, non solo di restare, ma di diventare il precettore di sua figlia Elaine. Prudenzio, ben conscio di quanto difficile sarebbe stato ritagliarsi una nuova posizione di privilegio dopo essere stato per tanti anni nell'entourage di una traditrice, accettò di buon grado. La giovane rampolla si rivelò di mente sveglia, ma più interessata alla letteratura che all'alchimia, cosa che non sorprese Prudenzio: difficilmente una fanciulla cresciuta a pane e amor cortese si appassionerà alle finezze della dottrina del filosofo e al suo studio della materia inerte. Di questi affari e di molte altre questioni, Prudenzio discorre via lettera col suo più vecchio amico e conterraneo Homar, il banchiere del Custode delle Ossa, che da Nochemburgo tiene in piedi il colosso della Chiesa un prestito alla volta. Le testuggini vengono spesso prese per lente di comprendonio perché lente in tutto il resto, e i due si trovano sovente a scherzare su questo pregiudizio delle genti di Vesteria: Homar sa che Prudenzio è sopravvissuto alla più sanguinosa guerra civile armato solo del proprio acume, e Prudenzio sa che Homar ha saputo tener testa a Femore III in persona, guadagnandosi una posizione di prestigio così invidiabile da essersi costruito al contempo la più formidabile delle armature e una schiera di aspiranti carnefici. A volte Prudenzio ha il sospetto che Homar possa riferire parte delle loro conversazioni al suo illustre patrono, ma questo non fa che stuzzicarlo ulteriormente nella loro eterna tenzone verbale.</p>\n<p><strong>Legame:</strong> <em>La mia vita è come i miei studi: metodica, ordinata e ponderata.</em></p>\n<p><strong>Ideale:</strong> <em>Desidero solo avere il tempo di pensare ai miei studi.</em></p>\n<p><strong>Difetto:</strong> <em>Desidero così tanto conversare con un acume adeguato che quando succede mi si scioglie troppo la lingua.</em></p>\n<p><strong>Rango:</strong> 2</p>\n<p>@UUID[Compendium.historia-it.actors-it.Actor.AttrPrudenzio001]{Attore: Prudenzio}</p>\n<h2>PRUDENZIO</h2>\n<p><em>Umanoide Medio (chelone testuggine)</em></p>\n<p><strong>Classe Armatura</strong> 17 (armatura naturale)</p>\n<p><strong>Punti Ferita</strong> 68 (8d6+40)</p>\n<p><strong>Velocità</strong> 6m</p>\n<table><thead><tr><th>FOR</th><th>DES</th><th>COS</th><th>INT</th><th>SAG</th><th>CAR</th></tr></thead><tbody><tr><td>10 (+0)</td><td>8 (-1)</td><td>20 (+5)</td><td>19 (+4)</td><td>14 (+2)</td><td>13 (+1)</td></tr></tbody></table>\n<p><strong>Tiri Salvezza</strong> Cos +8, Int +7</p>\n<p><strong>Abilità</strong> Arcano +10, Medicina +5, Natura +7</p>\n<p><strong>Sensi</strong> Percezione passiva 12</p>\n<p><strong>Sfida</strong> 5 (1.800 PE)</p>\n<p><em><strong>Pratiche Alchemiche.</strong></em> Prudenzio è in grado di effettuare pratiche alchemiche di nigredo (1 atto) e albedo (2 atti) a volontà, e può effettuare due pratiche di citrinitas (3 atti) tra un riposo e l'altro. La CD dei tiri salvezza è 15.</p>\n<h3>Azioni</h3>\n<p><em><strong>Pugnale. Attacco con Arma da Mischia:</strong></em> +3 al tiro per colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 2 (1d4) danni perforanti.</p>\n<p><em><strong>Calcinatio.</strong></em> Aumenta di 3 la CA di un bersaglio entro 9m. <em>Albedo:</em> il bersaglio guadagna 10 punti ferita temporanei. <em>Citrinitas:</em> conferisce anche resistenza ai danni contundenti, perforanti e taglienti.</p>\n<p><em><strong>Putrefatio. Attacco con Incantesimo a Distanza:</strong></em> +7 al tiro per colpire, gittata Corta, un bersaglio. <em>Colpito:</em> 10 (3d6) danni da veleno. <em>Albedo:</em> i danni salgono a 17 (5d6) e il bersaglio è avvelenato fino alla fine del suo prossimo turno. <em>Citrinitas:</em> i danni salgono a 28 (8d6) e, se il bersaglio subisce un livello di indebolimento mentre è avvelenato, ne subisce uno in più.</p>\n<p><em><strong>Distillatio.</strong></em> Un bersaglio entro 1,5m può spendere un dado vita per recuperare 9 (2d8) punti ferita. <em>Albedo:</em> la cura sale a 18 (4d8) e rimuove la condizione avvelenato. <em>Citrinitas:</em> la cura sale a 27 (6d8) e rimuove tutte le malattie e le condizioni avvelenato, maledetto o pietrificato.</p>\n<p><em><strong>Sublimatio.</strong></em> Crea una cortina di oscurità con 3m di raggio entro 9m. <em>Albedo:</em> Prudenzio vede normalmente all'interno della cortina, oppure non crea la cortina di oscurità, ma replica gli effetti di un'altra pratica da un singolo atto su 4 bersagli diversi. <em>Citrinitas:</em> tutte le creature nell'area devono effettuare un tiro salvezza su Forza per non cadere a terra prone.</p>"
       },
       "_id": "PersPrudenzioP01",
       "image": {},
@@ -23,7 +54,7 @@
       },
       "src": null,
       "system": {},
-      "sort": 0,
+      "sort": 100000,
       "flags": {},
       "_stats": {
         "coreVersion": "13.350",

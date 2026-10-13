@@ -7,6 +7,26 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Added
+- **Ritratti dei Personaggi di Historia**: 44 personaggi del cap. 10 hanno
+  ora il ritratto del manuale come prima pagina del diario (Paddath e
+  Ni-Shung condividono l'illustrazione doppia). Adelaide da Rossariva e
+  Agata Galerici restano senza ritratto.
+- **Nuovo compendio "Attori di Historia"** (gruppo Mondo): i 46 personaggi
+  del cap. 10 (21 Eroi + 25 PNG) come attori PNG dnd5e pronti all'uso, con
+  caratteristiche, CA, PF, velocità, sensi, tiri salvezza, abilità e Sfida
+  del manuale; tratti, azioni, azioni bonus e reazioni come oggetti (attacchi
+  con tiro per colpire e danni del manuale, usi giornalieri e ricariche);
+  incantatori con caratteristica, livello, CD e incantesimi delle liste del
+  manuale (dal compendio dnd5e con nomi e testi italiani, più "Sangue
+  Brillante del Martire" di Historia). Ritratto come immagine e token;
+  biografia con Legame/Ideale/Difetto/Rango e collegamento al diario, e ogni
+  diario rimanda al proprio attore.
+
+### Fixed
+- Diario di Sigfrido: ripristinato l'a capo prima degli incantesimi di
+  5° livello.
+
 ## [1.0.34] - 2026-10-13
 
 ### Added
