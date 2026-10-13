@@ -1,0 +1,54 @@
+{
+  "name": "Dotazione da Sacerdote",
+  "type": "loot",
+  "img": "icons/containers/bags/sack-simple-green.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Comprende:</p><ul><li>uno zaino</li><li>una coperta</li><li>10 candele</li><li>un acciarino e pietra focaia</li><li>una cassetta per l'elemosina</li><li>2 blocchetti d'incenso</li><li>un incensiere</li><li>paramenti</li><li>razioni per 2 giorni</li><li>un otre</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 24,
+      "units": "lb"
+    },
+    "price": {
+      "value": 19,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "priests-pack"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "M6Su74bDiC9EIUeG"
+}

@@ -70,9 +70,67 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "wiHhR9dJx0GXDv4i",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.w4V7w6dOMQczy1gs",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.763NeIs7sDEnu9ls",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.IUIFo6gSvZx9dYGC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "TqMsw7I4IlccQsQK",
+        "group": null,
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.w4V7w6dOMQczy1gs",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bc2LqxHSvfMTTfA6",
+        "group": null,
+        "sort": 200000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "JF9tPP5ebNNCGwTu",
+        "group": "bc2LqxHSvfMTTfA6",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.763NeIs7sDEnu9ls",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "kIbnIyvCug7EyH68",
+        "group": "bc2LqxHSvfMTTfA6",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.IUIFo6gSvZx9dYGC",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-heritage"
   },
   "img": "icons/commodities/treasure/crown-gold-satin-gems-red.webp",

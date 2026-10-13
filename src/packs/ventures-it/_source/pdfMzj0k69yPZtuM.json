@@ -61,9 +61,168 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "gQKFtcxc0QRChTeJ",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.g8gk6I6zutQtdeEh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "Qn8OZLxbTIjZAs21",
+        "type": "ItemChoice",
+        "level": 0,
+        "title": "Strumenti da artigiano o un gioco",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.zKQ19CaRrpnKtIq5"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.FFv9sggSWoGtsSi8"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.HYlcn4WarKvt970G"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.JxQxrU2r622joKpo"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ZuRH7YpwpDgiY0iy"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "y5GRoxfGS5WZOOK6",
+        "group": null,
+        "sort": 100000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "VG5pkERAhH2Ps5AY",
+        "group": "y5GRoxfGS5WZOOK6",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "74FKNJkJFNm6a75c",
+        "group": "y5GRoxfGS5WZOOK6",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.g8gk6I6zutQtdeEh",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "7hJUEIGZnnPfFfsQ",
+        "group": "y5GRoxfGS5WZOOK6",
+        "sort": 300000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "3OqSpq6upp92432K",
+        "group": "7hJUEIGZnnPfFfsQ",
+        "sort": 100000,
+        "type": "tool",
+        "key": "art",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "uIMB3o3FbZE9kHFY",
+        "group": "7hJUEIGZnnPfFfsQ",
+        "sort": 200000,
+        "type": "tool",
+        "key": "game",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-void"
   },
   "img": "icons/equipment/head/crown-thorns-gold.webp",

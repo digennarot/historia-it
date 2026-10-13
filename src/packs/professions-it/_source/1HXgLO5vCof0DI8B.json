@@ -1009,6 +1009,182 @@
         "level": 2,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "jvllYhcvCB3XfhQD",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: una coppia di pugnali o un'arma semplice",
+        "hint": "Per la coppia di pugnali scegli il pugnale e aggiungi il secondo (×2) nell'inventario.",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "fdJ5Xni00k0uE8jA",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: mazzafrusto o un'arma semplice da mischia",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.FUQyIknhYyWW9Em0"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "Luxeaw3gh2XKpZ6E",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Equipaggiamento iniziale",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xLROg166m151SszM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5oH06F3e7IrqPcnQ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Yxjmx9rxpIxn98hk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
     "spellcasting": {
@@ -1016,7 +1192,86 @@
       "ability": "con",
       "preparation": {}
     },
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "l4NcstI6lJ14Lj22",
+        "group": null,
+        "sort": 100000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "aMR1YXnakGvwLSxS",
+        "group": "l4NcstI6lJ14Lj22",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187",
+        "count": 2,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "NG3NgZSREHXpwHMS",
+        "group": "l4NcstI6lJ14Lj22",
+        "sort": 200000,
+        "type": "weapon",
+        "key": "sim",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "T7lh5zs7CThIXJYg",
+        "group": null,
+        "sort": 200000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "YcjH725eXYIdfcos",
+        "group": "T7lh5zs7CThIXJYg",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.FUQyIknhYyWW9Em0",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "OBdPEnkVvcsHXhPC",
+        "group": "T7lh5zs7CThIXJYg",
+        "sort": 200000,
+        "type": "weapon",
+        "key": "simpleM",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "eC8QwYnAkXenuGdR",
+        "group": null,
+        "sort": 300000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "6Q9LMtn8rCoQsRJP",
+        "group": "eC8QwYnAkXenuGdR",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.xLROg166m151SszM",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "1PbjAvDVBw75xn97",
+        "group": "eC8QwYnAkXenuGdR",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5oH06F3e7IrqPcnQ",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "BBsz7jinMhjfZho6",
+        "group": "eC8QwYnAkXenuGdR",
+        "sort": 300000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.Yxjmx9rxpIxn98hk",
+        "requiresProficiency": false
+      }
+    ],
     "wealth": "",
     "hd": {
       "denomination": "d12",

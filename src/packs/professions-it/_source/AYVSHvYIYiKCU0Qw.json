@@ -574,6 +574,259 @@
         "level": 3,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "ktD54rg0ljHo1ALw",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: bastone o stiletto",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "0wS6TVYtK4km0Eyc",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Arma: balestra leggera e 20 quadrelli, oppure spadino",
+        "hint": "Scegli (a) balestra leggera e quadrelli oppure (b) lo spadino.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lU3ip25Fp5doQcx2",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BuAAPZBBsMTbPn1t",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "vYn1UO0DvlOi4qh6",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Dotazione: da avventuriero o da studioso",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.4xPItEQXZAnFVKng"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.k5Qkj4EC4rRAxp2A"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "HHgn5WW3AdkyZTm9",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Strumento a scelta",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0BPRONZn6K3z2a6P"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0Y0LRSxq0PczagWb"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5DzlmRQWpaCcQOuA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5X2Mhhp1uK8Ja52R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.9dOAIdf3GzPq08Rn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AZHdggRpDfPiNgo6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BgcRwEm63FvEfApD"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.FFv9sggSWoGtsSi8"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.HYlcn4WarKvt970G"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.JxQxrU2r622joKpo"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.NzaklVbjd69EiYdn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UN8hNX80PN1FbR8T"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ZuRH7YpwpDgiY0iy"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.cX7Rjfg03ykndJmB"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.e3ekqpolp3JWlatL"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.kIq1qthfoo3WiROm"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.mduMo4NHqfEHuZ17"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nl7wCYteGQXsKnMH"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ueqoOFPrcg2I3cl6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xk8NHm1Kk2FoeLD5"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.zKQ19CaRrpnKtIq5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "vVPI5trAKJJCiAQn",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Equipaggiamento iniziale",
+        "hint": "I tomi sono due (×2), di argomento a scelta: aggiungi il secondo nell'inventario.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.P9WYeAzZU2udtob9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
     "spellcasting": {
@@ -581,7 +834,116 @@
       "ability": "",
       "preparation": {}
     },
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "Z929hNESTFKa3NOV",
+        "group": null,
+        "sort": 100000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "zCgGNhh8JE9dpor1",
+        "group": "Z929hNESTFKa3NOV",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "QGEcU5y1MKJppJkD",
+        "group": "Z929hNESTFKa3NOV",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bmpNapReXvRw60fA",
+        "group": null,
+        "sort": 200000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "D7Yy2GQ3z9LSqMCV",
+        "group": "bmpNapReXvRw60fA",
+        "sort": 100000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "d8pWlXe5Pyy1JxxU",
+        "group": "D7Yy2GQ3z9LSqMCV",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.lU3ip25Fp5doQcx2",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "pcL8XNUbeDYiu1OR",
+        "group": "D7Yy2GQ3z9LSqMCV",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.BuAAPZBBsMTbPn1t",
+        "count": 20,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "FSVWOFJMobEueAqf",
+        "group": "bmpNapReXvRw60fA",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "oNWHDvdakgOH6Lq8",
+        "group": null,
+        "sort": 300000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "YTTe4yNwU3e8rQEX",
+        "group": "oNWHDvdakgOH6Lq8",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.4xPItEQXZAnFVKng",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "viqOEMI8wMJjuBhz",
+        "group": "oNWHDvdakgOH6Lq8",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.k5Qkj4EC4rRAxp2A",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "AA3mhSORpwW04llI",
+        "group": null,
+        "sort": 400000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "uM8xGZkjYYCyaFBb",
+        "group": "AA3mhSORpwW04llI",
+        "sort": 100000,
+        "type": "tool",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "AKyZehpeKlzHOERQ",
+        "group": "AA3mhSORpwW04llI",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.P9WYeAzZU2udtob9",
+        "count": 2,
+        "requiresProficiency": false
+      }
+    ],
     "wealth": "",
     "hd": {
       "denomination": "d8",

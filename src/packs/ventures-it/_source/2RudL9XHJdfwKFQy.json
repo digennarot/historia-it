@@ -61,9 +61,210 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "ZeSYUpXYDo1dm1oU",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.8gKD5ddOZP9iMM0b",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lALKDjKc82KepeSB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.fHmIxO75bXDSJ41m",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "VkmLus8PIKvO682j",
+        "type": "ItemChoice",
+        "level": 0,
+        "title": "Strumento musicale o da artigiano",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0Y0LRSxq0PczagWb"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.9dOAIdf3GzPq08Rn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AZHdggRpDfPiNgo6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.NzaklVbjd69EiYdn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UN8hNX80PN1FbR8T"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.e3ekqpolp3JWlatL"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.mduMo4NHqfEHuZ17"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nl7wCYteGQXsKnMH"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ueqoOFPrcg2I3cl6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xk8NHm1Kk2FoeLD5"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.zKQ19CaRrpnKtIq5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "XBgRAjXqtIgxzjfL",
+        "group": null,
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.8gKD5ddOZP9iMM0b",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "CRu1uN1qpWM3TlDx",
+        "group": null,
+        "sort": 200000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "8R7zWCVK5eTl28wM",
+        "group": "CRu1uN1qpWM3TlDx",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "UhykO2fqTpvweM4t",
+        "group": "CRu1uN1qpWM3TlDx",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.lALKDjKc82KepeSB",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "NLxXvi4IVNQIdITZ",
+        "group": "CRu1uN1qpWM3TlDx",
+        "sort": 300000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.fHmIxO75bXDSJ41m",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Bj00PhfrI5UvPKjB",
+        "group": "CRu1uN1qpWM3TlDx",
+        "sort": 400000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "wihGLo4fnINBWoM6",
+        "group": "Bj00PhfrI5UvPKjB",
+        "sort": 100000,
+        "type": "tool",
+        "key": "music",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "S1RpgNKSsd92uwhr",
+        "group": "Bj00PhfrI5UvPKjB",
+        "sort": 200000,
+        "type": "tool",
+        "key": "art",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-art"
   },
   "img": "icons/tools/instruments/lute-gold-brown.webp",

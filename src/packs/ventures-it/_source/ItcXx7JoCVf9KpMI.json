@@ -61,9 +61,135 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "stIxZ2XDqx1YrsSc",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.oSbX3p2l4b1vMoQ8",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.763NeIs7sDEnu9ls",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iRJvLDwA2XdrHhMK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "AKhCPV2huJhXBnV3",
+        "type": "ItemChoice",
+        "level": 0,
+        "title": "Strumenti da cartografo o scorte da calligrafo",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "23nQBvmEywjDJCC6",
+        "group": null,
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.oSbX3p2l4b1vMoQ8",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "S9LwLXX9RhZFba6J",
+        "group": null,
+        "sort": 200000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "wkdCIuqnOdzhVF6V",
+        "group": "S9LwLXX9RhZFba6J",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "6PC8nSf38JJynRL9",
+        "group": "S9LwLXX9RhZFba6J",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.763NeIs7sDEnu9ls",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "pBD5a2921LQFrqqT",
+        "group": "S9LwLXX9RhZFba6J",
+        "sort": 300000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.iRJvLDwA2XdrHhMK",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "3xQqxBkYHfy4DMix",
+        "group": "S9LwLXX9RhZFba6J",
+        "sort": 400000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "WWcguZ918H8UU7wH",
+        "group": "3xQqxBkYHfy4DMix",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "MQM6rrXK29P60DkI",
+        "group": "3xQqxBkYHfy4DMix",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-discovery"
   },
   "img": "icons/tools/navigation/spyglass-telescope-brass.webp",

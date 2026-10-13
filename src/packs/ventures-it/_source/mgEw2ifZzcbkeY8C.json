@@ -55,9 +55,67 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "MNb0KNKlvW9J907X",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.9g3PuuSGmS0o5Xyh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BgcRwEm63FvEfApD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "nNXI1LbzPSpqg9oP",
+        "group": null,
+        "sort": 100000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "eBZRCqyl8x1O1msx",
+        "group": "nNXI1LbzPSpqg9oP",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "EzaKqmAnwSxQg62o",
+        "group": "nNXI1LbzPSpqg9oP",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.9g3PuuSGmS0o5Xyh",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "8OdgE9z59hhwnZLR",
+        "group": "nNXI1LbzPSpqg9oP",
+        "sort": 300000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.BgcRwEm63FvEfApD",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-revenge"
   },
   "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",

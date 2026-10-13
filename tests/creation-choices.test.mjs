@@ -99,7 +99,8 @@ describe('scelte singole al livello 1 (ItemChoice)', () => {
     const uuid = id => `Compendium.historia-it.profession-features-it.Item.${id}`;
     for (const [id, name, title, pool] of CASES) it(`${name}: ${title}`, () => {
         const A = doc('professions-it', id).system.advancement;
-        const ch = A.filter(a => a.type === 'ItemChoice' && a.configuration.choices?.['1']);
+        // esclude le scelte di equipaggiamento iniziale (pool in items-it, vedi starting-equipment.test.mjs)
+        const ch = A.filter(a => a.type === 'ItemChoice' && a.configuration.choices?.['1'] && !a.configuration.pool.every(p => p.uuid.includes('.items-it.')));
         expect(ch, `${name}: un ItemChoice al livello 1`).toHaveLength(1);
         const c = ch[0].configuration;
         expect(ch[0].level, name).toBe(1);
