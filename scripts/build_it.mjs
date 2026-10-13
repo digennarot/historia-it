@@ -25,7 +25,7 @@ async function copyFileAndDirs(src, dest) {
 
 const LABEL_TRANSLATIONS = {
     "factions-and-careers": "Fazioni e Carriere",
-    "ventures": "Imprese e Prominenze",
+    "ventures": "Venture e Risalti",
     "factions": "Guida alle Fazioni",
     "items": "Equipaggiamento",
     "species": "Specie",

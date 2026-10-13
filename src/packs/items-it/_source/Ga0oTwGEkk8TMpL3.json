@@ -1,5 +1,5 @@
 {
-  "name": "Fionda",
+  "name": "Frombola",
   "type": "weapon",
   "img": "icons/weapons/slings/slingshot-wood.webp",
   "effects": [],
@@ -199,7 +199,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una rete flessibile di pelle affissa ad una maniglia di legno che è in grado di fling rocce o proiettili metallici con velocità mortale.</p>",
+      "value": "<p><strong>Proprietà:</strong> Munizioni (media)</p>",
       "chat": ""
     },
     "source": {
@@ -222,7 +222,7 @@
     "identified": true,
     "range": {
       "value": 24,
-      "long": 94.5,
+      "long": 96,
       "units": "m",
       "reach": null
     },
@@ -356,7 +356,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

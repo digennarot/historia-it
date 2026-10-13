@@ -1,5 +1,5 @@
 {
-  "name": "Cinque.",
+  "name": "Cinquedea",
   "type": "weapon",
   "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong>Aristocratico:</strong></em><span class=\"fontstyle2\">armi e armature con questa proprietà sono indicative di una certa posizione nella società o almeno ricchezza. Indossarli implica un alto status sociale, per meglio o per peggio.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Incredibile.</strong></em> </span><span class=\"fontstyle2\">Se l'arma è nascosta, tiri per rilevarla che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span></span></p>\n<p> </p>",
+      "value": "<p><strong>Proprietà:</strong> Accurata, Aristocratica, Leggera, Occultabile</p><p><em><strong>Aristocratica.</strong></em> Le armi e le armature con questa proprietà sono finemente decorate od ornate di cesellature, e indicano che chi le indossa gode di una certa posizione sociale, o quanto meno di una cospicua ricchezza. Sfoggiarle implica il mettere in mostra un alto status nella società, nel bene o nel male.</p><p><em><strong>Occultabile.</strong></em> Un'arma di questo tipo ha dimensioni tali da essere facilmente nascosta tra le vesti, dando svantaggio ai tiri per individuarla. Un personaggio che usa un'arma occultabile può cercare di rimanere nascosto effettuando una prova con svantaggio.</p><p><em><strong>Arma Flambata.</strong></em> Un'arma dotata di flambatura costa 250 mo addizionali, ottiene la qualità aristocratica e, mentre la si utilizza, la propria CA aumenta di 1.</p>",
       "chat": ""
     },
     "source": {
@@ -197,9 +197,9 @@
     "identified": true,
     "range": {
       "value": null,
-      "long": 18,
+      "long": null,
       "units": "m",
-      "reach": 6
+      "reach": null
     },
     "uses": {
       "max": "",

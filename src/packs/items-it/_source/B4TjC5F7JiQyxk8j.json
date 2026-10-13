@@ -1,5 +1,5 @@
 {
-  "name": "Piccone da Guerra",
+  "name": "Picco d'Armi",
   "type": "weapon",
   "img": "icons/weapons/axes/pickaxe-double-brown.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un brutale picco curvo montato sul retro di una robusta poppa - progettato per perforare l'armatura con la forza mortale.</p>",
+      "value": "<p><strong>Proprietà:</strong> Versatile (1d10)</p>",
       "chat": ""
     },
     "source": {
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 10,
         "bonus": "",
-        "types": [],
+        "types": [
+          "piercing"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

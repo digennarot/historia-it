@@ -1,5 +1,5 @@
 {
-  "name": "Crocifisso pesante",
+  "name": "Balestra Pesante",
   "type": "weapon",
   "img": "icons/weapons/crossbows/crossbow-purple.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un grande balestra montato su un robusto blocco di legno che viene caricato con una manovella e fuochi bulloni in acciaio spessi con accelerazione mortale che perfora attraverso l'armatura e la carne.</p>",
+      "value": "<p><strong>Proprietà:</strong> Munizioni (lunga), Ricarica</p>",
       "chat": ""
     },
     "source": {
@@ -197,7 +197,7 @@
     "identified": true,
     "range": {
       "value": 45,
-      "long": 177,
+      "long": 180,
       "units": "m",
       "reach": null
     },
@@ -333,7 +333,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

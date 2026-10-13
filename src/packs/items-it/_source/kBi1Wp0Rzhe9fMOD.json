@@ -1,5 +1,5 @@
 {
-  "name": "Ammunzione",
+  "name": "Munizioni per Armi da Fuoco",
   "type": "consumable",
   "img": "icons/weapons/ammunition/shot-round-blue.webp",
   "effects": [],
@@ -156,7 +156,7 @@
   },
   "system": {
     "description": {
-      "value": "",
+      "value": "<p>Palle e cariche per armi da fuoco. Le munizioni costano 2 mo per colpo e richiedono la relativa polvere nera.</p>",
       "chat": ""
     },
     "source": {
@@ -170,7 +170,7 @@
       "units": "lb"
     },
     "price": {
-      "value": 1,
+      "value": 2,
       "denomination": "gp"
     },
     "attunement": "",

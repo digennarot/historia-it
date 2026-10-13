@@ -1,5 +1,5 @@
 {
-  "name": "Soffio",
+  "name": "Cerbottana",
   "type": "weapon",
   "img": "icons/weapons/staves/staff-simple-brown.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un'arma primitiva, ma mortale, favorita da tribù e guerrila combattenti. Le freccette sparate da questa pistola possono perforare e fornire dosi letali di veleno.</p>",
+      "value": "<p><strong>Proprietà:</strong> Munizioni (corta)</p>",
       "chat": ""
     },
     "source": {
@@ -196,7 +196,7 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 7.5,
+      "value": 6,
       "long": 18,
       "units": "m",
       "reach": null
@@ -231,7 +231,7 @@
         ],
         "custom": {
           "enabled": true,
-          "formula": "1 + @mod"
+          "formula": "1"
         },
         "scaling": {
           "mode": "",
@@ -331,7 +331,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

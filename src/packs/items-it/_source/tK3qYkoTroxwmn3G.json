@@ -1,5 +1,5 @@
 {
-  "name": "Spadone",
+  "name": "Zweihänder",
   "type": "weapon",
   "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
   "effects": [],
@@ -173,7 +173,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong><span class=\"fontstyle0\">Aristocratico:</span></strong></em><span class=\"fontstyle2\">armi e armature con questa proprietà sono indicative di una certa posizione nella società o almeno ricchezza. Indossarli implica un alto status sociale, per meglio o per peggio.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Speciale.</strong></em> </span><span class=\"fontstyle2\">Se il personaggio ha il vantaggio di colpire, Il danno aumenta a 2d6.</span></p>",
+      "value": "<p><strong>Proprietà:</strong> Aristocratica, Due Mani, Pesante, Portata, Speciale</p><p><em><strong>Aristocratica.</strong></em> Le armi e le armature con questa proprietà sono finemente decorate od ornate di cesellature, e indicano che chi le indossa gode di una certa posizione sociale, o quanto meno di una cospicua ricchezza. Sfoggiarle implica il mettere in mostra un alto status nella società, nel bene o nel male.</p><p><em><strong>Zweihänder.</strong></em> Quest'arma aumenta il proprio danno a 2d6 se chi la utilizza dispone di vantaggio a colpire.</p><p><em><strong>Arma Flambata.</strong></em> Un'arma dotata di flambatura costa 250 mo addizionali, ottiene la qualità aristocratica e, mentre la si utilizza, la propria CA aumenta di 1.</p>",
       "chat": ""
     },
     "source": {
@@ -250,8 +250,8 @@
     },
     "properties": [
       "hvy",
-      "rch",
-      "two"
+      "two",
+      "rch"
     ],
     "proficient": 1,
     "unidentified": {

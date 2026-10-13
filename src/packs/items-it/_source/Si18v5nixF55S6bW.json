@@ -173,11 +173,11 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Impatto letale.</strong></em> </span><span class=\"fontstyle0\">Un colpo critico da un'arma da fuoco infligge 1d6 livelli di sfinimento.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Malfunzionante.</strong></em> </span><span class=\"fontstyle0\">Se l'arma da fuoco è stata ricaricata in condizioni di particolare pressione o mentre in movimento, mancando il colpo successivo per colpire significa causare la polvere da sparo a esplodere male, soffrendo un livello di debolezza dalla combustione.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Polveri bagnati.</strong></em> </span><span class=\"fontstyle0\">Gunpowder può perdere la sua efficacia quando bagnato, in tempo piovoso o altre simili eventualità. Se tali opportunità si presentano e il personaggio non è stato in grado di eseguire la manutenzione, il personaggio deve fare un controllo CD 12 su Intelligenza prima di fare il primo colpo. In mancanza, il colpo fallirà e la metà delle munizioni sarà rovinata<br/></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Ricarica complessa.</strong></em> </span><span class=\"fontstyle0\">La ricarica di un'arma da fuoco richiede un'azione e non fare un movimento durante il vostro turno. Spostarsi durante la ricarica o essere sotto pressione particolare può causare malfunzionamento.</span></span> Costo delle munizioni <span class=\"fontstyle0\">2 monete per colpo.</span><span class=\"fontstyle0\">Inoltre, è possibile eseguire un solo attacco</span><span class=\"fontstyle0\">con queste armi da fuoco.</span></p>",
+      "value": "<p><strong>Proprietà:</strong> Due Mani, Munizioni (media), Pesante</p><p>Tutte le armi da fuoco hanno le seguenti proprietà:</p><p><em><strong>Impatto Letale.</strong></em> Un colpo critico da arma da fuoco infligge 1d6 livelli di indebolimento.</p><p><em><strong>Malfunzionamento.</strong></em> Se l'arma da fuoco è stata ricaricata velocemente in condizioni di particolare stress oppure in movimento, mancare il successivo tiro per colpire vuol dire far esplodere male la polvere da sparo, subendo un livello di indebolimento per la bruciatura.</p><p><em><strong>Polveri Bagnate.</strong></em> La polvere da sparo può perdere di efficacia in caso di maltempo, forte umidità o altre eventualità che prevedano il suo contatto con dei liquidi. Se tali occasioni si sono presentate e il personaggio non ha avuto modo di eseguire una manutenzione, il personaggio dovrà effettuare una prova di Intelligenza con CD 12 prima di sparare il primo colpo. In caso di fallimento, il colpo non andrà a segno e metà delle munizioni si saranno rovinate.</p><p><em><strong>Ricarica Laboriosa.</strong></em> Ricaricare un'arma da fuoco richiede un'azione da eseguire rimanendo immobili durante il proprio turno. Muoversi durante il turno in cui si ricarica o essere in condizioni di particolare stress può causare un malfunzionamento. Le munizioni costano 2 mo per colpo. Effettuando l'azione di attacco, inoltre, è possibile effettuare un singolo attacco con un'arma da fuoco.</p>",
       "chat": ""
     },
     "source": {
-      "custom": "Historia Manuale pagina: 249",
+      "custom": "Historia Manuale pagina: 248",
       "revision": 1,
       "rules": "2014"
     },
@@ -196,7 +196,7 @@
     "identified": true,
     "range": {
       "value": 24,
-      "long": 94.5,
+      "long": 96,
       "units": "m",
       "reach": null
     },
@@ -249,9 +249,10 @@
       "conditions": ""
     },
     "properties": [
+      "two",
       "amm",
       "hvy",
-      "two"
+      "fir"
     ],
     "proficient": 1,
     "unidentified": {
@@ -332,7 +333,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },
@@ -367,7 +368,7 @@
     "modifiedTime": 1760898716542,
     "lastModifiedBy": "ooYIsT0x1xXIjRa6"
   },
-  "folder": "NuVNM6M7lV8ZDfUN",
+  "folder": "CRs2uuUWZVf6Tgz5",
   "ownership": {
     "default": 0
   },

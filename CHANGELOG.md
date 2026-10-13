@@ -7,6 +7,54 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Added
+- **Scheda "Istinti"** nei Tratti di Specie (cartella *Regole generali*):
+  regola completa del manuale (istinti generali Predatore/Preda/Onnivoro,
+  di familia e di specie, linea guida per usarli come ideale, legame o
+  difetto); ogni specie ora rimanda a questa scheda sotto i suoi istinti.
+- **Scheda "Fazioni"** nel compendio Fazioni: regole generali del manuale
+  (gradi, schema comune, contatti, rivali, seguaci, risorse, lasciare e
+  creare una fazione) con collegamenti a tutte le fazioni.
+
+- **Cotta d'Arme** (armatura pesante, CA 14, 40 mo) presente nel manuale
+  ma assente dal compendio.
+
+### Changed
+- **Equipaggiamento allineato al Manuale Base (cap. 7)**: armi, armature e
+  scudi con i nomi del manuale (es. Cinquedea, Manosinistra, Spezzalama,
+  Striscia, Azza, Brandistocco, Falcione, Mazzapicco, Zweihänder, Frombola,
+  Cerbottana, Spadino, Giaco di Maglia, Maglia di Ferro, Corazzina,
+  Usbergo Rinforzato, Brocchiero, Tavolaccio, Palvese, Alascudo, armi
+  aviane Beccazza/Becchetto/Pennalama/Pennaspada/Piumalama/Rapaci/Taglioni);
+  costi, danni, CA e proprietà corretti secondo le tabelle (es. Gambesone
+  CA 12, Falconetto 4d8, Trilama perforante, Impaccio come svantaggio a
+  Furtività); gittate corta/media/lunga del manuale (6/18, 24/96,
+  45/180 m, artiglieria con gittata lunga triplicata); descrizioni con le
+  proprietà del manuale (Aristocratica, Asta, Coppia, Occultabile, armi da
+  fuoco, armature rodeliane, arma flambata). Nuove cartelle *Armi da
+  fuoco* e *Armi aviane*.
+- **Oggetti comuni e strumenti** con i nomi ufficiali italiani di D&D 5e
+  (es. Arnesi da Scasso, Scorte da Calligrafo, Borsa da Erborista) e
+  descrizioni ritradotte; eliminati i nomi da traduzione automatica
+  ("Prenota", "Parcheggi", "Censimento", "Pugno"...).
+- **Fazioni allineate al Manuale Base (cap. 6)**: storia e informazioni
+  generali e gradi riportati al testo del manuale; rinominate *Compagnia del
+  Compasso* (era Compagnia della Bussola), *Fratellanza dei Vermi* (era
+  Fratelli dei Vermi) ed *Esercito del Popolo*; "Rango" diventa *Grado* con
+  i nomi del manuale (es. Iniziato, Spillato, Graduato, Costolario, Occipite
+  Semplice); ogni grado riporta Fama, requisiti e benefici dello schema
+  comune; numeri di pagina corretti (208-224).
+- **Venture e Risalti allineati al Manuale Base (cap. 5)**: "Impresa" e
+  "Prominenza" diventano *Ventura* e *Risalto*; testi, dotazioni e
+  descrittori riportati al manuale; risalti rinominati (L'occhio di chi
+  guarda, Contro ogni previsione, Fiuto per il risentimento, Forestiero
+  del mondo); requisiti dei risalti in italiano; cartelle e nome del
+  compendio aggiornati.
+- **Specie, mestieri e carriere ricontrollati sul Manuale Base**: tratti di
+  specie rinominati e corretti (11 nuovi tratti specifici di specie),
+  avanzamenti nativi di Aumento dei Punteggi di Caratteristica e
+  Sottoclasse nei mestieri.
+
 ## [1.0.33] - 2026-10-13
 
 ### Changed

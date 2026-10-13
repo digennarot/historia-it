@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da essere utilizzato anche in da mischia combattimento.</p>",
+      "value": "<p><strong>Proprietà:</strong> Lancio (media), Versatile (1d8)</p>",
       "chat": ""
     },
     "source": {
@@ -196,8 +196,8 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 9,
-      "long": 36,
+      "value": 24,
+      "long": 96,
       "units": "m",
       "reach": null
     },
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 8,
         "bonus": "",
-        "types": [],
+        "types": [
+          "piercing"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

@@ -1,5 +1,5 @@
 {
-  "name": "Ascia",
+  "name": "Accetta",
   "type": "weapon",
   "img": "icons/weapons/axes/axe-broad-black.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questa ascia a una mano è leggera ed equilibrata per il lancio rimanendo utile nel combattimento a mano.</p>",
+      "value": "<p><strong>Proprietà:</strong> Lancio (media), Versatile (1d8)</p>",
       "chat": ""
     },
     "source": {
@@ -196,8 +196,8 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 6,
-      "long": 18,
+      "value": 24,
+      "long": 96,
       "units": "m",
       "reach": null
     },
@@ -208,10 +208,12 @@
     },
     "damage": {
       "versatile": {
-        "number": null,
-        "denomination": null,
+        "number": 1,
+        "denomination": 8,
         "bonus": "",
-        "types": [],
+        "types": [
+          "slashing"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""
@@ -250,8 +252,8 @@
       "conditions": ""
     },
     "properties": [
-      "lgt",
-      "thr"
+      "thr",
+      "ver"
     ],
     "proficient": 0,
     "unidentified": {

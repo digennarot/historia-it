@@ -1,5 +1,5 @@
 {
-  "name": "Bastone di Ferro",
+  "name": "Bastone Ferrato",
   "type": "weapon",
   "img": "icons/weapons/staves/staff-ornate.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un spesso albero di legno avvolto con una presa robusta rende un'arma altamente funzionale oltre a un bastone da passeggio.</p>",
+      "value": "<p><strong>Proprietà:</strong> Versatile (1d8)</p>",
       "chat": ""
     },
     "source": {
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 8,
         "bonus": "",
-        "types": [],
+        "types": [
+          "bludgeoning"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

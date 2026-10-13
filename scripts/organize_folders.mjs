@@ -111,6 +111,7 @@ organize("species-it", j => {
   return { path: [o, { name: fam, color: o.color }] };
 }, "Item");
 organize("species-features-it", j => {
+  if (j.system.identifier === "istinti") return { path: [{ name: "Regole generali", color: "#5d4037", sort: -1 }] };
   const req = j.system.requirements || ({ "Beccata del Picchio": "Pici" })[j.name] || "";
   const names = req.split(",").map(s => s.trim()).filter(Boolean);
   if (/aviani/i.test(req)) return { path: [{ name: "Aviani", color: "#0277bd", sort: 1 }, { name: "Regole comuni", color: "#0277bd", sort: -1 }] };
@@ -132,9 +133,12 @@ organize("spells-it", j => { const l = j.system.level ?? 0; return { path: [{ na
 // ---------- Equipaggiamento ----------
 const W = { simpleM: ["Armi semplici da mischia", 0], simpleR: ["Armi semplici a distanza", 1], martialM: ["Armi da guerra da mischia", 2], martialR: ["Armi da guerra a distanza", 3], natural: ["Armi naturali", 4] };
 const A = { light: ["Armature leggere", 0], medium: ["Armature medie", 1], heavy: ["Armature pesanti", 2], shield: ["Scudi", 3] };
+const AVIAN = new Set(["uIk9IIFOmQUnAqX1", "H3J3glbNgyXSxNvb", "h7Ze2Aw6JOfCA4G7", "SlBhnq7CtNzW23mD", "DholbIql2Whf4T4G", "vPYbVVF5FyeH2a9Z", "tmeUTSqiYdZGwkh6"]); // Beccazza … Taglioni
 const CONS = { ammo: "Munizioni", potion: "Pozioni", food: "Cibo e bevande", trinket: "Varie" };
 organize("items-it", j => {
   const t = j.type, s = j.system.type?.value || "";
+  if (t === "weapon" && j.system.properties?.includes("fir")) return { path: [{ name: "Armi", color: "#b71c1c", sort: 0 }, { name: "Armi da fuoco", color: "#b71c1c", sort: 5, sorting: "a" }] };
+  if (t === "weapon" && AVIAN.has(j._id)) return { path: [{ name: "Armi", color: "#b71c1c", sort: 0 }, { name: "Armi aviane", color: "#b71c1c", sort: 6, sorting: "a" }] };
   if (t === "weapon") { const [n, o] = W[s] || ["Altre armi", 9]; return { path: [{ name: "Armi", color: "#b71c1c", sort: 0 }, { name: n, color: "#b71c1c", sort: o, sorting: "a" }] }; }
   if (t === "equipment" && A[s]) { const [n, o] = A[s]; return { path: [{ name: "Armature e scudi", color: "#455a64", sort: 1 }, { name: n, color: "#455a64", sort: o }] }; }
   if (t === "equipment") return { path: [{ name: "Abiti e accessori", color: "#7b1fa2", sort: 2 }] };
@@ -146,4 +150,4 @@ organize("items-it", j => {
 
 // ---------- Fazioni, carriere, imprese ----------
 organize("factions-and-careers-it", j => j.name.startsWith("Carriera") ? { path: [{ name: "Carriere", color: "#e65100", sort: 1 }] } : { path: [{ name: "Fazioni", color: "#1565c0", sort: 0 }] });
-organize("ventures-it", j => j.type === "background" ? { path: [{ name: "Imprese", color: "#6a1b9a", sort: 0 }] } : { path: [{ name: "Prominenze", color: "#c79100", sort: 1 }] });
+organize("ventures-it", j => j.type === "background" ? { path: [{ name: "Venture", color: "#6a1b9a", sort: 0 }] } : { path: [{ name: "Risalti", color: "#c79100", sort: 1 }] });

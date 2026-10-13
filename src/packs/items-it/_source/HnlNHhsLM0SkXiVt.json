@@ -1,5 +1,5 @@
 {
-  "name": "Ascia di guerra",
+  "name": "Scure da Guerra",
   "type": "weapon",
   "img": "icons/weapons/axes/axe-double-blue.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questa enorme ascia presenta due lame a mezzaluna gemelle montate su entrambi i lati di un albero a picco alto. Progettato per essere convogliato con due mani e foglie in twain.</p>",
+      "value": "<p><strong>Proprietà:</strong> Due Mani, Pesante</p>",
       "chat": ""
     },
     "source": {
@@ -250,8 +250,8 @@
       "conditions": ""
     },
     "properties": [
-      "hvy",
-      "two"
+      "two",
+      "hvy"
     ],
     "proficient": 0,
     "unidentified": {

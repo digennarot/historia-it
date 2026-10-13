@@ -1,5 +1,5 @@
 {
-  "name": "Crossbow mano",
+  "name": "Balestra a Mano",
   "type": "weapon",
   "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un balestra leggero progettato per essere tenuto in una mano o legato al polso per sparare bulloni leggeri.</p>",
+      "value": "<p><strong>Proprietà:</strong> Leggera, Munizioni (corta), Ricarica</p>",
       "chat": ""
     },
     "source": {
@@ -250,6 +250,7 @@
       "conditions": ""
     },
     "properties": [
+      "lgt",
       "amm",
       "lod"
     ],
@@ -332,7 +333,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

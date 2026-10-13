@@ -1,5 +1,5 @@
 {
-  "name": "Arco del banco",
+  "name": "Arco Ricurvo",
   "type": "weapon",
   "img": "icons/weapons/bows/longbow-recurve.webp",
   "effects": [],
@@ -199,7 +199,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un spesso albero di legno laminato è inchinato da una corda taut in grado di lanciare frecce mortali a lunghe distanze.</p>",
+      "value": "<p><strong>Proprietà:</strong> Munizioni (lunga)</p>",
       "chat": ""
     },
     "source": {
@@ -222,7 +222,7 @@
     "identified": true,
     "range": {
       "value": 45,
-      "long": 177,
+      "long": 180,
       "units": "m",
       "reach": null
     },
@@ -357,7 +357,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

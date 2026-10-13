@@ -1,5 +1,5 @@
 {
-  "name": "Discorso",
+  "name": "Lancia",
   "type": "weapon",
   "img": "icons/weapons/polearms/spear-simple-engraved.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un punto d'acciaio gleaming mouted in cima a una zattera di legno, la lancia può essere avvolto in una mano o due e può perforare attraverso l'armatura più pesante con la forza mortale.</p>",
+      "value": "<p><strong>Proprietà:</strong> Versatile (1d8)</p>",
       "chat": ""
     },
     "source": {
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 8,
         "bonus": "",
-        "types": [],
+        "types": [
+          "piercing"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

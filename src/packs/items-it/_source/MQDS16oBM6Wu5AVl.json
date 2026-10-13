@@ -151,7 +151,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><span class=\"fontstyle0\"><em><strong>Luce, media, pesante:</strong></em> </span><span class=\"fontstyle2\">possono essere indossati senza problemi da quelli con la competenza necessaria. Se indossato senza competenze, i personaggi soffrono di svantaggio ai tiri per colpire, alle prove di abilità e ai tiri salvezza e non possono lanciare incantesimi.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Aristocratico:</strong></em> </span><span class=\"fontstyle2\">armi e armature con questa proprietà sono indicative di una certa posizione nella società o almeno ricchezza. Indossarli implica un alto status sociale, per meglio o per peggio.</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Impedimento:</strong></em> </span><span class=\"fontstyle2\">indossare questa armatura impone svantaggio alle prove di Furtività e Acrobazia. Gli Aviani non possono volare indossando l'armatura con questa proprietà.</span></span></span></p>",
+      "value": "<p><strong>Proprietà:</strong> Aristocratica, Impaccio, Pesante</p><p><em><strong>Leggera, Media, Pesante.</strong></em> Queste armature possono essere indossate senza problemi da chiunque abbia la competenza corrispondente. Senza la competenza, si subisce svantaggio a tiri per colpire, prove di caratteristica e tiri salvezza e non è possibile lanciare incantesimi.</p><p><em><strong>Aristocratica.</strong></em> Le armi e le armature con questa proprietà sono finemente decorate od ornate di cesellature, e indicano che chi le indossa gode di una certa posizione sociale, o quanto meno di una cospicua ricchezza. Sfoggiarle implica il mettere in mostra un alto status nella società, nel bene o nel male.</p><p><em><strong>Impaccio.</strong></em> Queste armature impongono svantaggio alle prove relative a furtività e acrobazia di chi le indossa. Gli aviani non possono volare indossando armature con questa proprietà.</p><p><em><strong>Armature rodeliane.</strong></em> Un'armatura creata da un artigiano rodeliano può avere caratteristiche migliorate a fronte di un costo superiore: +1 alla Classe Armatura; rendere media un'armatura pesante; rendere leggera un'armatura media; rendere non necessaria la competenza per un'armatura leggera; rimuovere la proprietà impaccio. Il costo dell'armatura aumenta di 500 mo per ogni miglioramento applicato.</p>",
       "chat": ""
     },
     "source": {
@@ -205,7 +205,9 @@
     "container": null,
     "attuned": false,
     "cover": null,
-    "properties": [],
+    "properties": [
+      "stealthDisadvantage"
+    ],
     "identifier": "plate",
     "activities": {},
     "crew": {

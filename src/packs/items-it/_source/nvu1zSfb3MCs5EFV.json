@@ -1,5 +1,5 @@
 {
-  "name": "Pavese",
+  "name": "Tavolaccio",
   "type": "equipment",
   "img": "icons/equipment/shield/round-wooden-boss-steel-yellow-blue.webp",
   "effects": [],
@@ -151,7 +151,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong><span class=\"fontstyle0\">Ingombrante.</span></strong></em><span class=\"fontstyle2\">A causa della dimensione considerevole di questo scudo, la velocità di coloro che lo utilizzano è ridotta di 1,5 metri e gli effetti di ostacolo sono applicati..</span> </p>\n<p><span class=\"fontstyle0\"><em><strong>Parry.</strong></em> </span><span class=\"fontstyle2\">Se i personaggi che tengono questo scudo prendono un colpo critico, possono usare la loro reazione per fermare il colpo con lo scudo, riducendo il colpo critico a un normale attacco di successo, ma distruggendo lo scudo</span> </p>",
+      "value": "<p><strong>Proprietà:</strong> Ingombrante, Riparo</p><p><em><strong>Ingombrante.</strong></em> A causa delle dimensioni notevoli di questo scudo, la velocità di chi lo utilizza è ridotta di 1,5 metri e applica gli stessi effetti di un'armatura con Impaccio.</p><p><em><strong>Riparo.</strong></em> Se si subisce un colpo critico, è possibile utilizzare la reazione per fermare il colpo con lo scudo, riducendo il colpo critico a un normale attacco effettuato con successo, che comunque distrugge lo scudo rendendolo inutilizzabile.</p>",
       "chat": ""
     },
     "source": {
@@ -205,7 +205,9 @@
     "container": null,
     "attuned": false,
     "cover": null,
-    "properties": [],
+    "properties": [
+      "stealthDisadvantage"
+    ],
     "identifier": "targe",
     "activities": {},
     "crew": {

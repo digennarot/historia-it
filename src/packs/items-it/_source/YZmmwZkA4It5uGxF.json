@@ -1,5 +1,5 @@
 {
-  "name": "Parrying pugnale",
+  "name": "Manosinistra",
   "type": "weapon",
   "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
   "effects": [],
@@ -199,7 +199,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong>Coppia.</strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>",
+      "value": "<p><strong>Proprietà:</strong> Accurata, Coppia</p><p><em><strong>Coppia.</strong></em> Se utilizzata come arma secondaria, insieme a un'arma leggera o con la qualità Accurata che non abbia Coppia, conferisce un bonus di +1 alla CA.</p><p><em><strong>Arma Flambata.</strong></em> Un'arma dotata di flambatura costa 250 mo addizionali, ottiene la qualità aristocratica e, mentre la si utilizza, la propria CA aumenta di 1.</p>",
       "chat": ""
     },
     "source": {
@@ -222,9 +222,9 @@
     "identified": true,
     "range": {
       "value": null,
-      "long": 18,
+      "long": null,
       "units": "m",
-      "reach": 6
+      "reach": null
     },
     "uses": {
       "max": "",
@@ -275,8 +275,7 @@
       "conditions": ""
     },
     "properties": [
-      "fin",
-      "lgt"
+      "fin"
     ],
     "proficient": 0,
     "unidentified": {

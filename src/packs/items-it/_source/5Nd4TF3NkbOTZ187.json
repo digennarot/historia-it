@@ -1,5 +1,5 @@
 {
-  "name": "pugnale",
+  "name": "Pugnale o Stiletto",
   "type": "weapon",
   "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una breve lama in metallo montata su un piccolo orlo e parafango. Il pugnale fa un efficace armamento laterale per guerrieri induriti o una lama nascosta per assassini e ladri.</p>\n<p><em><strong><span class=\"fontstyle0\">Incredibile.</span></strong></em><span class=\"fontstyle2\">Se l'arma è nascosta, tiri per rilevarla che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span> </p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>pugnale/Stiletto.</strong></em> </span><span class=\"fontstyle2\">Ci sono versioni di queste armi, vendute ad un prezzo elevato, che nascondono la loro forma in oggetti comuni come gioielli, coltelli o utensili comuni. Se ben fatto, non saranno identificati come tali, tranne con un controllo per studiarli effettuati con uno svantaggio.</span></span></p>",
+      "value": "<p><strong>Proprietà:</strong> Leggera, Occultabile, Speciale</p><p><em><strong>Occultabile.</strong></em> Un'arma di questo tipo ha dimensioni tali da essere facilmente nascosta tra le vesti, dando svantaggio ai tiri per individuarla. Un personaggio che usa un'arma occultabile può cercare di rimanere nascosto effettuando una prova con svantaggio.</p><p><em><strong>Pugnale/Stiletto.</strong></em> Esistono versioni di queste armi, vendute a caro prezzo, che nascondono la loro forma in oggetti di uso comune, come gioielli, soprammobili o attrezzi. Se l'oggetto creato per nascondere queste armi è di buona fattura, è quasi impossibile identificarne la sua vera natura, a meno che non si effettui una prova per studiarlo con svantaggio.</p>",
       "chat": ""
     },
     "source": {
@@ -196,8 +196,8 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 6,
-      "long": 18,
+      "value": null,
+      "long": null,
       "units": "m",
       "reach": null
     },
@@ -250,9 +250,7 @@
       "conditions": ""
     },
     "properties": [
-      "fin",
-      "lgt",
-      "thr"
+      "lgt"
     ],
     "proficient": 0,
     "unidentified": {

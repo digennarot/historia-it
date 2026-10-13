@@ -58,13 +58,8 @@ replacements = [
     (r"(?<=[a-zA-Z])<em\b", " <em"),
     (r"(?<=[a-zA-Z])<strong\b", " <strong"),
 
-    (r"\"value\": \"Ventura:", '"value": "Impresa:'),
-    (r"\"name\": \"Ventura:", '"name": "Impresa:'),
-    (r"\bVenturiero\b", "Avventuriero"),
     (r"\bConfraternita dei Morti\b", "Confraternita dei Mortificati"),
     (r"\bScoundrel Lavoro\b", "Lavoro della Canaglia"),
-    (r"\"name\": \"Truffatore\"", '"name": "Canaglia"'),
-    (r"\"name\": \"Furfante\"", '"name": "Ladro"'),
     (r"\"name\": \"Geniere\"", '"name": "Sminatore"'),
     (r"\"name\": \"Sminatore\"", '"name": "Geniere"'), # No wait, Geniere is probably correct. Let's not touch Sapper unless Need Games used something else. Actually 'Geniere' is a common and correct translation.
     (r"\bLe forniture di Alchemist\b", "Strumenti da Alchimista"),

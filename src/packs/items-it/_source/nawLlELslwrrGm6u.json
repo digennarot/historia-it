@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questo martello robusto è abbastanza piccolo da essere brandito agilmente o utilizzato in combinazione con un'altra arma.</p>",
+      "value": "<p><strong>Proprietà:</strong> Lancio (corta), Leggera</p>",
       "chat": ""
     },
     "source": {
@@ -188,7 +188,7 @@
       "units": "lb"
     },
     "price": {
-      "value": 5,
+      "value": 3,
       "denomination": "gp"
     },
     "attunement": "",
@@ -250,8 +250,8 @@
       "conditions": ""
     },
     "properties": [
-      "lgt",
-      "thr"
+      "thr",
+      "lgt"
     ],
     "proficient": 0,
     "unidentified": {

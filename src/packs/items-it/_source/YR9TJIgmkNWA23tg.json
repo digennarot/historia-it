@@ -199,7 +199,7 @@
   },
   "system": {
     "description": {
-      "value": "<p><em><strong><span class=\"fontstyle0\">Coppia.</span></strong></em><span class=\"fontstyle2\">Quando utilizzato come arma secondaria, insieme ad un'arma leggera o con la qualità Finesse che non ha Pair, dà un +1 bonus per CA.</span></p>\n<p><em><strong>Speciale.</strong></em><span class=\"fontstyle0\">Dopo essere mancato dall’attacco di una creatura, i personaggi a turno successivo hanno un vantaggio sugli attacchi e sui controlli per disarmare contro la stessa creatura.</span></p>",
+      "value": "<p><strong>Proprietà:</strong> Accurata, Coppia, Speciale</p><p><em><strong>Coppia.</strong></em> Se utilizzata come arma secondaria, insieme a un'arma leggera o con la qualità Accurata che non abbia Coppia, conferisce un bonus di +1 alla CA.</p><p><em><strong>Trilama.</strong></em> Se un personaggio che utilizza questa arma viene mancato dall'attacco di una creatura, nel turno successivo disporrà di vantaggio agli attacchi e alle prove relative a disarmare effettuate contro la stessa creatura.</p>",
       "chat": ""
     },
     "source": {
@@ -222,9 +222,9 @@
     "identified": true,
     "range": {
       "value": null,
-      "long": 18,
+      "long": null,
       "units": "m",
-      "reach": 6
+      "reach": null
     },
     "uses": {
       "max": "",
@@ -252,7 +252,7 @@
         "denomination": 4,
         "bonus": "",
         "types": [
-          "slashing"
+          "piercing"
         ],
         "custom": {
           "enabled": false,
@@ -275,8 +275,7 @@
       "conditions": ""
     },
     "properties": [
-      "fin",
-      "lgt"
+      "fin"
     ],
     "proficient": 0,
     "unidentified": {

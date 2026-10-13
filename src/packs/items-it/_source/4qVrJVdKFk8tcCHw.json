@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Questo arco a due mani è un po 'più piccolo della tradizionale variante longbow, che lo rende adatto per attacchi rapidi mentre in movimento o montato da cavallo.</p>",
+      "value": "<p><strong>Proprietà:</strong> Munizioni (lunga)</p>",
       "chat": ""
     },
     "source": {
@@ -197,7 +197,7 @@
     "identified": true,
     "range": {
       "value": 45,
-      "long": 177,
+      "long": 180,
       "units": "m",
       "reach": null
     },
@@ -250,8 +250,8 @@
       "conditions": ""
     },
     "properties": [
-      "two",
-      "amm"
+      "amm",
+      "two"
     ],
     "proficient": 0,
     "unidentified": {
@@ -332,7 +332,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

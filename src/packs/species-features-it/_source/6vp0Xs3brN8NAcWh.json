@@ -170,7 +170,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Quando cadi da un'altezza inferiore a 18 metri e non sei incapacitato, puoi effettuare un tiro salvezza su Destrezza con CD pari a 1 ogni 90 cm di caduta: se lo superi non subisci danni da caduta, altrimenti ne subisci la metà. Se cadi da più di 18 metri, puoi effettuare un tiro salvezza su Destrezza con CD 18 + 1 ogni 90 cm oltre i 18 metri per dimezzare i danni da caduta.</p>",
+      "value": "<p>Quando cadi da un'altezza inferiore a 18 metri e non sei incapacitato, puoi effettuare un tiro salvezza su Destrezza con CD pari al numero di metri della caduta: se lo superi non subisci danni da caduta, se lo fallisci ne subisci la metà. Se cadi da oltre 18 metri, puoi effettuare un tiro salvezza su Destrezza con CD 18 + 1 per ogni metro oltre il diciottesimo: se lo superi, dimezzi i danni da caduta.</p>",
       "chat": ""
     },
     "source": {

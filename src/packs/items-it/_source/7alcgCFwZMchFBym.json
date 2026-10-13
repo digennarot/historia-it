@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una lama a mezzaluna montata su un albero spesso avvolto in una presa robusta. Questa ascia è abbastanza grande da essere affilata con due mani ed è ornata con punte sul lato posteriore della lama e la parte superiore dell'albero.</p>",
+      "value": "<p><strong>Proprietà:</strong> Versatile (1d10)</p>",
       "chat": ""
     },
     "source": {
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 10,
         "bonus": "",
-        "types": [],
+        "types": [
+          "slashing"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

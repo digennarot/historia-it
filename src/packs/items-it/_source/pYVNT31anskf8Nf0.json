@@ -1,5 +1,5 @@
 {
-  "name": "Grande spada",
+  "name": "Spadone",
   "type": "weapon",
   "img": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
   "effects": [],
@@ -189,7 +189,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una potente lama a due mani è lunga più di 1,2 metri, larga quasi cinque centimetri. Quest'arma richiede un'ampia formazione marziale, ma coloro che ne fanno uso sono guerrieri formidabili.</p>",
+      "value": "<p><strong>Proprietà:</strong> Due Mani, Pesante</p><p><em><strong>Arma Flambata.</strong></em> Un'arma dotata di flambatura costa 250 mo addizionali, ottiene la qualità aristocratica e, mentre la si utilizza, la propria CA aumenta di 1.</p>",
       "chat": ""
     },
     "source": {
@@ -265,8 +265,8 @@
       "conditions": ""
     },
     "properties": [
-      "hvy",
-      "two"
+      "two",
+      "hvy"
     ],
     "proficient": 0,
     "unidentified": {

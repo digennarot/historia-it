@@ -1,5 +1,5 @@
 {
-  "name": "Martello di guerra",
+  "name": "Martello d'Armi",
   "type": "weapon",
   "img": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un martello metallico pesante in grado di essere dotato di una singola mano con uno scudo o in due mani per fornire colpi concussivi schiaccianti.</p>",
+      "value": "<p><strong>Proprietà:</strong> Versatile (1d10)</p>",
       "chat": ""
     },
     "source": {
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 10,
         "bonus": "",
-        "types": [],
+        "types": [
+          "bludgeoning"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

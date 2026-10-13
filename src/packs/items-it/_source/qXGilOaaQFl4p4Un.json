@@ -1,5 +1,5 @@
 {
-  "name": "Piccola spada",
+  "name": "Spadino",
   "type": "weapon",
   "img": "icons/weapons/swords/sword-guard-worn-purple.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una lama di medie dimensioni con un fermo parafango e un manico in pelle. Un'arma versatile che si compone di versatilità ciò che manca a portata di mano.</p>\n<p><span class=\"fontstyle0\"><em><strong>Incredibile.</strong></em> </span><span class=\"fontstyle2\">Se l'arma è nascosta, tiri per rilevarla che ha uno svantaggio e l'utente può cercare di rimanere nascosto eseguendo un controllo con svantaggio.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Aristocratico:</strong></em> </span><span class=\"fontstyle2\">armi e armature con questa proprietà sono indicative di una certa posizione nella società o almeno ricchezza. Indossarli implica un alto status sociale, per meglio o per peggio.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\"/></span></p>",
+      "value": "<p><strong>Proprietà:</strong> Aristocratica, Leggera, Occultabile</p><p><em><strong>Aristocratica.</strong></em> Le armi e le armature con questa proprietà sono finemente decorate od ornate di cesellature, e indicano che chi le indossa gode di una certa posizione sociale, o quanto meno di una cospicua ricchezza. Sfoggiarle implica il mettere in mostra un alto status nella società, nel bene o nel male.</p><p><em><strong>Occultabile.</strong></em> Un'arma di questo tipo ha dimensioni tali da essere facilmente nascosta tra le vesti, dando svantaggio ai tiri per individuarla. Un personaggio che usa un'arma occultabile può cercare di rimanere nascosto effettuando una prova con svantaggio.</p>",
       "chat": ""
     },
     "source": {
@@ -196,7 +196,7 @@
     "rarity": "common",
     "identified": true,
     "range": {
-      "value": 1.5,
+      "value": null,
       "long": null,
       "units": "m",
       "reach": null
@@ -257,7 +257,7 @@
       "description": ""
     },
     "type": {
-      "value": "simpleR",
+      "value": "simpleM",
       "baseItem": ""
     },
     "container": null,
@@ -366,7 +366,7 @@
     "modifiedTime": 1760898716542,
     "lastModifiedBy": "ooYIsT0x1xXIjRa6"
   },
-  "folder": "eC9KCLJqTxNgBYEC",
+  "folder": "23WFT4t6kcUEnSNW",
   "ownership": {
     "default": 0
   },

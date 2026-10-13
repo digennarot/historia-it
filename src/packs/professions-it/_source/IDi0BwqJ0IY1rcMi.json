@@ -50,7 +50,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -72,7 +72,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -99,7 +99,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -126,39 +126,12 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
         "level": 3,
         "title": "Sottoclasse"
-      },
-      {
-        "_id": "zn1xguSSjYhNavvE",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.T9qUqb0Qnytkz9vh",
-              "optional": false
-            }
-          ],
-          "optional": false,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "Preparato": 0
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "Aumento dei Punteggi di Caratteristica o Talento"
       },
       {
         "_id": "jJcywnRJWxVCPWjE",
@@ -180,7 +153,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -237,7 +210,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -264,34 +237,12 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
         "level": 7,
         "title": "Privilegio"
-      },
-      {
-        "_id": "Hv44rkkXKkIF2lJe",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "Preparato": 0
-          }
-        },
-        "value": {},
-        "level": 7,
-        "title": "Aumento dei Punteggi di Caratteristica o Talento"
       },
       {
         "_id": "ukRoe227Twk7riLy",
@@ -313,7 +264,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -340,7 +291,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -367,34 +318,12 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
         "level": 14,
         "title": "Privilegio"
-      },
-      {
-        "_id": "npo7NYaBHOScR1fX",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "Preparato": 0
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "Aumento dei Punteggi di Caratteristica o Talento"
       },
       {
         "_id": "zg9jkPTb9bbD11qt",
@@ -416,34 +345,12 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
         "level": 15,
         "title": "Privilegio"
-      },
-      {
-        "_id": "2zsDmWJdEESF3irM",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "Preparato": 0
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "Aumento dei Punteggi di Caratteristica o Talento"
       },
       {
         "_id": "j4norJHHIRcHaZut",
@@ -460,34 +367,12 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
         "level": 17,
         "title": "Letalità ×4"
-      },
-      {
-        "_id": "7mzk8BQ2EBjE3RNP",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "Preparato": 0
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "Aumento dei Punteggi di Caratteristica o Talento"
       },
       {
         "_id": "Eac889V76bSARRss",
@@ -504,7 +389,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -531,7 +416,7 @@
               "per": "",
               "requireSlot": false
             },
-            "Preparato": 0
+            "prepared": 0
           }
         },
         "value": {},
@@ -588,6 +473,130 @@
         "value": {
           "chosen": []
         }
+      },
+      {
+        "_id": "oSBqxr9lXdBPYQie",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "zk2WXYbTwxPbWLDq",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "sASunOKJ2BgSPHXb",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "cWBrzoHrmZ3QMs97",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "ljtdemdy0sQ3eIss",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "DSMu65SoLXja5ygt",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
       }
     ],
     "spellcasting": {

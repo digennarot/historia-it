@@ -1,5 +1,5 @@
 {
-  "name": "Luce balestra",
+  "name": "Balestra Leggera",
   "type": "weapon",
   "img": "icons/weapons/crossbows/crossbow-ornamental-winged.webp",
   "effects": [],
@@ -174,11 +174,11 @@
   },
   "system": {
     "description": {
-      "value": "<p>Un piccolo balestra con una poppa di legno e un cordone teso che è in grado di sparare un singolo bullone che può perforare anche armature pesanti a distanza ravvicinata.</p>",
+      "value": "<p><strong>Proprietà:</strong> Munizioni (lunga), Ricarica</p>",
       "chat": ""
     },
     "source": {
-      "custom": "PHB pg. 149",
+      "custom": "Historia Manuale pagina: 245",
       "revision": 1,
       "rules": "2014"
     },
@@ -197,7 +197,7 @@
     "identified": true,
     "range": {
       "value": 45,
-      "long": 177,
+      "long": 180,
       "units": "m",
       "reach": null
     },
@@ -250,7 +250,6 @@
       "conditions": ""
     },
     "properties": [
-      "lgt",
       "amm",
       "lod"
     ],
@@ -333,7 +332,7 @@
           },
           "flat": false,
           "type": {
-            "value": "a distanza",
+            "value": "ranged",
             "classification": "weapon"
           }
         },

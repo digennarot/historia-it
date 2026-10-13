@@ -1,5 +1,5 @@
 {
-  "name": "Bastardo spada",
+  "name": "Spada Bastarda",
   "type": "weapon",
   "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
   "effects": [],
@@ -174,7 +174,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una lunga lama asta progettata per schizzire i nemici, la longsword è un'arma altamente versatile che può anche essere acconciata con due mani per colpi più pungenti.</p>",
+      "value": "<p><strong>Proprietà:</strong> Versatile (1d10)</p><p><em><strong>Arma Flambata.</strong></em> Un'arma dotata di flambatura costa 250 mo addizionali, ottiene la qualità aristocratica e, mentre la si utilizza, la propria CA aumenta di 1.</p>",
       "chat": ""
     },
     "source": {
@@ -211,7 +211,9 @@
         "number": 1,
         "denomination": 10,
         "bonus": "",
-        "types": [],
+        "types": [
+          "slashing"
+        ],
         "custom": {
           "enabled": false,
           "formula": ""

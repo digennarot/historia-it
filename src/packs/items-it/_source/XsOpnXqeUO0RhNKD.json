@@ -1,5 +1,5 @@
 {
-  "name": "Blocco",
+  "name": "Serratura",
   "type": "consumable",
   "img": "icons/sundries/misc/lock-steel-blue.webp",
   "effects": [],
@@ -79,7 +79,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Una chiave è fornita con la serratura. Senza la chiave, una creatura competente con gli strumenti dei ladri può scegliere questa serratura con un controllo di Destrezza CD 15 di successo. Il DM può decidere che le serrature migliori sono disponibili per prezzi più elevati.</p>",
+      "value": "<p>Insieme alla serratura viene fornita una chiave. Senza la chiave, una creatura competente con gli attrezzi da ladro può scassinare questa serratura superando una prova di Destrezza con CD 15. Il GM può decidere che per cifre maggiori sono disponibili serrature di qualità migliore.</p>",
       "chat": ""
     },
     "source": {
