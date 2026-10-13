@@ -7,6 +7,18 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.36] - 2026-10-13
+
+### Added
+- Ritratti di **Adelaide da Rossariva** e **Agata Galerici** nel diario e
+  nell'attore (immagine e token): ora tutti i 46 personaggi hanno il ritratto.
+
+### Fixed
+- Icone sbagliate (quadrato scuro con il nome scritto) su 15 voci, tra cui
+  **Carriera: Artigiano**: il modulo conteneva 24 icone segnaposto con lo
+  stesso percorso delle icone di Foundry, che le sostituivano. Rimosse: ora
+  si vedono le icone originali di Foundry.
+
 ## [1.0.35] - 2026-10-13
 
 ### Added
