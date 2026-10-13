@@ -7,6 +7,8 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.35] - 2026-10-13
+
 ### Added
 - **Ritratti dei Personaggi di Historia**: 44 personaggi del cap. 10 hanno
   ora il ritratto del manuale come prima pagina del diario (Paddath e
