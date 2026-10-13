@@ -1,0 +1,55 @@
+{
+  "name": "Avversari",
+  "flags": {
+    "core": {}
+  },
+  "pages": [
+    {
+      "name": "Avversari",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>I quattro profili di avversari base rappresentano i possibili ruoli all'interno di un incontro di combattimento strutturato, definiti come assaltatore, esperto, guardiano e incantatore.</p><ul><li><strong>Assaltatore.</strong> Armatura leggera, attacchi in mischia e a distanza</li><li><strong>Esperto.</strong> Armatura leggera, attacchi in mischia e a distanza, controllo</li><li><strong>Guardiano.</strong> Armatura media/pesante, attacchi in mischia</li><li><strong>Incantatore.</strong> Senza armatura, magie a distanza, controllo</li></ul><h2>ASSALTATORE</h2><p><strong>Classe armatura</strong> 14</p><p><strong>Indebolimenti</strong> 2 [svantaggio] [morte]</p><p><strong>Velocità</strong> 9m</p><p><strong>Abilità</strong> [2 abilità] +3</p><p><strong>Punto debole</strong> [1 caratteristica] -1</p><p><strong>Tattiche di guerriglia.</strong> Se il bersaglio di un attacco è entro 1,5m da un alleato, l'assaltatore ha vantaggio agli attacchi contro il bersaglio.</p><h3>Azioni</h3><p><strong>Attacco in mischia.</strong> +4 al colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 5 (1d6 + 2) danni perforanti/taglienti/contundenti.</p><p><strong>Attacco a distanza.</strong> +4 al colpire, gittata 30m, un bersaglio. <em>Colpito:</em> 5 (1d6 + 2) danni perforanti/taglienti/contundenti.</p><h2>ESPERTO</h2><p><strong>Classe armatura</strong> 12</p><p><strong>Indebolimenti</strong> 2 [svantaggio] [morte]</p><p><strong>Velocità</strong> 9m</p><p><strong>Abilità</strong> [4 abilità] +3</p><p><strong>Punto debole</strong> [1 caratteristica] -1</p><p><strong>Trucchi del mestiere.</strong> Se l'esperto effettua un attacco o una prova di caratteristica con successo, un avversario avrà svantaggio alla sua prossima prova di abilità o al suo prossimo attacco.</p><h3>Azioni</h3><p><strong>Attacco in mischia.</strong> +3 al colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 4 (1d6 + 1) danni perforanti/taglienti/contundenti.</p><p><strong>Attacco a distanza.</strong> +3 al colpire, gittata 30m, un bersaglio. <em>Colpito:</em> 4 (1d6 + 1) danni perforanti/taglienti/contundenti.</p><h2>GUARDIANO</h2><p><strong>Classe armatura</strong> 17</p><p><strong>Indebolimenti</strong> 2 [svantaggio] [morte]</p><p><strong>Velocità</strong> 9m</p><p><strong>Abilità</strong> [3 abilità] +3</p><p><strong>Punto debole</strong> [1 caratteristica] -1</p><p><strong>Controllo del campo di battaglia.</strong> Se il guardiano colpisce con un attacco di opportunità, recupera la reazione alla fine del turno e la velocità del bersaglio si riduce a 0 fino alla fine del turno successivo del guardiano.</p><h3>Azioni</h3><p><strong>Attacco in mischia.</strong> +3 al colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 4 (1d6 + 1) danni perforanti/taglienti/contundenti.</p><p><strong>Attacco a distanza.</strong> +3 al colpire, gittata 30m, un bersaglio. <em>Colpito:</em> 4 (1d6 + 1) danni perforanti/taglienti/contundenti.</p><h2>INCANTATORE</h2><p><strong>Classe armatura</strong> 11</p><p><strong>Indebolimenti</strong> 2 [svantaggio] [morte]</p><p><strong>Velocità</strong> 9m</p><p><strong>Abilità</strong> [4 abilità] +3</p><p><strong>Punto debole</strong> [1 caratteristica] -1</p><p><strong>Maleficio.</strong> Se l'incantatore colpisce con un attacco, può non infliggere danno ma maledire il bersaglio, aumentando di 1d6 tutti i danni che subisce.</p><h3>Azioni</h3><p><strong>Stretta folgorante.</strong> +3 al colpire, portata 1,5m, un bersaglio. <em>Colpito:</em> 4 (1d8) danni fulmine e il bersaglio perde la propria reazione.</p><p><strong>Saetta di fuoco.</strong> +3 al colpire, gittata 30m, un bersaglio. <em>Colpito:</em> 5 (1d10) danni fuoco.</p><h2>PERSONALIZZAZIONI</h2><p>Ogni gruppo di avversari ha delle caratterizzazioni dipendenti dalla loro origine e dalla loro familia. Prendono una regola da un tratto della familia e una qualità speciale adeguata per rappresentare la loro fazione.</p><h2>LIVELLI DI INDEBOLIMENTO</h2><p>A differenza dei personaggi giocanti, gli avversari non hanno punti ferita, se non diversamente esplicitato, e quando vengono colpiti subiscono direttamente un livello di indebolimento, ma con il primo dispongono di svantaggio a tutte le prove, gli attacchi e i tiri salvezza, e al secondo sono morti.</p><h2>RANGO</h2><p>Incrementare il rango di un avversario significa renderlo più efficace e una sfida più adeguata per avventurieri di livello più elevato senza dargli caratterizzazioni particolari.</p><p>I profili presentati sono pensati per rango 1 (livello 1-4). Ogni incremento di rango prevede:</p><ul><li>un dado extra di danno e un +1 al danno per tutti gli attacchi</li><li>un +2 ai tiri per colpire e alle prove di abilità con competenza</li><li>un +1 alla classe armatura</li></ul><p>Un assaltatore di rango 3 avrà quindi CA 16, i suoi attacchi avranno +8 al tiro per colpire e infliggeranno 3d6+3 danni.</p><h2>AVVERSARI SUPERIORI</h2><p>I profili sopra presentati rappresentano le caratteristiche essenziali di un avversario base che non abbia bisogno di particolari personalizzazioni. È possibile però avere un profilo per delle bande di avversari o per personaggi di spessore.</p><h3>BANDE</h3><p>Una banda è un gruppo significativamente più numeroso del gruppo di personaggi ma composto da personaggi non rilevanti nell'economia della storia e che viene quindi gestito come un'unica entità.</p><p>Per creare una banda bisogna:</p><ul><li>incrementare di uno il rango del profilo</li><li>assegnargli 15 punti ferita per rango</li></ul><p>Una banda non avrà un turno proprio, ma potrà effettuare un'azione alla fine del turno di ciascun personaggio giocante. Quando la banda avrà perso tutti i propri punti ferita segnerà un livello di indebolimento e recupererà tutti i punti ferita: narrativamente di solito corrisponde al primo membro della banda ucciso o vistosamente ferito, a simboleggiare che la coesione e il morale cominciano a scarseggiare.</p><h3>PERSONAGGI DI SPESSORE</h3><p>Alcuni personaggi sono effettivamente rilevanti per la storia e meritano qualche tratto in più. Per creare rapidamente personaggi del genere scegliere uno dei quattro profili, dargli il rango appropriato, assegnargli 35 punti ferita per rango, un ideale, un legame e un difetto e fino tre qualità speciali che lo caratterizzino.</p><h3>NESSUNO VUOLE DAVVERO MORIRE</h3><p>Ricordate sempre che nessuno in realtà vuole davvero arrivare a farsi ammazzare: quando il sangue comincia a bagnare il terreno e la morte è prossima non sono poi così tante le persone che rimangono a combattere e si scopre che gli eroi diventano famosi, ma i vigliacchi spesso vivono molto, molto più a lungo. Ciò che potrebbe spezzare la fermezza e far prendere il sopravvento alla paura è qualcosa che andrebbe definito il più spesso possibile, anche per dare un valore quando un avversario è infiammato dalla passione e pronto a morire per essa.</p><h2>SPESA DI AVVERSITÀ</h2><p>Le possibili spese di avversità per modificare un incontro con avversari sono:</p><ul><li><strong>Incrementare di 1 il grado di tutti i componenti dello scontro (per avventure da tier 2 in su):</strong> tutti i componenti dello scontro incrementano di +2 il tiro per colpire e le prove di abilità e raddoppiano i dadi di danno dei loro attacchi. Se hanno punti ferita, li raddoppiano.</li><li><strong>Assegnare un profilo maggiore a un avversario:</strong>  l'avversario incrementa i dadi dei propri danni di 1, guadagna 25 punti ferita e aggiunge una qualità speciale.</li><li><strong>Assegnare un profilo superiore a un avversario (2 avversità):</strong> l'avversario incrementa i dadi dei propri danni di 1, guadagna 50 punti ferita, aggiunge una qualità speciale, guadagna 2 usi di tempra leggendaria ed effettua una seconda azione a iniziativa 13.</li></ul><h2>QUALITÀ SPECIALI</h2><p>Gli avversari possono avere qualità speciali per distinguersi e incrementare la propria pericolosità durante un incontro. Di seguito una lista di possibili qualità speciali per gli avversari:</p><ul><li><strong>Alchimista:</strong> gli avversari di questo profilo sono alchimisti e possono effettuare processi alchemici basilari/cicli da 2/cicli da 3/cicli da 4 o inferiori a seconda del rango</li><li><strong>Armi da fuoco:</strong> l'avversario ha un'arma da fuoco. Quando la utilizza tira un dado di danno in più e se fa critico infligge 1d6 livelli di indebolimento.</li><li><strong>Difensivo:</strong> con una reazione può aumentare le CA di 2/3/4/5 a seconda del rango contro il prossimo attacco che riceverebbe.</li><li><strong>Equipaggiamento speciale:</strong> gli avversari con questo profilo hanno un equipaggiamento tipico della propria fazione</li><li><strong>Leader:</strong> gli avversari con questa qualità possono utilizzare un'azione bonus per assegnare 8/16/30/50 punti ferita temporanei a seconda del rango a tutti gli alleati.</li><li><strong>Letale:</strong> gli attacchi di un avversario letale infliggono un dado della stessa taglia in più del normale.</li><li><strong>Magus:</strong> gli avversari di questo profilo sono magi: conoscono 3 incantesimi di livello massimo pari a 2/5/6/9 a seconda del rango e possono lanciare 3 incantesimi prima di un riposo.</li><li><strong>Mortificato:</strong> gli avversari di questo profilo sono mortificati, ignorano la prima ferita, quando vengono feriti i loro danni incrementano a 1d12 e guadagnano vantaggio alle prove anziché svantaggio.</li><li><strong>Resiliente:</strong> un avversario con questa qualità ignora il primo livello di affaticamento che subirebbe.</li><li><strong>Tattico:</strong> un avversario con questo tratto ha vantaggio ai tiri per colpire contro bersagli entro 1,5m da un suo alleato.</li><li><strong>Veleno:</strong> le armi, escluse quelle da fuoco, dell'avversario sono cosparse di veleno e quando infliggono danno, se non viene superato un tiro salvezza di Costituzione con CD 12/14/16/18 a seconda del rango, fanno subire lo status avvelenato per 1 minuto per rango.</li></ul><h2>VEDI ANCHE</h2><ul><li>@Compendium[historia-it.rules-it.AvventureRegol01]{Avventure e Sequenze}</li></ul>"
+      },
+      "_id": "AvversariRegolP1",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791851724318,
+    "modifiedTime": 1791851724318,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "categories": [],
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "AvversariRegol01",
+  "sort": 400000
+}

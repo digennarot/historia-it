@@ -33,6 +33,8 @@ const LABEL_TRANSLATIONS = {
     "professions": "Mestieri",
     "species-features": "Tratti di Specie",
     "spells": "Incantesimi",
+    "rules": "Regole",
+    "characters": "Personaggi di Historia",
     "historia-factions": "Fazioni (Historia)",
     "items-historia": "Oggetti (Historia)",
     "spells-historia": "Incantesimi (Historia)"
@@ -226,8 +228,9 @@ async function main() {
         const entryFiles = (await fs.readdir(sourceDir)).filter(f => f.endsWith(".json"));
         if (entryFiles.length === 0) continue;
 
-        // Peek at first file to determine type
-        const firstEntry = await readJson(path.join(sourceDir, entryFiles[0]));
+        // Peek at the first non-folder file to determine type
+        const firstFile = entryFiles.find(f => !f.startsWith("folder-")) ?? entryFiles[0];
+        const firstEntry = await readJson(path.join(sourceDir, firstFile));
         const pack_type = firstEntry.pages ? "JournalEntry" : "Item"; // Simple detection based on content
         const collection = TYPE_TO_COLLECTION[pack_type] || "items";
 
@@ -281,8 +284,9 @@ async function main() {
 
     // Ordine dei pack e cartelle colorate nella barra dei compendi (packFolders, Foundry v11+)
     const PACK_GROUPS = [
+        { name: "Regole", color: "#8d6e63", packs: ["rules"] },
         { name: "Personaggio", color: "#2e7d32", packs: ["species", "species-features", "ventures", "professions", "profession-features"] },
-        { name: "Mondo", color: "#1565c0", packs: ["factions", "factions-and-careers"] },
+        { name: "Mondo", color: "#1565c0", packs: ["factions", "factions-and-careers", "characters"] },
         { name: "Equipaggiamento e Magia", color: "#6a1b9a", packs: ["items", "spells"] }
     ];
     const PACK_NAME = n => packs.find(p => p.name === n || p.name === `${n}-it`)?.name;
