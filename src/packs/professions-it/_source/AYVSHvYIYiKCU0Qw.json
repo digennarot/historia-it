@@ -404,6 +404,31 @@
         }
       },
       {
+        "_id": "pH3OmJNDVHrotYoS",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "W1ouTmKxxFfkCbvI",
         "type": "AbilityScoreImprovement",
         "configuration": {

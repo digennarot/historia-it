@@ -85,7 +85,27 @@
               "pool": [
                 "tool:art:*"
               ]
-            },
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "hrH0lL6G3cDDw6bF",
+        "type": "Trait",
+        "level": 0,
+        "title": "Mano Abile",
+        "hint": "",
+        "configuration": {
+          "mode": "forcedExpertise",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
             {
               "count": 1,
               "pool": [
@@ -96,10 +116,7 @@
         },
         "value": {
           "chosen": []
-        },
-        "level": 0,
-        "title": "",
-        "hint": ""
+        }
       },
       {
         "_id": "4bg2WuaoyMrZ0v8p",

@@ -81,59 +81,55 @@
         "title": "Privilegio"
       },
       {
-        "_id": "nw5sHZLRtcEAmowd",
-        "type": "ItemGrant",
+        "_id": "S4t3DaF3jQDAvXdi",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Scegli il tuo primo Segreto",
+        "hint": "",
         "configuration": {
-          "items": [
+          "allowDrops": false,
+          "type": "feat",
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.P0gKbjFhNLMjueyH",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.P0gKbjFhNLMjueyH"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.KHIOGDuCr7S3pHoR",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.KHIOGDuCr7S3pHoR"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.fvhrNl3dDlra678e",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.fvhrNl3dDlra678e"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.fxZbW4CYP7W81IxY",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.fxZbW4CYP7W81IxY"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.tynFJ3V1sX7dIni0",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.tynFJ3V1sX7dIni0"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.b2ypf16KALF7jMbB",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.b2ypf16KALF7jMbB"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.xNCGXMonq0Q1uo82",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.xNCGXMonq0Q1uo82"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.m5vhSbBcGFuBsWKn",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.m5vhSbBcGFuBsWKn"
             }
           ],
-          "optional": true,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "prepared": 0
-          }
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
         },
-        "value": {},
-        "level": 1,
-        "title": "Scegli il tuo primo Segreto"
+        "value": {}
       },
       {
         "_id": "w2P2JNoZvpFucXML",
@@ -1718,6 +1714,29 @@
           "grants": []
         },
         "_id": "dCzYBswDMdYRpdo6",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "k3pg648soBH1gYqw",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in balestre leggere, bastoni ferrati, dardi, fionde, pugnali e spadini.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
         "value": {
           "chosen": []
         }

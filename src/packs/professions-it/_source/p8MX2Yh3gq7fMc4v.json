@@ -404,6 +404,30 @@
         }
       },
       {
+        "_id": "6yUx7tzTfauCFwsO",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Le armi da fuoco rientrano nelle armi da guerra: se la tua arma da fuoco non risulta tale, annota a mano la competenza.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl",
+            "weapon:sim",
+            "weapon:mar",
+            "tool:art:smith",
+            "tool:art:tinker"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "Y9mCI2TQSFyIc69d",
         "type": "AbilityScoreImprovement",
         "configuration": {

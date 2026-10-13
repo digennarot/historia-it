@@ -814,6 +814,26 @@
         }
       },
       {
+        "_id": "bKHYbJHx3AhldoxB",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "weapon:sim"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "TrxEfFsBj8VQmSYj",
         "type": "AbilityScoreImprovement",
         "configuration": {

@@ -845,6 +845,25 @@
         }
       },
       {
+        "_id": "GwQo4hKAykIIGSgS",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza nel mazzafrusto.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "5aGfSuyopoTe4y2G",
         "type": "AbilityScoreImprovement",
         "configuration": {

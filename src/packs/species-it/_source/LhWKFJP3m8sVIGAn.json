@@ -82,7 +82,27 @@
                 "skills:acr",
                 "skills:ath"
               ]
-            },
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "UWc2DUShfdmek49P",
+        "type": "Trait",
+        "level": 0,
+        "title": "Giocatore",
+        "hint": "",
+        "configuration": {
+          "mode": "forcedExpertise",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
             {
               "count": 1,
               "pool": [
@@ -93,10 +113,7 @@
         },
         "value": {
           "chosen": []
-        },
-        "level": 0,
-        "title": "",
-        "hint": ""
+        }
       },
       {
         "_id": "9l56Ky1Xe8sciQdT",

@@ -13,6 +13,31 @@
     },
     "advancement": [
       {
+        "_id": "jRORkbecd8UmrU80",
+        "type": "Trait",
+        "level": 0,
+        "title": "Competenza",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:calligrapher",
+                "tool:art:painter",
+                "tool:music:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "EJkakfOZ2gdrD8Qp",
         "type": "ItemGrant",
         "configuration": {

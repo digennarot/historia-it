@@ -13,6 +13,39 @@
     },
     "advancement": [
       {
+        "_id": "bSJBcczl3Boghi3w",
+        "type": "Trait",
+        "level": 0,
+        "title": "Competenza",
+        "hint": "Se scegli un'arma, annota a mano la competenza nell'arma di Historia corrispondente, perché le armi di Historia non sono collegate alle armi base di dnd5e.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:*",
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:vehicle:water",
+                "tool:vehicle:land",
+                "tool:art:calligrapher"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "EJkakfOZ2gdrD8Qp",
         "type": "ItemGrant",
         "configuration": {

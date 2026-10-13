@@ -359,55 +359,52 @@
         "title": "Azione Impetuosa"
       },
       {
-        "_id": "h0q2UQhS6iun067m",
-        "type": "ItemGrant",
+        "_id": "tg1fiTWg3RFf9SrB",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Stile di Combattimento (scegline uno)",
+        "hint": "",
         "configuration": {
-          "items": [
+          "allowDrops": false,
+          "type": "feat",
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.lPeCtPEnKlFMUdxu",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.lPeCtPEnKlFMUdxu"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.eKT2LGykiE08n8FK",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.eKT2LGykiE08n8FK"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.wGrx92D3YkhQ1sWZ",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.wGrx92D3YkhQ1sWZ"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.EeqiOqCOat1XQjGA",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.EeqiOqCOat1XQjGA"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.pvUjKQwwzcmCfbP1",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.pvUjKQwwzcmCfbP1"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.5r39IBzG3envJDxa",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.5r39IBzG3envJDxa"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.VIjDxkdNmL85tbjA",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.VIjDxkdNmL85tbjA"
             }
           ],
-          "optional": true,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "prepared": 0
-          }
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
         },
-        "value": {},
-        "level": 1,
-        "title": "Stile di Combattimento (scegline uno)"
+        "value": {}
       },
       {
         "_id": "Svbt2ki9QaC3gbEh",
@@ -511,6 +508,29 @@
           "grants": []
         },
         "_id": "ojGJMnVqC0MDTDEa",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "TDYYto5sw463hYJe",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "armor:shl",
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "choices": []
+        },
         "value": {
           "chosen": []
         }

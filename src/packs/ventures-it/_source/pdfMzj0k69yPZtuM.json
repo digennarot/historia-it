@@ -13,6 +13,30 @@
     },
     "advancement": [
       {
+        "_id": "FqICqWgHRFeWEGz0",
+        "type": "Trait",
+        "level": 0,
+        "title": "Competenza",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*",
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "EJkakfOZ2gdrD8Qp",
         "type": "ItemGrant",
         "configuration": {

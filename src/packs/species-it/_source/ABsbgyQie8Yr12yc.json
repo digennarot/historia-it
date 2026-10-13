@@ -75,14 +75,7 @@
           "grants": [
             "skills:sur"
           ],
-          "choices": [
-            {
-              "count": 1,
-              "pool": [
-                "tool:art:*"
-              ]
-            }
-          ]
+          "choices": []
         },
         "value": {
           "chosen": []
@@ -90,6 +83,29 @@
         "level": 0,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "iBWsCjqypzav4cWZ",
+        "type": "Trait",
+        "level": 0,
+        "title": "Mano Abile",
+        "hint": "",
+        "configuration": {
+          "mode": "forcedExpertise",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
       },
       {
         "_id": "2yXrQj58GlHHrJE5",

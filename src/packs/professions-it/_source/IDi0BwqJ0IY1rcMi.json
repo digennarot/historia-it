@@ -475,6 +475,27 @@
         }
       },
       {
+        "_id": "bzT3D8C8QyVJCC8j",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in sciabola, spada, spada da lato e striscia, e il linguaggio in codice della tua associazione (qui reso come Gergo dei Ladri).",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim",
+            "tool:thief",
+            "languages:exotic:cant"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "oSBqxr9lXdBPYQie",
         "type": "AbilityScoreImprovement",
         "configuration": {
