@@ -4,6 +4,7 @@
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
+import { SPELL_LIST_JOURNAL, SPELL_COL, MULTI, OTHER, levelName, mestieriBySpell, topFolderName } from "./spell-lists.mjs";
 
 const ROOT = path.dirname(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1")));
 const DRY = process.argv.includes("--dry");
@@ -129,8 +130,14 @@ organize("species-features-it", j => {
 });
 
 // ---------- Incantesimi ----------
-const SPELL_COL = ["#9e9e9e", "#4caf50", "#009688", "#03a9f4", "#3f51b5", "#9c27b0", "#e91e63", "#f44336", "#ff9800", "#ffc107"];
-organize("spells-it", j => { const l = j.system.level ?? 0; return { path: [{ name: l === 0 ? "Trucchetti" : `${l}° livello`, color: SPELL_COL[l], sorting: "a", sort: l }] }; });
+// Mestiere › Livello, derivato dalle pagine "spells" di rules-it (CAP-8); "Più mestieri" se in 2+ liste, "Altre liste" se in nessuna.
+const SPELL_LISTS = mestieriBySpell(readJson(path.join(SRC("rules-it"), `${SPELL_LIST_JOURNAL}.json`)));
+const SPELL_TOP = [...new Set([...SPELL_LISTS.values()].flat())].sort((a, b) => classOrder.indexOf(a) - classOrder.indexOf(b));
+organize("spells-it", j => {
+  const l = j.system.level ?? 0, top = topFolderName(SPELL_LISTS.get(j._id));
+  const sort = top === MULTI ? SPELL_TOP.length : top === OTHER ? SPELL_TOP.length + 1 : SPELL_TOP.indexOf(top);
+  return { path: [{ name: top, color: COL[top] ?? COL.comuni, sorting: "m", sort }, { name: levelName(l), color: SPELL_COL[l], sorting: "a", sort: l }] };
+});
 
 // ---------- Equipaggiamento ----------
 const W = { simpleM: ["Armi semplici da mischia", 0], simpleR: ["Armi semplici a distanza", 1], martialM: ["Armi da guerra da mischia", 2], martialR: ["Armi da guerra a distanza", 3], natural: ["Armi naturali", 4] };

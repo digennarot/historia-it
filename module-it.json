@@ -28,5 +28,14 @@
   "download": "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
   "esmodules": [
     "scripts/main.js"
-  ]
+  ],
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesMagus001",
+        "Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesMortif01",
+        "Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesSacerd01"
+      ]
+    }
+  }
 }
