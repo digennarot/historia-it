@@ -7,6 +7,22 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.37] - 2026-10-14
+
+### Added
+- **Liste degli incantesimi per mestiere**: nuovo diario *Liste degli
+  incantesimi* nel compendio Regole, con le liste di **Magus**, **Mortificato**
+  e **Sacerdote** registrate in dnd5e. Il compendio Incantesimi è ora diviso
+  per mestiere e livello.
+- **Fonte "Historia" nel browser dei compendi**: tutto il contenuto del modulo
+  compare sotto la fonte *Historia – Manuale Base*, quindi specie, mestieri,
+  sottoclassi e venture si possono filtrare per fonte. Il browser salta anche i
+  compendi che non contengono la categoria aperta.
+
+### Fixed
+- Lo sfondo della pagina di accesso e del mondo non veniva applicato con
+  Foundry 14 (errore a ogni avvio del GM): ora si imposta correttamente.
+
 ## [1.0.36] - 2026-10-13
 
 ### Added
