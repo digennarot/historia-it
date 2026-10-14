@@ -236,8 +236,8 @@
         "_id": "bzT3D8C8QyVJCC8j",
         "type": "Trait",
         "level": 1,
-        "title": "Competenze",
-        "hint": "Annota a mano la competenza in sciabola, spada, spada da lato e striscia, e il linguaggio in codice della tua associazione (qui reso come Gergo dei Ladri).",
+        "title": "Proficiencies",
+        "hint": "Record by hand your proficiency with sabers, swords, side-swords, and dueling swords, and your association's coded language (represented here as Thieves' Cant).",
         "configuration": {
           "mode": "default",
           "allowReplacements": false,
@@ -257,7 +257,7 @@
         "_id": "r4G1Ob60jTUFDljq",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: sciabola o spada",
+        "title": "Weapon: saber or sword",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -291,8 +291,8 @@
         "_id": "qqpknkdn0XuMjvv1",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: arco (con faretra e 20 frecce) o un'arma semplice",
-        "hint": "Se scegli l'arco, prendi anche faretra e frecce nella concessione seguente.",
+        "title": "Weapon: bow (with quiver and 20 arrows) or a simple weapon",
+        "hint": "If you choose the bow, also take the quiver and arrows in the next grant.",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -370,7 +370,7 @@
         "_id": "BBVmmYxLNvG5z0rF",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Dotazione: da scassinatore, da avventuriero o da esploratore",
+        "title": "Pack: burglar's, adventurer's, or explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {

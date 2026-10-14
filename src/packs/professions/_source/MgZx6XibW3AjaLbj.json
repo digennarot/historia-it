@@ -430,33 +430,6 @@
         "title": "Action Surge"
       },
       {
-        "_id": "h0q2UQhS6iun067m",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.lPeCtPEnKlFMUdxu",
-            "Compendium.historia-en.profession-features.eKT2LGykiE08n8FK",
-            "Compendium.historia-en.profession-features.wGrx92D3YkhQ1sWZ",
-            "Compendium.historia-en.profession-features.EeqiOqCOat1XQjGA",
-            "Compendium.historia-en.profession-features.pvUjKQwwzcmCfbP1",
-            "Compendium.historia-en.profession-features.5r39IBzG3envJDxa",
-            "Compendium.historia-en.profession-features.VIjDxkdNmL85tbjA"
-          ],
-          "optional": true,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 1,
-        "title": "Fighting Style (Pick one)"
-      },
-      {
         "_id": "Svbt2ki9QaC3gbEh",
         "type": "ScaleValue",
         "configuration": {
@@ -562,7 +535,7 @@
         "_id": "TDYYto5sw463hYJe",
         "type": "Trait",
         "level": 1,
-        "title": "Competenze",
+        "title": "Proficiencies",
         "hint": "",
         "configuration": {
           "mode": "default",
@@ -585,8 +558,8 @@
         "_id": "aVTwwevOyhAzd0HG",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Armi: un'arma da guerra e uno scudo, oppure due armi da guerra",
-        "hint": "Scegli due oggetti: un'arma da guerra e lo scudo, oppure due armi da guerra.",
+        "title": "Weapons: a martial weapon and a shield, or two martial weapons",
+        "hint": "Choose two items: a martial weapon and the shield, or two martial weapons.",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -736,7 +709,7 @@
         "_id": "AujAqU9jQEJ7daE0",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Dotazione: da avventuriero o da esploratore",
+        "title": "Pack: adventurer's or explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -751,6 +724,54 @@
           "pool": [
             {
               "uuid": "Compendium.historia-en.items.Item.5oH06F3e7IrqPcnQ"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "tg1fiTWg3RFf9SrB",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Fighting Style (choose one)",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": "feat",
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.lPeCtPEnKlFMUdxu"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.eKT2LGykiE08n8FK"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.wGrx92D3YkhQ1sWZ"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.EeqiOqCOat1XQjGA"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.pvUjKQwwzcmCfbP1"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.5r39IBzG3envJDxa"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.VIjDxkdNmL85tbjA"
             }
           ],
           "restriction": {

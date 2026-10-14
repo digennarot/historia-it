@@ -7,6 +7,26 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Added
+- **Guida alla creazione del personaggio** (IT): nuovo diario *Creazione del
+  Personaggio* nel compendio Regole, con i passaggi Specie → Mestiere →
+  Ventura → Fazione e Carriera → Equipaggiamento e Ricchezza → Istinti e
+  Descrittori e i link a tutte le specie, i mestieri, le venture e le fazioni.
+- **Modulo inglese allineato all'italiano**:
+  - le 66 specie EN sono ora *razze* (race) con taglia, tratti, punteggi e
+    privilegi assegnati automaticamente, come in IT; distanze in piedi;
+  - nuove voci EN: *Instincts* e 11 privilegi di specie che mancavano;
+  - i mestieri EN chiedono competenze, incrementi dei punteggi, sottoclasse e
+    scelte di equipaggiamento come in IT (Armigero: stile di combattimento,
+    Magus: primo Segreto, ora come scelta unica).
+
+### Fixed
+- Modulo inglese: i link a privilegi, mestieri, incantesimi, venture e fazioni
+  puntavano a compendi del mondo dell'autore e risultavano rotti; ora puntano
+  ai compendi del modulo. Il build si ferma se resta un link non risolto.
+- Rimosso il link rotto al blocco statistiche dello *Spirito Guerriero*
+  (incantesimo, IT e EN).
+
 ## [1.0.37] - 2026-10-14
 
 ### Added

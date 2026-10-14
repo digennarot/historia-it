@@ -103,8 +103,8 @@
         "_id": "RSnZsdzNJJUstwPc",
         "type": "Trait",
         "level": 1,
-        "title": "Competenze",
-        "hint": "Annota a mano la competenza in sciabole e spade.",
+        "title": "Proficiencies",
+        "hint": "Record your proficiency with sabers and swords by hand.",
         "configuration": {
           "mode": "default",
           "allowReplacements": false,
@@ -135,7 +135,7 @@
         "_id": "JbF8Iv1FD98H4eGa",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: sciabola, spada o un'arma semplice",
+        "title": "Weapon: saber, sword, or a simple weapon",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -220,8 +220,8 @@
         "_id": "w2lNVo9zydjClOwa",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: arco (con faretra e 20 frecce) o un'arma semplice",
-        "hint": "Se scegli l'arco, prendi anche faretra e frecce nella concessione seguente.",
+        "title": "Weapon: bow (with quiver and 20 arrows) or a simple weapon",
+        "hint": "If you choose the bow, also take the quiver and arrows in the next grant.",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -299,7 +299,7 @@
         "_id": "SgDjRe7b6o6DwoFd",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Dotazione: da esploratore o da intrattenitore",
+        "title": "Pack: explorer's or entertainer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -330,7 +330,7 @@
         "_id": "XYyXrNikizhId1Ex",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Strumento da artigiano o strumento musicale a scelta",
+        "title": "Artisan's tools or musical instrument of your choice",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {

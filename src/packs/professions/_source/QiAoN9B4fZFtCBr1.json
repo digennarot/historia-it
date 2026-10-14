@@ -797,7 +797,7 @@
         "_id": "bKHYbJHx3AhldoxB",
         "type": "Trait",
         "level": 1,
-        "title": "Competenze",
+        "title": "Proficiencies",
         "hint": "",
         "configuration": {
           "mode": "default",
@@ -826,8 +826,8 @@
         "_id": "rGSqY21hn1QBzOlz",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: mazza o martello d'armi",
-        "hint": "Il martello d'armi solo se sei competente.",
+        "title": "Weapon: maul or war hammer",
+        "hint": "The war hammer only if you are proficient.",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -860,8 +860,8 @@
         "_id": "9sdQ1nobXU2pp1Rx",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Armatura: tabarda imbottita, giaco di maglia o cotta d'arme",
-        "hint": "La cotta d'arme solo se sei competente.",
+        "title": "Armor: studded tabard, ring mail, or coat of plates",
+        "hint": "The coat of plates only if you are proficient.",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -894,8 +894,8 @@
         "_id": "LJ70pTjnrlE6SXKS",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: balestra leggera (con 20 quadrelli) o un'arma semplice",
-        "hint": "Se scegli la balestra leggera, prendi anche i quadrelli nella concessione seguente.",
+        "title": "Weapon: light crossbow (with 20 bolts) or a simple weapon",
+        "hint": "If you choose the light crossbow, also take the bolts in the next grant.",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -973,7 +973,7 @@
         "_id": "GarzAIzxc9iE8sMW",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Dotazione: da sacerdote o da esploratore",
+        "title": "Pack: priest's or explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -1004,7 +1004,7 @@
         "_id": "Js1fK8LxL2HTEuAq",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Simbolo sacro",
+        "title": "Sacred symbol",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {

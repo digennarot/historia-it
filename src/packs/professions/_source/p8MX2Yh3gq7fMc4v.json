@@ -99,8 +99,8 @@
         "_id": "6yUx7tzTfauCFwsO",
         "type": "Trait",
         "level": 1,
-        "title": "Competenze",
-        "hint": "Le armi da fuoco rientrano nelle armi da guerra: se la tua arma da fuoco non risulta tale, annota a mano la competenza.",
+        "title": "Proficiencies",
+        "hint": "Firearms count as martial weapons: if your firearm isn't listed as one, record the proficiency by hand.",
         "configuration": {
           "mode": "default",
           "allowReplacements": false,
@@ -123,7 +123,7 @@
         "_id": "Kt2cxnnexgsxp7SA",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma da fuoco personalizzata: pistola o fucile (archibugio o moschetto)",
+        "title": "Custom firearm: pistol or long gun (arquebus or musket)",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -160,7 +160,7 @@
         "_id": "kpmyTQUZqOD5kQxy",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma da guerra",
+        "title": "Martial weapon",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -308,7 +308,7 @@
         "_id": "75zjSeN76oLrftWP",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Scudo o arma semplice",
+        "title": "Shield or simple weapon",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -390,7 +390,7 @@
         "_id": "Hv8Js7qctdeJvaeu",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Armatura: gambesone o maglia di ferro",
+        "title": "Armor: gambeson or chain mail",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -424,7 +424,7 @@
         "_id": "UBMdRlywiB4FZLNo",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Strumenti da fabbro o da inventore",
+        "title": "Smith's tools or tinker's tools",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {

@@ -69,34 +69,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "nw5sHZLRtcEAmowd",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.P0gKbjFhNLMjueyH",
-            "Compendium.historia-en.profession-features.KHIOGDuCr7S3pHoR",
-            "Compendium.historia-en.profession-features.fvhrNl3dDlra678e",
-            "Compendium.historia-en.profession-features.fxZbW4CYP7W81IxY",
-            "Compendium.historia-en.profession-features.tynFJ3V1sX7dIni0",
-            "Compendium.historia-en.profession-features.b2ypf16KALF7jMbB",
-            "Compendium.historia-en.profession-features.xNCGXMonq0Q1uo82",
-            "Compendium.historia-en.profession-features.m5vhSbBcGFuBsWKn"
-          ],
-          "optional": true,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 1,
-        "title": "Choose your First Secret"
-      },
-      {
         "_id": "w2P2JNoZvpFucXML",
         "type": "ItemGrant",
         "configuration": {
@@ -1230,8 +1202,8 @@
         "_id": "k3pg648soBH1gYqw",
         "type": "Trait",
         "level": 1,
-        "title": "Competenze",
-        "hint": "Annota a mano la competenza in balestre leggere, bastoni ferrati, dardi, fionde, pugnali e spadini.",
+        "title": "Proficiencies",
+        "hint": "Record by hand your proficiency with light crossbows, iron staffs, darts, slings, daggers, and small swords.",
         "configuration": {
           "mode": "default",
           "allowReplacements": false,
@@ -1253,7 +1225,7 @@
         "_id": "ox33ABxI3jH23UhY",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Arma: spadino o bastone",
+        "title": "Weapon: small sword or staff",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -1287,7 +1259,7 @@
         "_id": "laMEuqH880Pgrrbc",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Borsa per componenti o focus arcano",
+        "title": "Component pouch or arcane focus",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -1330,7 +1302,7 @@
         "_id": "i3u3kiFJ3pyx3ruE",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Strumento da artigiano a scelta",
+        "title": "Artisan's tools of your choice",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -1393,6 +1365,57 @@
             },
             {
               "uuid": "Compendium.historia-en.items.Item.zKQ19CaRrpnKtIq5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "S4t3DaF3jQDAvXdi",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Choose your first Secret",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": "feat",
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.P0gKbjFhNLMjueyH"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.KHIOGDuCr7S3pHoR"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.fvhrNl3dDlra678e"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.fxZbW4CYP7W81IxY"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.tynFJ3V1sX7dIni0"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.b2ypf16KALF7jMbB"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.xNCGXMonq0Q1uo82"
+            },
+            {
+              "uuid": "Compendium.historia-en.profession-features.Item.m5vhSbBcGFuBsWKn"
             }
           ],
           "restriction": {

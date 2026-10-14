@@ -2,6 +2,7 @@ import { fileURLToPath } from "url";
 import fs from "fs/promises";
 import path from "path";
 import { compilePack } from "@foundryvtt/foundryvtt-cli/lib/package.mjs";
+import { enPackName, findWorldRefs, makeEnPackFor, rewriteWorldRefs } from "./en-refs.mjs";
 
 const MODULE_ID = "historia-en";
 const MODULE_TITLE = "Historia (English)";
@@ -120,10 +121,7 @@ async function main() {
     };
 
     // Nome del pack EN per una cartella sorgente EN (stessa regola del ciclo sui pack), null se non è un pack EN
-    const enPackFor = dir => {
-        if (dir.endsWith("-it") || !packDirs.includes(dir)) return null;
-        return dir.replace("-historia", "").replace("historia-", "");
-    };
+    const enPackFor = makeEnPackFor(packDirs);
 
     const processData = async (obj) => {
         if (!obj) return;
@@ -162,19 +160,15 @@ async function main() {
                 }
 
                 // UUID e link testuali nei sorgenti EN: Compendium.world.<dir>.* e @Compendium[world.<dir>.* -> pack EN
-                const worldUuid = val
-                    .replace(/Compendium\.world\.([a-z0-9-]+)\./g, (match, dir) => {
-                        const enPack = enPackFor(dir);
-                        return enPack ? `Compendium.historia-en.${enPack}.` : match;
-                    })
-                    .replace(/@Compendium\[world\.([a-z0-9-]+)\./g, (match, dir) => {
-                        const enPack = enPackFor(dir);
-                        return enPack ? `@Compendium[historia-en.${enPack}.` : match;
-                    });
+                const worldUuid = rewriteWorldRefs(val, enPackFor);
                 if (worldUuid !== val) {
                     val = worldUuid;
                     changed = true;
                 }
+                // Un riferimento world.* rimasto sarebbe un link morto nel modulo: si ferma il build.
+                // flags.core.sourceId è solo provenienza, non un link.
+                const unresolved = key === "sourceId" ? [] : findWorldRefs(val);
+                if (unresolved.length) throw new Error(`Riferimenti world.* non risolti (${key}): ${unresolved.join(", ")}`);
                 if (changed) obj[key] = val;
             } else if (typeof obj[key] === 'object') {
                 await processData(obj[key]);
@@ -241,7 +235,7 @@ async function main() {
         if (packDirName.endsWith("-it")) continue;
 
         // Handle names like "spells-historia" -> "spells"
-        const base_name = packDirName.replace("-historia", "").replace("historia-", "");
+        const base_name = enPackName(packDirName);
         const pack_name = base_name;
         let pack_label = LABEL_TRANSLATIONS[packDirName] || base_name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
         if (!pack_label.includes(labelSuffix)) pack_label += labelSuffix;

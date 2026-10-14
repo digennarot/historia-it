@@ -4,6 +4,7 @@ import { describe, it, expect } from 'vitest';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { enPackName, findWorldRefs, makeEnPackFor, rewriteWorldRefs } from '../scripts/en-refs.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = pack => path.join(ROOT, 'src/packs', pack, '_source');
@@ -19,10 +20,11 @@ const ALL = fs.readdirSync(path.join(ROOT, 'src/packs'));
 const EN_DIRS = ALL.filter(d => !d.endsWith('-it') && fs.existsSync(SRC(d)));
 const IT_DIRS = ALL.filter(d => d.endsWith('-it') && fs.existsSync(SRC(d)));
 // Stesso nome di pack usato da build_en.mjs: spells-historia -> spells, historia-factions -> factions.
-const enPack = d => d.replace('-historia', '').replace('historia-', '');
-const EN_PACK_TO_DIR = Object.fromEntries(EN_DIRS.map(d => [enPack(d), d]));
+const EN_PACK_TO_DIR = Object.fromEntries(EN_DIRS.map(d => [enPackName(d), d]));
+const hasDoc = (dir, id) => !!dir && docs(dir).some(doc => doc._id === id);
 
-const UUID = /Compendium\.historia-en\.([a-z-]+)\.([A-Za-z]+)\.([A-Za-z0-9]+)/g;
+// Forma tipizzata (pack.Item.id) e forma legacy senza tipo (pack.id): l'id è sempre di 16 caratteri.
+const UUID = /Compendium\.historia-en\.([a-z0-9-]+)\.(?:([A-Za-z]+)\.)?([A-Za-z0-9]{16})/g;
 
 describe('riferimenti EN', () => {
     it('nessun Compendium.world.* nei sorgenti EN, salvo flags.core.sourceId (provenienza, non link)', () => {
@@ -32,23 +34,23 @@ describe('riferimenti EN', () => {
         expect(offenders).toEqual([]);
     });
 
-    it('ogni UUID EN punta a un documento esistente nel pack EN indicato', () => {
-        const broken = EN_DIRS.flatMap(d => [...rawText(d).matchAll(UUID)].map(m => ({ d, pack: m[1], id: m[3], raw: m[0] })))
-            .filter(l => {
-                const dir = EN_PACK_TO_DIR[l.pack];
-                return !dir || !docs(dir).some(doc => doc._id === l.id);
-            })
-            .map(l => l.raw);
+    it('ogni UUID EN (con o senza tipo) punta a un documento esistente nel pack EN indicato', () => {
+        const refs = EN_DIRS.flatMap(d => [...rawText(d).matchAll(UUID)].map(m => ({ pack: m[1], id: m[3], raw: m[0] })));
+        expect(refs.length).toBeGreaterThan(1000);
+        expect(refs.filter(l => !hasDoc(EN_PACK_TO_DIR[l.pack], l.id)).map(l => l.raw)).toEqual([]);
+    });
+
+    it('ogni link testuale @Compendium[world.<dir>.<id>] punta a una cartella EN e a un documento esistente', () => {
+        // Il build riscrive la cartella nel pack EN (scripts/en-refs.mjs); qui si risolve sulla cartella sorgente.
+        const TEXT = /@Compendium\[world\.([a-z0-9-]+)\.([A-Za-z0-9]{16})/g;
+        const links = EN_DIRS.flatMap(d => [...rawText(d).matchAll(TEXT)].map(m => ({ dir: m[1], id: m[2] })));
+        expect(links.length).toBeGreaterThan(1000);
+        const broken = links.filter(l => !EN_DIRS.includes(l.dir) || !hasDoc(l.dir, l.id)).map(l => `${l.dir}.${l.id}`);
         expect(broken).toEqual([]);
     });
 
-    it('ogni link testuale @Compendium[world.<pack>.<id>] verso un pack EN punta a un documento esistente', () => {
-        // Il build riscrive il pack (build_en.mjs); qui si controlla che l'id esista nel pack di destinazione.
-        const TEXT = /@Compendium\[world\.([a-z-]+)\.([A-Za-z0-9]+)/g;
-        const broken = EN_DIRS.flatMap(d => [...rawText(d).matchAll(TEXT)].map(m => ({ pack: m[1], id: m[2] })))
-            .filter(l => EN_PACK_TO_DIR[l.pack] && !docs(EN_PACK_TO_DIR[l.pack]).some(doc => doc._id === l.id))
-            .map(l => `${l.pack}.${l.id}`);
-        expect(broken).toEqual([]);
+    it('nessun riferimento al modulo IT (Compendium.historia-it.*) nei sorgenti EN', () => {
+        expect(EN_DIRS.filter(d => /Compendium\.historia-it\./.test(rawText(d)))).toEqual([]);
     });
 
     it('nessun creature link morto (Compendium.world.creatures) in IT o EN', () => {
@@ -64,7 +66,15 @@ describe('specie EN (story 8b)', () => {
     it('66 documenti race, con gli stessi _id di species-it', () => {
         expect(enRaces.every(d => d.type === 'race')).toBe(true);
         expect(enRaces).toHaveLength(66);
-        expect(enRaces.map(d => d._id).sort()).toEqual([...itRaces.keys()].sort());
+        const enIds = new Set(enRaces.map(d => d._id));
+        expect(enRaces.filter(d => !itRaces.has(d._id)).map(d => `EN senza IT: ${d.name}`)).toEqual([]);
+        expect([...itRaces.values()].filter(d => !enIds.has(d._id)).map(d => `IT senza EN: ${d.name}`)).toEqual([]);
+    });
+
+    it('identifier unico per ogni race EN', () => {
+        const seen = {};
+        enRaces.forEach(d => (seen[d.system.identifier] ??= []).push(d.name));
+        expect(Object.entries(seen).filter(([, names]) => names.length > 1)).toEqual([]);
     });
 
     it('stessa sequenza di advancement della controparte IT', () => {
@@ -91,17 +101,34 @@ describe('specie EN (story 8b)', () => {
 describe('advancement di classe EN', () => {
     const itClasses = new Map(docs('professions-it').filter(d => d.type === 'class' || d.type === 'subclass').map(d => [d._id, d]));
     const enClasses = docs('professions').filter(d => d.type === 'class' || d.type === 'subclass');
-    const PARITY = ['Trait', 'AbilityScoreImprovement', 'Subclass'];
+    const PARITY = ['Trait', 'AbilityScoreImprovement', 'Subclass', 'ItemChoice'];
+    // Dotazioni il cui pool contiene solo oggetti esistenti solo in IT (items-it senza controparte EN):
+    // restano fuori finché quegli oggetti non hanno una versione EN (deferred-work.md).
+    const IT_ONLY_POOLS = new Set(['vYn1UO0DvlOi4qh6', 'TyPMOzl2R0kuIiyC', 'gNCq60sszRBI5jXk', 'vN83YjpRutSIVrAX']);
 
-    it('ogni classe EN con controparte IT ha le stesse advancement Tratto, Incremento e Sottoclasse', () => {
+    it('ogni classe EN con controparte IT ha le stesse advancement Tratto, Incremento, Sottoclasse e ItemChoice', () => {
         const missing = enClasses.filter(e => itClasses.has(e._id)).flatMap(e => {
             const it = itClasses.get(e._id);
             return it.system.advancement
-                .filter(a => PARITY.includes(a.type))
+                .filter(a => PARITY.includes(a.type) && !IT_ONLY_POOLS.has(a._id))
                 .filter(a => !e.system.advancement.some(x => x._id === a._id))
-                .map(a => `${e.name}: ${a.type} ${a._id}`);
+                .map(a => `${e.name}: ${a.type} ${a._id} ${a.title ?? ''}`);
         });
         expect(missing).toEqual([]);
+    });
+
+    it('le advancement copiate da IT hanno titolo e hint in inglese (diversi dal testo IT)', () => {
+        const italian = enClasses.filter(e => itClasses.has(e._id)).flatMap(e => {
+            const itAdv = new Map(itClasses.get(e._id).system.advancement.map(a => [a._id, a]));
+            return e.system.advancement.filter(a => itAdv.has(a._id) && PARITY.includes(a.type)).flatMap(a => {
+                const it = itAdv.get(a._id);
+                return [
+                    a.title && a.title === it.title ? `${e.name} title: ${a.title}` : null,
+                    a.hint && a.hint === it.hint ? `${e.name} hint: ${a.hint}` : null,
+                ].filter(Boolean);
+            });
+        });
+        expect(italian).toEqual([]);
     });
 
     it('ogni pool di ItemChoice EN risolve nel pack EN degli oggetti', () => {
@@ -114,5 +141,32 @@ describe('advancement di classe EN', () => {
                 return !dir || !docs(dir).some(doc => doc._id === m[2]);
             });
         expect(broken).toEqual([]);
+    });
+});
+
+describe('riscrittura world.* del build EN (scripts/en-refs.mjs)', () => {
+    const enPackFor = makeEnPackFor(['profession-features', 'spells-historia', 'historia-factions', 'species-it']);
+
+    it('UUID e link testuali verso il nome del pack EN', () => {
+        expect(rewriteWorldRefs('Compendium.world.profession-features.Item.abcdefghijklmnop', enPackFor))
+            .toBe('Compendium.historia-en.profession-features.Item.abcdefghijklmnop');
+        expect(rewriteWorldRefs('@Compendium[world.spells-historia.abcdefghijklmnop]{Hex}', enPackFor))
+            .toBe('@Compendium[historia-en.spells.abcdefghijklmnop]{Hex}');
+        expect(rewriteWorldRefs('@Compendium[world.historia-factions.abcdefghijklmnop]{X}', enPackFor))
+            .toBe('@Compendium[historia-en.factions.abcdefghijklmnop]{X}');
+    });
+
+    it('cartelle IT o sconosciute restano invariate e risultano irrisolte', () => {
+        const val = rewriteWorldRefs('Compendium.world.species-it.Item.x @Compendium[world.feats.y]{T}', enPackFor);
+        expect(val).toBe('Compendium.world.species-it.Item.x @Compendium[world.feats.y]{T}');
+        expect(findWorldRefs(val)).toEqual(['Compendium.world.species-it', '@Compendium[world.feats']);
+    });
+
+    it('dopo la riscrittura nessun riferimento world.* resta nei sorgenti EN, salvo sourceId', () => {
+        const enPackForAll = makeEnPackFor(ALL);
+        const left = EN_DIRS.flatMap(d => rawText(d).split('\n')
+            .filter(line => !/"sourceId"/.test(line))
+            .flatMap(line => findWorldRefs(rewriteWorldRefs(line, enPackForAll)).map(r => `${d}: ${r}`)));
+        expect(left).toEqual([]);
     });
 });
