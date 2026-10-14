@@ -191,7 +191,26 @@
     "properties": [],
     "identifier": "career-outlaw",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "MQnuIsYsQh9pXbkz",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Feccia",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:disg"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

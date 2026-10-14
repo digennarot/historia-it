@@ -229,7 +229,52 @@
     "identifier": "venture-enlightenment"
   },
   "img": "icons/sundries/lights/lantern-iron-yellow.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "NqONyRMNb3QN2FBE",
+      "name": "Conio",
+      "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+      "changes": [
+        {
+          "key": "system.resources.primary.label",
+          "mode": 5,
+          "value": "Conio",
+          "priority": 10
+        },
+        {
+          "key": "system.resources.primary.max",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "core": {}
   },

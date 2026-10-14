@@ -191,7 +191,41 @@
     "properties": [],
     "identifier": "career-mentor",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "sHZTy0OyNIPkVlxv",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Studioso",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:arc",
+                "skills:inv",
+                "skills:nat",
+                "skills:rel",
+                "skills:his"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

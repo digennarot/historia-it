@@ -191,7 +191,32 @@
     "properties": [],
     "identifier": "career-official",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "hXMHsGdIUnfUzANB",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Galoppino",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:per",
+                "skills:dec"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

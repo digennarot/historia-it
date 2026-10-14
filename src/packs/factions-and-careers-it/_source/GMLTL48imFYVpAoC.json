@@ -191,7 +191,33 @@
     "properties": [],
     "identifier": "career-soldier",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "1nlAlHAH0itOim0K",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Cadetto",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

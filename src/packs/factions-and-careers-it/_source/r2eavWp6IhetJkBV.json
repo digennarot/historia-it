@@ -191,7 +191,26 @@
     "properties": [],
     "identifier": "career-historian",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "iU1n7faRGhtC6nM2",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Cronista",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:calligrapher"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {
