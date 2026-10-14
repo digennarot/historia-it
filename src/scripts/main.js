@@ -5,6 +5,7 @@
 
 // Lo stesso script è incluso sia in historia-it sia in historia-en: ricava l'id dal percorso.
 const MODULE_ID = import.meta.url.match(/\/modules\/([^/]+)\//)?.[1] ?? "historia-it";
+const BACKGROUND_PATH = `modules/${MODULE_ID}/media/Background/historia%20login%20page.webp`;
 
 Hooks.once("init", () => {
     // Register the language preference setting
@@ -28,34 +29,39 @@ Hooks.once("init", () => {
 
     // Register the login background setting
     game.settings.register(MODULE_ID, "applyLoginBackground", {
-        name: "Apply Historia Login Background / Applica Sfondo Login Historia",
-        hint: "Automatically set the Historia illustration as the login page background. / Imposta automaticamente l'illustrazione di Historia come sfondo della pagina di login.",
+        name: "Apply Historia World Cover / Applica Copertina Mondo",
+        hint: "Automatically set the Historia illustration as the world background (join page and world card). / Imposta automaticamente l'illustrazione di Historia come sfondo del mondo (pagina di accesso e scheda del mondo).",
         scope: "world",
         config: true,
         type: Boolean,
         default: true,
         onChange: (value) => {
-            if (value && game.user.isGM) {
-                game.settings.set("core", "loginBackground", `modules/${MODULE_ID}/media/Background/historia%20login%20page.webp`);
-            }
+            if (value && game.user.isGM) applyWorldBackground();
         }
     });
 });
 
 Hooks.once("ready", () => {
-    if (!game.user.isGM) return;
-
-    const applyBackground = game.settings.get(MODULE_ID, "applyLoginBackground");
-    if (applyBackground) {
-        const currentBackground = game.settings.get("core", "loginBackground");
-        const targetBackground = `modules/${MODULE_ID}/media/Background/historia%20login%20page.webp`;
-
-        if (currentBackground !== targetBackground) {
-            game.settings.set("core", "loginBackground", targetBackground);
-            console.log(`${MODULE_ID} | Applied Historia login background.`);
-        }
-    }
+    if (game.user.isGM && game.settings.get(MODULE_ID, "applyLoginBackground")) applyWorldBackground();
 });
+
+// Foundry non ha impostazioni "core" per lo sfondo: la pagina di accesso e la scheda del mondo usano
+// world.background, che un GM modifica come fa la finestra "Configura mondo" (POST editWorld a /setup).
+async function applyWorldBackground() {
+    if (game.world.background === BACKGROUND_PATH) return;
+    try {
+        const response = await foundry.utils.fetchJsonWithTimeout(foundry.utils.getRoute("setup"), {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ action: "editWorld", id: game.world.id, background: BACKGROUND_PATH })
+        });
+        if (response.error) throw new Error(response.error);
+        game.world.updateSource({ background: BACKGROUND_PATH });
+        console.log(`${MODULE_ID} | Applied Historia world background.`);
+    } catch (err) {
+        console.warn(`${MODULE_ID} | Could not apply Historia world background.`, err);
+    }
+}
 
 function applyCompendiumVisibility(html) {
     const preference = game.settings.get(MODULE_ID, "languagePreference");
