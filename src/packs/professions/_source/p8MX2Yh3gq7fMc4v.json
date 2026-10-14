@@ -31,8 +31,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.FM1KdLzTjDwgiIzm",
-            "Compendium.world.profession-features.u7ESMk5y6UCmqXQf"
+            "Compendium.historia-en.profession-features.FM1KdLzTjDwgiIzm",
+            "Compendium.historia-en.profession-features.u7ESMk5y6UCmqXQf"
           ],
           "optional": false,
           "spell": {
@@ -49,11 +49,417 @@
         "title": "Grant Ability"
       },
       {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "grants": [
+            "saves:dex",
+            "saves:int"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "value": {
+          "chosen": [
+            "saves:dex",
+            "saves:int"
+          ]
+        },
+        "_id": "sMfiR0TWgANQ0E4f"
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": []
+        },
+        "_id": "VeBZt3S4W4ghC1f3",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "6yUx7tzTfauCFwsO",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Le armi da fuoco rientrano nelle armi da guerra: se la tua arma da fuoco non risulta tale, annota a mano la competenza.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl",
+            "weapon:sim",
+            "weapon:mar",
+            "tool:art:smith",
+            "tool:art:tinker"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "Kt2cxnnexgsxp7SA",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma da fuoco personalizzata: pistola o fucile (archibugio o moschetto)",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.UkAElWbCiijzPmhZ"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.WGyfmtR0RsnbHDfn"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Si18v5nixF55S6bW"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "kpmyTQUZqOD5kQxy",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma da guerra",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.4dDEDXTlTCNu11fV"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.6ms1gC9gZsELoAlG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.7alcgCFwZMchFBym"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.96udueeGL9SG8TAv"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.B4TjC5F7JiQyxk8j"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BwXcbXQBBrm3zt3U"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.DholbIql2Whf4T4G"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Dl1hcyn7HKkc2Ynt"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.FUQyIknhYyWW9Em0"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.H3J3glbNgyXSxNvb"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.HnlNHhsLM0SkXiVt"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.KGRdUvTcLZ7PMIrV"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.KNvvVYVgdEo4MjK9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.KYrFDX1tpnGLqBAw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.LoLcoOcnACoTmPDp"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Lx69wYqn8MCfDSj3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.PDwLQRECncZlvJLw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.SBpfCF0rmolNIkWu"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Si18v5nixF55S6bW"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.SlBhnq7CtNzW23mD"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.UkAElWbCiijzPmhZ"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.WGyfmtR0RsnbHDfn"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.YR9TJIgmkNWA23tg"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.YZmmwZkA4It5uGxF"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bOLqN6OzQ0B8ObFo"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.h7Ze2Aw6JOfCA4G7"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.j96W2SsPO9komQvn"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lj1y5iSTcUAtHfgW"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.pYVNT31anskf8Nf0"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.pZQyVjzs2z5LPsUT"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.tK3qYkoTroxwmn3G"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.tlfIjhVj3SHTTsD3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.tmeUTSqiYdZGwkh6"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.u17arUI2ftKgvJ83"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.uIk9IIFOmQUnAqX1"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.vPYbVVF5FyeH2a9Z"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.wDCSxG0b1MJSiD3w"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.yIoHlvqrdkhVZSKd"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.yh41YED4IExBiDww"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.yooaw66ZKbhtyH1P"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "75zjSeN76oLrftWP",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Scudo o arma semplice",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.e9QypmRvUHRTL7Ek"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "Hv8Js7qctdeJvaeu",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Armatura: gambesone o maglia di ferro",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.B49PpUp5xXgAJgP3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y0dNKamVzDsBqzhM"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "UBMdRlywiB4FZLNo",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Strumenti da fabbro o da inventore",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.2FJs1h80EYdzB6wV"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "ywzEH7p2h9PcwKvM",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.k08xXWSB3wkcibuD"
+            "Compendium.historia-en.profession-features.k08xXWSB3wkcibuD"
           ],
           "optional": false,
           "spell": {
@@ -74,7 +480,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.gfVlB50nmeU6ERI5"
+            "Compendium.historia-en.profession-features.gfVlB50nmeU6ERI5"
           ],
           "optional": false,
           "spell": {
@@ -91,11 +497,20 @@
         "title": "Subclass"
       },
       {
+        "_id": "sAehrz8rTMRohdfP",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "lHfIVm5RggOf4JHg",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
           ],
           "optional": false,
           "spell": {
@@ -112,11 +527,34 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "Y9mCI2TQSFyIc69d",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "44m8BkG7B060LgzO",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.TRIGuy9gqpLcm2fD"
+            "Compendium.historia-en.profession-features.TRIGuy9gqpLcm2fD"
           ],
           "optional": false,
           "spell": {
@@ -137,7 +575,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.8kmrxf5NpaGWj3jO"
+            "Compendium.historia-en.profession-features.8kmrxf5NpaGWj3jO"
           ],
           "optional": false,
           "spell": {
@@ -192,11 +630,34 @@
         "title": "Weapon Improvement (The Artist's Touch)"
       },
       {
+        "_id": "sccWI8JWE6moW6A3",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "nR1PmBNGrkESGhvf",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.CWFTCVuuLAcFDDrJ"
+            "Compendium.historia-en.profession-features.CWFTCVuuLAcFDDrJ"
           ],
           "optional": false,
           "spell": {
@@ -251,11 +712,34 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "ReJ6L0oODbpj86Ed",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "RScAoVrFVPc7AgBF",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.HQuJyj2Ra41vKWTb"
+            "Compendium.historia-en.profession-features.HQuJyj2Ra41vKWTb"
           ],
           "optional": false,
           "spell": {
@@ -310,6 +794,29 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "CxEhApuyqgvIxUoD",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "FIdg6ArhFfOkpyxv",
         "type": "ItemGrant",
         "configuration": {
@@ -348,11 +855,34 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "JTIz0k8T7kXQYEe5",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "TfDkqRjmc9mRdC8v",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.McitgWrESikMuIGD"
+            "Compendium.historia-en.profession-features.McitgWrESikMuIGD"
           ],
           "optional": false,
           "spell": {

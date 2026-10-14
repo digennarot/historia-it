@@ -25,9 +25,9 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.AlCQLlsvdvLz5Fo5",
-            "Compendium.world.profession-features.RwQS5asy6TlC7c3V",
-            "Compendium.world.profession-features.p40i8SqR3b3SfEPT"
+            "Compendium.historia-en.profession-features.AlCQLlsvdvLz5Fo5",
+            "Compendium.historia-en.profession-features.RwQS5asy6TlC7c3V",
+            "Compendium.historia-en.profession-features.p40i8SqR3b3SfEPT"
           ],
           "optional": false,
           "spell": {
@@ -48,7 +48,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.EEZ1I2ong44GGPow"
+            "Compendium.historia-en.profession-features.EEZ1I2ong44GGPow"
           ],
           "optional": false,
           "spell": {
@@ -69,7 +69,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.BpduYN0p07p5kmUB"
+            "Compendium.historia-en.profession-features.BpduYN0p07p5kmUB"
           ],
           "optional": false,
           "spell": {
@@ -90,7 +90,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.RmbhE93EYBd5v91G"
+            "Compendium.historia-en.profession-features.RmbhE93EYBd5v91G"
           ],
           "optional": false,
           "spell": {
@@ -111,8 +111,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.v2vP871Vy6dkiEMy",
-            "Compendium.world.profession-features.6EkIvC6vqwSPt49R"
+            "Compendium.historia-en.profession-features.v2vP871Vy6dkiEMy",
+            "Compendium.historia-en.profession-features.6EkIvC6vqwSPt49R"
           ],
           "optional": false,
           "spell": {
@@ -133,7 +133,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
           ],
           "optional": false,
           "spell": {
@@ -153,6 +153,221 @@
         "_id": "I8tN3FmXhMMMgEJH",
         "type": "HitPoints",
         "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "grants": [
+            "saves:con",
+            "saves:cha"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "value": {
+          "chosen": [
+            "saves:con",
+            "saves:cha"
+          ]
+        },
+        "_id": "JdDoU0cynsLCy4tM"
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:ins",
+                "skills:med",
+                "skills:nat",
+                "skills:prc",
+                "skills:rel",
+                "skills:sur"
+              ]
+            }
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": []
+        },
+        "_id": "UQMdmrl5Wf50Jxdp",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "GwQo4hKAykIIGSgS",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza nel mazzafrusto.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "jvllYhcvCB3XfhQD",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: una coppia di pugnali o un'arma semplice",
+        "hint": "Per la coppia di pugnali scegli il pugnale e aggiungi il secondo (×2) nell'inventario.",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "fdJ5Xni00k0uE8jA",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: mazzafrusto o un'arma semplice da mischia",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.FUQyIknhYyWW9Em0"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
         "value": {}
       },
       {
@@ -179,7 +394,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.HsGGOUVQqOwboyRx"
+            "Compendium.historia-en.profession-features.HsGGOUVQqOwboyRx"
           ],
           "optional": false,
           "spell": {
@@ -219,7 +434,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.wlAUb49nbRSsYwtW"
+            "Compendium.historia-en.profession-features.wlAUb49nbRSsYwtW"
           ],
           "optional": false,
           "spell": {
@@ -259,7 +474,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.FEy4jMVrt8vFq8y3"
+            "Compendium.historia-en.profession-features.FEy4jMVrt8vFq8y3"
           ],
           "optional": false,
           "spell": {
@@ -299,7 +514,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.IJUNjCf6X5Y0kceL"
+            "Compendium.historia-en.profession-features.IJUNjCf6X5Y0kceL"
           ],
           "optional": false,
           "spell": {
@@ -339,7 +554,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.AydpcXKTXlQXIYcP"
+            "Compendium.historia-en.profession-features.AydpcXKTXlQXIYcP"
           ],
           "optional": false,
           "spell": {
@@ -360,7 +575,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.spells-historia.1ncqhmmA7Elc38Xj"
+            "Compendium.historia-en.spells.1ncqhmmA7Elc38Xj"
           ],
           "optional": false,
           "spell": {
@@ -453,6 +668,15 @@
         "title": "You pick 3 1st-Level Flagellant Spells"
       },
       {
+        "_id": "F4MszsbgSyzYOTax",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "gQjCaxzHdrWIbqEU",
         "type": "ItemGrant",
         "configuration": {
@@ -489,6 +713,29 @@
         "value": {},
         "level": 4,
         "title": "Choose 1 1st or 2nd Level Flagellant Spell"
+      },
+      {
+        "_id": "5aGfSuyopoTe4y2G",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "HVveW3WRlPPRHhuF",
@@ -529,6 +776,29 @@
         "title": "Choose 1 1st,2nd or 3rd Level Flagellant Spell"
       },
       {
+        "_id": "3l5Lm0RSyaXzTpew",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "hbrBw6UL5KcsoRuU",
         "type": "ItemGrant",
         "configuration": {
@@ -565,6 +835,29 @@
         "value": {},
         "level": 8,
         "title": "Choose 1 1st,2nd,3rd or 4th Level Flagellant Spell"
+      },
+      {
+        "_id": "6TSySbt0OtfUJk7W",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "0vncS3VWqFcLCjdn",
@@ -622,6 +915,29 @@
         "value": {},
         "level": 11,
         "title": "Then pick 1 1st,2nd,3rd,4th or 5th Lvl Flagellant Spell"
+      },
+      {
+        "_id": "uijNZXGZQoQxq7v9",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "XrdYtnmxLYAvftvJ",
@@ -700,6 +1016,29 @@
         "title": "Option: Change a spell with another of the same level."
       },
       {
+        "_id": "DvJWmqYPPs9tlTRt",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "nRHOujwdjpfGs2Ag",
         "type": "ItemGrant",
         "configuration": {
@@ -755,6 +1094,29 @@
         "value": {},
         "level": 19,
         "title": "Option: Change a spell with another of the same level."
+      },
+      {
+        "_id": "oQzeVAq9mzwy6wFX",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "TnpZKyhFk3UTO3qm",

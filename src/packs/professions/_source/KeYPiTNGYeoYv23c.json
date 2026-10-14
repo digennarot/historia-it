@@ -31,9 +31,9 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.l4hfUq0tMOEUsAwc",
-            "Compendium.world.profession-features.BhKVEdsn3QYyoEyS",
-            "Compendium.world.profession-features.ErEpnbRavrYqG6RR"
+            "Compendium.historia-en.profession-features.l4hfUq0tMOEUsAwc",
+            "Compendium.historia-en.profession-features.BhKVEdsn3QYyoEyS",
+            "Compendium.historia-en.profession-features.ErEpnbRavrYqG6RR"
           ],
           "optional": false,
           "spell": {
@@ -50,11 +50,397 @@
         "title": "Grant Ability"
       },
       {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "grants": [
+            "saves:con",
+            "saves:wis"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "value": {
+          "chosen": [
+            "saves:con",
+            "saves:wis"
+          ]
+        },
+        "_id": "SRFOE7ZaQndcyeOc"
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:ins",
+                "skills:inv",
+                "skills:nat",
+                "skills:prc",
+                "skills:prf",
+                "skills:slt",
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": []
+        },
+        "_id": "D8POwhqVZG6OxLI3",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "RSnZsdzNJJUstwPc",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in sciabole e spade.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:art:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "JbF8Iv1FD98H4eGa",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: sciabola, spada o un'arma semplice",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.j96W2SsPO9komQvn"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.SBpfCF0rmolNIkWu"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "w2lNVo9zydjClOwa",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: arco (con faretra e 20 frecce) o un'arma semplice",
+        "hint": "Se scegli l'arco, prendi anche faretra e frecce nella concessione seguente.",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "SgDjRe7b6o6DwoFd",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Dotazione: da esploratore o da intrattenitore",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.5oH06F3e7IrqPcnQ"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "XYyXrNikizhId1Ex",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Strumento da artigiano o strumento musicale a scelta",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.zKQ19CaRrpnKtIq5"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.0Y0LRSxq0PczagWb"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.9dOAIdf3GzPq08Rn"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.AZHdggRpDfPiNgo6"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.NzaklVbjd69EiYdn"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.UN8hNX80PN1FbR8T"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.e3ekqpolp3JWlatL"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.mduMo4NHqfEHuZ17"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nl7wCYteGQXsKnMH"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ueqoOFPrcg2I3cl6"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.xk8NHm1Kk2FoeLD5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "4hQUclh5Ava0EyaU",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.MWkvm6DOntaArTss"
+            "Compendium.historia-en.profession-features.MWkvm6DOntaArTss"
           ],
           "optional": false,
           "spell": {
@@ -75,7 +461,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.F4czte2SW5n0tCjZ"
+            "Compendium.historia-en.profession-features.F4czte2SW5n0tCjZ"
           ],
           "optional": false,
           "spell": {
@@ -96,7 +482,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.hvw2mjOoQJO0RVK3"
+            "Compendium.historia-en.profession-features.hvw2mjOoQJO0RVK3"
           ],
           "optional": false,
           "spell": {
@@ -117,7 +503,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
           ],
           "optional": false,
           "spell": {
@@ -138,7 +524,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.caoa5ZU8y9lRBqdL"
+            "Compendium.historia-en.profession-features.caoa5ZU8y9lRBqdL"
           ],
           "optional": false,
           "spell": {
@@ -159,7 +545,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.9bw7x6Xpxk9WL1aN"
+            "Compendium.historia-en.profession-features.9bw7x6Xpxk9WL1aN"
           ],
           "optional": false,
           "spell": {
@@ -199,7 +585,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.UgnqZSqubxNEPo0L"
+            "Compendium.historia-en.profession-features.UgnqZSqubxNEPo0L"
           ],
           "optional": false,
           "spell": {
@@ -220,7 +606,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.cp3krwqjNwwe0KS0"
+            "Compendium.historia-en.profession-features.cp3krwqjNwwe0KS0"
           ],
           "optional": false,
           "spell": {
@@ -241,7 +627,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.lgo65vICBaqKZWjM"
+            "Compendium.historia-en.profession-features.lgo65vICBaqKZWjM"
           ],
           "optional": false,
           "spell": {
@@ -281,7 +667,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.CAOKS5xYK2tMgc55"
+            "Compendium.historia-en.profession-features.CAOKS5xYK2tMgc55"
           ],
           "optional": false,
           "spell": {
@@ -302,7 +688,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.orXjmuTlAUrZCLuO"
+            "Compendium.historia-en.profession-features.orXjmuTlAUrZCLuO"
           ],
           "optional": false,
           "spell": {
@@ -342,7 +728,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.QE2JdM5vvQDBOPXg"
+            "Compendium.historia-en.profession-features.QE2JdM5vvQDBOPXg"
           ],
           "optional": false,
           "spell": {
@@ -363,7 +749,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.YzrYD3kEZU9Lg5M3"
+            "Compendium.historia-en.profession-features.YzrYD3kEZU9Lg5M3"
           ],
           "optional": false,
           "spell": {
@@ -403,7 +789,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.IS9xuEEVGQvrCLWX"
+            "Compendium.historia-en.profession-features.IS9xuEEVGQvrCLWX"
           ],
           "optional": false,
           "spell": {
@@ -439,6 +825,38 @@
         "title": "Improvisation Pool = prof + WIS bon/2 (min 1)"
       },
       {
+        "_id": "ySAvMuCm2eXy5e62",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "DzS2WV16nKYQefnL",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "P0A31ffxh4uGuXox",
         "type": "ItemGrant",
         "configuration": {
@@ -456,6 +874,29 @@
         "value": {},
         "level": 5,
         "title": "Increase Improvisation Point Pool by 1"
+      },
+      {
+        "_id": "qu3STP8cXBnImVUb",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "mh2f6nyBurW5kGg6",
@@ -477,6 +918,29 @@
         "title": "Increase Improvisation Point Pool by 1"
       },
       {
+        "_id": "3aL1IayJv63O6JXb",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "ids4UQGmal3B2WuK",
         "type": "ItemGrant",
         "configuration": {
@@ -496,6 +960,29 @@
         "title": "Increase Improvisation Point Pool by 1"
       },
       {
+        "_id": "HCrcvgNAk5Ymicld",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "maJWi9QxGJbJn1o8",
         "type": "ItemGrant",
         "configuration": {
@@ -513,6 +1000,29 @@
         "value": {},
         "level": 17,
         "title": "Increase Improvisation Point Pool by 1"
+      },
+      {
+        "_id": "hRHdO9jkp5qmPkWc",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": "",
+        "hint": ""
       }
     ],
     "saves": [

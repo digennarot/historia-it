@@ -31,8 +31,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.ONrD5YgD5gZfcSfq",
-            "Compendium.world.profession-features.E2YjzaWFfZZFBMgQ"
+            "Compendium.historia-en.profession-features.ONrD5YgD5gZfcSfq",
+            "Compendium.historia-en.profession-features.E2YjzaWFfZZFBMgQ"
           ],
           "optional": false,
           "spell": {
@@ -49,11 +49,183 @@
         "title": "Grant Ability"
       },
       {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "value": {
+          "chosen": [
+            "saves:wis",
+            "saves:cha"
+          ]
+        },
+        "_id": "8lT3dlM3tOsm6ZLA"
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "choices": [
+            {
+              "count": 4,
+              "pool": [
+                "skills:acr",
+                "skills:ani",
+                "skills:arc",
+                "skills:ath",
+                "skills:dec",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:inv",
+                "skills:med",
+                "skills:nat",
+                "skills:prc",
+                "skills:prf",
+                "skills:per",
+                "skills:rel",
+                "skills:slt",
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": []
+        },
+        "_id": "aLfgTnZxAuQil6sx",
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "imUCLeUUJXns5IB4",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in spada da lato e balestra a mano.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:art:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
+        "_id": "c7b90v4BGNx1zs35",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: spada da lato o un'arma semplice",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.u17arUI2ftKgvJ83"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "yVxa7TFb3U2dr7Zv",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.AvyDjqsNHqR90SAF"
+            "Compendium.historia-en.profession-features.AvyDjqsNHqR90SAF"
           ],
           "optional": false,
           "spell": {
@@ -74,7 +246,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.S07yaAHf61AKak7p"
+            "Compendium.historia-en.profession-features.S07yaAHf61AKak7p"
           ],
           "optional": false,
           "spell": {
@@ -95,8 +267,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.KX3mk6Tcu51q7PGa",
-            "Compendium.world.profession-features.U4LA9Uo07BsfKTF6"
+            "Compendium.historia-en.profession-features.KX3mk6Tcu51q7PGa",
+            "Compendium.historia-en.profession-features.U4LA9Uo07BsfKTF6"
           ],
           "optional": false,
           "spell": {
@@ -113,11 +285,20 @@
         "title": "Grant Ability"
       },
       {
+        "_id": "2qiSvOTbJBd0tAIR",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "kmKSBmckor0j4ApJ",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.T9qUqb0Qnytkz9vh"
+            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
           ],
           "optional": false,
           "spell": {
@@ -134,11 +315,34 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "OyrMaSEyJOh4HWXn",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "KZK0deWXaUKoXLz1",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.RR11dk5NRsUEyEEF"
+            "Compendium.historia-en.profession-features.RR11dk5NRsUEyEEF"
           ],
           "optional": false,
           "spell": {
@@ -159,8 +363,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.IAfB5FN2CJ9YxED1",
-            "Compendium.world.profession-features.Y7LDNG82H66ixsbp"
+            "Compendium.historia-en.profession-features.IAfB5FN2CJ9YxED1",
+            "Compendium.historia-en.profession-features.Y7LDNG82H66ixsbp"
           ],
           "optional": false,
           "spell": {
@@ -196,6 +400,29 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "M2XKtHvknwgdrs9K",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "Cs4xI4F3xTwy2rS4",
         "type": "ItemGrant",
         "configuration": {
@@ -213,6 +440,29 @@
         "value": {},
         "level": 10,
         "title": "ASI or FEAT"
+      },
+      {
+        "_id": "uqX0cW325uSiGfoU",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 10,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "BjUNZp05NoIK1xq0",
@@ -238,7 +488,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.JtUi4QT6nyPiN6Sz"
+            "Compendium.historia-en.profession-features.JtUi4QT6nyPiN6Sz"
           ],
           "optional": false,
           "spell": {
@@ -274,6 +524,29 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "fez8oFjUdUw0nF9L",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "sMkjnmP0ShhqUfLE",
         "type": "ItemGrant",
         "configuration": {
@@ -291,6 +564,29 @@
         "value": {},
         "level": 16,
         "title": "ASI or FEAT"
+      },
+      {
+        "_id": "JxlKRIEoesNxKrRK",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "",
+        "hint": ""
       },
       {
         "_id": "kNhOj43EKsACF2eJ",
@@ -316,7 +612,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.X28GUZ60h5fvuX0u"
+            "Compendium.historia-en.profession-features.X28GUZ60h5fvuX0u"
           ],
           "optional": false,
           "spell": {
@@ -352,11 +648,34 @@
         "title": "ASI or FEAT"
       },
       {
+        "_id": "dI2xts7ulq96huHJ",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": "",
+        "hint": ""
+      },
+      {
         "_id": "KHrC5NjZxI33Lv6t",
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.world.profession-features.lGQQNHbjXIpsryTs"
+            "Compendium.historia-en.profession-features.lGQQNHbjXIpsryTs"
           ],
           "optional": false,
           "spell": {

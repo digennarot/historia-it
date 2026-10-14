@@ -119,6 +119,12 @@ async function main() {
         return null;
     };
 
+    // Nome del pack EN per una cartella sorgente EN (stessa regola del ciclo sui pack), null se non è un pack EN
+    const enPackFor = dir => {
+        if (dir.endsWith("-it") || !packDirs.includes(dir)) return null;
+        return dir.replace("-historia", "").replace("historia-", "");
+    };
+
     const processData = async (obj) => {
         if (!obj) return;
         for (const key in obj) {
@@ -152,6 +158,21 @@ async function main() {
 
                 if (newVal !== val) {
                     val = newVal;
+                    changed = true;
+                }
+
+                // UUID e link testuali nei sorgenti EN: Compendium.world.<dir>.* e @Compendium[world.<dir>.* -> pack EN
+                const worldUuid = val
+                    .replace(/Compendium\.world\.([a-z0-9-]+)\./g, (match, dir) => {
+                        const enPack = enPackFor(dir);
+                        return enPack ? `Compendium.historia-en.${enPack}.` : match;
+                    })
+                    .replace(/@Compendium\[world\.([a-z0-9-]+)\./g, (match, dir) => {
+                        const enPack = enPackFor(dir);
+                        return enPack ? `@Compendium[historia-en.${enPack}.` : match;
+                    });
+                if (worldUuid !== val) {
+                    val = worldUuid;
                     changed = true;
                 }
                 if (changed) obj[key] = val;
