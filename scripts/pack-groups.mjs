@@ -24,3 +24,15 @@ export function buildPackLayout(packs, groups = PACK_GROUPS) {
     }];
     return { packs: ordered, packFolders };
 }
+
+// Una voce di _source è una cartella se ha type "Folder", oppure sorting senza system né pages
+// (le cartelle di Item e Actor hanno type "Item"/"Actor"). Unica regola per build_it.mjs e test.
+export const isFolderDoc = d => d.type === "Folder" || (d.sorting !== undefined && !d.system && !d.pages);
+
+// Tipi di documento di un pack Item/Actor (flags.dnd5e.types), cartelle escluse.
+// Il browser dei compendi di dnd5e salta i pack che non possono contenere la categoria attiva.
+export function packTypes(docs) {
+    const types = new Set();
+    for (const d of docs) if (d.type && !isFolderDoc(d)) types.add(d.type);
+    return [...types].sort();
+}
