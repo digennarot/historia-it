@@ -2,7 +2,7 @@ import { fileURLToPath } from "url";
 import fs from "fs/promises";
 import path from "path";
 import { compilePack } from "@foundryvtt/foundryvtt-cli/lib/package.mjs";
-import { buildPackLayout } from "./pack-groups.mjs";
+import { buildPackLayout, isFolderDoc, packTypes } from "./pack-groups.mjs";
 
 const MODULE_ID = "historia-it";
 const MODULE_TITLE = "Historia (Italiano)";
@@ -241,6 +241,7 @@ async function main() {
         await fs.mkdir(tempSrcDir, { recursive: true });
 
         let itemCount = 0;
+        const docs = [];
         let folderCount = 0;
 
         for (const file of entryFiles) {
@@ -249,8 +250,7 @@ async function main() {
 
             await processData(entryData);
 
-            const isFolder = entryData.type === "Folder" || (entryData.sorting !== undefined && !entryData.system && !entryData.pages);
-            if (isFolder) {
+            if (isFolderDoc(entryData)) {
                 if (entryData.type === "Folder") entryData.type = pack_type;
                 const folderId = entryData._id;
                 entryData._key = `!folders!${folderId}`;
@@ -259,6 +259,7 @@ async function main() {
                 const itemId = entryData._id;
                 injectKeys(entryData, collection);
                 itemCount++;
+                docs.push(entryData);
             }
 
             await fs.writeFile(path.join(tempSrcDir, file), JSON.stringify(entryData, null, 2));
@@ -279,7 +280,9 @@ async function main() {
                 label: pack_label,
                 path: `packs/${pack_name}`,
                 type: pack_type,
-                system: "dnd5e"
+                system: "dnd5e",
+                // Le cartelle e le pagine dei JournalEntry non hanno tipi di documento da filtrare
+                ...(pack_type !== "JournalEntry" && { flags: { dnd5e: { types: packTypes(docs) } } })
             });
         }
     }

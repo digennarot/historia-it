@@ -1,7 +1,7 @@
 {
   "id": "historia-it",
   "title": "Historia (Italiano)",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "compatibility": {
     "minimum": 12,
     "verified": 14
@@ -28,5 +28,17 @@
   "download": "https://github.com/digennarot/historia-it-dist/releases/latest/download/historia-it.zip",
   "esmodules": [
     "scripts/main.js"
-  ]
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "Historia": "Historia – Manuale Base"
+      },
+      "spellLists": [
+        "Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesMagus001",
+        "Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesMortif01",
+        "Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesSacerd01"
+      ]
+    }
+  }
 }

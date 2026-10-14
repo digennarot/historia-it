@@ -79,6 +79,15 @@ jobs:
             done
             test -n "$(ls -A "$m/packs")" || { echo "::error::$m/packs is empty"; exit 1; }
           done
+          # Liste degli incantesimi per mestiere (CAP-8): le 3 pagine devono restare registrate.
+          jq -e '.flags.dnd5e.spellLists | length == 3 and all(startswith("Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage."))' historia-it/module.json > /dev/null \
+            || { echo "::error::historia-it/module.json lacks flags.dnd5e.spellLists with the 3 spell-list page UUIDs"; exit 1; }
+          # Compendium Browser (CAP-5): una sola source book "Historia"; tipi su ogni pack Item/Actor, nessuno sui JournalEntry.
+          jq -e '(.flags.dnd5e.sourceBooks | keys) == ["Historia"]
+            and all(.packs[] | select(.type != "JournalEntry"); (.flags.dnd5e.types | type) == "array" and (.flags.dnd5e.types | length) > 0)
+            and all(.packs[] | select(.type == "JournalEntry"); .flags.dnd5e.types == null)
+            and (.packs[] | select(.name == "species-it") | .flags.dnd5e.types) == ["race"]' historia-it/module.json > /dev/null \
+            || { echo "::error::historia-it/module.json has wrong flags.dnd5e.sourceBooks or pack flags.dnd5e.types"; exit 1; }
           echo "Build output verified."
 
       - name: Substitute version in module.json
@@ -135,18 +144,16 @@ jobs:
           fi
           echo "DIST_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
+      # DIST_REPO_PAT e DIST_SHA arrivano da $GITHUB_ENV: si leggono come variabili di shell, non dal contesto env.
       - name: Create Release on Distribution Repo
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: 'zip-output/historia-it.zip,historia-it/module.json'
-          token: ${{ env.DIST_REPO_PAT }}
-          owner: digennarot
-          repo: historia-it-dist
-          commit: ${{ env.DIST_SHA }}
-          name: Release ${{ steps.extract_version.outputs.VERSION }}
-          tag: v${{ steps.extract_version.outputs.VERSION }}
-          draft: false
-          prerelease: false
-          generateReleaseNotes: true
-          allowUpdates: true
-          skipIfReleaseExists: false
+        env:
+          VERSION: ${{ steps.extract_version.outputs.VERSION }}
+        run: |
+          export GH_TOKEN="$DIST_REPO_PAT"
+          REPO=digennarot/historia-it-dist
+          if gh release view "v$VERSION" -R "$REPO" > /dev/null 2>&1; then
+            gh release upload "v$VERSION" zip-output/historia-it.zip historia-it/module.json -R "$REPO" --clobber
+          else
+            gh release create "v$VERSION" zip-output/historia-it.zip historia-it/module.json -R "$REPO" \
+              --target "$DIST_SHA" --title "Release $VERSION" --generate-notes
+          fi
