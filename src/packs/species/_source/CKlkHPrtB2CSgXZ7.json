@@ -1,0 +1,158 @@
+{
+  "name": "Shrews",
+  "type": "race",
+  "img": "modules/historia/Species/Shrews.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Like the youngest child in a very large family, Shrews are always eager to prove their worth and finally be noticed. Shrews are constantly looking for ways to shake off the reputation that comes with being the smallest Theri in Vesteria. Above all they detest the impression of being considered defenseless, harmless and irrelevant. Gogetters and unscrupulous, the Shrews only worry when an action might damage their interests. They will not hesitate to hit life below the belt if it guarantees them advantage. There are also Shrews who are ready to fight with all their strength to overcome all types of prejudice and distinguish themselves through their merits only. However, the notoriety of their cynical and selfish temperament often makes them unwelcome in many social circles. An almost absolute peculiarity of the Shrews is the rudimentary form of echolocation they have, which allows them an extremely accurate perception of the environment around them, contributing even more to the bold confidence with which they move through the world.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Charisma score increases by 2 and your  <span class=\"fontstyle0\">Dexterity </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">A Eulipi reaches maturity at around 10 years and is immediately considered independent. They have an average life span of 50 years.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em><span class=\"fontstyle2\">Your base walking speed is 25 feet.</span></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Shrew can reach a maximum height of 2 1/2 feet <span class=\"fontstyle0\">and a weight of not more than 45 lbs.</span>  <span class=\"fontstyle2\">Your size is Small. <br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency with the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><em><strong><span class=\"fontstyle0\">Darkvision. </span></strong></em><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.<br /></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.Bmgcfc7z86n51EkV]{Innate Stealth}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.QhiKlKYnXZJt54DN]{Terrestrial Echolocation}</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.ZY1hgdiOKn2jalDE]{Venomous Bite}</span></span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.1BEoaRttd8jquTWY]{Unexpected Resistance}</span></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Habits (Prey):</strong></em> </span><span class=\"fontstyle4\">“I appreciate the daily routine and I am averse to changes”.</span></p>\n<p><em><strong><span class=\"fontstyle0\">Instinct of Species, Poisonous: </span></strong></em><span class=\"fontstyle2\">“I can hit where it hurts the most”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "Historia",
+      "page": "64",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "rxcv3XwXLhNHZBGB",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 2
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "zlOjql1ed2ItST34",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "qLn08eMpy3f7VOzE",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "G3MJoNHpMk40brMC",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "kVu26p7NAPdDa6C6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.Bmgcfc7z86n51EkV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.QhiKlKYnXZJt54DN",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZY1hgdiOKn2jalDE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.1BEoaRttd8jquTWY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Eulipi",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1739472376500,
+    "modifiedTime": 1739535815011,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "CKlkHPrtB2CSgXZ7"
+}

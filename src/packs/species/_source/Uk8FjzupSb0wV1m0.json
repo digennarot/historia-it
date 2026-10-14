@@ -1,0 +1,181 @@
+{
+  "name": "Tawny Owls",
+  "type": "race",
+  "img": "modules/historia/Species/Tawny%20Owl.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Being one with your environment has multiple advantages. When you are the prey, it makes escaping easier even if you are physically disadvantaged; when you are the predator, it allows for the perfect ambush. Tawny Owls are often found waiting, in hiding. This gift makes them highly sought after for all those jobs where discretion is fundamental. Indeed, their opportunism is an added value and the quickness of their reflexes can make the difference between life and death. Despite having all the credentials to excel in many fields, Tawny Owls often find themselves operating in the underworld as spies, thieves, pickpockets, burglars and so on. Anything but naive, these Avians have the know how to face and complete any task and always find a way out even when they are cornered: they always have the right answer and it is very difficult to intimidate them, managing to keep cool and rational under pressure. </span>As for relationships with others, Tawny Owls are very empathetic and easy to influence by those they are fond of, </span><span class=\"fontstyle0\">and this tendency contributes to getting them into trouble as much as to getting them out of it.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Wisdom </span>score increases by 2 and your <span class=\"fontstyle0\">Constitution </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Strigi reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 15 feet. <span class=\"fontstyle0\">Your flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Tawny Owl can reach a height between 1 meter <span class=\"fontstyle0\">and 1.5 meters and weigh between 20 and 40 kg. Your size is Medium.</span>  The female <span class=\"fontstyle0\">specimens of Strigi are notoriously larger than the males.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Improved darkvision.</strong></em> </span><span class=\"fontstyle2\">You benefit from excellent eyesight suitable for dark or dim light conditions. You can see up to 120ft. in dim light conditions away as if you were in bright </span><span class=\"fontstyle0\">light conditions, and in darkness as if you were in dim light. In the dark you are unable to discern colors, but only shades of grey.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle0\">You have proficiency in the Survival skill.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.xFg14Y6h4cY5fG9i]{Grasper}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></span></p>\n<p>@Compendium[world.species-features.wpmVyH09v3WB4TYA]{Mimicry}</p>\n<p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</p>\n<p>@Compendium[world.species-features.5gVT96RmF9wzuyOe]{Strong Intuition}</p>\n<p>@Compendium[world.species-features.ytz30kh4BQMPNKoT]{Sensitivity to Daylight}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.PCBN9c9lNEFp05Af]{Opportunist}</span></span></span></span></p>\n<p>@Compendium[world.species-features.XXAgaQu5o3hNCwQA]{Rapax Claws}</p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.p1DYyduPHPQnUREg]{Silent Flight}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Nocturne (Predator): </span></strong></em><span class=\"fontstyle4\">“I prefer to act without being seen.”</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Listener:</strong></em> </span><span class=\"fontstyle2\">“I can listen to others and empathize with them”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "Historia",
+      "page": "117",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "B5i2y9ztJoZuxwg3",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "woALJ8IomaiMyGCM",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "fK7bGtei8CejS5tA",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "7SUcML4LkDq2wfcS",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur",
+            "skills:slt"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "SyNHy7u79BfbC28w",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.XXAgaQu5o3hNCwQA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5gVT96RmF9wzuyOe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ytz30kh4BQMPNKoT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.p1DYyduPHPQnUREg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.wpmVyH09v3WB4TYA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.PCBN9c9lNEFp05Af",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.xFg14Y6h4cY5fG9i",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 15,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Strigi",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1739575268232,
+    "modifiedTime": 1739575854952,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Uk8FjzupSb0wV1m0"
+}

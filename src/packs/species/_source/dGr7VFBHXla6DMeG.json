@@ -1,0 +1,177 @@
+{
+  "name": "Barn Owls",
+  "type": "race",
+  "img": "modules/historia/Species/Barn%20Owls.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">With their white and heart-shaped face, golden plumage and deep black eyes, the Barn Owl does not seem to have a ruthless tongue ... and yet, their appearance is deceiving! The members of this species, also thanks to their fine intellect, love debate in all its forms and cannot keep their beak closed even when it best suits them. Barn Owls effortlessly master all the weapons of a good orator and are accustomed to winning easily in verbal battles. Charismatic, self-confident and naturally versed in the most intellectual of disciplines, these Strigi do not like getting their hands dirty, and before resorting to force they prefer to rely on intimidation, which is their base talent. Barn Owls do no  shine for emotional sensitivity, and in their relationships they can often seem cold or not very involved; they do not like to express their feelings, especially positive ones and much less so in public, where it could be noticed and used to their disadvantage; but when they become attached to someone, they do what they can to make it known to those directly concerned through small and private gestures.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Wisdom </span>score increases by 2 and your <span class=\"fontstyle0\">Charisma </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Strigi reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 15 feet. <span class=\"fontstyle0\">Your flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span><span class=\"fontstyle0\">A Barn </span><span class=\"fontstyle2\">Owl can reach a height of between 1.2 </span><span class=\"fontstyle2\">meters and 1.4 meters and weigh between 30 and 40 kg. Your size is Medium.</span>  The female <span class=\"fontstyle0\">specimens of Strigi are notoriously larger than the males.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle0\">You have proficiency in the Survival skill.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Spectral.</strong></em> </span><span class=\"fontstyle2\">You have expertise in the Intimidate ability.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Improved darkvision.</strong></em> </span><span class=\"fontstyle2\">You benefit from excellent eyesight suitable for dark or dim light conditions. You can see up to 120ft. in dim light conditions away as if you were in bright </span><span class=\"fontstyle0\">light conditions, and in darkness as if you were in dim light. In the dark you are unable to discern colors, but only shades of grey.</span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></span></span></p>\n<p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</p>\n<p>@Compendium[world.species-features.5gVT96RmF9wzuyOe]{Strong Intuition}</p>\n<p>@Compendium[world.species-features.ytz30kh4BQMPNKoT]{Sensitivity to Daylight}</p>\n<p>@Compendium[world.species-features.XXAgaQu5o3hNCwQA]{Rapax Claws}</p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.p1DYyduPHPQnUREg]{Silent Flight}</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.EX1Ovw592FUSUrYT]{Toddle}</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.i7TVfdAxCFMsl2GF]{Screech}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Nocturne (Predator): </span></strong></em><span class=\"fontstyle4\">“I prefer to act without being seen.”</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Lament:</strong></em> </span><span class=\"fontstyle2\">“I never keep a complaint to myself ”.</span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "118",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "Size",
+        "_id": "KAD1YhKCrfqFq7qG",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "H0NXDYxyCvgsBOjw",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "cc13T0KspsCiBwzA",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur",
+            "skills:itm"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Te8ZYAhH8eRJl8sh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.XXAgaQu5o3hNCwQA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5gVT96RmF9wzuyOe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ytz30kh4BQMPNKoT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.p1DYyduPHPQnUREg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.EX1Ovw592FUSUrYT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.i7TVfdAxCFMsl2GF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "NcImKDIsGQ0j1X5K",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 2,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 15,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Strigi",
+      "subtype": ""
+    },
+    "identifier": "barn-owls"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737227758801,
+    "modifiedTime": 1739474690030,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "dGr7VFBHXla6DMeG"
+}

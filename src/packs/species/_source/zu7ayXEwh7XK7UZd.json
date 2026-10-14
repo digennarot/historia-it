@@ -1,0 +1,168 @@
+{
+  "name": "Beavers",
+  "type": "race",
+  "img": "modules/historia/Species/Beavers.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Even if they were nobles and could spend their days in ease and idleness, Beavers would still choose to do some kind of manual work. They love every step of the process necessary to create something, from its design to the latest delicate finishes, but it is the actual construction that fascinates them. Whether the result of family tradition or natural predisposition, Beavers are excellent craftsmen. Reliable and efficient, yet still whimsical, these Rodents are successful in every field, but it is in woodworking that they reach their excellence. Hard work does not scare them; intellectually but more especially on a physical level they are willing to spend a lot of time and resources in researching and designing the best solutions to every problem. They do not believe in temporary remedies, and always prefer to go back to the root cause of problems in order to solve them once and for all. With friends and lovers they are similarly methodical, preferring stable, long-lasting, and deep relationships which they have devotedly develop over time.</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Intelligence </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Rodent reaches maturity around the age of 12 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 50 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 25 feet, and your </span><span class=\"fontstyle0\">swimming speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle2\">A Beaver can reach a height of between 1.1 meters </span><span class=\"fontstyle0\">and 1.4 meters and weigh between 40 and 70 kg. Your size is Medium.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Master craftsman.</strong></em> </span><span class=\"fontstyle2\">You have expertise in builder’s and carpenter’s tools.</span><br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Craftsmen’ culture.</strong></em> </span><span class=\"fontstyle2\">You have expertise in a craftsman tool of your choice.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Darkvision.</strong></em> </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5zt3WRF8SU4FNKqd]{Gnawer}</span></p>\n<p><span class=\"fontstyle3\">@Compendium[world.species-features.35zO6haLD4XxUfaz]{Improved Gnawer}</span></p>\n<p><span class=\"fontstyle3\"><span class=\"fontstyle2\">@Compendium[world.species-features.E3qmVZ2RdTAiC6md]{Adaptation to Cold}</span></span></p>\n<p><span class=\"fontstyle3\">@Compendium[world.species-features.wvPpzsf2dQ1uAToM]{Tireless Worker}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Architect (Prey):</strong></em> </span><span class=\"fontstyle4\">“I can achieve lasting and change-resistant results”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Loyal:</strong></em> </span><span class=\"fontstyle2\">“I always keep my word”.</span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "78",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "8d4ZZAtKivHxtdAh",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 2,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "kCRxWwwJYEf3nTgl",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "n80FcJj4wOjWFuTK",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "mhYg8vwnKoYKS4WS",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:mason",
+            "tool:art:carpenter"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "0OTOojHYDpWy2UZX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5zt3WRF8SU4FNKqd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.35zO6haLD4XxUfaz",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.E3qmVZ2RdTAiC6md",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.wvPpzsf2dQ1uAToM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 30,
+      "walk": 25,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Rodenti",
+      "subtype": ""
+    },
+    "identifier": "beavers"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737371510132,
+    "modifiedTime": 1739475241198,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "zu7ayXEwh7XK7UZd"
+}

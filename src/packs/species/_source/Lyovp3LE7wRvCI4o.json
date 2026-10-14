@@ -1,0 +1,154 @@
+{
+  "name": "Pumas",
+  "type": "race",
+  "img": "media/Species/Pumas.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Wilder, prouder and bigger than the other Felid the Pumas are the undisputed princes of the Confederation’s mountains. Puma are stronger and more agile than their lowland relatives. Everything, from their stature, to their social structure that is divided into nomad clans, make them the ideal fit for living and fighting among the rocks of their beloved peaks. For this reason, it is impossible for an external invader to penetrate their territory: exhausted by the harsh climate, the hostile environment and the incessant guerilla warfare, any invader is destined to fail. This contributes to cementing the fundamental disinterest of the Pumas on what happens outside their lands and social circle, and their absolute refusal of external authority. Within the clans, however, there is a very intense level of competitiveness, similar but different from that existing amongst Cats; the desire to excel is the same, but the goal is another: neither power nor wealth, but status within the clan, along with the respect of their peers. Unlike the underground war that is being fought in the cities, the struggle for supremacy between Pumas does not tolerate unfair means and does not compromise family balance. Due to these customs, many consider them barbaric and backward, but the Pumas themselves consider themselves superior and more honorable for the same reasons.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your  <span class=\"fontstyle0\">Dexterity </span>score increases by 2 and your  <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">A Felid reaches maturity around the age of 14 and i</span><span class=\"fontstyle0\">s immediately considered independent. They have an average life span of about 60 years.</span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em></span>Your base speed on the ground is 40 feet, and your <span class=\"fontstyle0\">climbing speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Puma can reach a height of between 5 1/4 feet and <span class=\"fontstyle0\">6 feet and weigh between 90 lbs and 175 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Feline agility.</strong></em> </span><span class=\"fontstyle2\">You haves proficiency in the Acrobatics and Stealth skills.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Fierce.</strong></em> </span><span class=\"fontstyle2\">You have expertise in the Intimidate ability.</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Darkvision. </span></strong></em><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></p>\n<p>@Compendium[world.species-features.I4p677s9Sum8Tkt5]{Quiet Step}</p>\n<p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.imGq5T2y1dxpfYvM]{Improved Claws}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.Ikgpy47d8rcdR9Db]{Prodigious Leap}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Independence (Predator): </strong></em></span><span class=\"fontstyle4\">“Only I decide my fate”</span></p>\n<p><span class=\"fontstyle4\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Competitive: </span></strong></em><span class=\"fontstyle2\">“I always look for an opponent to challenge and defeat”</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2014",
+      "book": "Historia",
+      "page": "68",
+      "license": "",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "yRTXxSn7alEbhYrj",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "uYFgv9xN7JCi4GTk",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "7SjnX43NjPQK7dcD",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "rA2GAIQflj06zz7x",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:acr",
+            "skills:ste",
+            "skills:itm"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "eeDLfWN6wKwHFMmd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.I4p677s9Sum8Tkt5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.imGq5T2y1dxpfYvM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.Ikgpy47d8rcdR9Db",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": 30,
+      "fly": null,
+      "swim": null,
+      "walk": 40,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Felidi",
+      "subtype": ""
+    },
+    "identifier": "pumas"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738506995370,
+    "modifiedTime": 1739538282200,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Lyovp3LE7wRvCI4o"
+}

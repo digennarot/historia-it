@@ -1,0 +1,168 @@
+{
+  "name": "Leporidae",
+  "type": "race",
+  "img": "modules/historia/Species/Leporidae.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">As variable as Spring weather, as easily swayed as they are adaptable to any situation, the Leporidae are like weathervanes in that they are quick in changing their point of view or behaviour depending on what is happening around them. Their place of origin plays an important role in the character of this species: Rabbits and Hares born and raised in the city will tend to be more peaceful, sociable and used to variety; those native to rural or wild areas will tend to be very lively, unpredictable and quite emotional. Resilient, ready to seek compromise and generally excellent diplomats, these Rodents are very empathetic and sensitive to the mood around them. It takes very little to make them change their mood, so much so that they can go from laughter to tears in a single sentence and be back to laughing by the end of the conversation. If certain members of this species choose dangerous professions, this is not out of them being daredevils (normally, Leporidae try to avoid unnecessary risks), but because they let themselves be thrilled by the novelty and charm of the trade.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Intelligence </span>score increases by 2 and your <span class=\"fontstyle0\"> <span class=\"fontstyle0\">Dexterity</span> </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Rodent reaches maturity around the age of 12 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 50 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 40 feet.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle2\">A Leporid can reach a height of between 3 1/2 feet </span><span class=\"fontstyle0\">and 5 1/4 feet, and weigh between 65 lbs to 130 lbs. Your size is Medium.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Adaptable.</strong></em> </span><span class=\"fontstyle2\">If you come from a woodland environment, you gain proficiency in the Survival skill; if you come from an urban environment you gain proficiency in the Persuasion skill.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Craftsmen’ culture.</strong></em> </span><span class=\"fontstyle2\">You have expertise in a craftsman tool of your choice.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Darkvision.</strong></em> </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.<br /></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5zt3WRF8SU4FNKqd]{Gnawer}</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.JP0rv0xvUnuCQid1]{Jumper}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.zPWzVR9X66zXygju]{Lithe}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Architect (Prey):</strong></em> </span><span class=\"fontstyle4\">“I can achieve lasting and change-resistant results”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Fear:</strong></em> </span><span class=\"fontstyle2\">“I look for situations with as few risks as possible”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "78",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "CErATPdqQmrKiGN1",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 2,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "tKil88dNKB92n7Gr",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "qlI40u5LWUaG3vjC",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "v7jmlz3wlClp6qx5",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:sur",
+                "skills:per"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "biQFNZHAaec2UvLD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5zt3WRF8SU4FNKqd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.JP0rv0xvUnuCQid1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.zPWzVR9X66zXygju",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 40,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Rodenti",
+      "subtype": ""
+    },
+    "identifier": "leporidae"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737724799453,
+    "modifiedTime": 1739535048402,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "and5ISQJfR4CVA1A"
+}

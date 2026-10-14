@@ -1,0 +1,169 @@
+{
+  "name": "Brown Bears",
+  "type": "race",
+  "img": "modules/historia/Species/Brown%20Bear.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Brown Bears spend the first part of their lives building a repetitive, reassuring and well thought out existence, and the other half enjoying this routine. They love to do the same things the same way, eat the food they already know and love, see places familiar to them and interact with the few creatures they know they agree with. There is nothing worse than the arrival of an unexpected novelty, and anything that breaks the daily routine of the activities of a Brown Bear can provoke reactions ranging from irritation to anger, an eventuality that no one should experience since the anger of an Urcide is truly frightening. Despite this aversion to unexpected events, Brown Bears are not to be considered a fearful species: they always react with courage and determination, and they do their utmost to return things back to normal, which for them is the best condition that there can be... Traditionalist and habitual, Brown Bears learn slowly and unwillingly, unless it is shown to them by facts that novelty not only can be perfectly incorporated into their established order, but even improve it. In this case, they will apply a consistent and unexpected patience and demonstrate great respect for their teacher.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Strength </span>score increases by 2, your <span class=\"fontstyle0\">Constitution </span></span>score increase by 1 and Wisdom <span class=\"fontstyle2\"><span class=\"fontstyle0\">score increase by 1</span>.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>An Urcidi reaches maturity around the age of 20 <span class=\"fontstyle0\">and is immediately considered independent. They have an average life span of 100 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 30 feet and your </span><span class=\"fontstyle0\">climbing speed is 20 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Brown Bear can reach a height between 2.2 meters <span class=\"fontstyle0\">and 2.5 meters and weigh between 180 and 220 kg.</span><span class=\"fontstyle2\"> Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Athletic.</strong></em> </span><span class=\"fontstyle2\">You may choose either Athletics or Acrobatics. You gain proficiency in that skill.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Darkvision.</strong></em> </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></p>\n<p>@Compendium[world.species-features.f8BD0svXngQPjPsa]{Careful}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.bX6x2Un82XhGq7xh]{Wrestler}</span></p>\n<p>@Compendium[world.species-features.o6oG8Je6mYPytdqr]{Claws}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5O2o1C1bdm5g4MD5]{Thicker Skin}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.4Y1QRiD0X0ueMPHm]{Gnaw}</span></p>\n<p>@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia. Solitary (Omnivorous): </span></strong></em><span class=\"fontstyle4\">“I can be alone and keep others at a distance”.</span></p>\n<p><span class=\"fontstyle4\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Fearless: </span></strong></em><span class=\"fontstyle2\">“I confront and control my fears”.</span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "90",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "EuZwHVP0Q5iqWrGG",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 2,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 1,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "ICfIyXfUruHthbjt",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "o9bTXzqYhSTmTEvn",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "Hd5sWl9ukHpoxs3a",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur",
+            "skills:prc"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:acr",
+                "skills:ath"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "0fUadK0TGWqLV0Md",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.o6oG8Je6mYPytdqr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5O2o1C1bdm5g4MD5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.gLqeSZQHQYXcAMTd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.VMSnmfLyBajf1N0C",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.bX6x2Un82XhGq7xh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.f8BD0svXngQPjPsa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": 20,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Urcidi",
+      "subtype": ""
+    },
+    "identifier": "brown-bears"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737382092673,
+    "modifiedTime": 1739534104561,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "XikYSYEc63F2IyqW"
+}

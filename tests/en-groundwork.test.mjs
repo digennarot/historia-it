@@ -57,6 +57,37 @@ describe('riferimenti EN', () => {
     });
 });
 
+describe('specie EN (story 8b)', () => {
+    const itRaces = new Map(docs('species-it').filter(d => d.type === 'race').map(d => [d._id, d]));
+    const enRaces = docs('species');
+
+    it('66 documenti race, con gli stessi _id di species-it', () => {
+        expect(enRaces.every(d => d.type === 'race')).toBe(true);
+        expect(enRaces).toHaveLength(66);
+        expect(enRaces.map(d => d._id).sort()).toEqual([...itRaces.keys()].sort());
+    });
+
+    it('stessa sequenza di advancement della controparte IT', () => {
+        const differ = enRaces.filter(e => {
+            const it = itRaces.get(e._id);
+            return !it || e.system.advancement.map(a => `${a.type}:${a._id}`).join() !== it.system.advancement.map(a => `${a.type}:${a._id}`).join();
+        }).map(e => e.name);
+        expect(differ).toEqual([]);
+    });
+
+    it('source.book "Historia", distanze in piedi', () => {
+        const offenders = enRaces.filter(d => d.system.source?.book !== 'Historia'
+            || d.system.movement?.units === 'm' || d.system.senses?.units === 'm').map(d => d.name);
+        expect(offenders).toEqual([]);
+    });
+
+    it('ogni feature di specie IT (incluso Istinti) ha la controparte EN con lo stesso _id', () => {
+        const en = new Set(docs('species-features').map(d => d._id));
+        const missing = docs('species-features-it').filter(d => d.system && !en.has(d._id)).map(d => `${d._id} ${d.name}`);
+        expect(missing).toEqual([]);
+    });
+});
+
 describe('advancement di classe EN', () => {
     const itClasses = new Map(docs('professions-it').filter(d => d.type === 'class' || d.type === 'subclass').map(d => [d._id, d]));
     const enClasses = docs('professions').filter(d => d.type === 'class' || d.type === 'subclass');

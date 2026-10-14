@@ -1,0 +1,150 @@
+{
+  "name": "Pelicans",
+  "type": "race",
+  "img": "modules/historia/Species/Pelicans.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Pelicans know they are strong, and do not hesitate to put this force to the service of the weakest. They have a great spirit of sacrifice; they do not fear the judgment of others and are willing to do the right thing even when it could bring them harm. Their altruistic and fearless temperament makes them the backbone of any rescue or protection service of the community: Pelicans are born protectors, and they will fight with merit, without ever exceeding in zeal or violence. However, these brave Avians do not always have a good relationship with regulations, especially with those that they perceive as being unfair, and have the tendency to do as they please if put in front of rigid and, in their eyes, unreasonable laws. These Anseri are also skilled sailors and have an innate harmony with the weather, which they can “read” like no other, managing to evaluate with confidence whether they will face a storm or calm weather. Many captains are willing to pay substantial wages to secure a Pelican boatswain, and success often smiles upon expeditions that sail with one of them onboard.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Constitution </span>score increases by 1 and your Wisdom<span class=\"fontstyle0\"> </span>score increases by 2.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>An Anseri reaches maturity at around 12 years <span class=\"fontstyle0\">of age and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 15 feet, your flying </span><span class=\"fontstyle0\">speed is 30 feet, and your swimming speed is 35 feet.</span></p>\n<p><em><strong><span class=\"fontstyle0\">Size. </span></strong></em><span class=\"fontstyle2\">A Pelican can reach a height of between 4 feet and 5 1/2 feet, and weigh between 65 lbs and 90 lbs.  Your size is Medium.</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.9tSBClRGsMUrRPQw]{Clumsy}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.5a9slEU5BRDefy5v]{Internal Compass}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.p9KCNI8RdCDY7zkg]{Fiery Spirit}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.A8s7NDJ3WeiNWtrh]{Webbed Legs}</span></p>\n<p>@Compendium[world.species-features.u52iaPMvBB60aKCx]{Sack Beak}</p>\n<p>@Compendium[world.species-features.VEvStOvmqLzFCrAv]{Sailor}</p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Migrator (Prey):</strong></em> </span><span class=\"fontstyle4\">“I am looking for the best environment for me, I shy away from hostile environments”</span></p>\n<p><span class=\"fontstyle4\"><em><strong>Instinct of Species, Defender:</strong></em> “I defend anyone who is unable to defend themselves.”</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "98",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "L8YWeoMiEAPxYg2R",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 3,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "bo1hLKXCoSUMI04p",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "ToV2WePj0enWkJWF",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "czppFsGMxEYs0vq2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9tSBClRGsMUrRPQw",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5a9slEU5BRDefy5v",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.p9KCNI8RdCDY7zkg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.A8s7NDJ3WeiNWtrh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.u52iaPMvBB60aKCx",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.VEvStOvmqLzFCrAv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": 40,
+      "walk": 15,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Anseri",
+      "subtype": ""
+    },
+    "identifier": "pelicans"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738500466276,
+    "modifiedTime": 1739535419843,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "JQr7iEqVJtZUZv3a"
+}

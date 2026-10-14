@@ -1,0 +1,150 @@
+{
+  "name": "Peacocks",
+  "type": "race",
+  "img": "modules/historia/Species/Peacock.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Peacocks dream of a time that no longer exists, or that perhaps never was: idealists, in love with a chivalry made up of noble deeds, courteous love and devotion, they are convinced of their nobility. If this sometimes makes them a little ridiculous in the eyes of other Avians, who consider them to be deluded fools, Peacocks do not allow themselves to be distracted from their beliefs, which push them to be truly honorable and valiant, even when their natural disposition would induce them to run away. Another factor that unfortunately does not contribute to the credibility of these Ruspei in public opinion is the obsessive attention they devote to their appearance, especially the males of the species: vain and endowed with an excessive and theatrical sense of style, they give enormous weight to their physical looks, both in regard to themselves and others. It must be said though, that with their exquisitely polite ways and their gaudy livery, Peacocks are magnetic and impossible to ignore. Courteous and full of energy, Peacocks love to tell of their adventures anywhere they find an audience to cheer and entertain, even among cutthroats in the darkest corner of an infamous tavern.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Constitution </span>score increases by 2 and your <span class=\"fontstyle0\">Charisma </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Ruspei reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 30 feet, and your <span class=\"fontstyle0\">flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Peacock can reach a height between 4 1/4 feet and <span class=\"fontstyle0\">5 1/4 feet, and weigh between 65 lbs and 110 lbs.</span>  Your size is Medium. The male specimens of Ruspei are on the average larger <span class=\"fontstyle0\">than females.</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></p>\n<p>@Compendium[world.species-features.DXFYqjVUtn7isXQ0]{Rural Bond}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.KLUpTp84biwLa7kn]{Narcissist}</span></span></p>\n<p>@Compendium[world.species-features.ZRadhCkmL5C2sXjX]{Limited Flight}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.NT1pq3nHCIdCuQhJ]{Protective}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3lLHX34Kj2cQa4HO]{Facinating}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Habits (Prey):</strong></em> </span><span class=\"fontstyle4\">“I appreciate the daily routine and I am averse to change”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Vain:</strong></em> “</span><span class=\"fontstyle2\">I always put myself at the center of attention”</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "114",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "lr4aAavYCpCShIwq",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 3
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "L7kWvYvMkHFEIQgo",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "1W23ip90pQJOG4Vj",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "5yS6mdxFRqfM3s0s",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZRadhCkmL5C2sXjX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DXFYqjVUtn7isXQ0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.NT1pq3nHCIdCuQhJ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.KLUpTp84biwLa7kn",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.3lLHX34Kj2cQa4HO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruspei",
+      "subtype": ""
+    },
+    "identifier": "peacocks"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738437757449,
+    "modifiedTime": 1739535412178,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "4YB7dbB8B3YqO5UX"
+}

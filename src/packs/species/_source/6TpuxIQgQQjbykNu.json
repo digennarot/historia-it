@@ -1,0 +1,157 @@
+{
+  "name": "Deer",
+  "type": "race",
+  "img": "modules/historia/Species/Deer.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">With long limbs, imposing antlers and a graceful gait, Deer are convinced of being the most noble, elegant and deserving of creatures. They are avid scholars of local history and heraldry, and many know the genealogies and deeds of all the noble families of Vesteria, knowledge that they never fail bring to the attention of others whenever they are given the opportunity. While they deem themselves to be simply behaving in a way appropriate to their high-ranking breed, others often judge them as arrogant and excessive. Deer are, after all, terrible followers who detest taking orders and react badly to constraints, preferring leading positions to subordinate ones. While much of their innate characteristics do not earn them unbridled sympathy it is only fair to underline how these Ruminsi have a radical and strong sense of honor that leads them to be absolutely sincere, even when the truth could damage them. Incorruptibility tends to make them formidable administrators of justice.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Wisdom </span>score increases by 2 and your <span class=\"fontstyle0\">Charisma </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Ruminsi reaches maturity around the age <span class=\"fontstyle0\">of 14 and is immediately considered independent. They have an average lifespan of around 80 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em>  </span>Your base speed on the ground is 40 feet.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Deer can reach a height of between 4 1/2 feet and <span class=\"fontstyle0\">6 1/2 feet, and weigh between 90 lbs and 175 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Genealogist.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the History skill.<br /></span></span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Darkvision</strong></em>. </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.JP0rv0xvUnuCQid1]{Jumper}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.cdqEyJn6NwvJGtut]{Horn Attack}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.6ltl18WnVt1LmmQQ]{Charge}</span></p>\n<p><span class=\"fontstyle3\"><span class=\"fontstyle2\">@Compendium[world.species-features.vRpyG4XMJwT1S36I]{Large Antlers}.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Honorable (Prey):</strong></em> </span><span class=\"fontstyle4\">“I follow a code of clearly defined rules”.</span></p>\n<p><span class=\"fontstyle4\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Independence: </span></strong></em><span class=\"fontstyle2\">“Only I decide my fate”.</span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "83",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "DbnDqRPtqePW42tB",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 2,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "D5AVC2kW6Cmmq4Pk",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "m80GGpiBDUkKtKsM",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "9Sev7zIfHtrsPOy4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:his",
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "xYPl5zTdKSCdNsKN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.cdqEyJn6NwvJGtut",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.6ltl18WnVt1LmmQQ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.M0VrAD7lTiaCZzpo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.R2U2UCbTMGqwr7GA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 40,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruminsi",
+      "subtype": ""
+    },
+    "identifier": "deer"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737399893700,
+    "modifiedTime": 1739534306145,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "6TpuxIQgQQjbykNu"
+}

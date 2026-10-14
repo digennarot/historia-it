@@ -1,0 +1,156 @@
+{
+  "name": "Moose",
+  "type": "race",
+  "img": "modules/historia/Species/Moose.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Moose do not tolerate two things: confusion or injustice. The fact that they keep their distance from heavily populated towns, as if these were dens of scorpions, should therefore not come as a surprise. They prefer the silent forests of the hills, or the steppes on the edge of the White Desert, or the placid countryside dotted with small villages, where they often take on the unofficial task of </span>peacemakers and custodians of public order, intervening </span><span class=\"fontstyle0\">harshly to restore balance in case of conflict or iniquity. They are taciturn, patient, tireless and reserved, it is rare for them to be grumpy or unfriendly, and they willingly accept the company of others if it is unobtrusive and respectful. Moose are prodigiously strong and can perform heavy jobs that might seem unthinkable to other creatures of similar stature. This helps them a lot in their solitary activities, where they often find themselves forced to rely solely upon their own abilities. Their incredible strength is a feature they are very proud of, always confident that they can escape any adverse situation.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Wisdom </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 2.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Ruminsi reaches maturity around the age <span class=\"fontstyle0\">of 14 and is immediately considered independent. They have an average lifespan of around 80 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base speed on the ground is 30 feet.<br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Moose can reach a height of between 2 meters <span class=\"fontstyle0\">and 6 1/2 feet and 8 1/4 feet, and weigh between 400 lbs and 600 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Darkvision</strong></em>. </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.gLqeSZQHQYXcAMTd]{Might}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.E3qmVZ2RdTAiC6md]{Adaptation to Cold}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.cdqEyJn6NwvJGtut]{Horn Attack}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.6ltl18WnVt1LmmQQ]{Charge}</span></p>\n<p><span class=\"fontstyle3\">@Compendium[world.species-features.vRpyG4XMJwT1S36I]{Antlers}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Honorable (Prey):</strong></em> </span><span class=\"fontstyle4\">“I follow a code of clearly defined rules”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Cunning:</strong></em> </span><span class=\"fontstyle2\">“I always beat my opponents on several aspects”.</span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "84",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "urFjttAtYZHHcPkQ",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 2,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "H4yoNt9yvl0ojEpx",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "cgobZEwFW3AqLH3L",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "fwxyCvUpNCE3LdZX",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "UVEjNzrkMKlwAqVe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.cdqEyJn6NwvJGtut",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.6ltl18WnVt1LmmQQ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.vRpyG4XMJwT1S36I",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.gLqeSZQHQYXcAMTd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.E3qmVZ2RdTAiC6md",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruminsi",
+      "subtype": ""
+    },
+    "identifier": "moose"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738274414272,
+    "modifiedTime": 1739535266963,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "hQujgFVfqiK7B8E2"
+}

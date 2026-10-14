@@ -1,0 +1,176 @@
+{
+  "name": "Little Owls",
+  "type": "race",
+  "img": "modules/historia/Species/Little%20Owls.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Libraries are the natural environment of several Avians, but none of them treasure the content of these forests of knowledge as much as the Little Owls. Rational, sharp and thirsty for knowledge, these little Strigi are considered the best teachers thanks to their temperament and analytical side, and for many noble families being able to boast their offspring having been educated by an owl is a very prestigious claim. Little Owls love knowledge when it is not an end in itself and especially when it brings them closer to the Truth: they despise superstition and everything that in their opinion smells of cultural backwardness, and tolerate the study of such subjects only if it can give them tools to be used for their own benefit. They hate injustice and dishonesty and feel empowered to intervene when they meet them. They are not the most emotional of creatures, but their crystalline sincerity and love for justice make them honest, open and faithful companions, who will never change their word. To change a Little Owl’s mind, especially one convinced of being right, is practically impossible: the only eventuality lies in demonstrating to them with irrefutable facts, possibly supported by an authoritative writing, the fallacy of their position, which they will then hesitantly accept.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Wisdom </span>score increases by 2 and your <span class=\"fontstyle0\">Intelligence </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Strigi reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 15 feet. <span class=\"fontstyle0\">Your flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Little Owl can reach a maximum height of 1 meter <span class=\"fontstyle0\">and a weight not exceeding 30 kg. Your size is Small. </span>The female <span class=\"fontstyle0\">specimens of Strigi are notoriously larger than the males.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Improved darkvision.</strong></em> </span><span class=\"fontstyle2\">You benefit from excellent eyesight suitable for dark or dim light conditions. You can see up to 120ft. in dim light conditions away as if you were in bright </span><span class=\"fontstyle0\">light conditions, and in darkness as if you were in dim light. In the dark you are unable to discern colors, but only shades of grey.</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle0\">You have proficiency in the Survival skill.</span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></span></p>\n<p>@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</p>\n<p>@Compendium[world.species-features.5gVT96RmF9wzuyOe]{Strong Intuition}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.2Xg3aL44vxRZHBhI]{Reasoning}</span></span></span></p>\n<p>@Compendium[world.species-features.ytz30kh4BQMPNKoT]{Sensitivity to Daylight}</p>\n<p>@Compendium[world.species-features.XXAgaQu5o3hNCwQA]{Rapax Claws}</p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.p1DYyduPHPQnUREg]{Silent Flight}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.fi6RkzMjKEhDmiZL]{Bringer of Bad Luck}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Nocturne (Predator): </span></strong></em><span class=\"fontstyle4\">“I prefer to act without being seen.”</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Truth:</strong></em> </span><span class=\"fontstyle2\">“I intervene when there is something wrong”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "118",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "wesTxSZDUpWz8zYA",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "Wn3ScIVPnERDXFvV",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "x2Ng0HUfvawwBBRM",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "MwLSIiWFndmd32ep",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "5yJNpBC8SPuN6NTJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.XXAgaQu5o3hNCwQA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.5gVT96RmF9wzuyOe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ytz30kh4BQMPNKoT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.p1DYyduPHPQnUREg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.fi6RkzMjKEhDmiZL",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.2Xg3aL44vxRZHBhI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 15,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Strigi",
+      "subtype": ""
+    },
+    "identifier": "little-owls"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738013949386,
+    "modifiedTime": 1739535082087,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "iRgRxlhqz7H69YiR"
+}

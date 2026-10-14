@@ -1,0 +1,157 @@
+{
+  "name": "Foxes",
+  "type": "race",
+  "img": "modules/historia/Species/Foxes.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Sly as a Fox is not just a saying, and anyone who has dealt with these shrewd Licai knows it well. Foxes are selfish, opportunistic and have no scruples, they never hesitate to put their interests before those of others, or to lie in order to protect themselves. They prefer to call themselves prudent rather than cowardly, and they hate taking unnecessary risks; they know very well that they do not have physical strength on their side and prefer to resolve conflicts without having to resort to violence. Unlike wolves, who need a community that accepts and values them, foxes are very social, because for them living among people can offer numerous opportunities. Accustomed to getting by thanks to their cunning Foxes fear above all else looking stupid, and </span>compromising their credibility and reputation. Although </span><span class=\"fontstyle0\">they tend to be unscrupulous and manipulative, they will not exploit those who have willingly offered them assistance, fearful of compromising an alliance that could otherwise continue to benefit them over time.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Intelligence </span>score increases by 1 and your  <span class=\"fontstyle0\">Charisma </span>score increases by 2.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Licai reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em></span>Your base speed on the ground is 30 feet.</p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span>A Fox can reach a height of between 4 feet and 5 1/2 <span class=\"fontstyle0\">feet, and weigh between 65 lbs and 120 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.<br /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Darkvision.</strong></em> </span><span class=\"fontstyle2\">In dim light, you can see up to 60 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></p>\n<p>@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.1SIx1clGSfeNsX6f]{Born Deceiver}</span></span></span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.ApqiDwGNe46cKyZ7]{Run Away}</span></span></span></p>\n<p>@Compendium[world.species-features.4Y1QRiD0X0ueMPHm]{Gnaw}</p>\n<p><span class=\"fontstyle3\">@Compendium[world.species-features.sKfEgJYOsuCXGTRw]{Exploit}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Strategy (Predator):</strong></em> </span><span class=\"fontstyle4\">“I can find the right tool for the job”.</span></p>\n<p><span class=\"fontstyle4\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Cunning: </span></strong></em><span class=\"fontstyle2\">“I always defeat my opponents with cunning”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "70",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "595x9SYzOLlVjGZj",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 2
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "H2dtWc1osQvVRTKW",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "6W3ttbKIjNa32h7P",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "jsmGl7lXNae0blqO",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur",
+            "skills:dec"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "GSqQAdTPI25PvWz8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.CsKP3pQcELPkECkY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.4Y1QRiD0X0ueMPHm",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.1SIx1clGSfeNsX6f",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ApqiDwGNe46cKyZ7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.sKfEgJYOsuCXGTRw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Licai",
+      "subtype": ""
+    },
+    "identifier": "foxes"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737404672839,
+    "modifiedTime": 1739534782737,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Ao4x06Y39iwB06Pu"
+}

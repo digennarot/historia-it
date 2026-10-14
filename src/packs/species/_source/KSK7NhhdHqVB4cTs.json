@@ -1,0 +1,146 @@
+{
+  "name": "Herons",
+  "type": "race",
+  "img": "modules/historia/Species/Herons.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Herons love the art of war, yet most of them have never wielded a weapon or set foot on the battlefield. These Avian sages are warriors of the mind when around a table covered with maps and illuminated by a torchlight, they plan how and when to strike. Born strategists, the Herons put their cautious, calculating and forward-looking temperament to good use. Even when they do not actually become military advisors, they never fail to carefully plan their next move, whether they are spice merchants or gamblers. Sometimes this trend is exacerbated by indecision: it is very difficult for certain Herons to determine, among dozens of meticulously foreseen scenarios, which one is the best. Although </span>they do not like getting their hands dirty, Herons are neither cowards nor weak; on the contrary, when they have </span><span class=\"fontstyle0\">no choice, they know how to unleash a quick and nervous strength that often surprises their opponents. Lonely and, according to many, very cold, these Grarconi prefer their own company, but will lend their help if asked to do so.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Dexterity </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Grarconi reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. </span>They have an average lifespan of around 60 years.</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>The base speed on the ground is 25 feet, and your <span class=\"fontstyle0\">flying speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Heron can reach a height of between 4 1/2 feet <span class=\"fontstyle0\">and 5 1/2 feet, and weigh between 55 lbs and 90 lbs.</span> <span class=\"fontstyle2\">Your size is Medium.</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Acute Sight}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.DNDaDMkNoAimSb3i]{Extended Flight}</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.hRXn3XfsI394z3HY]{Meticulous Preparation}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.pbgL9GCpZ24p8Ybd]{Feather Step}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Aquatic (Predator): </span></strong></em><span class=\"fontstyle4\">“I am as fluid as the water I love so much”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Patient:</strong></em> </span><span class=\"fontstyle2\">“I believe that waiting is often preferable to acting.”</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "102",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "JjjQ6rdty0QvMwqX",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "DGMYWfRvMGjDc2qd",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "dSxiOBjbmIGrCVtk",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "RpplaoK5diMv6v3H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DNDaDMkNoAimSb3i",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.hRXn3XfsI394z3HY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.pbgL9GCpZ24p8Ybd",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Grarconi",
+      "subtype": ""
+    },
+    "identifier": "herons"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737723151399,
+    "modifiedTime": 1739534889107,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "KSK7NhhdHqVB4cTs"
+}

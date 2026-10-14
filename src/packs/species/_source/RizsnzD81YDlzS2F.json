@@ -1,0 +1,165 @@
+{
+  "name": "Pangolins",
+  "type": "race",
+  "img": "modules/historia/Species/Pangolin.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Some fortunate creatures are born lucky, others are born armored. Naturally armored, they project this feeling of invulnerability in every situation of their lives, often risking their neck even for trifles. These are the Pangolins. Scornful of danger, adventurous and extremely active, they do not hold back in any situation and tend to feel that they can meet any challenger, especially those larger than them. Nothing hurts or motivates them like an insinuation that something is too difficult, and it is impossible for them to decline a challenge or ignore a dare. They are absurdly competitive, and this often leads Pangolins to be non-cooperative and to prefer solitary deeds. For a Pangolin, others can only be an obstacle, an opponent, or a goal, and it is very difficult for this species to create genuine friendships or any other lasting relationship that is not based on contrast. Free spirits who do not like social constraints, they often prefer the isolation of life in the wild lands, from which they leave only in search of new challenges.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Constitution score increases by 2 and your  <span class=\"fontstyle0\">Charisma </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">An Edenti reaches maturity around the age of 14 and is immediately considered independent. They have an average life span of 50 years.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em></span>Your base walking speed is 25 feet, and your <span class=\"fontstyle0\">digging speed is 5 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle0\">A Pangolin can reach a height of between 4 feet and </span><span class=\"fontstyle0\">5 1/2 feet and weigh up to 175 lbs. Your size is Medium.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Wild spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency with the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><em><strong>Careful.</strong></em> </span><span class=\"fontstyle0\">You have expertise in the Perception skill.</span></span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}<br /></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.AbseAiubt8i5WKVi]{Poor Vision}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.iT4JOqV9XFo6k3qt]{Cautious}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.ZEtSVMbrJh3X1jct]{Natural Stability}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.aMBs0FrPVKG5AcRK]{Roll-up}</span></p>\n<p>@Compendium[world.species-features.o6oG8Je6mYPytdqr]{Claws}</p>\n<p>@Compendium[world.species-features.2bobes0Ld6y0qVDa]{Armored}</p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Confidence (prey): </span></strong></em><span class=\"fontstyle4\">“I always rely on my strengths”.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Instinct of Species, Improvisation:</strong></em> </span><span class=\"fontstyle2\">“I often ignore plans, but the unexpected is in my blood”.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "61",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "J88vBZozFcilO5GI",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 0,
+            "cha": 1
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "doq5X46zkmZ7T4Cx",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "coY60uncjKz8dGn1",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "xO5TXAn76gM0psks",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "YmKmuMidblssEfoh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.CsKP3pQcELPkECkY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.AbseAiubt8i5WKVi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.iT4JOqV9XFo6k3qt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.aMBs0FrPVKG5AcRK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.o6oG8Je6mYPytdqr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.2bobes0Ld6y0qVDa",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZEtSVMbrJh3X1jct",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": 5,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Edenti",
+      "subtype": ""
+    },
+    "identifier": "pangolins"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738434278388,
+    "modifiedTime": 1739535373788,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "RizsnzD81YDlzS2F"
+}

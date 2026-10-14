@@ -1,0 +1,37 @@
+{
+  "name": "Instincts",
+  "type": "feat",
+  "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Instincts are character traits that both sum up and reinforce the identity of each familia and species. They are normally kept in check and serve mostly as a guide to help the player roleplay the character, but some situations (traumatic ones in particular, whether physical or psychological) can let them take over, forcing the character to abandon reason and follow instinct above everything else.</p><h3>General Instincts</h3><p>General instincts are the most common traits of the animal's primal behavior and of the way it fed. The general instincts are:</p><p><strong>Predator:</strong> <em>\"I fight fiercely to impose myself on others.\"</em></p><p><strong>Prey:</strong> <em>\"I get what I want by avoiding confrontation.\"</em></p><p><strong>Omnivore:</strong> <em>\"I can always find a middle ground.\"</em></p><p>Every player and every GM can create their own custom general instincts that inspire them and that they find interesting to bring to the table. An important key to building new general instincts is to keep them as generic and broadly applicable as possible.</p><p>Choose a general instinct if you want to highlight the broadest, most general aspects of your character's personality.</p><h3>Familia Instincts</h3><p>Each familia has its own instinct that characterizes it as a whole, across all of its species. Familia instincts are described among the traits of each familia.</p><p>Choose a familia instinct if you want to highlight what your character shares with the rest of their group.</p><h3>Species Instincts</h3><p>Each species has its own instinct that characterizes it and sets it apart from the other species of the same familia. Species instincts are described among the traits of each species.</p><p>Choose a species instinct if you want to highlight what is specific to your character and their species, rather than what they share with the rest of the setting.</p><h3>Guideline</h3><p>When you write an instinct, try to phrase the idea as positively as possible, so that putting \"I want to / I can / I must\" in front of the sentence gives an ideal, a bond, or a flaw.</p><p><strong>Example:</strong></p><p><strong>Ideal:</strong> <em>\"I want to always fight fiercely to impose myself on others.\"</em></p><p><strong>Bond:</strong> <em>\"I can always fight fiercely to impose myself on others.\"</em></p><p><strong>Flaw:</strong> <em>\"I must fight fiercely to impose myself on others.\"</em></p><p>This way the player decides how to relate to the trait: they choose only one and record it as an ideal, a bond, or a flaw, as they prefer.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Historia Manuale pagina: 53",
+      "rules": "2014",
+      "revision": 1
+    },
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "identifier": "instincts",
+    "activities": {},
+    "advancement": [],
+    "properties": []
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "IstintiRegola01x",
+  "folder": null
+}

@@ -1,0 +1,160 @@
+{
+  "name": "Levri",
+  "type": "race",
+  "img": "modules/historia/Species/Levri.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">If haughtiness were a currency, the Levri would swim in gold. Proud, beautiful, charismatic, slender and elegant, members of this species seem to consider themselves the best in any situation. While Domesti do not like manual labor, Levri loathe it and demand that others carry out such activities in their place. Only in the arts does a Levri seem ready to get their hands dirty, and it is in this field that they frequently achieve excellence, earning glory and honors which they welcome as if they were due. Theater, music, poetry and everything that has to do with performance attracts them, and many Levri see these occupations not only as the worthiest but also as a pass to the social status to which they aspire. Their composure and caution make them seldom able to be caught unawares, but their attitude of eternal superiority is likely to attract very little sympathy. Their vision of sociality is very different from that of other Canidi, as they see others mainly as an audience and only incidentally as individuals with whom to establish a relationship.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Wisdom score increases by 2,</span></span> y<span class=\"fontstyle0\">our   <span class=\"fontstyle0\">Dexterity </span>score increases by 1</span>,<span class=\"fontstyle0\"><span class=\"fontstyle2\"> and another ability score of your choice increases by 1.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">A Canid reaches maturity around the age of 16 and is immediately considered independent. They have an average life span of about 70 years.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span></span></span>Your base walking speed is 30 feet.</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span></span>A Levri can reach a height between 3 feet and 6 1/4 feet <span class=\"fontstyle0\">and weigh between 75 lbs and 155 lbs. Your size is Medium.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Trained nose.</strong></em> </span><span class=\"fontstyle2\">A Canid has proficiency in an ability of their choice between Investigate or Insight.</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Stage presence.</strong></em> </span><span class=\"fontstyle2\">Levri areis inclined towards theatricality and art; you have proficiency with the Performance skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></span></p>\n<p><em><strong>Darkvision, minor </strong></em><span class=\"fontstyle2\">In dim light, you can see up to 30 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></p>\n<p>@Compendium[world.species-features.s3ECstHXdhQ8cnRi]{Keen Smell and Hearing}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.fWjnyGpnIsnivS8u]{Fast Learning}</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.iT4JOqV9XFo6k3qt]{Cautious}</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.KGHS2ELoWP20DdoI]{Sprinter}</span></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Alfa (Predator):</strong></em> </span><span class=\"fontstyle4\">“They are the guard to<br />follow on every occasion”.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Self-Control:</strong></em> </span><span class=\"fontstyle2\">“I have an unshakable belief in myself, no matter the situation”.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "57",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "rSr0Qx97gZYL626q",
+        "configuration": {
+          "points": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "SfJv3E9VJOtyPvR5",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "brjujR72KfUeYEkn",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "PzQTECEQ5BtL1WF4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prf"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ins",
+                "skills:inv"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "kBy8tL38d2xR6Kxz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.s3ECstHXdhQ8cnRi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.fWjnyGpnIsnivS8u",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.iT4JOqV9XFo6k3qt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.KGHS2ELoWP20DdoI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 30,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Canidi",
+      "subtype": ""
+    },
+    "identifier": "levri"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737728324709,
+    "modifiedTime": 1739535061309,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "T3rkr05nJyh4MBJ3"
+}

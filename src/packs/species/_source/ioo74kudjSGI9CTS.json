@@ -1,0 +1,160 @@
+{
+  "name": "Hounds",
+  "type": "race",
+  "img": "modules/historia/Species/Hound.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">If there is a species whose heart burns with an inextinguishable fire, it is the Hounds. Animated by a curiosity that is impossible to contain, tireless, constantly active and alert, these Canidi cannot resist the seduction of the unknown. Their innate orientation skills and the ability to find a track even in the most difficult terrain makes them natural investigators. Whether they are explorers looking for new routes, treasure hunters following the traces of an arcane relic or alchemists who have glimpsed an extraordinary discovery through the glass of their stills, hounds have no other master but the desire to unravel a mystery. This makes, for better or for worse, very easy to gain their attention, which unfortunately is focused only on one thing at a time. The downside of this desire for discovery is the Hounds’ tendency to be easily swayed from an objective to pursue new goals, to the point that even brilliant, generous and enthusiastic members of this Species are sometimes deemed unreliable.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Wisdom score increases by 2,</span></span> y<span class=\"fontstyle0\">our  <span class=\"fontstyle0\">Intelligence </span>score increases by 1</span>,<span class=\"fontstyle0\"><span class=\"fontstyle2\"> and another ability score of your choice increases by 1.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">A Canid reaches maturity around the age of 16 and is immediately considered independent. They have an average life span of about 70 years.</span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span>Your base walking speed is 30 feet and your </span></span><span class=\"fontstyle0\">swimming speed is 20 feet.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span></span>A Hound can reach a height between 3 feet and 5 <span class=\"fontstyle0\">1/2 feet and weigh between 80 lbs and 175 lbs. Your size is Medium.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Trained nose.</strong></em> </span><span class=\"fontstyle2\">A Canid has proficiency in an ability of their choice between Investigate or Insight.</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Wild Spirit.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Darkvision, minor </span></strong></em><span class=\"fontstyle2\">In dim light, you can see up to 30 feet as if you were in bright light, and in darkness as if it was dim light. You are unable to discern color when using darkvision, and see only shades of grey.</span></span></span></span></span></p>\n<p>@Compendium[world.species-features.s3ECstHXdhQ8cnRi]{Keen Smell and Hearing}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.PkikseSpQVYz9FNY]{Tracking}</span></span></span></p>\n<p>@Compendium[world.species-features.fWjnyGpnIsnivS8u]{Fast Learning}</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.j7pyES5L7WWB6UlD]{Helpful}</span></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Alfa (Predator):</strong></em> </span><span class=\"fontstyle4\">“They are the guard to<br />follow on every occasion”.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Curiosity:</strong></em> </span><span class=\"fontstyle2\">“If there is something mysterious, I will reveal it “.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "56",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "BT5Ma3ryYeJkCOTg",
+        "configuration": {
+          "points": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 2,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "yyidS5WVGyQlaS4l",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "JYvhzBx2bzBsdB85",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "xkxQ5GHAAFenZEV5",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:sur"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ins",
+                "skills:inv"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "PNvzMTHWC5UY2LFo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.s3ECstHXdhQ8cnRi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.fWjnyGpnIsnivS8u",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.j7pyES5L7WWB6UlD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.PkikseSpQVYz9FNY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 20,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 30,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Canidi",
+      "subtype": ""
+    },
+    "identifier": "hounds"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737723572633,
+    "modifiedTime": 1739534990317,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "ioo74kudjSGI9CTS"
+}

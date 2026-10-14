@@ -1,0 +1,164 @@
+{
+  "name": "Chicken",
+  "type": "race",
+  "img": "modules/historia/Species/Chickens.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Few Avians are polarized between male and female like chickens, which contrast belligerence and kindness, vanity and altruism in a truly extreme way. The females of the species are often those typical friends or eccentric but kind-hearted relatives, who live in a house infested with absurd junk, inexplicable inventions, books, collections of cork stoppers and artisanal liquors of undoubted toxicity. They cultivate their bizarre interests freely, but without ever forgetting involvement in the community. Lovers of puppies and simple people, they are happy to take care of those who risk being alone, managing to make themselves well-liked enough to snatch a smile from even the surliest of creatures. The males, on the contrary, are quarrelsome, vain, touchy and always ready to attack and fight. Nervous and often disloyal fighters, they feel the constant need to assert themselves over others to feel strong and respected. They love to </span>show off in front of young girls, and they are unrepentant </span><span class=\"fontstyle0\">womanizers: loyalty is not for them in many aspects of their lives, in fact even on the battlefield they are often accused of changing sides.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Constitution </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Ruspei reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 30 feet, and your <span class=\"fontstyle0\">flying speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Chicken can reach a height of between 3 1/2 feet <span class=\"fontstyle0\">and 4 1/4 feet, and weigh between 45 lbs and 90 lbs.</span> Your size is Medium. The male specimens of Ruspei are on the average larger <span class=\"fontstyle0\">than females.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Crowing.</strong></em> </span><span class=\"fontstyle2\">You have proficiency in the Performance skill and in the use of your voice which is considered a musical instrument.</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></p>\n<p>@Compendium[world.species-features.DXFYqjVUtn7isXQ0]{Rural Bond}</p>\n<p>@Compendium[world.species-features.ZRadhCkmL5C2sXjX]{Limited Flight}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.NT1pq3nHCIdCuQhJ]{Protective}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.N07XHRp8C47hauv1]{Solar Biorhythm}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Habits (Prey):</strong></em> </span><span class=\"fontstyle4\">“I appreciate the daily routine and I am averse to change”.</span></p>\n<p><span class=\"fontstyle4\"><span class=\"fontstyle0\"><em><strong>Instinct of Species, Eccentric:</strong></em> </span><span class=\"fontstyle2\">“I act in distinct ways from those around me.”</span></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "115",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "Size",
+        "_id": "admgqfZOs6XdxaIC",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "AZ5LpWBAQqFdYUr5",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "kbKJqNeSZkCkUqAv",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prf"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "BvyGpp6F85U60rXJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZRadhCkmL5C2sXjX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DXFYqjVUtn7isXQ0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.NT1pq3nHCIdCuQhJ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.N07XHRp8C47hauv1",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "eKzF05giGnkXZYCQ",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 2
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Ruspei",
+      "subtype": ""
+    },
+    "identifier": "chicken"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1737393778792,
+    "modifiedTime": 1739534143670,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "yE4ICtbPWPUWK355"
+}

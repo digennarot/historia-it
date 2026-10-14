@@ -1,0 +1,165 @@
+{
+  "name": "Anteaters",
+  "type": "race",
+  "img": "modules/historia/Species/Anteater.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">Few, facing an imposing and intimidating Anteater, would think them a lover of small things. And yet, it is true: Anteaters dedicate themselves with care and devotion to both noble deeds and humble tasks, considering them equally essential. They have a mild temperament, imperturbable and not inclined to extremes; they are reliable and balanced, and those who are lucky enough to win the trust of one of these creatures can count on a solid companion. Of course, they do not shine with personal flair or charm, but their unequaled loyalty undoubtedly compensates for this lack. They dislike command positions; on the contrary they are ideal executors of orders given by someone whom they admire and trust. Having an Anteater as an enemy brings a future of misfortunes: as meticulous as they are strong, they have a long memory and do not easily forget wrongs suffered. Very selective with their social circle, these Edenti do not like crowds and busy life, but adapt to it if driven by a sufficiently strong motivation.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your Constitution score increases by 2 and your Strength score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span><span class=\"fontstyle2\">An Edenti reaches maturity around the age of 14 and is immediately considered independent. They have an average life span of 50 years.<br /></span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Speed. </span></strong></em><span class=\"fontstyle2\">Your base walking speed is 30 feet.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size.</strong></em> </span><span class=\"fontstyle0\">An Anteater can reach a height between 4.5 feet and </span><span class=\"fontstyle0\">6 feet and even weigh over 220 lbs. Your size is Medium.</span></p>\n<p><span class=\"fontstyle0\"><em><strong><span class=\"fontstyle0\">Wild spirit. </span></strong></em><span class=\"fontstyle2\">You have expertise with the Survival skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\"><em><strong>Careful.</strong></em> </span><span class=\"fontstyle0\">You have expertise in the Perception skill.</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.CsKP3pQcELPkECkY]{Discriminating Nose}</span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.AbseAiubt8i5WKVi]{Poor Vision}</span></p>\n<p>@Compendium[world.species-features.sNH0LmByWrEg5aMH]{Imposing Pose}</p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.iT4JOqV9XFo6k3qt]{Cautious}</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle2\">@Compendium[world.species-features.o6oG8Je6mYPytdqr]{Claws}</span></span></p>\n<p><span class=\"fontstyle0\">@Compendium[world.species-features.y006BmsPIHdmwogs]{Thick Tail}</span></p>\n<p>@Compendium[world.species-features.ZEtSVMbrJh3X1jct]{Natural Stability}</p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Confidence (prey): </span></strong></em><span class=\"fontstyle4\">“I always rely on my strengths”.</span></p>\n<p><em><strong><span class=\"fontstyle0\">Instinct of Species, Suspicious: </span></strong></em><span class=\"fontstyle2\">“I doubt appearances and prefer precise investigations”.</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "59",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "fmEGgopoEeTBbo4L",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "I83iT3kiXn7Zch39",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "Hk7a60YHXMgKXQL9",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "KpNeUXsStsMFivKK",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "6rkCqrsV2jevIU1m",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.CsKP3pQcELPkECkY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.AbseAiubt8i5WKVi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.iT4JOqV9XFo6k3qt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.o6oG8Je6mYPytdqr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.y006BmsPIHdmwogs",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.NidRCpJPdo0lWbJd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.sNH0LmByWrEg5aMH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Edenti",
+      "subtype": ""
+    },
+    "identifier": "anteaters"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1736928700994,
+    "modifiedTime": 1739474272396,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "RyCUdL1GQvBo7Y0a"
+}

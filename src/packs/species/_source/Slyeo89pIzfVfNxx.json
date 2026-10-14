@@ -1,0 +1,156 @@
+{
+  "name": "Robins",
+  "type": "race",
+  "img": "modules/historia/Species/Robins.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">Small? Sure. Fearsome? I’ll say! Combative? Most of all. Robins forget their small size and devote themselves to the craft of weapons with more ardor than many other creatures bigger than themselves. What particularly attracts them about the art of war is not so much the great coordinated maneuvers on the battlefield, or the study of strategy, or even the wild pride in ousting an invader: it is the challenge itself, the song of steel against steel , the new technology captured from an opponent, the thrill of victory. Many consider this almost “sporty” attitude towards battle as childish, but Robins are born duelists, and there is no greater joy for them than facing a contender of their height and being able to test their surprising ability. They </span>are considered, and with good reason, among the best tournament fighters ever seen, and their amazing and daring </span><span class=\"fontstyle0\">deeds fill the mouths of bards, commoners and noblemen with the same frequency and excitement. It is difficult to interact with these Avian fighters in a non-antagonistic way, since they always seem to have something to prove, but it is worth trying, since the friendship of a Robin can prove decisive in more ways than one.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your <span class=\"fontstyle0\">Dexterity </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Pici reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed. </strong></em></span></span>Your base speed on the ground is 20 feet, and your <span class=\"fontstyle0\">flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Robin can reach a maximum height of 2 1/2 feet, <span class=\"fontstyle0\">and weigh no more than 45 lbs.</span>  <span class=\"fontstyle2\">Your size is  <span class=\"fontstyle0\">Small</span>.</span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle0\"><em><strong>Singer.</strong></em> </span><span class=\"fontstyle2\">You have expertise in the use of your voice which is considered a musical instrument.</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3IW3nTEcERwHG4Qg]{Agile}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.ZQMtMEJZdQJ2v63O]{Social Skills}<br /></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.K3vkJOhbY84KuNmD]{Maneuvers in Flight}</span></p>\n<p>@Compendium[world.species-features.2zVRhhfSO8fMZWzt]{Acute Sight}</p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.jchtkg1ifYb1grFF]{Courage}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.p9KCNI8RdCDY7zkg]{Fiery Spirit}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Harmless (Prey):</strong></em> </span><span class=\"fontstyle4\">“I am often not taken seriously.”</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Instinct of Species, Competitive: </strong></em>“</span><span class=\"fontstyle2\">I always look for an opponent to challenge and beat”.</span></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Historia",
+      "page": "106",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "kUIwQFZv90uHSHbP",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 2,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "sBewFDvTcP3Z9YM2",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "htZsbjfiAZy9IygL",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "fQipJZTvLIDBkWxE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.3IW3nTEcERwHG4Qg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZQMtMEJZdQJ2v63O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.K3vkJOhbY84KuNmD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.2zVRhhfSO8fMZWzt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.jchtkg1ifYb1grFF",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.p9KCNI8RdCDY7zkg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Pici",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1739465461796,
+    "modifiedTime": 1739535713728,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "Slyeo89pIzfVfNxx"
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Crows",
+  "type": "race",
+  "img": "modules/historia/Species/Crows.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">The charisma of a Crow masterfully mixes a bit of arrogance, a dribble of mystery and a pinch of undeniable charm. They have the skills to excel in practically anything they decide to do (except perhaps activities that require a lot of physical strength) and are not afraid of appearing superior. Crows are never modest or pretend to be, but will not try to take credit for merits that do not belong to them: they are too proud to go that far, and indeed they think that failure is only a temporary condition prior to success, which is easily remedied by practice. They have an innate sensitivity to arcane mysteries, and there are many Crows who undertake the winding road of magic, ending up distinguishing themselves in that too. Aware of their intellectual superiority, many Crows are considered too full of themselves, and to put it in inelegant words, too annoying to have true friends. Despite this, they often find themselves right in the middle of high retinues as advisors, as their wisdom and cunning are sought out even by those who cannot tolerate them. However, when they find themselves dealing with  </span></span><span class=\"fontstyle0\"><span class=\"fontstyle0\"><span class=\"fontstyle0\">more brilliant individuals, many Crows react unexpectedly, becoming affable, helpful and courteous. Finally, in the company of their peers, they wish to learn from their superior, and for once they lower their haughty shield.</span> </span></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your  <span class=\"fontstyle0\">Intelligence </span>score increases by 2 and your  <span class=\"fontstyle0\">Charisma </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Corbei reaches maturity around the age of 14 <span class=\"fontstyle0\">and is immediately considered independent. They have an average lifespan of around 60 years.</span></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em> </span></span>Your base speed on the ground is 20 feet, and your <span class=\"fontstyle0\">flight speed is 30 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span>A Crow can reach a height of between 4 1/4 feet and <span class=\"fontstyle0\">5 1/4 feet, and weigh between 65 lbs and 110 lbs.</span>  <span class=\"fontstyle2\">Your size is Medium.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Petty.</strong></em> </span><span class=\"fontstyle2\">You have expertise in the Deception skill.</span></p>\n<p><span class=\"fontstyle2\"><em><strong><span class=\"fontstyle0\">Arcane sensitivity. </span></strong></em><span class=\"fontstyle2\">You have proficiency in the Arcane skill.</span> <br style=\"font-variant-numeric:normal;font-variant-east-asian:normal;line-height:normal;text-align:-webkit-auto;text-size-adjust:auto\" /></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.ZLta2Wjm3OsgNAk0]{Wings}</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.DO8bJUsTURvkwDVu]{Pecking}</span></span></p>\n<p><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[world.species-features.9ALHHLuQoSWQRqN4]{Prehensile Legs}</span></span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.fWjnyGpnIsnivS8u]{Fast Learning}</span></p>\n<p>@Compendium[world.species-features.prA3mswGSrkS0JOP]{Great Memory}</p>\n<p>@Compendium[world.species-features.ypdBVoZqUByoIxQ6]{Skillful}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.PzL6zz0LevatqjuS]{Gourmet}</span></p>\n<p><em><strong><span class=\"fontstyle3\">Instinct of Familia, Bad Omen (Omnivore): </span></strong></em><span class=\"fontstyle4\">“I can predict </span><span class=\"fontstyle4\">the worst in any situation.”</span></p>\n<p><span class=\"fontstyle4\"><em><strong><span class=\"fontstyle0\">Instinct of Species, Councilor: </span></strong></em><span class=\"fontstyle2\">“I always give advice to those close to me.”</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Historia",
+      "page": "99",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "mrt25GlIpfW5Kjlq",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 2,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "CHFzjQGE7WNzJJJ1",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "CH6oQbOz74HViKeX",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "cDvLXjYDy4qkcoRL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.ZLta2Wjm3OsgNAk0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.DO8bJUsTURvkwDVu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.9ALHHLuQoSWQRqN4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.fWjnyGpnIsnivS8u",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.prA3mswGSrkS0JOP",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.PzL6zz0LevatqjuS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.PCBN9c9lNEFp05Af",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "_id": "6wBVjTGtVvFjFdol",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:dec"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Corbei",
+      "subtype": ""
+    },
+    "identifier": "crows"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1738508553523,
+    "modifiedTime": 1739535674123,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "RQ3iJf6gDnu4GQE1"
+}

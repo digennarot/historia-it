@@ -1,0 +1,134 @@
+{
+  "name": "Rossetti",
+  "type": "race",
+  "img": "modules/historia/Species/Rossetti.webp",
+  "system": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\"><span class=\"fontstyle0\">With a pointed muzzle, large sweet and shiny eyes, and beautiful tawny fur, the Rossetti are undoubtedly the Vespertili who least suffer from the prejudices that affect their cousins and are quite aware of it. The other Vespertili often look upon them with distrust or even contempt for </span>the preferential treatment they receive. They are sociable, </span><span class=\"fontstyle0\">affable and seek every opportunity to prove that they are creatures like all the others. They love to entertain others, especially pups, and there are many companies of Rossetti Bards, musicians and puppeteers who travel aboard their colorful wagons. They adapt without complaint to all lifestyles, and nothing makes them happier than the feeling of being accepted in a community. Their desire for inclusion makes them very confident of those who treat them kindly, which unfortunately also makes them easy to be manipulated by those with bad intentions. When a Rossetto realizes that it has been used, it suffers enormously, but is not capable of plotting revenge.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Increase in Ability Scores.</strong></em> </span><span class=\"fontstyle2\">Your  <span class=\"fontstyle0\">Charisma </span>score increases by 2 and your <span class=\"fontstyle0\">Strength </span>score increases by 1.<br /></span></p>\n<p><span class=\"fontstyle0\"><em><strong>Age.</strong></em> </span>A Vespertili reaches maturity around the age of 18 <span class=\"fontstyle0\">and is immediately considered independent. They have </span>an average lifespan of around 60 years.</p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\"><em><strong>Speed.</strong></em>  </span>Your base speed on the ground is 20 feet. Your flight </span><span class=\"fontstyle0\">speed is 30 feet and the climbing speed 20 feet.</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Size. </strong></em></span><span class=\"fontstyle2\">You can reach a height of between 1.2 meters and 1.6 </span><span class=\"fontstyle0\">meters and weigh between 20 and 50 kg. </span>Your size is Medium.</p>\n<p>@Compendium[world.species-features.8CrVZRX0THJGd3yb]{Common Appearances}</p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.3LN74J19a4TprTw9]{Membranous Wings}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.nKnEbJYlulqr236O]{Sensitivity to Light}</span></p>\n<p><span class=\"fontstyle2\">@Compendium[world.species-features.plFixBkurLVhc8dv]{Acute Hearing}</span></p>\n<p><span class=\"fontstyle3\"><em><strong>Instinct of Familia, Nocturne (Predator):</strong></em> “</span><span class=\"fontstyle4\">I prefer to act without being seen.”</span></p>\n<p><span class=\"fontstyle0\"><em><strong>Instinct of Species, Sociable:</strong></em> </span><span class=\"fontstyle2\">“I trust strangers”.</span></p>",
+      "chat": ""
+    },
+    "identifier": "nuovo-a-oggetto",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Historia",
+      "page": "91",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Z4nHjbl0c65V3ZW1",
+        "configuration": {
+          "points": 0,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 2
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "TMzZ5m4HBoigmrIS",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "rkVQ6f263kBv6Z8g",
+        "value": {
+          "chosen": []
+        },
+        "level": 0
+      },
+      {
+        "_id": "rbhFl93GY4FEp6H7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.3LN74J19a4TprTw9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.nKnEbJYlulqr236O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.plFixBkurLVhc8dv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.species-features.Item.8CrVZRX0THJGd3yb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": 20,
+      "fly": 30,
+      "swim": null,
+      "walk": 20,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "custom",
+      "custom": "Vespertili",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1739471666875,
+    "modifiedTime": 1739535744963,
+    "lastModifiedBy": "ZPF6iTR58NcfHa9O"
+  },
+  "_id": "beBWtIUkIW4IPTWs"
+}
