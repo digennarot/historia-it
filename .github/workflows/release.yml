@@ -138,18 +138,16 @@ jobs:
           fi
           echo "DIST_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
+      # DIST_REPO_PAT e DIST_SHA arrivano da $GITHUB_ENV: si leggono come variabili di shell, non dal contesto env.
       - name: Create Release on Distribution Repo
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: 'zip-output/historia-it.zip,historia-it/module.json'
-          token: ${{ env.DIST_REPO_PAT }}
-          owner: digennarot
-          repo: historia-it-dist
-          commit: ${{ env.DIST_SHA }}
-          name: Release ${{ steps.extract_version.outputs.VERSION }}
-          tag: v${{ steps.extract_version.outputs.VERSION }}
-          draft: false
-          prerelease: false
-          generateReleaseNotes: true
-          allowUpdates: true
-          skipIfReleaseExists: false
+        env:
+          VERSION: ${{ steps.extract_version.outputs.VERSION }}
+        run: |
+          export GH_TOKEN="$DIST_REPO_PAT"
+          REPO=digennarot/historia-it-dist
+          if gh release view "v$VERSION" -R "$REPO" > /dev/null 2>&1; then
+            gh release upload "v$VERSION" zip-output/historia-it.zip historia-it/module.json -R "$REPO" --clobber
+          else
+            gh release create "v$VERSION" zip-output/historia-it.zip historia-it/module.json -R "$REPO" \
+              --target "$DIST_SHA" --title "Release $VERSION" --generate-notes
+          fi
