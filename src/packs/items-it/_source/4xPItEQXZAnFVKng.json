@@ -1,0 +1,54 @@
+{
+  "name": "Dotazione da Avventuriero",
+  "type": "loot",
+  "img": "icons/containers/bags/pack-simple-leather-tan.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Comprende:</p><ul><li>uno zaino</li><li>un piede di porco</li><li>un martello</li><li>10 chiodi da rocciatore</li><li>10 torce</li><li>un acciarino e pietra focaia</li><li>razioni per 10 giorni</li><li>un otre</li><li>15 metri di corda di canapa</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 61.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 12,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "dungeoneers-pack"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "4xPItEQXZAnFVKng"
+}

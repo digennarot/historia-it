@@ -208,7 +208,31 @@
     "properties": [],
     "identifier": "career-artisan",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "BUtMHxo5nFUEVUuC",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Apprendista",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

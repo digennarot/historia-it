@@ -573,6 +573,38 @@
         }
       },
       {
+        "_id": "RSnZsdzNJJUstwPc",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in sciabole e spade.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:art:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "DzS2WV16nKYQefnL",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -695,6 +727,355 @@
         "level": 3,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "JbF8Iv1FD98H4eGa",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: sciabola, spada o un'arma semplice",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.j96W2SsPO9komQvn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.SBpfCF0rmolNIkWu"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "w2lNVo9zydjClOwa",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: arco (con faretra e 20 frecce) o un'arma semplice",
+        "hint": "Se scegli l'arco, prendi anche faretra e frecce nella concessione seguente.",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "f39EQEvcjMWGIXJm",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Faretra e 20 frecce (solo con l'arco)",
+        "hint": "Prendile solo se hai scelto l'arco.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aMOSLGkgGAauVgq4",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.E7yQ2F7FNSjqfuZe",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "SgDjRe7b6o6DwoFd",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Dotazione: da esploratore o da intrattenitore",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5oH06F3e7IrqPcnQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.LT5kcPz1Pr8V6GcS"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "XYyXrNikizhId1Ex",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Strumento da artigiano o strumento musicale a scelta",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.zKQ19CaRrpnKtIq5"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0Y0LRSxq0PczagWb"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.9dOAIdf3GzPq08Rn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AZHdggRpDfPiNgo6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.NzaklVbjd69EiYdn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UN8hNX80PN1FbR8T"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.e3ekqpolp3JWlatL"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.mduMo4NHqfEHuZ17"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nl7wCYteGQXsKnMH"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ueqoOFPrcg2I3cl6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xk8NHm1Kk2FoeLD5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "GWxgZAA28cdtJboB",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Equipaggiamento iniziale",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xLROg166m151SszM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
     "spellcasting": {
@@ -702,7 +1083,140 @@
       "ability": "",
       "preparation": {}
     },
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "miKdJiccbXwyy6WS",
+        "group": null,
+        "sort": 100000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "spTRoToucDfhKrTV",
+        "group": "miKdJiccbXwyy6WS",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.j96W2SsPO9komQvn",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "RCXwtxdZy1T5rrFl",
+        "group": "miKdJiccbXwyy6WS",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.SBpfCF0rmolNIkWu",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "GYun4bBl3X5TGuzT",
+        "group": "miKdJiccbXwyy6WS",
+        "sort": 300000,
+        "type": "weapon",
+        "key": "sim",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Z7lGYuYL8YEqc1ZS",
+        "group": null,
+        "sort": 200000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "VGAe5VOmdu1Y2Kbu",
+        "group": "Z7lGYuYL8YEqc1ZS",
+        "sort": 100000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "sqaMplCA726hrwYe",
+        "group": "VGAe5VOmdu1Y2Kbu",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.4qVrJVdKFk8tcCHw",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "VQn480wwQ86ATYjA",
+        "group": "VGAe5VOmdu1Y2Kbu",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.aMOSLGkgGAauVgq4",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "82rd3VfR3muentPU",
+        "group": "VGAe5VOmdu1Y2Kbu",
+        "sort": 300000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.E7yQ2F7FNSjqfuZe",
+        "count": 20,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "sV7m3thWDEiw98Xu",
+        "group": "Z7lGYuYL8YEqc1ZS",
+        "sort": 200000,
+        "type": "weapon",
+        "key": "sim",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "0gfDuy4ZV5OyVNjc",
+        "group": null,
+        "sort": 300000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "P6YYG3iBPGPpwJSX",
+        "group": "0gfDuy4ZV5OyVNjc",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5oH06F3e7IrqPcnQ",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "qFYEQGxIbIt9VOO4",
+        "group": "0gfDuy4ZV5OyVNjc",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.LT5kcPz1Pr8V6GcS",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "FlXRtL4STC7sqBUv",
+        "group": null,
+        "sort": 400000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "RVPATWTyncvdcZSd",
+        "group": "FlXRtL4STC7sqBUv",
+        "sort": 100000,
+        "type": "tool",
+        "key": "art",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "AxKGLMadrAIUciUw",
+        "group": "FlXRtL4STC7sqBUv",
+        "sort": 200000,
+        "type": "tool",
+        "key": "music",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Dmk5YKKDsPKnHM6r",
+        "group": null,
+        "sort": 500000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.xLROg166m151SszM",
+        "requiresProficiency": false
+      }
+    ],
     "hd": {
       "denomination": "d10",
       "spent": 0,

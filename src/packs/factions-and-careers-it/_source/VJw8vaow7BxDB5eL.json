@@ -191,7 +191,26 @@
     "properties": [],
     "identifier": "career-cartographer",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "2vqTpEwK3o7oQylF",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Dilettante",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:cartographer"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

@@ -1,0 +1,54 @@
+{
+  "name": "Cilicio",
+  "type": "loot",
+  "img": "icons/equipment/chest/shirt-collared-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Una veste ruvida o una cintura irta di punte, portata a contatto con la pelle in segno di penitenza.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Historia Manuale pagina: 135",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "hair-shirt"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Yxjmx9rxpIxn98hk"
+}

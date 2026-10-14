@@ -13,6 +13,31 @@
     },
     "advancement": [
       {
+        "_id": "jRORkbecd8UmrU80",
+        "type": "Trait",
+        "level": 0,
+        "title": "Competenza",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:calligrapher",
+                "tool:art:painter",
+                "tool:music:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "EJkakfOZ2gdrD8Qp",
         "type": "ItemGrant",
         "configuration": {
@@ -37,13 +62,198 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "OTkta65fa8STl3uG",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Wgg9yqzNMZgoWPFZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "XHnKKD0E5nNQPxw2",
+        "type": "ItemChoice",
+        "level": 0,
+        "title": "Scorte da calligrafo, scorte da pittore o uno strumento musicale",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0Y0LRSxq0PczagWb"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.9dOAIdf3GzPq08Rn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AZHdggRpDfPiNgo6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.NzaklVbjd69EiYdn"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UN8hNX80PN1FbR8T"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.e3ekqpolp3JWlatL"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.mduMo4NHqfEHuZ17"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nl7wCYteGQXsKnMH"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ueqoOFPrcg2I3cl6"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xk8NHm1Kk2FoeLD5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "payn34WrdGSbxOVE",
+        "group": null,
+        "sort": 100000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "sys7Uww3mR2Tb0yl",
+        "group": "payn34WrdGSbxOVE",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "3p7d485EGXnSdPYT",
+        "group": "payn34WrdGSbxOVE",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.Wgg9yqzNMZgoWPFZ",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "OdHqCnas5wmg6uJ7",
+        "group": "payn34WrdGSbxOVE",
+        "sort": 300000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "v06OFCnPV9CFArJs",
+        "group": "OdHqCnas5wmg6uJ7",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "GUpvBP0jiyW0bc3T",
+        "group": "OdHqCnas5wmg6uJ7",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "WoSXZHSi5w5giBZU",
+        "group": "OdHqCnas5wmg6uJ7",
+        "sort": 300000,
+        "type": "tool",
+        "key": "music",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-devotion"
   },
   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "Kpx6zZLEJuTa44m7",
+      "name": "Conio",
+      "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+      "changes": [
+        {
+          "key": "system.resources.primary.label",
+          "mode": 5,
+          "value": "Conio",
+          "priority": 10
+        },
+        {
+          "key": "system.resources.primary.max",
+          "mode": 2,
+          "value": "10",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "core": {}
   },

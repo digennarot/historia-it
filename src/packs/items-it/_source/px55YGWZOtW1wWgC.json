@@ -1,0 +1,54 @@
+{
+  "name": "Carico di Merci",
+  "type": "loot",
+  "img": "icons/containers/barrels/barrel-walnut-steel-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Le merci che riempiono il carro del mercante, dal valore di circa 200 mo.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Historia Manuale pagina: 152",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "merchant-goods"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "px55YGWZOtW1wWgC"
+}

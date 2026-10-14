@@ -13,6 +13,39 @@
     },
     "advancement": [
       {
+        "_id": "bSJBcczl3Boghi3w",
+        "type": "Trait",
+        "level": 0,
+        "title": "Competenza",
+        "hint": "Se scegli un'arma, annota a mano la competenza nell'arma di Historia corrispondente, perché le armi di Historia non sono collegate alle armi base di dnd5e.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:*",
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:vehicle:water",
+                "tool:vehicle:land",
+                "tool:art:calligrapher"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "EJkakfOZ2gdrD8Qp",
         "type": "ItemGrant",
         "configuration": {
@@ -37,13 +70,116 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "wiHhR9dJx0GXDv4i",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.w4V7w6dOMQczy1gs",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.763NeIs7sDEnu9ls",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.IUIFo6gSvZx9dYGC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "TqMsw7I4IlccQsQK",
+        "group": null,
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.w4V7w6dOMQczy1gs",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bc2LqxHSvfMTTfA6",
+        "group": null,
+        "sort": 200000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "JF9tPP5ebNNCGwTu",
+        "group": "bc2LqxHSvfMTTfA6",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.763NeIs7sDEnu9ls",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "kIbnIyvCug7EyH68",
+        "group": "bc2LqxHSvfMTTfA6",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.IUIFo6gSvZx9dYGC",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-heritage"
   },
   "img": "icons/commodities/treasure/crown-gold-satin-gems-red.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "L2fD4YpaIH6xmnGu",
+      "name": "Conio",
+      "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+      "changes": [
+        {
+          "key": "system.resources.primary.label",
+          "mode": 5,
+          "value": "Conio",
+          "priority": 10
+        },
+        {
+          "key": "system.resources.primary.max",
+          "mode": 2,
+          "value": "15",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "core": {}
   },

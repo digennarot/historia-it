@@ -1,0 +1,54 @@
+{
+  "name": "Dotazione da Diplomatico",
+  "type": "loot",
+  "img": "icons/containers/chest/chest-reinforced-steel-walnut-brown.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Comprende:</p><ul><li>un forziere</li><li>2 custodie per mappe e pergamene</li><li>un set di abiti pregiati</li><li>una boccetta d'inchiostro</li><li>un pennino</li><li>una lampada</li><li>2 ampolle d'olio</li><li>5 fogli di carta</li><li>una fiala di profumo</li><li>ceralacca</li><li>sapone</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 39,
+      "units": "lb"
+    },
+    "price": {
+      "value": 39,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "diplomats-pack"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "n7GqFolt4JF2dqDf"
+}

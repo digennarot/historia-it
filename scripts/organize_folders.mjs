@@ -69,7 +69,9 @@ const classOrder = Object.keys(CLASS_NAMES).sort();
 
 organize("professions-it", j => {
   const cls = j.type === "class" ? j.name : CLASS_BY_ID[j.system.classIdentifier];
-  return { path: [{ name: cls, color: COL[cls], sorting: "m", sort: classOrder.indexOf(cls) }], sort: j.type === "class" ? 0 : 100 + (SUBCLASSES[j.system.classIdentifier] || []).sort().indexOf(j.name) };
+  const top = { name: cls, color: COL[cls], sorting: "m", sort: classOrder.indexOf(cls) };
+  if (j.type === "class") return { path: [top], sort: 0 };
+  return { path: [top, { name: "Sottoclassi", color: COL[cls], sorting: "a", sort: 1 }], sort: (SUBCLASSES[j.system.classIdentifier] || []).sort().indexOf(j.name) };
 });
 
 const CYCLES = new Set(["laCnXIgfmkXBGOqp", "sxHN617i6iO1EOzu", "fOKHMhwzuVoys9C2", "98DAiGj0avdVS6gR", "nAJxQRiq1iXw6lt0", "36RhB9pv7eX7LV5G", "RAcCz5HEPmu9OyHA", "yOI8HS1QMCUvWnHI", "fhDtJQW0lophEqls", "vsfJGG0MpBDQl0cF", "PNb6uNgVbVYYv25s", "xlDo6KayDSkRdLuX", "SFCcsXae19b48frF"]);

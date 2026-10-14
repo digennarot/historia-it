@@ -1,0 +1,54 @@
+{
+  "name": "Dotazione da Intrattenitore",
+  "type": "loot",
+  "img": "icons/containers/bags/pack-simple-leather.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Comprende:</p><ul><li>uno zaino</li><li>un giaciglio</li><li>2 costumi</li><li>5 candele</li><li>razioni per 5 giorni</li><li>un otre</li><li>trucchi per il camuffamento</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 38,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "entertainers-pack"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "LT5kcPz1Pr8V6GcS"
+}

@@ -81,59 +81,55 @@
         "title": "Privilegio"
       },
       {
-        "_id": "nw5sHZLRtcEAmowd",
-        "type": "ItemGrant",
+        "_id": "S4t3DaF3jQDAvXdi",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Scegli il tuo primo Segreto",
+        "hint": "",
         "configuration": {
-          "items": [
+          "allowDrops": false,
+          "type": "feat",
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.P0gKbjFhNLMjueyH",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.P0gKbjFhNLMjueyH"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.KHIOGDuCr7S3pHoR",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.KHIOGDuCr7S3pHoR"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.fvhrNl3dDlra678e",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.fvhrNl3dDlra678e"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.fxZbW4CYP7W81IxY",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.fxZbW4CYP7W81IxY"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.tynFJ3V1sX7dIni0",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.tynFJ3V1sX7dIni0"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.b2ypf16KALF7jMbB",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.b2ypf16KALF7jMbB"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.xNCGXMonq0Q1uo82",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.xNCGXMonq0Q1uo82"
             },
             {
-              "uuid": "Compendium.historia-it.profession-features-it.Item.m5vhSbBcGFuBsWKn",
-              "optional": false
+              "uuid": "Compendium.historia-it.profession-features-it.Item.m5vhSbBcGFuBsWKn"
             }
           ],
-          "optional": true,
-          "spell": {
-            "ability": [
-              ""
-            ],
-            "uses": {
-              "max": "",
-              "per": "",
-              "requireSlot": false
-            },
-            "prepared": 0
-          }
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
         },
-        "value": {},
-        "level": 1,
-        "title": "Scegli il tuo primo Segreto"
+        "value": {}
       },
       {
         "_id": "w2P2JNoZvpFucXML",
@@ -1723,6 +1719,29 @@
         }
       },
       {
+        "_id": "k3pg648soBH1gYqw",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in balestre leggere, bastoni ferrati, dardi, fionde, pugnali e spadini.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "c04MoffqkhKkGz7S",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -1836,6 +1855,196 @@
         "level": 19,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "ox33ABxI3jH23UhY",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: spadino o bastone",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "laMEuqH880Pgrrbc",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Borsa per componenti o focus arcano",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ffbkLTFIyVvcyuoY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ADualyRziGqWuieQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.B0GCaObIFRsxEGkr"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "vN83YjpRutSIVrAX",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Dotazione: da studioso o da diplomatico",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.k5Qkj4EC4rRAxp2A"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.n7GqFolt4JF2dqDf"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "i3u3kiFJ3pyx3ruE",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Strumento da artigiano a scelta",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.zKQ19CaRrpnKtIq5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
       }
     ],
     "spellcasting": {
@@ -1843,7 +2052,85 @@
       "ability": "int",
       "preparation": {}
     },
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "v3hQkEhGeXHrNFMS",
+        "group": null,
+        "sort": 100000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Qu7IMZvvRwzK1C2P",
+        "group": "v3hQkEhGeXHrNFMS",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "th6NIPXlG6HB8kpG",
+        "group": "v3hQkEhGeXHrNFMS",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "NcdsdAFVYdS6JiNj",
+        "group": null,
+        "sort": 200000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "56ua6Ga57S1MFaTK",
+        "group": "NcdsdAFVYdS6JiNj",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.ffbkLTFIyVvcyuoY",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ag6xW8x5tIDZL94D",
+        "group": "NcdsdAFVYdS6JiNj",
+        "sort": 200000,
+        "type": "focus",
+        "key": "arcane",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "UMKqd2ObHiZu0KJe",
+        "group": null,
+        "sort": 300000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "YtQNdx58936fKq5m",
+        "group": "UMKqd2ObHiZu0KJe",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.k5Qkj4EC4rRAxp2A",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "W0UfylsUBhGflzce",
+        "group": "UMKqd2ObHiZu0KJe",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.n7GqFolt4JF2dqDf",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "8GIxU01wobpipLsz",
+        "group": null,
+        "sort": 400000,
+        "type": "tool",
+        "key": "art",
+        "requiresProficiency": false
+      }
+    ],
     "hd": {
       "denomination": "d6",
       "spent": 0,

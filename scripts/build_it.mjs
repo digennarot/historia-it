@@ -2,6 +2,7 @@ import { fileURLToPath } from "url";
 import fs from "fs/promises";
 import path from "path";
 import { compilePack } from "@foundryvtt/foundryvtt-cli/lib/package.mjs";
+import { buildPackLayout } from "./pack-groups.mjs";
 
 const MODULE_ID = "historia-it";
 const MODULE_TITLE = "Historia (Italiano)";
@@ -283,24 +284,11 @@ async function main() {
         }
     }
 
-    // Ordine dei pack e cartelle colorate nella barra dei compendi (packFolders, Foundry v11+)
-    const PACK_GROUPS = [
-        { name: "Regole", color: "#8d6e63", packs: ["rules"] },
-        { name: "Personaggio", color: "#2e7d32", packs: ["species", "species-features", "ventures", "professions", "profession-features"] },
-        { name: "Mondo", color: "#1565c0", packs: ["factions", "factions-and-careers", "characters", "actors"] },
-        { name: "Equipaggiamento e Magia", color: "#6a1b9a", packs: ["items", "spells"] }
-    ];
-    const PACK_NAME = n => packs.find(p => p.name === n || p.name === `${n}-it`)?.name;
-    rootManifest.packs = PACK_GROUPS.flatMap(g => g.packs.map(PACK_NAME)).filter(Boolean).map(n => packs.find(p => p.name === n));
-    for (const p of packs) if (!rootManifest.packs.includes(p)) rootManifest.packs.push(p);
+    // Ordine dei pack e cartelle colorate nella barra dei compendi (packFolders, Foundry v11+); gruppi in ./pack-groups.mjs
+    const layout = buildPackLayout(packs);
+    rootManifest.packs = layout.packs;
     delete rootManifest.folders;
-    rootManifest.packFolders = [{
-        name: "Historia",
-        sorting: "m",
-        color: "#d4af37",
-        packs: [],
-        folders: PACK_GROUPS.map((g, i) => ({ name: g.name, sorting: "m", color: g.color, packs: g.packs.map(PACK_NAME).filter(Boolean), folders: [] }))
-    }];
+    rootManifest.packFolders = layout.packFolders;
 
     await fs.writeFile("historia-it/module.json", JSON.stringify(rootManifest, null, 2));
     console.log("Generated historia-it/module.json");

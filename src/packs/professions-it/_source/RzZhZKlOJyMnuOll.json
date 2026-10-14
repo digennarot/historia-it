@@ -384,6 +384,38 @@
         }
       },
       {
+        "_id": "imUCLeUUJXns5IB4",
+        "type": "Trait",
+        "level": 1,
+        "title": "Competenze",
+        "hint": "Annota a mano la competenza in spada da lato e balestra a mano.",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "weapon:sim"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "tool:art:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "OyrMaSEyJOh4HWXn",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -529,6 +561,153 @@
         "level": 3,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "c7b90v4BGNx1zs35",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Arma: spada da lato o un'arma semplice",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.u17arUI2ftKgvJ83"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.4qVrJVdKFk8tcCHw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.BGFmikdI18JGPU3K"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Biiv2bVQnaWRMez9"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Ga0oTwGEkk8TMpL3"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MgNcpkbYA3oQfxUj"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.XtOtRhTFzd8JAi9o"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Y2sqybZIH6bKUa8R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aFxhh3o5duM18S07"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.atl9d3zYASlgroOG"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.bEMp7uHNDuLZA1lc"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.ePg416CsyzGtklIE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.erHvzoIDWZ0nJELU"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lU3ip25Fp5doQcx2"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.nawLlELslwrrGm6u"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.qXGilOaaQFl4p4Un"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.wrarSGBMSPKrZHtn"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "gNCq60sszRBI5jXk",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Dotazione: da diplomatico o da intrattenitore",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.n7GqFolt4JF2dqDf"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.LT5kcPz1Pr8V6GcS"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "v65vA12AiYelObIm",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Equipaggiamento iniziale",
+        "hint": "",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xzoCTmsgH8gUJAvT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.px55YGWZOtW1wWgC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.xLROg166m151SszM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
       }
     ],
     "spellcasting": {
@@ -536,7 +715,100 @@
       "ability": "",
       "preparation": {}
     },
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "iLg3U3AZ3ZzrDcNX",
+        "group": null,
+        "sort": 100000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ZuwZl1Gb3jYCNOrv",
+        "group": "iLg3U3AZ3ZzrDcNX",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.u17arUI2ftKgvJ83",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "XbileB05bAC1fu7i",
+        "group": "iLg3U3AZ3ZzrDcNX",
+        "sort": 200000,
+        "type": "weapon",
+        "key": "sim",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "8DaBVFgZxbaEjyN5",
+        "group": null,
+        "sort": 200000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "eYOqv0v5Ev3EySuJ",
+        "group": "8DaBVFgZxbaEjyN5",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.n7GqFolt4JF2dqDf",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ihD6n2ZdRLkx8Zhh",
+        "group": "8DaBVFgZxbaEjyN5",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.LT5kcPz1Pr8V6GcS",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "cVqbmmXoNQcTEVTh",
+        "group": null,
+        "sort": 300000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "sDxByK1DVDLhoyN8",
+        "group": "cVqbmmXoNQcTEVTh",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.xzoCTmsgH8gUJAvT",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "VBPnbhLvDEZJHPV9",
+        "group": "cVqbmmXoNQcTEVTh",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.px55YGWZOtW1wWgC",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "0s8EmSnFZ8uecjnQ",
+        "group": null,
+        "sort": 400000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "iaCRsxl5dN0bqLze",
+        "group": "0s8EmSnFZ8uecjnQ",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.xLROg166m151SszM",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Z5aqZrIwNE4c8Tnm",
+        "group": "0s8EmSnFZ8uecjnQ",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5Nd4TF3NkbOTZ187",
+        "requiresProficiency": false
+      }
+    ],
     "hd": {
       "denomination": "d8",
       "spent": 0,

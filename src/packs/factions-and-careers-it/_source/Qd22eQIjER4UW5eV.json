@@ -191,7 +191,32 @@
     "properties": [],
     "identifier": "career-artist",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "ySVpe64bPR80ohGj",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Esordiente",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:music:*",
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

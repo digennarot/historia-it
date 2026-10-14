@@ -1,0 +1,54 @@
+{
+  "name": "Simbolo del Retaggio",
+  "type": "loot",
+  "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un simbolo del tuo retaggio, che hai ricevuto dal tuo maestro: chissà in quali mani lo consegnerai.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Historia Manuale pagina: 196",
+      "rules": "2014",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "identifier": "legacy-symbol"
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1791849600000,
+    "modifiedTime": 1791849600000,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "folder": "GmQjplfIGU56vboV",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "w4V7w6dOMQczy1gs"
+}

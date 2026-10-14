@@ -191,7 +191,31 @@
     "properties": [],
     "identifier": "career-sailor",
     "activities": {},
-    "advancement": [],
+    "advancement": [
+      {
+        "_id": "PYq82k3GpiO6IPjH",
+        "type": "Trait",
+        "level": 0,
+        "title": "Grado 0 – Mozzo",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      }
+    ],
     "enchant": {}
   },
   "_stats": {

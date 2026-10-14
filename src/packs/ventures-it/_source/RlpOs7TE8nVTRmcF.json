@@ -13,6 +13,30 @@
     },
     "advancement": [
       {
+        "_id": "xjDfFAMP3GMYH9eE",
+        "type": "Trait",
+        "level": 0,
+        "title": "Competenza",
+        "hint": "",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:herb",
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        }
+      },
+      {
         "_id": "EJkakfOZ2gdrD8Qp",
         "type": "ItemGrant",
         "configuration": {
@@ -37,13 +61,220 @@
         },
         "value": {},
         "level": 1
+      },
+      {
+        "_id": "6IyXzABLuzGez9Z4",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Dotazione",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.79ocmbnweOfx44Cu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.4dPtop48YY2TMJKy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "xLq2VXU75ynrnMat",
+        "type": "ItemChoice",
+        "level": 0,
+        "title": "Borsa da erborista o strumenti da artigiano",
+        "hint": "",
+        "configuration": {
+          "allowDrops": false,
+          "type": null,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5X2Mhhp1uK8Ja52R"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.0DDWQqo0VJPH89dA"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.1OuHNlJivOa5tbCQ"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.2FJs1h80EYdzB6wV"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.5QS5bHJubNNKMJVK"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.AxX4jgI2khr0qvnp"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.Dc1XLpJ2TTmTyypt"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MCrDaeTpPKAa4Nj7"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.MboYtyWXKHH0vflR"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.RWWtIIwtXbpJ77Fw"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.TuzT3rId0OfTjdnh"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.UssZeu4WLpW5ukDP"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.aJ05Dk2nXtuseSpY"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.h5AG03IzLtIGT410"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.iJYQD1mrgmko6p76"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.lgj0UcqBLFRLLCqT"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.uollXhQIphNKuyJE"
+            },
+            {
+              "uuid": "Compendium.historia-it.items-it.Item.zKQ19CaRrpnKtIq5"
+            }
+          ],
+          "restriction": {
+            "type": "",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null
+        },
+        "value": {}
       }
     ],
-    "startingEquipment": [],
+    "startingEquipment": [
+      {
+        "_id": "9WxHTJ61SzvFromS",
+        "group": null,
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.79ocmbnweOfx44Cu",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ch7WABdpTFLtYunT",
+        "group": null,
+        "sort": 200000,
+        "type": "AND",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "NjwRj9BrsbhvF84g",
+        "group": "ch7WABdpTFLtYunT",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.f1CvExza5HBk3vsW",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "kbh5gqpNtatb7MFQ",
+        "group": "ch7WABdpTFLtYunT",
+        "sort": 200000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.4dPtop48YY2TMJKy",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "AWAkdbdHoM6XqwVe",
+        "group": "ch7WABdpTFLtYunT",
+        "sort": 300000,
+        "type": "OR",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "5NW0D6b7N5CAbQgf",
+        "group": "AWAkdbdHoM6XqwVe",
+        "sort": 100000,
+        "type": "linked",
+        "key": "Compendium.historia-it.items-it.Item.5X2Mhhp1uK8Ja52R",
+        "requiresProficiency": false
+      },
+      {
+        "_id": "DEaK7FkeETwPZyZC",
+        "group": "AWAkdbdHoM6XqwVe",
+        "sort": 200000,
+        "type": "tool",
+        "key": "art",
+        "requiresProficiency": false
+      }
+    ],
     "identifier": "venture-enlightenment"
   },
   "img": "icons/sundries/lights/lantern-iron-yellow.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "NqONyRMNb3QN2FBE",
+      "name": "Conio",
+      "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+      "changes": [
+        {
+          "key": "system.resources.primary.label",
+          "mode": 5,
+          "value": "Conio",
+          "priority": 10
+        },
+        {
+          "key": "system.resources.primary.max",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "core": {}
   },
