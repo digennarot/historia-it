@@ -7,6 +7,8 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.38] - 2026-10-14
+
 ### Added
 - **Guida alla creazione del personaggio** (IT): nuovo diario *Creazione del
   Personaggio* nel compendio Regole, con i passaggi Specie → Mestiere →
