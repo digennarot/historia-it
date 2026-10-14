@@ -1,0 +1,261 @@
+{
+  "name": "Creazione del Personaggio",
+  "flags": {
+    "core": {}
+  },
+  "pages": [
+    {
+      "name": "Creazione del Personaggio",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Creazione del Personaggio</h2>\n<p>Questa guida mette in ordine i passaggi per creare un personaggio di livello 1. Segui le pagine nell'ordine: ogni passaggio dice cosa trascinare sulla scheda, quali richieste compariranno e cosa completare a mano.</p>\n<p>Per i punteggi di caratteristica si applicano i metodi standard di dnd5e: Historia non ne aggiunge uno proprio.</p>\n<ol>\n<li>@UUID[Compendium.historia-it.rules-it.JournalEntry.CreazionePerso01.JournalEntryPage.CreazSpecie00001]{Specie}</li>\n<li>@UUID[Compendium.historia-it.rules-it.JournalEntry.CreazionePerso01.JournalEntryPage.CreazMestiere001]{Mestiere}</li>\n<li>@UUID[Compendium.historia-it.rules-it.JournalEntry.CreazionePerso01.JournalEntryPage.CreazVentura0001]{Ventura}</li>\n<li>@UUID[Compendium.historia-it.rules-it.JournalEntry.CreazionePerso01.JournalEntryPage.CreazFazione0001]{Fazione e Carriera}</li>\n<li>@UUID[Compendium.historia-it.rules-it.JournalEntry.CreazionePerso01.JournalEntryPage.CreazEquipagg001]{Equipaggiamento e Ricchezza}</li>\n<li>@UUID[Compendium.historia-it.rules-it.JournalEntry.CreazionePerso01.JournalEntryPage.CreazIstinti0001]{Istinti e Descrittori}</li>\n</ol>"
+      },
+      "_id": "CreazIntro000001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Specie",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>1. Specie</h2>\n<p>La specie viene per prima. Porta la Taglia, la Velocità, i tratti, gli aumenti delle caratteristiche e l'Istinto di Familia e di Specie.</p>\n<p>Trascina la specie dal compendio <em>Specie</em>. Le specie sono raggruppate per Familia, nelle cartelle del compendio:</p>\n<p><strong>Aviani › Anseri:</strong> @UUID[Compendium.historia-it.species-it.Item.x1rBnjmGB1hB5shP]{Anatre}, @UUID[Compendium.historia-it.species-it.Item.xfpy9tSIgurcT4hI]{Cigni}, @UUID[Compendium.historia-it.species-it.Item.oxWUSreOLLz9dQoI]{Oche}, @UUID[Compendium.historia-it.species-it.Item.JQr7iEqVJtZUZv3a]{Pellicani}</p>\n<p><strong>Aviani › Corbei:</strong> @UUID[Compendium.historia-it.species-it.Item.RQ3iJf6gDnu4GQE1]{Cornacchie}, @UUID[Compendium.historia-it.species-it.Item.N8WiwOheB7XQRfWd]{Corvi}, @UUID[Compendium.historia-it.species-it.Item.GQfw4CfHGvDBqWWO]{Gazze}</p>\n<p><strong>Aviani › Grarconi:</strong> @UUID[Compendium.historia-it.species-it.Item.KSK7NhhdHqVB4cTs]{Aironi}, @UUID[Compendium.historia-it.species-it.Item.NPiTKdmhf8DdTyrK]{Cicogne}, @UUID[Compendium.historia-it.species-it.Item.tYeUQyYQ9bXWcCsC]{Gru}, @UUID[Compendium.historia-it.species-it.Item.uHx4w8xOlyIOWI0S]{Ibis}</p>\n<p><strong>Aviani › Pici:</strong> @UUID[Compendium.historia-it.species-it.Item.l47s9ECCier2FJYD]{Passeri}, @UUID[Compendium.historia-it.species-it.Item.Slyeo89pIzfVfNxx]{Pettirossi}, @UUID[Compendium.historia-it.species-it.Item.NXiXSR8C3DBunUHK]{Picchi}, @UUID[Compendium.historia-it.species-it.Item.6012cUHvobAYZrIj]{Usignoli}</p>\n<p><strong>Aviani › Rapax:</strong> @UUID[Compendium.historia-it.species-it.Item.t0XjqavWVGwef1zV]{Aquile}, @UUID[Compendium.historia-it.species-it.Item.e8sB0hfTMdT8O3oS]{Avvoltoi}, @UUID[Compendium.historia-it.species-it.Item.s8PlBLiI9Leo4mzN]{Falchi}</p>\n<p><strong>Aviani › Ruspei:</strong> @UUID[Compendium.historia-it.species-it.Item.TDROBBncCl6ERwcW]{Fagiani}, @UUID[Compendium.historia-it.species-it.Item.4YB7dbB8B3YqO5UX]{Pavoni}, @UUID[Compendium.historia-it.species-it.Item.yE4ICtbPWPUWK355]{Polli}</p>\n<p><strong>Aviani › Strigi:</strong> @UUID[Compendium.historia-it.species-it.Item.Uk8FjzupSb0wV1m0]{Allocchi}, @UUID[Compendium.historia-it.species-it.Item.dGr7VFBHXla6DMeG]{Barbagianni}, @UUID[Compendium.historia-it.species-it.Item.iRgRxlhqz7H69YiR]{Civette}, @UUID[Compendium.historia-it.species-it.Item.Yi2TQfmdafkYRRgR]{Gufi}</p>\n<p><strong>Theri › Canidi:</strong> @UUID[Compendium.historia-it.species-it.Item.ioo74kudjSGI9CTS]{Bracchi}, @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}, @UUID[Compendium.historia-it.species-it.Item.wsjCvoCFINc2QWJN]{Domesti}, @UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}, @UUID[Compendium.historia-it.species-it.Item.tsCZqrBbbyYPlAyy]{Primoi}</p>\n<p><strong>Theri › Edenti:</strong> @UUID[Compendium.historia-it.species-it.Item.VVcvFzH9B6Lwf3Bs]{Armadilli}, @UUID[Compendium.historia-it.species-it.Item.GeAB51WuVNiCWqDx]{Bradipi}, @UUID[Compendium.historia-it.species-it.Item.RyCUdL1GQvBo7Y0a]{Formichieri}, @UUID[Compendium.historia-it.species-it.Item.RizsnzD81YDlzS2F]{Pangolini}</p>\n<p><strong>Theri › Eulipi:</strong> @UUID[Compendium.historia-it.species-it.Item.h5KQTzoscVy8d9u3]{Ricci}, @UUID[Compendium.historia-it.species-it.Item.cYyEKnmEKOYmzhrd]{Talpe}, @UUID[Compendium.historia-it.species-it.Item.CKlkHPrtB2CSgXZ7]{Toporagni}</p>\n<p><strong>Theri › Felidi:</strong> @UUID[Compendium.historia-it.species-it.Item.Df9zyu5Nv8THBCR7]{Gatti}, @UUID[Compendium.historia-it.species-it.Item.4qfrwMKlLmhefjfg]{Linci}, @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}</p>\n<p><strong>Theri › Licai:</strong> @UUID[Compendium.historia-it.species-it.Item.IujEctp61ceQX89W]{Coyote}, @UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}, @UUID[Compendium.historia-it.species-it.Item.Ao4x06Y39iwB06Pu]{Volpi Rosse}</p>\n<p><strong>Theri › Mustacei:</strong> @UUID[Compendium.historia-it.species-it.Item.wr7neBQRfSKKeMfB]{Ghiottoni}, @UUID[Compendium.historia-it.species-it.Item.ABsbgyQie8Yr12yc]{Lontre}, @UUID[Compendium.historia-it.species-it.Item.aoUxvhtbD07BcR0L]{Martore}, @UUID[Compendium.historia-it.species-it.Item.hNPVVSUxBDB3KVlp]{Moffette}, @UUID[Compendium.historia-it.species-it.Item.wSpj5trF0RAUJaHW]{Procioni}, @UUID[Compendium.historia-it.species-it.Item.4YCF3p7ETR2DaPuq]{Tassi}</p>\n<p><strong>Theri › Rodenti:</strong> @UUID[Compendium.historia-it.species-it.Item.zu7ayXEwh7XK7UZd]{Castori}, @UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}, @UUID[Compendium.historia-it.species-it.Item.and5ISQJfR4CVA1A]{Leporidi}, @UUID[Compendium.historia-it.species-it.Item.PIA7Xot9WQDiFGbd]{Scoiattoli}, @UUID[Compendium.historia-it.species-it.Item.hsqsSDVGorJGejO5]{Topi}</p>\n<p><strong>Theri › Ruminsi:</strong> @UUID[Compendium.historia-it.species-it.Item.hQujgFVfqiK7B8E2]{Alci}, @UUID[Compendium.historia-it.species-it.Item.pOpNjb5H0IychCxc]{Bovini}, @UUID[Compendium.historia-it.species-it.Item.oCmUVqaQiPCQIRvf]{Caprini}, @UUID[Compendium.historia-it.species-it.Item.6TpuxIQgQQjbykNu]{Cervi}, @UUID[Compendium.historia-it.species-it.Item.TM9klfzyFLp74JyN]{Pecore}</p>\n<p><strong>Theri › Sauti:</strong> @UUID[Compendium.historia-it.species-it.Item.pLYxRFTcYAqkAVfH]{Cinghiali}, @UUID[Compendium.historia-it.species-it.Item.c8Qo5ybYMmVZI9lt]{Porci}</p>\n<p><strong>Theri › Urcidi:</strong> @UUID[Compendium.historia-it.species-it.Item.XikYSYEc63F2IyqW]{Orsi Bruni}, @UUID[Compendium.historia-it.species-it.Item.LhWKFJP3m8sVIGAn]{Orsi Neri}</p>\n<p><strong>Theri › Vespertili:</strong> @UUID[Compendium.historia-it.species-it.Item.UnSlpSkpEpOKTGmd]{Chirotteri}, @UUID[Compendium.historia-it.species-it.Item.beBWtIUkIW4IPTWs]{Rossetti}, @UUID[Compendium.historia-it.species-it.Item.3vo5K0h9dZU9nkQX]{Vampiri}</p>\n<p>Dopo il trascinamento, la scheda ti chiede le scelte della specie: un aumento di caratteristica, competenze o strumenti a scelta.</p>\n<p><strong>A mano:</strong> l'Allocco ha il tratto @UUID[Compendium.historia-it.species-features-it.Item.wpmVyH09v3WB4TYA]{Mimetismo}: scegli il territorio (urbano o selvatico).</p>"
+      },
+      "_id": "CreazSpecie00001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Mestiere",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>2. Mestiere</h2>\n<p>Il mestiere porta i Punti Ferita, le competenze e i tratti del livello 1, i privilegi del livello 1 e l'equipaggiamento di partenza.</p>\n<p>Trascina il mestiere dal compendio <em>Mestieri</em>. Per il primo mestiere, la scheda ti chiede l'equipaggiamento di partenza (opzioni a/b).</p>\n<p>I mestieri disponibili:</p>\n<ul>\n<li>@UUID[Compendium.historia-it.professions-it.Item.QNHCsuCkl0JiF1TZ]{Alchimista} — sottoclasse al livello 3</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.MgZx6XibW3AjaLbj]{Armigero} — sottoclasse al livello 3</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.AYVSHvYIYiKCU0Qw]{Erudito} — sottoclasse al livello 3</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.IDi0BwqJ0IY1rcMi]{Furfante} — sottoclasse al livello 3</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.p8MX2Yh3gq7fMc4v]{Geniere} — sottoclasse al livello 3</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.WM5h9vo7vDKsm0Ls]{Magus} — nessuna sottoclasse</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.RzZhZKlOJyMnuOll]{Mercante} — sottoclasse al livello 3</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.1HXgLO5vCof0DI8B]{Mortificato} — sottoclasse al livello 2</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.QiAoN9B4fZFtCBr1]{Sacerdote} — sottoclasse al livello 1</li>\n<li>@UUID[Compendium.historia-it.professions-it.Item.KeYPiTNGYeoYv23c]{Venturiero} — sottoclasse al livello 3</li>\n</ul>\n<p><strong>Sottoclasse.</strong> Quando raggiungi il livello indicato, trascina la sottoclasse dal compendio <em>Mestieri</em>, accanto al mestiere. Se il livello è 1, scegli la sottoclasse già in creazione.</p>\n<p><strong>Incantesimi.</strong> Magus, Mortificato e Sacerdote hanno ciascuno la propria lista di incantesimi: @UUID[Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesMagus001]{Magus}, @UUID[Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesMortif01]{Mortificato}, @UUID[Compendium.historia-it.rules-it.JournalEntry.IncantesimiLst01.JournalEntryPage.IncantesSacerd01]{Sacerdote}.</p>\n<p><strong>A mano:</strong> il Venturiero sceglie il terreno, e il Magus sceglie le armi specifiche.</p>"
+      },
+      "_id": "CreazMestiere001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Ventura",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>3. Ventura</h2>\n<p>La ventura descrive il passato del personaggio e porta il talento Risalto con le sue competenze.</p>\n<p>Trascina la ventura dal compendio <em>Ventura</em>:</p>\n<ul>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.2RudL9XHJdfwKFQy]{Ventura: Arte}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.6m4XdtLGSJONCGyH]{Ventura: Destino}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.EQVKo8c2oZT7dTms]{Ventura: Devozione}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.RlpOs7TE8nVTRmcF]{Ventura: Illuminazione}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.xDGINo1zymssbDM2]{Ventura: Retaggio}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.mgEw2ifZzcbkeY8C]{Ventura: Rivalsa}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.A50Zlc4VpAQqzr4D]{Ventura: Rivoluzione}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.ItcXx7JoCVf9KpMI]{Ventura: Scoperta}</li>\n<li>@UUID[Compendium.historia-it.ventures-it.Item.pdfMzj0k69yPZtuM]{Ventura: Vuoto}</li>\n</ul>\n<p>Dopo il trascinamento, la scheda ti chiede le competenze a scelta della ventura (strumento, arma o gioco). Assegna anche l'equipaggiamento della Dotazione, che arriva al livello 0.</p>\n<p><strong>Conio.</strong> La ventura alza il massimo del Conio. Imposta il valore del Conio uguale al massimo.</p>"
+      },
+      "_id": "CreazVentura0001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Fazione e Carriera",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>4. Fazione e Carriera</h2>\n<p>Scegli una fazione di grado 0 e una carriera. Le regole generali sulle fazioni sono in @UUID[Compendium.historia-it.factions-it.JournalEntry.FazioniRegola01x]{Fazioni}.</p>\n<p><strong>Fazione.</strong> Trascina la fazione dal compendio <em>Fazioni e Carriere</em>, cartella Fazioni:</p>\n<ul>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.gEzlGxNnZXAajfda]{Fazione: Chiesa delle Ossa}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.0pLN2gwPO95Kkjm4]{Fazione: Circolo dei Sussurri}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.WVwPM073oCy8GrkA]{Fazione: Compagnia del Compasso}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.T7l2BFZvgCBh3VVk]{Fazione: Confraternita dei Mortificati}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.ghm4RNFP67FFzRqy]{Fazione: Emissari del Khan}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.1B2epGNowYUtOfkg]{Fazione: Eresia del Carlino}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.Hx18bwHTQdWVat0N]{Fazione: Esercito del Popolo}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.gZrfLfDiFDF6mzp9]{Fazione: Fratellanza dei Vermi}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.UobVIg6Tr5USCMxl]{Fazione: Ordo Artis Occulta}</li>\n</ul>\n<p>Ogni fazione ha il suo approfondimento nel compendio <em>Fazioni</em>:</p>\n<ul>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.zrbqGMehNswfRkON]{Circolo dei Sussurri}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.YuNjDS8BEDjZBQls]{Compagnia del Compasso}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.5r0h3ymj3Wc689fB]{Confraternita dei Mortificati}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.5OmWNELSAPYWUcab]{Emissari del Khan}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.whTEtuZT0FMtd2AW]{Eresia del Carlino}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.JqbVH3xnJiJjU5t0]{Esercito del Popolo}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.TLMTqqNgYTVYulPG]{Fratellanza dei Vermi}</li>\n<li>@UUID[Compendium.historia-it.factions-it.JournalEntry.2YSOLlTrifuOrnj0]{Ordo Artis Occulta}</li>\n</ul>\n<p><strong>Carriera.</strong> Trascina la carriera dal compendio <em>Fazioni e Carriere</em>, cartella Carriere:</p>\n<ul>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.Uc3sofemoI3Iy4F5]{Carriera: Artigiano}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.Qd22eQIjER4UW5eV]{Carriera: Artista}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.VJw8vaow7BxDB5eL]{Carriera: Cartografo}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.OYungWLHXMiPQIje]{Carriera: Funzionario}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.GVMUYZVSRtauWfgZ]{Carriera: Fuorilegge}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.JO2tz4wkniDghX1k]{Carriera: Maestro}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.Rt0D9uk8X6VVXi2P]{Carriera: Marinaio}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.GMLTL48imFYVpAoC]{Carriera: Milite}</li>\n<li>@UUID[Compendium.historia-it.factions-and-careers-it.Item.r2eavWp6IhetJkBV]{Carriera: Storico}</li>\n</ul>\n<p>Dopo il trascinamento, la scheda ti chiede le competenze della carriera. Completale come richiesto.</p>"
+      },
+      "_id": "CreazFazione0001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Equipaggiamento e Ricchezza",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>5. Equipaggiamento e Ricchezza</h2>\n<p>L'equipaggiamento arriva con il mestiere e con la ventura, quindi questo passo serve soprattutto a controllare la scheda.</p>\n<ul>\n<li><strong>Mestiere (primo mestiere):</strong> equipaggiamento di partenza al livello 1, con le opzioni a/b.</li>\n<li><strong>Ventura:</strong> Dotazione al livello 0.</li>\n</ul>\n<p><strong>Ricchezza.</strong> Leggi @UUID[Compendium.historia-it.rules-it.JournalEntry.RicchezzaRegola1]{Ricchezza & Influenza} per il Conio e la Fama. Il Conio è già impostato dal passo Ventura.</p>\n<p><strong>A mano:</strong> la Fama non è tracciata sulla scheda: annotala nelle note.</p>"
+      },
+      "_id": "CreazEquipagg001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    },
+    {
+      "name": "Istinti e Descrittori",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>6. Istinti e Descrittori</h2>\n<p>La specie porta l'Istinto di Familia e l'Istinto di Specie. Puoi anche scegliere un istinto generale, tra quelli in @UUID[Compendium.historia-it.species-features-it.Item.IstintiRegola01x]{Istinti}.</p>\n<blockquote><p>Per inserire un istinto serve cercare di esprimere il concetto quanto possibile in maniera positiva, in modo che mettendo \"voglio/posso/devo\" davanti alla frase si ottengano ideale/ legame/difetto.</p></blockquote>\n<p>Ogni ventura ha quattro descrittori: ideale, legame, difetto e tratto caratteriale. Le domande del manuale li aiutano a scegliere:</p>\n<ul>\n<li><strong>Legame:</strong> <em>Quale caratteristica descriverebbe al meglio la vita ordinaria del mio personaggio?</em></li>\n<li><strong>Ideale:</strong> <em>Quale caratteristica rende il mio personaggio un eroe?</em></li>\n<li><strong>Difetto:</strong> <em>Quale caratteristica rende il mio personaggio un vigliacco?</em></li>\n<li><strong>Tratto caratteriale:</strong> un motto o un'abitudine del personaggio.</li>\n</ul>\n<p>I descrittori fanno guadagnare Ispirazione: vedi @UUID[Compendium.historia-it.rules-it.JournalEntry.IspirazioneReg01]{Ispirazione}.</p>\n<p><strong>A mano:</strong> scrivi ideale, legame, difetto e tratto caratteriale.</p>"
+      },
+      "_id": "CreazIstinti0001",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null,
+        "createdTime": 1792000277300,
+        "modifiedTime": 1792000277300
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1792000277300,
+    "modifiedTime": 1792000277300,
+    "lastModifiedBy": "ooYIsT0x1xXIjRa6"
+  },
+  "categories": [],
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "CreazionePerso01",
+  "sort": -100000
+}
