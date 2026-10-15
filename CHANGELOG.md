@@ -7,6 +7,17 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.41] - 2026-10-16
+
+### Fixed
+- Attori (IT): tradotti i testi rimasti in inglese negli incantesimi SRD dei
+  personaggi: 115 descrizioni e 164 nomi di effetti, 16 descrizioni e 56
+  nomi di attività, le condizioni di attivazione e i nomi dei tiri. Usati i
+  nomi ufficiali dnd5e-it (malattie di Contagio, incantesimi collegati) e le
+  distanze in metri.
+- Oggetti e privilegi (IT): tradotte le condizioni di attivazione e i testi
+  di flavor rimasti in inglese.
+
 ## [1.0.40] - 2026-10-16
 
 ### Added
