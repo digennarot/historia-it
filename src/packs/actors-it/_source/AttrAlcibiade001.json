@@ -954,7 +954,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -971,7 +971,7 @@
       "img": "icons/magic/water/projectile-icecicle-glowing.webp",
       "effects": [
         {
-          "name": "Chilled",
+          "name": "Congelato",
           "img": "icons/magic/water/projectile-icecicle-glowing.webp",
           "origin": "Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5",
           "transfer": false,
@@ -994,7 +994,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your speed is reduced by 10 feet until the start of the caster's next turn.</p>",
+          "description": "<p>La tua velocità è ridotta di 3 metri fino all'inizio del prossimo turno dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1171,7 +1171,7 @@
               "properties": [],
               "type": "weapon"
             },
-            "name": "Imbue Weapon",
+            "name": "Infondi l'Arma",
             "img": "",
             "appliedEffects": [
               "QPsqj6jfS0iXSrTs"
@@ -1260,7 +1260,7 @@
             },
             "sort": 0,
             "_id": "ONVab5lmTqJwwMBC",
-            "name": "Spellcasting Attack",
+            "name": "Attacco con Incantesimo",
             "img": "",
             "appliedEffects": []
           }
@@ -1281,7 +1281,7 @@
       "effects": [
         {
           "type": "enchantment",
-          "name": "Shillelagh",
+          "name": "Randello Incantato",
           "img": "icons/commodities/wood/kindling-stick-brown.webp",
           "disabled": false,
           "_id": "QPsqj6jfS0iXSrTs",
@@ -1319,7 +1319,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using this weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.</p>",
+          "description": "<p>Per la durata, puoi usare la tua caratteristica da incantatore al posto della Forza per i tiri per colpire e per i danni degli attacchi in mischia con quest'arma, e il dado dei danni dell'arma diventa un d8. Inoltre l'arma diventa magica, se non lo era già. L'incantesimo termina se lo lanci di nuovo o se lasci andare l'arma.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": false,
@@ -1490,7 +1490,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1507,7 +1507,7 @@
       "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
       "effects": [
         {
-          "name": "Resistance",
+          "name": "Resistenza",
           "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
           "origin": "Compendium.dnd5e.spells.Item.dl8YwvMboBqX2OC4",
           "transfer": false,
@@ -1523,7 +1523,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one saving throw of your choice. You can roll the die before or after making the saving throw. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a un tiro salvezza a tua scelta. Puoi tirare il dado prima o dopo aver effettuato il tiro salvezza. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1691,7 +1691,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1877,7 +1877,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1894,7 +1894,7 @@
       "img": "icons/magic/lightning/projectile-orb-blue.webp",
       "effects": [
         {
-          "name": "Shocking Grasp",
+          "name": "Stretta Folgorante",
           "img": "icons/magic/lightning/projectile-orb-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy",
           "transfer": false,
@@ -1910,7 +1910,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You can't take reactions until the start of your next turn.</p>",
+          "description": "<p>Non puoi effettuare reazioni fino all'inizio del tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2109,7 +2109,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2126,7 +2126,7 @@
       "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
       "effects": [
         {
-          "name": "Chill Touch",
+          "name": "Tocco Gelido",
           "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd",
           "transfer": false,
@@ -2142,7 +2142,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You cannot regain hit points until the start of the caster's next turn.</p>",
+          "description": "<p>Non puoi recuperare punti ferita fino all'inizio del prossimo turno dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2308,7 +2308,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2340,8 +2340,8 @@
             }
           },
           "tint": "#ffffff",
-          "name": "Mage Armor",
-          "description": "<p>A protective magical force surrounds it until the spell ends.</p><p>Your base AC becomes 13 + your Dexterity modifier. The spell ends if you don armor or if the caster dismisses the spell as an action.</p>",
+          "name": "Armatura Magica",
+          "description": "<p>Una forza magica protettiva ti circonda finché l'incantesimo non termina.</p><p>La tua CA base diventa 13 + il tuo modificatore di Destrezza. L'incantesimo termina se indossi un'armatura o se l'incantatore lo congeda con un'azione.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -2466,7 +2466,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "When a creature under the effects of this spell starts their turn."
+              "condition": "Quando una creatura sotto l'effetto di questo incantesimo inizia il proprio turno."
             },
             "consumption": {
               "targets": [],
@@ -2524,7 +2524,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Grant Temporary Hit Points",
+            "name": "Concedi Punti Ferita Temporanei",
             "img": "",
             "visibility": {
               "level": {
@@ -2535,7 +2535,7 @@
           },
           "s8S50epEPffDG1NB": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "s8S50epEPffDG1NB",
             "img": null,
             "sort": 0,
@@ -2601,7 +2601,7 @@
       "img": "icons/sundries/flags/banner-sword-blue.webp",
       "effects": [
         {
-          "name": "Heroism",
+          "name": "Eroismo",
           "img": "icons/sundries/flags/banner-sword-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL",
           "transfer": false,
@@ -2624,7 +2624,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been imbued with bravery. Until the spell ends, you are immune to being &amp;reference[Frightened apply=false] and gain Temporary Hit Points equal to the caster's Spellcasting ability modifier at the start of each of your turns. When the spell ends, you lose any remaining temporary hit points from this spell.</p>",
+          "description": "<p>Sei infuso di coraggio. Finché l'incantesimo non termina, sei immune alla condizione &amp;Reference[Frightened apply=false] e all'inizio di ogni tuo turno ottieni punti ferita temporanei pari al modificatore di caratteristica da incantatore dell'incantatore. Quando l'incantesimo termina, perdi tutti i punti ferita temporanei rimasti conferiti da questo incantesimo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2802,7 +2802,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2819,7 +2819,7 @@
       "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
       "effects": [
         {
-          "name": "False Life",
+          "name": "Vita Falsata",
           "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
           "origin": "Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6",
           "transfer": false,
@@ -2835,7 +2835,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You gain Temporary Hit Points for the duration of this spell.</p>",
+          "description": "<p>Ottieni punti ferita temporanei per la durata di questo incantesimo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2947,7 +2947,7 @@
         "activities": {
           "YLVe1YsiyNBUxjXx": {
             "type": "utility",
-            "name": "Create Water",
+            "name": "Crea Acqua",
             "_id": "YLVe1YsiyNBUxjXx",
             "img": "",
             "sort": 0,
@@ -3005,13 +3005,13 @@
             "roll": {
               "prompt": false,
               "visible": false,
-              "name": "Gallons of Water Conjured",
+              "name": "Galloni d'Acqua Creati",
               "formula": "@item.level * 10"
             }
           },
           "irIydyXyiUPVWhfg": {
             "type": "utility",
-            "name": "Destroy Water",
+            "name": "Distruggi Acqua",
             "_id": "irIydyXyiUPVWhfg",
             "img": "",
             "sort": 0,
@@ -3069,13 +3069,13 @@
             "roll": {
               "prompt": false,
               "visible": false,
-              "name": "Gallons of Water Destroyed",
+              "name": "Galloni d'Acqua Distrutti",
               "formula": "@item.level * 10"
             }
           },
           "HOXAFi1SQnPzdJ6E": {
             "type": "utility",
-            "name": "Destroy Fog",
+            "name": "Distruggi Nebbia",
             "_id": "HOXAFi1SQnPzdJ6E",
             "img": null,
             "sort": 0,
@@ -3417,7 +3417,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3434,7 +3434,7 @@
       "img": "icons/commodities/claws/claw-brown-black.webp",
       "effects": [
         {
-          "name": "Aquatic Adaptation",
+          "name": "Adattamento Acquatico",
           "img": "icons/magic/water/water-elemental-blue-teeth.webp",
           "origin": "Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx",
           "transfer": false,
@@ -3459,7 +3459,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your body has been adapted to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</p>",
+          "description": "<p>Il tuo corpo si è adattato all'ambiente acquatico: ti sono spuntate le branchie e hai le dita palmate. Puoi respirare sott'acqua e ottieni una velocità di nuotare pari alla tua velocità sul terreno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3486,7 +3486,7 @@
           "_key": "!items.effects!8RTDOt80u8aBv9qx.14Qp5HLSat31r3uM"
         },
         {
-          "name": "Changed Appearance",
+          "name": "Aspetto Cambiato",
           "img": "icons/creatures/slimes/slime-face-hollow-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx",
           "transfer": false,
@@ -3503,7 +3503,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have transformed your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change.</p><p>You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</p>",
+          "description": "<p>Hai trasformato il tuo aspetto. Decidi tu il tuo aspetto, compresi altezza, peso, lineamenti, timbro della voce, lunghezza dei capelli, colorito ed eventuali tratti distintivi. Puoi assumere l'aspetto di un membro di un'altra specie, ma nessuna delle tue statistiche cambia.</p><p>Non puoi assumere l'aspetto di una creatura di taglia diversa dalla tua e la tua forma di base resta la stessa: se sei bipede, ad esempio, non puoi usare questo incantesimo per diventare quadrupede. In qualsiasi momento per la durata dell'incantesimo, puoi usare la tua azione per cambiare di nuovo aspetto in questo modo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3530,7 +3530,7 @@
           "_key": "!items.effects!8RTDOt80u8aBv9qx.V6Y9a1LElOYZc4J7"
         },
         {
-          "name": "Natural Weapons",
+          "name": "Armi Naturali",
           "img": "icons/commodities/claws/claw-brown-black.webp",
           "origin": "Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx",
           "transfer": false,
@@ -3547,7 +3547,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have grown claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</p>",
+          "description": "<p>Ti sono cresciuti artigli, zanne, aculei, corna o un'altra arma naturale a tua scelta. I tuoi colpi senz'armi infliggono 1d6 danni contundenti, perforanti o taglienti, a seconda dell'arma naturale scelta, e hai competenza nei tuoi colpi senz'armi. Infine, l'arma naturale è magica e ottieni un bonus di +1 ai tiri per colpire e per i danni effettuati con essa.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3725,7 +3725,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3742,7 +3742,7 @@
       "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
       "effects": [
         {
-          "name": "Enlarged",
+          "name": "Ingrandito",
           "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
           "origin": "Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1",
           "transfer": false,
@@ -3788,7 +3788,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your size doubles in all dimensions, and your weight is multiplied by eight. This growth increases your size by one category—from Medium to Large, for example. If there isn't enough room for you to double its size, you attain the maximum possible size in the space available. Until the spell ends, you also have advantage on Strength Checks and Strength Saving Throws.</p><p>Your Weapons also grow to match your new size. While these Weapons are enlarged, your attacks with them deal 1d4 extra damage.</p>",
+          "description": "<p>Le tue dimensioni raddoppiano in ogni direzione e il tuo peso è moltiplicato per otto. Questa crescita aumenta la tua taglia di una categoria: ad esempio da Media a Grande. Se non c'è spazio sufficiente per raddoppiare le tue dimensioni, raggiungi la taglia massima possibile nello spazio disponibile. Finché l'incantesimo non termina, hai anche vantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi crescono per adattarsi alla tua nuova taglia. Finché sono ingrandite, i tuoi attacchi con esse infliggono 1d4 danni extra.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3815,7 +3815,7 @@
           "_key": "!items.effects!WahI41a3goVUg0x1.iVWIbqSzCYFAQzV6"
         },
         {
-          "name": "Reduced",
+          "name": "Ridotto",
           "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1",
           "transfer": false,
@@ -3861,7 +3861,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your size is halved in all dimensions, and your weight is reduced to one-eighth of normal. This reduction decreases your size by one category—from Medium to Small, for example. Until the spell ends, you also has disadvantage on Strength Checks and Strength Saving Throws.</p><p>Your Weapons also shrink to match your new size. While these Weapons are reduced, your attacks with them deal 1d4 less damage (this can't reduce the damage below 1).</p>",
+          "description": "<p>Le tue dimensioni si dimezzano in ogni direzione e il tuo peso si riduce a un ottavo del normale. Questa riduzione diminuisce la tua taglia di una categoria: ad esempio da Media a Piccola. Finché l'incantesimo non termina, hai anche svantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi si rimpiccioliscono per adattarsi alla tua nuova taglia. Finché sono ridotte, i tuoi attacchi con esse infliggono 1d4 danni in meno (i danni non possono scendere sotto 1).</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4038,7 +4038,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -4049,14 +4049,14 @@
           },
           "rQbzIAnDXYbVe48y": {
             "type": "utility",
-            "name": "Mirror Image Interception",
+            "name": "Intercettazione dell'Immagine Speculare",
             "_id": "rQbzIAnDXYbVe48y",
             "img": "",
             "sort": 100000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When a creature targets you with an attack during this spell's duration."
+              "condition": "Quando una creatura ti bersaglia con un attacco durante questo incantesimo."
             },
             "consumption": {
               "scaling": {
@@ -4066,7 +4066,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>Each time a creature targets you with an attack during the spell's duration, roll a 1d20 to determine whether the attack instead targets one of your duplicates.</p><p>If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p><h4><strong>Amount of Mirror Images:</strong> [[lookup @flags.world.mirror-image]]{0}</h4>",
+              "value": "<p>Ogni volta che una creatura ti bersaglia con un attacco per la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>Se hai tre duplicati, devi ottenere 6 o più per spostare il bersaglio dell'attacco su un duplicato. Con due duplicati devi ottenere 8 o più. Con un duplicato devi ottenere 11 o più.</p><h4><strong>Numero di immagini speculari:</strong> [[lookup @flags.world.mirror-image]]{0}</h4>",
               "chatFlavor": ""
             },
             "duration": {
@@ -4109,7 +4109,7 @@
             "roll": {
               "prompt": false,
               "visible": false,
-              "name": "Mirror Image Destruction Check",
+              "name": "Prova di Distruzione dell'Immagine Speculare",
               "formula": "1d20"
             }
           }
@@ -4118,7 +4118,7 @@
       },
       "effects": [
         {
-          "name": "Mirror Image 1",
+          "name": "Immagine Speculare 1",
           "origin": "Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz",
           "duration": {
             "value": 1,
@@ -4148,7 +4148,7 @@
               }
             ]
           },
-          "description": "<p>You have an illusory duplicate in your space. The duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><p>Each time a creature targets you with an attack during the spell's duration, roll a 1d20 to determine whether the attack instead targets one of your duplicates.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as &amp;reference[blindsight], or if it can perceive illusions as false, as with &amp;reference[truesight].</p>",
+          "description": "<p>Nel tuo spazio c'è un tuo duplicato illusorio. I duplicati si muovono con te e imitano le tue azioni, cambiando posizione in modo che sia impossibile capire quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco per la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, il duplicato viene distrutto. Un duplicato può essere distrutto solo da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono stati distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se fa affidamento su sensi diversi dalla vista, come la &amp;Reference[blindsight], o se può percepire le illusioni come false, come con la &amp;Reference[truesight].</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -4170,7 +4170,7 @@
           "_key": "!items.effects!X4c8xCkmF8U9HUMz.I5Cgu5m0knHmdXge"
         },
         {
-          "name": "Mirror Image 2",
+          "name": "Immagine Speculare 2",
           "origin": "Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz",
           "duration": {
             "value": 1,
@@ -4200,7 +4200,7 @@
               }
             ]
           },
-          "description": "<p>You have an illusory duplicate in your space. The duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><p>Each time a creature targets you with an attack during the spell's duration, roll a 1d20 to determine whether the attack instead targets one of your duplicates.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as &amp;reference[blindsight], or if it can perceive illusions as false, as with &amp;reference[truesight].</p>",
+          "description": "<p>Nel tuo spazio c'è un tuo duplicato illusorio. I duplicati si muovono con te e imitano le tue azioni, cambiando posizione in modo che sia impossibile capire quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco per la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, il duplicato viene distrutto. Un duplicato può essere distrutto solo da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono stati distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se fa affidamento su sensi diversi dalla vista, come la &amp;Reference[blindsight], o se può percepire le illusioni come false, come con la &amp;Reference[truesight].</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -4222,7 +4222,7 @@
           "_key": "!items.effects!X4c8xCkmF8U9HUMz.uFd6X0bNcmjRKqu1"
         },
         {
-          "name": "Mirror Image 3",
+          "name": "Immagine Speculare 3",
           "origin": "Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz",
           "duration": {
             "value": 1,
@@ -4252,7 +4252,7 @@
               }
             ]
           },
-          "description": "<p>You have an illusory duplicate in your space. The duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><p>Each time a creature targets you with an attack during the spell's duration, roll a 1d20 to determine whether the attack instead targets one of your duplicates.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as &amp;reference[blindsight], or if it can perceive illusions as false, as with &amp;reference[truesight].</p>",
+          "description": "<p>Nel tuo spazio c'è un tuo duplicato illusorio. I duplicati si muovono con te e imitano le tue azioni, cambiando posizione in modo che sia impossibile capire quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco per la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, il duplicato viene distrutto. Un duplicato può essere distrutto solo da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono stati distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se fa affidamento su sensi diversi dalla vista, come la &amp;Reference[blindsight], o se può percepire le illusioni come false, come con la &amp;Reference[truesight].</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -4410,7 +4410,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -4633,7 +4633,7 @@
       "img": "icons/skills/movement/arrow-down-pink.webp",
       "effects": [
         {
-          "name": "Slowed",
+          "name": "Rallentato",
           "origin": "Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz",
           "duration": {
             "value": 60,
@@ -4643,7 +4643,7 @@
           },
           "disabled": true,
           "_id": "YtN8kTDQyxFaxpEx",
-          "description": "<p>Your speed is halved, take a -2 penalty to AC and Dexterity saving throws, and you can't use reactions. On your turn, you can use either an action or a bonus action, not both. Regardless of your abilities or magic items, you can't make more than one melee or ranged attack during your turn.</p>",
+          "description": "<p>La tua velocità è dimezzata, subisci penalità di -2 alla CA e ai tiri salvezza su Destrezza e non puoi usare reazioni. Nel tuo turno puoi usare un'azione o un'azione bonus, non entrambe. Indipendentemente dalle tue capacità o dagli oggetti magici, non puoi effettuare più di un attacco in mischia o a distanza durante il tuo turno.</p>",
           "transfer": false,
           "statuses": [],
           "flags": {
@@ -4869,7 +4869,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -4886,7 +4886,7 @@
       "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
       "effects": [
         {
-          "name": "Hastened",
+          "name": "Velocizzato",
           "origin": "Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5",
           "duration": {
             "value": 1,
@@ -4896,7 +4896,7 @@
           },
           "disabled": false,
           "_id": "DEPrzDiNHOqKj4Hj",
-          "description": "<p>Until the spell ends, your speed is doubled, you gain a +2 bonus to AC, have advantage on Dexterity Saving Throws, and gain an additional action on each of your turns. This action can be used only to take the &amp;reference[Attack] (one weapon attack only), &amp;reference[Dash], &amp;reference[Disengage], &amp;reference[Hide], or &amp;reference[Use an Object] action.</p>",
+          "description": "<p>Finché l'incantesimo non termina, la tua velocità raddoppia, ottieni bonus di +2 alla CA, hai vantaggio ai tiri salvezza su Destrezza e ottieni un'azione aggiuntiva in ciascun tuo turno. Questa azione può essere usata solo per l'azione di &amp;Reference[Attack] (un solo attacco con un'arma), &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Hide] o &amp;Reference[Use an Object].</p>",
           "transfer": false,
           "statuses": [],
           "flags": {
@@ -5062,7 +5062,7 @@
         "activities": {
           "aUsAItFCOoEIQd7I": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "aUsAItFCOoEIQd7I",
             "img": null,
             "sort": -100000,
@@ -5125,14 +5125,14 @@
           },
           "at17qOrWdjr80zy0": {
             "type": "damage",
-            "name": "Partial Stone Destruction Damage",
+            "name": "Danni da Distruzione Parziale della Pietra",
             "_id": "at17qOrWdjr80zy0",
             "img": "",
             "sort": 100000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the stone are melded in is partially destroyed while you are melded into it."
+              "condition": "Quando la pietra in cui sei fuso viene distrutta in parte."
             },
             "consumption": {
               "scaling": {
@@ -5212,13 +5212,13 @@
           },
           "2NOxC43FZiwhej6W": {
             "type": "damage",
-            "name": "Complete Stone Destruction Damage",
+            "name": "Danni da Distruzione Completa della Pietra",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the stone are melded in is completely destroyed while you are melded into it."
+              "condition": "Quando la pietra in cui sei fuso viene distrutta completamente."
             },
             "consumption": {
               "scaling": {
@@ -5305,7 +5305,7 @@
       "img": "icons/magic/earth/projectile-stone-landslide.webp",
       "effects": [
         {
-          "name": "Melded into Stone",
+          "name": "Fuso nella Pietra",
           "img": "icons/magic/earth/projectile-stone-landslide.webp",
           "origin": "Compendium.dnd5e.spells.Item.64uo4fHriHLjRUrX",
           "transfer": false,
@@ -5322,7 +5322,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have stepped into a stone object or surface large enough to fully contain your body, melding yourself and all the Equipment you carry with the stone for the Duration. Nothing of your presence remains visible or otherwise detectable by nonmagical Senses.</p><p>While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast Spells on yourself while merged in the stone. You can use your Movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.</p><p>Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or Transmutation into a different substance) expels you and deals [[/damage 50 bludgeoning]] damage to you. If expelled, you fall &amp;reference[prone] in an unoccupied space closest to where you first entered.</p>",
+          "description": "<p>Sei entrato in un oggetto o in una superficie di pietra abbastanza grande da contenere completamente il tuo corpo, fondendoti con la pietra insieme a tutto l'equipaggiamento che trasporti per la durata. Nulla della tua presenza rimane visibile o individuabile con sensi non magici.</p><p>Mentre sei fuso con la pietra, non puoi vedere cosa accade all'esterno e le prove di Saggezza (Percezione) che effettui per sentire i suoni all'esterno subiscono svantaggio. Rimani consapevole del passare del tempo e puoi lanciare incantesimi su te stesso mentre sei fuso nella pietra. Puoi usare il tuo movimento per uscire dalla pietra dal punto in cui sei entrato, ponendo fine all'incantesimo. Altrimenti, non puoi muoverti.</p><p>I danni fisici minori alla pietra non ti feriscono, ma la sua distruzione parziale o un cambiamento della sua forma (al punto che non puoi più starci dentro) ti espelle e ti infligge 6d6 danni contundenti. La distruzione completa della pietra (o la sua trasmutazione in una sostanza diversa) ti espelle e ti infligge [[/damage 50 bludgeoning]] danni. Se vieni espulso, cadi &amp;Reference[prone] nello spazio libero più vicino al punto in cui eri entrato.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -5427,7 +5427,7 @@
         "activities": {
           "ZLkktrcLmi0naPRC": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "ZLkktrcLmi0naPRC",
             "img": null,
             "sort": 100000,
@@ -5485,14 +5485,14 @@
           },
           "Kn7He91921d5pTio": {
             "type": "save",
-            "name": "Explosive Rune Save",
+            "name": "Tiro Salvezza contro la Runa Esplosiva",
             "_id": "Kn7He91921d5pTio",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the Glyph of Warding is triggered."
+              "condition": "Quando il Glifo di Interdizione si attiva."
             },
             "consumption": {
               "scaling": {
@@ -5502,7 +5502,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one.</p>",
+              "value": "<p>Quando si attiva, il glifo erutta energia magica in una sfera di 6 metri di raggio centrata sul glifo. La sfera si propaga oltre gli angoli. Ogni creatura nell'area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 5d8 danni da acido, freddo, fuoco, fulmine o tuono (a tua scelta quando crei il glifo), mentre se lo supera subisce la metà dei danni.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5589,14 +5589,14 @@
           },
           "x7zjmSoY9DWaiMhP": {
             "type": "utility",
-            "name": "Activated Spell Glyph",
+            "name": "Glifo dell'Incantesimo Attivato",
             "_id": "x7zjmSoY9DWaiMhP",
             "img": "",
             "sort": 300000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the Glyph of Warding is triggered."
+              "condition": "Quando il Glifo di Interdizione si attiva."
             },
             "consumption": {
               "scaling": {
@@ -5606,7 +5606,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.</p>",
+              "value": "<p>Quando il glifo si attiva, l'incantesimo immagazzinato viene lanciato. Se l'incantesimo ha un bersaglio, bersaglia la creatura che ha attivato il glifo. Se l'incantesimo influenza un'area, l'area è centrata su quella creatura. Se l'incantesimo evoca creature ostili o crea oggetti o trappole dannose, questi compaiono il più vicino possibile all'intruso e lo attaccano. Se l'incantesimo richiede concentrazione, dura fino al termine della sua durata completa.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -6095,7 +6095,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6112,7 +6112,7 @@
       "img": "icons/magic/life/ankh-shadow-green.webp",
       "effects": [
         {
-          "name": "Death Ward",
+          "name": "Interdizione alla Morte",
           "img": "icons/magic/life/ankh-shadow-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb",
           "transfer": false,
@@ -6129,7 +6129,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been granted a measure of protection from death. The first time you would drop to 0 hit points as a result of taking damage, you instead drop to 1 hit point, and the spell ends.</p><p>If the spell is still in effect when you are subjected to an effect that would kill you instantaneously without dealing damage, that effect is instead negated against you, and the spell ends.</p>",
+          "description": "<p>Hai ricevuto una certa protezione dalla morte. La prima volta che scenderesti a 0 punti ferita a causa dei danni subiti, scendi invece a 1 punto ferita e l'incantesimo termina.</p><p>Se l'incantesimo è ancora attivo quando subisci un effetto che ti ucciderebbe istantaneamente senza infliggere danni, quell'effetto viene invece annullato nei tuoi confronti e l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -6297,7 +6297,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6332,8 +6332,8 @@
               }
             }
           },
-          "name": "Stoneskin",
-          "description": "<p>Until the spell ends, you have resistance to nonmagical bludgeoning, piercing, and slashing damage.</p>",
+          "name": "Pelle di Pietra",
+          "description": "<p>Finché l'incantesimo non termina, hai resistenza ai danni contundenti, perforanti e taglienti non magici.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -6515,7 +6515,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6615,7 +6615,7 @@
         "activities": {
           "v6TXogtTedQR3pQ0": {
             "type": "summon",
-            "name": "Summon",
+            "name": "Evoca",
             "_id": "v6TXogtTedQR3pQ0",
             "img": "",
             "sort": 100000,
@@ -6840,7 +6840,7 @@
         "activities": {
           "dSOAotUiZwU8xIlV": {
             "type": "attack",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "dSOAotUiZwU8xIlV",
             "img": "",
             "sort": 100000,
@@ -6962,7 +6962,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "At the end of each of the target's turns while they are incubating a disease."
+              "condition": "Alla fine di ogni turno del bersaglio mentre incuba la malattia."
             },
             "consumption": {
               "targets": [],
@@ -6974,7 +6974,7 @@
             },
             "description": {
               "chatFlavor": "",
-              "value": "<p>At the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.</p>"
+              "value": "<p>Alla fine di ogni suo turno, il bersaglio deve effettuare un tiro salvezza su Costituzione. Dopo averne falliti tre, gli effetti della malattia durano per l'intera durata e la creatura smette di effettuare questi tiri salvezza. Dopo averne superati tre, la creatura guarisce dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce nel bersaglio una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>"
             },
             "duration": {
               "units": "inst",
@@ -7035,7 +7035,7 @@
               "max": ""
             },
             "sort": 300000,
-            "name": "Disease Save",
+            "name": "Tiro Salvezza contro la Malattia",
             "img": "",
             "flags": {},
             "visibility": {
@@ -7051,14 +7051,14 @@
           },
           "JHDzsuyXxSyhdNM6": {
             "type": "utility",
-            "name": "Apply Disease",
+            "name": "Applica la Malattia",
             "_id": "JHDzsuyXxSyhdNM6",
             "img": "",
             "sort": 400000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When a creature under the effects of this spell fails three of their saving throws."
+              "condition": "Quando una creatura sotto l'effetto di questo incantesimo fallisce tre tiri salvezza."
             },
             "consumption": {
               "scaling": {
@@ -7172,7 +7172,7 @@
       "img": "icons/skills/wounds/blood-cells-disease-green.webp",
       "effects": [
         {
-          "name": "Incubating Blinding Sickness",
+          "name": "Incubazione: Infermità Accecante",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7189,7 +7189,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are currently developing Blinding Sickness. At the end of each of your turns, you must make a Constitution saving throw. After failing three of these saves, the disease's effects last for the full duration, and you stop making these saves. After succeeding on three of these saving throws, you recover from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in you, any effect that removes a disease or otherwise amerliorates a diseases effects apply to it.</p>",
+          "description": "<p>Stai sviluppando la malattia Infermità Accecante. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare tiri salvezza. Dopo averne superati tre, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>",
           "tint": "#ffffff",
           "statuses": [
             "diseased"
@@ -7218,7 +7218,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.sZYUpIcA0Ixip7bo"
         },
         {
-          "name": "Incubating Filth Fever",
+          "name": "Incubazione: Febbre Lurida",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7234,7 +7234,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are currently developing Filth Fever. At the end of each of your turns, you must make a Constitution saving throw. After failing three of these saves, the disease's effects last for the full duration, and you stop making these saves. After succeeding on three of these saving throws, you recover from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in you, any effect that removes a disease or otherwise amerliorates a diseases effects apply to it.</p>",
+          "description": "<p>Stai sviluppando la malattia Febbre Lurida. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare tiri salvezza. Dopo averne superati tre, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>",
           "tint": "#ffffff",
           "statuses": [
             "diseased"
@@ -7264,7 +7264,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.rdL5guwwTuCvTU1v"
         },
         {
-          "name": "Incubating Flesh Rot",
+          "name": "Incubazione: Carne Putrefatta",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7280,7 +7280,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are currently developing Flesh Rot. At the end of each of your turns, you must make a Constitution saving throw. After failing three of these saves, the disease's effects last for the full duration, and you stop making these saves. After succeeding on three of these saving throws, you recover from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in you, any effect that removes a disease or otherwise amerliorates a diseases effects apply to it.</p>",
+          "description": "<p>Stai sviluppando la malattia Carne Putrefatta. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare tiri salvezza. Dopo averne superati tre, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>",
           "tint": "#ffffff",
           "statuses": [
             "diseased"
@@ -7310,7 +7310,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.9qsScAIMMLwDDkJl"
         },
         {
-          "name": "Incubating Mindfire",
+          "name": "Incubazione: Fuoco Mentale",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7326,7 +7326,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are currently developing Mindfire. At the end of each of your turns, you must make a Constitution saving throw. After failing three of these saves, the disease's effects last for the full duration, and you stop making these saves. After succeeding on three of these saving throws, you recover from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in you, any effect that removes a disease or otherwise amerliorates a diseases effects apply to it.</p>",
+          "description": "<p>Stai sviluppando la malattia Fuoco Mentale. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare tiri salvezza. Dopo averne superati tre, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>",
           "tint": "#ffffff",
           "statuses": [
             "diseased"
@@ -7356,7 +7356,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.egrhxJgirkl5YnuZ"
         },
         {
-          "name": "Incubating Seizure",
+          "name": "Incubazione: Tremarella",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7372,7 +7372,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are currently developing Seizure. At the end of each of your turns, you must make a Constitution saving throw. After failing three of these saves, the disease's effects last for the full duration, and you stop making these saves. After succeeding on three of these saving throws, you recover from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in you, any effect that removes a disease or otherwise amerliorates a diseases effects apply to it.</p>",
+          "description": "<p>Stai sviluppando la malattia Tremarella. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare tiri salvezza. Dopo averne superati tre, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>",
           "tint": "#ffffff",
           "statuses": [
             "diseased"
@@ -7402,7 +7402,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.1VXYcPSs43a4CHkf"
         },
         {
-          "name": "Incubating Slimy Doom",
+          "name": "Incubazione: Devastazione Vischiosa",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7418,7 +7418,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are currently developing Slimy Doom. At the end of each of your turns, you must make a Constitution saving throw. After failing three of these saves, the disease's effects last for the full duration, and you stop making these saves. After succeeding on three of these saving throws, you recover from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in you, any effect that removes a disease or otherwise amerliorates a diseases effects apply to it.</p>",
+          "description": "<p>Stai sviluppando la malattia Devastazione Vischiosa. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare tiri salvezza. Dopo averne superati tre, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>",
           "tint": "#ffffff",
           "statuses": [
             "diseased"
@@ -7448,7 +7448,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.6Ha38CDFwGGbDbQz"
         },
         {
-          "name": "Failed Contagion Save",
+          "name": "Tiro Salvezza Fallito contro Contagio",
           "img": "icons/sundries/flags/banner-pink.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7465,7 +7465,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have failed a saving throw against the @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagion} spell.</p>",
+          "description": "<p>Hai fallito un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagio}.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -7492,7 +7492,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.LhWesCC0aYGqzgk3"
         },
         {
-          "name": "Successful Contagion Save",
+          "name": "Tiro Salvezza Superato contro Contagio",
           "img": "icons/sundries/flags/banner-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "transfer": false,
@@ -7509,7 +7509,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have succeeded a saving throw against the @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagion} spell.</p>",
+          "description": "<p>Hai superato un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagio}.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -7536,7 +7536,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.NVfW1Rp0QTgISmDW"
         },
         {
-          "name": "Blinding Sickness",
+          "name": "Infermità Accecante",
           "img": "icons/commodities/biological/eye-lizard-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "type": "base",
@@ -7567,7 +7567,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Pain grips your mind, and your eyes turn milky white. You have disadvantage on Wisdom checks and Wisdom saving throws and you are &amp;reference[blinded apply=false].</p>",
+          "description": "<p>Il dolore ti attanaglia la mente e i tuoi occhi diventano di un bianco latteo. Hai svantaggio alle prove di Saggezza e ai tiri salvezza su Saggezza e sei &amp;Reference[blinded apply=false].</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -7597,7 +7597,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.i7n9jGZ51Scdwwia"
         },
         {
-          "name": "Filth Fever",
+          "name": "Febbre Lurida",
           "img": "icons/magic/acid/dissolve-vomit-green-brown.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "type": "base",
@@ -7627,7 +7627,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>A raging fever sweeps through your body. You have disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.</p>",
+          "description": "<p>Una febbre violenta ti percorre il corpo. Hai svantaggio alle prove di Forza, ai tiri salvezza su Forza e ai tiri per colpire che usano la Forza.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -7656,7 +7656,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.hZkALiwlSPABBDSk"
         },
         {
-          "name": "Flesh Rot",
+          "name": "Carne Putrefatta",
           "img": "icons/magic/acid/dissolve-arm-flesh.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "type": "base",
@@ -7686,7 +7686,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your flesh decays. You have disadvantage on Charisma checks and vulnerability to all damage.</p>",
+          "description": "<p>La tua carne si decompone. Hai svantaggio alle prove di Carisma e vulnerabilità a tutti i danni.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -7715,7 +7715,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.1VOSXuEvObGjy3nZ"
         },
         {
-          "name": "Mindfire",
+          "name": "Fuoco Mentale",
           "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "type": "base",
@@ -7745,7 +7745,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your mind becomes feverish. You have disadvantage on Intelligence checks and Intelligence saving throws, and you behave as if under the effects of the @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{confusion} spell during combat.</p>",
+          "description": "<p>La tua mente è in preda alla febbre. Hai svantaggio alle prove di Intelligenza e ai tiri salvezza su Intelligenza e in combattimento ti comporti come se fossi sotto l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{confusione}.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -7774,7 +7774,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.S3eSD4rmdbYajX2l"
         },
         {
-          "name": "Seizure",
+          "name": "Tremarella",
           "img": "icons/commodities/biological/hand-clawed-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "type": "base",
@@ -7804,7 +7804,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You are overcome with shaking. You have disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.</p>",
+          "description": "<p>Sei scosso da tremori incontrollabili. Hai svantaggio alle prove di Destrezza, ai tiri salvezza su Destrezza e ai tiri per colpire che usano la Destrezza.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -7833,7 +7833,7 @@
           "_key": "!items.effects!CjIq8Ed7bu3vVwT1.GCyWrky8VpY2W8PA"
         },
         {
-          "name": "Slimy Doom",
+          "name": "Devastazione Vischiosa",
           "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
           "origin": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
           "type": "base",
@@ -7863,7 +7863,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You begin to bleed uncontrollably. You have disadvantage on Constitution checks and Constitution saving throws. In addition, whenever you take damage, you are &amp;reference[stunned] until the end of your next turn.</p>",
+          "description": "<p>Inizi a sanguinare in modo incontrollabile. Hai svantaggio alle prove di Costituzione e ai tiri salvezza su Costituzione. Inoltre, ogni volta che subisci danni, sei &amp;Reference[stunned] fino alla fine del tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -8059,7 +8059,7 @@
               "max": ""
             },
             "sort": 200000,
-            "name": "Summon Elemental",
+            "name": "Evoca Elementale",
             "img": "",
             "appliedEffects": [],
             "visibility": {
@@ -8078,7 +8078,7 @@
           },
           "u2Mpx2VgG37KaZHL": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "u2Mpx2VgG37KaZHL",
             "img": null,
             "sort": 100000,
@@ -8142,7 +8142,7 @@
       "img": "icons/magic/water/water-elemental-blue-teeth.webp",
       "effects": [
         {
-          "name": "Controlled Elemental",
+          "name": "Elementale Controllato",
           "img": "icons/magic/water/water-elemental-blue-teeth.webp",
           "origin": "Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR",
           "transfer": false,
@@ -8159,7 +8159,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You are under the caster's control while they maintain concentration on this spell. If their concentration is broken, you don't disappear. Instead, they lose control of you and you become hostile toward the caster and their companions, and you disappear after 1 hour after you were summoned.</p>",
+          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari: l'incantatore perde il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -8318,7 +8318,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -8423,7 +8423,7 @@
         "activities": {
           "sH3vDAnrbbd65Agz": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "sH3vDAnrbbd65Agz",
             "img": "",
             "sort": 100000,
@@ -8507,14 +8507,14 @@
           },
           "ITL3quDlYj3grSZz": {
             "type": "save",
-            "name": "End Effect Save",
+            "name": "Tiro Salvezza per Terminare l'Effetto",
             "_id": "ITL3quDlYj3grSZz",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When an affected creature ends its turn while not within 60 feet of the target or able to see it, or if the target damages or otherwise an affected creature."
+              "condition": "Quando una creatura influenzata termina il turno senza trovarsi entro 18 metri dal bersaglio e senza poterlo vedere, o se il bersaglio la danneggia o le nuoce in altro modo."
             },
             "consumption": {
               "scaling": {
@@ -8600,7 +8600,7 @@
       "img": "icons/commodities/treasure/totem-wooden-glowing-green.webp",
       "effects": [
         {
-          "name": "Antipathy",
+          "name": "Antipatia",
           "origin": "Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH",
           "duration": {
             "value": null,
@@ -8610,7 +8610,7 @@
           },
           "disabled": true,
           "_id": "Cz824xQ2Z4BYuSa9",
-          "description": "<p>While Frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.</p>",
+          "description": "<p>Finché è spaventata dal bersaglio, la creatura deve usare il suo movimento per spostarsi nel luogo sicuro più vicino da cui non può vedere il bersaglio. Se la creatura si allontana di più di 18 metri dal bersaglio e non può vederlo, non è più spaventata, ma lo diventa di nuovo se torna a vedere il bersaglio o si avvicina entro 18 metri da esso.</p>",
           "transfer": false,
           "statuses": [
             "frightened"
@@ -8640,7 +8640,7 @@
           "_key": "!items.effects!GJ2WYm3SQFR0winH.Cz824xQ2Z4BYuSa9"
         },
         {
-          "name": "Aura of Antipathy",
+          "name": "Aura di Antipatia",
           "img": "icons/commodities/treasure/token-engraved-red-glowing.webp",
           "origin": "Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH",
           "transfer": false,
@@ -8657,7 +8657,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You are invested with an aura of antipathy.</p><p>The enchantment causes creatures of the kind the caster designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become &amp;Reference[frightened]. The creature remains frightened while it can see the target or is within 60 feet of it.</p><p>While frightened by you, the creature must use its movement to move to the nearest safe spot from which it can't you. If the creature moves more than 60 feet from you and can't see you, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of you or moves within 60 feet of you.</p><p><strong>Ending the Effect.</strong> If an affected creature ends its turn while not within 60 feet of you or able to see you, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by you and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists.</p>",
+          "description": "<p>Sei investito da un'aura di antipatia.</p><p>L'ammaliamento fa provare alle creature del tipo designato dall'incantatore un intenso impulso ad abbandonare l'area e a evitare il bersaglio. Quando una di queste creature può vedere il bersaglio o arriva entro 18 metri da esso, deve superare un tiro salvezza su Saggezza o diventare &amp;Reference[frightened]. La creatura resta spaventata finché può vedere il bersaglio o si trova entro 18 metri da esso.</p><p>Finché è spaventata da te, la creatura deve usare il suo movimento per spostarsi nel luogo sicuro più vicino da cui non può vederti. Se la creatura si allontana di più di 18 metri da te e non può vederti, non è più spaventata, ma lo diventa di nuovo se torna a vederti o si avvicina entro 18 metri da te.</p><p><strong>Fine dell'effetto.</strong> Se una creatura influenzata termina il proprio turno senza trovarsi entro 18 metri da te e senza poterti vedere, effettua un tiro salvezza su Saggezza. Se lo supera, non è più influenzata da te e riconosce come magica la sensazione di repulsione o di attrazione. Inoltre, una creatura influenzata può ripetere il tiro salvezza su Saggezza ogni 24 ore finché l'incantesimo persiste.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -8684,7 +8684,7 @@
           "_key": "!items.effects!GJ2WYm3SQFR0winH.Q8oqI0ISzsugmoDk"
         },
         {
-          "name": "Aura of Sympathy",
+          "name": "Aura di Simpatia",
           "img": "icons/commodities/treasure/token-engraved-green-glowing.webp",
           "origin": "Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH",
           "transfer": false,
@@ -8700,7 +8700,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You are invested with an aura of sympathy.</p><p>The enchantment causes the specified creatures to feel an intense urge to approach you while within 60 feet of you or able to see you. When such a creature can see you or comes within 60 feet of you, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from you.</p><p>If you damage or otherwise harm an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.</p><p><strong>Ending the Effect.</strong> If an affected creature ends its turn while not within 60 feet of you or able to see you, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by you and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists.</p>",
+          "description": "<p>Sei investito da un'aura di simpatia.</p><p>L'ammaliamento fa provare alle creature specificate un intenso impulso ad avvicinarsi a te finché si trovano entro 18 metri da te o possono vederti. Quando una di queste creature può vederti o arriva entro 18 metri da te, deve superare un tiro salvezza su Saggezza o usare il suo movimento in ciascuno dei suoi turni per entrare nell'area o portarsi a portata del bersaglio. Una volta fatto, non può allontanarsi volontariamente da te.</p><p>Se infliggi danni o nuoci in altro modo a una creatura influenzata, questa può effettuare un tiro salvezza su Saggezza per porre fine all'effetto, come descritto di seguito.</p><p><strong>Fine dell'effetto.</strong> Se una creatura influenzata termina il proprio turno senza trovarsi entro 18 metri da te e senza poterti vedere, effettua un tiro salvezza su Saggezza. Se lo supera, non è più influenzata da te e riconosce come magica la sensazione di repulsione o di attrazione. Inoltre, una creatura influenzata può ripetere il tiro salvezza su Saggezza ogni 24 ore finché l'incantesimo persiste.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -8883,7 +8883,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -9042,7 +9042,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {

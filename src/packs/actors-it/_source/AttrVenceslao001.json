@@ -813,7 +813,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -830,7 +830,7 @@
       "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
       "effects": [
         {
-          "name": "Guidance",
+          "name": "Guida",
           "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
           "origin": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
           "transfer": false,
@@ -846,7 +846,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one ability check of your choice. You can roll the die before or after making the ability check. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -956,14 +956,14 @@
         "activities": {
           "A0r24ncbAuYRHrRX": {
             "type": "save",
-            "name": "Avoid Light Save",
+            "name": "Tiro Salvezza per Evitare la Luce",
             "_id": "A0r24ncbAuYRHrRX",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When you target an object held or worn by a hostile creature."
+              "condition": "Quando bersagli un oggetto impugnato o indossato da una creatura ostile."
             },
             "consumption": {
               "scaling": {
@@ -1028,7 +1028,7 @@
           },
           "x3oDVP0hPkb9fAa1": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "x3oDVP0hPkb9fAa1",
             "img": "",
             "sort": 100000,
@@ -1255,7 +1255,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Conjure Mage Hand",
+            "name": "Evoca la Mano Magica",
             "img": "",
             "visibility": {
               "level": {
@@ -1267,7 +1267,7 @@
           },
           "EDuPcfsfb5cGEpiI": {
             "type": "utility",
-            "name": "Control Mage Hand",
+            "name": "Controlla la Mano Magica",
             "_id": "EDuPcfsfb5cGEpiI",
             "img": "",
             "sort": 0,
@@ -1507,7 +1507,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1524,7 +1524,7 @@
       "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
       "effects": [
         {
-          "name": "Chill Touch",
+          "name": "Tocco Gelido",
           "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd",
           "transfer": false,
@@ -1540,7 +1540,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You cannot regain hit points until the start of the caster's next turn.</p>",
+          "description": "<p>Non puoi recuperare punti ferita fino all'inizio del prossimo turno dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1708,7 +1708,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1725,7 +1725,7 @@
       "img": "icons/magic/control/control-influence-crown-gold.webp",
       "effects": [
         {
-          "name": "Command",
+          "name": "Comando",
           "img": "icons/magic/control/control-influence-crown-gold.webp",
           "origin": "Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43",
           "transfer": false,
@@ -1741,7 +1741,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been commanded, and must follow the command on your next turn.</p>",
+          "description": "<p>Hai ricevuto un comando e devi eseguirlo nel tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1911,7 +1911,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2015,7 +2015,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "When you hit a creature under the effects of this spell with a weapon attack."
+              "condition": "Quando colpisci con un attacco con un'arma una creatura sotto l'effetto di questo incantesimo."
             },
             "consumption": {
               "targets": [],
@@ -2081,7 +2081,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Bonus Mark Damage",
+            "name": "Danni Bonus del Marchio",
             "img": "",
             "appliedEffects": [
               "maRUYUv77W8IGST3"
@@ -2095,7 +2095,7 @@
           },
           "B3ZCe8XzV7wJ2YiL": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "B3ZCe8XzV7wJ2YiL",
             "img": null,
             "sort": 0,
@@ -2161,7 +2161,7 @@
       "img": "icons/skills/targeting/target-strike-gray.webp",
       "effects": [
         {
-          "name": "Hunter's Mark",
+          "name": "Marchio del Cacciatore",
           "img": "icons/skills/targeting/target-strike-gray.webp",
           "origin": "Compendium.dnd5e.spells.Item.0xmXiPiuYws1OGcX",
           "transfer": false,
@@ -2177,7 +2177,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been mystically marked as the caster's quarry. Until the spell ends, they deal an extra 1d6 damage to you whenever they hit you with a weapon attack, and they have advantage on any Wisdom (Perception) or Wisdom (Survival) check they make to find you.</p>",
+          "description": "<p>Sei stato marchiato misticamente come preda dell'incantatore. Finché l'incantesimo non termina, l'incantatore ti infligge 1d6 danni extra ogni volta che ti colpisce con un attacco con un'arma e ha vantaggio alle prove di Saggezza (Percezione) o Saggezza (Sopravvivenza) effettuate per trovarti.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2344,7 +2344,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2361,7 +2361,7 @@
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
       "effects": [
         {
-          "name": "Protection from Poison",
+          "name": "Protezione dai Veleni",
           "origin": "Compendium.dnd5e.spells.Item.MAxM77CDUu8dgIRQ",
           "duration": {
             "value": 1,
@@ -2371,7 +2371,7 @@
           },
           "disabled": false,
           "_id": "dNSELIYDQMBopj0Z",
-          "description": "<p>You have advantage on saving throws against being &amp;reference[poisoned apply=false], and you have resistance to poison damage.</p>",
+          "description": "<p>Hai vantaggio ai tiri salvezza per non essere &amp;Reference[poisoned apply=false] e hai resistenza ai danni da veleno.</p>",
           "transfer": false,
           "statuses": [],
           "flags": {
@@ -2543,7 +2543,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {

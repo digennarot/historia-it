@@ -828,7 +828,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -984,7 +984,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1001,7 +1001,7 @@
       "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
       "effects": [
         {
-          "name": "Guidance",
+          "name": "Guida",
           "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
           "origin": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
           "transfer": false,
@@ -1017,7 +1017,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one ability check of your choice. You can roll the die before or after making the ability check. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1127,14 +1127,14 @@
         "activities": {
           "A0r24ncbAuYRHrRX": {
             "type": "save",
-            "name": "Avoid Light Save",
+            "name": "Tiro Salvezza per Evitare la Luce",
             "_id": "A0r24ncbAuYRHrRX",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When you target an object held or worn by a hostile creature."
+              "condition": "Quando bersagli un oggetto impugnato o indossato da una creatura ostile."
             },
             "consumption": {
               "scaling": {
@@ -1199,7 +1199,7 @@
           },
           "x3oDVP0hPkb9fAa1": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "x3oDVP0hPkb9fAa1",
             "img": "",
             "sort": 100000,
@@ -1398,7 +1398,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1760,7 +1760,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1777,7 +1777,7 @@
       "img": "icons/magic/control/control-influence-crown-gold.webp",
       "effects": [
         {
-          "name": "Command",
+          "name": "Comando",
           "img": "icons/magic/control/control-influence-crown-gold.webp",
           "origin": "Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43",
           "transfer": false,
@@ -1793,7 +1793,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been commanded, and must follow the command on your next turn.</p>",
+          "description": "<p>Hai ricevuto un comando e devi eseguirlo nel tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1985,7 +1985,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2002,7 +2002,7 @@
       "img": "icons/magic/control/control-influence-puppet.webp",
       "effects": [
         {
-          "name": "Geas",
+          "name": "Costrizione",
           "origin": "Compendium.dnd5e.spells.Item.JQyigMNPiDnGI18b",
           "duration": {
             "value": null,
@@ -2012,7 +2012,7 @@
           },
           "disabled": false,
           "_id": "zSoZHHi7BA6IAeoj",
-          "description": "<p>You are &amp;reference[Charmed apply=false] for the duration. While you are charmed by the caster, you takes psychic damage each time you act in a manner directly counter to their instructions, but no more than once each day. Should the caster issue a suicidal command, the spell ends.</p><p>The caster can end the spell early by using an action to dismiss it. A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse}, @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{greater restoration}, or @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{wish} spell also ends it.</p>",
+          "description": "<p>Sei &amp;Reference[Charmed apply=false] per la durata. Finché sei affascinato dall'incantatore, subisci danni psichici ogni volta che agisci in modo direttamente contrario alle sue istruzioni, ma non più di una volta al giorno. Se l'incantatore impartisce un comando suicida, l'incantesimo termina.</p><p>L'incantatore può porre fine all'incantesimo in anticipo usando un'azione per congedarlo. Anche gli incantesimi @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione}, @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{ristorare superiore} o @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{desiderio} vi pongono fine.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -2190,7 +2190,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2341,7 +2341,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -2363,7 +2363,7 @@
       "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
       "effects": [
         {
-          "name": "Hopeful",
+          "name": "Speranzoso",
           "origin": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt",
           "duration": {
             "value": 1,
@@ -2398,7 +2398,7 @@
               }
             ]
           },
-          "description": "<p>You have advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>",
+          "description": "<p>Hai vantaggio ai tiri salvezza su Saggezza e ai tiri salvezza contro la morte e recuperi il massimo dei punti ferita possibili da qualsiasi cura.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -2552,7 +2552,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2707,7 +2707,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2724,7 +2724,7 @@
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
       "effects": [
         {
-          "name": "Protection from Poison",
+          "name": "Protezione dai Veleni",
           "origin": "Compendium.dnd5e.spells.Item.MAxM77CDUu8dgIRQ",
           "duration": {
             "value": 1,
@@ -2734,7 +2734,7 @@
           },
           "disabled": false,
           "_id": "dNSELIYDQMBopj0Z",
-          "description": "<p>You have advantage on saving throws against being &amp;reference[poisoned apply=false], and you have resistance to poison damage.</p>",
+          "description": "<p>Hai vantaggio ai tiri salvezza per non essere &amp;Reference[poisoned apply=false] e hai resistenza ai danni da veleno.</p>",
           "transfer": false,
           "statuses": [],
           "flags": {
@@ -2906,7 +2906,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3054,7 +3054,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3202,7 +3202,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3218,7 +3218,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "When a creature designated by the spell enters the area for the first time on a turn or starts its turn there."
+              "condition": "Quando una creatura designata dall'incantesimo entra nell'area per la prima volta in un turno o vi inizia il proprio turno."
             },
             "consumption": {
               "targets": [],
@@ -3230,7 +3230,7 @@
             },
             "description": {
               "chatFlavor": "",
-              "value": "<p>When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.</p>"
+              "value": "<p>Quando una creatura che sarebbe influenzata entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, può effettuare un tiro salvezza su Carisma. Se lo supera, la creatura ignora l'effetto aggiuntivo finché non lascia l'area.</p>"
             },
             "duration": {
               "units": "inst",
@@ -3285,7 +3285,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Hallow Effect Save",
+            "name": "Tiro Salvezza contro l'Effetto di Santificare",
             "img": "",
             "visibility": {
               "level": {
@@ -3302,7 +3302,7 @@
       "img": "icons/environment/settlement/palast.webp",
       "effects": [
         {
-          "name": "Hallow Immunity",
+          "name": "Immunità a Santificare",
           "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
           "origin": "Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU",
           "transfer": false,
@@ -3319,7 +3319,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are immune to the effects the Hallow spell causes in this area until you leave it.</p>",
+          "description": "<p>Sei immune agli effetti che l'incantesimo Santificare provoca in quest'area finché non la lasci.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 2,
@@ -3435,7 +3435,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "When a creature enters the area for the first time on a turn or starts its turn there."
+              "condition": "Quando una creatura entra nell'area per la prima volta in un turno o vi inizia il proprio turno."
             },
             "consumption": {
               "targets": [],
@@ -3511,7 +3511,7 @@
               "max": ""
             },
             "sort": 200000,
-            "name": "Start of Turn / Enter Save",
+            "name": "Tiro Salvezza a Inizio Turno / all'Ingresso",
             "img": "",
             "visibility": {
               "level": {
@@ -3522,7 +3522,7 @@
           },
           "0vosgb6402pwvwVt": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "0vosgb6402pwvwVt",
             "img": null,
             "sort": 100000,
@@ -3740,7 +3740,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {

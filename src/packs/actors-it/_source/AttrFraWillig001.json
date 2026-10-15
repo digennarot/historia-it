@@ -813,7 +813,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -830,7 +830,7 @@
       "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
       "effects": [
         {
-          "name": "Guidance",
+          "name": "Guida",
           "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
           "origin": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
           "transfer": false,
@@ -846,7 +846,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one ability check of your choice. You can roll the die before or after making the ability check. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -956,14 +956,14 @@
         "activities": {
           "A0r24ncbAuYRHrRX": {
             "type": "save",
-            "name": "Avoid Light Save",
+            "name": "Tiro Salvezza per Evitare la Luce",
             "_id": "A0r24ncbAuYRHrRX",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When you target an object held or worn by a hostile creature."
+              "condition": "Quando bersagli un oggetto impugnato o indossato da una creatura ostile."
             },
             "consumption": {
               "scaling": {
@@ -1028,7 +1028,7 @@
           },
           "x3oDVP0hPkb9fAa1": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "x3oDVP0hPkb9fAa1",
             "img": "",
             "sort": 100000,
@@ -1252,7 +1252,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1349,7 +1349,7 @@
         "activities": {
           "vdlxZxKmIlZiZ2Ij": {
             "type": "summon",
-            "name": "Conjure Spiritual Weapon",
+            "name": "Evoca l'Arma Spirituale",
             "_id": "vdlxZxKmIlZiZ2Ij",
             "img": "",
             "sort": 0,
@@ -1443,7 +1443,7 @@
           },
           "edJeSEGfYmZKzrPa": {
             "type": "utility",
-            "name": "Move & Command Spiritual Weapon",
+            "name": "Muovi e Comanda l'Arma Spirituale",
             "_id": "edJeSEGfYmZKzrPa",
             "img": "",
             "sort": 100000,
@@ -1659,7 +1659,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1691,8 +1691,8 @@
           "origin": "Item.kZZAZ6kp9YzgPQEe",
           "tint": "#ffffff",
           "transfer": false,
-          "name": "Bless",
-          "description": "<p>Whenever you make an attack roll or a saving throw before the spell ends, you can roll 1d4 and add the number rolled to the attack roll or saving throw.</p>",
+          "name": "Benedizione",
+          "description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, puoi tirare 1d4 e aggiungere il risultato al tiro per colpire o al tiro salvezza.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -1895,7 +1895,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2046,7 +2046,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -2068,7 +2068,7 @@
       "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
       "effects": [
         {
-          "name": "Hopeful",
+          "name": "Speranzoso",
           "origin": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt",
           "duration": {
             "value": 1,
@@ -2103,7 +2103,7 @@
               }
             ]
           },
-          "description": "<p>You have advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>",
+          "description": "<p>Hai vantaggio ai tiri salvezza su Saggezza e ai tiri salvezza contro la morte e recuperi il massimo dei punti ferita possibili da qualsiasi cura.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -2256,7 +2256,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2406,7 +2406,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {

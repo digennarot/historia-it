@@ -978,7 +978,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -995,7 +995,7 @@
       "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
       "effects": [
         {
-          "name": "True Strike",
+          "name": "Colpo Accurato",
           "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG",
           "transfer": false,
@@ -1011,7 +1011,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The caster has advantage on the first attack roll they make against you.</p>",
+          "description": "<p>L'incantatore ha vantaggio al primo tiro per colpire che effettua contro di te.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1200,7 +1200,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1365,7 +1365,7 @@
               "properties": [],
               "type": "weapon"
             },
-            "name": "Imbue Weapon",
+            "name": "Infondi l'Arma",
             "img": "",
             "appliedEffects": [
               "QPsqj6jfS0iXSrTs"
@@ -1454,7 +1454,7 @@
             },
             "sort": 0,
             "_id": "ONVab5lmTqJwwMBC",
-            "name": "Spellcasting Attack",
+            "name": "Attacco con Incantesimo",
             "img": "",
             "appliedEffects": []
           }
@@ -1475,7 +1475,7 @@
       "effects": [
         {
           "type": "enchantment",
-          "name": "Shillelagh",
+          "name": "Randello Incantato",
           "img": "icons/commodities/wood/kindling-stick-brown.webp",
           "disabled": false,
           "_id": "QPsqj6jfS0iXSrTs",
@@ -1513,7 +1513,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using this weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.</p>",
+          "description": "<p>Per la durata, puoi usare la tua caratteristica da incantatore al posto della Forza per i tiri per colpire e per i danni degli attacchi in mischia con quest'arma, e il dado dei danni dell'arma diventa un d8. Inoltre l'arma diventa magica, se non lo era già. L'incantesimo termina se lo lanci di nuovo o se lasci andare l'arma.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": false,
@@ -1684,7 +1684,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1701,7 +1701,7 @@
       "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
       "effects": [
         {
-          "name": "Resistance",
+          "name": "Resistenza",
           "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
           "origin": "Compendium.dnd5e.spells.Item.dl8YwvMboBqX2OC4",
           "transfer": false,
@@ -1717,7 +1717,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one saving throw of your choice. You can roll the die before or after making the saving throw. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a un tiro salvezza a tua scelta. Puoi tirare il dado prima o dopo aver effettuato il tiro salvezza. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1885,7 +1885,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2071,7 +2071,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2088,7 +2088,7 @@
       "img": "icons/magic/lightning/projectile-orb-blue.webp",
       "effects": [
         {
-          "name": "Shocking Grasp",
+          "name": "Stretta Folgorante",
           "img": "icons/magic/lightning/projectile-orb-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy",
           "transfer": false,
@@ -2104,7 +2104,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You can't take reactions until the start of your next turn.</p>",
+          "description": "<p>Non puoi effettuare reazioni fino all'inizio del tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2270,7 +2270,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2302,8 +2302,8 @@
             }
           },
           "tint": "#ffffff",
-          "name": "Mage Armor",
-          "description": "<p>A protective magical force surrounds it until the spell ends.</p><p>Your base AC becomes 13 + your Dexterity modifier. The spell ends if you don armor or if the caster dismisses the spell as an action.</p>",
+          "name": "Armatura Magica",
+          "description": "<p>Una forza magica protettiva ti circonda finché l'incantesimo non termina.</p><p>La tua CA base diventa 13 + il tuo modificatore di Destrezza. L'incantesimo termina se indossi un'armatura o se l'incantatore lo congeda con un'azione.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -2428,7 +2428,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "When a creature under the effects of this spell starts their turn."
+              "condition": "Quando una creatura sotto l'effetto di questo incantesimo inizia il proprio turno."
             },
             "consumption": {
               "targets": [],
@@ -2486,7 +2486,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Grant Temporary Hit Points",
+            "name": "Concedi Punti Ferita Temporanei",
             "img": "",
             "visibility": {
               "level": {
@@ -2497,7 +2497,7 @@
           },
           "s8S50epEPffDG1NB": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "s8S50epEPffDG1NB",
             "img": null,
             "sort": 0,
@@ -2563,7 +2563,7 @@
       "img": "icons/sundries/flags/banner-sword-blue.webp",
       "effects": [
         {
-          "name": "Heroism",
+          "name": "Eroismo",
           "img": "icons/sundries/flags/banner-sword-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.ge3Saet9zPTDyaoL",
           "transfer": false,
@@ -2586,7 +2586,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been imbued with bravery. Until the spell ends, you are immune to being &amp;reference[Frightened apply=false] and gain Temporary Hit Points equal to the caster's Spellcasting ability modifier at the start of each of your turns. When the spell ends, you lose any remaining temporary hit points from this spell.</p>",
+          "description": "<p>Sei infuso di coraggio. Finché l'incantesimo non termina, sei immune alla condizione &amp;Reference[Frightened apply=false] e all'inizio di ogni tuo turno ottieni punti ferita temporanei pari al modificatore di caratteristica da incantatore dell'incantatore. Quando l'incantesimo termina, perdi tutti i punti ferita temporanei rimasti conferiti da questo incantesimo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2758,7 +2758,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2769,7 +2769,7 @@
           },
           "rh7ciGbrgpnnZ3B2": {
             "type": "check",
-            "name": "Escape Plants Check",
+            "name": "Prova per Liberarsi dalle Piante",
             "_id": "rh7ciGbrgpnnZ3B2",
             "img": "",
             "sort": 0,
@@ -2844,7 +2844,7 @@
       },
       "effects": [
         {
-          "name": "Entangle",
+          "name": "Intralciare",
           "origin": "Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe",
           "duration": {
             "value": 60,
@@ -2854,7 +2854,7 @@
           },
           "disabled": true,
           "_id": "fO14IutGR3Hrepun",
-          "description": "<p>You are &amp;reference[Restrained apply=false] by the entangling Plants until the spell ends. While restrained by the plants, you can use your action to make a [[/check str]] against the caster's spell save DC. On a success, you free yourself.</p>",
+          "description": "<p>Sei &amp;Reference[Restrained apply=false] dalle piante intrecciate finché l'incantesimo non termina. Finché sei trattenuto dalle piante, puoi usare la tua azione per effettuare una [[/check str]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se la superi, ti liberi.</p>",
           "transfer": false,
           "statuses": [
             "restrained"
@@ -3050,7 +3050,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3216,7 +3216,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3233,7 +3233,7 @@
       "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
       "effects": [
         {
-          "name": "False Life",
+          "name": "Vita Falsata",
           "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
           "origin": "Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6",
           "transfer": false,
@@ -3249,7 +3249,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You gain Temporary Hit Points for the duration of this spell.</p>",
+          "description": "<p>Ottieni punti ferita temporanei per la durata di questo incantesimo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -3421,7 +3421,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3438,7 +3438,7 @@
       "img": "icons/commodities/claws/claw-brown-black.webp",
       "effects": [
         {
-          "name": "Aquatic Adaptation",
+          "name": "Adattamento Acquatico",
           "img": "icons/magic/water/water-elemental-blue-teeth.webp",
           "origin": "Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx",
           "transfer": false,
@@ -3463,7 +3463,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your body has been adapted to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</p>",
+          "description": "<p>Il tuo corpo si è adattato all'ambiente acquatico: ti sono spuntate le branchie e hai le dita palmate. Puoi respirare sott'acqua e ottieni una velocità di nuotare pari alla tua velocità sul terreno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3490,7 +3490,7 @@
           "_key": "!items.effects!8RTDOt80u8aBv9qx.14Qp5HLSat31r3uM"
         },
         {
-          "name": "Changed Appearance",
+          "name": "Aspetto Cambiato",
           "img": "icons/creatures/slimes/slime-face-hollow-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx",
           "transfer": false,
@@ -3507,7 +3507,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have transformed your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change.</p><p>You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</p>",
+          "description": "<p>Hai trasformato il tuo aspetto. Decidi tu il tuo aspetto, compresi altezza, peso, lineamenti, timbro della voce, lunghezza dei capelli, colorito ed eventuali tratti distintivi. Puoi assumere l'aspetto di un membro di un'altra specie, ma nessuna delle tue statistiche cambia.</p><p>Non puoi assumere l'aspetto di una creatura di taglia diversa dalla tua e la tua forma di base resta la stessa: se sei bipede, ad esempio, non puoi usare questo incantesimo per diventare quadrupede. In qualsiasi momento per la durata dell'incantesimo, puoi usare la tua azione per cambiare di nuovo aspetto in questo modo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3534,7 +3534,7 @@
           "_key": "!items.effects!8RTDOt80u8aBv9qx.V6Y9a1LElOYZc4J7"
         },
         {
-          "name": "Natural Weapons",
+          "name": "Armi Naturali",
           "img": "icons/commodities/claws/claw-brown-black.webp",
           "origin": "Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx",
           "transfer": false,
@@ -3551,7 +3551,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have grown claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</p>",
+          "description": "<p>Ti sono cresciuti artigli, zanne, aculei, corna o un'altra arma naturale a tua scelta. I tuoi colpi senz'armi infliggono 1d6 danni contundenti, perforanti o taglienti, a seconda dell'arma naturale scelta, e hai competenza nei tuoi colpi senz'armi. Infine, l'arma naturale è magica e ottieni un bonus di +1 ai tiri per colpire e per i danni effettuati con essa.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3735,7 +3735,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3902,7 +3902,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3919,7 +3919,7 @@
       "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
       "effects": [
         {
-          "name": "Enlarged",
+          "name": "Ingrandito",
           "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
           "origin": "Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1",
           "transfer": false,
@@ -3965,7 +3965,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your size doubles in all dimensions, and your weight is multiplied by eight. This growth increases your size by one category—from Medium to Large, for example. If there isn't enough room for you to double its size, you attain the maximum possible size in the space available. Until the spell ends, you also have advantage on Strength Checks and Strength Saving Throws.</p><p>Your Weapons also grow to match your new size. While these Weapons are enlarged, your attacks with them deal 1d4 extra damage.</p>",
+          "description": "<p>Le tue dimensioni raddoppiano in ogni direzione e il tuo peso è moltiplicato per otto. Questa crescita aumenta la tua taglia di una categoria: ad esempio da Media a Grande. Se non c'è spazio sufficiente per raddoppiare le tue dimensioni, raggiungi la taglia massima possibile nello spazio disponibile. Finché l'incantesimo non termina, hai anche vantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi crescono per adattarsi alla tua nuova taglia. Finché sono ingrandite, i tuoi attacchi con esse infliggono 1d4 danni extra.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3992,7 +3992,7 @@
           "_key": "!items.effects!WahI41a3goVUg0x1.iVWIbqSzCYFAQzV6"
         },
         {
-          "name": "Reduced",
+          "name": "Ridotto",
           "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1",
           "transfer": false,
@@ -4038,7 +4038,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your size is halved in all dimensions, and your weight is reduced to one-eighth of normal. This reduction decreases your size by one category—from Medium to Small, for example. Until the spell ends, you also has disadvantage on Strength Checks and Strength Saving Throws.</p><p>Your Weapons also shrink to match your new size. While these Weapons are reduced, your attacks with them deal 1d4 less damage (this can't reduce the damage below 1).</p>",
+          "description": "<p>Le tue dimensioni si dimezzano in ogni direzione e il tuo peso si riduce a un ottavo del normale. Questa riduzione diminuisce la tua taglia di una categoria: ad esempio da Media a Piccola. Finché l'incantesimo non termina, hai anche svantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi si rimpiccioliscono per adattarsi alla tua nuova taglia. Finché sono ridotte, i tuoi attacchi con esse infliggono 1d4 danni in meno (i danni non possono scendere sotto 1).</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4206,7 +4206,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -4243,8 +4243,8 @@
           "origin": "Item.VQMKMnQDw5rzL0zp",
           "tint": "#ffffff",
           "transfer": false,
-          "name": "Barkskin",
-          "description": "<p>Until the spell ends, your skin has a rough, bark-like appearance, and your AC can't be less than 16, regardless of what kind of armor you are wearing.</p>",
+          "name": "Pelle Coriacea",
+          "description": "<p>Finché l'incantesimo non termina, la tua pelle assume un aspetto ruvido simile alla corteccia e la tua CA non può essere inferiore a 16, indipendentemente dal tipo di armatura che indossi.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -4363,7 +4363,7 @@
         "activities": {
           "aUsAItFCOoEIQd7I": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "aUsAItFCOoEIQd7I",
             "img": null,
             "sort": -100000,
@@ -4426,14 +4426,14 @@
           },
           "at17qOrWdjr80zy0": {
             "type": "damage",
-            "name": "Partial Stone Destruction Damage",
+            "name": "Danni da Distruzione Parziale della Pietra",
             "_id": "at17qOrWdjr80zy0",
             "img": "",
             "sort": 100000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the stone are melded in is partially destroyed while you are melded into it."
+              "condition": "Quando la pietra in cui sei fuso viene distrutta in parte."
             },
             "consumption": {
               "scaling": {
@@ -4513,13 +4513,13 @@
           },
           "2NOxC43FZiwhej6W": {
             "type": "damage",
-            "name": "Complete Stone Destruction Damage",
+            "name": "Danni da Distruzione Completa della Pietra",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the stone are melded in is completely destroyed while you are melded into it."
+              "condition": "Quando la pietra in cui sei fuso viene distrutta completamente."
             },
             "consumption": {
               "scaling": {
@@ -4606,7 +4606,7 @@
       "img": "icons/magic/earth/projectile-stone-landslide.webp",
       "effects": [
         {
-          "name": "Melded into Stone",
+          "name": "Fuso nella Pietra",
           "img": "icons/magic/earth/projectile-stone-landslide.webp",
           "origin": "Compendium.dnd5e.spells.Item.64uo4fHriHLjRUrX",
           "transfer": false,
@@ -4623,7 +4623,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have stepped into a stone object or surface large enough to fully contain your body, melding yourself and all the Equipment you carry with the stone for the Duration. Nothing of your presence remains visible or otherwise detectable by nonmagical Senses.</p><p>While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast Spells on yourself while merged in the stone. You can use your Movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.</p><p>Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or Transmutation into a different substance) expels you and deals [[/damage 50 bludgeoning]] damage to you. If expelled, you fall &amp;reference[prone] in an unoccupied space closest to where you first entered.</p>",
+          "description": "<p>Sei entrato in un oggetto o in una superficie di pietra abbastanza grande da contenere completamente il tuo corpo, fondendoti con la pietra insieme a tutto l'equipaggiamento che trasporti per la durata. Nulla della tua presenza rimane visibile o individuabile con sensi non magici.</p><p>Mentre sei fuso con la pietra, non puoi vedere cosa accade all'esterno e le prove di Saggezza (Percezione) che effettui per sentire i suoni all'esterno subiscono svantaggio. Rimani consapevole del passare del tempo e puoi lanciare incantesimi su te stesso mentre sei fuso nella pietra. Puoi usare il tuo movimento per uscire dalla pietra dal punto in cui sei entrato, ponendo fine all'incantesimo. Altrimenti, non puoi muoverti.</p><p>I danni fisici minori alla pietra non ti feriscono, ma la sua distruzione parziale o un cambiamento della sua forma (al punto che non puoi più starci dentro) ti espelle e ti infligge 6d6 danni contundenti. La distruzione completa della pietra (o la sua trasmutazione in una sostanza diversa) ti espelle e ti infligge [[/damage 50 bludgeoning]] danni. Se vieni espulso, cadi &amp;Reference[prone] nello spazio libero più vicino al punto in cui eri entrato.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4728,7 +4728,7 @@
         "activities": {
           "ZLkktrcLmi0naPRC": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "ZLkktrcLmi0naPRC",
             "img": null,
             "sort": 100000,
@@ -4786,14 +4786,14 @@
           },
           "Kn7He91921d5pTio": {
             "type": "save",
-            "name": "Explosive Rune Save",
+            "name": "Tiro Salvezza contro la Runa Esplosiva",
             "_id": "Kn7He91921d5pTio",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the Glyph of Warding is triggered."
+              "condition": "Quando il Glifo di Interdizione si attiva."
             },
             "consumption": {
               "scaling": {
@@ -4803,7 +4803,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one.</p>",
+              "value": "<p>Quando si attiva, il glifo erutta energia magica in una sfera di 6 metri di raggio centrata sul glifo. La sfera si propaga oltre gli angoli. Ogni creatura nell'area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 5d8 danni da acido, freddo, fuoco, fulmine o tuono (a tua scelta quando crei il glifo), mentre se lo supera subisce la metà dei danni.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -4890,14 +4890,14 @@
           },
           "x7zjmSoY9DWaiMhP": {
             "type": "utility",
-            "name": "Activated Spell Glyph",
+            "name": "Glifo dell'Incantesimo Attivato",
             "_id": "x7zjmSoY9DWaiMhP",
             "img": "",
             "sort": 300000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When the Glyph of Warding is triggered."
+              "condition": "Quando il Glifo di Interdizione si attiva."
             },
             "consumption": {
               "scaling": {
@@ -4907,7 +4907,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.</p>",
+              "value": "<p>Quando il glifo si attiva, l'incantesimo immagazzinato viene lanciato. Se l'incantesimo ha un bersaglio, bersaglia la creatura che ha attivato il glifo. Se l'incantesimo influenza un'area, l'area è centrata su quella creatura. Se l'incantesimo evoca creature ostili o crea oggetti o trappole dannose, questi compaiono il più vicino possibile all'intruso e lo attaccano. Se l'incantesimo richiede concentrazione, dura fino al termine della sua durata completa.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5178,7 +5178,7 @@
       "img": "icons/skills/movement/arrow-down-pink.webp",
       "effects": [
         {
-          "name": "Slowed",
+          "name": "Rallentato",
           "origin": "Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz",
           "duration": {
             "value": 60,
@@ -5188,7 +5188,7 @@
           },
           "disabled": true,
           "_id": "YtN8kTDQyxFaxpEx",
-          "description": "<p>Your speed is halved, take a -2 penalty to AC and Dexterity saving throws, and you can't use reactions. On your turn, you can use either an action or a bonus action, not both. Regardless of your abilities or magic items, you can't make more than one melee or ranged attack during your turn.</p>",
+          "description": "<p>La tua velocità è dimezzata, subisci penalità di -2 alla CA e ai tiri salvezza su Destrezza e non puoi usare reazioni. Nel tuo turno puoi usare un'azione o un'azione bonus, non entrambe. Indipendentemente dalle tue capacità o dagli oggetti magici, non puoi effettuare più di un attacco in mischia o a distanza durante il tuo turno.</p>",
           "transfer": false,
           "statuses": [],
           "flags": {
@@ -5414,7 +5414,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -5431,7 +5431,7 @@
       "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
       "effects": [
         {
-          "name": "Hastened",
+          "name": "Velocizzato",
           "origin": "Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5",
           "duration": {
             "value": 1,
@@ -5441,7 +5441,7 @@
           },
           "disabled": false,
           "_id": "DEPrzDiNHOqKj4Hj",
-          "description": "<p>Until the spell ends, your speed is doubled, you gain a +2 bonus to AC, have advantage on Dexterity Saving Throws, and gain an additional action on each of your turns. This action can be used only to take the &amp;reference[Attack] (one weapon attack only), &amp;reference[Dash], &amp;reference[Disengage], &amp;reference[Hide], or &amp;reference[Use an Object] action.</p>",
+          "description": "<p>Finché l'incantesimo non termina, la tua velocità raddoppia, ottieni bonus di +2 alla CA, hai vantaggio ai tiri salvezza su Destrezza e ottieni un'azione aggiuntiva in ciascun tuo turno. Questa azione può essere usata solo per l'azione di &amp;Reference[Attack] (un solo attacco con un'arma), &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Hide] o &amp;Reference[Use an Object].</p>",
           "transfer": false,
           "statuses": [],
           "flags": {
@@ -5674,7 +5674,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -5691,7 +5691,7 @@
       "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
       "effects": [
         {
-          "name": "Banished",
+          "name": "Esiliato",
           "origin": "Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf",
           "duration": {
             "value": 1,
@@ -5701,7 +5701,7 @@
           },
           "disabled": true,
           "_id": "bckYDthT7sAOQBNO",
-          "description": "<p>The target native to this plane is banished to a harmless demiplane plane and is Incapacitated for the duration.</p><p>You have been banished to a harmless demiplane. While there, you are &amp;reference[incapacitated apply=fasle]. You remain there until the spell ends, at which point you repappear in the space you left or in the nearest unoccupied space if that space is occupied.</p>",
+          "description": "<p>Sei stato esiliato in un semipiano innocuo. Finché ti trovi lì, sei &amp;Reference[incapacitated apply=false]. Rimani lì finché l'incantesimo non termina; a quel punto ricompari nello spazio che avevi lasciato o, se è occupato, nello spazio libero più vicino.</p>",
           "transfer": false,
           "statuses": [
             "incapacitated"
@@ -5881,7 +5881,7 @@
       "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
       "effects": [
         {
-          "name": "Greater Invisibility",
+          "name": "Invisibilità Superiore",
           "origin": "Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ",
           "duration": {
             "value": 1,
@@ -5891,7 +5891,7 @@
           },
           "disabled": true,
           "_id": "lhYVl4DD9jyS5gcn",
-          "description": "<p>You become &amp;reference[Invisible apply=false] until the spell ends. Anything you are wearing or carrying is invisible as long as it is on your person.</p>",
+          "description": "<p>Diventi &amp;Reference[Invisible apply=false] finché l'incantesimo non termina. Tutto ciò che indossi o trasporti è invisibile finché resta sulla tua persona.</p>",
           "transfer": false,
           "statuses": [
             "invisible"
@@ -6068,7 +6068,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6103,8 +6103,8 @@
               }
             }
           },
-          "name": "Stoneskin",
-          "description": "<p>Until the spell ends, you have resistance to nonmagical bludgeoning, piercing, and slashing damage.</p>",
+          "name": "Pelle di Pietra",
+          "description": "<p>Finché l'incantesimo non termina, hai resistenza ai danni contundenti, perforanti e taglienti non magici.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -6286,7 +6286,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6444,7 +6444,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Conjure Wall of Stone (10 ft. x 10 ft. Panels)",
+            "name": "Evoca Muro di Pietra (Pannelli da 3 x 3 m)",
             "img": "",
             "visibility": {
               "level": {
@@ -6521,7 +6521,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Conjure Wall of Stone (10 ft. x 20 ft. Panels)",
+            "name": "Evoca Muro di Pietra (Pannelli da 3 x 6 m)",
             "img": "",
             "flags": {},
             "visibility": {
@@ -7070,7 +7070,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -7186,7 +7186,7 @@
             },
             "description": {
               "chatFlavor": "",
-              "value": "<p>You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage.</p><p>If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.</p>"
+              "value": "<p>Puoi far apparire il messaggero mostruoso e terrificante agli occhi del bersaglio. In tal caso, il messaggero può consegnare un messaggio di non più di dieci parole e poi il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, gli echi della mostruosità illusoria generano un incubo che dura per tutto il sonno del bersaglio e gli impedisce di ottenere qualsiasi beneficio da quel riposo. Inoltre, al risveglio il bersaglio subisce 3d6 danni psichici.</p><p>Se possiedi una parte del corpo, una ciocca di capelli, un frammento di unghia o una porzione simile del corpo del bersaglio, il bersaglio effettua il tiro salvezza con svantaggio.</p>"
             },
             "duration": {
               "units": "inst",
@@ -7250,7 +7250,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Nightmare Save",
+            "name": "Tiro Salvezza contro l'Incubo",
             "img": "",
             "visibility": {
               "level": {
@@ -7261,7 +7261,7 @@
           },
           "WuuR0BgbhJSE7W66": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "WuuR0BgbhJSE7W66",
             "img": null,
             "sort": -100000,
@@ -7491,7 +7491,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -7502,14 +7502,14 @@
           },
           "MCAsmHQ4ZyHKOcIG": {
             "type": "summon",
-            "name": "Raise Zombie",
+            "name": "Rianima Zombi",
             "_id": "MCAsmHQ4ZyHKOcIG",
             "img": "",
             "sort": 100000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When a humanoid is killed by this spell."
+              "condition": "Quando un umanoide viene ucciso da questo incantesimo."
             },
             "consumption": {
               "scaling": {
@@ -7526,7 +7526,7 @@
               ]
             },
             "description": {
-              "value": "<p>A humanoid killed by this spell rises at the start of your next turn as a @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{Zombie} that is permanently under your command, following your verbal orders to the best of its ability.</p>",
+              "value": "<p>Un umanoide ucciso da questo incantesimo si rialza all'inizio del tuo turno successivo come @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{Zombi} permanentemente al tuo comando, e segue i tuoi ordini verbali al meglio delle sue capacità.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -7623,7 +7623,7 @@
       "img": "icons/magic/unholy/energy-smoke-pink.webp",
       "effects": [
         {
-          "name": "Permanently Controlled",
+          "name": "Controllato Permanentemente",
           "img": "icons/magic/death/skeleton-snake-skull-pink.webp",
           "origin": "Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg",
           "transfer": false,
@@ -7640,7 +7640,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have been animated by the @UUID[Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg]{Finger of Death} spell, and are permanently under the control of the caster.</p>",
+          "description": "<p>Sei stato animato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg]{Dito della Morte} e sei permanentemente sotto il controllo dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -7846,7 +7846,7 @@
           },
           "Ur3gZKsYU9z2dF3f": {
             "type": "utility",
-            "name": "Command Creature",
+            "name": "Comanda la Creatura",
             "img": "",
             "sort": 100000,
             "activation": {
@@ -7924,7 +7924,7 @@
           },
           "gTWT6EVmsdlCKci4": {
             "type": "utility",
-            "name": "Assume Direct Control",
+            "name": "Assumi il Controllo Diretto",
             "img": "",
             "sort": 200000,
             "activation": {
@@ -7946,7 +7946,7 @@
               ]
             },
             "description": {
-              "value": "<p>You take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p>",
+              "value": "<p>Assumi il controllo totale e preciso del bersaglio. Fino alla fine del tuo prossimo turno, la creatura compie solo le azioni che scegli tu e non fa nulla che tu non le permetta. In questo periodo puoi anche far usare una reazione alla creatura, ma per farlo devi usare anche la tua reazione.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -8008,7 +8008,7 @@
       "img": "icons/creatures/magical/spirit-undead-ghost-tan-teal.webp",
       "effects": [
         {
-          "name": "Dominate Monster: 8th Level",
+          "name": "Dominare Mostri: 8° Livello",
           "origin": "Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp",
           "duration": {
             "value": 1,
@@ -8018,7 +8018,7 @@
           },
           "disabled": true,
           "_id": "fBMLyF7ftAaWmv1s",
-          "description": "<p>You are &amp;reference[charmed apply=false] and the caster has a telepathic link with you as long as the two of you are on the same plane of existence. They can use this telepathic link to issue commands to you, which you must do your best to obey. If you complete your order and don't recieve further direction from the caster, you defend and preserve yourself to the best of your ability.</p><p>Each time you take damage, you make a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+          "description": "<p>Sei &amp;Reference[charmed apply=false] e l'incantatore ha un legame telepatico con te finché vi trovate sullo stesso piano di esistenza. Può usare questo legame per impartirti comandi, a cui devi fare del tuo meglio per obbedire. Se completi un ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e ti proteggi al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -8054,7 +8054,7 @@
           "_key": "!items.effects!eEpy1ONlXumKS1mp.fBMLyF7ftAaWmv1s"
         },
         {
-          "name": "Dominate Monster: 9th Level",
+          "name": "Dominare Mostri: 9° Livello",
           "origin": "Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp",
           "duration": {
             "value": 8,
@@ -8063,7 +8063,7 @@
             "expired": false
           },
           "disabled": true,
-          "description": "<p>You are &amp;reference[charmed apply=false] and the caster has a telepathic link with you as long as the two of you are on the same plane of existence. They can use this telepathic link to issue commands to you, which you must do your best to obey. If you complete your order and don't recieve further direction from the caster, you defend and preserve yourself to the best of your ability.</p><p>Each time you take damage, you make a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+          "description": "<p>Sei &amp;Reference[charmed apply=false] e l'incantatore ha un legame telepatico con te finché vi trovate sullo stesso piano di esistenza. Può usare questo legame per impartirti comandi, a cui devi fare del tuo meglio per obbedire. Se completi un ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e ti proteggi al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -8272,7 +8272,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Conjure Wall of Thorns",
+            "name": "Evoca Muro di Spine",
             "img": "",
             "visibility": {
               "level": {
@@ -8376,7 +8376,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Conjure Circular Wall of Thorns",
+            "name": "Evoca Muro di Spine Circolare",
             "img": "",
             "flags": {},
             "visibility": {
@@ -8392,14 +8392,14 @@
           },
           "8YDZAxCbAqr4etpJ": {
             "type": "save",
-            "name": "Wall Contact Damage",
+            "name": "Danni da Contatto con il Muro",
             "_id": "8YDZAxCbAqr4etpJ",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When a creature moves through the wall on a turn or ends its turn there."
+              "condition": "Quando una creatura attraversa il muro in un turno o vi termina il proprio turno."
             },
             "consumption": {
               "scaling": {
@@ -8416,7 +8416,7 @@
               ]
             },
             "description": {
-              "value": "<p>The first time a creature enters the wall on a turn or ends its turn there, the creature must make a Dexterity saving throw. It takes 7d8 slashing damage on a failed save, or half as much damage on a successful one.</p>",
+              "value": "<p>La prima volta che una creatura entra nel muro in un turno o vi termina il proprio turno, deve effettuare un tiro salvezza su Destrezza. Subisce 7d8 danni taglienti se lo fallisce, o la metà dei danni se lo supera.</p>",
               "chatFlavor": ""
             },
             "duration": {

@@ -891,7 +891,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -908,7 +908,7 @@
       "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
       "effects": [
         {
-          "name": "Vicious Mockery",
+          "name": "Beffa Crudele",
           "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.cdrYKaFi98YWaBMw",
           "transfer": false,
@@ -924,7 +924,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have disadvantage on the next attack roll you make before the end of your next turn.</p>",
+          "description": "<p>Hai svantaggio al prossimo tiro per colpire che effettui prima della fine del tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1092,7 +1092,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1109,7 +1109,7 @@
       "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
       "effects": [
         {
-          "name": "True Strike",
+          "name": "Colpo Accurato",
           "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG",
           "transfer": false,
@@ -1125,7 +1125,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The caster has advantage on the first attack roll they make against you.</p>",
+          "description": "<p>L'incantatore ha vantaggio al primo tiro per colpire che effettua contro di te.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1314,7 +1314,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1501,7 +1501,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1518,7 +1518,7 @@
       "img": "icons/magic/water/projectile-icecicle-glowing.webp",
       "effects": [
         {
-          "name": "Chilled",
+          "name": "Congelato",
           "img": "icons/magic/water/projectile-icecicle-glowing.webp",
           "origin": "Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5",
           "transfer": false,
@@ -1541,7 +1541,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Your speed is reduced by 10 feet until the start of the caster's next turn.</p>",
+          "description": "<p>La tua velocità è ridotta di 3 metri fino all'inizio del prossimo turno dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1740,7 +1740,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1757,7 +1757,7 @@
       "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
       "effects": [
         {
-          "name": "Chill Touch",
+          "name": "Tocco Gelido",
           "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.vrN18tbTw7io5MWd",
           "transfer": false,
@@ -1773,7 +1773,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You cannot regain hit points until the start of the caster's next turn.</p>",
+          "description": "<p>Non puoi recuperare punti ferita fino all'inizio del prossimo turno dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1931,7 +1931,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1942,14 +1942,14 @@
           },
           "rCQqPBOppeksLx7t": {
             "type": "transform",
-            "name": "Change Appearance",
+            "name": "Cambia Aspetto",
             "_id": "rCQqPBOppeksLx7t",
             "img": "",
             "sort": 0,
             "activation": {
               "type": "",
               "override": true,
-              "condition": "When you cast this spell."
+              "condition": "Quando lanci questo incantesimo."
             },
             "consumption": {
               "scaling": {
@@ -2022,7 +2022,7 @@
           },
           "Hoxd25EbU2m3KI6U": {
             "type": "check",
-            "name": "Investigate Disguise Check",
+            "name": "Prova per Smascherare il Travestimento",
             "img": "",
             "sort": 0,
             "activation": {
@@ -2247,7 +2247,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2264,7 +2264,7 @@
       "img": "icons/magic/life/heart-shadow-red.webp",
       "effects": [
         {
-          "name": "Charm Person",
+          "name": "Charme su Persone",
           "origin": "Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs",
           "duration": {
             "value": 3600,
@@ -2274,7 +2274,7 @@
           },
           "disabled": true,
           "_id": "1QhUB3231btaCO0b",
-          "description": "<p>You are &amp;reference[Charmed apply=false] by the caster until the spell ends. You regard the caster as a friendly acquaintance. When the spell ends, you know you were charmed.</p>",
+          "description": "<p>Sei &amp;Reference[Charmed apply=false] dall'incantatore finché l'incantesimo non termina. Consideri l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, sai di essere stato affascinato.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -2450,7 +2450,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2467,7 +2467,7 @@
       "img": "icons/magic/control/control-influence-crown-gold.webp",
       "effects": [
         {
-          "name": "Command",
+          "name": "Comando",
           "img": "icons/magic/control/control-influence-crown-gold.webp",
           "origin": "Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43",
           "transfer": false,
@@ -2483,7 +2483,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been commanded, and must follow the command on your next turn.</p>",
+          "description": "<p>Hai ricevuto un comando e devi eseguirlo nel tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -2671,7 +2671,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Summon Servant",
+            "name": "Evoca il Servitore",
             "img": "",
             "visibility": {
               "level": {
@@ -2683,7 +2683,7 @@
           },
           "SlwRW3UBZCWl4WB4": {
             "type": "utility",
-            "name": "Command Servant",
+            "name": "Comanda il Servitore",
             "_id": "SlwRW3UBZCWl4WB4",
             "img": "",
             "sort": 0,
@@ -2903,7 +2903,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2920,7 +2920,7 @@
       "img": "icons/magic/control/fear-fright-white.webp",
       "effects": [
         {
-          "name": "Suppressed Emotions",
+          "name": "Emozioni Soppresse",
           "img": "icons/magic/control/fear-fright-white.webp",
           "origin": "Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj",
           "transfer": false,
@@ -2952,7 +2952,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Any effects causing you to be &amp;reference[charmed apply=false] or &amp;reference[frightened apply=false] are suppressed. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.</p>",
+          "description": "<p>Tutti gli effetti che ti rendono &amp;Reference[charmed apply=false] o &amp;Reference[frightened apply=false] sono soppressi. Quando l'incantesimo termina, ogni effetto soppresso riprende, purché nel frattempo la sua durata non sia scaduta.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -2979,7 +2979,7 @@
           "_key": "!items.effects!3MYDjS6k9IYL0aTj.QgkZ0wXeQ7CsDhJJ"
         },
         {
-          "name": "Indifferent",
+          "name": "Indifferente",
           "img": "icons/magic/control/silhouette-aura-energy.webp",
           "origin": "Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj",
           "transfer": false,
@@ -2996,7 +2996,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been made indifferent about creatures of the caster's choice that you were hostile toward. This indifference ends if you are attacked or harmed by a spell or if you witnesse any of your friends being harmed. When the spell ends, you become hostile again, unless the DM rules otherwise.</p>",
+          "description": "<p>Sei diventato indifferente nei confronti delle creature scelte dall'incantatore verso cui eri ostile. Questa indifferenza termina se vieni attaccato o danneggiato da un incantesimo o se assisti a un danno subito da uno dei tuoi amici. Quando l'incantesimo termina, torni a essere ostile, a meno che il GM non stabilisca diversamente.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3164,7 +3164,7 @@
               "max": ""
             },
             "sort": 200000,
-            "name": "Probe Deeper",
+            "name": "Sonda più a Fondo",
             "img": "",
             "visibility": {
               "level": {
@@ -3175,7 +3175,7 @@
           },
           "4fEAJ03h9fqnI9qO": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "4fEAJ03h9fqnI9qO",
             "img": null,
             "sort": 100000,
@@ -3238,7 +3238,7 @@
           },
           "ceF5r9EVkL64Cq0m": {
             "type": "utility",
-            "name": "Detect Presence",
+            "name": "Individua Presenza",
             "_id": "ceF5r9EVkL64Cq0m",
             "img": "systems/dnd5e/icons/svg/damage/psychic.svg",
             "sort": 300000,
@@ -3315,7 +3315,7 @@
       "img": "icons/magic/perception/third-eye-blue-red.webp",
       "effects": [
         {
-          "name": "Cast",
+          "name": "Individuazione dei Pensieri",
           "img": "icons/magic/perception/third-eye-blue-red.webp",
           "origin": "Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er",
           "transfer": false,
@@ -3332,7 +3332,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
+          "description": "<p>Per la durata, puoi leggere i pensieri di determinate creature. Quando lanci l'incantesimo e come azione in ogni turno finché l'incantesimo non termina, puoi concentrare la mente su una creatura che puoi vedere entro 9 metri da te. Se la creatura scelta ha Intelligenza pari o inferiore a 3 o non parla alcuna lingua, non è influenzata.</p><p>Inizialmente apprendi i pensieri superficiali della creatura: ciò che occupa maggiormente la sua mente in quel momento. Come azione, puoi spostare la tua attenzione sui pensieri di un'altra creatura o tentare di sondare più a fondo la mente della stessa creatura. Se sondi più a fondo, il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, comprendi i suoi ragionamenti (se ne ha), il suo stato emotivo e qualcosa che occupa un posto importante nella sua mente (ad esempio qualcosa che lo preoccupa, che ama o che odia). Se lo supera, l'incantesimo termina. In entrambi i casi il bersaglio sa che stai sondando la sua mente e, a meno che tu non sposti la tua attenzione sui pensieri di un'altra creatura, può usare la sua azione nel proprio turno per effettuare una prova di Intelligenza contrapposta alla tua prova di Intelligenza; se la vince, l'incantesimo termina.</p><p>Le domande rivolte a voce alla creatura bersaglio orientano naturalmente il corso dei suoi pensieri, quindi questo incantesimo è particolarmente efficace durante un interrogatorio.</p><p>Puoi usare questo incantesimo anche per individuare la presenza di creature pensanti che non puoi vedere. Quando lanci l'incantesimo o come azione per la durata, puoi cercare pensieri entro 9 metri da te. L'incantesimo può attraversare le barriere, ma è bloccato da 60 centimetri di roccia, 5 centimetri di qualsiasi metallo tranne il piombo o da una sottile lamina di piombo. Non puoi individuare una creatura con Intelligenza pari o inferiore a 3 o che non parla alcuna lingua.</p><p>Una volta individuata in questo modo la presenza di una creatura, puoi leggerne i pensieri per il resto della durata come descritto sopra, anche se non puoi vederla, ma deve comunque trovarsi entro la gittata.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -3504,7 +3504,7 @@
       "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
       "effects": [
         {
-          "name": "Invisibility",
+          "name": "Invisibilità",
           "origin": "Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B",
           "duration": {
             "value": 1,
@@ -3514,7 +3514,7 @@
           },
           "disabled": true,
           "_id": "TeFxBRKYKIXtg6pS",
-          "description": "<p>You become &amp;reference[Invisible apply=false] until the spell ends. Anything you are wearing or carrying is invisible as long as it is on your person. The spell ends for you when you attack or cast a spell.</p>",
+          "description": "<p>Diventi &amp;Reference[Invisible apply=false] finché l'incantesimo non termina. Tutto ciò che indossi o trasporti è invisibile finché resta sulla tua persona. L'incantesimo termina per te quando attacchi o lanci un incantesimo.</p>",
           "transfer": false,
           "statuses": [
             "invisible"
@@ -3684,7 +3684,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3695,7 +3695,7 @@
           },
           "wTFlqIa1q030bdJe": {
             "type": "enchant",
-            "name": "Cast (Conjure Darkness on Object)",
+            "name": "Lancio (Oscurità su un Oggetto)",
             "_id": "wTFlqIa1q030bdJe",
             "img": "",
             "sort": 100000,
@@ -3797,7 +3797,7 @@
       "effects": [
         {
           "type": "enchantment",
-          "name": "Darkness",
+          "name": "Oscurità",
           "img": "icons/magic/unholy/orb-rays-blue.webp",
           "disabled": true,
           "_id": "Tm6GfEu4JKv0pU8U",
@@ -3819,7 +3819,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>This item is spreading magical &amp;reference[darkness] to fill a 15-foot-radius sphere for the duration of the spell. The darkness spreads around corners and moves with the object. Completely covering this object with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p>",
+          "description": "<p>Questo oggetto diffonde &amp;Reference[darkness] magica che riempie una sfera di 4,5 metri di raggio per la durata dell'incantesimo. L'oscurità si propaga oltre gli angoli e si muove con l'oggetto. Coprire completamente l'oggetto con un oggetto opaco, come una ciotola o un elmo, blocca l'oscurità.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che ha creato la luce viene dissolto.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -3848,7 +3848,7 @@
           "_key": "!items.effects!S7VbUetIfVT7B6Eq.Tm6GfEu4JKv0pU8U"
         },
         {
-          "name": "Wielding Darkness Covered Object",
+          "name": "Oggetto Avvolto nell'Oscurità",
           "img": "icons/magic/unholy/orb-rays-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq",
           "type": "base",
@@ -3879,7 +3879,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The object you are carrying has the @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness} spell cast upon it.</p>",
+          "description": "<p>Sull'oggetto che trasporti è stato lanciato l'incantesimo @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Oscurità}.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -4048,7 +4048,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -4070,7 +4070,7 @@
       "img": "icons/magic/water/waves-water-blue.webp",
       "effects": [
         {
-          "name": "Water Walking",
+          "name": "Camminare sull'Acqua",
           "img": "icons/magic/water/waves-water-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS",
           "transfer": false,
@@ -4087,7 +4087,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>This spell grants you the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (crossing molten lava can still damage you from the heat).</p><p>If you are submerged in a liquid, the spell carries you to the surface of the liquid at a rate of 60 feet per round.</p>",
+          "description": "<p>Questo incantesimo ti conferisce la capacità di muoverti su qualsiasi superficie liquida, come acqua, acido, fango, neve, sabbie mobili o lava, come se fosse terreno solido e innocuo (attraversare la lava fusa può comunque infliggerti danni a causa del calore).</p><p>Se sei immerso in un liquido, l'incantesimo ti porta in superficie a una velocità di 18 metri per round.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4262,7 +4262,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -4279,7 +4279,7 @@
       "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
       "effects": [
         {
-          "name": "Fear",
+          "name": "Paura",
           "origin": "Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0",
           "duration": {
             "value": 1,
@@ -4289,7 +4289,7 @@
           },
           "disabled": true,
           "_id": "4QpReACTSQTg2KTw",
-          "description": "<p>You drop whatever you are holding and become &amp;reference[Frightened apply=false] for the duration. While Frightened by this spell, you must take the &amp;reference[Dash] action and move away from the caster by the safest available route on each of your turns, unless there is nowhere to move.</p>",
+          "description": "<p>Lasci cadere qualsiasi cosa tu stia impugnando e diventi &amp;Reference[Frightened apply=false] per la durata. Finché sei spaventato da questo incantesimo, in ciascuno dei tuoi turni devi effettuare l'azione di &amp;Reference[Dash] e allontanarti dall'incantatore per la via più sicura disponibile, a meno che non ci sia nessun posto dove spostarti.</p>",
           "transfer": false,
           "statuses": [
             "frightened"
@@ -4492,7 +4492,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -4514,7 +4514,7 @@
       "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple-orange.webp",
       "effects": [
         {
-          "name": "Protection from Acid",
+          "name": "Protezione dall'Acido",
           "img": "icons/magic/acid/projectile-faceted-glob.webp",
           "origin": "Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I",
           "transfer": false,
@@ -4539,7 +4539,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you have resistance to acid damage.</p>",
+          "description": "<p>Per la durata, hai resistenza ai danni da acido.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4566,7 +4566,7 @@
           "_key": "!items.effects!j8NtLXOOJ3GAKF8I.e0Ibmfgv8aTzvxiE"
         },
         {
-          "name": "Protection from Cold",
+          "name": "Protezione dal Freddo",
           "img": "icons/magic/water/snowflake-ice-blue-white.webp",
           "origin": "Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I",
           "transfer": false,
@@ -4590,7 +4590,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you have resistance to cold damage.</p>",
+          "description": "<p>Per la durata, hai resistenza ai danni da freddo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4618,7 +4618,7 @@
           "_key": "!items.effects!j8NtLXOOJ3GAKF8I.u8CWVEZ9xQXeg7EU"
         },
         {
-          "name": "Protection from Fire",
+          "name": "Protezione dal Fuoco",
           "img": "icons/magic/fire/flame-burning-earth-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I",
           "transfer": false,
@@ -4642,7 +4642,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you have resistance to fire damage.</p>",
+          "description": "<p>Per la durata, hai resistenza ai danni da fuoco.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4670,7 +4670,7 @@
           "_key": "!items.effects!j8NtLXOOJ3GAKF8I.Md45M3QzPeWi5GsR"
         },
         {
-          "name": "Protection from Lightning",
+          "name": "Protezione dal Fulmine",
           "img": "icons/magic/lightning/bolt-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I",
           "transfer": false,
@@ -4694,7 +4694,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you have resistance to lightning damage.</p>",
+          "description": "<p>Per la durata, hai resistenza ai danni da fulmine.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4722,7 +4722,7 @@
           "_key": "!items.effects!j8NtLXOOJ3GAKF8I.mpQ2ucBu1e2zw56V"
         },
         {
-          "name": "Protection from Thunder",
+          "name": "Protezione dal Tuono",
           "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
           "origin": "Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I",
           "transfer": false,
@@ -4746,7 +4746,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration, you have resistance to thunder damage.</p>",
+          "description": "<p>Per la durata, hai resistenza ai danni da tuono.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4915,7 +4915,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -4937,7 +4937,7 @@
       "img": "icons/magic/water/orb-water-bubbles.webp",
       "effects": [
         {
-          "name": "Water Breathing",
+          "name": "Respirare sott'Acqua",
           "img": "icons/magic/water/orb-water-bubbles.webp",
           "origin": "Compendium.dnd5e.spells.Item.13uVuBQP6VaiSPvC",
           "transfer": false,
@@ -4954,7 +4954,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You can breathe underwater until the spell ends. You also retain your normal mode of respiration.</p>",
+          "description": "<p>Puoi respirare sott'acqua finché l'incantesimo non termina. Mantieni anche il tuo normale modo di respirare.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -5066,7 +5066,7 @@
         "activities": {
           "3uKDmmkF8irChzl6": {
             "type": "utility",
-            "name": "Flood",
+            "name": "Inondazione",
             "_id": "3uKDmmkF8irChzl6",
             "img": "",
             "sort": 200000,
@@ -5083,7 +5083,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land, instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing.</p><p>The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.</p>",
+              "value": "<p>Fai sollevare il livello di tutta l'acqua ferma nell'area fino a un massimo di 6 metri. Se l'area include una riva, l'acqua dell'inondazione si riversa sulla terraferma. Se scegli un'area all'interno di una vasta massa d'acqua, crei invece un'onda alta 6 metri che attraversa l'area da un lato all'altro e poi si infrange. Ogni veicolo di taglia Enorme o inferiore sul percorso dell'onda viene trasportato fino all'altro lato. Ogni veicolo di taglia Enorme o inferiore colpito dall'onda ha il 25 per cento di probabilità di capovolgersi.</p><p>Il livello dell'acqua rimane elevato finché l'incantesimo non termina o finché non scegli un effetto diverso. Se questo effetto ha prodotto un'onda, l'onda si ripete all'inizio del tuo turno successivo finché l'inondazione persiste.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5138,7 +5138,7 @@
           },
           "bgxFEFucjRRDxtIr": {
             "type": "utility",
-            "name": "Part Water",
+            "name": "Separare le Acque",
             "_id": "bgxFEFucjRRDxtIr",
             "img": "",
             "sort": 300000,
@@ -5155,7 +5155,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>You cause water in the area to move apart and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.</p>",
+              "value": "<p>Fai separare l'acqua nell'area per creare un varco. Il varco attraversa tutta l'area dell'incantesimo e l'acqua separata forma un muro su entrambi i lati. Il varco rimane finché l'incantesimo non termina o finché non scegli un effetto diverso. Poi l'acqua riempie lentamente il varco nel corso del round successivo, finché non torna al livello normale.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5208,7 +5208,7 @@
           },
           "tcZLcPr3nsDOEaiC": {
             "type": "utility",
-            "name": "Redirect Flow",
+            "name": "Deviare la Corrente",
             "_id": "tcZLcPr3nsDOEaiC",
             "img": "",
             "sort": 400000,
@@ -5225,7 +5225,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect.</p>",
+              "value": "<p>Fai scorrere l'acqua corrente nell'area nella direzione che scegli, anche se l'acqua deve superare ostacoli, risalire pareti o muoversi in altre direzioni improbabili. L'acqua nell'area si muove come la dirigi, ma una volta oltre l'area dell'incantesimo riprende a scorrere secondo le condizioni del terreno. L'acqua continua a muoversi nella direzione scelta finché l'incantesimo non termina o finché non scegli un effetto diverso.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5277,7 +5277,7 @@
           },
           "HneTMN8U6QKaRU7B": {
             "type": "utility",
-            "name": "Whirlpool",
+            "name": "Gorgo",
             "_id": "HneTMN8U6QKaRU7B",
             "img": "",
             "sort": 500000,
@@ -5294,7 +5294,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC.</p><p>When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.</p><p>The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.</p>",
+              "value": "<p>Questo effetto richiede una massa d'acqua di almeno 15 metri di lato e 7,5 metri di profondità. Fai formare un gorgo al centro dell'area. Il gorgo forma un vortice largo 1,5 metri alla base, fino a 15 metri in cima, e alto 7,5 metri. Ogni creatura o oggetto in acqua ed entro 7,5 metri dal vortice viene trascinato di 3 metri verso di esso. Una creatura può allontanarsi a nuoto dal vortice effettuando una prova di Forza (Atletica) contro la CD del tiro salvezza del tuo incantesimo.</p><p>Quando una creatura entra nel vortice per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Forza. Se lo fallisce, subisce 2d8 danni contundenti ed è intrappolata nel vortice finché l'incantesimo non termina. Se lo supera, subisce la metà dei danni e non resta intrappolata. Una creatura intrappolata nel vortice può usare la sua azione per tentare di allontanarsi a nuoto come descritto sopra, ma ha svantaggio alla prova di Forza (Atletica) richiesta per farlo.</p><p>La prima volta in ogni turno che un oggetto entra nel vortice, subisce 2d8 danni contundenti; questi danni si ripetono in ogni round in cui l'oggetto rimane nel vortice.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5348,14 +5348,14 @@
           },
           "BTnvB5e4TEPEgZaS": {
             "type": "save",
-            "name": "Whirlpool (Start of Turn Save)",
+            "name": "Gorgo (Tiro Salvezza a Inizio Turno)",
             "_id": "BTnvB5e4TEPEgZaS",
             "img": "",
             "sort": 600000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When a creature enters the vortex for the first time on a turn or starts its turn there."
+              "condition": "Quando una creatura entra nel vortice per la prima volta in un turno o vi inizia il proprio turno."
             },
             "consumption": {
               "scaling": {
@@ -5365,7 +5365,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.</p><p>The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.</p>",
+              "value": "<p>Quando una creatura entra nel vortice per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Forza. Se lo fallisce, subisce 2d8 danni contundenti ed è intrappolata nel vortice finché l'incantesimo non termina. Se lo supera, subisce la metà dei danni e non resta intrappolata. Una creatura intrappolata nel vortice può usare la sua azione per tentare di allontanarsi a nuoto come descritto sopra, ma ha svantaggio alla prova di Forza (Atletica) richiesta per farlo.</p><p>La prima volta in ogni turno che un oggetto entra nel vortice, subisce 2d8 danni contundenti; questi danni si ripetono in ogni round in cui l'oggetto rimane nel vortice.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -5449,7 +5449,7 @@
           },
           "fXJqNRirIlkLmU1Q": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "fXJqNRirIlkLmU1Q",
             "img": "",
             "sort": 100000,
@@ -5521,7 +5521,7 @@
       "img": "icons/magic/water/wave-water-blue.webp",
       "effects": [
         {
-          "name": "Caught in Whirlpool",
+          "name": "Intrappolato nel Gorgo",
           "img": "icons/magic/water/vortex-water-whirlpool.webp",
           "origin": "Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL",
           "transfer": false,
@@ -5538,7 +5538,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are caught in a whirlpool. You can use your action to try to swim away from the vortex by makin g a [[/check str ath]] against the caster's spell save DC.</p>",
+          "description": "<p>Sei intrappolato in un gorgo. Puoi usare la tua azione per tentare di allontanarti a nuoto dal vortice effettuando una [[/check str ath]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 2,
@@ -5714,7 +5714,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -5731,7 +5731,7 @@
       "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
       "effects": [
         {
-          "name": "Banished",
+          "name": "Esiliato",
           "origin": "Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf",
           "duration": {
             "value": 1,
@@ -5741,7 +5741,7 @@
           },
           "disabled": true,
           "_id": "bckYDthT7sAOQBNO",
-          "description": "<p>The target native to this plane is banished to a harmless demiplane plane and is Incapacitated for the duration.</p><p>You have been banished to a harmless demiplane. While there, you are &amp;reference[incapacitated apply=fasle]. You remain there until the spell ends, at which point you repappear in the space you left or in the nearest unoccupied space if that space is occupied.</p>",
+          "description": "<p>Sei stato esiliato in un semipiano innocuo. Finché ti trovi lì, sei &amp;Reference[incapacitated apply=false]. Rimani lì finché l'incantesimo non termina; a quel punto ricompari nello spazio che avevi lasciato o, se è occupato, nello spazio libero più vicino.</p>",
           "transfer": false,
           "statuses": [
             "incapacitated"
@@ -5933,7 +5933,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6093,7 +6093,7 @@
       "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
       "effects": [
         {
-          "name": "Greater Invisibility",
+          "name": "Invisibilità Superiore",
           "origin": "Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ",
           "duration": {
             "value": 1,
@@ -6103,7 +6103,7 @@
           },
           "disabled": true,
           "_id": "lhYVl4DD9jyS5gcn",
-          "description": "<p>You become &amp;reference[Invisible apply=false] until the spell ends. Anything you are wearing or carrying is invisible as long as it is on your person.</p>",
+          "description": "<p>Diventi &amp;Reference[Invisible apply=false] finché l'incantesimo non termina. Tutto ciò che indossi o trasporti è invisibile finché resta sulla tua persona.</p>",
           "transfer": false,
           "statuses": [
             "invisible"
@@ -6322,7 +6322,7 @@
           },
           "NB35NZ5xw2Gol0nu": {
             "type": "utility",
-            "name": "Assume Direct Control",
+            "name": "Assumi il Controllo Diretto",
             "_id": "NB35NZ5xw2Gol0nu",
             "img": "",
             "sort": 100000,
@@ -6338,7 +6338,7 @@
               "targets": []
             },
             "description": {
-              "value": "<p>You take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p>",
+              "value": "<p>Assumi il controllo totale e preciso del bersaglio. Fino alla fine del tuo prossimo turno, la creatura compie solo le azioni che scegli tu e non fa nulla che tu non le permetta. In questo periodo puoi anche far usare una reazione alla creatura, ma per farlo devi usare anche la tua reazione.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -6393,7 +6393,7 @@
           },
           "200TV6FrMbK0EJzM": {
             "type": "utility",
-            "name": "Command Creature",
+            "name": "Comanda la Creatura",
             "_id": "200TV6FrMbK0EJzM",
             "img": "",
             "sort": 50000,
@@ -6470,7 +6470,7 @@
       "img": "icons/magic/control/encase-creature-monster-hold.webp",
       "effects": [
         {
-          "name": "Dominate Person: 5th Level",
+          "name": "Dominare Persone: 5° Livello",
           "origin": "Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM",
           "duration": {
             "value": 1,
@@ -6480,7 +6480,7 @@
           },
           "disabled": true,
           "_id": "t7q0nA3ojHoNF0A8",
-          "description": "<p>You are &amp;reference[charmed apply=false] and and the caster has a telepathic link with you as long as the two of you are on the same plane of existence. They can use this telepathic link to issue commands to you, which you must do your best to obey. If you complete your order and don't recieve further direction from the caster, you defend and preserve yourself to the best of your ability.</p><p>Each time you take damage, you make a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+          "description": "<p>Sei &amp;Reference[charmed apply=false] e l'incantatore ha un legame telepatico con te finché vi trovate sullo stesso piano di esistenza. Può usare questo legame per impartirti comandi, a cui devi fare del tuo meglio per obbedire. Se completi un ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e ti proteggi al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -6516,7 +6516,7 @@
           "_key": "!items.effects!91Sw6vOIaO7U8DvM.t7q0nA3ojHoNF0A8"
         },
         {
-          "name": "Dominate Person: 6th Level",
+          "name": "Dominare Persone: 6° Livello",
           "origin": "Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM",
           "duration": {
             "value": 10,
@@ -6525,7 +6525,7 @@
             "expired": false
           },
           "disabled": true,
-          "description": "<p>You are &amp;reference[charmed apply=false] and and the caster has a telepathic link with you as long as the two of you are on the same plane of existence. They can use this telepathic link to issue commands to you, which you must do your best to obey. If you complete your order and don't recieve further direction from the caster, you defend and preserve yourself to the best of your ability.</p><p>Each time you take damage, you make a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+          "description": "<p>Sei &amp;Reference[charmed apply=false] e l'incantatore ha un legame telepatico con te finché vi trovate sullo stesso piano di esistenza. Può usare questo legame per impartirti comandi, a cui devi fare del tuo meglio per obbedire. Se completi un ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e ti proteggi al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -6562,7 +6562,7 @@
           "_key": "!items.effects!91Sw6vOIaO7U8DvM.OlmR2e1Mm1oevh9J"
         },
         {
-          "name": "Dominate Person: 7th Level",
+          "name": "Dominare Persone: 7° Livello",
           "origin": "Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM",
           "duration": {
             "value": 1,
@@ -6571,7 +6571,7 @@
             "expired": false
           },
           "disabled": true,
-          "description": "<p>You are &amp;reference[charmed apply=false] and and the caster has a telepathic link with you as long as the two of you are on the same plane of existence. They can use this telepathic link to issue commands to you, which you must do your best to obey. If you complete your order and don't recieve further direction from the caster, you defend and preserve yourself to the best of your ability.</p><p>Each time you take damage, you make a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+          "description": "<p>Sei &amp;Reference[charmed apply=false] e l'incantatore ha un legame telepatico con te finché vi trovate sullo stesso piano di esistenza. Può usare questo legame per impartirti comandi, a cui devi fare del tuo meglio per obbedire. Se completi un ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e ti proteggi al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -6608,7 +6608,7 @@
           "_key": "!items.effects!91Sw6vOIaO7U8DvM.NmiqxKuk9UUWjSfU"
         },
         {
-          "name": "Dominate Person: 8th Level",
+          "name": "Dominare Persone: 8° Livello",
           "origin": "Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM",
           "duration": {
             "value": 8,
@@ -6617,7 +6617,7 @@
             "expired": false
           },
           "disabled": true,
-          "description": "<p>You are &amp;reference[charmed apply=false] and and the caster has a telepathic link with you as long as the two of you are on the same plane of existence. They can use this telepathic link to issue commands to you, which you must do your best to obey. If you complete your order and don't recieve further direction from the caster, you defend and preserve yourself to the best of your ability.</p><p>Each time you take damage, you make a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+          "description": "<p>Sei &amp;Reference[charmed apply=false] e l'incantatore ha un legame telepatico con te finché vi trovate sullo stesso piano di esistenza. Può usare questo legame per impartirti comandi, a cui devi fare del tuo meglio per obbedire. Se completi un ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e ti proteggi al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>",
           "transfer": false,
           "statuses": [
             "charmed"
@@ -6787,7 +6787,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -6887,7 +6887,7 @@
         "activities": {
           "ALmQH6xe1eXP4yfS": {
             "type": "save",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "ALmQH6xe1eXP4yfS",
             "img": "",
             "sort": 100000,
@@ -6961,7 +6961,7 @@
           },
           "73BiojjOcZK3adzP": {
             "type": "enchant",
-            "name": "Configure Knowledge of Target",
+            "name": "Imposta la Conoscenza del Bersaglio",
             "_id": "73BiojjOcZK3adzP",
             "img": "",
             "sort": 200000,
@@ -7067,7 +7067,7 @@
           },
           "pemgwXnFsWoWUR2e": {
             "type": "enchant",
-            "name": "Configure Connection of Target",
+            "name": "Imposta il Legame con il Bersaglio",
             "img": "",
             "sort": 300000,
             "activation": {
@@ -7180,7 +7180,7 @@
       "effects": [
         {
           "type": "enchantment",
-          "name": "Knowledge: Secondhand",
+          "name": "Conoscenza: Indiretta",
           "img": "icons/commodities/gems/gem-rough-cushion-red.webp",
           "disabled": true,
           "_id": "swoj95aPKbfvOvzB",
@@ -7209,7 +7209,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have heard of the target you are Scrying.</p>",
+          "description": "<p>Hai sentito parlare del il bersaglio che stai scrutando.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -7239,7 +7239,7 @@
         },
         {
           "type": "enchantment",
-          "name": "Knowledge: Firsthand",
+          "name": "Conoscenza: Diretta",
           "img": "icons/commodities/gems/gem-rough-oval-red.webp",
           "disabled": true,
           "system": {
@@ -7260,7 +7260,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have met the target you are Scrying.</p>",
+          "description": "<p>Hai incontrato il bersaglio che stai scrutando.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -7291,7 +7291,7 @@
         },
         {
           "type": "enchantment",
-          "name": "Knowledge: Familiar",
+          "name": "Conoscenza: Familiare",
           "img": "icons/commodities/gems/gem-rough-princess-green.webp",
           "disabled": true,
           "system": {
@@ -7319,7 +7319,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are familiar with the target you are Scrying.</p>",
+          "description": "<p>Conosci bene il bersaglio che stai scrutando.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -7350,7 +7350,7 @@
         },
         {
           "type": "enchantment",
-          "name": "Connection: Likeness or Picture",
+          "name": "Legame: Ritratto o Immagine",
           "img": "icons/commodities/gems/gem-rough-cushion-red.webp",
           "disabled": true,
           "system": {
@@ -7378,7 +7378,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have a likeness or picture of the target you are Scrying.</p>",
+          "description": "<p>Possiedi un ritratto o un'immagine del bersaglio che stai scrutando.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -7409,7 +7409,7 @@
         },
         {
           "type": "enchantment",
-          "name": "Connection: Possession or Garment",
+          "name": "Legame: Oggetto o Indumento",
           "img": "icons/commodities/gems/gem-rough-oval-red.webp",
           "disabled": true,
           "system": {
@@ -7437,7 +7437,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have a possession or garment of the target you are Scrying.</p>",
+          "description": "<p>Possiedi un oggetto o un indumento del bersaglio che stai scrutando.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -7468,7 +7468,7 @@
         },
         {
           "type": "enchantment",
-          "name": "Connection: Body Part",
+          "name": "Legame: Parte del Corpo",
           "img": "icons/commodities/gems/gem-rough-princess-green.webp",
           "disabled": true,
           "system": {
@@ -7496,7 +7496,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have a body part, lock of hair, bit of nail, or the like of the target you are Scrying.</p>",
+          "description": "<p>Possiedi una parte del corpo, una ciocca di capelli, un frammento di unghia o simili del bersaglio che stai scrutando.</p>",
           "origin": null,
           "tint": "#ffffff",
           "transfer": true,
@@ -7626,7 +7626,7 @@
             },
             "description": {
               "chatFlavor": "",
-              "value": "<p>You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage.</p><p>If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.</p>"
+              "value": "<p>Puoi far apparire il messaggero mostruoso e terrificante agli occhi del bersaglio. In tal caso, il messaggero può consegnare un messaggio di non più di dieci parole e poi il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, gli echi della mostruosità illusoria generano un incubo che dura per tutto il sonno del bersaglio e gli impedisce di ottenere qualsiasi beneficio da quel riposo. Inoltre, al risveglio il bersaglio subisce 3d6 danni psichici.</p><p>Se possiedi una parte del corpo, una ciocca di capelli, un frammento di unghia o una porzione simile del corpo del bersaglio, il bersaglio effettua il tiro salvezza con svantaggio.</p>"
             },
             "duration": {
               "units": "inst",
@@ -7690,7 +7690,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Nightmare Save",
+            "name": "Tiro Salvezza contro l'Incubo",
             "img": "",
             "visibility": {
               "level": {
@@ -7701,7 +7701,7 @@
           },
           "WuuR0BgbhJSE7W66": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "WuuR0BgbhJSE7W66",
             "img": null,
             "sort": -100000,
@@ -7942,7 +7942,7 @@
               "requireMagic": false
             },
             "_id": "J3DB2z7n1E9Ey0Qx",
-            "name": "Cast"
+            "name": "Lancio"
           },
           "ZLjky0SAN3L2Afkr": {
             "type": "save",
@@ -7950,7 +7950,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "At the end of each of the target's turns while they are incubating a disease."
+              "condition": "Alla fine di ogni turno del bersaglio mentre incuba la malattia."
             },
             "consumption": {
               "targets": [
@@ -7969,7 +7969,7 @@
             },
             "description": {
               "chatFlavor": "",
-              "value": "<p>At the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.</p>"
+              "value": "<p>Alla fine di ogni suo turno, il bersaglio deve effettuare un tiro salvezza su Costituzione. Dopo averne falliti tre, gli effetti della malattia durano per l'intera durata e la creatura smette di effettuare questi tiri salvezza. Dopo averne superati tre, la creatura guarisce dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce nel bersaglio una malattia naturale, qualsiasi effetto che rimuove una malattia o ne attenua gli effetti si applica anche a essa.</p>"
             },
             "duration": {
               "units": "inst",
@@ -8041,7 +8041,7 @@
               "max": ""
             },
             "sort": 200000,
-            "name": "Petrification Save",
+            "name": "Tiro Salvezza contro la Pietrificazione",
             "img": "",
             "flags": {},
             "visibility": {
@@ -8063,7 +8063,7 @@
       "img": "icons/commodities/treasure/statue-bust-stone-grey.webp",
       "effects": [
         {
-          "name": "Flesh to Stone",
+          "name": "Carne in Pietra",
           "origin": "Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY",
           "duration": {
             "value": null,
@@ -8073,7 +8073,7 @@
           },
           "disabled": false,
           "_id": "mVqFBzC5qYpFnZFV",
-          "description": "<p>You are &amp;reference[Restrained apply=false] as your flesh begins to harden. While restrained by this spell, you must make another Constitution saving throw at the end of each of its turns. If you successfully saves against this spell three times, the spell ends. If you fail you saves three times, you are turned to stone and subjected to the &amp;reference[Petrified] condition for the duration.</p>",
+          "description": "<p>Sei &amp;Reference[Restrained apply=false] mentre la tua carne inizia a indurirsi. Finché sei trattenuto da questo incantesimo, devi effettuare un altro tiro salvezza su Costituzione alla fine di ogni tuo turno. Se superi tre volte il tiro salvezza contro questo incantesimo, l'incantesimo termina. Se lo fallisci tre volte, ti trasformi in pietra e subisci la condizione &amp;Reference[Petrified] per la durata.</p>",
           "transfer": false,
           "statuses": [
             "restrained"
@@ -8109,7 +8109,7 @@
           "_key": "!items.effects!kozNy29b0X6exFhY.mVqFBzC5qYpFnZFV"
         },
         {
-          "name": "Failed Flesh to Stone Save",
+          "name": "Tiro Salvezza Fallito contro Carne in Pietra",
           "img": "icons/sundries/flags/banner-pink.webp",
           "origin": "Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY",
           "transfer": false,
@@ -8126,7 +8126,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have failed a saving throw against the @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{Flesh to Stone} spell.</p>",
+          "description": "<p>Hai fallito un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{Carne in Pietra}.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -8153,7 +8153,7 @@
           "_key": "!items.effects!kozNy29b0X6exFhY.GlcVeHlxmWkdMTiP"
         },
         {
-          "name": "Successful Flesh to Stone Save",
+          "name": "Tiro Salvezza Superato contro Carne in Pietra",
           "img": "icons/sundries/flags/banner-green.webp",
           "origin": "Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY",
           "transfer": false,
@@ -8170,7 +8170,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have succeeded a saving throw against the @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{Flesh to Stone} spell.</p>",
+          "description": "<p>Hai superato un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{Carne in Pietra}.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -8197,7 +8197,7 @@
           "_key": "!items.effects!kozNy29b0X6exFhY.W767OHpOwFKPPaCL"
         },
         {
-          "name": "Petrified",
+          "name": "Pietrificato",
           "img": "icons/commodities/treasure/statue-bust-stone-grey.webp",
           "origin": "Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY",
           "transfer": false,
@@ -8214,7 +8214,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are &amp;reference[Petrified apply=false] for the duration of the spell or until the effect is removed.</p><p>If you are physically broken while petrified, you suffers from similar deformities if you revert to your original state.</p>",
+          "description": "<p>Sei &amp;Reference[Petrified apply=false] per la durata dell'incantesimo o finché l'effetto non viene rimosso.</p><p>Se il tuo corpo viene danneggiato fisicamente mentre sei pietrificato, subisci deformità analoghe quando torni al tuo stato originale.</p>",
           "tint": "#ffffff",
           "statuses": [
             "petrified"
@@ -8410,7 +8410,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -8421,14 +8421,14 @@
           },
           "MCAsmHQ4ZyHKOcIG": {
             "type": "summon",
-            "name": "Raise Zombie",
+            "name": "Rianima Zombi",
             "_id": "MCAsmHQ4ZyHKOcIG",
             "img": "",
             "sort": 100000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When a humanoid is killed by this spell."
+              "condition": "Quando un umanoide viene ucciso da questo incantesimo."
             },
             "consumption": {
               "scaling": {
@@ -8445,7 +8445,7 @@
               ]
             },
             "description": {
-              "value": "<p>A humanoid killed by this spell rises at the start of your next turn as a @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{Zombie} that is permanently under your command, following your verbal orders to the best of its ability.</p>",
+              "value": "<p>Un umanoide ucciso da questo incantesimo si rialza all'inizio del tuo turno successivo come @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{Zombi} permanentemente al tuo comando, e segue i tuoi ordini verbali al meglio delle sue capacità.</p>",
               "chatFlavor": ""
             },
             "duration": {
@@ -8542,7 +8542,7 @@
       "img": "icons/magic/unholy/energy-smoke-pink.webp",
       "effects": [
         {
-          "name": "Permanently Controlled",
+          "name": "Controllato Permanentemente",
           "img": "icons/magic/death/skeleton-snake-skull-pink.webp",
           "origin": "Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg",
           "transfer": false,
@@ -8559,7 +8559,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have been animated by the @UUID[Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg]{Finger of Death} spell, and are permanently under the control of the caster.</p>",
+          "description": "<p>Sei stato animato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg]{Dito della Morte} e sei permanentemente sotto il controllo dell'incantatore.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -8735,7 +8735,7 @@
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
       "effects": [
         {
-          "name": "Glib",
+          "name": "Loquacità",
           "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.1RzxKZzkQOoioxPj",
           "type": "base",
@@ -8759,7 +8759,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</p>",
+          "description": "<p>Finché l'incantesimo non termina, quando effettui una prova di Carisma puoi sostituire il risultato del dado con un 15. Inoltre, qualunque cosa tu dica, la magia che determinerebbe se stai dicendo la verità indica che sei sincero.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],

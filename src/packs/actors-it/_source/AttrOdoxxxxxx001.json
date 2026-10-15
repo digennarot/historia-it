@@ -978,7 +978,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -995,7 +995,7 @@
       "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
       "effects": [
         {
-          "name": "Guidance",
+          "name": "Guida",
           "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
           "origin": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
           "transfer": false,
@@ -1011,7 +1011,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one ability check of your choice. You can roll the die before or after making the ability check. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1121,14 +1121,14 @@
         "activities": {
           "A0r24ncbAuYRHrRX": {
             "type": "save",
-            "name": "Avoid Light Save",
+            "name": "Tiro Salvezza per Evitare la Luce",
             "_id": "A0r24ncbAuYRHrRX",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When you target an object held or worn by a hostile creature."
+              "condition": "Quando bersagli un oggetto impugnato o indossato da una creatura ostile."
             },
             "consumption": {
               "scaling": {
@@ -1193,7 +1193,7 @@
           },
           "x3oDVP0hPkb9fAa1": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "x3oDVP0hPkb9fAa1",
             "img": "",
             "sort": 100000,
@@ -1402,7 +1402,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1950,7 +1950,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2128,7 +2128,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Enchant Weapon",
+            "name": "Incanta l'Arma",
             "img": "",
             "visibility": {
               "level": {
@@ -2145,7 +2145,7 @@
       "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
       "effects": [
         {
-          "name": "Magic Weapon, +1",
+          "name": "Arma Magica, +1",
           "flags": {
             "dnd5e": {
               "enchantment": {
@@ -2168,7 +2168,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>This weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>",
+          "description": "<p>Quest'arma diventa un'arma magica con bonus di +1 ai tiri per colpire e ai tiri per i danni.</p>",
           "origin": null,
           "transfer": false,
           "statuses": [],
@@ -2215,7 +2215,7 @@
           "_key": "!items.effects!Sgjrf8qqv97CCWM4.SLSudYaACjmmmZsU"
         },
         {
-          "name": "Magic Weapon, +2",
+          "name": "Arma Magica, +2",
           "flags": {
             "dnd5e": {
               "enchantment": {
@@ -2237,7 +2237,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>This weapon becomes a magic weapon with a +2 bonus to attack rolls and damage rolls.</p>",
+          "description": "<p>Quest'arma diventa un'arma magica con bonus di +2 ai tiri per colpire e ai tiri per i danni.</p>",
           "origin": null,
           "transfer": false,
           "statuses": [],
@@ -2285,7 +2285,7 @@
           "_key": "!items.effects!Sgjrf8qqv97CCWM4.8OhsRxK3dF1JeQXO"
         },
         {
-          "name": "Magic Weapon, +3",
+          "name": "Arma Magica, +3",
           "flags": {
             "dnd5e": {
               "enchantment": {
@@ -2307,7 +2307,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>This weapon becomes a magic weapon with a +3 bonus to attack rolls and damage rolls.</p>",
+          "description": "<p>Quest'arma diventa un'arma magica con bonus di +3 ai tiri per colpire e ai tiri per i danni.</p>",
           "origin": null,
           "transfer": false,
           "statuses": [],
@@ -2495,7 +2495,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2527,8 +2527,8 @@
           "origin": "Item.kZZAZ6kp9YzgPQEe",
           "tint": "#ffffff",
           "transfer": false,
-          "name": "Bless",
-          "description": "<p>Whenever you make an attack roll or a saving throw before the spell ends, you can roll 1d4 and add the number rolled to the attack roll or saving throw.</p>",
+          "name": "Benedizione",
+          "description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, puoi tirare 1d4 e aggiungere il risultato al tiro per colpire o al tiro salvezza.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -2738,7 +2738,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2755,7 +2755,7 @@
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "effects": [
         {
-          "name": "Hold Person",
+          "name": "Blocca Persone",
           "origin": "Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4",
           "duration": {
             "value": 1,
@@ -2765,7 +2765,7 @@
           },
           "disabled": true,
           "_id": "HH5YVjzxkwXpDZS0",
-          "description": "<p>You are &amp;reference[Paralyzed apply=false] for the duration. At the end of each of your turns, you can make another Wisdom saving throw. On a success, the spell ends on you.</p>",
+          "description": "<p>Sei &amp;Reference[Paralyzed apply=false] per la durata. Alla fine di ogni tuo turno puoi effettuare un altro tiro salvezza su Saggezza. Se lo superi, l'incantesimo termina su di te.</p>",
           "transfer": false,
           "statuses": [
             "paralyzed"
@@ -2941,7 +2941,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2958,7 +2958,7 @@
       "img": "icons/magic/control/control-influence-crown-gold.webp",
       "effects": [
         {
-          "name": "Command",
+          "name": "Comando",
           "img": "icons/magic/control/control-influence-crown-gold.webp",
           "origin": "Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43",
           "transfer": false,
@@ -2974,7 +2974,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have been commanded, and must follow the command on your next turn.</p>",
+          "description": "<p>Hai ricevuto un comando e devi eseguirlo nel tuo prossimo turno.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -3085,7 +3085,7 @@
         "activities": {
           "lHMXMFOvwhBwU5JN": {
             "type": "check",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "lHMXMFOvwhBwU5JN",
             "img": "",
             "sort": 100000,
@@ -3315,7 +3315,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3486,7 +3486,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3639,7 +3639,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -3656,7 +3656,7 @@
       "img": "icons/magic/light/orb-container-orange.webp",
       "effects": [
         {
-          "name": "Protection from Evil and Good",
+          "name": "Protezione dal Bene e dal Male",
           "img": "icons/magic/light/orb-container-orange.webp",
           "origin": "Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2",
           "transfer": false,
@@ -3672,7 +3672,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Until the spell ends, you are protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p><p>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against you. You also can't be &amp;reference[charmed apply=false], &amp;reference[frightened apply=false], or possessed by them. If you are already charmed, frightened, or possessed by such a creature, you have advantage on any new saving throw against the relevant effect.</p>",
+          "description": "<p>Finché l'incantesimo non termina, sei protetto da determinati tipi di creature: aberrazioni, celestiali, elementali, folletti, immondi e non morti.</p><p>La protezione conferisce diversi benefici. Le creature di quei tipi hanno svantaggio ai tiri per colpire contro di te. Inoltre non puoi essere &amp;Reference[charmed apply=false], &amp;Reference[frightened apply=false] o posseduto da esse. Se sei già affascinato, spaventato o posseduto da una di queste creature, hai vantaggio a ogni nuovo tiro salvezza contro l'effetto in questione.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -3786,7 +3786,7 @@
               "type": "special",
               "value": null,
               "override": true,
-              "condition": "When you hit a creature with a weapon attack before this spell ends."
+              "condition": "Quando colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini."
             },
             "consumption": {
               "targets": [],
@@ -3856,7 +3856,7 @@
               "max": ""
             },
             "sort": 200000,
-            "name": "Bonus Damage On Hit",
+            "name": "Danni Bonus a Segno",
             "img": "",
             "visibility": {
               "level": {
@@ -3867,7 +3867,7 @@
           },
           "Ke2wZRoRCFxmiHJb": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "Ke2wZRoRCFxmiHJb",
             "img": "",
             "sort": 100000,
@@ -3995,7 +3995,7 @@
       "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
       "effects": [
         {
-          "name": "Branding Smite: 2nd Level",
+          "name": "Punizione Marchiante: 2° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4012,7 +4012,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 2d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4039,7 +4039,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.xM2PEzUfQZgNIXRv"
         },
         {
-          "name": "Branding Smite: 3rd Level",
+          "name": "Punizione Marchiante: 3° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4055,7 +4055,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 3d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 3d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4083,7 +4083,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.pkXLCMEMNzccLQs4"
         },
         {
-          "name": "Branding Smite: 4th Level",
+          "name": "Punizione Marchiante: 4° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4099,7 +4099,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 4d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 4d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4127,7 +4127,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.wylpKcAY3Gw609ug"
         },
         {
-          "name": "Branding Smite: 5th Level",
+          "name": "Punizione Marchiante: 5° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4143,7 +4143,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 5d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 5d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4171,7 +4171,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.f4xG4p6y77duw9yt"
         },
         {
-          "name": "Branding Smite: 6th Level",
+          "name": "Punizione Marchiante: 6° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4187,7 +4187,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 6d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 6d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4215,7 +4215,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.13BrsdpazrFevbup"
         },
         {
-          "name": "Branding Smite: 7th Level",
+          "name": "Punizione Marchiante: 7° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4231,7 +4231,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 7d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 7d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4259,7 +4259,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.XNwGaFsyQyqp7cP7"
         },
         {
-          "name": "Branding Smite: 8th Level",
+          "name": "Punizione Marchiante: 8° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4275,7 +4275,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 8d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 8d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4303,7 +4303,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.doT9gQvDafhsdNxs"
         },
         {
-          "name": "Branding Smite: 9th Level",
+          "name": "Punizione Marchiante: 9° Livello",
           "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4319,7 +4319,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 9d6 radiant damage to the target, which becomes visible if it's &amp;reference[invisible apply=false], and the target sheds &amp;reference[dim light] in a 5-foot radius and can't become invisible until the spell ends.</p>",
+          "description": "<p>La prossima volta che colpisci una creatura con un attacco con un'arma prima che l'incantesimo termini, l'arma risplende di radiosità astrale mentre colpisci. L'attacco infligge 9d6 danni radiosi extra al bersaglio, che diventa visibile se era &amp;Reference[invisible apply=false]; il bersaglio emette &amp;Reference[dim light] in un raggio di 1,5 metri e non può diventare invisibile finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4347,7 +4347,7 @@
           "_key": "!items.effects!7UwUjJ6owIQkEPrs.MQz6BZkH6TOMsHAn"
         },
         {
-          "name": "Smite Brand",
+          "name": "Marchio della Punizione",
           "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
           "origin": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
           "transfer": false,
@@ -4393,7 +4393,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the duration of the spell, you sheds &amp;reference[dim light] in a 5-foot radius and can't become &amp;reference[invisible apply=false] until the spell ends.</p>",
+          "description": "<p>Per la durata dell'incantesimo, emetti &amp;Reference[dim light] in un raggio di 1,5 metri e non puoi diventare &amp;Reference[invisible apply=false] finché l'incantesimo non termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -4551,7 +4551,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {

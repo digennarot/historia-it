@@ -828,7 +828,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -984,7 +984,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1001,7 +1001,7 @@
       "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
       "effects": [
         {
-          "name": "Guidance",
+          "name": "Guida",
           "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
           "origin": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY",
           "transfer": false,
@@ -1017,7 +1017,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>Once before the spell ends, you can roll a [[/r d4]] and add the number rolled to one ability check of your choice. You can roll the die before or after making the ability check. The spell then ends.</p>",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova. Poi l'incantesimo termina.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -1127,14 +1127,14 @@
         "activities": {
           "A0r24ncbAuYRHrRX": {
             "type": "save",
-            "name": "Avoid Light Save",
+            "name": "Tiro Salvezza per Evitare la Luce",
             "_id": "A0r24ncbAuYRHrRX",
             "img": "",
             "sort": 200000,
             "activation": {
               "type": "special",
               "override": true,
-              "condition": "When you target an object held or worn by a hostile creature."
+              "condition": "Quando bersagli un oggetto impugnato o indossato da una creatura ostile."
             },
             "consumption": {
               "scaling": {
@@ -1199,7 +1199,7 @@
           },
           "x3oDVP0hPkb9fAa1": {
             "type": "utility",
-            "name": "Cast",
+            "name": "Lancio",
             "_id": "x3oDVP0hPkb9fAa1",
             "img": "",
             "sort": 100000,
@@ -1407,7 +1407,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -1429,7 +1429,7 @@
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "effects": [
         {
-          "name": "Nondetection",
+          "name": "Anti-Individuazione",
           "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
           "origin": "Compendium.dnd5e.spells.Item.aU62xVUBYkAQWIHv",
           "transfer": false,
@@ -1446,7 +1446,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>For the Duration, you are hidden from Divination magic. You can't be targeted by any divination magic or perceived through magical @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{scrying} sensors.</p>",
+          "description": "<p>Per la durata, sei nascosto alla magia di divinazione. Non puoi essere bersaglio di alcuna magia di divinazione né essere percepito tramite i sensori magici di @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{scrutare}.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -1554,7 +1554,7 @@
         "activities": {
           "vdlxZxKmIlZiZ2Ij": {
             "type": "summon",
-            "name": "Conjure Spiritual Weapon",
+            "name": "Evoca l'Arma Spirituale",
             "_id": "vdlxZxKmIlZiZ2Ij",
             "img": "",
             "sort": 0,
@@ -1648,7 +1648,7 @@
           },
           "edJeSEGfYmZKzrPa": {
             "type": "utility",
-            "name": "Move & Command Spiritual Weapon",
+            "name": "Muovi e Comanda l'Arma Spirituale",
             "_id": "edJeSEGfYmZKzrPa",
             "img": "",
             "sort": 100000,
@@ -1864,7 +1864,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -1896,8 +1896,8 @@
           "origin": "Item.kZZAZ6kp9YzgPQEe",
           "tint": "#ffffff",
           "transfer": false,
-          "name": "Bless",
-          "description": "<p>Whenever you make an attack roll or a saving throw before the spell ends, you can roll 1d4 and add the number rolled to the attack roll or saving throw.</p>",
+          "name": "Benedizione",
+          "description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, puoi tirare 1d4 e aggiungere il risultato al tiro per colpire o al tiro salvezza.</p>",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
@@ -2099,7 +2099,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -2121,7 +2121,7 @@
       "img": "icons/magic/water/waves-water-blue.webp",
       "effects": [
         {
-          "name": "Water Walking",
+          "name": "Camminare sull'Acqua",
           "img": "icons/magic/water/waves-water-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS",
           "transfer": false,
@@ -2138,7 +2138,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>This spell grants you the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (crossing molten lava can still damage you from the heat).</p><p>If you are submerged in a liquid, the spell carries you to the surface of the liquid at a rate of 60 feet per round.</p>",
+          "description": "<p>Questo incantesimo ti conferisce la capacità di muoverti su qualsiasi superficie liquida, come acqua, acido, fango, neve, sabbie mobili o lava, come se fosse terreno solido e innocuo (attraversare la lava fusa può comunque infliggerti danni a causa del calore).</p><p>Se sei immerso in un liquido, l'incantesimo ti porta in superficie a una velocità di 18 metri per round.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "showIcon": 1,
@@ -2307,7 +2307,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2458,7 +2458,7 @@
               "max": ""
             },
             "sort": 100000,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "flags": {},
             "visibility": {
@@ -2480,7 +2480,7 @@
       "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
       "effects": [
         {
-          "name": "Hopeful",
+          "name": "Speranzoso",
           "origin": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt",
           "duration": {
             "value": 1,
@@ -2515,7 +2515,7 @@
               }
             ]
           },
-          "description": "<p>You have advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>",
+          "description": "<p>Hai vantaggio ai tiri salvezza su Saggezza e ai tiri salvezza contro la morte e recuperi il massimo dei punti ferita possibili da qualsiasi cura.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [],
@@ -2668,7 +2668,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
@@ -2912,7 +2912,7 @@
       "img": "icons/magic/unholy/hand-light-pink.webp",
       "effects": [
         {
-          "name": "Cursed Charisma",
+          "name": "Maledizione: Carisma",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "duration": {
             "value": 1,
@@ -2947,7 +2947,7 @@
               }
             ]
           },
-          "description": "<p>You have Disadvantage on Charisma checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio alle prove e ai tiri salvezza su Carisma.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -2971,7 +2971,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.OSGSF1Zm61GXLvrC"
         },
         {
-          "name": "Cursed Constitution",
+          "name": "Maledizione: Costituzione",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "duration": {
             "value": 1,
@@ -3006,7 +3006,7 @@
               }
             ]
           },
-          "description": "<p>You have Disadvantage on Constitution checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio alle prove e ai tiri salvezza su Costituzione.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -3030,7 +3030,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.pgBN0brGeJBSc413"
         },
         {
-          "name": "Cursed Dexterity",
+          "name": "Maledizione: Destrezza",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "duration": {
             "value": 1,
@@ -3065,7 +3065,7 @@
               }
             ]
           },
-          "description": "<p>You have Disadvantage on Dexterity checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio alle prove e ai tiri salvezza su Destrezza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -3089,7 +3089,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.RoAMbIx9IUqpNREv"
         },
         {
-          "name": "Cursed Intelligence",
+          "name": "Maledizione: Intelligenza",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "duration": {
             "value": 1,
@@ -3124,7 +3124,7 @@
               }
             ]
           },
-          "description": "<p>You have Disadvantage on Intelligence checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio alle prove e ai tiri salvezza su Intelligenza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -3148,7 +3148,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.KCdm5KtgQkFm9L9b"
         },
         {
-          "name": "Cursed Strength",
+          "name": "Maledizione: Forza",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "duration": {
             "value": 1,
@@ -3183,7 +3183,7 @@
               }
             ]
           },
-          "description": "<p>You have Disadvantage on Strength checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio alle prove e ai tiri salvezza su Forza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -3207,7 +3207,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.yO17H6NUUH6yTtJj"
         },
         {
-          "name": "Cursed Wisdom",
+          "name": "Maledizione: Saggezza",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "duration": {
             "value": 1,
@@ -3242,7 +3242,7 @@
               }
             ]
           },
-          "description": "<p>You have Disadvantage on Wisdom checks and saving throws.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio alle prove e ai tiri salvezza su Saggezza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "transfer": false,
           "statuses": [
@@ -3266,7 +3266,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.yFn5nMRayDT5pVeT"
         },
         {
-          "name": "Cursed Attacks",
+          "name": "Maledizione: Attacchi",
           "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "transfer": false,
@@ -3282,7 +3282,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>You have Disadvantage on attack rolls against the caster.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Hai svantaggio ai tiri per colpire contro l'incantatore.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "statuses": [
             "cursed"
@@ -3312,7 +3312,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.aahOmoNF6ZsMVxUs"
         },
         {
-          "name": "Cursed Actions",
+          "name": "Maledizione: Azioni",
           "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "transfer": false,
@@ -3327,7 +3327,7 @@
             "expiry": "turnEnd",
             "expired": false
           },
-          "description": "<p>In combat, you must succeed on a [[/save wis]] saving throw at the start of each of your turns. On a failure, you waste your action on your turn doing nothing.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>In combattimento, all'inizio di ogni tuo turno devi superare un tiro salvezza [[/save wis]]. Se lo fallisci, sprechi la tua azione in quel turno senza fare nulla.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "statuses": [
             "cursed"
@@ -3358,7 +3358,7 @@
           "_key": "!items.effects!pO4zGe5LmFIYqJiL.Ebzd58ARPldBzKci"
         },
         {
-          "name": "Cursed Resilience",
+          "name": "Maledizione: Danni Extra",
           "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
           "origin": "Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL",
           "transfer": false,
@@ -3373,7 +3373,7 @@
             "expiry": "turnStart",
             "expired": false
           },
-          "description": "<p>When the caster deals damqage to you with an attack or spell, they deal an additional [[/damage 1d8 necrotic]] damage.</p><p>A @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{remove curse} spell ends this effect.</p>",
+          "description": "<p>Quando l'incantatore ti infligge danni con un attacco o un incantesimo, infligge [[/damage 1d8 necrotic]] danni extra.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{rimuovi maledizione} pone fine a questo effetto.</p>",
           "tint": "#ffffff",
           "statuses": [
             "cursed"
@@ -3538,7 +3538,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cast",
+            "name": "Lancio",
             "img": "",
             "visibility": {
               "level": {
