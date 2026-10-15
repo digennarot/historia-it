@@ -221,6 +221,32 @@
         "value": {}
       },
       {
+        "_id": "v65vA12AiYelObIm",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.xzoCTmsgH8gUJAvT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.xLROg166m151SszM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5Nd4TF3NkbOTZ187",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "yVxa7TFb3U2dr7Zv",
         "type": "ItemGrant",
         "configuration": {
@@ -294,27 +320,6 @@
         "hint": ""
       },
       {
-        "_id": "kmKSBmckor0j4ApJ",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "OyrMaSEyJOh4HWXn",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -381,25 +386,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "CA1MvTB4I1xM5ALY",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "M2XKtHvknwgdrs9K",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -421,25 +407,6 @@
         "level": 8,
         "title": "",
         "hint": ""
-      },
-      {
-        "_id": "Cs4xI4F3xTwy2rS4",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 10,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "uqX0cW325uSiGfoU",
@@ -505,25 +472,6 @@
         "title": ""
       },
       {
-        "_id": "8zDJhYUwodgtqTqw",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "fez8oFjUdUw0nF9L",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -545,25 +493,6 @@
         "level": 12,
         "title": "",
         "hint": ""
-      },
-      {
-        "_id": "sMkjnmP0ShhqUfLE",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "JxlKRIEoesNxKrRK",
@@ -627,25 +556,6 @@
         "value": {},
         "level": 17,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "DLRzIJtI0y0VyrQQ",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "dI2xts7ulq96huHJ",

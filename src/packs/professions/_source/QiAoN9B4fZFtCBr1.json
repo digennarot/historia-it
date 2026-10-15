@@ -133,27 +133,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "ZvisCUnPVe2ogqQy",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "VvHU9bkC23onrNvF",
         "type": "ItemGrant",
         "configuration": {
@@ -211,44 +190,6 @@
         "title": "Pick a new Priest Cantrip"
       },
       {
-        "_id": "V1WffH1I1Hsw0Ac6",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
-      },
-      {
-        "_id": "dt1dHA3otenHvFgL",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "1R5ykVLfIgyDTo9g",
         "type": "ItemGrant",
         "configuration": {
@@ -266,25 +207,6 @@
         "value": {},
         "level": 14,
         "title": "Pick a new Priest Cantrip"
-      },
-      {
-        "_id": "OF85rkUOb8HBeK7o",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "VfKtICbVXyUE77pC",
@@ -325,25 +247,6 @@
         "value": {},
         "level": 18,
         "title": "Pick a new Priest Cantrip"
-      },
-      {
-        "_id": "gtqyD1sk8HcssLhp",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "uQ3L4e9ybOCuDvwf",
@@ -860,8 +763,7 @@
         "_id": "9sdQ1nobXU2pp1Rx",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Armor: studded tabard, ring mail, or coat of plates",
-        "hint": "The coat of plates only if you are proficient.",
+        "title": "Armor: studded tabard or ring mail",
         "classRestriction": "primary",
         "configuration": {
           "allowDrops": false,
@@ -970,10 +872,29 @@
         "value": {}
       },
       {
+        "_id": "i12dshUjt1xRhAKT",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "20 bolts (light crossbow only)",
+        "hint": "Take them only if you chose the light crossbow.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.BuAAPZBBsMTbPn1t",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "GarzAIzxc9iE8sMW",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Pack: priest's or explorer's",
+        "title": "Pack: explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {

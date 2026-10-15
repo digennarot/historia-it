@@ -296,10 +296,33 @@
         "value": {}
       },
       {
+        "_id": "f39EQEvcjMWGIXJm",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Quiver and 20 arrows (bow only)",
+        "hint": "Take them only if you chose the bow.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.aMOSLGkgGAauVgq4",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.E7yQ2F7FNSjqfuZe",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "SgDjRe7b6o6DwoFd",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Pack: explorer's or entertainer's",
+        "title": "Pack: explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -436,6 +459,24 @@
         "value": {}
       },
       {
+        "_id": "GWxgZAA28cdtJboB",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.xLROg166m151SszM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "4hQUclh5Ava0EyaU",
         "type": "ItemGrant",
         "configuration": {
@@ -499,27 +540,6 @@
         "title": "Subclass"
       },
       {
-        "_id": "m19TSbd2KkLSOuEv",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "WSO4n1AJnk0GaUTD",
         "type": "ItemGrant",
         "configuration": {
@@ -560,25 +580,6 @@
         "value": {},
         "level": 6,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "emdcQo81cJf41sgF",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "WH68s22q0G97TrE0",
@@ -644,25 +645,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "n9b39vh1BdprAoCv",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "laKTVZlPsiye3B30",
         "type": "ItemGrant",
         "configuration": {
@@ -705,25 +687,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "AA6ALXRvVG6R36dA",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "hJe0LIp8tVRWem23",
         "type": "ItemGrant",
         "configuration": {
@@ -764,25 +727,6 @@
         "value": {},
         "level": 18,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "rBmRuymZbtugLjGW",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "GdAaYcIGN0yH5Iep",

@@ -162,6 +162,40 @@
         "value": {}
       },
       {
+        "_id": "bDLjk2xfwblzIUWM",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.ffbkLTFIyVvcyuoY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.oZVJ2Xk6qNoDVWDt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5X2Mhhp1uK8Ja52R",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.Nu5fvTH0FP4zU2Eg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.4IiDAqVeZfUbySFJ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "sy0QZRD0Q4MJil2j",
         "type": "ItemChoice",
         "level": 1,
@@ -262,27 +296,6 @@
         "title": "Subclass"
       },
       {
-        "_id": "tptssgy6rkhwx57t",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "r8anbjjkapqjtr0f",
         "type": "ItemGrant",
         "configuration": {
@@ -344,25 +357,6 @@
         "title": "Learn a Two-Act Cycle"
       },
       {
-        "_id": "gl5psml903fah31j",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "hj8o5l5hiq4avj8m",
         "type": "ItemGrant",
         "configuration": {
@@ -401,25 +395,6 @@
         "value": {},
         "level": 11,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "yu6z9zgt49byyst4",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "s9epj4ezw28a44h5",
@@ -479,25 +454,6 @@
         "title": "Learn a Three-Act Cycle"
       },
       {
-        "_id": "47qvesht6u4hfn5d",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "iohjyz1gaqn7czxw",
         "type": "ItemGrant",
         "configuration": {
@@ -536,25 +492,6 @@
         "value": {},
         "level": 18,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "70koh2kub9kazjb7",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "66lsurqlt4ua672p",

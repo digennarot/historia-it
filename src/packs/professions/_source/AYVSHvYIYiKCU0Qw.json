@@ -90,27 +90,6 @@
         "title": "Subclass"
       },
       {
-        "_id": "4rekB74ZBVvHuw2u",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "SnC2mwGyYR8uCWns",
         "type": "ItemGrant",
         "configuration": {
@@ -244,6 +223,33 @@
             "level": "",
             "list": []
           },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "0wS6TVYtK4km0Eyc",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Weapon: light crossbow and 20 bolts, or small sword",
+        "hint": "Choose (a) the light crossbow and bolts or (b) the small sword.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BuAAPZBBsMTbPn1t",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.qXGilOaaQFl4p4Un",
+              "optional": true
+            }
+          ],
+          "optional": true,
           "spell": null
         },
         "value": {}
@@ -388,6 +394,25 @@
         "value": {}
       },
       {
+        "_id": "vVPI5trAKJJCiAQn",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "hint": "There are two tomes (×2), on topics of your choice: add the second one in your inventory.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.P9WYeAzZU2udtob9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "HLbDBpXtKzVO7sHm",
         "type": "Subclass",
         "configuration": {},
@@ -439,25 +464,6 @@
         "title": "Wise Advise (2HD)"
       },
       {
-        "_id": "2DCoPaovO1iXeRbV",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 6,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "gcZV0LHItNi2hRvm",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -479,25 +485,6 @@
         "level": 6,
         "title": "",
         "hint": ""
-      },
-      {
-        "_id": "yI1dtyJsqjVzKu1P",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "DGbeC45lvvNib4UG",
@@ -565,25 +552,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "X4snYdtxagsmRnab",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "kxYgRxX1JNzcoAP5",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -649,25 +617,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "9AQpFz1bvo3teMcV",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "yD3LYNFRN3SunN0e",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -710,25 +659,6 @@
         "value": {},
         "level": 17,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "zgkf4RruvtZOmnaK",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "diB15qlfBVZ6Ndxi",

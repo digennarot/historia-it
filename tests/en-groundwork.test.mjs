@@ -106,21 +106,53 @@ describe('advancement di classe EN', () => {
     // restano fuori finché quegli oggetti non hanno una versione EN (deferred-work.md).
     const IT_ONLY_POOLS = new Set(['vYn1UO0DvlOi4qh6', 'TyPMOzl2R0kuIiyC', 'gNCq60sszRBI5jXk', 'vN83YjpRutSIVrAX']);
 
-    it('ogni classe EN con controparte IT ha le stesse advancement Tratto, Incremento, Sottoclasse e ItemChoice', () => {
-        const missing = enClasses.filter(e => itClasses.has(e._id)).flatMap(e => {
-            const it = itClasses.get(e._id);
-            return it.system.advancement
-                .filter(a => PARITY.includes(a.type) && !IT_ONLY_POOLS.has(a._id))
-                .filter(a => !e.system.advancement.some(x => x._id === a._id))
-                .map(a => `${e.name}: ${a.type} ${a._id} ${a.title ?? ''}`);
-        });
-        expect(missing).toEqual([]);
+    const pairs = () => enClasses.filter(e => itClasses.has(e._id)).map(e => [e, itClasses.get(e._id)]);
+    const itemId = i => (i.uuid ?? i).split('.').pop();
+    // Oggetti/privilegi che esistono anche in EN (stessi _id): gli altri sono solo IT e mancano di proposito.
+    const EN_TARGETS = new Set([...docs('items-historia'), ...docs('profession-features'), ...docs('spells-historia')].map(d => d._id));
+
+    it('mestieri e sottoclassi EN hanno esattamente le advancement IT (stessi _id, in entrambe le direzioni)', () => {
+        const diff = pairs().flatMap(([e, it]) => [
+            ...it.system.advancement.filter(a => !IT_ONLY_POOLS.has(a._id) && !e.system.advancement.some(x => x._id === a._id))
+                .map(a => `${e.name}: manca ${a.type} ${a._id} ${a.title ?? ''}`),
+            ...e.system.advancement.filter(a => !it.system.advancement.some(x => x._id === a._id))
+                .map(a => `${e.name}: solo EN ${a.type} ${a._id} ${a.title ?? ''}`),
+        ]);
+        expect(diff).toEqual([]);
+    });
+
+    it('stesso livello e stessa configurazione della controparte IT (salvo pool/oggetti e formato spell)', () => {
+        const strip = c => { const x = structuredClone(c ?? {}); delete x.pool; delete x.items; delete x.spell; return x; };
+        const diff = pairs().flatMap(([e, it]) => e.system.advancement.flatMap(a => {
+            const t = it.system.advancement.find(x => x._id === a._id);
+            if (!t) return [];
+            const out = [];
+            if (a.level !== t.level) out.push(`${e.name} ${a.type} ${a._id}: livello ${a.level} invece di ${t.level}`);
+            // ScaleValue: solo il formato dei dadi differisce (modifiers), non i valori.
+            if (a.type !== 'ScaleValue' && JSON.stringify(strip(a.configuration)) !== JSON.stringify(strip(t.configuration)))
+                out.push(`${e.name} ${a.type} ${a._id}: configurazione diversa`);
+            return out;
+        }));
+        expect(diff).toEqual([]);
+    });
+
+    it('pool e oggetti concessi = quelli IT, tolti solo gli oggetti che esistono solo in IT', () => {
+        const diff = pairs().flatMap(([e, it]) => e.system.advancement.flatMap(a => {
+            const t = it.system.advancement.find(x => x._id === a._id);
+            const list = c => (c?.pool ?? c?.items ?? []).map(itemId);
+            if (!t || !['ItemChoice', 'ItemGrant'].includes(a.type)) return [];
+            const expected = list(t.configuration).filter(id => EN_TARGETS.has(id));
+            const actual = list(a.configuration);
+            return JSON.stringify([...actual].sort()) === JSON.stringify([...expected].sort())
+                ? [] :[`${e.name} ${a.type} ${a._id} ${a.title ?? ''}: ${actual.length} invece di ${expected.length}`];
+        }));
+        expect(diff).toEqual([]);
     });
 
     it('le advancement copiate da IT hanno titolo e hint in inglese (diversi dal testo IT)', () => {
         const italian = enClasses.filter(e => itClasses.has(e._id)).flatMap(e => {
             const itAdv = new Map(itClasses.get(e._id).system.advancement.map(a => [a._id, a]));
-            return e.system.advancement.filter(a => itAdv.has(a._id) && PARITY.includes(a.type)).flatMap(a => {
+            return e.system.advancement.filter(a => itAdv.has(a._id) && [...PARITY, 'ItemGrant'].includes(a.type)).flatMap(a => {
                 const it = itAdv.get(a._id);
                 return [
                     a.title && a.title === it.title ? `${e.name} title: ${a.title}` : null,

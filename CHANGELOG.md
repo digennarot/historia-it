@@ -7,6 +7,51 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Fixed
+- Specie (IT): il paragrafo descrittivo di tutte le 66 specie ora riporta il
+  testo del manuale al posto della traduzione dall'inglese. Corretti anche
+  Gazze, Cornacchie e Corvi (che ripetevano l'introduzione della familia
+  Corbea) e Falchi (che conteneva "Falcons" non tradotto).
+- Mestieri (IT): anche l'introduzione dei 10 mestieri e dei 27 percorsi ora
+  riporta il testo del manuale al posto della traduzione dall'inglese
+  (il Gladiatore aveva solo un riassunto).
+- Privilegi dei mestieri (IT): i testi di 337 privilegi ora riportano il
+  testo del manuale, in terza persona come nel libro, al posto della
+  traduzione dall'inglese. Restano invariati link, liste di incantesimi,
+  tabelle e i 4 privilegi comuni generici.
+- Segreti del Magus (IT): trucchetti e incantesimi allineati alle tabelle del
+  manuale. Cambiano Aria (Guida, Interdizione alle Lame, Passo Veloce al
+  posto di Folata, Protezione dalle Lame, Nube di Nebbia), Luce (Dardo
+  Incantato, Blocca Mostri al posto di Spruzzo Colorato, Alba), Ombra (Colpo
+  Accurato al posto di Rintocco della Morte), Acqua (Nube di Nebbia,
+  Immagine Speculare al posto di Dita di Gelo, Gelo di Icingdeath) e Terra
+  (Onda Tonante, Pelle Coriacea al posto di Tremore della Terra, Vincolo
+  Terrestre); nomi come nel manuale (Amicizia, Rapidità, Alterare Sé Stesso).
+  Stesse liste anche nei Segreti del modulo inglese.
+- Magna Ars (IT ed EN): tolti dalla lista generale degli incantesimi del
+  Magus i 9 incantesimi che ora appartengono a un Segreto (Guida, Colpo
+  Accurato, Dardo Incantato, Onda Tonante, Passo Veloce, Pelle Coriacea,
+  Immagine Speculare, Localizza Creatura, Blocca Mostri).
+- Privilegi dei mestieri (IT): riparati 550 link con spazi spuri (es.
+  `dnd5e.spells. Item. …`) che in Foundry non si aprivano, quasi tutti verso
+  incantesimi.
+- Magus (IT): al 20° livello si recuperano 31 punti incanto con un riposo
+  breve, non 30, come nel manuale.
+- Sangue Brillante del Martire (IT): descrizione con il testo del manuale.
+
+### Added
+- **Venture** (IT): nuovo diario nel compendio Regole con l'introduzione
+  del capitolo 5 (risalto, dotazione, descrittori, vigliacchi ed eroi,
+  rivali e alleati), collegato dalla guida alla creazione del personaggio.
+- Mestieri del modulo inglese, ora allineati all'italiano:
+  - equipaggiamento iniziale e opzioni di armi e armature a livello 1,
+    comprese faretra e frecce per l'arco e i quadrelli per la balestra;
+  - tolte le concessioni "ASI or FEAT", doppie rispetto all'incremento dei
+    punteggi;
+  - titoli delle scelte di dotazione e armatura corretti secondo le opzioni
+    davvero disponibili;
+  - Gladiatore e Spia ricevono i privilegi al livello del manuale (3 e 13).
+
 ## [1.0.38] - 2026-10-14
 
 ### Added

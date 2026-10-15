@@ -90,27 +90,6 @@
         "title": "Subclass"
       },
       {
-        "_id": "2F4PDC3y7r15udjh",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "qXYBXa9YIyGwSM7R",
         "type": "ItemGrant",
         "configuration": {
@@ -132,25 +111,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "AOJ2e42nwF0I3Qk9",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 6,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "xAd9fiD75DGkbTZD",
         "type": "ScaleValue",
         "configuration": {
@@ -168,25 +128,6 @@
         },
         "value": {},
         "title": "Action Dice"
-      },
-      {
-        "_id": "ollo4gzBoDlfeGRg",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "wYAAodwV3Jgotf6H",
@@ -258,25 +199,6 @@
         "title": ""
       },
       {
-        "_id": "FYSb1YMRIbw5xsMy",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "1apdlka8KBOJ2NtV",
         "type": "ScaleValue",
         "configuration": {
@@ -296,44 +218,6 @@
         "title": "Action Dice"
       },
       {
-        "_id": "jEugMrQb0STGjNvj",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 14,
-        "title": "ASI or FEAT"
-      },
-      {
-        "_id": "VY6WebDDxW8PS4tY",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "H9fX20noCLwtPEWq",
         "type": "ScaleValue",
         "configuration": {
@@ -351,25 +235,6 @@
         },
         "value": {},
         "title": "Action Dice"
-      },
-      {
-        "_id": "VAeMTvwZAEBzbOOg",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "40rAWhekwXfasBWg",
@@ -706,10 +571,37 @@
         "value": {}
       },
       {
+        "_id": "d9Md8jEOOqeLQz0B",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Ranged weapon: light crossbow and 20 bolts, or two axes",
+        "hint": "Choose (a) the light crossbow and bolts or (b) the axe; there are two axes (×2): add the second one in your inventory.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.lU3ip25Fp5doQcx2",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.BuAAPZBBsMTbPn1t",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.XtOtRhTFzd8JAi9o",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "AujAqU9jQEJ7daE0",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Pack: adventurer's or explorer's",
+        "title": "Pack: explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -792,6 +684,37 @@
         "level": 3,
         "title": "",
         "hint": ""
+      },
+      {
+        "_id": "0MIHUfCZ0YXfkmjA",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Armor: ring mail, or gambeson, bent bow, and 20 arrows",
+        "hint": "Choose (a) the ring mail or (b) the gambeson, bent bow, and arrows.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.axFkbuLN7TsKwFLS",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.B49PpUp5xXgAJgP3",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.yooaw66ZKbhtyH1P",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.E7yQ2F7FNSjqfuZe",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
       },
       {
         "_id": "Whw8h3hcQmQlamzb",

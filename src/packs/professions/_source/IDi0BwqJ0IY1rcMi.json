@@ -110,27 +110,6 @@
         "title": "Subclass"
       },
       {
-        "_id": "zn1xguSSjYhNavvE",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "jJcywnRJWxVCPWjE",
         "type": "ItemGrant",
         "configuration": {
@@ -367,10 +346,33 @@
         "value": {}
       },
       {
+        "_id": "ThgHLDP8OxVRnBBG",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Quiver and 20 arrows (bow only)",
+        "hint": "Take them only if you chose the bow.",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.aMOSLGkgGAauVgq4",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.E7yQ2F7FNSjqfuZe",
+              "optional": true
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {}
+      },
+      {
         "_id": "BBVmmYxLNvG5z0rF",
         "type": "ItemChoice",
         "level": 1,
-        "title": "Pack: burglar's, adventurer's, or explorer's",
+        "title": "Pack: burglar's or explorer's",
         "hint": "",
         "classRestriction": "primary",
         "configuration": {
@@ -396,6 +398,32 @@
             "level": "",
             "list": []
           },
+          "spell": null
+        },
+        "value": {}
+      },
+      {
+        "_id": "eicOB3wbQ79os5J2",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "classRestriction": "primary",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.xLROg166m151SszM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.ePg416CsyzGtklIE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5DzlmRQWpaCcQOuA",
+              "optional": false
+            }
+          ],
+          "optional": false,
           "spell": null
         },
         "value": {}
@@ -473,25 +501,6 @@
         "value": {},
         "level": 7,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "Hv44rkkXKkIF2lJe",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 7,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "zk2WXYbTwxPbWLDq",
@@ -580,25 +589,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "npo7NYaBHOScR1fX",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "sASunOKJ2BgSPHXb",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -643,25 +633,6 @@
         "title": "Grant Ability"
       },
       {
-        "_id": "2zsDmWJdEESF3irM",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "cWBrzoHrmZ3QMs97",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -702,25 +673,6 @@
         "value": {},
         "level": 17,
         "title": "Lethality X4"
-      },
-      {
-        "_id": "7mzk8BQ2EBjE3RNP",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "ljtdemdy0sQ3eIss",

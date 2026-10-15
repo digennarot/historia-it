@@ -129,27 +129,6 @@
         "title": "Grand Ability"
       },
       {
-        "_id": "gRqQgggFNuNMS0GB",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
-          ],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "I8tN3FmXhMMMgEJH",
         "type": "HitPoints",
         "configuration": {},
@@ -371,23 +350,26 @@
         "value": {}
       },
       {
-        "_id": "v817Kw0BjgN1cUtI",
+        "_id": "Luxeaw3gh2XKpZ6E",
         "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "classRestriction": "primary",
         "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
+          "items": [
+            {
+              "uuid": "Compendium.historia-en.items.Item.xLROg166m151SszM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.5oH06F3e7IrqPcnQ",
+              "optional": false
             }
-          }
+          ],
+          "optional": false,
+          "spell": null
         },
-        "value": {},
-        "level": 6,
-        "title": "ASI or FEAT"
+        "value": {}
       },
       {
         "_id": "BzAgnLCI35Ujhuiu",
@@ -411,25 +393,6 @@
         "title": "Grand Ability"
       },
       {
-        "_id": "pLZMmfpKi07WF4iW",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "4QAGPj6S4n5yII80",
         "type": "ItemGrant",
         "configuration": {
@@ -449,25 +412,6 @@
         "value": {},
         "level": 11,
         "title": ""
-      },
-      {
-        "_id": "l4QVytPIWnLdhEzk",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "UizxIerHpqqn4DhH",
@@ -491,25 +435,6 @@
         "title": ""
       },
       {
-        "_id": "LgtTdKCMJsSotM8B",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "V0ONoqJcpB5vpEVc",
         "type": "ItemGrant",
         "configuration": {
@@ -529,25 +454,6 @@
         "value": {},
         "level": 17,
         "title": ""
-      },
-      {
-        "_id": "7HcCYQHw1tIEj0r5",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 19,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "7s21b1gfgNyLUXG8",

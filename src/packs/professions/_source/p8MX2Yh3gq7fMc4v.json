@@ -506,25 +506,26 @@
         "hint": ""
       },
       {
-        "_id": "lHfIVm5RggOf4JHg",
+        "_id": "Vyd0wOzGm6ochTiY",
         "type": "ItemGrant",
+        "level": 1,
+        "title": "Starting equipment",
+        "classRestriction": "primary",
         "configuration": {
           "items": [
-            "Compendium.historia-en.profession-features.T9qUqb0Qnytkz9vh"
+            {
+              "uuid": "Compendium.historia-en.items.Item.kBi1Wp0Rzhe9fMOD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.historia-en.items.Item.g9nzKOkTZEVTbDFv",
+              "optional": false
+            }
           ],
           "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
+          "spell": null
         },
-        "value": {},
-        "level": 4,
-        "title": "ASI or FEAT"
+        "value": {}
       },
       {
         "_id": "Y9mCI2TQSFyIc69d",
@@ -590,25 +591,6 @@
         "value": {},
         "level": 6,
         "title": "Grant Ability"
-      },
-      {
-        "_id": "lr3kBMiaYsUNOgst",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 8,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "pFHhCR1NbDGbBPlJ",
@@ -693,25 +675,6 @@
         "title": "Weapon Damage X3 (Lethal Shooter)"
       },
       {
-        "_id": "RMu3NXikRIpijIUi",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 12,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "ReJ6L0oODbpj86Ed",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -775,25 +738,6 @@
         "title": "Weapon Improvement (The Artist's Touch)"
       },
       {
-        "_id": "siAnEntVsK5BgEtF",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 16,
-        "title": "ASI or FEAT"
-      },
-      {
         "_id": "CxEhApuyqgvIxUoD",
         "type": "AbilityScoreImprovement",
         "configuration": {
@@ -834,25 +778,6 @@
         "value": {},
         "level": 17,
         "title": "Weapon Damage X4 (Lethal Shooter)"
-      },
-      {
-        "_id": "e1D3wXzjAXn2rahi",
-        "type": "ItemGrant",
-        "configuration": {
-          "items": [],
-          "optional": false,
-          "spell": {
-            "ability": "",
-            "preparation": "",
-            "uses": {
-              "max": "",
-              "per": ""
-            }
-          }
-        },
-        "value": {},
-        "level": 18,
-        "title": "ASI or FEAT"
       },
       {
         "_id": "JTIz0k8T7kXQYEe5",
