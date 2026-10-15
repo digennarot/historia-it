@@ -7,6 +7,39 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.40] - 2026-10-16
+
+### Added
+- Tratti di specie e privilegi dei mestieri (IT/EN): effetti attivi nativi
+  dnd5e dove il testo descrive un beneficio incondizionato. Vantaggio ai TS
+  (Ragionare, Vita Arboricola), resistenze, immunità e vulnerabilità
+  (Resistenza al Veleno, Metabolismo Lento, Coraggio, Calmo, Salute
+  Inattaccabile, Elisir di Lunga Vita…), competenze e maestrie (Consigli
+  Salutari, Perizia, Guerriero della Fede…), velocità (Pronto all'Avventura),
+  scurovisione (Vista della Notte), PF massimi (Il Mondo in Me). I vantaggi
+  legati a una situazione ("basate sulla vista", "contro la paura") restano
+  nel testo: si scelgono nella finestra del tiro.
+- Stati e elisir (Mortificazione, Grazia del Vento, Preveggenza,
+  Trasfigurazione, Forma di Fiamma, Benedizione Rossa, i quattro atti di
+  Calcinatio, Rinfrancare l'Anima): l'attività ora applica l'effetto al
+  bersaglio per la durata indicata, invece di un bonus permanente.
+
+### Fixed
+- Effetti che non funzionavano: CA (`attributes.CA`/`ac.value` → `ac.bonus`,
+  Corazzato con CA naturale 17, Difesa Senza Armatura con il calcolo del
+  barbaro), iniziativa (Rapidità di Scelta, Pronto all'Imprevisto),
+  Incantesimi Potenti, Udito Sopraffino (chiave inesistente).
+- Morso Vampirico: 1 + COS danni perforanti sull'arma stessa, non più un
+  bonus a tutti gli attacchi in mischia. Aculei (Riccio): rimosso il +1 ai
+  danni che non è nel testo.
+- Attori (IT): i link a Desiderio, Dissolvi Magie, Guarigione e Ristorare
+  Superiore puntavano a un compendio del mondo di sviluppo; ora puntano a
+  `dnd5e.spells`. Arma Spirituale evoca l'arma da `dnd5e.actors24` (il pack
+  indicato prima non la contiene). Controllare Acqua non applica più un
+  effetto inesistente.
+- Incantesimi e oggetti (EN): rimossi 19 `sourceId` che puntavano a
+  compendi del mondo di sviluppo o a voci dnd5e non più esistenti.
+
 ## [1.0.39] - 2026-10-15
 
 ### Fixed
