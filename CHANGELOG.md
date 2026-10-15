@@ -7,6 +7,8 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.39] - 2026-10-15
+
 ### Fixed
 - Specie (IT): il paragrafo descrittivo di tutte le 66 specie ora riporta il
   testo del manuale al posto della traduzione dall'inglese. Corretti anche
