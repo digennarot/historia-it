@@ -2,41 +2,7 @@
   "name": "Defensive Strategy: Repeated Defense",
   "type": "feat",
   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-  "effects": [
-    {
-      "_id": "QNjMUWPfQc4Y8bYV",
-      "changes": [
-        {
-          "key": "system.attributes.ac.value",
-          "mode": 2,
-          "value": "4",
-          "priority": 20
-        }
-      ],
-      "disabled": true,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-      "name": "Bonus +4 AC against the same creature attacking you",
-      "origin": "Item.dE02GLc7J41bb57f",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": null
-    }
-  ],
+  "effects": [],
   "flags": {
     "betterRolls5e": {
       "critRange": {

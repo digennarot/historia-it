@@ -7,10 +7,16 @@
       "_id": "HhU33aoejNQubR1b",
       "changes": [
         {
-          "key": "system.attributes.CA.value",
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "natural",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.ac.flat",
           "mode": 5,
           "value": "17",
-          "priority": 20
+          "priority": null
         }
       ],
       "disabled": false,

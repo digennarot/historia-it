@@ -7,10 +7,10 @@
       "_id": "2p4E2jy2vHi5JK9E",
       "changes": [
         {
-          "key": "system.attributes.init.total",
+          "key": "system.attributes.init.bonus",
           "mode": 2,
-          "value": "+ @data.abilities.int.mod",
-          "priority": 20
+          "value": "@abilities.int.mod",
+          "priority": null
         }
       ],
       "disabled": false,

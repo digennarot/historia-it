@@ -2,7 +2,46 @@
   "name": "Vita Arboricola",
   "type": "feat",
   "img": "media/Species Features/skill-mastery.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "oDMGJsz36NVXB9fB",
+      "name": "Vita Arboricola",
+      "img": "media/Species Features/skill-mastery.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.save.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

@@ -2,7 +2,46 @@
   "name": "Cicatrici Vistose",
   "type": "feat",
   "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "idvKVlP3iztrKu1w",
+      "name": "Cicatrici Vistose",
+      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.itm.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

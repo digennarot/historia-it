@@ -7,10 +7,10 @@
       "_id": "8KU6vJkW0G3x31Cg",
       "changes": [
         {
-          "key": "system.attributes.init.total",
+          "key": "system.attributes.init.bonus",
           "mode": 2,
-          "value": "@attributes.prof",
-          "priority": 20
+          "value": "@prof",
+          "priority": null
         }
       ],
       "disabled": false,

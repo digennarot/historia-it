@@ -5,41 +5,35 @@
   "effects": [
     {
       "_id": "edUoRwph4uxS1cTi",
+      "name": "Danza dell'Aria",
+      "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+      "type": "base",
+      "system": {},
       "changes": [
         {
-          "key": "system.attributes.CA.value",
+          "key": "system.attributes.ac.bonus",
           "mode": 2,
           "value": "@abilities.int.mod",
-          "priority": 20
+          "priority": null
         }
       ],
-      "disabled": true,
+      "disabled": false,
       "duration": {
         "startTime": null,
-        "seconds": null,
+        "seconds": 60,
         "combat": null,
         "rounds": null,
         "turns": null,
         "startRound": null,
         "startTurn": null
       },
-      "origin": "Item.rGT1M3ehQuJLXPXr",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": "#ffffff",
-      "name": "Bonus CA pari al modificatore di Intelligenza",
-      "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
-      "type": "base",
-      "system": {},
       "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
       "statuses": [],
       "sort": 0,
+      "flags": {},
       "_stats": {
         "coreVersion": "13.350",
         "systemId": "dnd5e",
@@ -262,7 +256,11 @@
           "override": false,
           "concentration": false
         },
-        "effects": [],
+        "effects": [
+          {
+            "_id": "edUoRwph4uxS1cTi"
+          }
+        ],
         "range": {
           "units": "self",
           "special": "",

@@ -2,7 +2,52 @@
   "name": "Composizione ed Esibizione",
   "type": "feat",
   "img": "icons/tools/instruments/harp-yellow-teal.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "Sq0InhT6XxhPMbnz",
+      "name": "Composizione ed Esibizione",
+      "img": "icons/tools/instruments/harp-yellow-teal.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.prf.value",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.per.value",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

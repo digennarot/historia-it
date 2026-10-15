@@ -2,52 +2,7 @@
   "name": "Strategia Difensiva: Difesa Reiterata",
   "type": "feat",
   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-  "effects": [
-    {
-      "_id": "QNjMUWPfQc4Y8bYV",
-      "changes": [
-        {
-          "key": "system.attributes.CA.value",
-          "mode": 2,
-          "value": "4",
-          "priority": 20
-        }
-      ],
-      "disabled": true,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": "Item.dE02GLc7J41bb57f",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": "#ffffff",
-      "name": "Bonus +4 CA contro la stessa creatura che ti attacca",
-      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-      "type": "base",
-      "system": {},
-      "description": "",
-      "statuses": [],
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "lastModifiedBy": null
-      }
-    }
-  ],
+  "effects": [],
   "flags": {
     "betterRolls5e": {
       "critRange": {

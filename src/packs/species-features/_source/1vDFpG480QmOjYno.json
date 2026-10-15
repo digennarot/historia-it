@@ -2,7 +2,46 @@
   "name": "Slow Metabolism",
   "type": "feat",
   "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "5dnverk1HDSMAfrl",
+      "name": "Slow Metabolism",
+      "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

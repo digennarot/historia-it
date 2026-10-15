@@ -7,10 +7,10 @@
       "_id": "dmyXdkHN8CEb4IC4",
       "changes": [
         {
-          "key": "system.attributes.CA.value",
+          "key": "system.attributes.ac.bonus",
           "mode": 2,
-          "value": "1",
-          "priority": 20
+          "value": "+1",
+          "priority": null
         }
       ],
       "disabled": false,
@@ -34,50 +34,6 @@
       },
       "tint": "#ffffff",
       "name": "Bonus +1 alla CA",
-      "img": "icons/commodities/leather/scales-blue.webp",
-      "type": "base",
-      "system": {},
-      "description": "",
-      "statuses": [],
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "Ouuk70g9Vo5OSzM2",
-      "changes": [
-        {
-          "key": "system.bonuses.mwak.damage",
-          "mode": 2,
-          "value": "1",
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": "Item.iRwGQsd6McfT468Z",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": "#ffffff",
-      "name": "Bonus +1 ai Danni",
       "img": "icons/commodities/leather/scales-blue.webp",
       "type": "base",
       "system": {},

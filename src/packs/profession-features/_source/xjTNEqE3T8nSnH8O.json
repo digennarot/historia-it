@@ -7,10 +7,16 @@
       "_id": "dl4a9diSMsIAsj4k",
       "changes": [
         {
-          "key": "system.bonuses.spell.damage",
-          "mode": 0,
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
           "value": "@abilities.wis.mod",
-          "priority": 20
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": null
         }
       ],
       "disabled": false,

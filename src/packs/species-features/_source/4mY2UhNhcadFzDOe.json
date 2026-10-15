@@ -2,7 +2,46 @@
   "name": "Immunitary Defense",
   "type": "feat",
   "img": "icons/magic/life/heart-area-circle-red-green.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "ISv3FC1GExvBjmGs",
+      "name": "Immunitary Defense",
+      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "diseased",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

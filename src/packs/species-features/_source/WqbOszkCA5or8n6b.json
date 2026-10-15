@@ -2,41 +2,7 @@
   "name": "Vampiric Bite",
   "type": "weapon",
   "img": "media/Species Features/blood-drain.webp",
-  "effects": [
-    {
-      "_id": "I0APXgwjEjR5bh5z",
-      "changes": [
-        {
-          "key": "system.bonuses.mwak.damage",
-          "mode": 2,
-          "value": "@data.abilities.con.mod",
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "img": "icons/svg/aura.svg",
-      "name": "Damage Bonus",
-      "origin": "Item.UuTgPl207OMsLg2Y",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": null
-    }
-  ],
+  "effects": [],
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -278,7 +244,7 @@
     "damage": {
       "parts": [
         [
-          "1 + @data.abilities.con.mod",
+          "1 + @abilities.con.mod",
           "piercing"
         ]
       ],

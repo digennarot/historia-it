@@ -7,10 +7,10 @@
       "_id": "yAVhi0KJkFShpNzn",
       "changes": [
         {
-          "key": "system.attributes.CA.value",
+          "key": "system.attributes.ac.calc",
           "mode": 5,
-          "value": "10 + @abilities.dex.mod + @abilities.con.mod",
-          "priority": 3
+          "value": "unarmoredBarb",
+          "priority": null
         }
       ],
       "disabled": false,

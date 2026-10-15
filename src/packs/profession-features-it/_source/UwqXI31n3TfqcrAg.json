@@ -5,41 +5,35 @@
   "effects": [
     {
       "_id": "OAmCgtPpoMvcBMla",
+      "name": "Calcinatio (Nigredo)",
+      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+      "type": "base",
+      "system": {},
       "changes": [
         {
-          "key": "system.attributes.CA.value",
+          "key": "system.attributes.ac.bonus",
           "mode": 2,
-          "value": "3",
-          "priority": 20
+          "value": "+3",
+          "priority": null
         }
       ],
       "disabled": false,
       "duration": {
-        "rounds": 1,
         "startTime": null,
         "seconds": 60,
         "combat": null,
+        "rounds": null,
         "turns": null,
         "startRound": null,
         "startTurn": null
       },
-      "origin": "Item.UtMZxyyuGh0sx7NS",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": "#ffffff",
-      "name": "Bonus +3 CA",
-      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
-      "type": "base",
-      "system": {},
       "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
       "statuses": [],
       "sort": 0,
+      "flags": {},
       "_stats": {
         "coreVersion": "13.350",
         "systemId": "dnd5e",
@@ -284,7 +278,7 @@
     "activities": {
       "dnd5eactivity000": {
         "_id": "dnd5eactivity000",
-        "type": "attack",
+        "type": "utility",
         "activation": {
           "type": "action",
           "value": 1,
@@ -309,7 +303,11 @@
           "override": false,
           "concentration": false
         },
-        "effects": [],
+        "effects": [
+          {
+            "_id": "OAmCgtPpoMvcBMla"
+          }
+        ],
         "range": {
           "value": "6",
           "units": "m",
@@ -340,25 +338,6 @@
           "max": "",
           "recovery": []
         },
-        "attack": {
-          "ability": "int",
-          "bonus": "",
-          "critical": {
-            "threshold": null
-          },
-          "flat": false,
-          "type": {
-            "value": "a distanza",
-            "classification": "weapon"
-          }
-        },
-        "damage": {
-          "critical": {
-            "bonus": ""
-          },
-          "includeBase": true,
-          "parts": []
-        },
         "sort": 0,
         "flags": {},
         "visibility": {
@@ -366,6 +345,12 @@
           "requireAttunement": false,
           "requireIdentification": false,
           "requireMagic": false
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
         }
       }
     },

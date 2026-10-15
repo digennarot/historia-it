@@ -2,7 +2,46 @@
   "name": "Faith Warrior",
   "type": "feat",
   "img": "media/Profession Features/impromptu-sneak-attack.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "wzTweOarVGLgawVy",
+      "name": "Warrior of Faith",
+      "img": "media/Profession Features/impromptu-sneak-attack.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.weaponProf.value",
+          "mode": 2,
+          "value": "mar",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

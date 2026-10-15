@@ -2,52 +2,7 @@
   "name": "Morso Vampirico",
   "type": "weapon",
   "img": "media/Species Features/blood-drain.webp",
-  "effects": [
-    {
-      "_id": "I0APXgwjEjR5bh5z",
-      "changes": [
-        {
-          "key": "system.bonuses.mwak.damage",
-          "mode": 2,
-          "value": "@data.abilities.con.mod",
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": "Item.UuTgPl207OMsLg2Y",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": "#ffffff",
-      "name": "Bonus ai Danni",
-      "img": "icons/svg/aura.svg",
-      "type": "base",
-      "system": {},
-      "description": "",
-      "statuses": [],
-      "sort": 0,
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "lastModifiedBy": null
-      }
-    }
-  ],
+  "effects": [],
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -319,7 +274,7 @@
         ],
         "custom": {
           "enabled": true,
-          "formula": "1 + @data.abilities.con.mod"
+          "formula": "1 + @abilities.con.mod"
         },
         "scaling": {
           "mode": "",
@@ -425,8 +380,26 @@
           "critical": {
             "bonus": ""
           },
-          "includeBase": true,
-          "parts": []
+          "includeBase": false,
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "1 + @abilities.con.mod"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
         },
         "sort": 0,
         "flags": {},

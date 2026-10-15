@@ -2,7 +2,46 @@
   "name": "Mistero Fondante: Vista della Notte",
   "type": "feat",
   "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "aes187zfvg3sBBLW",
+      "name": "Vista della Notte",
+      "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 2,
+          "value": "18",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

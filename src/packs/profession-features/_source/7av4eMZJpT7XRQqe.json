@@ -5,36 +5,53 @@
   "effects": [
     {
       "_id": "JAzF6H5MT2xFiHoY",
+      "name": "Calcinatio (Citrinitas)",
+      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+      "type": "base",
+      "system": {},
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.traits.dr.value",
           "mode": 2,
-          "value": "3",
-          "priority": 20
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
         }
       ],
       "disabled": false,
       "duration": {
         "startTime": null,
-        "seconds": null,
+        "seconds": 60,
         "combat": null,
         "rounds": null,
         "turns": null,
         "startRound": null,
         "startTurn": null
       },
-      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
-      "name": "Bonus +3 AC",
-      "origin": "Item.quZhURSxMmEcjljy",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": null
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
     }
   ],
   "flags": {

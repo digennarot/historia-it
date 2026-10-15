@@ -7,10 +7,10 @@
       "_id": "dmyXdkHN8CEb4IC4",
       "changes": [
         {
-          "key": "system.attributes.ac.value",
+          "key": "system.attributes.ac.bonus",
           "mode": 2,
-          "value": "1",
-          "priority": 20
+          "value": "+1",
+          "priority": null
         }
       ],
       "disabled": false,
@@ -25,39 +25,6 @@
       },
       "img": "icons/commodities/leather/scales-blue.webp",
       "name": "+1 AC Bonus",
-      "origin": "Item.iRwGQsd6McfT468Z",
-      "transfer": true,
-      "flags": {
-        "dae": {
-          "stackable": false,
-          "specialDuration": [],
-          "transfer": true
-        }
-      },
-      "tint": null
-    },
-    {
-      "_id": "Ouuk70g9Vo5OSzM2",
-      "changes": [
-        {
-          "key": "system.bonuses.mwak.damage",
-          "mode": 2,
-          "value": "1",
-          "priority": 20
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "img": "icons/commodities/leather/scales-blue.webp",
-      "name": "+1 Damage Bonus",
       "origin": "Item.iRwGQsd6McfT468Z",
       "transfer": true,
       "flags": {

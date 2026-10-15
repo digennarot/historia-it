@@ -2,7 +2,58 @@
   "name": "Ready for Adventure",
   "type": "feat",
   "img": "icons/skills/movement/figure-running-gray.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "r6mlMcST8VxB8nmE",
+      "name": "Ready for Adventure",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.bonus",
+          "mode": 2,
+          "value": "1.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 4,
+          "value": "@attributes.movement.walk",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 4,
+          "value": "@attributes.movement.walk",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {

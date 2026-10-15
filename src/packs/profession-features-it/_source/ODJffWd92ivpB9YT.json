@@ -2,7 +2,76 @@
   "name": "Incanalare Divinità: Preveggenza",
   "type": "feat",
   "img": "icons/magic/perception/eye-ringed-green.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "AlhtnTEtL8t3iaDe",
+      "name": "Preveggenza",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.save.roll.mode",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.dex.save.roll.mode",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.con.save.roll.mode",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.int.save.roll.mode",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.wis.save.roll.mode",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.cha.save.roll.mode",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -220,7 +289,11 @@
           "override": false,
           "concentration": false
         },
-        "effects": [],
+        "effects": [
+          {
+            "_id": "AlhtnTEtL8t3iaDe"
+          }
+        ],
         "range": {
           "units": "self",
           "special": "",

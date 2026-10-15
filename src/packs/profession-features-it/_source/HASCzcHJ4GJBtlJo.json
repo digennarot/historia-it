@@ -2,7 +2,46 @@
   "name": "Perizia (Alchimista)",
   "type": "feat",
   "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "XPThrVtxOWq61ukU",
+      "name": "Perizia (Arcano)",
+      "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.arc.value",
+          "mode": 4,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {
