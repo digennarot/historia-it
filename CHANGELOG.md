@@ -7,6 +7,8 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.43] - 2026-10-16
+
 ### Fixed
 - Specie (IT): allineate al Manuale Base. Corazzato degli armadilli è CA 17
   senza il bonus di Destrezza; quello dei pangolini è 17 più il modificatore
