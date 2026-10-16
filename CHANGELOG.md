@@ -7,6 +7,18 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Fixed
+- Specie (IT): allineate al Manuale Base. Corazzato degli armadilli è CA 17
+  senza il bonus di Destrezza; quello dei pangolini è 17 più il modificatore
+  di Destrezza. Attento dei caprini include l'attaccante nascosto. L'età dei
+  ruminsi usa «ruminse». I formichieri non ripetono l'incremento di
+  caratteristica. Procioni e scoiattoli hanno competenza negli strumenti che
+  richiedono mani precise, oltre allo strumento da artigiano scelto con
+  competenza raddoppiata. Le lontre hanno competenza in uno strumento
+  qualsiasi, raddoppiata. Le talpe hanno competenza negli strumenti da
+  minatore. Voce (passeri, pettirossi, usignoli, polli) e danza (gru) valgono
+  come strumenti musicali in cui si ha competenza.
+
 ## [1.0.42] - 2026-10-16
 
 ### Added

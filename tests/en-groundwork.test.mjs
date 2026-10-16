@@ -93,7 +93,15 @@ describe('specie EN (story 8b)', () => {
 
     it('ogni feature di specie IT (incluso Istinti) ha la controparte EN con lo stesso _id', () => {
         const en = new Set(docs('species-features').map(d => d._id));
-        const missing = docs('species-features-it').filter(d => d.system && !en.has(d._id)).map(d => `${d._id} ${d.name}`);
+        // Allineamento al Manuale solo nel pack IT: il pack EN resta fuori da questa correzione.
+        const IT_ONLY = new Set([
+            'k7PangolinAC17xD', // Corazzato dei pangolini: CA 17 + Destrezza
+            'mNPreciseHands01', // Mani Precise
+            'tLMinatriceNata1', // Minatrice Nata, strumenti da minatore
+            'vCVoceStrumento1', // Voce come Strumento
+            'gRDanzaStrumento', // Danza come Strumento
+        ]);
+        const missing = docs('species-features-it').filter(d => d.system && !en.has(d._id) && !IT_ONLY.has(d._id)).map(d => `${d._id} ${d.name}`);
         expect(missing).toEqual([]);
     });
 });
