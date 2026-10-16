@@ -7,6 +7,8 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.42] - 2026-10-16
+
 ### Added
 - Tratti di specie: Opportunista ora ha un effetto Midi-QOL
   (`flags.midi-qol.advantage.attack.all`) che dà vantaggio agli attacchi in
