@@ -7,6 +7,13 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Added
+- Tratti di specie: Opportunista ora ha un effetto Midi-QOL
+  (`flags.midi-qol.advantage.attack.all`) che dà vantaggio agli attacchi in
+  mischia fatti fuori dal proprio turno in combattimento. Senza Midi-QOL
+  l'effetto non fa nulla: dnd5e non ha una chiave nativa per il vantaggio
+  sui tiri per colpire.
+
 ## [1.0.41] - 2026-10-16
 
 ### Fixed

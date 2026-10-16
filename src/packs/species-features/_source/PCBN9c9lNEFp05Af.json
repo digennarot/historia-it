@@ -2,7 +2,46 @@
   "name": "Opportunist",
   "type": "feat",
   "img": "media/Species Features/merciful.webp",
-  "effects": [],
+  "effects": [
+    {
+      "_id": "oppAdvMidiQol001",
+      "name": "Opportunist",
+      "img": "icons/skills/melee/strike-sword-blood-red.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.advantage.attack.all",
+          "mode": 0,
+          "value": "combatRound > 0 && !actor.isCombatTurn && item.actionType === \"mwak\"",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Advantage on melee attack rolls made outside your own turn in combat (attacks of opportunity). Requires Midi-QOL; without it the effect does nothing.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
   "flags": {
     "betterRolls5e": {
       "critRange": {
