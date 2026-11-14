@@ -1,0 +1,60 @@
+{
+  "_info": {
+    "descrizione": "Glossario EN→IT del modulo Historia. Usato da scripts/check-glossario.mjs.",
+    "priorita_fonti": [
+      "manuale: Historia – Manuale Base (Mana Project Studio), edizione italiana",
+      "dnd5e: traduzione italiana del sistema dnd5e per Foundry (dnd5e-it-translation)",
+      "phb2024: manuali italiani 2024",
+      "noi: deciso nel progetto, da confermare se compare una fonte"
+    ],
+    "campi": "en = termine inglese; it = resa obbligatoria; fonte; vietati = varianti da segnalare (regex, case-insensitive salvo 'cs': true); livello = errore|avviso; nomi = true se 'it' è il nome obbligatorio dei documenti il cui nome inglese è 'en'"
+  },
+  "historia": [
+    { "en": "Familia / Familiae", "it": "Familia / Familiae", "fonte": "manuale", "nota": "Raggruppamento di Specie. Invariabile, latino." },
+    { "en": "Species", "it": "Specie", "fonte": "manuale", "vietati": ["\\brazz[ae]\\b"], "livello": "avviso", "nota": "Avviso, non errore: il manuale stesso usa «razze» in senso narrativo." },
+    { "en": "Venture", "it": "Ventura / Venture", "fonte": "manuale", "vietati": ["\\bVentures\\b", "\\bImpres[ae]:"], "cs": true, "livello": "errore", "nota": "«Venture» è il plurale italiano (manuale: «Le Venture»). Maiuscola per il termine di gioco, minuscola nell'uso narrativo." },
+    { "en": "Venturer", "it": "Venturiero", "fonte": "manuale", "vietati": ["\\bVenturers?\\b"], "cs": true, "livello": "errore" },
+    { "en": "Prominence", "it": "Risalto", "fonte": "manuale", "vietati": ["\\bProminence\\b", "\\bProminenza\\b"], "livello": "errore", "nota": "Maiuscola per il termine di gioco, minuscola nell'uso comune («dare risalto»)." },
+    { "en": "Fame", "it": "Fama", "fonte": "manuale" },
+    { "en": "Faction", "it": "Fazione", "fonte": "manuale" },
+    { "en": "Career", "it": "Carriera", "fonte": "manuale" },
+    { "en": "Descriptor", "it": "Descrittore", "fonte": "manuale" },
+    { "en": "Endowment", "it": "Dotazione", "fonte": "manuale" },
+    { "en": "Secret (magus)", "it": "Segreto", "fonte": "manuale" },
+    { "en": "Magna Ars", "it": "Magna Ars", "fonte": "manuale" },
+    { "en": "Alchemical Practices", "it": "Pratiche Alchemiche", "fonte": "manuale", "nota": "Il manuale scrive «Pratiche Alchemiche - Nigredo (1 Atto)»." },
+    { "en": "Historian", "it": "Storico", "fonte": "manuale" },
+    { "en": "Vesteria", "it": "Vesteria", "fonte": "manuale" },
+    { "en": "Subclass", "it": "sottoclasse", "fonte": "noi", "nota": "Il manuale non usa un termine generico; resta il termine di Foundry." }
+  ],
+  "regole": [
+    { "en": "Exhaustion", "it": "indebolimento", "fonte": "manuale", "vietati": ["\\bsfinimento\\b", "\\besaust[oaie]\\b"], "livello": "errore", "nota": "Decisione 15: vince il manuale sul sistema Foundry." },
+    { "en": "Expertise", "it": "Maestria", "fonte": "manuale", "vietati": ["\\bcompetenza superiore\\b"], "livello": "errore" },
+    { "en": "Saving throw", "it": "tiro salvezza / tiri salvezza", "fonte": "manuale" },
+    { "en": "Armor Class", "it": "Classe Armatura", "fonte": "manuale", "vietati": ["\\bclasse d'armatura\\b", "\\bclasse dell'armatura\\b"], "livello": "errore" },
+    { "en": "Proficiency bonus", "it": "bonus di competenza", "fonte": "manuale" },
+    { "en": "Advantage / Disadvantage", "it": "vantaggio / svantaggio", "fonte": "manuale" },
+    { "en": "Bonus action", "it": "azione bonus", "fonte": "manuale" },
+    { "en": "Reaction", "it": "reazione", "fonte": "manuale" },
+    { "en": "Temporary hit points", "it": "punti ferita temporanei", "fonte": "manuale" },
+    { "en": "Darkvision", "it": "Scurovisione", "fonte": "manuale" },
+    { "en": "Short rest / Long rest", "it": "riposo breve / riposo lungo", "fonte": "manuale" },
+    { "en": "Spell slot", "it": "slot incantesimo", "fonte": "dnd5e" },
+    { "en": "Cantrip", "it": "trucchetto", "fonte": "manuale" },
+    { "en": "Feat", "it": "talento", "fonte": "manuale" },
+    { "en": "Stealth", "it": "Furtività", "fonte": "manuale" },
+    { "en": "Sleight of Hand", "it": "Rapidità di Mano", "fonte": "manuale" },
+    { "en": "Grappled / Restrained / Charmed / Prone / Frightened", "it": "afferrato / trattenuto / affascinato / prono / spaventato", "fonte": "manuale" }
+  ],
+  "incantesimi": [
+    { "en": "Blade Ward", "it": "Interdizione alle Lame", "fonte": "manuale", "nomi": true, "vietati": ["\\bProtezione dalle Lame\\b"], "livello": "errore" },
+    { "en": "Friends", "it": "Amicizia", "fonte": "manuale", "nomi": true, "vietati": ["\\{Amici\\}"], "livello": "errore" }
+  ],
+  "notazione": [
+    { "descrizione": "Misure abbreviate senza spazio (9m, 1,5m)", "vietati": ["\\b\\d+(,\\d+)?m\\b"], "cs": true, "livello": "errore", "it": "9 metri, 1,5 metri" },
+    { "descrizione": "Punto decimale nelle misure", "vietati": ["\\b\\d+\\.\\d+ ?(metri|chilometri|kg)\\b"], "livello": "errore", "it": "1,5 metri" },
+    { "descrizione": "Errori ortografici", "vietati": ["\\bun pò\\b", "\\bperchè\\b", "\\bqual'è\\b", "\\bun'altro\\b", "\\bpoichè\\b", "\\baffinchè\\b", "\\bbenchè\\b"], "livello": "errore" },
+    { "descrizione": "Lineetta lunga (em dash) nel testo", "vietati": ["—"], "livello": "avviso", "it": "virgole, due punti, parentesi" },
+    { "descrizione": "Virgolette inglesi", "vietati": ["[“”]"], "livello": "avviso", "it": "« »" }
+  ]
+}
