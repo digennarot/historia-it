@@ -41,7 +41,12 @@ const gruppi = (w) => {
   return out;
 };
 
-const manuale = new Set(gruppi(parole(fs.readFileSync(MANUALE, 'utf8'))));
+// manuale-colonne.txt (facoltativo): stesso PDF estratto colonna per colonna, che
+// ricompone le frasi spezzate in manuale.txt. Si usano entrambi.
+const COLONNE = path.join(ROOT, 'reference', 'manuale-colonne.txt');
+const manuale = new Set(
+  [MANUALE, COLONNE].filter((f) => fs.existsSync(f)).flatMap((f) => gruppi(parole(fs.readFileSync(f, 'utf8')))),
+);
 
 function frasi(html) {
   const t = String(html ?? '')
