@@ -95,7 +95,8 @@ describe('specie EN (story 8b)', () => {
         const en = new Set(docs('species-features').map(d => d._id));
         // Allineamento al Manuale solo nel pack IT: il pack EN resta fuori da questa correzione.
         const IT_ONLY = new Set([
-            'k7PangolinAC17xD', // Corazzato dei pangolini: CA 17 + Destrezza
+            'k7PangolinAC17xD', // Corazzato dei pangolini: CA 17
+            'pRobinFierySp1t9', // Spirito Ardente (Pettirossi)
             'mNPreciseHands01', // Mani Precise
             'tLMinatriceNata1', // Minatrice Nata, strumenti da minatore
             'vCVoceStrumento1', // Voce come Strumento
