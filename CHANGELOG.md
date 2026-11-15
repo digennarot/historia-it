@@ -7,6 +7,29 @@ e il progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [1.0.44] - 2026-11-15
+
+### Added
+- Tratti di specie (IT): Spirito Ardente (Pettirossi). Il vantaggio vale solo
+  per il prossimo attacco contro l'avversario che ti ha colpito, come nel
+  Manuale Base; gli altri uccelli tengono lo Spirito Ardente comune.
+
+### Changed
+- Specie (IT): Corazzato dei pangolini è CA 17 fissa, senza il modificatore
+  di Destrezza, come scritto nel Manuale Base. Chi ha già un pangolino nel
+  mondo deve trascinare di nuovo il tratto dal compendio.
+
+### Fixed
+- Revisione della traduzione italiana sul Manuale Base: Carriere, tratti e
+  schede delle specie, privilegi comuni e professioni, incantesimi, oggetti,
+  attori e guida Creazione del Personaggio. Le frasi presenti nel manuale ne
+  riprendono il testo; il resto è stato riscritto per suonare italiano.
+- Misure: virgola decimale («1,5 metri») e punto delle migliaia («2.000 kg»);
+  capacità dei contenitori in metri cubi. Nei blocchi statistiche resta «9m»
+  come nel manuale.
+- Oggetti (IT): refusi corretti e descrizioni tronche completate.
+- Attori (IT): «specie» al posto di «razza» in Alterare Se Stesso.
+
 ## [1.0.43] - 2026-10-16
 
 ### Fixed
