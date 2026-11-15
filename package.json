@@ -11,7 +11,11 @@
     "organize": "node scripts/organize_folders.mjs",
     "build:it": "node scripts/build_it.mjs",
     "build:en": "node scripts/build_en.mjs",
-    "build:all": "npm run build:it && npm run build:en"
+    "build:all": "npm run build:it && npm run build:en",
+    "check:glossario": "node scripts/check-glossario.mjs",
+    "check:markup": "node scripts/check-markup.mjs",
+    "check:manuale": "node scripts/check-manuale.mjs",
+    "check:it": "node scripts/check-markup.mjs && node scripts/check-manuale.mjs && node scripts/check-glossario.mjs --solo-errori"
   },
   "dependencies": {
     "commander": "^12.0.0"
