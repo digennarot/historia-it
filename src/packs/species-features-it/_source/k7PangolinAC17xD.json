@@ -9,13 +9,13 @@
         {
           "key": "system.attributes.ac.calc",
           "mode": 5,
-          "value": "custom",
+          "value": "natural",
           "priority": null
         },
         {
-          "key": "system.attributes.ac.formula",
+          "key": "system.attributes.ac.flat",
           "mode": 5,
-          "value": "17 + @abilities.dex.mod",
+          "value": "17",
           "priority": null
         }
       ],
@@ -39,7 +39,7 @@
         }
       },
       "tint": "#ffffff",
-      "name": "CA 17 + modificatore di Destrezza",
+      "name": "CA 17",
       "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
       "type": "base",
       "system": {},
@@ -229,7 +229,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>Le dure scaglie che ricoprono il tuo corpo ti conferiscono una CA di 17. Il modificatore di Destrezza si applica a questo numero.</p>",
+      "value": "<p>Le dure scaglie che ricoprono il tuo corpo ti conferiscono una CA di 17.</p>",
       "chat": ""
     },
     "source": {
