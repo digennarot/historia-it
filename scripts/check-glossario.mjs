@@ -35,6 +35,8 @@ for (const [sezione, voci] of Object.entries(glossario)) {
         livello: v.livello ?? 'errore',
         etichetta: v.descrizione ?? `${v.en} → ${v.it}`,
         it: v.it,
+        // Pack interi («actors-it») o singoli file («rules-it/X.json») a cui la regola non si applica.
+        esclusi: v.esclusi ?? [],
       });
     }
   }
@@ -91,6 +93,7 @@ for (const pack of packs) {
     for (const [dove, testo] of campi(doc)) {
       const t = visibile(testo);
       for (const r of regole) {
+        if (r.esclusi.includes(pack) || r.esclusi.includes(`${pack}/${file}`)) continue;
         r.re.lastIndex = 0;
         let m;
         while ((m = r.re.exec(t))) {

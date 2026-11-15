@@ -51,7 +51,7 @@
     { "en": "Friends", "it": "Amicizia", "fonte": "manuale", "nomi": true, "vietati": ["\\{Amici\\}"], "livello": "errore" }
   ],
   "notazione": [
-    { "descrizione": "Misure abbreviate senza spazio (9m, 1,5m)", "vietati": ["\\b\\d+(,\\d+)?m\\b"], "cs": true, "livello": "errore", "it": "9 metri, 1,5 metri" },
+    { "descrizione": "Misure abbreviate senza spazio (9m, 1,5m)", "vietati": ["\\b\\d+(,\\d+)?m\\b"], "cs": true, "livello": "errore", "it": "9 metri, 1,5 metri", "esclusi": ["actors-it", "characters-it", "rules-it/AvversariRegol01.json"], "nota": "Nei blocchi statistiche il manuale scrive «9m», «1,5m»: lì si segue il manuale." },
     { "descrizione": "Punto decimale nelle misure", "vietati": ["\\b\\d+\\.(?!\\d{3}\\b)\\d+ ?(metri|chilometri|kg)\\b"], "livello": "errore", "it": "1,5 metri" },
     { "descrizione": "Errori ortografici", "vietati": ["\\bun pò\\b", "\\bperchè\\b", "\\bqual'è\\b", "\\bun'altro\\b", "\\bpoichè\\b", "\\baffinchè\\b", "\\bbenchè\\b"], "livello": "errore" },
     { "descrizione": "Lineetta lunga (em dash) nel testo", "vietati": ["—"], "livello": "avviso", "it": "virgole, due punti, parentesi" },
